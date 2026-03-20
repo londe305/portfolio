@@ -5,7 +5,7 @@ const $$ = (s, r=document)=> Array.from(r.querySelectorAll(s));
 /* =========================
    FONCTIONS PARTAGÉES
 ========================= */
-function activateSubtab(sectionEl, subId){
+function achhtivateSubtab(sectionEl, subId){
   const tabs   = $$(".subtabs li", sectionEl);
   const panels = $$(".subpanel", sectionEl);
   tabs.forEach(t => t.classList.remove("active"));
