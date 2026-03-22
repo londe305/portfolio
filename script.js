@@ -141,49 +141,39 @@ function initSubtabs(sectionId){
 /* =========================
    VEILLE Zero Trust – RSS
 ========================= */
-const FEEDS = [
-  "https://www.csoonline.com/index.rss",
-  "https://www.microsoft.com/en-us/security/blog/feed/"
-];
+const rssUrl = "https://feeds.feedburner.com/TheHackersNews";
 
-async function loadRSS() {
-  const container = $("#rss-container");
-  if (!container) return;
-  container.innerHTML = "<p>Chargement des flux…</p>";
+fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rssUrl}`)
+  .then(response => response.json())
+  .then(data => {
+    const container = document.getElementById("rss-container");
+    if (!container) return;
 
-  try {
-    const items = [];
-    for (const url of FEEDS) {
-      const proxied = "https://api.allorigins.win/raw?url=" + encodeURIComponent(url);
-      const res = await fetch(proxied);
-      if (!res.ok) throw new Error("HTTP " + res.status);
-      const xml = await res.text();
-      const doc = new DOMParser().parseFromString(xml, "application/xml");
-      const nodes = [...doc.querySelectorAll("item")].slice(0, 5);
-      for (const n of nodes) {
-        items.push({
-          title: (n.querySelector("title")?.textContent || "Sans titre").trim(),
-          link:  (n.querySelector("link")?.textContent || "#").trim(),
-          date:  new Date(n.querySelector("pubDate")?.textContent || Date.now())
-        });
-      }
-    }
-    items.sort((a,b)=> b.date - a.date);
     container.innerHTML = "";
-    items.slice(0,8).forEach(it=>{
+
+    // 🔥 nombre d’articles (tu peux changer 5 → 10 ou +)
+    data.items.slice(0, 10).forEach(item => {
       const p = document.createElement("p");
-      const a = document.createElement("a");
-      a.href = it.link; a.textContent = it.title; a.target = "_blank"; a.rel = "noopener";
-      p.appendChild(a);
+
+      p.innerHTML = `
+        <a href="${item.link}" target="_blank" style="color:#00ffe0; text-decoration:none;">
+          ${item.title}
+        </a><br>
+        <small style="color:#888;">
+          ${new Date(item.pubDate).toLocaleDateString()}
+        </small>
+      `;
+
       container.appendChild(p);
     });
-    if (!container.innerHTML) container.innerHTML = "<p>Aucun article n’a pu être chargé.</p>";
-  } catch (err){
-    container.innerHTML = "<p>Impossible de charger le flux RSS (CORS ou réseau). Lance un serveur local.</p>";
-  }
-}
-loadRSS();
-
+  })
+  .catch(error => {
+    const container = document.getElementById("rss-container");
+    if (container) {
+      container.innerText = "Erreur de chargement RSS";
+    }
+    console.error(error);
+  });
 /* =========================
    🎮 JEU – DINO SIO
 ========================= */
