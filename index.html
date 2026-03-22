@@ -344,76 +344,75 @@
         </div>
       </section>
 
-      <!-- E6 – SISR -->
-      <section id="e6" class="section">
-        <h1 class="ascii">[=== E6 – SISR ===]</h1>
+    <!-- E6 – SISR -->
 
-        <nav class="subtabs" aria-label="Sous-onglets E6">
-          <ul>
-            <li class="active" data-sub="e6-overview">Dossier numérique</li>
-            <li data-sub="e6-r1">Réalisation 1</li>
-            <li data-sub="e6-r2">Réalisation 2</li>
-            <li data-sub="e6-env">Env. technologique (Annexe II.E)</li>
-            <li data-sub="e6-grilles">Grilles & officiels</li>
-            <li data-sub="e6-deroulement">Déroulement</li>
-          </ul>
-        </nav>
+<section id="e6" class="section">
+  <h1 class="ascii">[=== E6 – SISR ===]</h1>
 
-        <div class="subpanels">
-          <div id="e6-overview" class="subpanel active">
-            <div class="card">
-              <h2>Contenu du dossier numérique</h2>
-              <ul>
-                <li>Deux réalisations (R1 & R2) avec fiches <em>Annexe VII‑1‑A</em> et accès aux productions.</li>
-                <li>Conception, déploiement, tests/recette, exploitation/supervision.</li>
-                <li>Conformité de l’environnement technologique (Annexe II.E).</li>
-              </ul>
-            </div>
+  <!-- BLOCS PRINCIPAUX -->
+  <div class="e6-grid">
 
-            <div class="card">
-              <h2>Liens vers fiches et livrables</h2>
-              <ul class="download-list">
-                <li>#Fiche R1 – Annexe VII‑1‑A (PDF)</li>
-                <li>#Fiche R2 – Annexe VII‑1‑A (PDF)</li>
-                <li>#Dépôt / documentation (R1)</li>
-                <li>#Dépôt / documentation (R2)</li>
-              </ul>
-            </div>
-          </div>
+    <div class="e6-card active" data-target="bloc1">
+      <h2>Concevoir</h2>
+      <p>Solution d’infrastructure réseau</p>
+    </div>
 
-          <div id="e6-r1" class="subpanel">
-            <div class="card"><h2>R1 — Contexte & Organisation</h2><p>(Compléter…)</p></div>
-            <div class="card"><h2>Expression des besoins (VII‑3)</h2><p>(Compléter…)</p></div>
-            <div class="card"><h2>Conception & Architecture</h2><p>(Compléter…)</p></div>
-            <div class="card"><h2>Mise en œuvre / Déploiement</h2><p>(Compléter…)</p></div>
-            <div class="card"><h2>Tests & Recette</h2><p>(Compléter…)</p></div>
-            <div class="card"><h2>Exploitation & Supervision</h2><p>(Compléter…)</p></div>
-            <div class="card"><h2>Docs & Accès aux productions</h2><p>(Compléter…)</p></div>
-          </div>
+    <div class="e6-card" data-target="bloc2">
+      <h2>Installer / Tester</h2>
+      <p>Déployer une infrastructure</p>
+    </div>
 
-          <div id="e6-r2" class="subpanel">
-            <div class="card"><h2>R2 — Contexte & Organisation</h2><p>(Compléter…)</p></div>
-            <div class="card"><h2>Expression des besoins (VII‑3)</h2><p>(Compléter…)</p></div>
-            <div class="card"><h2>Conception & Architecture</h2><p>(Compléter…)</p></div>
-            <div class="card"><h2>Mise en œuvre / Déploiement</h2><p>(Compléter…)</p></div>
-            <div class="card"><h2>Tests & Recette</h2><p>(Compléter…)</p></div>
-            <div class="card"><h2>Exploitation & Supervision</h2><p>(Compléter…)</p></div>
-            <div class="card"><h2>Docs & Accès aux productions</h2><p>(Compléter…)</p></div>
-          </div>
+    <div class="e6-card" data-target="bloc3">
+      <h2>Exploiter / Superviser</h2>
+      <p>Maintenir une infrastructure</p>
+    </div>
 
-          <div id="e6-env" class="subpanel">
-            <div class="card"><h2>Conformité Annexe II.E — Points à couvrir</h2><p>(Compléter…)</p></div>
-          </div>
+  </div>
 
-          <div id="e6-grilles" class="subpanel">
-            <div class="card"><h2>Ressources officielles</h2><p>(Compléter liens PDF…)</p></div>
-          </div>
+  <!-- DETAILS -->
 
-          <div id="e6-deroulement" class="subpanel">
-            <div class="card"><h2>Déroulement du passage</h2><p>T / E1 / Réalisation / E2 (compléter…)</p></div>
-          </div>
-        </div>
-      </section>
+  <div id="bloc1" class="e6-details active">
+    <div class="card">
+      <h2>Concevoir une solution d’infrastructure réseau</h2>
+      <div class="e6-subgrid">
+        <div class="e6-subcard">Analyser un besoin exprimé</div>
+        <div class="e6-subcard">Étudier l’impact d’une évolution</div>
+        <div class="e6-subcard">Élaborer un dossier de choix</div>
+        <div class="e6-subcard">Choisir les éléments nécessaires</div>
+        <div class="e6-subcard">Maquetter une solution</div>
+        <div class="e6-subcard">Préparer les tests</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="bloc2" class="e6-details">
+    <div class="card">
+      <h2>Installer, tester et déployer</h2>
+      <div class="e6-subgrid">
+        <div class="e6-subcard">Installer des éléments</div>
+        <div class="e6-subcard">Configurer la continuité</div>
+        <div class="e6-subcard">Assurer la qualité de service</div>
+        <div class="e6-subcard">Rédiger documentation</div>
+        <div class="e6-subcard">Tester l’intégration</div>
+        <div class="e6-subcard">Déployer la solution</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="bloc3" class="e6-details">
+    <div class="card">
+      <h2>Exploiter, dépanner et superviser</h2>
+      <div class="e6-subgrid">
+        <div class="e6-subcard">Administrer une infrastructure</div>
+        <div class="e6-subcard">Automatiser des tâches</div>
+        <div class="e6-subcard">Gérer indicateurs</div>
+        <div class="e6-subcard">Gérer incidents</div>
+        <div class="e6-subcard">Améliorer la qualité</div>
+      </div>
+    </div>
+  </div>
+
+</section>
 
       <!-- 🎮 JEU – DINO SIO -->
       <section id="jeu" class="section">
@@ -452,14 +451,21 @@
       </section>
 
       <!-- VEILLE -->
-      <section id="veille" class="section">
-        <h1 class="ascii">[=== VEILLE TECHNOLOGIQUE ===]</h1>
-        <p>Thème : <strong>Zero Trust Security Model</strong> (aussi appelé <em>Zero Trust Architecture</em>).</p>
 
-        <h2>Actualités cybersécurité</h2>(mise à jour automatique)
-        <p>Derniers articles en cybersécurité :</p>
-        <div id="rss-container" class="rss"></div>
+<section id="veille" class="section">
 
+
+  <h1 class="ascii">[=== VEILLE TECHNOLOGIQUE ===]</h1>
+  <p>Thème : <strong>Zero Trust Security Model</strong> (aussi appelé <em>Zero Trust Architecture</em>).</p>
+
+
+
+
+  
+  <h2>Actualités cybersécurité</h2>(mise à jour automatique)
+  <p>Derniers articles en cybersécurité :</p>
+  <div id="rss-container" class="rss"></div>
+</section>
       <!-- CONTACT -->
       <section id="contact" class="section">
         <h1 class="ascii">[=== CONTACT ===]</h1>

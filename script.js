@@ -499,40 +499,42 @@ BgManager.init();
 document.addEventListener("DOMContentLoaded", ()=>{
   const current = document.querySelector(".section.active")?.id || "home";
   goTo(current);
+
+  // 🔥 IMPORTANT
+  initE6();
 });
+/* =========================
+   E6 INTERACTION (COMPÉTENCES)
+========================= */
+function initE6(){
 
-// ===== MATRIX BACKGROUND =====
-const canvas = document.getElementById("matrix-bg");
-const ctx = canvas.getContext("2d");
+  const cards = document.querySelectorAll(".e6-card");
+  const details = document.querySelectorAll(".e6-details");
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+  if (!cards.length) return;
 
-const letters = "01";
-const fontSize = 14;
-const columns = canvas.width / fontSize;
+  cards.forEach(card => {
+    card.addEventListener("click", () => {
 
-const drops = Array(Math.floor(columns)).fill(1);
+      // reset
+      details.forEach(d => d.classList.remove("active"));
+      cards.forEach(c => c.classList.remove("active"));
 
-function drawMatrix() {
-  ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
+      // activer
+      card.classList.add("active");
 
-  ctx.fillStyle = "#00ffcc";
-  ctx.font = fontSize + "px monospace";
+      const target = card.getAttribute("data-target");
+      const el = document.getElementById(target);
 
-  drops.forEach((y, i) => {
-    const text = letters[Math.floor(Math.random() * letters.length)];
-    const x = i * fontSize;
-
-    ctx.fillText(text, x, y * fontSize);
-
-    if (y * fontSize > canvas.height && Math.random() > 0.975) {
-      drops[i] = 0;
-    }
-
-    drops[i]++;
+      if (el) el.classList.add("active");
+    });
   });
-}
 
-setInterval(drawMatrix, 33);
+  // 🔥 PAR DÉFAUT
+  cards[0].classList.add("active");
+
+  const firstTarget = cards[0].getAttribute("data-target");
+  const firstEl = document.getElementById(firstTarget);
+
+  if (firstEl) firstEl.classList.add("active");
+}
