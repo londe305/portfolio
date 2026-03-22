@@ -186,12 +186,14 @@ a:hover{ text-decoration: underline; }
 .fake-control input[disabled]{ opacity: .4; }
 
 /* ===== Fond MATRIX Rain ===== */
-#matrix{
+#matrix-bg {
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   z-index: -1;
-  pointer-events: none;
-  opacity: 0.85; /* ajuste entre 0.5 et 0.9 selon ton goût */
+ background: black; 
 }
 body.bg-matrix::before{
   content:"";
