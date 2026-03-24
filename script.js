@@ -5,7 +5,7 @@ const $$ = (s, r=document)=> Array.from(r.querySelectorAll(s));
 /* =========================
    FONCTIONS PARTAGÉES
 ========================= */
-function achhtivateSubtab(sectionEl, subId){
+function activateSubtab(sectionEl, subId){
   const tabs   = $$(".subtabs li", sectionEl);
   const panels = $$(".subpanel", sectionEl);
   tabs.forEach(t => t.classList.remove("active"));
@@ -141,49 +141,39 @@ function initSubtabs(sectionId){
 /* =========================
    VEILLE Zero Trust – RSS
 ========================= */
-const FEEDS = [
-  "https://www.csoonline.com/index.rss",
-  "https://www.microsoft.com/en-us/security/blog/feed/"
-];
+const rssUrl = "https://feeds.feedburner.com/TheHackersNews";
 
-async function loadRSS() {
-  const container = $("#rss-container");
-  if (!container) return;
-  container.innerHTML = "<p>Chargement des flux…</p>";
+fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rssUrl}`)
+  .then(response => response.json())
+  .then(data => {
+    const container = document.getElementById("rss-container");
+    if (!container) return;
 
-  try {
-    const items = [];
-    for (const url of FEEDS) {
-      const proxied = "https://api.allorigins.win/raw?url=" + encodeURIComponent(url);
-      const res = await fetch(proxied);
-      if (!res.ok) throw new Error("HTTP " + res.status);
-      const xml = await res.text();
-      const doc = new DOMParser().parseFromString(xml, "application/xml");
-      const nodes = [...doc.querySelectorAll("item")].slice(0, 5);
-      for (const n of nodes) {
-        items.push({
-          title: (n.querySelector("title")?.textContent || "Sans titre").trim(),
-          link:  (n.querySelector("link")?.textContent || "#").trim(),
-          date:  new Date(n.querySelector("pubDate")?.textContent || Date.now())
-        });
-      }
-    }
-    items.sort((a,b)=> b.date - a.date);
     container.innerHTML = "";
-    items.slice(0,8).forEach(it=>{
+
+    // 🔥 nombre d’articles (tu peux changer 5 → 10 ou +)
+    data.items.slice(0, 10).forEach(item => {
       const p = document.createElement("p");
-      const a = document.createElement("a");
-      a.href = it.link; a.textContent = it.title; a.target = "_blank"; a.rel = "noopener";
-      p.appendChild(a);
+
+      p.innerHTML = `
+        <a href="${item.link}" target="_blank" style="color:#00ffe0; text-decoration:none;">
+          ${item.title}
+        </a><br>
+        <small style="color:#888;">
+          ${new Date(item.pubDate).toLocaleDateString()}
+        </small>
+      `;
+
       container.appendChild(p);
     });
-    if (!container.innerHTML) container.innerHTML = "<p>Aucun article n’a pu être chargé.</p>";
-  } catch (err){
-    container.innerHTML = "<p>Impossible de charger le flux RSS (CORS ou réseau). Lance un serveur local.</p>";
-  }
-}
-loadRSS();
-
+  })
+  .catch(error => {
+    const container = document.getElementById("rss-container");
+    if (container) {
+      container.innerText = "Erreur de chargement RSS";
+    }
+    console.error(error);
+  });
 /* =========================
    🎮 JEU – DINO SIO
 ========================= */
@@ -509,4 +499,167 @@ BgManager.init();
 document.addEventListener("DOMContentLoaded", ()=>{
   const current = document.querySelector(".section.active")?.id || "home";
   goTo(current);
+
+  // 🔥 IMPORTANT
+  initE6();
 });
+/* =========================
+   E6 INTERACTION (COMPÉTENCES)
+========================= */
+function initE6(){
+
+  const cards = document.querySelectorAll(".e6-card");
+  const details = document.querySelectorAll(".e6-details");
+
+  if (!cards.length) return;
+
+  cards.forEach(card => {
+    card.addEventListener("click", () => {
+
+      // reset
+      details.forEach(d => d.classList.remove("active"));
+      cards.forEach(c => c.classList.remove("active"));
+
+      // activer
+      card.classList.add("active");
+
+      const target = card.getAttribute("data-target");
+      const el = document.getElementById(target);
+
+      if (el) el.classList.add("active");
+    });
+  });
+
+  // 🔥 PAR DÉFAUT
+  cards[0].classList.add("active");
+
+  const firstTarget = cards[0].getAttribute("data-target");
+  const firstEl = document.getElementById(firstTarget);
+
+  if (firstEl) firstEl.classList.add("active");
+}
+/* =========================
+   E6 – Arborescence Sidebar auto + Navigation
+   (A coller à la fin de script.js)
+========================= */
+(function initE6SidebarAndNav(){
+  const section = document.getElementById('e6');
+  if (!section) return;
+
+  // 1) Récupère les blocs et leurs sous-cartes
+  const blocks = Array.from(section.querySelectorAll('.e6-details'));
+  if (!blocks.length) return;
+
+  // Donne des id manquants et prépare les sous-ids
+  blocks.forEach((blk, bi)=>{
+    if (!blk.id) blk.id = `e6-bloc-${bi+1}`;
+    const h2 = blk.querySelector('h2');
+    blk.dataset.title = h2 ? h2.textContent.trim() : `Bloc ${bi+1}`;
+
+    const subs = Array.from(blk.querySelectorAll('.e6-subcard'));
+    subs.forEach((sc, si)=>{
+      if (!sc.id) sc.id = `${blk.id}-s${si+1}`;
+      sc.dataset.e6Key = `${blk.id}::${sc.id}`;
+      sc.setAttribute('tabindex','0'); // focus clavier ok
+    });
+  });
+
+  // 2) Cible le noeud E6 dans la sidebar et fabrique la treeview
+  const e6Li = document.querySelector('.sidebar li.has-children[data-section="e6"]');
+  if (!e6Li) return;
+
+  let ul = e6Li.querySelector('.tree-children');
+  if (!ul){
+    ul = document.createElement('ul');
+    ul.className = 'tree-children';
+    e6Li.appendChild(ul);
+  }
+  ul.innerHTML = '';
+
+  // Ajoute bloc + sous-competences dans la sidebar
+  blocks.forEach(blk=>{
+    const liBloc = document.createElement('li');
+    liBloc.className = 'tree-item';
+    liBloc.dataset.section = 'e6';
+    liBloc.dataset.e6Target = blk.id; // ex. "bloc1"
+    liBloc.textContent = `• ${blk.dataset.title}`;
+    ul.appendChild(liBloc);
+
+    const subs = blk.querySelectorAll('.e6-subcard');
+    subs.forEach(sc=>{
+      const liSub = document.createElement('li');
+      liSub.className = 'tree-item';
+      liSub.style.paddingLeft = '18px';
+      liSub.dataset.section = 'e6';
+      liSub.dataset.e6Target = `${blk.id}::${sc.id}`; // ex. "bloc1::bloc1-s1"
+      liSub.textContent = `— ${sc.textContent.trim()}`;
+      ul.appendChild(liSub);
+    });
+  });
+
+  // Ouvre visuellement le groupe E6
+  e6Li.classList.add('open');
+  e6Li.setAttribute('aria-expanded','true');
+  ul.style.maxHeight = ul.scrollHeight + 'px';
+  ul.style.opacity = '1';
+
+  // 3) Fonctions d’affichage et de navigation
+  function showBlock(blockId){
+    blocks.forEach(b => b.classList.toggle('active', b.id === blockId));
+  }
+
+  function navigateToE6(target, {scroll=true} = {}){
+    // Montre la section E6 (utilise goTo si présent, sinon force)
+    if (typeof goTo === 'function') {
+      goTo('e6');
+    } else {
+      document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+      section.classList.add('active');
+    }
+
+    const [blk, sub] = target.split('::');
+    showBlock(blk);
+
+    if (sub){
+      const el = document.getElementById(sub);
+      if (el){
+        el.classList.add('e6-flash');
+        if (scroll) el.scrollIntoView({behavior:'smooth', block:'center'});
+        setTimeout(()=> el.classList.remove('e6-flash'), 800);
+      }
+    } else {
+      const b = document.getElementById(blk);
+      if (b && scroll) b.scrollIntoView({behavior:'smooth', block:'start'});
+    }
+
+    // Hash lisible
+    try { location.hash = `#e6/${target}`; } catch {}
+  }
+
+  // 4) Clics dans la sidebar → navigation
+  ul.addEventListener('click', (e)=>{
+    const li = e.target.closest('.tree-item');
+    if (!li) return;
+    // état visuel actif
+    ul.querySelectorAll('.tree-item').forEach(x=> x.classList.remove('active'));
+    li.classList.add('active');
+
+    navigateToE6(li.dataset.e6Target, {scroll:true});
+  });
+
+  // 5) Bonus : clic sur une sous-carte dans le contenu → flash visuel
+  section.addEventListener('click', (e)=>{
+    const sc = e.target.closest('.e6-subcard');
+    if (!sc) return;
+    sc.classList.add('e6-flash');
+    setTimeout(()=> sc.classList.remove('e6-flash'), 800);
+  });
+
+  // 6) Liens profonds (ex. #e6/bloc1::bloc1-s3)
+  (function deepLink(){
+    const h = (location.hash || '').trim();
+    const m = h.match(/^#e6\/(.+)$/i);
+    if (m) navigateToE6(m[1], {scroll:true});
+  })();
+
+})();
