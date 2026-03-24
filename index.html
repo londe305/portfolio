@@ -128,103 +128,147 @@
       <section id="alternance" class="section">
         <h1 class="ascii">[=== MON ALTERNANCE CHEZ TRANSDEV ===]</h1>
 
-        <nav class="subtabs" aria-label="Sous-onglets Alternance">
-          <ul>
-            <li class="active" data-sub="alt-arrivee">Arrivée</li>
-            <li data-sub="alt-equipe">Équipe infra</li>
-            <li data-sub="alt-tuteur">Tuteur</li>
-            <li data-sub="alt-transdev">Transdev</li>
-          </ul>
-        </nav>
-
-        <div class="subpanels">
-          <div id="alt-arrivee" class="subpanel active">
-            <div class="card">
-  <h2>Contexte & objectifs d’arrivée</h2>
-  <p>
-    J’ai rejoint Transdev en alternance au sein de l’infrastructure IT pour contribuer à la fiabilisation
-    des postes, des services réseaux et du support aux sites. L’objectif de mon année :
-    <strong>standardiser</strong> les pratiques, <strong>automatiser</strong> les tâches à faible valeur,
-    et <strong>documenter</strong> l’existant pour accélérer la résolution d’incidents.
-  </p>
+       <nav class="subtabs" aria-label="Sous-onglets Alternance">
   <ul>
-    <li><strong>Périmètre :</strong> postes Windows, comptes, droits, packaging simple, supervision de base, support N1/N2 encadré.</li>
-    <li><strong>Indicateurs cibles :</strong> MTTR tickets &lt; 2j, 0 tickets “orphelins”, 100% PC conformes baseline, &gt; 80% docs à jour.</li>
+    <li class="active" data-sub="alt-arrivee">Arrivée</li>
+    <li data-sub="alt-equipe">Équipe infra</li>
+    <li data-sub="alt-tuteur">Tuteur</li>
+    <li data-sub="alt-transdev">Transdev</li>
   </ul>
+</nav>
+
+<div class="subpanels">
+ <!-- ARRIVÉE -->
+<div id="alt-arrivee" class="subpanel active">
+  <div class="card">
+    <h2>Contexte &amp; objectifs d’arrivée</h2>
+    <p>
+      J’ai rejoint Transdev en alternance au sein de l’infrastructure IT pour contribuer à la fiabilisation
+      des postes, des services réseaux et du support aux sites. L’objectif de mon année :
+      <strong>standardiser</strong> les pratiques, <strong>automatiser</strong> les tâches à faible valeur,
+      et <strong>documenter</strong> l’existant pour accélérer la résolution d’incidents.
+    </p>
+    <ul>
+      <li><strong>Périmètre :</strong> postes Windows, comptes, droits, packaging simple, supervision de base, support N1/N2 encadré.</li>
+      <li><strong>Indicateurs cibles :</strong> MTTR tickets &lt; 2j, 0 tickets « orphelins », 100% PC conformes baseline, &gt; 80% docs à jour.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Environnement technique d’accueil</h2>
+    <ul>
+      <li><strong>Postes &amp; serveurs :</strong> Windows 10/11, Windows Server 2019/2022, Debian pour quelques services.</li>
+      <li><strong>Annuaire &amp; messagerie :</strong> Active Directory, Microsoft 365 (Exchange Online, OneDrive, Teams).</li>
+      <li><strong>Outils :</strong> GLPI/Jira (tickets), Intune/SCCM (gestion), Zabbix (supervision), Git, PowerShell.</li>
+      <li><strong>Réseau :</strong> VLAN, Wi‑Fi contrôlé, VPN, équipements (Fortinet/Cisco) – exposition encadrée.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Plan des 90 premiers jours</h2>
+    <ol>
+      <li><strong>Semaine 1–2 :</strong> onboarding, accès, lecture des procédures, shadowing support.</li>
+      <li><strong>Semaine 3–6 :</strong> prise en charge tickets récurrents (comptes, droits, impressions), rédaction de <em>how‑to</em>.</li>
+      <li><strong>Semaine 7–12 :</strong> premiers scripts PowerShell (inventaire, nettoyage), mini‑tableau de bord GLPI.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Livrables attendus</h2>
+    <ul>
+      <li>Guides opératoires (création compte, prêt PC, checklist départ).</li>
+      <li>Scripts d’automatisation (<em>inventaire simple</em>, <em>nettoyage profils</em>, <em>collecte logs</em>).</li>
+      <li>Fiches « problèmes connus » (pare‑feu, VPN, drivers, impressions) avec solution pas‑à‑pas.</li>
+    </ul>
+  </div>
 </div>
+<!-- /ARRIVÉE -->
 
-<div class="card">
-  <h2>Environnement technique d’accueil</h2>
-  <ul>
-    <li><strong>Postes & serveurs :</strong> Windows 10/11, Windows Server 2019/2022, Debian pour quelques services.</li>
-    <li><strong>Annuaire & messagerie :</strong> Active Directory, Microsoft 365 (Exchange Online, OneDrive, Teams).</li>
-    <li><strong>Outils :</strong> GLPI/Jira (tickets), Intune/SCCM (gestion), Zabbix (supervision), Git, PowerShell.</li>
-    <li><strong>Réseau :</strong> VLAN, Wi‑Fi contrôlé, VPN, équipements (Fortinet/Cisco) – exposition encadrée.</li>
-  </ul>
+<!-- ÉQUIPE INFRA -->
+<div id="alt-equipe" class="subpanel">
+  <div class="card">
+    <h2>Organisation &amp; rituels</h2>
+    <ul>
+      <li><strong>Référent technique :</strong> (à préciser) – point quotidien court (15 min) + point hebdo backlog.</li>
+      <li><strong>Modes de contact :</strong> canal Teams, tickets GLPI, escalade N2/N3 selon matrice.</li>
+      <li><strong>Rituels :</strong> daily, revue incidents hebdo, revue changements (CAB) si nécessaire.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Backlog / activités typiques</h2>
+    <ul>
+      <li>Provisionning poste (baseline sécurité, applications standard, comptes, imprimantes).</li>
+      <li>Résolution incidents récurrents (VPN, Wi‑Fi, impressions, accès partages).</li>
+      <li>Petites automatisations (PowerShell), mises à jour docs, mini‑tableaux de bord.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Outillage &amp; bonnes pratiques</h2>
+    <ul>
+      <li><strong>GLPI / Jira :</strong> catégorisation, commentaires, résolution documentée, clôture propre.</li>
+      <li><strong>Git :</strong> dépôt interne pour scripts, conventions de nommage, README.</li>
+      <li><strong>Supervision :</strong> création d’alertes Zabbix simples (disque, ping, services).</li>
+      <li><strong>Sécurité :</strong> moindre privilège, coffres de mots de passe, journalisation.</li>
+    </ul>
+  </div>
 </div>
+<!-- /ÉQUIPE INFRA -->
 
-<div class="card">
-  <h2>Plan des 90 premiers jours</h2>
-  <ol>
-    <li><strong>Semaine 1–2 :</strong> onboarding, accès, lecture des procédures, shadowing support.</li>
-    <li><strong>Semaine 3–6 :</strong> prise en charge tickets récurrents (comptes, droits, impressions), rédaction de <em>how‑to</em>.</li>
-    <li><strong>Semaine 7–12 :</strong> premiers scripts PowerShell (inventaire, nettoyage), mini‑tableau de bord GLPI.</li>
-  </ol>
+<!-- TUTEUR -->
+<div id="alt-tuteur" class="subpanel">
+  <div class="card">
+    <h2>Tuteur &amp; accompagnement</h2>
+    <ul>
+      <li><strong>Tuteur :</strong> Johann Launay (encadrement alternance, priorisation, validation livrables).</li>
+      <li><strong>Suivi :</strong> point hebdo (30 min) + revue mensuelle jalons pédagogiques BTS SIO (E6/E5).</li>
+      <li><strong>Modalités :</strong> démonstrations régulières, feedbacks, orientations sécurité &amp; qualité.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Jalons &amp; evidence</h2>
+    <ul>
+      <li>Jalon 1 (M+1) : kit d’onboarding &amp; checklists publiés.</li>
+      <li>Jalon 2 (M+2) : 2 scripts validés en production (inventaire, nettoyage).</li>
+      <li>Jalon 3 (M+3) : mini‑dashboard tickets (tendance, MTTR) + procédure de sauvegarde scripts.</li>
+    </ul>
+  </div>
 </div>
+<!-- /TUTEUR -->
 
-<div class="card">
-  <h2>Livrables attendus</h2>
-  <ul>
-    <li>Guides opératoires (création compte, prêt PC, checklist départ).</li>
-    <li>Scripts d’automatisation (<em>inventaire simple</em>, <em>nettoyage profils</em>, <em>collecte logs</em>).</li>
-    <li>Fiches “problèmes connus” (pare‑feu, VPN, drivers, impressions) avec solution pas‑à‑pas.</li>
-  </ul>
+<!-- TRANSDEV -->
+<div id="alt-transdev" class="subpanel">
+  <div class="card">
+    <h2>Cadre &amp; enjeux</h2>
+    <p>
+      Le contexte applicatif et réseau est distribué sur plusieurs sites avec des besoins forts de disponibilité
+      et de sécurité. L’IT vise à standardiser les configurations, centraliser la supervision et renforcer
+      l’automatisation pour réduire les temps de résolution.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Contraintes IT transverses</h2>
+    <ul>
+      <li>Standardisation des postes (baseline), patching, conformité M365/AD.</li>
+      <li>Sécurité : MFA, durcissement, journalisation, sauvegardes vérifiées.</li>
+      <li>Support multi‑sites : procédures homogènes, prise en main distante, escalades claires.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Compétences SISR mobilisées</h2>
+    <ul>
+      <li><strong>Concevoir :</strong> analyser besoins récurrents, proposer scripts/procédures standard.</li>
+      <li><strong>Installer/Déployer :</strong> packaging simple, déploiement baseline, tests.</li>
+      <li><strong>Exploiter/Superviser :</strong> inventaire, alertes, qualité de service et amélioration continue.</li>
+    </ul>
+  </div>
 </div>
-
-          <div id="alt-equipe" class="subpanel">
-           <div class="card">
-  <h2>Organisation & rituels</h2>
-  <ul>
-    <li><strong>Référent technique :</strong> (à préciser) – point quotidien court (15 min) + point hebdo backlog.</li>
-    <li><strong>Modes de contact :</strong> canal Teams, tickets GLPI, escalade N2/N3 selon matrice.</li>
-    <li><strong>Rituels :</strong> daily, revue incidents hebdo, revue changements (CAB) si nécessaire.</li>
-  </ul>
+<!-- /TRANSDEV -->
 </div>
-
-<div class="card">
-  <h2>Backlog / activités typiques</h2>
-  <ul>
-    <li>Provisionning poste (baseline sécurité, applications standard, comptes, imprimantes).</li>
-    <li>Résolution incidents récurrents (VPN, Wi‑Fi, impressions, accès partages).</li>
-    <li>Petites automatisations (PowerShell), mises à jour docs, mini‑tableaux de bord.</li>
-  </ul>
-</div>
-
-<div class="card">
-  <h2>Outillage & bonnes pratiques</h2>
-  <ul>
-    <li><strong>GLPI / Jira :</strong> catégorisation, commentaires, résolution documentée, clôture propre.</li>
-    <li><strong>Git :</strong> dépôt interne pour scripts, conventions de nommage, README.</li>
-    <li><strong>Supervision :</strong> création d’alertes Zabbix simples (disque, ping, services).</li>
-    <li><strong>Sécurité :</strong> moindre privilège, coffres de mots de passe, journalisation.</li>
-  </ul>
-</div>
-
-          <div id="alt-tuteur" class="subpanel">
-            <div class="card">
-              <h2>Mon tuteur d’alternance</h2>
-              <p>(À compléter : rôle, accompagnement, supervision, points d’apprentissage clés…)</p>
-            </div>
-          </div>
-
-          <div id="alt-transdev" class="subpanel">
-            <div class="card">
-              <h2>Transdev – présentation</h2>
-              <p>(À compléter : métier du groupe, enjeux IT, cartographie brièvement, chiffres clés…)</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <!-- PROJETS -->
       <section id="projets" class="section">
