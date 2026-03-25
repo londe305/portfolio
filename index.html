@@ -280,8 +280,18 @@
   <!-- === Flux RSS dynamique Transdev === -->
 <div id="rss-transdev" class="rss-box">
     <h3>📰 Flux RSS – Actualités Transdev</h3>
-    <div id="rss-articles">Chargement des actualités…</div>
-</div>
+
+    <div class="carousel-container">
+        <button class="carousel-btn left" id="rss-prev">⟨</button>
+
+        <div class="carousel-track" id="rss-carousel">
+            <!-- Articles RSS générés ici -->
+        </div>
+
+        <button class="carousel-btn right" id="rss-next">⟩</button>
+    </div>
+
+    <div class="carousel-dots" id="rss-dots"></div>
 </div>
 
       </section>

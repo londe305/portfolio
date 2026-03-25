@@ -57,9 +57,54 @@ function goTo(sectionId, subId=null){
     sectionEl.classList.add("active");
 
     // 🔥 Charger RSS Transdev ici
-    if (sectionId === "transdev") {
-        loadTransdevRSS();
+   async function loadTransdevRSS() {
+    const rssUrl = encodeURIComponent("https://rsshub.app/transdev/actualites");
+    const api = `https://api.allorigins.win/get?url=${rssUrl}`;
+
+    const track = document.getElementById("rss-carousel");
+    const dotsContainer = document.getElementById("rss-dots");
+
+    if (!track) return;
+
+    track.innerHTML = "Chargement…";
+
+    try {
+        const res = await fetch(api);
+        const data = await res.json();
+
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(data.contents, "text/xml");
+        const items = Array.from(xml.querySelectorAll("item")).slice(0, 6);
+
+        track.innerHTML = "";
+        dotsContainer.innerHTML = "";
+
+        items.forEach((item, index) => {
+            const title = item.querySelector("title")?.textContent || "Sans titre";
+            const link = item.querySelector("link")?.textContent;
+            const date = item.querySelector("pubDate")?.textContent || "";
+
+            const card = document.createElement("div");
+            card.className = "carousel-item";
+            card.innerHTML = `
+                <h4>${title}</h4>
+                <a href="${link}" target="_blank" rel="noopener">Lire l'article</a>
+                <div class="carousel-date">${date}</div>
+            `;
+            track.appendChild(card);
+
+            const dot = document.createElement("span");
+            if (index === 0) dot.classList.add("active");
+            dotsContainer.appendChild(dot);
+        });
+
+        initCarousel(track, dotsContainer);
+
+    } catch (err) {
+        track.innerHTML = "❌ Impossible de charger le flux RSS";
+        console.error(err);
     }
+}
 
     // Jeu : pause/resume
     if (typeof dinoGame != "undefined"){
