@@ -64,11 +64,13 @@ function goTo(sectionId, subId=null){
   const firstTab = sectionEl.querySelector(".subtabs li");
   const firstSub = firstTab?.getAttribute("data-sub");
   if (subId){
+    // On active le sous-onglet demandé
     activateSubtab(sectionEl, subId);
-  } else if (firstSub){
+} else {
+    // Sinon on active le premier onglet
     activateSubtab(sectionEl, firstSub);
     subId = firstSub;
-  }
+}
 
   // Synchro tree
   syncSidebarTree(sectionId, subId);
@@ -542,7 +544,7 @@ async function loadTransdevRSS() {
 
   const rssUrl = encodeURIComponent("https://rsshub.app/transdev/actualites");
 const api = `https://api.allorigins.win/get?url=${rssUrl}`;
-``
+
     const track = document.getElementById("rss-carousel");
     const dots = document.getElementById("rss-dots");
 
