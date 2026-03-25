@@ -48,81 +48,30 @@ function syncSidebarTree(sectionId, subId){
 }
 
 function goTo(sectionId, subId=null){
+  // Sections
+  const sections = $$(".section");
+  sections.forEach(s => s.classList.remove("active"));
+  const sectionEl = $("#"+sectionId);
+  if (!sectionEl) return;
+  sectionEl.classList.add("active");
 
-    // Sections
-    const sections = $$(".section");
-    sections.forEach(s => s.classList.remove("active"));
-    const sectionEl = $("#"+sectionId);
-    if (!sectionEl) return;
-    sectionEl.classList.add("active");
+  // Jeu : pause/resume
+  if (typeof dinoGame !== "undefined"){
+    if (sectionId === "jeu") dinoGame.resume(); else dinoGame.pause();
+  }
 
-    // 🔥 Charger RSS Transdev ici
-   async function loadTransdevRSS() {
-    const rssUrl = encodeURIComponent("https://rsshub.app/transdev/actualites");
-    const api = `https://api.allorigins.win/get?url=${rssUrl}`;
+  // Sous-onglet
+  const firstTab = sectionEl.querySelector(".subtabs li");
+  const firstSub = firstTab?.getAttribute("data-sub");
+  if (subId){
+    activateSubtab(sectionEl, subId);
+  } else if (firstSub){
+    activateSubtab(sectionEl, firstSub);
+    subId = firstSub;
+  }
 
-    const track = document.getElementById("rss-carousel");
-    const dotsContainer = document.getElementById("rss-dots");
-
-    if (!track) return;
-
-    track.innerHTML = "Chargement…";
-
-    try {
-        const res = await fetch(api);
-        const data = await res.json();
-
-        const parser = new DOMParser();
-        const xml = parser.parseFromString(data.contents, "text/xml");
-        const items = Array.from(xml.querySelectorAll("item")).slice(0, 6);
-
-        track.innerHTML = "";
-        dotsContainer.innerHTML = "";
-
-        items.forEach((item, index) => {
-            const title = item.querySelector("title")?.textContent || "Sans titre";
-            const link = item.querySelector("link")?.textContent;
-            const date = item.querySelector("pubDate")?.textContent || "";
-
-            const card = document.createElement("div");
-            card.className = "carousel-item";
-            card.innerHTML = `
-                <h4>${title}</h4>
-                <a href="${link}" target="_blank" rel="noopener">Lire l'article</a>
-                <div class="carousel-date">${date}</div>
-            `;
-            track.appendChild(card);
-
-            const dot = document.createElement("span");
-            if (index === 0) dot.classList.add("active");
-            dotsContainer.appendChild(dot);
-        });
-
-        initCarousel(track, dotsContainer);
-
-    } catch (err) {
-        track.innerHTML = "❌ Impossible de charger le flux RSS";
-        console.error(err);
-    }
-}
-
-    // Jeu : pause/resume
-    if (typeof dinoGame != "undefined"){
-        if (sectionId === "jeu") dinoGame.resume(); else dinoGame.pause();
-    }
-
-    // Sous-onglet
-    const firstTab = sectionEl.querySelector(".subtabs li");
-    const firstSub = firstTab?.getAttribute("data-sub");
-    if (subId){
-        activateSubtab(sectionEl, subId);
-    } else if (firstSub){
-        activateSubtab(sectionEl, firstSub);
-        subId = firstSub;
-    }
-
-    // Synchro tree
-    syncSidebarTree(sectionId, subId);
+  // Synchro tree
+  syncSidebarTree(sectionId, subId);
 }
 
 /* =========================
@@ -588,4 +537,90 @@ function initE6(){
   const firstEl = document.getElementById(firstTarget);
 
   if (firstEl) firstEl.classList.add("active");
+}
+async function loadTransdevRSS() {
+
+  const rssUrl = encodeURIComponent("https://rsshub.app/transdev/actualites");
+   const api = `https://api.allorigins.win/get?url=${rssUrl}`;
+``
+    const track = document.getElementById("rss-carousel");
+    const dots = document.getElementById("rss-dots");
+
+    if (!track) return;
+
+    track.innerHTML = "Chargement des actualités…";
+
+    try {
+        const res = await fetch(api);
+        const data = await res.json();
+
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(data.contents, "text/xml");
+
+        const items = Array.from(xml.querySelectorAll("item")).slice(0, 6);
+
+        track.innerHTML = "";
+        dots.innerHTML = "";
+
+      items.forEach((item, index) => {
+            const title = item.querySelector("title")?.textContent || "Sans titre";
+            const link = item.querySelector("link")?.textContent || "#";
+            const date = item.querySelector("pubDate")?.textContent || "";
+
+            const card = document.createElement("div");
+            card.className = "carousel-item";
+
+            card.innerHTML = `
+    <h4>${title}</h4>
+    ${link}Lire l'article</a>
+    <div class="carousel-date">${date}</div>
+`;
+
+            track.appendChild(card);
+
+            const dot = document.createElement("span");
+            if (index === 0) dot.classList.add("active");
+            dots.appendChild(dot);
+        });
+
+        initCarousel(track, dots);
+
+    } catch (err) {
+        track.innerHTML = "❌ Impossible de charger le flux RSS";
+        console.error(err);
+    }
+}
+``
+function initCarousel(track, dotsContainer) {
+
+    let index = 0;
+    const items = track.children;
+    const total = items.length;
+
+    const update = () => {
+        track.style.transform = `translateX(${-index * 300}px)`;
+
+        Array.from(dotsContainer.children).forEach((d, i) =>
+            d.classList.toggle("active", i === index)
+        );
+    };
+
+    document.getElementById("rss-prev").onclick = () => {
+        index = (index - 1 + total) % total;
+        update();
+    };
+
+    document.getElementById("rss-next").onclick = () => {
+        index = (index + 1) % total;
+        update();
+    };
+
+    Array.from(dotsContainer.children).forEach((dot, i) => {
+        dot.onclick = () => {
+            index = i;
+            update();
+        };
+    });
+
+    update();
 }
