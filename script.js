@@ -541,7 +541,7 @@ function initE6(){
 async function loadTransdevRSS() {
 
   const rssUrl = encodeURIComponent("https://rsshub.app/transdev/actualites");
-   const api = `https://api.allorigins.win/get?url=${rssUrl}`;
+const api = `https://api.allorigins.win/get?url=${rssUrl}`;
 ``
     const track = document.getElementById("rss-carousel");
     const dots = document.getElementById("rss-dots");
