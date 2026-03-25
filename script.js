@@ -48,30 +48,36 @@ function syncSidebarTree(sectionId, subId){
 }
 
 function goTo(sectionId, subId=null){
-  // Sections
-  const sections = $$(".section");
-  sections.forEach(s => s.classList.remove("active"));
-  const sectionEl = $("#"+sectionId);
-  if (!sectionEl) return;
-  sectionEl.classList.add("active");
 
-  // Jeu : pause/resume
-  if (typeof dinoGame !== "undefined"){
-    if (sectionId === "jeu") dinoGame.resume(); else dinoGame.pause();
-  }
+    // Sections
+    const sections = $$(".section");
+    sections.forEach(s => s.classList.remove("active"));
+    const sectionEl = $("#"+sectionId);
+    if (!sectionEl) return;
+    sectionEl.classList.add("active");
 
-  // Sous-onglet
-  const firstTab = sectionEl.querySelector(".subtabs li");
-  const firstSub = firstTab?.getAttribute("data-sub");
-  if (subId){
-    activateSubtab(sectionEl, subId);
-  } else if (firstSub){
-    activateSubtab(sectionEl, firstSub);
-    subId = firstSub;
-  }
+    // 🔥 Charger RSS Transdev ici
+    if (sectionId === "transdev") {
+        loadTransdevRSS();
+    }
 
-  // Synchro tree
-  syncSidebarTree(sectionId, subId);
+    // Jeu : pause/resume
+    if (typeof dinoGame != "undefined"){
+        if (sectionId === "jeu") dinoGame.resume(); else dinoGame.pause();
+    }
+
+    // Sous-onglet
+    const firstTab = sectionEl.querySelector(".subtabs li");
+    const firstSub = firstTab?.getAttribute("data-sub");
+    if (subId){
+        activateSubtab(sectionEl, subId);
+    } else if (firstSub){
+        activateSubtab(sectionEl, firstSub);
+        subId = firstSub;
+    }
+
+    // Synchro tree
+    syncSidebarTree(sectionId, subId);
 }
 
 /* =========================
