@@ -626,16 +626,9 @@ function initCarousel(track, dotsContainer) {
 
     update();
 }
-// 📱 Nouveau menu burger + overlay
+// 📱 Menu burger mobile
 const burger = document.querySelector(".burger-btn");
 const sidebar = document.querySelector(".sidebar");
-const overlay = document.querySelector(".mobile-overlay");
-
-function toggleMenu() {
-    const open = sidebar.classList.toggle("open");
-    overlay.classList.toggle("active", open);
-}
-
-burger.addEventListener("click", toggleMenu);
-overlay.addEventListener("click", toggleMenu);
-``
+burger.addEventListener("click", () => {
+    sidebar.classList.toggle("open");
+});
