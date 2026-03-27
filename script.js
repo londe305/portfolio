@@ -626,3 +626,10 @@ function initCarousel(track, dotsContainer) {
 
     update();
 }
+// 📱 Menu burger mobile
+const burger = document.querySelector(".burger-btn");
+const sidebar = document.querySelector(".sidebar");
+
+burger.addEventListener("click", () => {
+  sidebar.classList.toggle("open");
+});
