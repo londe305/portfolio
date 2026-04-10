@@ -204,13 +204,7 @@ a:hover{ text-decoration: underline; }
   opacity: 0.3;
   filter: blur(2px);
 }
-
  
-/* ===== CONTENU ===== */
-body {
-  position: relative;
-  z-index: 1; /* 🔥 au-dessus de tout */
-}
 /* ===== ACCESSIBILITÉ ===== */
 @media (prefers-reduced-motion: reduce){
   #matrix-bg { display: none; }
