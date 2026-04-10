@@ -224,16 +224,7 @@ body {
   .terminal{ margin-left: 0; }
 }
 /* ===== FOND DYNAMIQUE ===== */
-body {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  position: relative;
-  z-index: 1;
-  color: #00ffe0;
-}
-
+ 
 body::before {
   content: "";
   position: fixed;
