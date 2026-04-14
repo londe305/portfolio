@@ -285,90 +285,6 @@ const dinoGame = (function(){
   reset();
   return { resume, pause, reset };
 })();
-
-/* =========================
-   FOND DYNAMIQUE : MATRIX RAIN (module contrôlable)
-========================= */
-const MatrixRain = (function(){
-  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const canvas = document.getElementById('matrix');
-  if (!canvas) return { start(){}, stop(){}, isRunning(){return false;} };
-
-  const ctx = canvas.getContext('2d');
-  const GLYPHS = 'アカサタナハマヤラワ0123456789ABCDEF';
-  const BASE = 14;       // px avant DPR
-  const TRAIL = 0.08;    // rémanence (0.05–0.12)
-  let DPR, W, H, STEP, COLS, drops;
-  let running = false;
-  let raf = null;
-
-  function resize(){
-    DPR = Math.min(window.devicePixelRatio || 1, 2);
-    canvas.width  = Math.floor(window.innerWidth  * DPR);
-    canvas.height = Math.floor(window.innerHeight * DPR);
-    canvas.style.width  = window.innerWidth  + 'px';
-    canvas.style.height = window.innerHeight + 'px';
-
-    W=canvas.width; H=canvas.height;
-    STEP = Math.round(BASE * DPR);
-    COLS = Math.max(1, Math.floor(W / STEP));
-    drops = new Array(COLS).fill(0);
-    ctx.font = `${STEP}px monospace`;
-  }
-
-  function draw(){
-    ctx.fillStyle = `rgba(0,0,0,${TRAIL})`;
-    ctx.fillRect(0, 0, W, H);
-
-    ctx.fillStyle = 'rgba(51,230,204,0.85)';
-    for (let i=0; i<drops.length; i++){
-      const ch = GLYPHS[(Math.random()*GLYPHS.length)|0];
-      const x = i * STEP;
-      const y = drops[i] * (STEP + 2);
-      ctx.fillText(ch, x, y);
-      if (y > H && Math.random() > 0.975) drops[i] = 0;
-      else drops[i]++;
-    }
-  }
-
-  function loop(){
-    if (!running) return;
-    draw();
-    raf = requestAnimationFrame(loop);
-  }
-
-  function onVisibility(){
-    if (!running) return;
-    if (document.visibilityState === 'hidden'){
-      cancelAnimationFrame(raf);
-      raf = null;
-    } else {
-      raf = requestAnimationFrame(loop);
-    }
-  }
-
-  function start(){
-    if (reduce || running) return;
-    canvas.style.display = 'block';
-    resize();
-    running = true;
-    raf = requestAnimationFrame(loop);
-  }
-
-  function stop(){
-    if (!running) return;
-    running = false;
-    if (raf) cancelAnimationFrame(raf);
-    raf = null;
-    canvas.style.display = 'none';
-  }
-
-  window.addEventListener('resize', ()=> running && resize());
-  document.addEventListener('visibilitychange', onVisibility);
-
-  return { start, stop, isRunning:()=>running };
-})();
-
 /* =========================
    AU CHARGEMENT
 ========================= */
@@ -377,7 +293,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
   goTo(current);
 
   // 🔥 IMPORTANT
-  initE6();
 });
 async function loadTransdevRSS() {
 
