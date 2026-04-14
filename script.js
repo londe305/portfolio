@@ -138,7 +138,7 @@ function initSubtabs(sectionId){
     });
   });
 }
-["alternance","e6","certifications"].forEach(initSubtabs);
+["alternance","certifications","projets"].forEach(initSubtabs);
 
 /* =========================
    VEILLE Zero Trust – RSS

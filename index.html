@@ -283,19 +283,90 @@
 </div>
 ``
       </section>
+<!-- PROJETS -->
+<section id="projets" class="section">
+  <h1 class="ascii">[=== PROJETS ===]</h1>
 
-      <!-- PROJETS -->
-      <section id="projets" class="section">
-        <h1 class="ascii">[=== PROJETS ===]</h1>
-        <div class="card">
-          <h2>E5 – Développement</h2>
-          <p>Application web PHP/MySQL (documentation à ajouter).</p>
-        </div>
-        <div class="card">
-          <h2>E6 – Infrastructure</h2>
-          <p>Ex : déploiement GLPI automatisé, supervision, annuaires… (à détailler).</p>
-        </div>
-      </section>
+  <nav class="subtabs" aria-label="Sous-onglets Projets">
+    <ul>
+      <li class="active" data-sub="proj-crystal">Refresh Réseau Crystal</li>
+    </ul>
+  </nav>
+
+  <div class="subpanels">
+
+    <div id="proj-crystal" class="subpanel active">
+      <div class="card">
+        <h2>Refresh Réseau Crystal – WAN / LAN / WLAN / SDWANv2</h2>
+        <p>
+          Projet majeur de modernisation réseau du siège Crystal : migration Firewalls vers SDWANv2,
+          remplacement complet LAN/WLAN, montée en débit WAN, POC 1er étage, déploiement global.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Contexte</h3>
+        <p>
+          Le siège Crystal disposait d’une infrastructure vieillissante nécessitant une modernisation
+          complète pour améliorer la performance, la sécurité et la résilience.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Objectifs</h3>
+        <ul>
+          <li>Migration Firewalls vers Fortigate 200G (SDWANv2)</li>
+          <li>Montée en débit WAN (2G / 8G / 10G)</li>
+          <li>Remplacement de 53 switches</li>
+          <li>Déploiement de 80 bornes WiFi</li>
+          <li>POC 1er étage avant déploiement global</li>
+          <li>Processus complet ITIL : Change, CAB, rollback</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Architecture (vue simplifiée)</h3>
+        <pre>
+[ WAN ISP ]───[ Fortigate 200G ]───[ Core LAN ]───[ Switches x53 ]───[ AP WiFi x80 ]
+        </pre>
+      </div>
+
+      <div class="card">
+        <h3>Planning (extrait)</h3>
+        <ul>
+          <li>Phase 1 : Préparation & Design</li>
+          <li>Phase 2 : Configuration & Validation</li>
+          <li>Phase 3 : Migration Firewalls</li>
+          <li>Phase 4 : POC LAN/WLAN</li>
+          <li>Phase 5 : Déploiement global</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Rôle personnel</h3>
+        <ul>
+          <li>Participation aux ateliers techniques</li>
+          <li>Analyse réseau existant & logs FW</li>
+          <li>Préparation équipements (staging)</li>
+          <li>Tests pré/post migration</li>
+          <li>Documentation & suivi projet</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Compétences E6 validées</h3>
+        <ul>
+          <li>Conception d’infrastructure</li>
+          <li>Installation & configuration</li>
+          <li>Tests & validation</li>
+          <li>Supervision & exploitation</li>
+          <li>Gestion de projet & ITIL</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       <!-- CERTIFICATIONS -->
       <section id="certifications" class="section">
