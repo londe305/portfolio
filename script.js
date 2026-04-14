@@ -379,41 +379,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
   // 🔥 IMPORTANT
   initE6();
 });
-/* =========================
-   E6 INTERACTION (COMPÉTENCES)
-========================= */
-function initE6(){
-
-  const cards = document.querySelectorAll(".e6-card");
-  const details = document.querySelectorAll(".e6-details");
-
-  if (!cards.length) return;
-
-  cards.forEach(card => {
-    card.addEventListener("click", () => {
-
-      // reset
-      details.forEach(d => d.classList.remove("active"));
-      cards.forEach(c => c.classList.remove("active"));
-
-      // activer
-      card.classList.add("active");
-
-      const target = card.getAttribute("data-target");
-      const el = document.getElementById(target);
-
-      if (el) el.classList.add("active");
-    });
-  });
-
-  // 🔥 PAR DÉFAUT
-  cards[0].classList.add("active");
-
-  const firstTarget = cards[0].getAttribute("data-target");
-  const firstEl = document.getElementById(firstTarget);
-
-  if (firstEl) firstEl.classList.add("active");
-}
 async function loadTransdevRSS() {
 
   const rssUrl = encodeURIComponent("https://rsshub.app/transdev/actualites");
