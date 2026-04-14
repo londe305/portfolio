@@ -543,88 +543,89 @@ function initE6(){
 async function loadTransdevRSS() {
 
   const rssUrl = encodeURIComponent("https://rsshub.app/transdev/actualites");
-const api = `https://api.allorigins.win/get?url=${rssUrl}`;
+  const api = `https://api.allorigins.win/get?url=${rssUrl}`;
 
-    const track = document.getElementById("rss-carousel");
-    const dots = document.getElementById("rss-dots");
+  const track = document.getElementById("rss-carousel");
+  const dots = document.getElementById("rss-dots");
 
-    if (!track) return;
+  if (!track) return;
 
-    track.innerHTML = "Chargement des actualités…";
+  track.innerHTML = "Chargement des actualités…";
 
-    try {
-        const res = await fetch(api);
-        const data = await res.json();
+  try {
+      const res = await fetch(api);
+      const data = await res.json();
 
-        const parser = new DOMParser();
-        const xml = parser.parseFromString(data.contents, "text/xml");
+      const parser = new DOMParser();
+      const xml = parser.parseFromString(data.contents, "text/xml");
 
-        const items = Array.from(xml.querySelectorAll("item")).slice(0, 6);
+      const items = Array.from(xml.querySelectorAll("item")).slice(0, 6);
 
-        track.innerHTML = "";
-        dots.innerHTML = "";
+      track.innerHTML = "";
+      dots.innerHTML = "";
 
       items.forEach((item, index) => {
-            const title = item.querySelector("title")?.textContent || "Sans titre";
-            const link = item.querySelector("link")?.textContent || "#";
-            const date = item.querySelector("pubDate")?.textContent || "";
+          const title = item.querySelector("title")?.textContent || "Sans titre";
+          const link = item.querySelector("link")?.textContent || "#";
+          const date = item.querySelector("pubDate")?.textContent || "";
 
-            const card = document.createElement("div");
-            card.className = "carousel-item";
+          const card = document.createElement("div");
+          card.className = "carousel-item";
 
-            card.innerHTML = `
-    <h4>${title}</h4>
-    ${link}Lire l'article</a>
-    <div class="carousel-date">${date}</div>
-`;
+          card.innerHTML = `
+              <h4>${title}</h4>
+              <a href="${link}" target="_blank">Lire l'article</a>
+              <div class="carousel-date">${date}</div>
+          `;
 
-            track.appendChild(card);
+          track.appendChild(card);
 
-            const dot = document.createElement("span");
-            if (index === 0) dot.classList.add("active");
-            dots.appendChild(dot);
-        });
+          const dot = document.createElement("span");
+          if (index === 0) dot.classList.add("active");
+          dots.appendChild(dot);
+      });
 
-        initCarousel(track, dots);
+      initCarousel(track, dots);
 
-    } catch (err) {
-        track.innerHTML = "❌ Impossible de charger le flux RSS";
-        console.error(err);
-    }
+  } catch (err) {
+      track.innerHTML = "❌ Impossible de charger le flux RSS";
+      console.error(err);
+  }
 }
-``
+
 function initCarousel(track, dotsContainer) {
 
-    let index = 0;
-    const items = track.children;
-    const total = items.length;
+  let index = 0;
+  const items = track.children;
+  const total = items.length;
 
-    const update = () => {
-        track.style.transform = `translateX(${-index * 300}px)`;
+  const update = () => {
+      const itemWidth = items[0].offsetWidth;
+      track.style.transform = `translateX(${-index * itemWidth}px)`;
 
-        Array.from(dotsContainer.children).forEach((d, i) =>
-            d.classList.toggle("active", i === index)
-        );
-    };
+      Array.from(dotsContainer.children).forEach((d, i) =>
+          d.classList.toggle("active", i === index)
+      );
+  };
 
-    document.getElementById("rss-prev").onclick = () => {
-        index = (index - 1 + total) % total;
-        update();
-    };
+  document.getElementById("rss-prev").onclick = () => {
+      index = (index - 1 + total) % total;
+      update();
+  };
 
-    document.getElementById("rss-next").onclick = () => {
-        index = (index + 1) % total;
-        update();
-    };
+  document.getElementById("rss-next").onclick = () => {
+      index = (index + 1) % total;
+      update();
+  };
 
-    Array.from(dotsContainer.children).forEach((dot, i) => {
-        dot.onclick = () => {
-            index = i;
-            update();
-        };
-    });
+  Array.from(dotsContainer.children).forEach((dot, i) => {
+      dot.onclick = () => {
+          index = i;
+          update();
+      };
+  });
 
-    update();
+  update();
 }
 // 📱 Menu burger mobile
 const burger = document.querySelector(".burger-btn");
