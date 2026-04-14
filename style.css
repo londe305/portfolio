@@ -453,3 +453,31 @@ a:hover{ text-decoration: underline; }
     .mobile-overlay { display: none !important; }
     .sidebar { transform: none !important; }
 }
+.schema-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.schema-gallery figure {
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  background: rgba(51,230,204,0.06);
+  padding: 10px;
+  text-align: center;
+}
+
+.schema-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(51,230,204,0.25);
+}
+
+.schema-gallery figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #b3fff5;
+  opacity: 0.85;
+}
