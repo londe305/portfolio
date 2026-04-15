@@ -483,6 +483,6 @@ a:hover{ text-decoration: underline; }
 }
 /* Masquage temporaire des images du portfolio */
 .schema-gallery img {
-    filter: blur(20px);
-    pointer-events: none;
+    filter: blur(25px) !important;
+    pointer-events: none !important;
 }
