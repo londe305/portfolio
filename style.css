@@ -481,3 +481,8 @@ a:hover{ text-decoration: underline; }
   color: #b3fff5;
   opacity: 0.85;
 }
+/* Masquage temporaire des images du portfolio */
+.schema-gallery img {
+    filter: blur(20px);
+    pointer-events: none;
+}
