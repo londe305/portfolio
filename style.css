@@ -184,7 +184,7 @@ a:hover{ text-decoration: underline; }
   background: #0b1114;
   border: 1px solid var(--accent);
   border-radius: 8px;
-  padding: 16px;th: 600px)
+  padding: 16px;
   width: min(520px, 92vw);
   color: var(--text);
   box-shadow: 0 0 16px rgba(51,230,204,.3);
@@ -491,7 +491,6 @@ a:hover{ text-decoration: underline; }
     pointer-events: none !important;
     cursor: default !important;
 }
-
 /* 📱 MOBILE OPTIMISÉ — VERSION FINALE */
 @media (max-width: 600px) {
 
