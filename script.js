@@ -375,83 +375,15 @@ function initCarousel(track, dotsContainer) {
   Array.from(dotsContainer.children).forEach((dot, i) => {
       dot.onclick = () => {
           index = i;
-          update(); 
+          update();
       };
   });
 
   update();
 }
-/* ===== LIGHTBOX PRO ===== */
-const galleryImages = Array.from(document.querySelectorAll(".schema-gallery img"));
-const lightbox = document.getElementById("lightbox");
-const lightboxImg = document.getElementById("lightbox-img");
-const btnPrev = document.querySelector(".lightbox-prev");
-const btnNext = document.querySelector(".lightbox-next");
-const btnClose = document.querySelector(".lightbox-close");
-
-let currentIndex = 0;
-
-function openLightbox(index){
-  currentIndex = index;
-  lightboxImg.src = galleryImages[index].src;
-  lightbox.classList.remove("hidden");
-}
-
-function closeLightbox(){
-  lightbox.classList.add("hidden");
-}
-
-function nextImg(){
-  currentIndex = (currentIndex + 1) % galleryImages.length;
-  lightboxImg.src = galleryImages[currentIndex].src;
-}
-
-function prevImg(){
-  currentIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
-  lightboxImg.src = galleryImages[currentIndex].src;
-}
-
-galleryImages.forEach((img, i)=>{
-  img.addEventListener("click", ()=> openLightbox(i));
-});
-
-btnClose.addEventListener("click", closeLightbox);
-btnNext.addEventListener("click", nextImg);
-btnPrev.addEventListener("click", prevImg);
-
-lightbox.addEventListener("click", (e)=>{
-  if (e.target === lightbox) closeLightbox();
-});
-
-window.addEventListener("keydown", (e)=>{
-  if (e.key === "Escape") closeLightbox();
-  if (e.key === "ArrowRight") nextImg();
-  if (e.key === "ArrowLeft") prevImg();
-});
 // 📱 Menu burger mobile
 const burger = document.querySelector(".burger-btn");
 const sidebar = document.querySelector(".sidebar");
 burger.addEventListener("click", () => {
     sidebar.classList.toggle("open");
-});
-/* ============================
-   Gestion des sous-menus
-============================ */
-document.querySelectorAll(".sidebar .has-children").forEach(item => {
-    item.addEventListener("click", () => {
-        const expanded = item.getAttribute("aria-expanded") === "true";
-        item.setAttribute("aria-expanded", !expanded);
-    });
-});
-
-/* ============================
-   Gestion de l'élément actif
-============================ */
-document.querySelectorAll(".sidebar .nav-root li, .sidebar .tree-item").forEach(li => {
-    li.addEventListener("click", () => {
-        document.querySelectorAll(".sidebar .active").forEach(el => {
-            el.classList.remove("active");
-        });
-        li.classList.add("active");
-    });
 });

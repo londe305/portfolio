@@ -24,7 +24,6 @@ body {
   position: relative;
   z-index: 1;
 }
-
 /* ===== Sidebar ===== */
 .sidebar{
   position: fixed; top: 0; left: 0;
@@ -33,7 +32,6 @@ body {
   border-right: 1px solid var(--accent);
   padding: 20px; overflow-y: auto;
 }
-
 .logo{
   text-align: center; margin: 0 0 20px;
   font-size: 1.05rem; color: var(--accent);
@@ -47,78 +45,6 @@ body {
 }
 .sidebar li:hover{ background: rgba(51,230,204,0.12); border-left: 3px solid var(--accent); }
 .sidebar li.active{ background: rgba(51,230,204,0.22); border-left: 3px solid var(--accent); box-shadow: 0 0 10px rgba(51,230,204,0.35) inset; }
-/* ===== SIDEBAR TERMINAL CYBER PRO ===== */
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: var(--sidebar-w);
-    height: 100vh;
-    background: rgba(5, 5, 5, 0.85);
-    border-right: 1px solid rgba(51, 230, 204, 0.35);
-    backdrop-filter: blur(8px);
-    box-shadow: 5px 0 20px rgba(51, 230, 204, 0.15);
-    padding-top: 70px;
-    z-index: 9999;
-    overflow-y: auto;
-}
-
-/* Liens de navigation (li) */
-.sidebar .nav-root li {
-    list-style: none;
-    padding: 12px 20px;
-    color: #9ad7c9;
-    font-family: "JetBrains Mono", monospace;
-    font-size: 0.95rem;
-    border-left: 2px solid transparent;
-    cursor: pointer;
-    transition: 0.25s ease;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-/* Hover terminal pro */
-.sidebar .nav-root li:hover {
-    color: var(--accent);
-    background: rgba(51, 230, 204, 0.08);
-    border-left: 2px solid var(--accent);
-    padding-left: 26px;
-}
-
-/* Élément actif */
-.sidebar .nav-root li.active {
-    color: var(--accent);
-    border-left: 2px solid var(--accent);
-    background: rgba(51, 230, 204, 0.12);
-}
-
-/* Sous-menus */
-.sidebar .has-children {
-    position: relative;
-}
-
-.sidebar .tree-children {
-    display: none;
-    padding-left: 20px;
-}
-
-.sidebar .has-children[aria-expanded="true"] .tree-children {
-    display: block;
-}
-
-.sidebar .tree-item {
-    padding: 8px 20px;
-    font-size: 0.85rem;
-    color: #7fcfc0;
-    border-left: 2px solid transparent;
-    transition: 0.25s ease;
-}
-
-.sidebar .tree-item:hover {
-    color: var(--accent);
-    border-left: 2px solid var(--accent);
-}
 
 /* Titre non cliquable au-dessus du jeu */
 .menu-title{
@@ -555,178 +481,13 @@ a:hover{ text-decoration: underline; }
   color: #b3fff5;
   opacity: 0.85;
 }
-/* Images floutées mais cliquables */
+/* Masquage temporaire des images du portfolio */
 .schema-gallery img {
     filter: blur(25px) !important;
-    pointer-events: auto !important; /* clics activés */
-    cursor: zoom-in; /* feedback visuel */
+    pointer-events: none !important;
 }
 /* Désactivation temporaire des liens de la galerie */
 .schema-gallery a {
     pointer-events: none !important;
     cursor: default !important;
 }
-/* 📱 MOBILE OPTIMISÉ — VERSION FINALE */
-@media (max-width: 600px) {
-
-  /* ===== SIDEBAR ===== */
-  .sidebar {
-    position: fixed; 
-    top: 0;
-    left: 0;
-    width: 220px;
-    height: 100vh;
-    background: #050505;
-    border-right: 1px solid var(--accent);
-    transform: translateX(-100%);
-    transition: transform .3s ease;
-    z-index: 9999;
-    padding-top: 60px; /* espace pour le burger */
-    overflow-y: auto;
-  }
-
-  .sidebar.open {
-    transform: translateX(0);
-  }
-
-  /* ===== OVERLAY ===== */
-  .mobile-overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,.55);
-    backdrop-filter: blur(3px);
-    z-index: 9000;
-    display: none;
-  }
-  .mobile-overlay.active {
-    display: block;
-  }
-
-  /* ===== BURGER ===== */
-  .burger-btn {
-    position: fixed;
-    top: 12px;
-    left: 12px;
-    font-size: 28px;
-    background: #111;
-    color: var(--accent);
-    border: 1px solid var(--accent);
-    padding: 6px 10px;
-    border-radius: 6px;
-    z-index: 10000;
-    cursor: pointer;
-  }
-
-  /* ===== TERMINAL ===== */
-  .terminal {
-    margin-left: 0;
-    padding: 14px;
-  }
-
-  .terminal-header {
-    padding-left: 50px;
-  }
-
-  /* ===== SECTIONS ===== */
-  .section {
-    padding: 10px 0;
-  }
-
-  /* ===== TEXTES ===== */
-  body {
-    font-size: 0.95rem;
-    line-height: 1.45;
-  }
-
-  pre {
-    font-size: 0.78rem;
-    white-space: pre-wrap;
-  }
-
-  /* ===== SUBTABS ===== */
-  .subtabs ul {
-    flex-wrap: wrap;
-    gap: 6px;
-  }
-
-  /* ===== GRILLES ===== */
-  .e6-grid,
-  .e6-subgrid,
-  .schema-gallery {
-    grid-template-columns: 1fr !important;
-  }
-/* .schema-gallery img {
-    width: 100%;
-    height: auto;
-    filter: none !important;
-    pointer-events: auto !important;
-} */
-
-  .schema-gallery a {
-    pointer-events: auto !important;
-    cursor: pointer !important;
-  }
-
-  /* ===== JEU DINO ===== */
-  #dino-canvas {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  /* ===== CAROUSEL ===== */
-  .carousel-container {
-    width: 100%;
-  }
-}
-
-/* ===== DESKTOP FIX ===== */
-@media (min-width: 601px) {
-  .burger-btn { display: none; }
-  .mobile-overlay { display: none !important; }
-  .sidebar { transform: none !important; }
-}
-/* ===== LIGHTBOX PRO ===== */
-.lightbox {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,.65);
-  backdrop-filter: blur(6px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 99999;
-  transition: opacity .25s ease;
-}
-
-.lightbox.hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
-.lightbox img {
-  max-width: 92%;
-  max-height: 92%;
-  border-radius: 8px;
-  box-shadow: 0 0 25px rgba(0,255,200,.35);
-  animation: zoomIn .25s ease;
-}
-
-@keyframes zoomIn {
-  from { transform: scale(.85); opacity: 0; }
-  to   { transform: scale(1); opacity: 1; }
-}
-
-.lightbox-close,
-.lightbox-prev,
-.lightbox-next {
-  position: absolute;
-  color: var(--accent);
-  font-size: 2.2rem;
-  cursor: pointer;
-  user-select: none;
-  text-shadow: 0 0 12px rgba(0,255,200,.6);
-}
-
-.lightbox-close { top: 20px; right: 30px; }
-.lightbox-prev  { left: 30px; }
-.lightbox-next  { right: 30px; }
