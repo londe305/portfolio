@@ -581,6 +581,13 @@ a:hover{ text-decoration: underline; }
   .schema-gallery {
     grid-template-columns: 1fr !important;
   }
+/* .schema-gallery img {
+    width: 100%;
+    height: auto;
+    filter: none !important;
+    pointer-events: auto !important;
+} */
+
   .schema-gallery a {
     pointer-events: auto !important;
     cursor: pointer !important;
