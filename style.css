@@ -24,6 +24,7 @@ body {
   position: relative;
   z-index: 1;
 }
+
 /* ===== Sidebar ===== */
 .sidebar{
   position: fixed; top: 0; left: 0;
@@ -32,6 +33,7 @@ body {
   border-right: 1px solid var(--accent);
   padding: 20px; overflow-y: auto;
 }
+
 .logo{
   text-align: center; margin: 0 0 20px;
   font-size: 1.05rem; color: var(--accent);
@@ -45,6 +47,78 @@ body {
 }
 .sidebar li:hover{ background: rgba(51,230,204,0.12); border-left: 3px solid var(--accent); }
 .sidebar li.active{ background: rgba(51,230,204,0.22); border-left: 3px solid var(--accent); box-shadow: 0 0 10px rgba(51,230,204,0.35) inset; }
+/* ===== SIDEBAR TERMINAL CYBER PRO ===== */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--sidebar-w);
+    height: 100vh;
+    background: rgba(5, 5, 5, 0.85);
+    border-right: 1px solid rgba(51, 230, 204, 0.35);
+    backdrop-filter: blur(8px);
+    box-shadow: 5px 0 20px rgba(51, 230, 204, 0.15);
+    padding-top: 70px;
+    z-index: 9999;
+    overflow-y: auto;
+}
+
+/* Liens de navigation (li) */
+.sidebar .nav-root li {
+    list-style: none;
+    padding: 12px 20px;
+    color: #9ad7c9;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.95rem;
+    border-left: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.25s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Hover terminal pro */
+.sidebar .nav-root li:hover {
+    color: var(--accent);
+    background: rgba(51, 230, 204, 0.08);
+    border-left: 2px solid var(--accent);
+    padding-left: 26px;
+}
+
+/* Élément actif */
+.sidebar .nav-root li.active {
+    color: var(--accent);
+    border-left: 2px solid var(--accent);
+    background: rgba(51, 230, 204, 0.12);
+}
+
+/* Sous-menus */
+.sidebar .has-children {
+    position: relative;
+}
+
+.sidebar .tree-children {
+    display: none;
+    padding-left: 20px;
+}
+
+.sidebar .has-children[aria-expanded="true"] .tree-children {
+    display: block;
+}
+
+.sidebar .tree-item {
+    padding: 8px 20px;
+    font-size: 0.85rem;
+    color: #7fcfc0;
+    border-left: 2px solid transparent;
+    transition: 0.25s ease;
+}
+
+.sidebar .tree-item:hover {
+    color: var(--accent);
+    border-left: 2px solid var(--accent);
+}
 
 /* Titre non cliquable au-dessus du jeu */
 .menu-title{

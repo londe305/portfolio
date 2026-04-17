@@ -434,3 +434,24 @@ const sidebar = document.querySelector(".sidebar");
 burger.addEventListener("click", () => {
     sidebar.classList.toggle("open");
 });
+/* ============================
+   Gestion des sous-menus
+============================ */
+document.querySelectorAll(".sidebar .has-children").forEach(item => {
+    item.addEventListener("click", () => {
+        const expanded = item.getAttribute("aria-expanded") === "true";
+        item.setAttribute("aria-expanded", !expanded);
+    });
+});
+
+/* ============================
+   Gestion de l'élément actif
+============================ */
+document.querySelectorAll(".sidebar .nav-root li, .sidebar .tree-item").forEach(li => {
+    li.addEventListener("click", () => {
+        document.querySelectorAll(".sidebar .active").forEach(el => {
+            el.classList.remove("active");
+        });
+        li.classList.add("active");
+    });
+});
