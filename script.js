@@ -381,6 +381,53 @@ function initCarousel(track, dotsContainer) {
 
   update();
 }
+/* ===== LIGHTBOX PRO ===== */
+const galleryImages = Array.from(document.querySelectorAll(".schema-gallery img"));
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const btnPrev = document.querySelector(".lightbox-prev");
+const btnNext = document.querySelector(".lightbox-next");
+const btnClose = document.querySelector(".lightbox-close");
+
+let currentIndex = 0;
+
+function openLightbox(index){
+  currentIndex = index;
+  lightboxImg.src = galleryImages[index].src;
+  lightbox.classList.remove("hidden");
+}
+
+function closeLightbox(){
+  lightbox.classList.add("hidden");
+}
+
+function nextImg(){
+  currentIndex = (currentIndex + 1) % galleryImages.length;
+  lightboxImg.src = galleryImages[currentIndex].src;
+}
+
+function prevImg(){
+  currentIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
+  lightboxImg.src = galleryImages[currentIndex].src;
+}
+
+galleryImages.forEach((img, i)=>{
+  img.addEventListener("click", ()=> openLightbox(i));
+});
+
+btnClose.addEventListener("click", closeLightbox);
+btnNext.addEventListener("click", nextImg);
+btnPrev.addEventListener("click", prevImg);
+
+lightbox.addEventListener("click", (e)=>{
+  if (e.target === lightbox) closeLightbox();
+});
+
+window.addEventListener("keydown", (e)=>{
+  if (e.key === "Escape") closeLightbox();
+  if (e.key === "ArrowRight") nextImg();
+  if (e.key === "ArrowLeft") prevImg();
+});
 // 📱 Menu burger mobile
 const burger = document.querySelector(".burger-btn");
 const sidebar = document.querySelector(".sidebar");
