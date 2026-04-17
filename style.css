@@ -481,10 +481,11 @@ a:hover{ text-decoration: underline; }
   color: #b3fff5;
   opacity: 0.85;
 }
-/* Masquage temporaire des images du portfolio */
+/* Images floutées mais cliquables */
 .schema-gallery img {
     filter: blur(25px) !important;
-    pointer-events: none !important;
+    pointer-events: auto !important; /* clics activés */
+    cursor: zoom-in; /* feedback visuel */
 }
 /* Désactivation temporaire des liens de la galerie */
 .schema-gallery a {
