@@ -612,3 +612,48 @@ a:hover{ text-decoration: underline; }
   .mobile-overlay { display: none !important; }
   .sidebar { transform: none !important; }
 }
+/* ===== LIGHTBOX PRO ===== */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.65);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  transition: opacity .25s ease;
+}
+
+.lightbox.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.lightbox img {
+  max-width: 92%;
+  max-height: 92%;
+  border-radius: 8px;
+  box-shadow: 0 0 25px rgba(0,255,200,.35);
+  animation: zoomIn .25s ease;
+}
+
+@keyframes zoomIn {
+  from { transform: scale(.85); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+
+.lightbox-close,
+.lightbox-prev,
+.lightbox-next {
+  position: absolute;
+  color: var(--accent);
+  font-size: 2.2rem;
+  cursor: pointer;
+  user-select: none;
+  text-shadow: 0 0 12px rgba(0,255,200,.6);
+}
+
+.lightbox-close { top: 20px; right: 30px; }
+.lightbox-prev  { left: 30px; }
+.lightbox-next  { right: 30px; }
