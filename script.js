@@ -375,7 +375,7 @@ function initCarousel(track, dotsContainer) {
   Array.from(dotsContainer.children).forEach((dot, i) => {
       dot.onclick = () => {
           index = i;
-          update();
+          update(); 
       };
   });
 
