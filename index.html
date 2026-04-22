@@ -282,14 +282,121 @@
 
   <div class="subpanels">
 
-    <div id="proj-crystal" class="subpanel active">
+<div id="proj-crystal" class="subpanel active">
+
+  <div class="card">
+    <h2>Refresh Réseau Crystal ▸ WAN / LAN / WLAN / SD‑WAN v2</h2>
+    <p>
+      Projet majeur de modernisation réseau du siège Crystal :
+      migration des firewalls vers une architecture SD‑WAN v2,
+      remplacement complet du LAN et du WLAN, montée en débit WAN
+      et déploiement progressif en environnement de production réel.
+    </p>
+  </div>
+
+  <!-- ===================== -->
+  <!-- SOUS-ONGLETS CRYSTAL -->
+  <!-- ===================== -->
+
+  <nav class="subtabs" aria-label="Sous-onglets Projet Crystal">
+    <ul>
+      <li class="active" data-sub="crystal-overview">Vue globale</li>
+      <li data-sub="crystal-architecture">Architecture</li>
+      <li data-sub="crystal-planning">Planning</li>
+      <li data-sub="crystal-risques">Risques</li>
+      <li data-sub="crystal-role">Rôle & E6</li>
+    </ul>
+  </nav>
+
+  <div class="subpanels">
+
+    <!-- ✅ VUE GLOBALE -->
+    <div id="crystal-overview" class="subpanel active">
       <div class="card">
-        <h2>Refresh Réseau Crystal – WAN / LAN / WLAN / SDWANv2</h2>
+        <h3>Vue globale du projet</h3>
+        <ul>
+          <li>Modernisation complète du réseau du siège Crystal</li>
+          <li>Infrastructure critique avec utilisateurs en production</li>
+          <li>Approche progressive et sécurisée</li>
+          <li>Objectif : performance, sécurité et résilience</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ✅ ARCHITECTURE -->
+    <div id="crystal-architecture" class="subpanel">
+      <div class="card">
+        <h3>Architecture & aspects techniques</h3>
+        <pre>
+[ Liens opérateurs ]
+        ↓
+[ Firewalls Fortigate 200G ]
+        ↓
+[ SD‑WAN v2 ]
+        ↓
+[ Core LAN ]
+        ↓
+[ Switches x53 ]
+        ↓
+[ Bornes Wi‑Fi x80 ]
+        </pre>
         <p>
-          Projet majeur de modernisation réseau du siège Crystal : migration Firewalls vers SDWANv2,
-          remplacement complet LAN/WLAN, montée en débit WAN, POC 1er étage, déploiement global.
+          L’architecture a été conçue pour permettre une migration
+          progressive tout en conservant les liens existants lors
+          de la bascule initiale.
         </p>
       </div>
+    </div>
+
+    <!-- ✅ PLANNING -->
+    <div id="crystal-planning" class="subpanel">
+      <div class="card">
+        <h3>Planning & organisation</h3>
+        <ul>
+          <li>Semaine du 13 avril : préparation préproduction</li>
+          <li>24 avril : tests et communication utilisateurs</li>
+          <li>25–26 avril : migration firewalls</li>
+          <li>27–28 avril : VSR (suivi renforcé)</li>
+          <li>16 mai : POC LAN / Wi‑Fi</li>
+          <li>Mai → juillet : déploiement global par étage</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ✅ RISQUES -->
+    <div id="crystal-risques" class="subpanel">
+      <div class="card">
+        <h3>Analyse des risques</h3>
+        <ul>
+          <li>Contraintes physiques en baie (espace, câblage)</li>
+          <li>Brassage LAN/WLAN complexe</li>
+          <li>Dépendance aux ressources terrain</li>
+          <li>Liaisons opérateurs non disponibles au démarrage</li>
+        </ul>
+        <p>
+          Des décisions de migration progressive et de rollback
+          ont été prises pour sécuriser la mise en production.
+        </p>
+      </div>
+    </div>
+
+    <!-- ✅ RÔLE & E6 -->
+    <div id="crystal-role" class="subpanel">
+      <div class="card">
+        <h3>Rôle personnel & compétences E6</h3>
+        <ul>
+          <li>Participation aux réunions de suivi projet</li>
+          <li>Contribution à l’analyse de l’existant</li>
+          <li>Préparation des équipements réseau</li>
+          <li>Tests pré et post‑migration</li>
+          <li>Identification et analyse des risques</li>
+          <li>Documentation et traçabilité</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
 
       <div class="card">
         <h3>Contexte</h3>
