@@ -74,6 +74,11 @@ function goTo(sectionId, subId=null){
 
   // Synchro tree
   syncSidebarTree(sectionId, subId);
+  // 📱 UX mobile : fermeture automatique du menu
+  if (window.innerWidth <= 600) {
+    document.querySelector(".sidebar")?.classList.remove("open");
+    document.querySelector(".mobile-overlay")?.classList.remove("active");
+  }
 }
 
 /* =========================
@@ -442,9 +447,18 @@ window.addEventListener("keydown", (e)=>{
   if (e.key === "ArrowRight") nextImg();
   if (e.key === "ArrowLeft") prevImg();
 });
-// 📱 Menu burger mobile
-const burger = document.querySelector(".burger-btn");
+// 📱 Menu burger mobile + overlay
+const burger  = document.querySelector(".burger-btn");
 const sidebar = document.querySelector(".sidebar");
-burger.addEventListener("click", () => {
-    sidebar.classList.toggle("open");
+const overlay = document.querySelector(".mobile-overlay");
+
+burger?.addEventListener("click", () => {
+  sidebar.classList.toggle("open");
+  overlay?.classList.toggle("active");
+});
+
+// Clic sur l’overlay = fermeture du menu
+overlay?.addEventListener("click", () => {
+  sidebar.classList.remove("open");
+  overlay.classList.remove("active");
 });
