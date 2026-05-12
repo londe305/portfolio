@@ -120,21 +120,35 @@ function initSidebar(){
 initSidebar();
 
 /* =========================
-   SOUS-ONGLETS (contenu)
+   SOUS-ONGLETS (ROBUSTE – multi-niveaux)
 ========================= */
 function initSubtabs(sectionId){
-  const section = $("#"+sectionId);
+  const section = document.getElementById(sectionId);
   if (!section) return;
-  section.querySelectorAll(".subtabs li").forEach(tab=>{
-    tab.addEventListener("click", ()=>{
-      const sub = tab.getAttribute("data-sub");
-      activateSubtab(section, sub);
-      syncSidebarTree(sectionId, sub);
 
-      // Activer visuellement le parent dans la sidebar
-      $$(".sidebar li").forEach(i => i.classList.remove("active"));
-      const parent = document.querySelector(`.sidebar li.has-children[data-section="${sectionId}"]`);
-      parent?.classList.add("active");
+  // Pour CHAQUE groupe de subtabs dans la section
+  section.querySelectorAll(".subtabs").forEach(subtabs => {
+    const panelsContainer = subtabs.nextElementSibling;
+
+    if (!panelsContainer || !panelsContainer.classList.contains("subpanels")) return;
+
+    const tabs = subtabs.querySelectorAll("li");
+    const panels = panelsContainer.querySelectorAll(".subpanel");
+
+    tabs.forEach(tab => {
+      tab.addEventListener("click", () => {
+        const sub = tab.getAttribute("data-sub");
+        const target = panelsContainer.querySelector(`#${sub}`);
+        if (!target) return;
+
+        // Reset local uniquement
+        tabs.forEach(t => t.classList.remove("active"));
+        panels.forEach(p => p.classList.remove("active"));
+
+        // Activation ciblée
+        tab.classList.add("active");
+        target.classList.add("active");
+      });
     });
   });
 }
