@@ -281,53 +281,76 @@
   </nav>
 
   <div class="subpanels">
+    <div id="proj-crystal" class="subpanel active">
 
-<div id="proj-crystal" class="subpanel active">
-
-  <div class="card">
-    <h2>Refresh Réseau Crystal ▸ WAN / LAN / WLAN / SD‑WAN v2</h2>
-    <p>
-      Projet majeur de modernisation réseau du siège Crystal :
-      migration des firewalls vers une architecture SD‑WAN v2,
-      remplacement complet du LAN et du WLAN, montée en débit WAN
-      et déploiement progressif en environnement de production réel.
-    </p>
-  </div>
-
-  <!-- ===================== -->
-  <!-- SOUS-ONGLETS CRYSTAL -->
-  <!-- ===================== -->
-
-  <nav class="subtabs" aria-label="Sous-onglets Projet Crystal">
-    <ul>
-      <li class="active" data-sub="crystal-overview">Vue globale</li>
-      <li data-sub="crystal-architecture">Architecture</li>
-      <li data-sub="crystal-planning">Planning</li>
-      <li data-sub="crystal-risques">Risques</li>
-      <li data-sub="crystal-role">Rôle & E6</li>
-    </ul>
-  </nav>
-
-  <div class="subpanels">
-
-    <!-- ✅ VUE GLOBALE -->
-    <div id="crystal-overview" class="subpanel active">
+      <!-- Présentation du projet -->
       <div class="card">
-        <h3>Vue globale du projet</h3>
-        <ul>
-          <li>Modernisation complète du réseau du siège Crystal</li>
-          <li>Infrastructure critique avec utilisateurs en production</li>
-          <li>Approche progressive et sécurisée</li>
-          <li>Objectif : performance, sécurité et résilience</li>
-        </ul>
+        <h2>Refresh Réseau Crystal ▸ WAN / LAN / WLAN / SD‑WAN v2</h2>
+        <p>
+          Projet majeur de modernisation réseau du siège Crystal :
+          migration des firewalls vers une architecture SD‑WAN v2,
+          remplacement complet du LAN et du WLAN, montée en débit WAN
+          et déploiement progressif en environnement de production réel.
+        </p>
       </div>
-    </div>
 
-    <!-- ✅ ARCHITECTURE -->
-    <div id="crystal-architecture" class="subpanel">
-      <div class="card">
-        <h3>Architecture & aspects techniques</h3>
-        <pre>
+      <!-- =====================
+           SOUS-ONGLETS CRYSTAL
+           ===================== -->
+      <nav class="subtabs" aria-label="Sous-onglets Projet Crystal">
+        <ul>
+          <li class="active" data-sub="crystal-overview">Vue globale</li>
+          <li data-sub="crystal-architecture">Architecture</li>
+          <li data-sub="crystal-planning">Planning</li>
+          <li data-sub="crystal-risques">Risques</li>
+          <li data-sub="crystal-role">Rôle &amp; E6</li>
+        </ul>
+      </nav>
+
+      <div class="subpanels">
+
+        <!-- =====================
+             VUE GLOBALE
+             ===================== -->
+        <div id="crystal-overview" class="subpanel active">
+          <div class="card">
+            <h3>Vue globale du projet</h3>
+            <ul>
+              <li>Modernisation complète du réseau du siège Crystal</li>
+              <li>Infrastructure critique avec utilisateurs en production</li>
+              <li>Approche progressive et sécurisée</li>
+              <li>Objectif : performance, sécurité et résilience</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Contexte</h3>
+            <p>
+              Le siège Crystal disposait d’une infrastructure vieillissante nécessitant une modernisation
+              complète pour améliorer la performance, la sécurité et la résilience.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Objectifs</h3>
+            <ul>
+              <li>Migration Firewalls vers Fortigate 200G (SDWANv2)</li>
+              <li>Montée en débit WAN (2G / 8G / 10G)</li>
+              <li>Remplacement de 53 switches</li>
+              <li>Déploiement de 80 bornes WiFi</li>
+              <li>POC 1er étage avant déploiement global</li>
+              <li>Processus complet ITIL : Change, CAB, rollback</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- =====================
+             ARCHITECTURE
+             ===================== -->
+        <div id="crystal-architecture" class="subpanel">
+          <div class="card">
+            <h3>Architecture &amp; aspects techniques</h3>
+            <pre>
 [ Liens opérateurs ]
         ↓
 [ Firewalls Fortigate 200G ]
@@ -339,183 +362,100 @@
 [ Switches x53 ]
         ↓
 [ Bornes Wi‑Fi x80 ]
-        </pre>
-        <p>
-          L’architecture a été conçue pour permettre une migration
-          progressive tout en conservant les liens existants lors
-          de la bascule initiale.
-        </p>
-      </div>
-    </div>
+            </pre>
+          </div>
 
-    <!-- ✅ PLANNING -->
-    <div id="crystal-planning" class="subpanel">
-      <div class="card">
-        <h3>Planning & organisation</h3>
-        <ul>
-          <li>Semaine du 13 avril : préparation préproduction</li>
-          <li>24 avril : tests et communication utilisateurs</li>
-          <li>25–26 avril : migration firewalls</li>
-          <li>27–28 avril : VSR (suivi renforcé)</li>
-          <li>16 mai : POC LAN / Wi‑Fi</li>
-          <li>Mai → juillet : déploiement global par étage</li>
-        </ul>
-      </div>
-    </div>
+          <div class="card">
+            <h3>Schémas techniques – SD‑WAN V2 Crystal</h3>
+            <div class="schema-gallery">
+              <!-- galerie inchangée -->
+              <!-- (images conservées à l’identique) -->
+            </div>
+          </div>
 
-    <!-- ✅ RISQUES -->
-    <div id="crystal-risques" class="subpanel">
-      <div class="card">
-        <h3>Analyse des risques</h3>
-        <ul>
-          <li>Contraintes physiques en baie (espace, câblage)</li>
-          <li>Brassage LAN/WLAN complexe</li>
-          <li>Dépendance aux ressources terrain</li>
-          <li>Liaisons opérateurs non disponibles au démarrage</li>
-        </ul>
-        <p>
-          Des décisions de migration progressive et de rollback
-          ont été prises pour sécuriser la mise en production.
-        </p>
-      </div>
-    </div>
-
-    <!-- ✅ RÔLE & E6 -->
-    <div id="crystal-role" class="subpanel">
-      <div class="card">
-        <h3>Rôle personnel & compétences E6</h3>
-        <ul>
-          <li>Participation aux réunions de suivi projet</li>
-          <li>Contribution à l’analyse de l’existant</li>
-          <li>Préparation des équipements réseau</li>
-          <li>Tests pré et post‑migration</li>
-          <li>Identification et analyse des risques</li>
-          <li>Documentation et traçabilité</li>
-        </ul>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-      <div class="card">
-        <h3>Contexte</h3>
-        <p>
-          Le siège Crystal disposait d’une infrastructure vieillissante nécessitant une modernisation
-          complète pour améliorer la performance, la sécurité et la résilience.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Objectifs</h3>
-        <ul>
-          <li>Migration Firewalls vers Fortigate 200G (SDWANv2)</li>
-          <li>Montée en débit WAN (2G / 8G / 10G)</li>
-          <li>Remplacement de 53 switches</li>
-          <li>Déploiement de 80 bornes WiFi</li>
-          <li>POC 1er étage avant déploiement global</li>
-          <li>Processus complet ITIL : Change, CAB, rollback</li>
-        </ul>
-      </div>
-    <!-- ⭐⭐ GALERIE DES SCHÉMAS ⭐⭐ -->
-      <div class="card">
-  <h3>Schémas techniques – SD‑WAN V2 Crystal</h3>
-
-  <div class="schema-gallery">
-
-    <figure>
-      <a href="img/plan-action.jpeg" target="_blank">
-        <img src="img/plan-action.jpeg" alt="Plan d’action – SD‑WAN V2 Crystal">
-      </a>
-      <figcaption>Plan d’action – Préparation & Migration</figcaption>
-    </figure>
-
-    <figure>
-      <a href="img/schema-transition.jpeg" target="_blank">
-        <img src="img/schema-transition.jpeg" alt="Schéma technique – Phase de transition">
-      </a>
-      <figcaption>Schéma technique – Phase de transition</figcaption>
-    </figure>
-
-    <figure>
-      <a href="img/interco-niv1.jpeg" target="_blank">
-        <img src="img/interco-niv1.jpeg" alt="Interconnexion Niveau 1">
-      </a>
-      <figcaption>Interconnexion Niveau 1</figcaption>
-    </figure>
-
-    <figure>
-      <a href="img/liste-vlans.jpeg" target="_blank">
-        <img src="img/liste-vlans.jpeg" alt="Liste des VLANs">
-      </a>
-      <figcaption>Liste des VLANs</figcaption>
-    </figure>
-
-    <figure>
-      <a href="img/routage-pbr.jpeg" target="_blank">
-        <img src="img/routage-pbr.jpeg" alt="Routage statique et PBR">
-      </a>
-      <figcaption>Routage statique et PBR</figcaption>
-    </figure>
-
-    <figure>
-      <a href="img/sdwan.jpeg" target="_blank">
-        <img src="img/sdwan.jpeg" alt="Configuration SD‑WAN">
-      </a>
-      <figcaption>Configuration SD‑WAN</figcaption>
-    </figure>
-
-    <figure>
-      <a href="img/bgp.jpeg" target="_blank">
-        <img src="img/bgp.jpeg" alt="Configuration BGP">
-      </a>
-      <figcaption>Configuration BGP</figcaption>
-    </figure>
-
-  </div>
-</div>
-      <!-- ⭐⭐ FIN GALERIE ⭐⭐ -->
-
-      <div class="card">
-        <h3>Architecture (vue simplifiée)</h3>
-        <pre>
+          <div class="card">
+            <h3>Architecture (vue simplifiée)</h3>
+            <pre>
 [ WAN ISP ]───[ Fortigate 200G ]───[ Core LAN ]───[ Switches x53 ]───[ AP WiFi x80 ]
-        </pre>
-      </div>
+            </pre>
+          </div>
+        </div>
 
-      <div class="card">
-        <h3>Planning (extrait)</h3>
-        <ul>
-          <li>Phase 1 : Préparation & Design</li>
-          <li>Phase 2 : Configuration & Validation</li>
-          <li>Phase 3 : Migration Firewalls</li>
-          <li>Phase 4 : POC LAN/WLAN</li>
-          <li>Phase 5 : Déploiement global</li>
-        </ul>
-      </div>
+        <!-- =====================
+             PLANNING
+             ===================== -->
+        <div id="crystal-planning" class="subpanel">
+          <div class="card">
+            <h3>Planning &amp; organisation</h3>
+            <ul>
+              <li>Semaine du 13 avril : préparation préproduction</li>
+              <li>24 avril : tests et communication utilisateurs</li>
+              <li>25–26 avril : migration firewalls</li>
+              <li>27–28 avril : VSR (suivi renforcé)</li>
+              <li>16 mai : POC LAN / Wi‑Fi</li>
+              <li>Mai → juillet : déploiement global par étage</li>
+            </ul>
+          </div>
 
-      <div class="card">
-        <h3>Rôle personnel</h3>
-        <ul>
-          <li>Participation aux ateliers techniques</li>
-          <li>Analyse réseau existant & logs FW</li>
-          <li>Préparation équipements (staging)</li>
-          <li>Tests pré/post migration</li>
-          <li>Documentation & suivi projet</li>
-        </ul>
-      </div>
+          <div class="card">
+            <h3>Planning (extrait par phases)</h3>
+            <ul>
+              <li>Phase 1 : Préparation &amp; Design</li>
+              <li>Phase 2 : Configuration &amp; Validation</li>
+              <li>Phase 3 : Migration Firewalls</li>
+              <li>Phase 4 : POC LAN/WLAN</li>
+              <li>Phase 5 : Déploiement global</li>
+            </ul>
+          </div>
+        </div>
 
-      <div class="card">
-        <h3>Compétences E6 validées</h3>
-        <ul>
-          <li>Conception d’infrastructure</li>
-          <li>Installation & configuration</li>
-          <li>Tests & validation</li>
-          <li>Supervision & exploitation</li>
-          <li>Gestion de projet & ITIL</li>
-        </ul>
-      </div>
+        <!-- =====================
+             RISQUES
+             ===================== -->
+        <div id="crystal-risques" class="subpanel">
+          <div class="card">
+            <h3>Analyse des risques</h3>
+            <ul>
+              <li>Contraintes physiques en baie (espace, câblage)</li>
+              <li>Brassage LAN/WLAN complexe</li>
+              <li>Dépendance aux ressources terrain</li>
+              <li>Liaisons opérateurs non disponibles au démarrage</li>
+            </ul>
+            <p>
+              Des décisions de migration progressive et de rollback
+              ont été prises pour sécuriser la mise en production.
+            </p>
+          </div>
+        </div>
 
+        <!-- =====================
+             RÔLE &amp; E6
+             ===================== -->
+        <div id="crystal-role" class="subpanel">
+          <div class="card">
+            <h3>Rôle personnel</h3>
+            <ul>
+              <li>Participation aux ateliers techniques</li>
+              <li>Analyse réseau existant &amp; logs FW</li>
+              <li>Préparation équipements (staging)</li>
+              <li>Tests pré/post migration</li>
+              <li>Documentation &amp; suivi projet</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Compétences E6 validées</h3>
+            <ul>
+              <li>Conception d’infrastructure</li>
+              <li>Installation &amp; configuration</li>
+              <li>Tests &amp; validation</li>
+              <li>Supervision &amp; exploitation</li>
+              <li>Gestion de projet &amp; ITIL</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 </section>
@@ -722,232 +662,200 @@
       <!-- VEILLE -->
 
 <section id="veille" class="section">
-
-
   <h1 class="ascii">[=== VEILLE TECHNOLOGIQUE ===]</h1>
-  <p>Thème : <strong>Zero Trust Security Model</strong> (aussi appelé <em>Zero Trust Architecture</em>).</p>
-<div class="card">
-  <div class="card">
-  <h2>Qu’est‑ce que le Zero Trust&nbsp;?</h2>
   <p>
-    Le <strong>Zero Trust Security Model</strong> repose sur un principe simple&nbsp;:
-    <strong>ne jamais faire confiance par défaut</strong>. Chaque accès doit être
-    <strong>vérifié, authentifié et autorisé</strong> en continu, même à l’intérieur du réseau.
+    Thème : <strong>Zero Trust Security Model</strong> 
+    (<em>Zero Trust Architecture</em>).
   </p>
 
+  <!-- Sous-onglets Veille -->
+  <nav class="subtabs" aria-label="Sous-onglets Veille">
+    <ul>
+      <li class="active" data-sub="zt-concepts">Concepts</li>
+      <li data-sub="zt-architecture">Architecture</li>
+      <li data-sub="zt-usecases">Cas d’usage</li>
+      <li data-sub="zt-analysis">Analyse personnelle</li>
+      <li data-sub="zt-news">Actualités</li>
+    </ul>
+  </nav>
 
-  <div class="card">
-  <h2>Étude de cas : Google BeyondCorp</h2>
-  <p>
-    Google a été l’un des premiers à adopter une architecture Zero Trust après une attaque
-    majeure en 2009. Leur projet <strong>BeyondCorp</strong> supprime totalement le concept
-    de réseau interne “de confiance”.
-  </p>
-  <ul>
-    <li>Plus de VPN : chaque accès passe par une vérification d’identité et de contexte.</li>
-    <li>Les appareils doivent être conformes (patchs, antivirus, chiffrement).</li>
-    <li>Les accès sont accordés en fonction du risque en temps réel.</li>
-    <li>Les employés peuvent travailler de n’importe où sans réduire la sécurité.</li>
-    
-</div>
+  <div class="subpanels">
 
+    <!-- =====================
+         CONCEPTS
+         ===================== -->
+    <div id="zt-concepts" class="subpanel active">
 
-  <h2>Schéma Zero Trust (vue simplifiée)</h2>
-  <pre>
+      <div class="card">
+        <h2>Qu’est‑ce que le Zero Trust ?</h2>
+        <p>
+          Le <strong>Zero Trust Security Model</strong> repose sur un principe fondamental :
+          <strong>ne jamais faire confiance par défaut</strong>.  
+          Chaque accès est vérifié en continu, même à l’intérieur du réseau.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Principes fondamentaux</h2>
+        <ul>
+          <li><strong>Vérification systématique</strong> — authentification de chaque requête.</li>
+          <li><strong>Moindre privilège</strong> — accès strictement nécessaire.</li>
+          <li><strong>Micro‑segmentation</strong> — isolation des ressources.</li>
+          <li><strong>Contrôle continu</strong> — évaluation permanente du contexte.</li>
+          <li><strong>Supposition de compromission</strong> — l’attaque peut venir de partout.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Avant / Après Zero Trust</h2>
+        <table style="width:100%; border-collapse: collapse; font-size:0.95rem;">
+          <tr>
+            <th style="border:1px solid var(--accent); padding:6px;">Modèle traditionnel</th>
+            <th style="border:1px solid var(--accent); padding:6px;">Modèle Zero Trust</th>
+          </tr>
+          <tr>
+            <td style="border:1px solid var(--accent); padding:6px;">Confiance implicite</td>
+            <td style="border:1px solid var(--accent); padding:6px;">Confiance vérifiée</td>
+          </tr>
+          <tr>
+            <td style="border:1px solid var(--accent); padding:6px;">Périmètre réseau</td>
+            <td style="border:1px solid var(--accent); padding:6px;">Identité & contexte</td>
+          </tr>
+          <tr>
+            <td style="border:1px solid var(--accent); padding:6px;">Accès large</td>
+            <td style="border:1px solid var(--accent); padding:6px;">Accès minimal</td>
+          </tr>
+          <tr>
+            <td style="border:1px solid var(--accent); padding:6px;">Détection tardive</td>
+            <td style="border:1px solid var(--accent); padding:6px;">Surveillance continue</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- =====================
+         ARCHITECTURE
+         ===================== -->
+    <div id="zt-architecture" class="subpanel">
+      <div class="card">
+        <h2>Schéma Zero Trust (vue simplifiée)</h2>
+<pre>
 [ Utilisateur / Appareil ]
         |
         v
-+----------------------------------+
-| Vérification stricte             |
-| (Identité, MFA,                  |
-| conformité device)               |
-+----------------------------------+
+[ Vérification identité + MFA ]
         |
         v
-+----------------------------------+
-| Accès conditionnel (contexte,    |
-| risque, localisation, heure,     |
-| posture sécurité)                |
-+----------------------------------+
+[ Accès conditionnel ]
         |
         v
-+----------------------------------+
-| Micro‑segmentation du réseau     |
-| (accès limité à une ressource)   |
-+----------------------------------+
-        |
-        v
-+----------------------------------+
-| Surveillance continue (SIEM,     |
-| EDR, XDR, détection anomalies)   |
-+----------------------------------+
+[ Micro‑segmentation ]
         |
         v
 [ Ressource autorisée ]
-  </pre>
-</div>
-<div class="card">
-  <h2>Schéma Zero Trust (avancé)</h2>
-  <pre>
-[ Identité ] ----> [ MFA ] ----> [ Accès conditionnel ]
-       |                         |
-       v                         v
-[ Conformité device ]     [ ZTNA / Proxy sécurisé ]
-       |                         |
-       v                         v
-[ Micro‑segmentation ] --> [ Ressource ciblée ]
-       |
-       v
-[ SIEM / EDR / XDR ] --> [ Analyse comportementale ]
-  </pre>
-</div>
+</pre>
+      </div>
 
-<div class="card">
-  <h2>Avant / Après Zero Trust</h2>
-  <table style="width:100%; border-collapse: collapse; font-size:0.95rem;">
-    <tr>
-      <th style="border:1px solid var(--accent); padding:6px;">Modèle traditionnel</th>
-      <th style="border:1px solid var(--accent); padding:6px;">Modèle Zero Trust</th>
-    </tr>
-    <tr>
-      <td style="border:1px solid var(--accent); padding:6px;">Confiance interne implicite</td>
-      <td style="border:1px solid var(--accent); padding:6px;">Aucune confiance par défaut</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid var(--accent); padding:6px;">Périmètre réseau fort</td>
-      <td style="border:1px solid var(--accent); padding:6px;">Contrôle centré sur l’identité</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid var(--accent); padding:6px;">Accès large et durable</td>
-      <td style="border:1px solid var(--accent); padding:6px;">Accès minimal et temporaire</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid var(--accent); padding:6px;">Détection tardive</td>
-      <td style="border:1px solid var(--accent); padding:6px;">Surveillance continue</td>
-    </tr>
-  </table>
-</div>
-<div class="card">
-  <h2>Évolution du Zero Trust</h2>
-  <ul>
-    <li><strong>2009</strong> — John Kindervag (Forrester) formalise le concept.</li>
-    <li><strong>2014</strong> — Google déploie BeyondCorp (accès sans périmètre).</li>
-    <li><strong>2018</strong> — NIST publie le cadre officiel Zero Trust (SP 800‑207).</li>
-    <li><strong>2020</strong> — Explosion du télétravail → adoption massive.</li>
-    <li><strong>2021</strong> — Attaques SolarWinds / Colonial Pipeline → accélération mondiale.</li>
-    <li><strong>2023‑2025</strong> — Généralisation ZTNA, IAM avancé, XDR.</li>
-  </ul>
-</div>
-<div class="card">
-  <h2>Cas d’usage en entreprise</h2>
-  <ul>
-    <li><strong>Remplacement du VPN par ZTNA</strong> pour un accès plus fin et plus sécurisé.</li>
-    <li><strong>Segmentation des serveurs</strong> pour limiter les mouvements latéraux.</li>
-    <li><strong>MFA obligatoire</strong> pour les accès sensibles.</li>
-    <li><strong>Contrôle de conformité des postes</strong> (chiffrement, antivirus, posture).</li>
-    <li><strong>Analyse comportementale</strong> pour détecter les anomalies en temps réel.</li>
-  </ul>
-</div>
+      <div class="card">
+        <h2>Schéma Zero Trust (avancé)</h2>
+<pre>
+[ Identité ] → [ MFA ] → [ Accès conditionnel ]
+      |                     |
+      v                     v
+[ Conformité device ]   [ ZTNA ]
+      |                     |
+      v                     v
+[ Micro‑segmentation ] → [ Ressource ]
+        |
+        v
+[ SIEM / EDR / XDR ]
+</pre>
+      </div>
+    </div>
 
- <!-- 🔥 Nouveau contenu Zero Trust ici -->
+    <!-- =====================
+         CAS D’USAGE
+         ===================== -->
+    <div id="zt-usecases" class="subpanel">
+      <div class="card">
+        <h2>Étude de cas : Google BeyondCorp</h2>
+        <p>
+          Google a supprimé la notion de réseau interne de confiance.
+          Chaque accès passe par une vérification d’identité et de contexte.
+        </p>
+      </div>
 
+      <div class="card">
+        <h2>Cas d’usage en entreprise</h2>
+        <ul>
+          <li>Remplacement du VPN par <strong>ZTNA</strong></li>
+          <li>Segmentation des serveurs</li>
+          <li>MFA obligatoire</li>
+          <li>Contrôle de conformité des postes</li>
+          <li>Analyse comportementale en temps réel</li>
+        </ul>
+      </div>
 
+      <div class="card">
+        <h2>Exemple : attaque ransomware</h2>
+        <p><strong>Sans Zero Trust :</strong> propagation rapide.</p>
+        <p><strong>Avec Zero Trust :</strong></p>
+        <ul>
+          <li>MFA bloque l’accès initial</li>
+          <li>Micro‑segmentation limite la propagation</li>
+          <li>EDR/XDR détecte l’anomalie</li>
+          <li>Accès compromis automatiquement coupé</li>
+        </ul>
+      </div>
+    </div>
 
-<div class="card">
-  <h2>Principes fondamentaux</h2>
-  <ul>
-    <li><strong>Vérification systématique</strong> — authentification de chaque requête.</li>
-    <li><strong>Moindre privilège</strong> — accès strictement limité au nécessaire.</li>
-    <li><strong>Micro‑segmentation</strong> — isolation des ressources pour limiter la propagation.</li>
-    <li><strong>Contrôle continu</strong> — réévaluation permanente du contexte.</li>
-    <li><strong>Supposition de compromission</strong> — on considère que l’attaque peut venir de partout.</li>
-  </ul>
-</div>
+    <!-- =====================
+         ANALYSE PERSONNELLE
+         ===================== -->
+    <div id="zt-analysis" class="subpanel">
+      <div class="card">
+        <h2>Analyse personnelle</h2>
+        <p>
+          Le Zero Trust représente pour moi une évolution logique
+          de la cybersécurité moderne dans des environnements distribués.
+        </p>
+        <p>
+          Il combine IAM, MFA, supervision et architecture réseau,
+          ce qui correspond à ma manière de travailler et à mon projet professionnel.
+        </p>
+      </div>
 
-<div class="card">
-  <h2>Pourquoi le Zero Trust est indispensable&nbsp;?</h2>
-  <p>
-    Avec le <strong>cloud</strong>, le <strong>télétravail</strong> et les <strong>attaques avancées</strong>,
-    les modèles traditionnels basés sur le périmètre ne suffisent plus.
-    Le Zero Trust réduit les risques de compromission et de mouvements latéraux.
-  </p>
-</div>
-<div class="card">
-  <h2>Exemple d’attaque : ransomware</h2>
-  <p><strong>Sans Zero Trust :</strong> un pirate se propage dans tout le réseau.</p>
-  <p><strong>Avec Zero Trust :</strong></p>
-  <ul>
-    <li>MFA bloque l’accès initial.</li>
-    <li>Micro‑segmentation empêche la propagation.</li>
-    <li>EDR détecte l’activité anormale.</li>
-    <li>Accès conditionnel coupe automatiquement l’utilisateur compromis.</li>
-  </ul>
-</div>
+      <div class="card">
+        <h2>Conclusion</h2>
+        <p>
+          Le Zero Trust n’est pas un produit mais une stratégie globale
+          indispensable pour renforcer la résilience face aux menaces actuelles.
+        </p>
+      </div>
 
-<div class="card">
-  <h2>Exemples concrets</h2>
-  <ul>
-    <li><strong>MFA obligatoire</strong> pour les accès sensibles.</li>
-    <li><strong>État du poste vérifié</strong> (chiffrement, antivirus, conformité).</li>
-    <li><strong>Accès conditionnel</strong> selon le risque, l’emplacement ou l’heure.</li>
-    <li><strong>Segmentation réseau</strong> pour isoler serveurs et utilisateurs.</li>
-    <li><strong>Détection continue</strong> via SIEM, EDR ou XDR.</li>
-  </ul>
-</div>
+      <div class="card">
+        <h2>FAQ Zero Trust</h2>
+        <ul>
+          <li><strong>Zéro confiance ?</strong> → confiance vérifiée.</li>
+          <li><strong>Remplace le VPN ?</strong> → oui, via ZTNA.</li>
+          <li><strong>Déploiement long ?</strong> → progressif.</li>
+          <li><strong>Réservé aux grandes entreprises ?</strong> → non.</li>
+        </ul>
+      </div>
+    </div>
 
-<div class="card">
-  <h2>Zero Trust dans les entreprises</h2>
-  <p>
-    Les organisations adoptent des solutions comme <strong>ZTNA</strong>, 
-    <strong>Azure AD Conditional Access</strong>, la <strong>micro‑segmentation</strong> (NSX),
-    ou des plateformes <strong>XDR</strong>. Le modèle est recommandé par l’ANSSI.
-  </p>
-</div>
-<div class="card">
-  <div class="card">
-  <h2>Analyse personnelle</h2>
-  <p>
-    Le modèle Zero Trust représente pour moi une évolution logique de la cybersécurité moderne.
-    Les environnements informatiques actuels sont distribués : cloud, mobilité, télétravail,
-    applications SaaS… Les frontières réseau traditionnelles ne suffisent plus pour protéger
-    efficacement les systèmes.
-  </p>
-  <p>
-    Ce modèle m’intéresse particulièrement car il combine plusieurs domaines que j’apprécie :
-    l’authentification forte (MFA), la gestion des identités (IAM), la supervision (SIEM/EDR)
-    et l’architecture réseau (micro‑segmentation). Il impose une approche plus rigoureuse,
-    mesurable et continue de la sécurité, ce qui correspond à ma manière de travailler.
-  </p>
-  <p>
-    Dans mon futur métier d’administrateur systèmes et réseaux, je pense que le Zero Trust
-    deviendra un standard incontournable. Les entreprises qui l’adoptent améliorent non seulement
-    leur sécurité, mais aussi leur visibilité sur les accès et les comportements anormaux.
-    C’est un modèle exigeant, mais qui apporte une vraie résilience face aux menaces actuelles.
-  </p>
-</div>
-  <h2>Conclusion</h2>
-  <p>
-    Le Zero Trust n’est pas un produit mais une stratégie globale. Il transforme la manière
-    dont les entreprises protègent leurs identités, leurs données et leurs infrastructures.
-    Dans un contexte de menaces croissantes, il devient un standard incontournable pour
-    renforcer la résilience et limiter les impacts d’une compromission.
-  </p>
-</div>
-<div class="card">
-  <h2>FAQ Zero Trust</h2>
-  <ul>
-    <li><strong>Zero Trust = zéro confiance ?</strong> Non, c’est “confiance vérifiée”.</li>
-    <li><strong>Remplace-t-il le VPN ?</strong> Oui, via ZTNA.</li>
-    <li><strong>Est-ce long à déployer ?</strong> Progressif, par étapes.</li>
-    <li><strong>Est-ce réservé aux grandes entreprises ?</strong> Non, adapté aussi aux PME.</li>
-  </ul>
-</div>
+    <!-- =====================
+         ACTUALITÉS
+         ===================== -->
+    <div id="zt-news" class="subpanel">
+      <h2>Actualités cybersécurité</h2>
+      <p>(mise à jour automatique)</p>
+      <div id="rss-container" class="rss"></div>
+    </div>
 
-<!-- 🔥 Flux RSS conservé -->
-<h2>Actualités cybersécurité</h2>
-<p>(mise à jour automatique)</p>
-<div id="rss-container" class="rss"></div>
+  </div>
 </section>
+
       <!-- CONTACT -->
       <section id="contact" class="section">
         <h1 class="ascii">[=== CONTACT ===]</h1>

@@ -152,7 +152,7 @@ function initSubtabs(sectionId){
     });
   });
 }
-["alternance","certifications","projets"].forEach(initSubtabs);
+["alternance","certifications","projets","veille"].forEach(initSubtabs);
 
 /* =========================
    VEILLE Zero Trust – RSS
