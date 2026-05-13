@@ -38,12 +38,19 @@ body {
   text-shadow: 0 0 10px var(--accent);
 }
 .sidebar ul{ list-style: none; padding: 0; margin: 0; }
-.sidebar li{
-  padding: 12px; margin-bottom: 10px; cursor: pointer;
-  color: #b3fff5; border-left: 3px solid transparent;
-  transition: background .15s ease, border-color .15s ease;
+.sidebar li {
+  padding: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #b3fff5;
+  border-left: 3px solid transparent;
+
+  transition: all 0.2s ease; /* ✅ AJOUT */
 }
-.sidebar li:hover{ background: rgba(51,230,204,0.12); border-left: 3px solid var(--accent); }
+.sidebar li:hover {
+  transform: translateX(5px);
+  background: rgba(51,230,204,0.1);
+}
 .sidebar li.active{ background: rgba(51,230,204,0.22); border-left: 3px solid var(--accent); box-shadow: 0 0 10px rgba(51,230,204,0.35) inset; }
 
 /* Titre non cliquable au-dessus du jeu */
@@ -104,18 +111,22 @@ body {
 .ascii{
   font-size: 1.4rem; margin: 0 0 16px;
   color: var(--accent); text-shadow: 0 0 8px rgba(51,230,204,0.7);
+  animation: flicker 2.5s infinite;
 }
 
-.card{
+.card {
   border: 1px solid var(--accent);
   border-radius: 6px;
   background: rgba(51,230,204,0.06);
-  padding: 14px 16px; margin: 14px 0;
+  padding: 14px 16px;
+  margin: 14px 0;
+  transition: all 0.25s ease;
 }
 
-a{ color: var(--accent); text-decoration: none; }
-a:hover{ text-decoration: underline; }
-
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px rgba(51,230,204,0.4);
+}
 /* Sous-onglets dans les sections (+ mini anim) */
 .subtabs{ margin: 6px 0 14px; }
 .subtabs ul{ display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 0; }
@@ -124,22 +135,53 @@ a:hover{ text-decoration: underline; }
   border: 1px solid var(--accent); border-radius: 8px;
   background: rgba(51,230,204,0.06); color: #b3fff5; cursor: pointer;
   transition: background .15s ease, box-shadow .15s ease;
+  .subtabs li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(51,230,204,0.3);
+}
 }
 .subtabs li::after{
   content:""; position: absolute; left: 12px; right: 12px; bottom: 6px;
   height: 2px; background: var(--accent); transform: scaleX(0);
   transform-origin: left; transition: transform .18s ease; opacity: .85;
 }
-.subtabs li:hover, .subtabs li.active{ background: rgba(51,230,204,0.18); box-shadow: 0 0 10px rgba(51,230,204,0.25) inset; }
-.subtabs li.active::after{ transform: scaleX(1); }
+.subtabs li:hover,
+.subtabs li.active {
+  background: rgba(51,230,204,0.18);
+  box-shadow: 0 0 10px rgba(51,230,204,0.25) inset;
+}
+
+.subtabs li.active::after {
+  transform: scaleX(1);
+}
+
+/* ✅ Effet actif amélioré */
+.subtabs li.active {
+  border: 1px solid #00ffe0;
+  box-shadow: 0 0 8px rgba(0,255,200,0.6);
+}
+
 
 .subpanels{ margin-top: 6px; }
 .subpanel{ display: none; }
 .subpanel.active{ display: block; animation: reveal .25s ease forwards; }
-@keyframes reveal{
-  from{ opacity: 0; transform: translateY(6px); }
-  to  { opacity: 1; transform: translateY(0); }
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
+
+@keyframes flicker {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.85; }
+  100% { opacity: 1; }
+}
+
 
 /* ===== Boutons / HUD ===== */
 .btn{
@@ -150,8 +192,11 @@ a:hover{ text-decoration: underline; }
   cursor: pointer;
   padding: 6px 10px;
   margin-right: 6px;
+  transition: all 0.2s ease;
 }
-.btn:hover{ box-shadow: 0 0 12px rgba(51,230,204,.4); }
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(51,230,204,0.5);}
 .hud { display: inline-flex; gap: 16px; margin-left: 8px; }
 
 /* ===== Jeu Dino SIO ===== */
@@ -481,4 +526,13 @@ a:hover{ text-decoration: underline; }
   .burger-btn { display: none; }
   .mobile-overlay { display: none !important; }
   .sidebar { transform: none !important; }
+}
+/* ✨ Effet glow global */
+body {
+  animation: glowbg 6s infinite alternate;
+}
+
+@keyframes glowbg {
+  from { background-color: #000; }
+  to { background-color: #05080a; }
 }
