@@ -48,43 +48,66 @@ function syncSidebarTree(sectionId, subId){
 }
 
 function goTo(sectionId, subId=null){
+
   // Sections
   const sections = $$(".section");
   sections.forEach(s => s.classList.remove("active"));
+
   const sectionEl = $("#"+sectionId);
   if (!sectionEl) return;
   sectionEl.classList.add("active");
 
   // Jeu : pause/resume
   if (typeof dinoGame !== "undefined"){
-    if (sectionId === "jeu") dinoGame.resume(); else dinoGame.pause();
+    if (sectionId === "jeu") dinoGame.resume();
+    else dinoGame.pause();
   }
 
   // Sous-onglet
   const firstTab = sectionEl.querySelector(".subtabs li");
   const firstSub = firstTab?.getAttribute("data-sub");
+
   if (subId){
-    // On active le sous-onglet demandé
     activateSubtab(sectionEl, subId);
-} else {
-    // Sinon on active le premier onglet
+  } else {
     activateSubtab(sectionEl, firstSub);
     subId = firstSub;
-}
+  }
 
-  // Synchro tree
+  // Synchro sidebar
   syncSidebarTree(sectionId, subId);
-  // 📱 UX mobile : fermeture automatique du menu
+
+  // 📱 UX mobile : fermeture menu
   if (window.innerWidth <= 600) {
     document.querySelector(".sidebar")?.classList.remove("open");
     document.querySelector(".mobile-overlay")?.classList.remove("active");
   }
-}
+
+  // ✅ Fond dynamique
+  const body = document.body;
+
+  body.classList.remove(
+    "bg-home",
+    "bg-alternance",
+    "bg-certifications",
+    "bg-projets",
+    "bg-veille",
+    "bg-jeu",
+    "bg-apropos",
+    "bg-contact"
+  );
+
+body.classList.add("bg-" + sectionId);
+
+} // ✅ fermeture de goTo correcte
+
+
 
 /* =========================
    SIDEBAR (délégation)
 ========================= */
 function initSidebar(){
+
   const sidebar = $(".sidebar");
   if (!sidebar) return;
 
@@ -177,10 +200,10 @@ fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rssUrl}`)
       const p = document.createElement("p");
 
       p.innerHTML = `
-        <a href="${item.link}" target="_blank" style="color:#00ffe0; text-decoration:none;">
+        <a href="${item.link}" target="_blank" rel="noopener">
           ${item.title}
         </a><br>
-        <small style="color:#888;">
+        <small style="color:#666;">
           ${new Date(item.pubDate).toLocaleDateString()}
         </small>
       `;
@@ -196,7 +219,7 @@ fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rssUrl}`)
     console.error(error);
   });
 /* =========================
-   🎮 JEU – DINO SIO
+   🎮 JEU – DINO SIO (AMÉLIORÉ)
 ========================= */
 const dinoGame = (function(){
   const canvas = $("#dino-canvas");
@@ -214,15 +237,29 @@ const dinoGame = (function(){
 
   const levels = ["CP","CE1","CE2","CM1","CM2","6e","5e","4e","3e","Seconde","Première","Terminale"];
   const GROUND_Y = canvas.height - 30;
-  const DINO = { x: 40, y: GROUND_Y-30, w: 26, h: 30, vy: 0, onGround: true };
+  const DINO = { x: 40, y: GROUND_Y-30, w: 26, h: 30, vy: 0, onGround: true, eyeBlinkT: 0, scale: 1 };
   const GRAVITY = 1200, JUMP_VY = -520, OB_MIN_H = 22, OB_MAX_H = 46, OB_W = 22;
 
+  // Améliorations : High Score, Combo, Particules
   let running=false, paused=true, lastTs=0, speed=220, score=0, levelIx=0, spawnT=0, spawnDelay=1.4;
-  let obstacles=[];
+  let obstacles=[], combo=0, highScore=0, particles=[], flashTime=0, lastOmittedObstacle=0;
+
+  // Charger High Score depuis localStorage
+  function loadHighScore(){
+    const saved = localStorage.getItem("dinoHighScore");
+    return saved ? parseInt(saved) : 0;
+  }
+
+  function saveHighScore(){
+    if (score > highScore){ highScore=score; localStorage.setItem("dinoHighScore", score); }
+  }
+
+  highScore = loadHighScore();
 
   function reset(){
     running=false; paused=true; lastTs=0; speed=220; score=0; levelIx=0; spawnT=0; spawnDelay=1.4; obstacles=[];
-    DINO.y = GROUND_Y-30; DINO.vy=0; DINO.onGround=true; updateHUD(); clearMsg(); render(0);
+    combo=0; particles=[]; flashTime=0; lastOmittedObstacle=0;
+    DINO.y = GROUND_Y-30; DINO.vy=0; DINO.onGround=true; DINO.scale=1; updateHUD(); clearMsg(); render(0);
   }
   function start(){ if (running) return; running=true; paused=false; lastTs=performance.now(); requestAnimationFrame(loop); }
   function pause(){ paused=true; showMsg("⏸ Jeu en pause<br><small>Reviens quand tu veux&nbsp;!</small>"); }
@@ -231,39 +268,148 @@ const dinoGame = (function(){
   function loop(ts){ if (!running || paused) return; const dt=Math.min(0.032,(ts-lastTs)/1000); lastTs=ts; update(dt); render(); requestAnimationFrame(loop); }
 
   function update(dt){
-    score += Math.floor(dt * 100); updateProgression();
+    // Réduction flash de collision
+    if (flashTime > 0) flashTime -= dt;
+
+    score += Math.floor(dt * 100); 
+    
+    // Bonus combo
+    if (obstacles.length > 0 && obstacles[0].x < DINO.x && obstacles[0].x + obstacles[0].w < DINO.x && lastOmittedObstacle !== obstacles[0]){
+      combo++;
+      score += Math.floor(combo * 10);
+      lastOmittedObstacle = obstacles[0];
+    }
+
+    updateProgression();
     DINO.vy += GRAVITY * dt; DINO.y += DINO.vy * dt;
     if (DINO.y >= GROUND_Y - DINO.h){ DINO.y = GROUND_Y - DINO.h; DINO.vy=0; DINO.onGround=true; }
 
+    // Animation des yeux
+    DINO.eyeBlinkT += dt;
+    if (DINO.eyeBlinkT > 3) DINO.eyeBlinkT = 0;
+
     spawnT += dt;
     if (spawnT >= spawnDelay){
-      spawnT=0; const h=rnd(OB_MIN_H,OB_MAX_H);
-      obstacles.push({ x: canvas.width+20, y: GROUND_Y-h, w: OB_W, h, label: levels[levelIx] });
+      spawnT=0; 
+      const h=rnd(OB_MIN_H,OB_MAX_H);
+      const type = rnd(0,2); // 3 types d'obstacles
+      obstacles.push({ x: canvas.width+20, y: GROUND_Y-h, w: OB_W, h, label: levels[levelIx], type });
     }
     obstacles.forEach(o=> o.x -= speed*dt);
     obstacles = obstacles.filter(o=> o.x + o.w > -10);
 
+    // Mise à jour des particules
+    particles = particles.filter(p => {
+      p.life -= dt;
+      p.x += p.vx * dt;
+      p.y += p.vy * dt;
+      p.vy += 500 * dt; // Gravité
+      return p.life > 0;
+    });
+
     for (const o of obstacles){ if (intersect(DINO,o)){ gameOver(o.label); return; } }
+  }
+
+  function spawnParticles(x, y, count=6){
+    for (let i=0; i<count; i++){
+      const angle = (Math.PI*2 / count) * i;
+      const speed = rnd(150, 250);
+      particles.push({
+        x, y,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed - 100,
+        life: 0.6,
+        color: rnd(0,1) ? "#33e6cc" : "#7fe7ff"
+      });
+    }
+  }
+
+  function getObstacleColor(type){
+    const colors = ["#7fe7ff", "#ff6e7f", "#ffd93d"];
+    return colors[type % colors.length];
   }
 
   function render(){
     ctx.fillStyle="#0a1418"; ctx.fillRect(0,0,canvas.width,canvas.height);
+    
+    // Flash de collision
+    if (flashTime > 0){
+      const alpha = (flashTime / 0.3) * 0.3;
+      ctx.fillStyle=`rgba(255, 110, 127, ${alpha})`;
+      ctx.fillRect(0,0,canvas.width,canvas.height);
+    }
+
     ctx.strokeStyle="rgba(51,230,204,.35)";
     ctx.beginPath(); ctx.moveTo(0,GROUND_Y+0.5); ctx.lineTo(canvas.width,GROUND_Y+0.5); ctx.stroke();
 
-    ctx.fillStyle="#33e6cc"; ctx.fillRect(DINO.x,DINO.y,DINO.w,DINO.h);
-    ctx.fillStyle="#081116"; ctx.fillRect(DINO.x + DINO.w - 8, DINO.y + 6, 4, 4);
+    // ===== DINO AMÉLIORÉ =====
+    ctx.save();
+    ctx.translate(DINO.x + DINO.w/2, DINO.y + DINO.h/2);
+    ctx.scale(DINO.scale, DINO.scale);
+    
+    // Corps du dino
+    ctx.fillStyle="#33e6cc";
+    ctx.fillRect(-DINO.w/2, -DINO.h/2, DINO.w, DINO.h);
+    
+    // Yeux
+    const isBlinking = DINO.eyeBlinkT > 2.8 || (DINO.eyeBlinkT % 0.5 < 0.1);
+    ctx.fillStyle="#081116";
+    if (!isBlinking){
+      ctx.fillRect(-DINO.w/2 + 4, -DINO.h/2 + 4, 4, 4);
+      ctx.fillRect(-DINO.w/2 + 12, -DINO.h/2 + 4, 4, 4);
+    } else {
+      ctx.fillRect(-DINO.w/2 + 4, -DINO.h/2 + 6, 4, 2);
+      ctx.fillRect(-DINO.w/2 + 12, -DINO.h/2 + 6, 4, 2);
+    }
+    
+    ctx.restore();
 
-    ctx.fillStyle="#7fe7ff"; ctx.font="12px monospace";
+    // ===== OBSTACLES VARIÉS =====
     obstacles.forEach(o=>{
-      ctx.fillStyle="#7fe7ff"; ctx.fillRect(o.x,o.y,o.w,o.h);
-      ctx.fillStyle="#b3fff5"; ctx.fillText(o.label, o.x - 6, o.y - 6);
+      const color = getObstacleColor(o.type);
+      ctx.fillStyle=color;
+      ctx.fillRect(o.x,o.y,o.w,o.h);
+      
+      // Motif selon le type
+      ctx.strokeStyle="rgba(255,255,255,0.3)";
+      ctx.lineWidth=1;
+      if (o.type === 1){
+        ctx.beginPath();
+        ctx.moveTo(o.x, o.y + o.h/2);
+        ctx.lineTo(o.x + o.w, o.y + o.h/2);
+        ctx.stroke();
+      }
+      
+      ctx.fillStyle="#b3fff5"; 
+      ctx.font="bold 11px monospace";
+      ctx.fillText(o.label, o.x - 6, o.y - 6);
     });
 
-    ctx.fillStyle="rgba(0,0,0,.15)"; ctx.fillRect(canvas.width-160,8,152,40);
-    ctx.fillStyle="#cfe"; ctx.font="12px monospace";
+    // ===== PARTICULES =====
+    particles.forEach(p=>{
+      ctx.fillStyle=p.color;
+      ctx.globalAlpha = p.life / 0.6;
+      ctx.fillRect(p.x, p.y, 3, 3);
+    });
+    ctx.globalAlpha = 1;
+
+    // ===== HUD =====
+    ctx.fillStyle="rgba(0,0,0,.15)"; ctx.fillRect(canvas.width-160,8,152,60);
+    ctx.fillStyle="#cfe"; ctx.font="11px monospace";
     ctx.fillText("Score: "+score, canvas.width-150, 24);
     ctx.fillText("Niveau: "+levels[levelIx], canvas.width-150, 40);
+    ctx.fillText("Combo: "+combo, canvas.width-150, 56);
+    
+    // Afficher High Score si battu
+    if (score > highScore){
+      ctx.fillStyle="#ffd93d";
+      ctx.font="bold 11px monospace";
+      ctx.fillText("🔥 NEW HIGH!", canvas.width-150, 72);
+    } else {
+      ctx.fillStyle="#999";
+      ctx.font="10px monospace";
+      ctx.fillText("High: "+highScore, canvas.width-150, 72);
+    }
   }
 
   function updateProgression(){
@@ -282,7 +428,10 @@ const dinoGame = (function(){
 
   function gameOver(label){
     running=false; paused=true;
-    showMsg(`💥 Aïe… tu as buté sur <strong>${label}</strong>.<br><small>⟲ Rejoue pour viser la Terminale.</small>`);
+    flashTime = 0.3;
+    spawnParticles(DINO.x + DINO.w/2, DINO.y + DINO.h/2, 8);
+    saveHighScore();
+    showMsg(`💥 Aïe… tu as buté sur <strong>${label}</strong>.<br>Combo: <strong>${combo}</strong> | Score: <strong>${score}</strong><br><small>⟲ Rejoue pour viser la Terminale!</small>`);
   }
 
   function showMsg(html){ if (!msgEl) return; msgEl.innerHTML=html; msgEl.classList.remove("hidden"); }
@@ -291,7 +440,7 @@ const dinoGame = (function(){
   function intersect(a,b){ return a.x < b.x+b.w && a.x+a.w > b.x && a.y < b.y+b.h && a.y+a.h > b.y; }
   function rnd(min,max){ return Math.floor(Math.random()*(max-min+1))+min; }
 
-  function jump(){ if (!running) start(); if (DINO.onGround){ DINO.vy=-520; DINO.onGround=false; } }
+  function jump(){ if (!running) start(); if (DINO.onGround){ DINO.vy=-520; DINO.onGround=false; spawnParticles(DINO.x + DINO.w/2, GROUND_Y, 4); } }
   window.addEventListener("keydown", (e)=>{ if (e.code==="Space"||e.code==="ArrowUp"){ e.preventDefault(); jump(); } });
   canvas.addEventListener("pointerdown", jump);
 
@@ -304,11 +453,17 @@ const dinoGame = (function(){
   reset();
   return { resume, pause, reset };
 })();
-/* =========================
-   AU CHARGEMENT
-========================= */
-document.addEventListener("DOMContentLoaded", ()=>{
+
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  // ✅ section active au départ
   const current = document.querySelector(".section.active")?.id || "home";
+
+  // ✅ applique le fond IMMEDIATEMENT
+  document.body.classList.add("bg-" + current);
+
+  // ✅ lance la logique complète
   goTo(current);
 
   // 🔥 IMPORTANT
@@ -347,7 +502,7 @@ async function loadTransdevRSS() {
 
           card.innerHTML = `
               <h4>${title}</h4>
-              <a href="${link}" target="_blank">Lire l'article</a>
+              <a href="${link}" target="_blank" rel="noopener">Lire l'article</a>
               <div class="carousel-date">${date}</div>
           `;
 
