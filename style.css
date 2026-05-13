@@ -166,53 +166,124 @@ a:active {
   box-shadow: 0 0 15px rgba(51,230,204,0.4);
 }
 /* Sous-onglets dans les sections (+ mini anim) */
-.subtabs{ margin: 6px 0 14px; }
-.subtabs ul{ display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 0; }
-.subtabs li{
+/* ===== SUBTABS PRO ===== */
+.subtabs {
+  margin: 20px 0 24px;
   position: relative;
-  padding: 8px 12px;
-  border: 1px solid var(--accent);
+}
+
+.subtabs ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: rgba(51, 230, 204, 0.03);
+  border: 1px solid rgba(51, 230, 204, 0.2);
+  border-radius: 12px;
+  padding: 8px;
+  backdrop-filter: blur(8px);
+}
+
+.subtabs li {
+  position: relative;
+  padding: 12px 20px;
+  border: 2px solid transparent;
   border-radius: 8px;
-  background: rgba(51,230,204,0.06);
+  background: rgba(51, 230, 204, 0.08);
   color: #b3fff5;
   cursor: pointer;
-  transition: background .15s ease, box-shadow .15s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  min-width: 120px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.subtabs li::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(51, 230, 204, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.subtabs li:hover::before {
+  left: 100%;
 }
 
 .subtabs li:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 0 10px rgba(51,230,204,0.3);
+  transform: translateY(-3px);
+  background: rgba(51, 230, 204, 0.15);
+  border-color: rgba(51, 230, 204, 0.4);
+  box-shadow: 0 8px 25px rgba(51, 230, 204, 0.3);
+  color: #e0fffb;
 }
 
-.subtabs li::after{
-  content:""; position: absolute; left: 12px; right: 12px; bottom: 6px;
-  height: 2px; background: var(--accent); transform: scaleX(0);
-  transform-origin: left; transition: transform .18s ease; opacity: .85;
-}
-.subtabs li:hover,
 .subtabs li.active {
-  background: rgba(51,230,204,0.18);
-  box-shadow: 0 0 10px rgba(51,230,204,0.25) inset;
+  background: linear-gradient(135deg, rgba(51, 230, 204, 0.2), rgba(51, 230, 204, 0.1));
+  border-color: var(--accent);
+  box-shadow: 0 0 20px rgba(51, 230, 204, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  font-weight: 600;
+  transform: translateY(-2px);
 }
 
 .subtabs li.active::after {
-  transform: scaleX(1);
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), #7fe7ff);
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(51, 230, 204, 0.6);
 }
 
-/* ✅ Effet actif amélioré */
-.subtabs li.active {
-  border: 1px solid #00ffe0;
-  box-shadow: 0 0 8px rgba(0,255,200,0.6);
+.subtabs li:active {
+  transform: translateY(-1px) scale(0.98);
+  transition: all 0.1s ease;
 }
 
+/* ===== SUBPANELS AMÉLIORÉS ===== */
+.subpanels {
+  margin-top: 16px;
+  position: relative;
+}
 
-.subpanels{ margin-top: 6px; }
-.subpanel{ display: none; }
-.subpanel.active{ display: block; animation: reveal .25s ease forwards; }
-@keyframes reveal {
+.subpanel {
+  display: none;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subpanel.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  animation: slideInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes slideInUp {
   from {
     opacity: 0;
-    transform: translateY(15px);
+    transform: translateY(30px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
   }
   to {
     opacity: 1;
