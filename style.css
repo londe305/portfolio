@@ -334,66 +334,7 @@ a:hover{ text-decoration: underline; }
   from {opacity: 0; transform: translateY(10px);}
   to {opacity: 1; transform: translateY(0);}
 }
-  .sidebar.open {
-    left: 0;
-  }
-
-  /* Bouton burger */
-  .burger-btn {
-    position: fixed;
-    top: 12px;
-    left: 12px;
-    font-size: 28px;
-    background: #111;
-    color: #33e6cc;
-    border: none;
-    padding: 6px 10px;
-    border-radius: 6px;
-    z-index: 10000;
-    cursor: pointer;
-  }
-
-  /* Terminal */
-  .terminal {
-    margin-left: 0;
-    padding: 10px;
-  }
-
-  .terminal-header {
-    padding-left: 50px; /* espace pour le burger */
-  }
-
-  /* Sections */
-  .section {
-    padding: 10px;
-  }
-
-  /* Subtabs */
-  .subtabs ul {
-    flex-wrap: wrap;
-    gap: 6px;
-  }
-
-  /* E6 */
-  .e6-grid {
-    grid-template-columns: 1fr !important;
-  }
-
-  .e6-subgrid {
-    grid-template-columns: 1fr !important;
-  }
-
-  /* Jeu Dino */
-  #dino-canvas {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  /* RSS carousel */
-  .carousel-container {
-    width: 100%;
-  }
-
+ 
 @media (min-width: 601px) {
     .burger-btn { display: none; }
     .mobile-overlay { display: none !important; }
