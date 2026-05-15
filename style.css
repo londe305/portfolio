@@ -201,7 +201,7 @@ a:active {
 .card {
   border: 1px solid var(--border);
   border-radius: 12px;
-  background: rgba(20, 32, 24, 0.78);
+  background: rgba(20, 32, 24, 0.3);
   padding: 18px 20px;
   margin: 16px 0;
   transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
@@ -211,6 +211,20 @@ a:active {
   transform: translateY(-2px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
   border-color: rgba(181, 155, 65, 0.35);
+}
+
+/* Cartes imbriquées : enlever le style pour éviter l'emboîtement */
+.card .card {
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 8px 0;
+  box-shadow: none;
+}
+
+.card .card:hover {
+  transform: none;
+  box-shadow: none;
 }
 /* Sous-onglets dans les sections (design simplifié) */
 /* ===== SUBTABS (Design plat inspiré, plus stable) ===== */
@@ -226,7 +240,7 @@ a:active {
   list-style: none;
   padding: 10px;
   margin: 0;
-  background: rgba(25, 40, 32, 0.85);
+  background: rgba(25, 40, 32, 0.5);
   border: 1px solid var(--border);
   border-radius: 16px;
 }
@@ -275,7 +289,7 @@ a:active {
   margin-top: 14px;
   position: relative;
   padding: 16px;
-  background: rgba(18, 30, 22, 0.72);
+  background: rgba(18, 30, 22, 0.4);
   border: 1px solid var(--border);
   border-radius: 18px;
 }
@@ -289,12 +303,26 @@ a:active {
 
 /* ===== Projets : style particulier ===== */
 #projets .card {
-  background: rgba(23, 36, 28, 0.96);
+  background: rgba(23, 36, 28, 0.4);
   border-color: rgba(181, 155, 65, 0.18);
 }
 
+/* Cartes imbriquées dans les sous-panneaux du projet Crystal */
+#projets .subpanels .subpanels .card {
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 12px 0;
+  box-shadow: none;
+}
+
+#projets .subpanels .subpanels .card:hover {
+  transform: none;
+  box-shadow: none;
+}
+
 #projets .subtabs ul {
-  background: rgba(23, 36, 28, 0.96);
+  background: rgba(23, 36, 28, 0.5);
   border-color: rgba(181, 155, 65, 0.18);
 }
 
@@ -308,7 +336,7 @@ a:active {
 }
 
 #projets .subpanels {
-  background: rgba(17, 28, 20, 0.96);
+  background: rgba(17, 28, 20, 0.4);
   padding: 18px;
   border-color: rgba(181, 155, 65, 0.16);
 }
@@ -685,7 +713,7 @@ a:active {
 .schema-gallery figure {
   border: 1px solid rgba(181, 155, 65, 0.16);
   border-radius: 8px;
-  background: rgba(28, 42, 34, 0.85);
+  background: rgba(28, 42, 34, 0.5);
   padding: 10px;
   text-align: center;
 }
@@ -720,7 +748,7 @@ a:active {
   margin: 20px auto;
   overflow: hidden;
   border-radius: 16px;
-  background: rgba(25, 37, 30, 0.8);
+  background: rgba(25, 37, 30, 0.5);
   border: 1px solid rgba(181, 155, 65, 0.14);
   backdrop-filter: blur(10px);
 }
@@ -734,7 +762,7 @@ a:active {
 .carousel-item {
   flex: 0 0 100%;
   min-width: 0;
-  background: rgba(5, 6, 8, 0.8);
+  background: rgba(5, 6, 8, 0.4);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
@@ -780,7 +808,7 @@ a:active {
 
 .carousel-content {
   padding: 20px;
-  background: linear-gradient(135deg, rgba(5, 6, 8, 0.95), rgba(5, 6, 8, 0.98));
+  background: linear-gradient(135deg, rgba(5, 6, 8, 0.8), rgba(5, 6, 8, 0.85));
 }
 
 .carousel-content h4 {
