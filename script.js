@@ -5,13 +5,29 @@ const $$ = (s, r=document)=> Array.from(r.querySelectorAll(s));
 /* =========================
    FONCTIONS PARTAGÉES
 ========================= */
-function activateSubtab(sectionEl, subId){
-  const tabs   = $$(".subtabs li", sectionEl);
-  const panels = $$(".subpanel", sectionEl);
-  tabs.forEach(t => t.classList.remove("active"));
-  panels.forEach(p => p.classList.remove("active"));
-  sectionEl.querySelector(`.subtabs li[data-sub="${subId}"]`)?.classList.add("active");
-  sectionEl.querySelector("#"+subId)?.classList.add("active");
+// Activation d'un groupe de subtabs (groupe = element .subtabs)
+function activateSubtabGroup(subtabsEl, subId){
+  if (!subtabsEl) return false;
+  const panelsContainer = subtabsEl.nextElementSibling;
+  if (!panelsContainer || !panelsContainer.classList.contains('subpanels')) return false;
+  const esc = (s) => (window.CSS && CSS.escape) ? CSS.escape(s) : s;
+
+  const tabs = Array.from(subtabsEl.querySelectorAll('li'));
+  const panels = Array.from(panelsContainer.querySelectorAll('.subpanel'));
+  tabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected','false'); });
+  panels.forEach(p => p.classList.remove('active'));
+
+  // Determine subId: passed > stored on group > first
+  if (!subId) subId = subtabsEl.dataset.activeSub || tabs[0]?.getAttribute('data-sub') || null;
+  if (!subId) return false;
+
+  const tab = subtabsEl.querySelector(`li[data-sub="${esc(subId)}"]`);
+  const panel = panelsContainer.querySelector(`#${esc(subId)}`);
+  if (tab) { tab.classList.add('active'); tab.setAttribute('aria-selected','true'); }
+  if (panel) panel.classList.add('active');
+
+  subtabsEl.dataset.activeSub = subId;
+  return true;
 }
 
 function setTreeOpen(parentLi, open){
@@ -64,23 +80,25 @@ function goTo(sectionId, subId=null){
   }
 
   // Sous-onglet
-  const firstTab = sectionEl.querySelector(".subtabs li");
-  const firstSub = firstTab?.getAttribute("data-sub");
-
+  // Sous-onglets : gérer chaque groupe indépendamment
+  let resolvedSub = null;
+  const groups = Array.from(sectionEl.querySelectorAll('.subtabs'));
   if (subId){
-    activateSubtab(sectionEl, subId);
+    // essayer d'activer le groupe qui contient ce subId
+    for (const g of groups){
+      const ok = activateSubtabGroup(g, subId);
+      if (ok) { resolvedSub = subId; break; }
+    }
+    // fallback : si non trouvé, initialiser tous les groupes
+    if (!resolvedSub) groups.forEach(g => activateSubtabGroup(g, null));
   } else {
-    activateSubtab(sectionEl, firstSub);
-    subId = firstSub;
+    // initialiser chaque groupe (utilise stockage local du groupe ou premier)
+    groups.forEach(g => { activateSubtabGroup(g, null); if (!resolvedSub) resolvedSub = g.dataset.activeSub || resolvedSub; });
+    subId = resolvedSub;
   }
 
   // Synchro sidebar
   syncSidebarTree(sectionId, subId);
-
-  // Flux dédié Transdev
-  if (sectionId === "alternance" && subId === "alt-transdev") {
-    loadTransdevRSS();
-  }
 
   // 📱 UX mobile : fermeture menu
   if (window.innerWidth <= 600) {
@@ -158,31 +176,36 @@ initSidebar();
 function initSubtabs(sectionId){
   const section = document.getElementById(sectionId);
   if (!section) return;
-
   // Pour CHAQUE groupe de subtabs dans la section
   section.querySelectorAll(".subtabs").forEach(subtabs => {
     const panelsContainer = subtabs.nextElementSibling;
-
     if (!panelsContainer || !panelsContainer.classList.contains("subpanels")) return;
 
-    const tabs = subtabs.querySelectorAll("li");
-    const panels = panelsContainer.querySelectorAll(".subpanel");
-
-    tabs.forEach(tab => {
-      tab.addEventListener("click", () => {
-        const sub = tab.getAttribute("data-sub");
-        const target = panelsContainer.querySelector(`#${sub}`);
-        if (!target) return;
-
-        // Reset local uniquement
-        tabs.forEach(t => t.classList.remove("active"));
-        panels.forEach(p => p.classList.remove("active"));
-
-        // Activation ciblée
-        tab.classList.add("active");
-        target.classList.add("active");
-      });
+    // Accessibilité
+    subtabs.setAttribute('role','tablist');
+    Array.from(subtabs.querySelectorAll('li')).forEach(li => {
+      li.setAttribute('role','tab');
+      li.setAttribute('aria-selected', li.classList.contains('active') ? 'true' : 'false');
+      const sub = li.getAttribute('data-sub');
+      if (sub) li.setAttribute('aria-controls', sub);
     });
+
+    // Délégation d'événements : plus robuste que listeners par onglet
+    subtabs.addEventListener('click', (e) => {
+      const li = e.target.closest('li');
+      if (!li || !subtabs.contains(li)) return;
+      const sub = li.getAttribute('data-sub');
+      if (!sub) return;
+      // Activation centrale sur ce groupe
+      const ok = activateSubtabGroup(subtabs, sub);
+      // Mise à jour du sidebar si activé
+      if (ok && section && section.id) syncSidebarTree(section.id, sub);
+    });
+
+    // Initialisation : utiliser le sous-onglet stocké ou actif ou le premier
+    const stored = subtabs.dataset.activeSub;
+    const initial = stored || subtabs.querySelector('li.active')?.getAttribute('data-sub') || subtabs.querySelector('li')?.getAttribute('data-sub');
+    if (initial) activateSubtabGroup(subtabs, initial);
   });
 }
 ["alternance","certifications","projets","veille"].forEach(initSubtabs);
@@ -192,11 +215,58 @@ function initSubtabs(sectionId){
 ========================= */
 
 async function fetchRSSFeed(url) {
-  const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}&count=6`, {
-    cache: 'no-cache'
-  });
-  if (!response.ok) throw new Error(`Feed fetch failed: ${response.status}`);
-  return response.json();
+  const rss2jsonUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}&count=6`;
+
+  try {
+    const response = await fetch(rss2jsonUrl, { cache: 'no-cache' });
+    if (response.ok) {
+      const data = await response.json();
+      if (data.status === 'ok' && Array.isArray(data.items)) {
+        return { items: data.items.map(item => ({
+          title: item.title || 'Sans titre',
+          link: item.link || item.guid || '#',
+          pubDate: item.pubDate || item.pubDate || '',
+          source: item.source?.name || ''
+        })) };
+      }
+    }
+  } catch (error) {
+    console.debug('rss2json unavailable:', error);
+  }
+
+  // Fallback via proxy (tolérant) — ne pas lever d'exception, retourner items vides en cas d'erreur
+  try {
+    const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
+    const proxyResponse = await fetch(proxyUrl, { cache: 'no-cache' });
+    if (!proxyResponse.ok) {
+      console.debug('proxy fetch failed', proxyResponse.status);
+      return { items: [] };
+    }
+    const text = await proxyResponse.text();
+    const xml = new DOMParser().parseFromString(text, 'text/xml');
+    if (xml.querySelector('parsererror')) {
+      console.debug('Invalid XML from RSS source');
+      return { items: [] };
+    }
+
+    const items = Array.from(xml.querySelectorAll('item,entry')).slice(0, 6).map(entry => {
+      const title = entry.querySelector('title')?.textContent?.trim() || 'Sans titre';
+      const linkNode = entry.querySelector('link');
+      let link = linkNode?.textContent?.trim() || linkNode?.getAttribute('href')?.trim() || '#';
+      if (!link) {
+        const alt = entry.querySelector('link[rel="alternate"]');
+        link = alt?.getAttribute('href')?.trim() || '#';
+      }
+      const pubDate = entry.querySelector('pubDate')?.textContent?.trim() || entry.querySelector('published')?.textContent?.trim() || entry.querySelector('updated')?.textContent?.trim() || '';
+      return { title, link, pubDate, source: '' };
+    });
+
+    return { items };
+  } catch (e) {
+    console.debug('proxy fallback failed', e);
+    return { items: [] };
+  }
+  
 }
 
 async function loadVeilleRSS() {
@@ -214,7 +284,7 @@ async function loadVeilleRSS() {
     fetchRSSFeed(feed.url)
       .then(data => ({ success: true, feed, items: data.items || [] }))
       .catch(error => {
-        console.warn(`${feed.name} indisponible`, error);
+        console.debug(`${feed.name} indisponible`, error);
         return { success: false, feed, items: [] };
       })
   );
@@ -234,7 +304,23 @@ async function loadVeilleRSS() {
   });
 
   if (!allItems.length) {
-    container.innerHTML = "⚠️ Aucun article disponible pour le moment.";
+    // Fallback : afficher des exemples locaux si les sources sont indisponibles
+    const sample = [
+      { title: 'Analyse : nouvelle vulnérabilité critique (exemple)', link: '#', pubDate: new Date().toISOString(), source: 'Exemple' },
+      { title: 'Tutoriel : durcir une connexion SSH', link: '#', pubDate: new Date().toISOString(), source: 'Exemple' },
+      { title: 'Outil recommandé : surveillance & alerting', link: '#', pubDate: new Date().toISOString(), source: 'Exemple' }
+    ];
+    container.innerHTML = '<div class="rss-fallback">⚠️ Flux externes indisponibles — affichage d’exemples.</div>';
+    sample.forEach(item => {
+      const p = document.createElement('p');
+      const date = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fr-FR') : 'Date indisponible';
+      p.innerHTML = `
+        <a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
+        <span style="color:#33e6cc;font-size:0.75rem;margin-left:8px;">[${item.source}]</span><br>
+        <small style="color:#888;">${date}</small>
+      `;
+      container.appendChild(p);
+    });
     return;
   }
 
@@ -254,80 +340,6 @@ async function loadVeilleRSS() {
 }
 
 loadVeilleRSS();
-
-/* =========================
-   TRANSDEV – RSS Flux Dédié
-========================= */
-async function loadTransdevRSS() {
-  const feeds = [
-    { url: "https://rsshub.app/transdev/actualites", name: "Transdev Official" },
-    { url: "https://www.bloomberg.com/feeds/podcasts/transport.xml", name: "Bloomberg Transport" }
-  ];
-
-  const track = document.getElementById("rss-carousel");
-  const dots = document.getElementById("rss-dots");
-  if (!track || !dots) return;
-
-  track.innerHTML = "📡 Chargement Transdev...";
-  dots.innerHTML = "";
-
-  const results = await Promise.all(feeds.map(feed =>
-    fetchRSSFeed(feed.url)
-      .then(data => ({ feed, items: data.items || [] }))
-      .catch(error => {
-        console.warn(`${feed.name} indisponible`, error);
-        return { feed, items: [] };
-      })
-  ));
-
-  const allItems = [];
-  results.forEach(result => {
-    result.items.forEach(item => {
-      allItems.push({
-        title: item.title,
-        link: item.link,
-        pubDate: item.pubDate,
-        description: item.description || '',
-        source: result.feed.name
-      });
-    });
-  });
-
-  if (!allItems.length) {
-    track.innerHTML = "⚠️ Aucun article Transdev disponible.";
-    return;
-  }
-
-  allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-  track.innerHTML = "";
-
-  allItems.slice(0, 8).forEach((item, index) => {
-    const cleanDescription = item.description.replace(/<[^>]*>/g, '').substring(0, 110) + '...';
-    const date = new Date(item.pubDate).toLocaleDateString('fr-FR');
-    const card = document.createElement('div');
-    card.className = 'carousel-item';
-    card.innerHTML = `
-      <div class="carousel-image">
-        <div class="rss-preview">${item.source}</div>
-      </div>
-      <div class="carousel-content">
-        <h4>${item.title}</h4>
-        <p class="carousel-description">${cleanDescription}</p>
-        <div class="carousel-meta">
-          <span class="carousel-date">${date}</span>
-          <a href="${item.link}" target="_blank" rel="noopener" class="carousel-link">Lire →</a>
-        </div>
-      </div>
-    `;
-    track.appendChild(card);
-
-    const dot = document.createElement('span');
-    if (index === 0) dot.classList.add('active');
-    dots.appendChild(dot);
-  });
-
-  initCarousel(track, dots);
-}
 
 /* =========================
    🎮 JEU – DINO SIO (AMÉLIORÉ)
@@ -579,127 +591,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 🔥 IMPORTANT
 });
-async function loadTransdevRSS() {
-
-  const rssUrl = encodeURIComponent("https://rsshub.app/transdev/actualites");
-  const api = `https://api.allorigins.win/get?url=${rssUrl}`;
-
-  const track = document.getElementById("rss-carousel");
-  const dots = document.getElementById("rss-dots");
-
-  if (!track) return;
-
-  track.innerHTML = "Chargement des actualités…";
-
-  try {
-      const res = await fetch(api);
-      const data = await res.json();
-
-      const parser = new DOMParser();
-      const xml = parser.parseFromString(data.contents, "text/xml");
-
-      const items = Array.from(xml.querySelectorAll("item")).slice(0, 6);
-
-      track.innerHTML = "";
-      dots.innerHTML = "";
-
-      items.forEach((item, index) => {
-          const title = item.querySelector("title")?.textContent || "Sans titre";
-          const link = item.querySelector("link")?.textContent || "#";
-          const date = item.querySelector("pubDate")?.textContent || "";
-          const description = item.querySelector("description")?.textContent || "";
-
-          // Extraire l'image de la description ou utiliser une image par défaut
-          let imageUrl = "";
-          const imgMatch = description.match(/<img[^>]+src="([^">]+)"/);
-          if (imgMatch) {
-              imageUrl = imgMatch[1];
-          } else {
-              // Image par défaut basée sur le thème
-              imageUrl = "data:image/svg+xml;base64," + btoa(`
-                <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" style="stop-color:#33e6cc"/>
-                      <stop offset="100%" style="stop-color:#001122"/>
-                    </linearGradient>
-                  </defs>
-                  <rect width="300" height="200" fill="url(#grad)"/>
-                  <text x="150" y="110" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold">Transdev</text>
-                </svg>
-              `);
-          }
-
-          // Nettoyer la description (supprimer les balises HTML)
-          const cleanDescription = description.replace(/<[^>]*>/g, '').substring(0, 120) + '...';
-
-          const card = document.createElement("div");
-          card.className = "carousel-item";
-
-          card.innerHTML = `
-              <div class="carousel-image">
-                  <img src="${imageUrl}" alt="${title}" loading="lazy" onerror="this.src='data:image/svg+xml;base64,${btoa('<svg width=\"300\" height=\"200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"200\" fill=\"#333\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"#666\" font-family=\"Arial\" font-size=\"14\">Image indisponible</text></svg>')}'; this.onerror=null;">
-                  <div class="carousel-overlay"></div>
-              </div>
-              <div class="carousel-content">
-                  <h4>${title}</h4>
-                  <p class="carousel-description">${cleanDescription}</p>
-                  <div class="carousel-meta">
-                      <span class="carousel-date">${new Date(date).toLocaleDateString('fr-FR')}</span>
-                      <a href="${link}" target="_blank" rel="noopener" class="carousel-link">Lire l'article →</a>
-                  </div>
-              </div>
-          `;
-
-          track.appendChild(card);
-
-          const dot = document.createElement("span");
-          if (index === 0) dot.classList.add("active");
-          dots.appendChild(dot);
-      });
-
-      initCarousel(track, dots);
-
-  } catch (err) {
-      track.innerHTML = "❌ Impossible de charger le flux RSS";
-      console.error(err);
-  }
-}
-
-function initCarousel(track, dotsContainer) {
-
-  let index = 0;
-  const items = track.children;
-  const total = items.length;
-
-  const update = () => {
-      const itemWidth = items[0].offsetWidth;
-      track.style.transform = `translateX(${-index * itemWidth}px)`;
-
-      Array.from(dotsContainer.children).forEach((d, i) =>
-          d.classList.toggle("active", i === index)
-      );
-  };
-
-  document.getElementById("rss-prev").onclick = () => {
-      index = (index - 1 + total) % total;
-      update();
-  };
-
-  document.getElementById("rss-next").onclick = () => {
-      index = (index + 1) % total;
-      update();
-  };
-
-  Array.from(dotsContainer.children).forEach((dot, i) => {
-      dot.onclick = () => {
-          index = i;
-          update();
-      };
-  });
-
-  update();
-}
 /* ===== LIGHTBOX PRO ===== */
 const galleryImages = Array.from(document.querySelectorAll(".schema-gallery img"));
 const lightbox = document.getElementById("lightbox");
@@ -762,4 +653,3 @@ overlay?.addEventListener("click", () => {
   sidebar.classList.remove("open");
   overlay.classList.remove("active");
 });
-fun
