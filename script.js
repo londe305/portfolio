@@ -77,6 +77,11 @@ function goTo(sectionId, subId=null){
   // Synchro sidebar
   syncSidebarTree(sectionId, subId);
 
+  // Flux dédié Transdev
+  if (sectionId === "alternance" && subId === "alt-transdev") {
+    loadTransdevRSS();
+  }
+
   // 📱 UX mobile : fermeture menu
   if (window.innerWidth <= 600) {
     document.querySelector(".sidebar")?.classList.remove("open");
@@ -183,41 +188,147 @@ function initSubtabs(sectionId){
 ["alternance","certifications","projets","veille"].forEach(initSubtabs);
 
 /* =========================
-   VEILLE Zero Trust – RSS
+   VEILLE Zero Trust – RSS Multisources
 ========================= */
-const rssUrl = "https://feeds.feedburner.com/TheHackersNews";
 
-fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rssUrl}`)
-  .then(response => response.json())
-  .then(data => {
-    const container = document.getElementById("rss-container");
-    if (!container) return;
-
-    container.innerHTML = "";
-
-    // 🔥 nombre d’articles (tu peux changer 5 → 10 ou +)
-    data.items.slice(0, 10).forEach(item => {
-      const p = document.createElement("p");
-
-      p.innerHTML = `
-        <a href="${item.link}" target="_blank" rel="noopener">
-          ${item.title}
-        </a><br>
-        <small style="color:#666;">
-          ${new Date(item.pubDate).toLocaleDateString()}
-        </small>
-      `;
-
-      container.appendChild(p);
-    });
-  })
-  .catch(error => {
-    const container = document.getElementById("rss-container");
-    if (container) {
-      container.innerText = "Erreur de chargement RSS";
-    }
-    console.error(error);
+async function fetchRSSFeed(url) {
+  const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}&count=6`, {
+    cache: 'no-cache'
   });
+  if (!response.ok) throw new Error(`Feed fetch failed: ${response.status}`);
+  return response.json();
+}
+
+async function loadVeilleRSS() {
+  const feeds = [
+    { url: "https://feeds.feedburner.com/TheHackersNews", name: "Hacker News" },
+    { url: "https://krebsonsecurity.com/feed/", name: "Krebs" },
+    { url: "https://arstechnica.com/security/feed/", name: "Ars Tech" }
+  ];
+
+  const container = document.getElementById("rss-container");
+  if (!container) return;
+  container.innerHTML = "📡 Chargement des actualités importantes...";
+
+  const promises = feeds.map(feed =>
+    fetchRSSFeed(feed.url)
+      .then(data => ({ success: true, feed, items: data.items || [] }))
+      .catch(error => {
+        console.warn(`${feed.name} indisponible`, error);
+        return { success: false, feed, items: [] };
+      })
+  );
+
+  const results = await Promise.all(promises);
+  const allItems = [];
+
+  results.forEach(result => {
+    result.items.forEach(item => {
+      allItems.push({
+        title: item.title,
+        link: item.link,
+        pubDate: item.pubDate,
+        source: result.feed.name
+      });
+    });
+  });
+
+  if (!allItems.length) {
+    container.innerHTML = "⚠️ Aucun article disponible pour le moment.";
+    return;
+  }
+
+  allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+  container.innerHTML = "";
+
+  allItems.slice(0, 18).forEach(item => {
+    const p = document.createElement("p");
+    const date = new Date(item.pubDate).toLocaleDateString('fr-FR');
+    p.innerHTML = `
+      <a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
+      <span style="color:#33e6cc;font-size:0.75rem;margin-left:8px;">[${item.source}]</span><br>
+      <small style="color:#888;">${date}</small>
+    `;
+    container.appendChild(p);
+  });
+}
+
+loadVeilleRSS();
+
+/* =========================
+   TRANSDEV – RSS Flux Dédié
+========================= */
+async function loadTransdevRSS() {
+  const feeds = [
+    { url: "https://rsshub.app/transdev/actualites", name: "Transdev Official" },
+    { url: "https://www.bloomberg.com/feeds/podcasts/transport.xml", name: "Bloomberg Transport" }
+  ];
+
+  const track = document.getElementById("rss-carousel");
+  const dots = document.getElementById("rss-dots");
+  if (!track || !dots) return;
+
+  track.innerHTML = "📡 Chargement Transdev...";
+  dots.innerHTML = "";
+
+  const results = await Promise.all(feeds.map(feed =>
+    fetchRSSFeed(feed.url)
+      .then(data => ({ feed, items: data.items || [] }))
+      .catch(error => {
+        console.warn(`${feed.name} indisponible`, error);
+        return { feed, items: [] };
+      })
+  ));
+
+  const allItems = [];
+  results.forEach(result => {
+    result.items.forEach(item => {
+      allItems.push({
+        title: item.title,
+        link: item.link,
+        pubDate: item.pubDate,
+        description: item.description || '',
+        source: result.feed.name
+      });
+    });
+  });
+
+  if (!allItems.length) {
+    track.innerHTML = "⚠️ Aucun article Transdev disponible.";
+    return;
+  }
+
+  allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+  track.innerHTML = "";
+
+  allItems.slice(0, 8).forEach((item, index) => {
+    const cleanDescription = item.description.replace(/<[^>]*>/g, '').substring(0, 110) + '...';
+    const date = new Date(item.pubDate).toLocaleDateString('fr-FR');
+    const card = document.createElement('div');
+    card.className = 'carousel-item';
+    card.innerHTML = `
+      <div class="carousel-image">
+        <div class="rss-preview">${item.source}</div>
+      </div>
+      <div class="carousel-content">
+        <h4>${item.title}</h4>
+        <p class="carousel-description">${cleanDescription}</p>
+        <div class="carousel-meta">
+          <span class="carousel-date">${date}</span>
+          <a href="${item.link}" target="_blank" rel="noopener" class="carousel-link">Lire →</a>
+        </div>
+      </div>
+    `;
+    track.appendChild(card);
+
+    const dot = document.createElement('span');
+    if (index === 0) dot.classList.add('active');
+    dots.appendChild(dot);
+  });
+
+  initCarousel(track, dots);
+}
+
 /* =========================
    🎮 JEU – DINO SIO (AMÉLIORÉ)
 ========================= */
@@ -496,14 +607,48 @@ async function loadTransdevRSS() {
           const title = item.querySelector("title")?.textContent || "Sans titre";
           const link = item.querySelector("link")?.textContent || "#";
           const date = item.querySelector("pubDate")?.textContent || "";
+          const description = item.querySelector("description")?.textContent || "";
+
+          // Extraire l'image de la description ou utiliser une image par défaut
+          let imageUrl = "";
+          const imgMatch = description.match(/<img[^>]+src="([^">]+)"/);
+          if (imgMatch) {
+              imageUrl = imgMatch[1];
+          } else {
+              // Image par défaut basée sur le thème
+              imageUrl = "data:image/svg+xml;base64," + btoa(`
+                <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" style="stop-color:#33e6cc"/>
+                      <stop offset="100%" style="stop-color:#001122"/>
+                    </linearGradient>
+                  </defs>
+                  <rect width="300" height="200" fill="url(#grad)"/>
+                  <text x="150" y="110" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold">Transdev</text>
+                </svg>
+              `);
+          }
+
+          // Nettoyer la description (supprimer les balises HTML)
+          const cleanDescription = description.replace(/<[^>]*>/g, '').substring(0, 120) + '...';
 
           const card = document.createElement("div");
           card.className = "carousel-item";
 
           card.innerHTML = `
-              <h4>${title}</h4>
-              <a href="${link}" target="_blank" rel="noopener">Lire l'article</a>
-              <div class="carousel-date">${date}</div>
+              <div class="carousel-image">
+                  <img src="${imageUrl}" alt="${title}" loading="lazy" onerror="this.src='data:image/svg+xml;base64,${btoa('<svg width=\"300\" height=\"200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"200\" fill=\"#333\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"#666\" font-family=\"Arial\" font-size=\"14\">Image indisponible</text></svg>')}'; this.onerror=null;">
+                  <div class="carousel-overlay"></div>
+              </div>
+              <div class="carousel-content">
+                  <h4>${title}</h4>
+                  <p class="carousel-description">${cleanDescription}</p>
+                  <div class="carousel-meta">
+                      <span class="carousel-date">${new Date(date).toLocaleDateString('fr-FR')}</span>
+                      <a href="${link}" target="_blank" rel="noopener" class="carousel-link">Lire l'article →</a>
+                  </div>
+              </div>
           `;
 
           track.appendChild(card);
@@ -617,3 +762,4 @@ overlay?.addEventListener("click", () => {
   sidebar.classList.remove("open");
   overlay.classList.remove("active");
 });
+fun
