@@ -249,6 +249,29 @@ h5, h6 {
   flex-shrink: 0;
 }
 
+.lang-switcher {
+  margin-left: auto;
+  display: flex;
+  gap: 8px;
+}
+
+.lang-btn {
+  border: 1px solid rgba(181, 155, 65, 0.22);
+  background: rgba(255,255,255,0.08);
+  color: var(--text);
+  padding: 8px 10px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.lang-btn:hover,
+.lang-btn.active {
+  background: rgba(51, 230, 204, 0.18);
+  color: #ffffff;
+}
+
 .terminal-content {
   padding: 24px;
   height: calc(100vh - 80px);

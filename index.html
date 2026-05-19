@@ -14,43 +14,43 @@
     <h2 class="logo">Londé Balossa Lotus Espoir</h2>
     <nav>
       <ul class="nav-root">
-        <li class="active" data-section="home">🏠 Accueil</li>
-        <li data-section="apropos">👤 À propos</li>
+        <li class="active" data-section="home" data-i18n="nav.home">🏠 Accueil</li>
+        <li data-section="apropos" data-i18n="nav.apropos">👤 À propos</li>
 
         <!-- Alternance (arborescence) -->
         <li class="has-children" data-section="alternance" aria-expanded="false">
-          <span class="caret" aria-hidden="true"></span><span class="label">🏢 Alternance</span>
+          <span class="caret" aria-hidden="true"></span><span class="label" data-i18n="nav.alternance">🏢 Alternance</span>
           <ul class="tree-children">
-            <li class="tree-item" data-section="alternance" data-sub="alt-arrivee">• Arrivée</li>
-            <li class="tree-item" data-section="alternance" data-sub="alt-equipe">• Équipe infra</li>
-            <li class="tree-item" data-section="alternance" data-sub="alt-tuteur">• Tuteur</li>
-            <li class="tree-item" data-section="alternance" data-sub="alt-transdev">• Transdev</li>
+            <li class="tree-item" data-section="alternance" data-sub="alt-arrivee" data-i18n="nav.alt-arrivee">• Arrivée</li>
+            <li class="tree-item" data-section="alternance" data-sub="alt-equipe" data-i18n="nav.alt-equipe">• Équipe infra</li>
+            <li class="tree-item" data-section="alternance" data-sub="alt-tuteur" data-i18n="nav.alt-tuteur">• Tuteur</li>
+            <li class="tree-item" data-section="alternance" data-sub="alt-transdev" data-i18n="nav.alt-transdev">• Transdev</li>
           </ul>
         </li>
 
-        <li data-section="projets">🛠️ Projets</li>
+        <li data-section="projets" data-i18n="nav.projets">🛠️ Projets</li>
 
         <!-- Certifications (arborescence) -->
         <li class="has-children" data-section="certifications" aria-expanded="false">
-          <span class="caret" aria-hidden="true"></span><span class="label">🏅 Certifications</span>
+          <span class="caret" aria-hidden="true"></span><span class="label" data-i18n="nav.certifications">🏅 Certifications</span>
           <ul class="tree-children">
-            <li class="tree-item" data-section="certifications" data-sub="cert-reseau">• Réseau</li>
-            <li class="tree-item" data-section="certifications" data-sub="cert-systemes">• Systèmes</li>
-            <li class="tree-item" data-section="certifications" data-sub="cert-cloud">• Cloud</li>
-            <li class="tree-item" data-section="certifications" data-sub="cert-securite">• Sécurité</li>
-            <li class="tree-item" data-section="certifications" data-sub="cert-devops">• DevOps / IaC</li>
-            <li class="tree-item" data-section="certifications" data-sub="cert-itsm">• ITSM / Gouvernance</li>
-            <li class="tree-item" data-section="certifications" data-sub="cert-outils">• Outils / Supervision</li>
-            <li class="tree-item" data-section="certifications" data-sub="cert-autres">• Autres</li>
+            <li class="tree-item" data-section="certifications" data-sub="cert-reseau" data-i18n="nav.cert-reseau">• Réseau</li>
+            <li class="tree-item" data-section="certifications" data-sub="cert-systemes" data-i18n="nav.cert-systemes">• Systèmes</li>
+            <li class="tree-item" data-section="certifications" data-sub="cert-cloud" data-i18n="nav.cert-cloud">• Cloud</li>
+            <li class="tree-item" data-section="certifications" data-sub="cert-securite" data-i18n="nav.cert-securite">• Sécurité</li>
+            <li class="tree-item" data-section="certifications" data-sub="cert-devops" data-i18n="nav.cert-devops">• DevOps / IaC</li>
+            <li class="tree-item" data-section="certifications" data-sub="cert-itsm" data-i18n="nav.cert-itsm">• ITSM / Gouvernance</li>
+            <li class="tree-item" data-section="certifications" data-sub="cert-outils" data-i18n="nav.cert-outils">• Outils / Supervision</li>
+            <li class="tree-item" data-section="certifications" data-sub="cert-autres" data-i18n="nav.cert-autres">• Autres</li>
           </ul>
         </li>
 
-        <li data-section="veille">🔒 Veille technologique</li>
-        <li data-section="contact">📞 Contact</li>
+        <li data-section="veille" data-i18n="nav.veille">🔒 Veille technologique</li>
+        <li data-section="contact" data-i18n="nav.contact">📞 Contact</li>
 
         <!-- Titre stylé non cliquable + Jeu tout en bas -->
         <li class="menu-title" aria-disabled="true">🎮 ESPOIR RUN</li>
-        <li data-section="jeu">🎮 Jeu – Dino SIO</li>
+        <li data-section="jeu" data-i18n="nav.jeu">🎮 Jeu – Dino SIO</li>
       </ul>
     </nav>
   </aside>
@@ -63,41 +63,46 @@
       <span class="dot yellow"></span>
       <span class="dot green"></span>
       <span class="title">espoir@portfolio:~</span>
+      <div class="lang-switcher" id="lang-switcher">
+        <button type="button" class="lang-btn active" data-lang="fr">FR</button>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+        <button type="button" class="lang-btn" data-lang="cn">CN</button>
+      </div>
     </div>
 
     <div class="terminal-content">
 
       <!-- ACCUEIL -->
       <section id="home" class="section active">
-        <h1 class="ascii">[=== BIENVENUE ===]</h1>
-        <p>Bienvenue sur le portfolio de <strong>Londé Balossa Lotus Espoir</strong>.</p>
-        <p>Utilise le menu à gauche pour naviguer.</p>
+        <h1 class="ascii" data-i18n="home.title">[=== BIENVENUE ===]</h1>
+        <p data-i18n-html="home.welcome">Bienvenue sur le portfolio de <strong>Londé Balossa Lotus Espoir</strong>.</p>
+        <p data-i18n="home.instructions">Utilise le menu à gauche pour naviguer.</p>
       </section>
 
       <!-- À PROPOS -->
       <section id="apropos" class="section">
-        <h1 class="ascii">[=== À PROPOS ===]</h1>
-        <p>
+        <h1 class="ascii" data-i18n="apropos.title">[=== À PROPOS ===]</h1>
+        <p data-i18n-html="apropos.intro">
           Étudiant en BTS SIO (option SISR), je m’intéresse aux systèmes, réseaux et à la cybersécurité.
           Mon objectif : bâtir des infrastructures <strong>performantes</strong>, <strong>sécurisées</strong> et <strong>résilientes</strong>.
         </p>
 
-        <h2>Enjeux des infrastructures réseau aujourd’hui</h2>
+        <h2 data-i18n="apropos.infra.title">Enjeux des infrastructures réseau aujourd’hui</h2>
         <ul>
-          <li><strong>Performance &amp; scalabilité</strong> – absorber la croissance utilisateurs/données/services.</li>
-          <li><strong>Sécurité</strong> – faire face aux ransomwares, compromissions d’identités, exposition Internet.</li>
-          <li><strong>Disponibilité</strong> – maintenir un service 24/7 avec redondance, sauvegardes, PRA/PCA.</li>
+          <li data-i18n-html="apropos.infra.1"><strong>Performance &amp; scalabilité</strong> – absorber la croissance utilisateurs/données/services.</li>
+          <li data-i18n-html="apropos.infra.2"><strong>Sécurité</strong> – faire face aux ransomwares, compromissions d’identités, exposition Internet.</li>
+          <li data-i18n-html="apropos.infra.3"><strong>Disponibilité</strong> – maintenir un service 24/7 avec redondance, sauvegardes, PRA/PCA.</li>
         </ul>
 
-        <h2>Dans la prochaine décennie</h2>
+        <h2 data-i18n="apropos.future.title">Dans la prochaine décennie</h2>
         <ul>
-          <li><strong>Automatisation &amp; IaC/SDN</strong> – réseaux pilotés par code, déploiements répétables.</li>
-          <li><strong>Zero Trust généralisé</strong> – contrôle d’accès fort, moindre privilège, vérification continue.</li>
-          <li><strong>Observabilité</strong> – télémétrie fine, détection temps réel, auto‑remédiation.</li>
-          <li><strong>IA &amp; sécurité</strong> – détection d’anomalies, réponse automatisée.</li>
+          <li data-i18n-html="apropos.future.1"><strong>Automatisation &amp; IaC/SDN</strong> – réseaux pilotés par code, déploiements répétables.</li>
+          <li data-i18n-html="apropos.future.2"><strong>Zero Trust généralisé</strong> – contrôle d’accès fort, moindre privilège, vérification continue.</li>
+          <li data-i18n-html="apropos.future.3"><strong>Observabilité</strong> – télémétrie fine, détection temps réel, auto‑remédiation.</li>
+          <li data-i18n-html="apropos.future.4"><strong>IA &amp; sécurité</strong> – détection d’anomalies, réponse automatisée.</li>
         </ul>
 
-        <p><em>Assistant IA accessible depuis le bouton flottant en bas à droite.</em></p>
+        <p data-i18n="apropos.assistant"><em>Assistant IA accessible depuis le bouton flottant en bas à droite.</em></p>
       </section>
 
       <!-- ALTERNANCE -->
