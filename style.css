@@ -2,6 +2,7 @@
 :root{
   --sidebar-w: 240px;
   --accent: #b59b41;
+  --accent-cyan: #33e6cc;
   --text: #eef0d8;
   --bg: #101f18;
   --panel: rgba(18, 30, 22, 0.92);
@@ -16,9 +17,10 @@ body {
   margin: 0;
   background: var(--bg);
   font-family: "Fira Code", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  color: var(--accent);
+  color: var(--text);
   font-size: 0.95rem;
   letter-spacing: 0.3px;
+  font-weight: 500;
 
   background-size: cover;
   background-position: center;
@@ -46,6 +48,45 @@ a:hover {
 
 a:active {
   color: #ffd93d;
+}
+
+/* ===== Titres — meilleur contraste ===== */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin-bottom: 14px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+  font-size: 1.15rem;
+  margin-bottom: 12px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+h4 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+h5, h6 {
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 /* ===== Sidebar ===== */
 .sidebar{
@@ -175,16 +216,81 @@ a:active {
   margin-left: calc(var(--sidebar-w) + 1px);
   min-height: 100vh;
   background: rgba(16, 26, 20, 0.55);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(2px);
   color: var(--text);
   overflow-x: hidden;
   position: relative;
   z-index: 2;
 }
+
+/* Overlay sombre léger pour mettre en avant le texte */
+.terminal::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: calc(var(--sidebar-w) + 1px);
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: none;
+  pointer-events: none;
+  z-index: -1;
+}
 .dot{ width: 12px; height: 12px; border-radius: 50%; }
 .red{ background: #ff5f56; } .yellow{ background: #ffbd2e; } .green{ background: #27c93f; }
 .title{ margin-left: 6px; color: #cde; }
-.terminal-content{ padding: 24px; }
+
+.terminal-header {
+  padding: 12px 24px;
+  border-bottom: 1px solid rgba(181, 155, 65, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.terminal-content {
+  padding: 24px;
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.terminal-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terminal-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.terminal-content::-webkit-scrollbar-thumb {
+  background: rgba(181, 155, 65, 0.2);
+  border-radius: 4px;
+}
+
+.terminal-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(181, 155, 65, 0.35);
+}
+
+/* ===== Améliorations de lisibilité ===== */
+p {
+  line-height: 1.6;
+  margin-bottom: 12px;
+  color: var(--text);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+ul, ol {
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+li {
+  margin-bottom: 6px;
+  color: var(--text);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
 
 .section{ display: none; }
 .section.active {
@@ -196,21 +302,24 @@ a:active {
   white-space: normal;
   overflow: visible;
   position: relative;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .card {
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  background: rgba(20, 32, 24, 0.3);
-  padding: 18px 20px;
+  border: none;
+  border-bottom: 1px solid rgba(181, 155, 65, 0.12);
+  border-radius: 0;
+  background: transparent;
+  padding: 18px 0;
   margin: 16px 0;
-  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  transition: border-color 0.2s ease;
 }
 
 .card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
-  border-color: rgba(181, 155, 65, 0.35);
+  border-bottom-color: rgba(181, 155, 65, 0.2);
 }
 
 /* Cartes imbriquées : enlever le style pour éviter l'emboîtement */
@@ -226,6 +335,196 @@ a:active {
   transform: none;
   box-shadow: none;
 }
+
+.assistant-input-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 14px 0;
+}
+
+.assistant-input-group input {
+  flex: 1 1 240px;
+  min-width: 200px;
+  padding: 12px 14px;
+  color: var(--text);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(181, 155, 65, 0.14);
+  border-radius: 12px;
+}
+
+.assistant-input-group input:focus {
+  outline: 1px solid var(--accent-cyan);
+  background: rgba(255,255,255,0.12);
+}
+
+.assistant-response {
+  padding: 16px 14px;
+  min-height: 80px;
+  color: var(--text);
+  border: 1px solid rgba(181, 155, 65, 0.12);
+  background: rgba(255,255,255,0.04);
+  border-radius: 16px;
+}
+
+.assistant-response strong {
+  color: #ffffff;
+}
+
+#ai-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 350px;
+  background: #0f3d3e;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: Arial;
+}
+
+#chat-box {
+  max-height: 250px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.user {
+  text-align: right;
+  color: #c2a56b;
+}
+
+.bot {
+  text-align: left;
+}
+
+#input-area {
+  display: flex;
+}
+
+#question {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px;
+  background: #c2a56b;
+  border: none;
+  cursor: pointer;
+}
+
+.assistant-modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(4px);
+  z-index: 1200;
+}
+
+.assistant-panel {
+  width: min(420px, 100%);
+  margin-bottom: 16px;
+  background: rgba(11, 23, 22, 0.98);
+  border: 1px solid rgba(51, 230, 204, 0.18);
+  border-radius: 22px;
+  box-shadow: 0 26px 50px rgba(0, 0, 0, 0.32);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.assistant-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.assistant-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.assistant-subtitle {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.assistant-close {
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.assistant-close:hover {
+  background: rgba(255, 255, 255, 0.16);
+  transform: translateY(-1px);
+}
+
+.assistant-toggle {
+  position: fixed;
+  right: 22px;
+  bottom: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-cyan), #12b2aa);
+  border: none;
+  color: #081116;
+  font-weight: 800;
+  font-size: 1.05rem;
+  cursor: pointer;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+  z-index: 1250;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.assistant-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.32);
+}
+
+.assistant-modal.hidden {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .assistant-modal {
+    align-items: flex-end;
+    padding: 12px;
+  }
+  .assistant-panel {
+    width: 100%;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+  }
+  .assistant-toggle {
+    right: 18px;
+    bottom: 18px;
+    width: 52px;
+    height: 52px;
+  }
+}
+
 /* Sous-onglets dans les sections (design simplifié) */
 /* ===== SUBTABS (Design plat inspiré, plus stable) ===== */
 .subtabs {
@@ -238,36 +537,39 @@ a:active {
   flex-wrap: wrap;
   gap: 10px;
   list-style: none;
-  padding: 10px;
+  padding: 12px 0;
   margin: 0;
-  background: rgba(25, 40, 32, 0.5);
-  border: 1px solid var(--border);
-  border-radius: 16px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(181, 155, 65, 0.1);
+  border-radius: 0;
 }
 
 .subtabs li {
   position: relative;
-  padding: 10px 18px;
-  border-radius: 999px;
-  background: rgba(255,255,255,0.04);
+  padding: 8px 16px;
+  border-radius: 0;
+  background: transparent;
   color: var(--text);
   cursor: pointer;
-  transition: background 0.18s ease, transform 0.12s ease, color 0.18s ease;
+  transition: color 0.18s ease, border-color 0.18s ease;
   font-weight: 600;
   font-size: 0.88rem;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  border-bottom: 3px solid transparent;
 }
 
 .subtabs li:hover {
-  background: rgba(181, 155, 65, 0.15);
-  transform: translateY(-1px);
+  background: transparent;
+  color: var(--accent);
 }
 
 .subtabs li.active {
-  background: var(--accent);
-  color: #061100;
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+  background: transparent;
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  box-shadow: none;
 }
 
 .subtabs li.active::after {
@@ -288,10 +590,10 @@ a:active {
 .subpanels {
   margin-top: 14px;
   position: relative;
-  padding: 16px;
-  background: rgba(18, 30, 22, 0.4);
-  border: 1px solid var(--border);
-  border-radius: 18px;
+  padding: 16px 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
 }
 
 .subpanel {
@@ -303,8 +605,8 @@ a:active {
 
 /* ===== Projets : style particulier ===== */
 #projets .card {
-  background: rgba(23, 36, 28, 0.4);
-  border-color: rgba(181, 155, 65, 0.18);
+  background: transparent;
+  border-color: rgba(181, 155, 65, 0.1);
 }
 
 /* Cartes imbriquées dans les sous-panneaux du projet Crystal */
@@ -322,8 +624,8 @@ a:active {
 }
 
 #projets .subtabs ul {
-  background: rgba(23, 36, 28, 0.5);
-  border-color: rgba(181, 155, 65, 0.18);
+  background: transparent;
+  border-color: rgba(181, 155, 65, 0.1);
 }
 
 #projets .subtabs li {
@@ -331,14 +633,44 @@ a:active {
 }
 
 #projets .subtabs li.active {
-  background: rgba(181, 155, 65, 0.95);
-  color: #121000;
+  background: transparent;
+  color: var(--accent);
 }
 
 #projets .subpanels {
-  background: rgba(17, 28, 20, 0.4);
-  padding: 18px;
-  border-color: rgba(181, 155, 65, 0.16);
+  background: transparent;
+  padding: 16px 0;
+  border-color: transparent;
+}
+
+/* ===== Styles spécifiques pour la section Cas pratique (Migration réseau) ===== */
+#crystal-risques h3, #crystal-risques h4 {
+  color: var(--accent-cyan);
+  text-shadow: none;
+}
+
+#crystal-risques > .card {
+  background: transparent;
+  border-left: none;
+  border-bottom: 1px solid rgba(51,230,204,0.15);
+  padding: 16px 0;
+}
+
+#crystal-risques .card {
+  margin: 12px 0;
+  color: var(--text);
+}
+
+#crystal-risques ul { margin-left: 1rem; }
+#crystal-risques ul li { margin: 6px 0; line-height: 1.4; }
+
+/* Titres des sous-items légèrement plus visibles */
+#crystal-risques h4 { font-size: 1rem; margin-bottom: 8px; }
+
+/* Responsive : espacement réduit sur petits écrans */
+@media (max-width: 700px) {
+  #crystal-risques > .card { padding: 12px; }
+  #crystal-risques h3 { font-size: 1.02rem; }
 }
 
 .subpanel.active {

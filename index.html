@@ -96,6 +96,8 @@
           <li><strong>Observabilité</strong> – télémétrie fine, détection temps réel, auto‑remédiation.</li>
           <li><strong>IA &amp; sécurité</strong> – détection d’anomalies, réponse automatisée.</li>
         </ul>
+
+        <p><em>Assistant IA accessible depuis le bouton flottant en bas à droite.</em></p>
       </section>
 
       <!-- ALTERNANCE -->
@@ -287,6 +289,7 @@
           <li data-sub="crystal-architecture">Architecture</li>
           <li data-sub="crystal-planning">Planning</li>
           <li data-sub="crystal-risques">Risques</li>
+          <li data-sub="crystal-suivi">Suivi migration</li>
           <li data-sub="crystal-role">Rôle &amp; E6</li>
         </ul>
       </nav>
@@ -409,6 +412,143 @@
               Des décisions de migration progressive et de rollback
               ont été prises pour sécuriser la mise en production.
             </p>
+          </div>
+          <!-- FICHE CONCISE : Migration réseau (format jury BTS SIO) -->
+          <div class="card">
+            <h3>Migration réseau — fiche synthèse</h3>
+
+            <h4>Contexte</h4>
+            <p>Migration et renouvellement d’équipements (switches, firewall, SD‑WAN).<br>Objectif : migration 1→1 et préparation upgrade 8‑Core.<br>Réunion : plan staging, export config, recâblage.</p>
+
+            <h4>Problèmes rencontrés</h4>
+            <ul>
+              <li>Reprise 1→1 obligatoire.</li>
+              <li>Impact licences pour 8‑Core.</li>
+              <li>Indisponibilité d’acteurs clés.</li>
+            </ul>
+
+            <h4>Décisions prises</h4>
+            <ul>
+              <li>Préparer config sur la base de l’existant (1→1).</li>
+              <li>Recâblage par l’équipe dédiée ; export fourni.</li>
+            </ul>
+
+            <h4>Actions techniques</h4>
+            <ul>
+              <li>Export configuration switch.</li>
+              <li>Staging en laboratoire et scripts d’import.</li>
+              <li>Reprise interfaces/VLAN, vérif. règles firewall.</li>
+            </ul>
+
+            <h4>Blocages projet</h4>
+            <ul>
+              <li>Validation manager requise (licences/budget).</li>
+              <li>Dépendance présence terrain pour repérage.</li>
+            </ul>
+
+            <h4>Suite du projet</h4>
+            <ul>
+              <li>Point dédié avec le manager pour valider l’upgrade.</li>
+              <li>Planifier repérage, fixer date d’intervention.</li>
+            </ul>
+
+            <h4>Mon rôle</h4>
+            <ul>
+              <li>Participation aux réunions de coordination.</li>
+              <li>Analyse technique et préparation des exports.</li>
+              <li>Support staging et tests de reprise.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- =====================
+             SUIVI MIGRATION
+             ===================== -->
+        <div id="crystal-suivi" class="subpanel">
+          <div class="card">
+            <h3>Refresh Réseau Crystal — Suivi de migration</h3>
+          </div>
+
+          <div class="card">
+            <h4>Contexte</h4>
+            <p>Modernisation du réseau du siège Crystal (SD‑WAN v2).<br>Migration des firewalls en plusieurs phases.<br>Enjeu : continuité de service et sécurité.</p>
+          </div>
+
+          <div class="card">
+            <h4>Problèmes rencontrés</h4>
+            <ul>
+              <li>Reports de la migration firewall.</li>
+              <li>Manque de ressources et charge de travail élevée.</li>
+              <li>Risques d'impact sur d'autres projets.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Décisions prises</h4>
+            <ul>
+              <li>Replanification avec nouvelle date définie.</li>
+              <li>Préparation renforcée avant migration.</li>
+              <li>Priorisation de la sécurité et des tests.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Actions techniques</h4>
+            <ul>
+              <li>Firewalls installés, rackés et câblés.</li>
+              <li>Configuration SD‑WAN v2 en cours.</li>
+              <li>Brassage et étiquetage des câbles.</li>
+              <li>Tests LAN, WAN, WiFi.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Risques identifiés</h4>
+            <ul>
+              <li>Surcharge des outils de supervision.</li>
+              <li>Tests applicatifs incomplets.</li>
+              <li>Règles firewall manquantes ou incohérentes.</li>
+              <li>Dépendances externes (serveurs, vidéo, accès).</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Organisation de l'opération</h4>
+            <ul>
+              <li>Préparation en amont pour réduire les risques.</li>
+              <li>Migration avec tests techniques + fonctionnels.</li>
+              <li>Rollback possible en cas de problème.</li>
+              <li>Supervision renforcée post‑migration.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Suite du projet</h4>
+            <ul>
+              <li>Mise à jour planning.</li>
+              <li>Finalisation tests métier.</li>
+              <li>Validation règles firewall.</li>
+              <li>Préparation support post‑migration.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Mon rôle</h4>
+            <ul>
+              <li>Participation aux réunions de suivi.</li>
+              <li>Compréhension du projet réseau.</li>
+              <li>Observation de la coordination équipes.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Compétences développées</h4>
+            <ul>
+              <li>Réseaux (LAN, WAN, SD‑WAN).</li>
+              <li>Sécurité (firewall, règles de filtrage).</li>
+              <li>Gestion de projet et analyse des risques.</li>
+              <li>Travail en équipe multi‑domaine.</li>
+            </ul>
           </div>
         </div>
 
@@ -851,9 +991,29 @@
    </div>
 </main>
 
-<!-- ===== LIGHTBOX PRO ===== -->
-<div id="lightbox" class="lightbox hidden">
-  <span class="lightbox-close">✕</span>
+<!-- Assistant IA global -->
+<div id="assistant-modal" class="assistant-modal hidden" aria-hidden="true">
+  <div class="assistant-panel" role="dialog" aria-modal="true" aria-labelledby="assistant-title">
+    <div class="assistant-header">
+      <div>
+        <h2 id="assistant-title">Assistant IA</h2>
+        <p class="assistant-subtitle">Définitions réseau et infrastructure, accessibles depuis n’importe quelle page.</p>
+      </div>
+      <button id="assistant-close" class="assistant-close" aria-label="Fermer l’assistant">✕</button>
+    </div>
+    <div class="assistant-body">
+      <div id="ai-container">
+        <div id="chat-box"></div>
+
+        <div id="input-area">
+          <input type="text" id="question" placeholder="Pose une question (ex: c'est quoi un firewall ?)" />
+          <button id="assistant-send" type="button" class="btn" onclick="repondre()">Envoyer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<button id="assistant-toggle" type="button" class="assistant-toggle" aria-label="Ouvrir l’assistant IA">IA</button>
   <img id="lightbox-img" src="" alt="">
   <span class="lightbox-prev">⟨</span>
   <span class="lightbox-next">⟩</span>

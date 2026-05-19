@@ -577,8 +577,169 @@ const dinoGame = (function(){
   return { resume, pause, reset };
 })();
 
+const knowledge = [
+  {
+    keywords: ["sd-wan", "sd wan", "wan"],
+    answer: {
+      definition: "Le SD-WAN est une technologie réseau permettant de gérer intelligemment le trafic entre plusieurs sites.",
+      role: "Il optimise les performances, sécurise les connexions et permet une gestion centralisée.",
+      example: "Exemple : une entreprise avec plusieurs agences utilise le SD-WAN pour améliorer ses connexions Internet."
+    }
+  },
+
+  {
+    keywords: ["firewall", "pare-feu"],
+    answer: {
+      definition: "Un firewall est un dispositif de sécurité qui filtre le trafic réseau.",
+      role: "Il protège contre les attaques et les accès non autorisés.",
+      example: "Exemple : bloquer des IP malveillantes venant d’Internet."
+    }
+  },
+
+  {
+    keywords: ["vlan"],
+    answer: {
+      definition: "Un VLAN permet de segmenter un réseau physique.",
+      role: "Il améliore la sécurité et la gestion des utilisateurs.",
+      example: "Exemple : séparer le réseau RH du réseau IT."
+    }
+  },
+
+  {
+    keywords: ["vpn"],
+    answer: {
+      definition: "Un VPN crée une connexion sécurisée via Internet.",
+      role: "Il protège les données et permet l’accès à distance.",
+      example: "Exemple : un salarié se connecte au réseau de l’entreprise depuis chez lui."
+    }
+  },
+
+  {
+    keywords: ["dns"],
+    answer: {
+      definition: "Le DNS traduit un nom de domaine en adresse IP.",
+      role: "Il permet d’accéder aux sites facilement.",
+      example: "Exemple : google.com → adresse IP."
+    }
+  }
+];
+
+function ajouterMessage(text, type) {
+  const chat = document.getElementById("chat-box");
+  if (!chat) return;
+
+  const msg = document.createElement("div");
+  msg.classList.add("message", type);
+  msg.innerText = text;
+
+  chat.appendChild(msg);
+  chat.scrollTop = chat.scrollHeight;
+}
+
+function repondre() {
+  let input = document.getElementById("question").value.toLowerCase();
+
+  // ✅ FIX BUG ESPACE (IMPORTANT)
+  if (!input || input.trim() === "") return;
+
+  ajouterMessage(input, "user");
+
+  let found = false;
+
+  for (let item of knowledge) {
+    for (let keyword of item.keywords) {
+      if (input.includes(keyword)) {
+        let response =
+          "📘 Définition : " + item.answer.definition +
+          "\n\n🎯 Rôle : " + item.answer.role +
+          "\n\n💡 Exemple : " + item.answer.example;
+
+        ajouterMessage(response, "bot");
+        found = true;
+        break;
+      }
+    }
+    if (found) break;
+  }
+
+  if (!found) {
+    ajouterMessage("❌ Terme non trouvé. Essaie avec un terme comme : firewall, VLAN, VPN…", "bot");
+  }
+
+  document.getElementById("question").value = ""; // reset input
+}
+
+function initAIAssistant() {
+  const modal = document.getElementById("assistant-modal");
+  const toggle = document.getElementById("assistant-toggle");
+  const closeButton = document.getElementById("assistant-close");
+  const input = document.getElementById("question");
+  const button = document.getElementById("assistant-send");
+  const chatBox = document.getElementById("chat-box");
+  if (!modal || !toggle || !closeButton || !input || !button || !chatBox) return;
+
+  const setModalOpen = (open) => {
+    modal.classList.toggle("hidden", !open);
+    modal.setAttribute("aria-hidden", open ? "false" : "true");
+    if (open) {
+      input.focus();
+    }
+  };
+
+  const addMessage = (text, type) => {
+    const msg = document.createElement("div");
+    msg.classList.add("message", type);
+    msg.innerText = text;
+    chatBox.appendChild(msg);
+    chatBox.scrollTop = chatBox.scrollHeight;
+  };
+
+  const findDefinition = (text) => {
+    const lower = text.toLowerCase();
+    if (/\bsd[\s-]?wan\b/.test(lower)) return knowledge[0].answer;
+    if (/\bfirewall\b/.test(lower) || /\bpare[- ]?feu\b/.test(lower)) return knowledge[1].answer;
+    if (/\bvlan\b/.test(lower)) return knowledge[2].answer;
+    if (/\bvpn\b/.test(lower)) return knowledge[3].answer;
+    if (/\bdns\b/.test(lower)) return knowledge[4].answer;
+    return null;
+  };
+
+  const answerTerm = () => {
+    const raw = input.value;
+    if (!raw || !/\S/.test(raw)) return;
+
+    addMessage(raw, "user");
+    input.value = "";
+
+    const definition = findDefinition(raw);
+    if (definition) {
+      const response =
+        "📘 Définition : " + definition.definition +
+        "\n\n🎯 Rôle : " + definition.role +
+        "\n\n💡 Exemple : " + definition.example;
+      addMessage(response, "bot");
+      return;
+    }
+
+    addMessage("❌ Terme non trouvé. Essaie avec un terme comme : firewall, VLAN, VPN, DNS…", "bot");
+  };
+
+  window.repondre = answerTerm;
+  toggle.addEventListener("click", () => setModalOpen(true));
+  closeButton.addEventListener("click", () => setModalOpen(false));
+  modal.addEventListener("click", (e) => { if (e.target === modal) setModalOpen(false); });
+  button.addEventListener("click", answerTerm);
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      answerTerm();
+    }
+  });
+}
+
 
 document.addEventListener("DOMContentLoaded", () => {
+  initAIAssistant();
 
   // ✅ section active au départ
   const current = document.querySelector(".section.active")?.id || "home";
