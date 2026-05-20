@@ -218,7 +218,7 @@
               <ul>
                 <li data-i18n-html="alt-transdev.chiffres.1"><strong>CA 2024 :</strong> ~<strong>10,05&nbsp;Md€</strong> (cap franchi) ; <strong>12,8&nbsp;M</strong> de passagers/jour en moyenne.</li>
                 <li data-i18n-html="alt-transdev.chiffres.2"><strong>Performance :</strong> résultat opérationnel courant 2024 en forte hausse (<em>donnée institutionnelle</em>).</li>
-                <li><strong>Emploi :</strong> +<strong>105&nbsp;000</strong> collaborateurs, recrutements importants en 2024.</li>
+                <li data-i18n-html="alt-transdev.chiffres.3"><strong>Emploi :</strong> +<strong>105&nbsp;000</strong> collaborateurs, recrutements importants en 2024.</li>
               </ul>
               <p class="note" data-i18n-html="alt-transdev.chiffres.note">
                 Sources institutionnelles (Caisse des Dépôts / pages corporate).
@@ -264,39 +264,42 @@
         </div><!-- /subpanels alternance -->
       </section><!-- /alternance -->
 
-      <!-- PROJETS -->
-      <section id="projets" class="section">
-        <h1 class="ascii">[=== PROJETS ===]</h1>
+<!-- PROJETS -->
+<section id="projets" class="section">
+  <h1 class="ascii" data-i18n="projets.title">[=== PROJETS ===]</h1>
 
-        <nav class="subtabs" aria-label="Sous-onglets Projets">
-          <ul>
-            <li class="active" data-sub="proj-crystal">Refresh Réseau Crystal</li>
-          </ul>
-        </nav>
+  <nav class="subtabs" aria-label="Sous-onglets Projets">
+    <ul>
+      <li class="active" data-sub="proj-crystal" data-i18n="projets.tab.crystal">Refresh Réseau Crystal</li>
+    </ul>
+  </nav>
 
-        <div class="subpanels">
-          <div id="proj-crystal" class="subpanel active">
+  <div class="subpanels">
 
-            <!-- Présentation du projet -->
-            <div class="card">
-              <h2>Refresh Réseau Crystal ▸ WAN / LAN / WLAN / SD‑WAN v2</h2>
-              <p>
-                Projet majeur de modernisation réseau du siège Crystal :
-                migration des firewalls vers une architecture SD‑WAN v2,
-                remplacement complet du LAN et du WLAN, montée en débit WAN
-                et déploiement progressif en environnement de production réel.
-              </p>
-            </div>
+    <!-- ===================== -->
+    <!-- PROJET CRYSTAL -->
+    <!-- ===================== -->
+    <div id="proj-crystal" class="subpanel active">
 
-            <!-- SOUS-ONGLETS CRYSTAL -->
+      <div class="card">
+        <h2 data-i18n="crystal.intro.title">Refresh Réseau Crystal ▸ WAN / LAN / WLAN / SD‑WAN v2</h2>
+        <p data-i18n="crystal.intro.p">
+          Projet majeur de modernisation réseau du siège Crystal :
+          migration des firewalls vers une architecture SD‑WAN v2,
+          remplacement complet du LAN et du WLAN, montée en débit WAN
+          et déploiement progressif en environnement de production réel.
+        </p>
+      </div>
+
+      <!-- SOUS-ONGLETS CRYSTAL -->
             <nav class="subtabs subtabs--nested" aria-label="Sous-onglets Projet Crystal">
               <ul>
-                <li class="active" data-sub="crystal-overview">Vue globale</li>
-                <li data-sub="crystal-architecture">Architecture</li>
-                <li data-sub="crystal-planning">Planning</li>
-                <li data-sub="crystal-risques">Risques</li>
-                <li data-sub="crystal-suivi">Suivi migration</li>
-                <li data-sub="crystal-role">Rôle &amp; E6</li>
+                <li class="active" data-sub="crystal-overview" data-i18n="crystal.tab.overview">Vue globale</li>
+                <li data-sub="crystal-architecture" data-i18n="crystal.tab.architecture">Architecture</li>
+                <li data-sub="crystal-planning" data-i18n="crystal.tab.planning">Planning</li>
+                <li data-sub="crystal-risques" data-i18n="crystal.tab.risques">Risques</li>
+                <li data-sub="crystal-suivi" data-i18n="crystal.tab.suivi">Suivi migration</li>
+                <li data-sub="crystal-role" data-i18n="crystal.tab.role">Rôle &amp; E6</li>
               </ul>
             </nav>
 
@@ -305,8 +308,8 @@
               <!-- VUE GLOBALE -->
               <div id="crystal-overview" class="subpanel active">
                 <div class="card">
-                  <h3>Vue globale du projet</h3>
-                  <ul>
+                  <h3 data-i18n="crystal.overview.h3">Vue globale du projet</h3>
+                  <ul data-i18n-html="crystal.overview.ul">
                     <li>Modernisation complète du réseau du siège Crystal</li>
                     <li>Infrastructure critique avec utilisateurs en production</li>
                     <li>Approche progressive et sécurisée</li>
@@ -315,16 +318,16 @@
                 </div>
 
                 <div class="card">
-                  <h3>Contexte</h3>
-                  <p>
+                  <h3 data-i18n="crystal.overview.context.h3">Contexte</h3>
+                  <p data-i18n="crystal.overview.context.p">
                     Le siège Crystal disposait d'une infrastructure vieillissante nécessitant une modernisation
                     complète pour améliorer la performance, la sécurité et la résilience.
                   </p>
                 </div>
 
                 <div class="card">
-                  <h3>Objectifs</h3>
-                  <ul>
+                  <h3 data-i18n="crystal.overview.objectives.h3">Objectifs</h3>
+                  <ul data-i18n-html="crystal.overview.objectives.ul">
                     <li>Migration Firewalls vers Fortigate 200G (SDWANv2)</li>
                     <li>Montée en débit WAN (2G / 8G / 10G)</li>
                     <li>Remplacement de 53 switches</li>
@@ -338,7 +341,7 @@
               <!-- ARCHITECTURE -->
               <div id="crystal-architecture" class="subpanel">
                 <div class="card">
-                  <h3>Architecture &amp; aspects techniques</h3>
+                  <h3 data-i18n="crystal.arch.h3">Architecture &amp; aspects techniques</h3>
                   <pre>
 [ Liens opérateurs ]
         ↓
@@ -355,14 +358,14 @@
                 </div>
 
                 <div class="card">
-                  <h3>Schémas techniques – SD‑WAN V2 Crystal</h3>
+                  <h3 data-i18n="crystal.arch.schemas.h3">Schémas techniques – SD‑WAN V2 Crystal</h3>
                   <div class="schema-gallery">
-                    <p class="note">(Images à venir)</p>
+                    <p class="note" data-i18n="crystal.arch.schemas.p">(Images à venir)</p>
                   </div>
                 </div>
 
                 <div class="card">
-                  <h3>Architecture (vue simplifiée)</h3>
+                  <h3 data-i18n="crystal.arch.simple.h3">Architecture (vue simplifiée)</h3>
                   <pre>
 [ WAN ISP ]───[ Fortigate 200G ]───[ Core LAN ]───[ Switches x53 ]───[ AP WiFi x80 ]
                   </pre>
@@ -372,8 +375,8 @@
               <!-- PLANNING -->
               <div id="crystal-planning" class="subpanel">
                 <div class="card">
-                  <h3>Planning &amp; organisation</h3>
-                  <ul>
+                  <h3 data-i18n="crystal.planning.h3">Planning &amp; organisation</h3>
+                  <ul data-i18n-html="crystal.planning.ul">
                     <li>Semaine du 13 avril : préparation préproduction</li>
                     <li>24 avril : tests et communication utilisateurs</li>
                     <li>25–26 avril : migration firewalls</li>
@@ -384,8 +387,8 @@
                 </div>
 
                 <div class="card">
-                  <h3>Planning (extrait par phases)</h3>
-                  <ul>
+                  <h3 data-i18n="crystal.planning.phases.h3">Planning (extrait par phases)</h3>
+                  <ul data-i18n-html="crystal.planning.phases.ul">
                     <li>Phase 1 : Préparation &amp; Design</li>
                     <li>Phase 2 : Configuration &amp; Validation</li>
                     <li>Phase 3 : Migration Firewalls</li>
@@ -398,59 +401,59 @@
               <!-- RISQUES -->
               <div id="crystal-risques" class="subpanel">
                 <div class="card">
-                  <h3>Analyse des risques</h3>
-                  <ul>
+                  <h3 data-i18n="crystal.risques.h3">Analyse des risques</h3>
+                  <ul data-i18n-html="crystal.risques.ul">
                     <li>Contraintes physiques en baie (espace, câblage)</li>
                     <li>Brassage LAN/WLAN complexe</li>
                     <li>Dépendance aux ressources terrain</li>
                     <li>Liaisons opérateurs non disponibles au démarrage</li>
                   </ul>
-                  <p>
+                  <p data-i18n="crystal.risques.p">
                     Des décisions de migration progressive et de rollback
                     ont été prises pour sécuriser la mise en production.
                   </p>
                 </div>
 
                 <div class="card">
-                  <h3>Migration réseau — fiche synthèse</h3>
+                  <h3 data-i18n="crystal.risques.fiche.h3">Migration réseau — fiche synthèse</h3>
 
-                  <h4>Contexte</h4>
-                  <p>Migration et renouvellement d'équipements (switches, firewall, SD‑WAN).<br>Objectif : migration 1→1 et préparation upgrade 8‑Core.<br>Réunion : plan staging, export config, recâblage.</p>
+                  <h4 data-i18n="crystal.risques.fiche.context.h4">Contexte</h4>
+                  <p data-i18n-html="crystal.risques.fiche.context.p">Migration et renouvellement d'équipements (switches, firewall, SD‑WAN).<br>Objectif : migration 1→1 et préparation upgrade 8‑Core.<br>Réunion : plan staging, export config, recâblage.</p>
 
-                  <h4>Problèmes rencontrés</h4>
-                  <ul>
+                  <h4 data-i18n="crystal.risques.fiche.problemes.h4">Problèmes rencontrés</h4>
+                  <ul data-i18n-html="crystal.risques.fiche.problemes.ul">
                     <li>Reprise 1→1 obligatoire.</li>
                     <li>Impact licences pour 8‑Core.</li>
                     <li>Indisponibilité d'acteurs clés.</li>
                   </ul>
 
-                  <h4>Décisions prises</h4>
-                  <ul>
+                  <h4 data-i18n="crystal.risques.fiche.decisions.h4">Décisions prises</h4>
+                  <ul data-i18n-html="crystal.risques.fiche.decisions.ul">
                     <li>Préparer config sur la base de l'existant (1→1).</li>
                     <li>Recâblage par l'équipe dédiée ; export fourni.</li>
                   </ul>
 
-                  <h4>Actions techniques</h4>
-                  <ul>
+                  <h4 data-i18n="crystal.risques.fiche.actions.h4">Actions techniques</h4>
+                  <ul data-i18n-html="crystal.risques.fiche.actions.ul">
                     <li>Export configuration switch.</li>
                     <li>Staging en laboratoire et scripts d'import.</li>
                     <li>Reprise interfaces/VLAN, vérif. règles firewall.</li>
                   </ul>
 
-                  <h4>Blocages projet</h4>
-                  <ul>
+                  <h4 data-i18n="crystal.risques.fiche.blocages.h4">Blocages projet</h4>
+                  <ul data-i18n-html="crystal.risques.fiche.blocages.ul">
                     <li>Validation manager requise (licences/budget).</li>
                     <li>Dépendance présence terrain pour repérage.</li>
                   </ul>
 
-                  <h4>Suite du projet</h4>
-                  <ul>
+                  <h4 data-i18n="crystal.risques.fiche.suite.h4">Suite du projet</h4>
+                  <ul data-i18n-html="crystal.risques.fiche.suite.ul">
                     <li>Point dédié avec le manager pour valider l'upgrade.</li>
                     <li>Planifier repérage, fixer date d'intervention.</li>
                   </ul>
 
-                  <h4>Mon rôle</h4>
-                  <ul>
+                  <h4 data-i18n="crystal.risques.fiche.monrole.h4">Mon rôle</h4>
+                  <ul data-i18n-html="crystal.risques.fiche.monrole.ul">
                     <li>Participation aux réunions de coordination.</li>
                     <li>Analyse technique et préparation des exports.</li>
                     <li>Support staging et tests de reprise.</li>
@@ -461,17 +464,17 @@
               <!-- SUIVI MIGRATION -->
               <div id="crystal-suivi" class="subpanel">
                 <div class="card">
-                  <h3>Refresh Réseau Crystal — Suivi de migration</h3>
+                  <h3 data-i18n="crystal.suivi.h3">Refresh Réseau Crystal — Suivi de migration</h3>
                 </div>
 
                 <div class="card">
-                  <h4>Contexte</h4>
-                  <p>Modernisation du réseau du siège Crystal (SD‑WAN v2).<br>Migration des firewalls en plusieurs phases.<br>Enjeu : continuité de service et sécurité.</p>
+                  <h4 data-i18n="crystal.suivi.context.h4">Contexte</h4>
+                  <p data-i18n-html="crystal.suivi.context.p">Modernisation du réseau du siège Crystal (SD‑WAN v2).<br>Migration des firewalls en plusieurs phases.<br>Enjeu : continuité de service et sécurité.</p>
                 </div>
 
                 <div class="card">
-                  <h4>Problèmes rencontrés</h4>
-                  <ul>
+                  <h4 data-i18n="crystal.suivi.problemes.h4">Problèmes rencontrés</h4>
+                  <ul data-i18n-html="crystal.suivi.problemes.ul">
                     <li>Reports de la migration firewall.</li>
                     <li>Manque de ressources et charge de travail élevée.</li>
                     <li>Risques d'impact sur d'autres projets.</li>
@@ -479,8 +482,8 @@
                 </div>
 
                 <div class="card">
-                  <h4>Décisions prises</h4>
-                  <ul>
+                  <h4 data-i18n="crystal.suivi.decisions.h4">Décisions prises</h4>
+                  <ul data-i18n-html="crystal.suivi.decisions.ul">
                     <li>Replanification avec nouvelle date définie.</li>
                     <li>Préparation renforcée avant migration.</li>
                     <li>Priorisation de la sécurité et des tests.</li>
@@ -488,8 +491,8 @@
                 </div>
 
                 <div class="card">
-                  <h4>Actions techniques</h4>
-                  <ul>
+                  <h4 data-i18n="crystal.suivi.actions.h4">Actions techniques</h4>
+                  <ul data-i18n-html="crystal.suivi.actions.ul">
                     <li>Firewalls installés, rackés et câblés.</li>
                     <li>Configuration SD‑WAN v2 en cours.</li>
                     <li>Brassage et étiquetage des câbles.</li>
@@ -498,8 +501,8 @@
                 </div>
 
                 <div class="card">
-                  <h4>Risques identifiés</h4>
-                  <ul>
+                  <h4 data-i18n="crystal.suivi.risques.h4">Risques identifiés</h4>
+                  <ul data-i18n-html="crystal.suivi.risques.ul">
                     <li>Surcharge des outils de supervision.</li>
                     <li>Tests applicatifs incomplets.</li>
                     <li>Règles firewall manquantes ou incohérentes.</li>
@@ -508,8 +511,8 @@
                 </div>
 
                 <div class="card">
-                  <h4>Organisation de l'opération</h4>
-                  <ul>
+                  <h4 data-i18n="crystal.suivi.orga.h4">Organisation de l'opération</h4>
+                  <ul data-i18n-html="crystal.suivi.orga.ul">
                     <li>Préparation en amont pour réduire les risques.</li>
                     <li>Migration avec tests techniques + fonctionnels.</li>
                     <li>Rollback possible en cas de problème.</li>
@@ -518,8 +521,8 @@
                 </div>
 
                 <div class="card">
-                  <h4>Suite du projet</h4>
-                  <ul>
+                  <h4 data-i18n="crystal.suivi.suite.h4">Suite du projet</h4>
+                  <ul data-i18n-html="crystal.suivi.suite.ul">
                     <li>Mise à jour planning.</li>
                     <li>Finalisation tests métier.</li>
                     <li>Validation règles firewall.</li>
@@ -528,8 +531,8 @@
                 </div>
 
                 <div class="card">
-                  <h4>Mon rôle</h4>
-                  <ul>
+                  <h4 data-i18n="crystal.suivi.monrole.h4">Mon rôle</h4>
+                  <ul data-i18n-html="crystal.suivi.monrole.ul">
                     <li>Participation aux réunions de suivi.</li>
                     <li>Compréhension du projet réseau.</li>
                     <li>Observation de la coordination équipes.</li>
@@ -537,8 +540,8 @@
                 </div>
 
                 <div class="card">
-                  <h4>Compétences développées</h4>
-                  <ul>
+                  <h4 data-i18n="crystal.suivi.competences.h4">Compétences développées</h4>
+                  <ul data-i18n-html="crystal.suivi.competences.ul">
                     <li>Réseaux (LAN, WAN, SD‑WAN).</li>
                     <li>Sécurité (firewall, règles de filtrage).</li>
                     <li>Gestion de projet et analyse des risques.</li>
@@ -550,8 +553,8 @@
               <!-- RÔLE & E6 -->
               <div id="crystal-role" class="subpanel">
                 <div class="card">
-                  <h3>Rôle personnel</h3>
-                  <ul>
+                  <h3 data-i18n="crystal.role.h3">Rôle personnel</h3>
+                  <ul data-i18n-html="crystal.role.ul">
                     <li>Participation aux ateliers techniques</li>
                     <li>Analyse réseau existant &amp; logs FW</li>
                     <li>Préparation équipements (staging)</li>
@@ -561,8 +564,8 @@
                 </div>
 
                 <div class="card">
-                  <h3>Compétences E6 validées</h3>
-                  <ul>
+                  <h3 data-i18n="crystal.role.e6.h3">Compétences E6 validées</h3>
+                  <ul data-i18n-html="crystal.role.e6.ul">
                     <li>Conception d'infrastructure</li>
                     <li>Installation &amp; configuration</li>
                     <li>Tests &amp; validation</li>
@@ -579,7 +582,7 @@
 
       <!-- CERTIFICATIONS -->
       <section id="certifications" class="section">
-        <h1 class="ascii">[=== CERTIFICATIONS ===]</h1>
+        <h1 class="ascii" data-i18n="certifications.title">[=== CERTIFICATIONS ===]</h1>
 
         <nav class="subtabs" aria-label="Sous-onglets Certifications">
           <ul>
@@ -597,19 +600,19 @@
         <div class="subpanels">
           <div id="cert-reseau" class="subpanel active">
             <div class="card">
-              <h2>Objectifs</h2>
-              <ul><li>Maîtriser routage, commutation, IPv4/IPv6, VLAN, ACL.</li></ul>
+              <h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
+              <ul data-i18n-html="cert.reseau.obj.ul"><li>Maîtriser routage, commutation, IPv4/IPv6, VLAN, ACL.</li></ul>
             </div>
             <div class="card">
-              <h2>Parcours &amp; ressources</h2>
-              <ul class="download-list">
+              <h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
+              <ul class="download-list" data-i18n-html="cert.reseau.parcours.ul">
                 <li>#CCNA — plan de révision (PDF)</li>
                 <li>#JNCIA — notes &amp; lab (Lien)</li>
               </ul>
             </div>
             <div class="card">
-              <h2>État</h2>
-              <ul>
+              <h2 data-i18n="cert.h2.etat">État</h2>
+              <ul data-i18n-html="cert.reseau.etat.ul">
                 <li>CCNA — <em>en préparation</em></li>
                 <li>JNCIA — <em>à moyen terme</em></li>
               </ul>
@@ -618,37 +621,37 @@
 
           <div id="cert-systemes" class="subpanel">
             <div class="card">
-              <h2>Objectifs</h2>
-              <ul><li>Linux (services, réseau), Windows (install, gestion, AD de base).</li></ul>
+              <h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
+              <ul data-i18n-html="cert.sys.obj.ul"><li>Linux (services, réseau), Windows (install, gestion, AD de base).</li></ul>
             </div>
             <div class="card">
-              <h2>Parcours &amp; ressources</h2>
-              <ul class="download-list">
+              <h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
+              <ul class="download-list" data-i18n-html="cert.sys.parcours.ul">
                 <li>#LPIC‑1 — plan (PDF)</li>
                 <li>#Windows Admin — checklists</li>
               </ul>
             </div>
             <div class="card">
-              <h2>État</h2>
-              <ul><li>LPIC‑1 — <em>en préparation</em></li></ul>
+              <h2 data-i18n="cert.h2.etat">État</h2>
+              <ul data-i18n-html="cert.sys.etat.ul"><li>LPIC‑1 — <em>en préparation</em></li></ul>
             </div>
           </div>
 
           <div id="cert-cloud" class="subpanel">
             <div class="card">
-              <h2>Objectifs</h2>
-              <ul><li>Fondamentaux Azure/AWS (IAM, compute, réseau, stockage).</li></ul>
+              <h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
+              <ul data-i18n-html="cert.cloud.obj.ul"><li>Fondamentaux Azure/AWS (IAM, compute, réseau, stockage).</li></ul>
             </div>
             <div class="card">
-              <h2>Parcours &amp; ressources</h2>
-              <ul class="download-list">
+              <h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
+              <ul class="download-list" data-i18n-html="cert.cloud.parcours.ul">
                 <li>#AZ‑900 — mémo (PDF)</li>
                 <li>#AWS CCP — notes</li>
               </ul>
             </div>
             <div class="card">
-              <h2>État</h2>
-              <ul>
+              <h2 data-i18n="cert.h2.etat">État</h2>
+              <ul data-i18n-html="cert.cloud.etat.ul">
                 <li>AZ‑900 — <em>prévu</em></li>
                 <li>AWS CCP — <em>prévu</em></li>
               </ul>
@@ -657,20 +660,20 @@
 
           <div id="cert-securite" class="subpanel">
             <div class="card">
-              <h2>Objectifs</h2>
-              <ul><li>Socle sécurité (concepts, IAM, réseau, endpoint, cloud, conformité).</li></ul>
+              <h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
+              <ul data-i18n-html="cert.secu.obj.ul"><li>Socle sécurité (concepts, IAM, réseau, endpoint, cloud, conformité).</li></ul>
             </div>
             <div class="card">
-              <h2>Parcours &amp; ressources</h2>
-              <ul class="download-list">
+              <h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
+              <ul class="download-list" data-i18n-html="cert.secu.parcours.ul">
                 <li>#Security+ — notes</li>
                 <li>#NSE 1‑3 — progression</li>
                 <li>#SC‑900 — mémo</li>
               </ul>
             </div>
             <div class="card">
-              <h2>État</h2>
-              <ul>
+              <h2 data-i18n="cert.h2.etat">État</h2>
+              <ul data-i18n-html="cert.secu.etat.ul">
                 <li>NSE 1‑3 — <em>en cours/obtenu (détailler)</em></li>
                 <li>Security+ — <em>à moyen terme</em></li>
               </ul>
@@ -679,61 +682,61 @@
 
           <div id="cert-devops" class="subpanel">
             <div class="card">
-              <h2>Objectifs</h2>
-              <ul><li>Containerisation, orchestration et IaC (Docker, K8s, Terraform).</li></ul>
+              <h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
+              <ul data-i18n-html="cert.devops.obj.ul"><li>Containerisation, orchestration et IaC (Docker, K8s, Terraform).</li></ul>
             </div>
             <div class="card">
-              <h2>Parcours &amp; ressources</h2>
-              <ul class="download-list">
+              <h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
+              <ul class="download-list" data-i18n-html="cert.devops.parcours.ul">
                 <li>#Docker Associate — mémo</li>
                 <li>#Terraform Associate — labs</li>
               </ul>
             </div>
             <div class="card">
-              <h2>État</h2>
-              <ul><li>Terraform Associate — <em>prévu</em></li></ul>
+              <h2 data-i18n="cert.h2.etat">État</h2>
+              <ul data-i18n-html="cert.devops.etat.ul"><li>Terraform Associate — <em>prévu</em></li></ul>
             </div>
           </div>
 
           <div id="cert-itsm" class="subpanel">
             <div class="card">
-              <h2>Objectifs</h2>
-              <ul><li>Bonnes pratiques ITSM &amp; cycle de vie des services.</li></ul>
+              <h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
+              <ul data-i18n-html="cert.itsm.obj.ul"><li>Bonnes pratiques ITSM &amp; cycle de vie des services.</li></ul>
             </div>
             <div class="card">
-              <h2>Parcours &amp; ressources</h2>
-              <ul class="download-list">
+              <h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
+              <ul class="download-list" data-i18n-html="cert.itsm.parcours.ul">
                 <li>#ITIL® Foundation — mémo</li>
               </ul>
             </div>
             <div class="card">
-              <h2>État</h2>
-              <ul><li>ITIL® Foundation — <em>prévu</em></li></ul>
+              <h2 data-i18n="cert.h2.etat">État</h2>
+              <ul data-i18n-html="cert.itsm.etat.ul"><li>ITIL® Foundation — <em>prévu</em></li></ul>
             </div>
           </div>
 
           <div id="cert-outils" class="subpanel">
             <div class="card">
-              <h2>Objectifs</h2>
-              <ul><li>Mettre en œuvre et superviser (Zabbix, ELK) + exploitation.</li></ul>
+              <h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
+              <ul data-i18n-html="cert.outils.obj.ul"><li>Mettre en œuvre et superviser (Zabbix, ELK) + exploitation.</li></ul>
             </div>
             <div class="card">
-              <h2>Parcours &amp; ressources</h2>
-              <ul class="download-list">
+              <h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
+              <ul class="download-list" data-i18n-html="cert.outils.parcours.ul">
                 <li>#Zabbix — parcours</li>
                 <li>#ELK — fiches</li>
               </ul>
             </div>
             <div class="card">
-              <h2>État</h2>
-              <ul><li>Zabbix — <em>en pratique</em></li></ul>
+              <h2 data-i18n="cert.h2.etat">État</h2>
+              <ul data-i18n-html="cert.outils.etat.ul"><li>Zabbix — <em>en pratique</em></li></ul>
             </div>
           </div>
 
           <div id="cert-autres" class="subpanel">
             <div class="card">
-              <h2>Autres badges / langues</h2>
-              <ul><li>TOEIC / Voltaire / Badges internes (à compléter)</li></ul>
+              <h2 data-i18n="cert.autres.h2">Autres badges / langues</h2>
+              <ul data-i18n-html="cert.autres.ul"><li>TOEIC / Voltaire / Badges internes (à compléter)</li></ul>
             </div>
           </div>
         </div><!-- /subpanels certifications -->
@@ -741,15 +744,15 @@
 
       <!-- JEU – DINO SIO -->
       <section id="jeu" class="section">
-        <h1 class="ascii">[=== JEU – DINO SIO ===]</h1>
+        <h1 class="ascii" data-i18n="jeu.title">[=== JEU – DINO SIO ===]</h1>
 
         <div class="card game-controls">
-          <button class="btn btn-start">▶ Démarrer</button>
-          <button class="btn btn-restart">⟲ Rejouer</button>
-          <button class="btn btn-difficulty">⚙ Régler la difficulté</button>
+          <button class="btn btn-start" data-i18n="jeu.btn.start">▶ Démarrer</button>
+          <button class="btn btn-restart" data-i18n="jeu.btn.restart">⟲ Rejouer</button>
+          <button class="btn btn-difficulty" data-i18n="jeu.btn.difficulty">⚙ Régler la difficulté</button>
           <div class="hud">
-            <span>Score : <strong id="score">0</strong></span>
-            <span>Niveau : <strong id="level-label">CP</strong></span>
+            <span><span data-i18n="jeu.score.label">Score</span> : <strong id="score">0</strong></span>
+            <span><span data-i18n="jeu.level.label">Niveau</span> : <strong id="level-label">CP</strong></span>
           </div>
         </div>
 
@@ -762,35 +765,35 @@
         <!-- Modale "philo" -->
         <div id="diff-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="diff-title">
           <div class="modal-box">
-            <h3 id="diff-title">Difficulté</h3>
-            <p>Si ce bouton existait, ce ne serait pas fun 😉</p>
+            <h3 id="diff-title" data-i18n="jeu.modal.title">Difficulté</h3>
+            <p data-i18n="jeu.modal.p">Si ce bouton existait, ce ne serait pas fun 😉</p>
             <div class="fake-control">
-              <label>Niveau</label>
+              <label data-i18n="jeu.modal.label">Niveau</label>
               <input type="range" min="1" max="5" value="3" disabled>
-              <span class="hint">(désactivé par choix philosophique)</span>
+              <span class="hint" data-i18n="jeu.modal.hint">(désactivé par choix philosophique)</span>
             </div>
-            <button class="btn btn-close-modal">Fermer</button>
+            <button class="btn btn-close-modal" data-i18n="jeu.modal.close">Fermer</button>
           </div>
         </div>
 
-        <p class="note">Astuce : presse <kbd>Espace</kbd> ou <kbd>↑</kbd> pour sauter. Sur mobile, touche le canvas.</p>
+        <p class="note" data-i18n-html="jeu.note">Astuce : presse <kbd>Espace</kbd> ou <kbd>↑</kbd> pour sauter. Sur mobile, touche le canvas.</p>
       </section><!-- /jeu -->
 
       <!-- VEILLE -->
       <section id="veille" class="section">
-        <h1 class="ascii">[=== VEILLE TECHNOLOGIQUE ===]</h1>
-        <p>
+        <h1 class="ascii" data-i18n="veille.title">[=== VEILLE TECHNOLOGIQUE ===]</h1>
+        <p data-i18n-html="veille.theme">
           Thème : <strong>Zero Trust Security Model</strong>
           (<em>Zero Trust Architecture</em>).
         </p>
 
         <nav class="subtabs" aria-label="Sous-onglets Veille">
           <ul>
-            <li class="active" data-sub="zt-concepts">Concepts</li>
-            <li data-sub="zt-architecture">Architecture</li>
-            <li data-sub="zt-usecases">Cas d'usage</li>
-            <li data-sub="zt-analysis">Analyse personnelle</li>
-            <li data-sub="zt-news">Actualités</li>
+            <li class="active" data-sub="zt-concepts" data-i18n="veille.tab.concepts">Concepts</li>
+            <li data-sub="zt-architecture" data-i18n="veille.tab.architecture">Architecture</li>
+            <li data-sub="zt-usecases" data-i18n="veille.tab.usecases">Cas d'usage</li>
+            <li data-sub="zt-analysis" data-i18n="veille.tab.analysis">Analyse personnelle</li>
+            <li data-sub="zt-news" data-i18n="veille.tab.news">Actualités</li>
           </ul>
         </nav>
 
@@ -798,8 +801,8 @@
 
           <div id="zt-concepts" class="subpanel active">
             <div class="card">
-              <h2>Qu'est‑ce que le Zero Trust ?</h2>
-              <p>
+              <h2 data-i18n="zt.concepts.h2">Qu'est‑ce que le Zero Trust ?</h2>
+              <p data-i18n-html="zt.concepts.p">
                 Le <strong>Zero Trust Security Model</strong> repose sur un principe fondamental :
                 <strong>ne jamais faire confiance par défaut</strong>.
                 Chaque accès est vérifié en continu, même à l'intérieur du réseau.
@@ -807,8 +810,8 @@
             </div>
 
             <div class="card">
-              <h2>Principes fondamentaux</h2>
-              <ul>
+              <h2 data-i18n="zt.principles.h2">Principes fondamentaux</h2>
+              <ul data-i18n-html="zt.principles.ul">
                 <li><strong>Vérification systématique</strong> — authentification de chaque requête.</li>
                 <li><strong>Moindre privilège</strong> — accès strictement nécessaire.</li>
                 <li><strong>Micro‑segmentation</strong> — isolation des ressources.</li>
@@ -818,30 +821,30 @@
             </div>
 
             <div class="card">
-              <h2>Avant / Après Zero Trust</h2>
+              <h2 data-i18n="zt.compare.h2">Avant / Après Zero Trust</h2>
               <table style="width:100%; border-collapse: collapse; font-size:0.95rem;">
                 <thead>
                   <tr>
-                    <th style="border:1px solid var(--accent); padding:6px;">Modèle traditionnel</th>
-                    <th style="border:1px solid var(--accent); padding:6px;">Modèle Zero Trust</th>
+                    <th style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.th1">Modèle traditionnel</th>
+                    <th style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.th2">Modèle Zero Trust</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td style="border:1px solid var(--accent); padding:6px;">Confiance implicite</td>
-                    <td style="border:1px solid var(--accent); padding:6px;">Confiance vérifiée</td>
+                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r1c1">Confiance implicite</td>
+                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r1c2">Confiance vérifiée</td>
                   </tr>
                   <tr>
-                    <td style="border:1px solid var(--accent); padding:6px;">Périmètre réseau</td>
-                    <td style="border:1px solid var(--accent); padding:6px;">Identité &amp; contexte</td>
+                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r2c1">Périmètre réseau</td>
+                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r2c2">Identité &amp; contexte</td>
                   </tr>
                   <tr>
-                    <td style="border:1px solid var(--accent); padding:6px;">Accès large</td>
-                    <td style="border:1px solid var(--accent); padding:6px;">Accès minimal</td>
+                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r3c1">Accès large</td>
+                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r3c2">Accès minimal</td>
                   </tr>
                   <tr>
-                    <td style="border:1px solid var(--accent); padding:6px;">Détection tardive</td>
-                    <td style="border:1px solid var(--accent); padding:6px;">Surveillance continue</td>
+                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r4c1">Détection tardive</td>
+                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r4c2">Surveillance continue</td>
                   </tr>
                 </tbody>
               </table>
@@ -850,7 +853,7 @@
 
           <div id="zt-architecture" class="subpanel">
             <div class="card">
-              <h2>Schéma Zero Trust (vue simplifiée)</h2>
+              <h2 data-i18n="zt.arch.simple.h2">Schéma Zero Trust (vue simplifiée)</h2>
               <pre>
 [ Utilisateur / Appareil ]
         |
@@ -869,7 +872,7 @@
             </div>
 
             <div class="card">
-              <h2>Schéma Zero Trust (avancé)</h2>
+              <h2 data-i18n="zt.arch.advanced.h2">Schéma Zero Trust (avancé)</h2>
               <pre>
 [ Identité ] → [ MFA ] → [ Accès conditionnel ]
       |                     |
@@ -887,16 +890,16 @@
 
           <div id="zt-usecases" class="subpanel">
             <div class="card">
-              <h2>Étude de cas : Google BeyondCorp</h2>
-              <p>
+              <h2 data-i18n="zt.usecase.google.h2">Étude de cas : Google BeyondCorp</h2>
+              <p data-i18n="zt.usecase.google.p">
                 Google a supprimé la notion de réseau interne de confiance.
                 Chaque accès passe par une vérification d'identité et de contexte.
               </p>
             </div>
 
             <div class="card">
-              <h2>Cas d'usage en entreprise</h2>
-              <ul>
+              <h2 data-i18n="zt.usecase.enterprise.h2">Cas d'usage en entreprise</h2>
+              <ul data-i18n-html="zt.usecase.enterprise.ul">
                 <li>Remplacement du VPN par <strong>ZTNA</strong></li>
                 <li>Segmentation des serveurs</li>
                 <li>MFA obligatoire</li>
@@ -906,10 +909,10 @@
             </div>
 
             <div class="card">
-              <h2>Exemple : attaque ransomware</h2>
-              <p><strong>Sans Zero Trust :</strong> propagation rapide.</p>
-              <p><strong>Avec Zero Trust :</strong></p>
-              <ul>
+              <h2 data-i18n="zt.usecase.ransomware.h2">Exemple : attaque ransomware</h2>
+              <p data-i18n-html="zt.usecase.ransomware.p1"><strong>Sans Zero Trust :</strong> propagation rapide.</p>
+              <p data-i18n-html="zt.usecase.ransomware.p2"><strong>Avec Zero Trust :</strong></p>
+              <ul data-i18n-html="zt.usecase.ransomware.ul">
                 <li>MFA bloque l'accès initial</li>
                 <li>Micro‑segmentation limite la propagation</li>
                 <li>EDR/XDR détecte l'anomalie</li>
@@ -920,28 +923,28 @@
 
           <div id="zt-analysis" class="subpanel">
             <div class="card">
-              <h2>Analyse personnelle</h2>
-              <p>
+              <h2 data-i18n="zt.analysis.h2">Analyse personnelle</h2>
+              <p data-i18n="zt.analysis.p1">
                 Le Zero Trust représente pour moi une évolution logique
                 de la cybersécurité moderne dans des environnements distribués.
               </p>
-              <p>
+              <p data-i18n="zt.analysis.p2">
                 Il combine IAM, MFA, supervision et architecture réseau,
                 ce qui correspond à ma manière de travailler et à mon projet professionnel.
               </p>
             </div>
 
             <div class="card">
-              <h2>Conclusion</h2>
-              <p>
+              <h2 data-i18n="zt.conclusion.h2">Conclusion</h2>
+              <p data-i18n="zt.conclusion.p">
                 Le Zero Trust n'est pas un produit mais une stratégie globale
                 indispensable pour renforcer la résilience face aux menaces actuelles.
               </p>
             </div>
 
             <div class="card">
-              <h2>FAQ Zero Trust</h2>
-              <ul>
+              <h2 data-i18n="zt.faq.h2">FAQ Zero Trust</h2>
+              <ul data-i18n-html="zt.faq.ul">
                 <li><strong>Zéro confiance ?</strong> → confiance vérifiée.</li>
                 <li><strong>Remplace le VPN ?</strong> → oui, via ZTNA.</li>
                 <li><strong>Déploiement long ?</strong> → progressif.</li>
@@ -951,8 +954,8 @@
           </div><!-- /zt-analysis -->
 
           <div id="zt-news" class="subpanel">
-            <h2>Actualités cybersécurité</h2>
-            <p>(mise à jour automatique)</p>
+            <h2 data-i18n="zt.news.h2">Actualités cybersécurité</h2>
+            <p data-i18n="zt.news.p">(mise à jour automatique)</p>
             <div id="rss-container" class="rss"></div>
           </div><!-- /zt-news -->
 
@@ -961,10 +964,10 @@
 
       <!-- CONTACT -->
       <section id="contact" class="section">
-        <h1 class="ascii">[=== CONTACT ===]</h1>
-        <p>Nom : <strong>Londé Balossa Lotus Espoir</strong></p>
-        <p>Email : <a href="mailto:londe305@gmail.com">londe305@gmail.com</a></p>
-        <p>LinkedIn : <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">Mon Profil LinkedIn</a></p>
+        <h1 class="ascii" data-i18n="contact.title">[=== CONTACT ===]</h1>
+        <p data-i18n-html="contact.nom">Nom : <strong>Londé Balossa Lotus Espoir</strong></p>
+        <p data-i18n-html="contact.email">Email : <a href="mailto:londe305@gmail.com">londe305@gmail.com</a></p>
+        <p data-i18n-html="contact.linkedin">LinkedIn : <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">Mon Profil LinkedIn</a></p>
       </section><!-- /contact -->
 
     </div><!-- /terminal-content -->
@@ -994,8 +997,12 @@
   </div>
   <button id="assistant-toggle" type="button" class="assistant-toggle" aria-label="Ouvrir l'assistant IA">IA</button>
 
-  <!-- FIX : lightbox correctement encapsulée dans son conteneur -->
+  <!-- Overlay mobile pour la sidebar -->
+  <div class="mobile-overlay"></div>
+
+  <!-- Lightbox visionneuse d'image -->
   <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-label="Visionneuse d'image">
+    <button class="lightbox-close" aria-label="Fermer la visionneuse">✕</button>
     <img id="lightbox-img" src="" alt="Image agrandie" />
     <span class="lightbox-prev" role="button" aria-label="Image précédente">⟨</span>
     <span class="lightbox-next" role="button" aria-label="Image suivante">⟩</span>
@@ -1005,7 +1012,7 @@
   <script src="lang.js" defer></script>
   <script src="script.js" defer></script>
 
-  <!-- FIX : mise à jour de l'attribut lang lors du changement de langue -->
+  <!-- Mise à jour de l'attribut lang lors du changement de langue -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       var langMap = { fr: 'fr', en: 'en', cn: 'zh' };
@@ -1017,26 +1024,6 @@
           }
         });
       });
-
-      // FIX : écouteur centralisé pour le bouton Envoyer de l'assistant
-      var sendBtn = document.getElementById('assistant-send');
-      if (sendBtn) {
-        sendBtn.addEventListener('click', function () {
-          if (typeof repondre === 'function') {
-            repondre();
-          }
-        });
-      }
-
-      // Permettre l'envoi via Entrée dans le champ de saisie de l'assistant
-      var questionInput = document.getElementById('question');
-      if (questionInput) {
-        questionInput.addEventListener('keydown', function (e) {
-          if (e.key === 'Enter' && typeof repondre === 'function') {
-            repondre();
-          }
-        });
-      }
     });
   </script>
 

@@ -626,9 +626,9 @@ galleryImages.forEach((img, i)=>{
   img.addEventListener("click", ()=> openLightbox(i));
 });
 
-btnClose.addEventListener("click", closeLightbox);
-btnNext.addEventListener("click", nextImg);
-btnPrev.addEventListener("click", prevImg);
+btnClose?.addEventListener("click", closeLightbox);
+btnNext?.addEventListener("click", nextImg);
+btnPrev?.addEventListener("click", prevImg);
 
 lightbox.addEventListener("click", (e)=>{
   if (e.target === lightbox) closeLightbox();

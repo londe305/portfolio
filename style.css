@@ -223,7 +223,7 @@ h5, h6 {
   z-index: 2;
 }
 
-/* Overlay sombre léger pour mettre en avant le texte */
+/* Overlay sombre pour améliorer la lisibilité sur fond image */
 .terminal::before {
   content: '';
   position: fixed;
@@ -231,7 +231,7 @@ h5, h6 {
   left: calc(var(--sidebar-w) + 1px);
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.42);
   backdrop-filter: none;
   pointer-events: none;
   z-index: -1;
@@ -332,31 +332,37 @@ li {
 }
 
 .card {
-  border: none;
-  border-bottom: 1px solid rgba(181, 155, 65, 0.12);
-  border-radius: 0;
-  background: transparent;
-  padding: 18px 0;
+  border: 1px solid rgba(181, 155, 65, 0.22);
+  border-radius: 14px;
+  background: rgba(10, 20, 16, 0.76);
+  padding: 20px 24px;
   margin: 16px 0;
-  transition: border-color 0.2s ease;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.38), inset 0 1px 0 rgba(255,255,255,0.04);
+  backdrop-filter: blur(6px);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
 }
 
 .card:hover {
-  border-bottom-color: rgba(181, 155, 65, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.5), 0 0 16px rgba(181, 155, 65, 0.14);
+  border-color: rgba(181, 155, 65, 0.38);
 }
 
-/* Cartes imbriquées : enlever le style pour éviter l'emboîtement */
+/* Cartes imbriquées : style secondaire discret */
 .card .card {
-  border: none;
-  background: transparent;
-  padding: 0;
-  margin: 8px 0;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(181, 155, 65, 0.12);
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin: 10px 0;
   box-shadow: none;
+  backdrop-filter: none;
 }
 
 .card .card:hover {
-  transform: none;
-  box-shadow: none;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.28);
+  border-color: rgba(181, 155, 65, 0.22);
 }
 
 .assistant-input-group {
@@ -395,15 +401,10 @@ li {
 }
 
 #ai-container {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 350px;
-  background: #0f3d3e;
-  color: white;
-  border-radius: 10px;
-  padding: 15px;
-  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
 }
 
 #chat-box {
@@ -666,6 +667,14 @@ button {
   border-radius: 0;
 }
 
+/* Séparation visuelle entre les sous-onglets nested et le fond */
+.subpanels--nested,
+.subpanels.subpanels--nested {
+  padding: 12px 0;
+  border-top: 1px solid rgba(181, 155, 65, 0.1);
+  margin-top: 12px;
+}
+
 .subpanel {
   display: none;
   opacity: 0;
@@ -675,22 +684,23 @@ button {
 
 /* ===== Projets : style particulier ===== */
 #projets .card {
-  background: transparent;
-  border-color: rgba(181, 155, 65, 0.1);
+  background: rgba(12, 22, 18, 0.78);
+  border-color: rgba(181, 155, 65, 0.2);
 }
 
 /* Cartes imbriquées dans les sous-panneaux du projet Crystal */
 #projets .subpanels .subpanels .card {
-  border: none;
-  background: transparent;
-  padding: 0;
-  margin: 12px 0;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(181, 155, 65, 0.12);
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin: 10px 0;
   box-shadow: none;
 }
 
 #projets .subpanels .subpanels .card:hover {
-  transform: none;
-  box-shadow: none;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.28);
 }
 
 #projets .subtabs ul {
@@ -1539,3 +1549,56 @@ body {
   position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 1390; display: none;
 }
 .mobile-overlay.active { display: block; }
+
+/* ===== LIGHTBOX ===== */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.88);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+.lightbox #lightbox-img {
+  max-width: 88vw;
+  max-height: 82vh;
+  border-radius: 8px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+  object-fit: contain;
+}
+.lightbox-close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #fff;
+  font-size: 1.2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.lightbox-close:hover {
+  background: rgba(255, 255, 255, 0.24);
+}
+.lightbox-prev,
+.lightbox-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 2.4rem;
+  cursor: pointer;
+  padding: 12px;
+  user-select: none;
+  transition: color 0.2s ease;
+}
+.lightbox-prev:hover,
+.lightbox-next:hover {
+  color: #fff;
+}
+.lightbox-prev { left: 16px; }
+.lightbox-next { right: 16px; }
