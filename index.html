@@ -1008,9 +1008,13 @@
     <span class="lightbox-next" role="button" aria-label="Image suivante">⟩</span>
   </div>
 
-  <script src="ai.js" defer></script>
+  <!-- Ordre de chargement : lang → tabs → navigation → ui → game → assistant -->
   <script src="lang.js" defer></script>
-  <script src="script.js" defer></script>
+  <script src="tabs.js" defer></script>
+  <script src="navigation.js" defer></script>
+  <script src="ui.js" defer></script>
+  <script src="game.js" defer></script>
+  <script src="assistant.js" defer></script>
 
   <!-- Mise à jour de l'attribut lang lors du changement de langue -->
   <script>
