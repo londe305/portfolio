@@ -64,107 +64,91 @@
 
 /* ---- RSS – Actualités veille Zero Trust ---- */
 
-async function fetchRSSFeed(url) {
-  // Tentative 1 : API rss2json (plus fiable)
+const RSS_CACHE_KEY = 'portfolioRSS';
+const RSS_CACHE_TTL = 10 * 60 * 1000; // 10 minutes
+
+const RSS_FEEDS = [
+  { url: 'https://feeds.feedburner.com/TheHackersNews', name: 'Hacker News' },
+  { url: 'https://krebsonsecurity.com/feed/',           name: 'Krebs'        },
+  { url: 'https://arstechnica.com/security/feed/',      name: 'Ars Tech'     }
+];
+
+const RSS_FALLBACK = [
+  { title: 'Zero Trust : principes fondamentaux',         link: '#', pubDate: new Date().toISOString(), source: 'Exemple' },
+  { title: 'Tutoriel : durcir une connexion SSH',         link: '#', pubDate: new Date().toISOString(), source: 'Exemple' },
+  { title: 'Outil recommandé : surveillance & alerting',  link: '#', pubDate: new Date().toISOString(), source: 'Exemple' }
+];
+
+/* ---- Cache localStorage ---- */
+
+function getRSSCache() {
   try {
-    const res = await fetch(
-      `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}&count=6`,
-      { cache: 'no-cache' }
-    );
-    if (res.ok) {
-      const data = await res.json();
-      if (data.status === 'ok' && Array.isArray(data.items)) {
-        return {
-          items: data.items.map(item => ({
-            title:   item.title || 'Sans titre',
-            link:    item.link || item.guid || '#',
-            pubDate: item.pubDate || '',
-            source:  item.source?.name || ''
-          }))
-        };
-      }
-    }
-  } catch (e) {
-    console.debug('rss2json indisponible:', e);
-  }
+    const raw = localStorage.getItem(RSS_CACHE_KEY);
+    if (!raw) return null;
+    const { ts, items } = JSON.parse(raw);
+    return (Date.now() - ts < RSS_CACHE_TTL) ? items : null;
+  } catch { return null; }
+}
 
-  // Tentative 2 : proxy allorigins + parsing XML manuel
+function setRSSCache(items) {
+  try { localStorage.setItem(RSS_CACHE_KEY, JSON.stringify({ ts: Date.now(), items })); }
+  catch { /* quota dépassé – on ignore */ }
+}
+
+/* ---- Fetch avec timeout (évite les blocages) ---- */
+
+async function fetchWithTimeout(url, timeoutMs = 5000) {
+  const ctrl  = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), timeoutMs);
   try {
-    const proxyRes = await fetch(
-      `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-      { cache: 'no-cache' }
-    );
-    if (!proxyRes.ok) return { items: [] };
-
-    const xml = new DOMParser().parseFromString(await proxyRes.text(), 'text/xml');
-    if (xml.querySelector('parsererror')) return { items: [] };
-
-    const items = Array.from(xml.querySelectorAll('item,entry')).slice(0, 6).map(entry => {
-      const title    = entry.querySelector('title')?.textContent?.trim() || 'Sans titre';
-      const linkNode = entry.querySelector('link');
-      const altLink  = entry.querySelector('link[rel="alternate"]');
-      const link     =
-        linkNode?.textContent?.trim() ||
-        linkNode?.getAttribute('href')?.trim() ||
-        altLink?.getAttribute('href')?.trim() || '#';
-      const pubDate  =
-        entry.querySelector('pubDate')?.textContent?.trim() ||
-        entry.querySelector('published')?.textContent?.trim() ||
-        entry.querySelector('updated')?.textContent?.trim() || '';
-      return { title, link, pubDate, source: '' };
-    });
-
-    return { items };
+    const res = await fetch(url, { signal: ctrl.signal });
+    clearTimeout(timer);
+    return res;
   } catch (e) {
-    console.debug('proxy fallback échoué:', e);
-    return { items: [] };
+    clearTimeout(timer);
+    throw e;
   }
 }
 
-async function loadVeilleRSS() {
-  const container = document.getElementById('rss-container');
-  if (!container) return;
+/* ---- Fetch d'un flux via rss2json uniquement ---- */
 
-  container.innerHTML = '📡 Chargement des actualités importantes...';
-
-  const feeds = [
-    { url: 'https://feeds.feedburner.com/TheHackersNews', name: 'Hacker News' },
-    { url: 'https://krebsonsecurity.com/feed/',           name: 'Krebs'        },
-    { url: 'https://arstechnica.com/security/feed/',      name: 'Ars Tech'     }
-  ];
-
-  const results = await Promise.all(
-    feeds.map(feed =>
-      fetchRSSFeed(feed.url)
-        .then(data => ({ feed, items: data.items || [] }))
-        .catch(()  => ({ feed, items: [] }))
-    )
-  );
-
-  const allItems = results.flatMap(r =>
-    r.items.map(item => ({ ...item, source: r.feed.name }))
-  );
-
-  // Fallback si tous les flux sont indisponibles
-  if (!allItems.length) {
-    const sample = [
-      { title: 'Analyse : nouvelle vulnérabilité critique (exemple)', link: '#', pubDate: new Date().toISOString(), source: 'Exemple' },
-      { title: 'Tutoriel : durcir une connexion SSH',                 link: '#', pubDate: new Date().toISOString(), source: 'Exemple' },
-      { title: 'Outil recommandé : surveillance & alerting',          link: '#', pubDate: new Date().toISOString(), source: 'Exemple' }
-    ];
-    container.innerHTML = '<div class="rss-fallback">⚠️ Flux externes indisponibles — affichage d\'exemples.</div>';
-    sample.forEach(item => container.appendChild(buildRSSItem(item)));
-    return;
+async function fetchOneFeed(feed) {
+  try {
+    const res = await fetchWithTimeout(
+      `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}&count=6`,
+      5000
+    );
+    if (!res.ok) return [];
+    const data = await res.json();
+    if (data.status !== 'ok' || !Array.isArray(data.items)) return [];
+    return data.items.map(item => ({
+      title:   item.title || 'Sans titre',
+      link:    item.link  || item.guid || '#',
+      pubDate: item.pubDate || '',
+      source:  feed.name
+    }));
+  } catch (e) {
+    console.debug(`[RSS] ${feed.name} indisponible :`, e.name);
+    return [];
   }
-
-  allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-  container.innerHTML = '';
-  allItems.slice(0, 18).forEach(item => container.appendChild(buildRSSItem(item)));
 }
+
+/* ---- Récupération de tous les flux en parallèle ---- */
+
+async function fetchAllFeeds() {
+  const results = await Promise.allSettled(RSS_FEEDS.map(fetchOneFeed));
+  return results
+    .filter(r => r.status === 'fulfilled')
+    .flatMap(r => r.value)
+    .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate))
+    .slice(0, 18);
+}
+
+/* ---- Rendu ---- */
 
 function buildRSSItem(item) {
   const p    = document.createElement('p');
-  const date = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fr-FR') : 'Date indisponible';
+  const date = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fr-FR') : 'Date inconnue';
   p.innerHTML =
     `<a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>` +
     `<span style="color:#33e6cc;font-size:0.75rem;margin-left:8px;">[${item.source}]</span><br>` +
@@ -172,4 +156,55 @@ function buildRSSItem(item) {
   return p;
 }
 
-loadVeilleRSS();
+function renderRSS(container, items) {
+  container.innerHTML = '';
+  items.forEach(item => container.appendChild(buildRSSItem(item)));
+}
+
+function renderFallback(container) {
+  container.innerHTML = '<div class="rss-fallback">⚠️ Flux indisponibles — exemples.</div>';
+  RSS_FALLBACK.forEach(item => container.appendChild(buildRSSItem(item)));
+}
+
+/* ---- Chargement principal (avec cache stale-while-revalidate) ---- */
+
+async function loadVeilleRSS() {
+  const container = document.getElementById('rss-container');
+  if (!container || container.dataset.loaded === '1') return;
+  container.dataset.loaded = '1';
+
+  const cached = getRSSCache();
+
+  if (cached && cached.length) {
+    // Affichage instantané depuis le cache
+    renderRSS(container, cached);
+    // Rafraîchissement silencieux en arrière-plan
+    fetchAllFeeds().then(items => {
+      if (items.length) { setRSSCache(items); renderRSS(container, items); }
+    });
+    return;
+  }
+
+  container.innerHTML = '📡 Chargement des actualités...';
+  const items = await fetchAllFeeds();
+  if (items.length) { setRSSCache(items); renderRSS(container, items); }
+  else renderFallback(container);
+}
+
+/* ---- Chargement paresseux : déclenché seulement quand #zt-news devient actif ---- */
+
+(function watchVeilleNews() {
+  const newsPanel = document.getElementById('zt-news');
+  if (!newsPanel) return;
+
+  // Déjà actif au chargement (rare mais possible)
+  if (newsPanel.classList.contains('active')) { loadVeilleRSS(); return; }
+
+  const observer = new MutationObserver(() => {
+    if (newsPanel.classList.contains('active')) {
+      loadVeilleRSS();
+      observer.disconnect();
+    }
+  });
+  observer.observe(newsPanel, { attributes: true, attributeFilter: ['class'] });
+})();
