@@ -13,6 +13,19 @@
 /* ===== Reset ===== */
 *{ box-sizing: border-box; }
 html, body{ height: 100%; }
+
+/* Overlay uniforme plein écran : blur léger + assombrissement du fond dynamique */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.10);
+  backdrop-filter: blur(22px) saturate(1.05);
+  -webkit-backdrop-filter: blur(22px) saturate(1.05);
+  z-index: 0;
+  pointer-events: none;
+}
+
 body {
   margin: 0;
   background: var(--bg);
@@ -92,10 +105,13 @@ h5, h6 {
 .sidebar{
   position: fixed; top: 0; left: 0;
   width: var(--sidebar-w); height: 100vh;
-  background: rgba(15, 28, 23, 0.92);
-  border-right: 1px solid rgba(181, 155, 65, 0.15);
+  background: rgba(8, 18, 13, 0.72);
+  border-right: none;
+  box-shadow: 2px 0 28px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(16px) saturate(1.15);
+  -webkit-backdrop-filter: blur(16px) saturate(1.15);
   padding: 20px; overflow-y: auto;
-  z-index: 3;
+  z-index: 1000;
 }
 .logo{
   text-align: center; margin: 0 0 20px;
@@ -213,26 +229,25 @@ h5, h6 {
 
 /* ===== Contenu ===== */
 .terminal {
-  margin-left: calc(var(--sidebar-w) + 1px);
+  margin-left: var(--sidebar-w);
   min-height: 100vh;
-  background: rgba(16, 26, 20, 0.55);
-  backdrop-filter: blur(2px);
+  background: rgba(16, 26, 20, 0.22);
+  backdrop-filter: blur(1px);
   color: var(--text);
   overflow-x: hidden;
   position: relative;
   z-index: 2;
 }
 
-/* Overlay sombre pour améliorer la lisibilité sur fond image */
+/* Overlay léger plein écran */
 .terminal::before {
   content: '';
   position: fixed;
   top: 0;
-  left: calc(var(--sidebar-w) + 1px);
+  left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.42);
-  backdrop-filter: none;
+  background: rgba(0, 0, 0, 0.15);
   pointer-events: none;
   z-index: -1;
 }
@@ -247,6 +262,12 @@ h5, h6 {
   align-items: center;
   gap: 12px;
   flex-shrink: 0;
+  background: rgba(8, 16, 12, 0.55);
+  backdrop-filter: blur(14px) saturate(1.1);
+  -webkit-backdrop-filter: blur(14px) saturate(1.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .lang-switcher {
@@ -301,7 +322,7 @@ p {
   line-height: 1.6;
   margin-bottom: 12px;
   color: var(--text);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.55), 0 0 1px rgba(0, 0, 0, 0.4);
 }
 
 ul, ol {
@@ -312,7 +333,7 @@ ul, ol {
 li {
   margin-bottom: 6px;
   color: var(--text);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 0 1px rgba(0, 0, 0, 0.35);
 }
 
 .section{ display: none; }
@@ -332,20 +353,21 @@ li {
 }
 
 .card {
-  border: 1px solid rgba(181, 155, 65, 0.22);
+  border: 1px solid rgba(181, 155, 65, 0.28);
   border-radius: 14px;
-  background: rgba(10, 20, 16, 0.76);
+  background: rgba(10, 20, 16, 0.16);
   padding: 20px 24px;
   margin: 16px 0;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.38), inset 0 1px 0 rgba(255,255,255,0.04);
-  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 28px rgba(0, 0, 0, 0.32), inset 0 1px 0 rgba(255,255,255,0.06);
+  backdrop-filter: blur(14px) saturate(1.08);
+  -webkit-backdrop-filter: blur(14px) saturate(1.08);
   transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
 }
 
 .card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.5), 0 0 16px rgba(181, 155, 65, 0.14);
-  border-color: rgba(181, 155, 65, 0.38);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.44), 0 0 18px rgba(181, 155, 65, 0.16);
+  border-color: rgba(181, 155, 65, 0.44);
 }
 
 /* Cartes imbriquées : style secondaire discret */
@@ -924,50 +946,50 @@ button {
 }
 
 .bg-home {
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url('https://dropinblog.net/cdn-cgi/image/fit=scale-down,width=700/34253577/files/1762544117.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
+    url('https://dropinblog.net/cdn-cgi/image/fit=scale-down,width=700/34253577/files/1762544117.jpg') center/cover no-repeat fixed !important;
   animation: bgShift-home 8s ease-in-out infinite !important;
 }
 
 .bg-alternance {
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url('https://dropinblog.net/cdn-cgi/image/fit=scale-down,width=700/34253577/files/1762544749.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
+    url('https://dropinblog.net/cdn-cgi/image/fit=scale-down,width=700/34253577/files/1762544749.jpg') center/cover no-repeat fixed !important;
   animation: bgShift-alternance 10s ease-in-out infinite !important;
 }
 
 .bg-certifications {
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url('https://dropinblog.net/cdn-cgi/image/fit=scale-down,width=700/34253577/files/1762543634.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
+    url('https://dropinblog.net/cdn-cgi/image/fit=scale-down,width=700/34253577/files/1762543634.jpg') center/cover no-repeat fixed !important;
   animation: bgShift-certifications 9s ease-in-out infinite !important;
 }
 
 .bg-projets {
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url('https://dropinblog.net/cdn-cgi/image/fit=scale-down,width=700/34253577/files/1762542957.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
+    url('https://dropinblog.net/cdn-cgi/image/fit=scale-down,width=700/34253577/files/1762542957.jpg') center/cover no-repeat fixed !important;
   animation: bgShift-projets 11s ease-in-out infinite !important;
 }
 
 .bg-veille {
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url('https://dropinblog.net/cdn-cgi/image/fit=scale-down,width=700/34253577/files/1762544979.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
+    url('https://dropinblog.net/cdn-cgi/image/fit=scale-down,width=700/34253577/files/1762544979.jpg') center/cover no-repeat fixed !important;
   animation: bgShift-veille 12s ease-in-out infinite !important;
 }
 
 .bg-jeu {
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url('https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1920&h=1080&fit=crop') center/cover no-repeat !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
+    url('https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1920&h=1080&fit=crop') center/cover no-repeat fixed !important;
   animation: bgShift-jeu 7s ease-in-out infinite !important;
 }
 
 .bg-apropos {
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url('https://dropinblog.net/cdn-cgi/image/fit=scale-down,width=700/34253577/files/1762542427.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
+    url('https://dropinblog.net/cdn-cgi/image/fit=scale-down,width=700/34253577/files/1762542427.jpg') center/cover no-repeat fixed !important;
   animation: bgShift-apropos 10s ease-in-out infinite !important;
 }
 
 .bg-contact {
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920&h=1080&fit=crop') center/cover no-repeat !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
+    url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920&h=1080&fit=crop') center/cover no-repeat fixed !important;
   animation: bgShift-contact 9s ease-in-out infinite !important;
 }
 

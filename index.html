@@ -1,1035 +1,1456 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Portfolio de Londé Balossa Lotus Espoir — Étudiant BTS SIO option SISR, passionné par les systèmes, réseaux et la cybersécurité." />
-  <meta property="og:title" content="Portfolio – Londé Balossa Lotus Espoir" />
-  <meta property="og:description" content="Étudiant BTS SIO SISR en alternance chez Transdev — systèmes, réseaux, cybersécurité." />
-  <meta property="og:type" content="website" />
-  <title>Portfolio – de L.Balossa Lotus Espoir</title>
-  <link rel="stylesheet" href="style.css?v=99999" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Londé Balossa Lotus Espoir – Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+:root{
+  --c:#00f5d4;--cg:rgba(0,245,212,.14);--cd:rgba(0,245,212,.07);
+  --purple:#7b61ff;--pg:rgba(123,97,255,.14);
+  --bg:#050b14;--bg2:#0a1122;--bg3:#0e1628;
+  --card:rgba(10,17,34,.88);
+  --text:#e2e8f0;--muted:#64748b;--muted2:#8897a8;
+  --border:rgba(0,245,212,.1);--border-h:rgba(0,245,212,.28);
+  --nav-h:64px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px}
+body{
+  font-family:'Inter',system-ui,sans-serif;
+  background:var(--bg);color:var(--text);
+  min-height:100vh;overflow-x:hidden;
+}
+a{color:var(--c);text-decoration:none}
+a:hover{text-decoration:underline}
+strong{color:#fff}
+ul{padding-left:1.2rem}
+li{margin-bottom:.35rem;line-height:1.75}
+table{width:100%;border-collapse:collapse}
+th,td{padding:.5rem .75rem;text-align:left;border:1px solid var(--border);font-size:.875rem}
+th{background:var(--cd);color:var(--c)}
+tr:hover{background:var(--cd)}
+kbd{background:var(--bg2);border:1px solid var(--border);padding:.1rem .35rem;border-radius:4px;font-size:.85em}
+code{font-family:'JetBrains Mono',monospace;background:var(--cd);padding:.1rem .3rem;border-radius:3px;color:var(--c);font-size:.9em}
+button{font-family:inherit;cursor:pointer}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:rgba(0,245,212,.25);border-radius:3px}
+
+/* BG CANVAS */
+#bg-canvas{position:fixed;inset:0;z-index:0;pointer-events:none}
+
+/* =================== NAVBAR =================== */
+.navbar{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  background:rgba(5,11,20,.82);backdrop-filter:blur(24px);
+  border-bottom:1px solid var(--border);
+  transition:background .3s;
+}
+.nav-inner{
+  max-width:1280px;margin:0 auto;padding:0 1.5rem;
+  display:flex;align-items:center;gap:1rem;height:var(--nav-h);
+}
+.nav-logo{
+  font-weight:900;font-size:.88rem;color:#fff;
+  white-space:nowrap;display:flex;align-items:center;gap:.4rem;
+  margin-right:.5rem;flex-shrink:0;
+}
+.nav-logo .bracket{color:var(--c)}
+.nav-links{display:flex;gap:.1rem;flex:1;overflow-x:auto}
+.nav-links::-webkit-scrollbar{height:0}
+.nav-link{
+  padding:.36rem .7rem;font-size:.79rem;font-weight:500;
+  color:var(--muted);border-radius:7px;white-space:nowrap;
+  transition:color .2s,background .2s;
+  background:none;border:none;
+}
+.nav-link:hover{color:var(--text);background:var(--cd)}
+.nav-link.active{color:var(--c)}
+.lang-switcher{display:flex;gap:.3rem;flex-shrink:0}
+.lang-btn{
+  padding:.24rem .52rem;font-size:.72rem;font-weight:700;
+  background:var(--bg2);border:1px solid var(--border);
+  color:var(--muted);border-radius:6px;
+  transition:all .2s;
+}
+.lang-btn:hover{border-color:var(--border-h);color:var(--text)}
+.lang-btn.active{background:var(--cg);border-color:var(--c);color:var(--c)}
+.hamburger{
+  display:none;background:none;border:1px solid var(--border);
+  color:var(--c);padding:.36rem .55rem;border-radius:7px;font-size:1rem;
+}
+
+/* MOBILE MENU */
+.mobile-menu{
+  display:none;position:fixed;top:var(--nav-h);left:0;right:0;z-index:99;
+  background:rgba(5,11,20,.97);backdrop-filter:blur(24px);
+  border-bottom:1px solid var(--border);padding:1rem;
+}
+.mobile-menu.open{display:block}
+.mob-link{
+  display:block;width:100%;padding:.6rem 1rem;font-size:.88rem;
+  color:var(--muted);background:none;border:none;text-align:left;
+  border-radius:8px;transition:color .2s,background .2s;
+}
+.mob-link:hover{color:var(--text);background:var(--cd)}
+
+/* =================== MAIN =================== */
+main{padding-top:var(--nav-h);position:relative;z-index:1}
+section{padding:5rem 1.5rem;scroll-margin-top:var(--nav-h)}
+.container{max-width:1200px;margin:0 auto}
+.container-sm{max-width:900px;margin:0 auto}
+
+/* SECTION HEADER */
+.sec-tag{
+  display:inline-block;padding:.25rem .75rem;
+  background:var(--cd);border:1px solid var(--border);
+  color:var(--c);border-radius:999px;font-size:.74rem;font-weight:600;
+  margin-bottom:1rem;letter-spacing:.03em;
+}
+.sec-title{
+  font-size:2.1rem;font-weight:900;margin-bottom:.5rem;
+  background:linear-gradient(135deg,#fff 30%,var(--c) 70%,var(--purple));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.sec-sub{font-size:.92rem;color:var(--muted);margin-bottom:2.5rem;line-height:1.6}
+.divider{height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent);margin:2rem 0}
+
+/* CARD */
+.card{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:16px;padding:1.5rem;
+  backdrop-filter:blur(20px);
+  transition:border-color .25s,box-shadow .25s;
+  margin-bottom:1rem;
+}
+.card:hover{border-color:var(--border-h);box-shadow:0 0 28px rgba(0,245,212,.07)}
+.card h2{font-size:1rem;font-weight:700;color:var(--c);margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+.card h3{font-size:.9rem;font-weight:600;color:#a5bbd0;margin:.9rem 0 .45rem}
+.card h4{font-size:.85rem;font-weight:600;color:var(--c);margin:.8rem 0 .35rem}
+.card p{font-size:.9rem;line-height:1.75;color:var(--text);margin-bottom:.5rem}
+.card ul{font-size:.9rem;line-height:1.75}
+
+/* GRID UTILS */
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.grid-auto{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem}
+
+/* TABS */
+.tab-bar{
+  display:flex;gap:.4rem;flex-wrap:wrap;
+  margin-bottom:1.5rem;padding-bottom:.75rem;
+  border-bottom:1px solid var(--border);
+}
+.tab-btn{
+  padding:.38rem .9rem;font-size:.8rem;font-weight:500;
+  background:transparent;border:1px solid var(--border);
+  color:var(--muted);border-radius:8px;
+  transition:all .2s;
+}
+.tab-btn:hover{border-color:var(--border-h);color:var(--text)}
+.tab-btn.active{background:var(--cg);border-color:var(--c);color:var(--c)}
+.tab-panel{display:none}
+.tab-panel.active{display:block;animation:fadeUp .3s ease}
+.inner-tab-bar{display:flex;gap:.3rem;flex-wrap:wrap;margin-bottom:1rem}
+.inner-tab-btn{
+  padding:.3rem .7rem;font-size:.76rem;
+  background:var(--bg2);border:1px solid var(--border);
+  color:var(--muted);border-radius:6px;transition:all .2s;
+}
+.inner-tab-btn:hover{border-color:var(--border-h);color:var(--text)}
+.inner-tab-btn.active{background:var(--cg);border-color:var(--c);color:var(--c)}
+.inner-tab-panel{display:none}
+.inner-tab-panel.active{display:block}
+
+/* SKILL BARS */
+.sk-row{margin-bottom:.75rem}
+.sk-label{display:flex;justify-content:space-between;font-size:.82rem;margin-bottom:.3rem;color:var(--muted2)}
+.sk-pct{color:var(--c);font-weight:600}
+.sk-track{height:6px;background:var(--bg2);border-radius:3px;overflow:hidden;border:1px solid var(--border)}
+.sk-fill{height:100%;background:linear-gradient(90deg,var(--c),var(--purple));border-radius:3px;width:0;transition:width 1.2s cubic-bezier(.4,0,.2,1)}
+
+/* HERO */
+.hero-section{min-height:100vh;display:flex;align-items:center;padding:2rem 1.5rem}
+.hero-grid{display:grid;grid-template-columns:1fr 380px;gap:3.5rem;align-items:center;width:100%}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:.5rem;
+  padding:.32rem .85rem;background:var(--cd);
+  border:1px solid var(--border);color:var(--c);
+  border-radius:999px;font-size:.78rem;font-weight:600;
+  margin-bottom:1.5rem;
+}
+.hero-title{font-size:3.2rem;font-weight:900;line-height:1.1;margin-bottom:1.25rem}
+.hero-name{
+  background:linear-gradient(135deg,#fff 0%,var(--c) 50%,var(--purple) 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  display:block;
+}
+.hero-role{font-size:.95rem;color:var(--c);font-weight:600;margin-bottom:1rem;font-family:'JetBrains Mono',monospace}
+.hero-sub{font-size:.95rem;color:var(--muted2);line-height:1.7;margin-bottom:2rem;max-width:520px}
+.hero-btns{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem}
+.btn-primary{
+  display:inline-flex;align-items:center;gap:.5rem;
+  padding:.72rem 1.75rem;background:var(--c);color:#000;
+  font-weight:700;font-size:.88rem;border-radius:10px;
+  border:none;transition:all .25s;text-decoration:none;
+  box-shadow:0 0 0 rgba(0,245,212,0);
+}
+.btn-primary:hover{box-shadow:0 0 28px rgba(0,245,212,.45);transform:translateY(-2px);text-decoration:none}
+.btn-secondary{
+  display:inline-flex;align-items:center;gap:.5rem;
+  padding:.72rem 1.75rem;background:transparent;
+  color:var(--text);font-weight:600;font-size:.88rem;
+  border-radius:10px;border:1px solid var(--border);
+  transition:all .25s;text-decoration:none;
+}
+.btn-secondary:hover{border-color:var(--border-h);background:var(--cd);text-decoration:none}
+.btn-sm{padding:.4rem .9rem;font-size:.8rem;border-radius:8px}
+
+/* PROFILE CARD */
+.profile-card{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:20px;padding:2rem 1.75rem;text-align:center;
+  backdrop-filter:blur(20px);position:relative;
+  box-shadow:0 0 60px rgba(0,245,212,.06);
+}
+.profile-card::before{
+  content:'';position:absolute;inset:-1px;border-radius:20px;
+  background:linear-gradient(135deg,rgba(0,245,212,.12),rgba(123,97,255,.12));
+  z-index:-1;pointer-events:none;
+}
+.av-wrap{position:relative;width:100px;height:100px;margin:0 auto 1.25rem}
+.av-ring{position:absolute;inset:-4px;border-radius:50%;background:conic-gradient(var(--c),var(--purple),var(--c));animation:spin 4s linear infinite}
+.av-inner{position:relative;z-index:1;width:100%;height:100%;background:var(--bg2);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:2.5rem}
+@keyframes spin{to{transform:rotate(360deg)}}
+.prof-name{font-size:1rem;font-weight:800;color:#fff;margin-bottom:.2rem;line-height:1.4}
+.prof-role{font-size:.76rem;color:var(--c);margin-bottom:1.25rem}
+.prof-stats{display:flex;justify-content:center;gap:1.5rem;margin-bottom:1.5rem;padding:.75rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.prof-stat-num{font-size:1.3rem;font-weight:900;color:var(--c);display:block}
+.prof-stat-lbl{font-size:.68rem;color:var(--muted)}
+.term-box{
+  background:rgba(0,0,0,.5);border:1px solid var(--border);
+  border-radius:10px;padding:.9rem 1rem;text-align:left;margin-top:1rem;
+}
+.term-dots{display:flex;gap:.35rem;margin-bottom:.55rem}
+.t-dot{width:10px;height:10px;border-radius:50%}
+.term-line{font-family:'JetBrains Mono',monospace;font-size:.77rem;line-height:1.85}
+.t-prompt{color:var(--c)}
+.t-dim{color:var(--muted)}
+.soc-row{display:flex;gap:.5rem;justify-content:center;margin-top:1.25rem;flex-wrap:wrap}
+.soc-btn{
+  padding:.38rem .75rem;font-size:.76rem;font-weight:600;
+  background:var(--bg2);border:1px solid var(--border);
+  color:var(--muted);border-radius:8px;transition:all .2s;
+}
+.soc-btn:hover{border-color:var(--border-h);color:var(--c)}
+
+/* TECH BLOCK */
+.tech-block{
+  font-family:'JetBrains Mono',monospace;font-size:.8rem;
+  line-height:2.1;background:rgba(0,0,0,.45);
+  padding:1.1rem;border-radius:10px;color:var(--c);
+  border:1px solid var(--border);margin:.75rem 0;
+}
+
+/* SCHEMA PLACEHOLDER */
+.schema-ph{
+  border:1px dashed rgba(0,245,212,.2);border-radius:10px;
+  padding:1.5rem;text-align:center;color:var(--muted);font-size:.85rem;margin:.75rem 0;
+}
+
+/* GLOW BADGE */
+.gbadge{
+  display:inline-block;padding:.2rem .6rem;
+  background:var(--cd);border:1px solid rgba(0,245,212,.28);
+  color:var(--c);border-radius:6px;font-size:.74rem;font-weight:600;
+}
+
+/* BLOGS */
+.b-card{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:16px;padding:1.25rem;cursor:pointer;
+  transition:border-color .25s,transform .25s,box-shadow .25s;
+}
+.b-card:hover{border-color:var(--border-h);transform:translateY(-4px);box-shadow:0 8px 36px rgba(0,245,212,.1)}
+.b-emoji{font-size:1.8rem;margin-bottom:.6rem}
+.b-title{font-size:.92rem;font-weight:700;color:#fff;margin-bottom:.45rem}
+.b-desc{font-size:.8rem;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:.65rem;line-height:1.5}
+.b-tags{display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.6rem}
+.b-tag{font-size:.68rem;padding:.15rem .45rem;background:var(--cd);border:1px solid var(--border);color:var(--c);border-radius:4px}
+.b-meta{font-size:.7rem;color:var(--muted)}
+
+/* CONTACT CARDS */
+.ci-card{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:16px;padding:1.25rem 1.5rem;
+  display:flex;align-items:center;gap:1.25rem;
+  transition:border-color .25s,transform .25s;
+  text-decoration:none;
+}
+.ci-card:hover{border-color:var(--border-h);transform:translateY(-2px);text-decoration:none}
+.ci-icon{
+  width:52px;height:52px;border-radius:13px;
+  background:var(--cg);border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.35rem;flex-shrink:0;color:var(--c);
+}
+.ci-label{font-size:.8rem;color:var(--muted);margin-bottom:.2rem}
+.ci-value{font-size:.92rem;font-weight:600;color:var(--text)}
+
+/* MODAL */
+.modal{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.76);backdrop-filter:blur(6px);align-items:center;justify-content:center;padding:1rem}
+.modal.open{display:flex}
+.modal.hidden{display:none !important}
+/* diff-modal uses .hidden to hide → show when .hidden removed */
+#diff-modal{display:flex}
+#diff-modal.hidden{display:none !important}
+.modal-box{
+  background:var(--bg2);border:1px solid var(--border-h);
+  border-radius:20px;max-width:720px;width:100%;
+  max-height:85vh;overflow-y:auto;padding:2rem;position:relative;
+  box-shadow:0 0 60px rgba(0,245,212,.12);
+}
+.modal-close{
+  position:absolute;top:1rem;right:1rem;
+  background:none;border:1px solid var(--border);color:var(--muted);
+  width:32px;height:32px;border-radius:8px;font-size:.9rem;
+  transition:all .2s;
+}
+.modal-close:hover{border-color:var(--c);color:var(--c)}
+.modal-emoji{font-size:2.5rem;margin-bottom:1rem}
+.modal-title{font-size:1.25rem;font-weight:800;color:#fff;margin-bottom:.4rem}
+.modal-meta{font-size:.8rem;color:var(--muted);margin-bottom:1.25rem}
+.modal-body{font-size:.9rem;line-height:1.8}
+.modal-body h3{color:var(--c);margin:1rem 0 .5rem;font-size:.95rem}
+.modal-body p{margin-bottom:.65rem}
+.modal-body ul{margin-bottom:.65rem;padding-left:1.2rem}
+
+/* GAME */
+.game-wrap{display:flex;flex-direction:column;align-items:center;gap:1.25rem}
+.game-ui{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:center}
+.game-btn{
+  padding:.5rem 1.1rem;font-size:.85rem;font-weight:600;
+  background:var(--cg);border:1px solid var(--c);
+  color:var(--c);border-radius:10px;transition:all .2s;
+}
+.game-btn:hover{background:var(--c);color:#000}
+.game-score-row{display:flex;gap:2.5rem;font-size:.85rem;color:var(--text);font-family:'JetBrains Mono',monospace}
+.game-score-num{color:var(--c);font-weight:700}
+#dino-canvas{
+  border:1px solid var(--border);border-radius:14px;
+  background:rgba(0,0,0,.45);max-width:100%;
+  box-shadow:0 0 28px rgba(0,245,212,.08);
+}
+#game-msg{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:12px;padding:1rem 1.5rem;text-align:center;
+  font-size:.9rem;line-height:1.7;max-width:500px;
+}
+#game-msg.hidden{display:none}
+
+/* RSS */
+#rss-container p{font-size:.85rem;line-height:1.7;margin-bottom:.75rem;padding-bottom:.75rem;border-bottom:1px solid var(--border)}
+#rss-container a{color:var(--c)}
+
+/* LIGHTBOX */
+#lightbox{display:none;position:fixed;inset:0;z-index:300;background:rgba(0,0,0,.9);align-items:center;justify-content:center}
+#lightbox:not(.hidden){display:flex}
+#lightbox.hidden{display:none}
+.lightbox-close,.lightbox-prev,.lightbox-next{
+  position:absolute;background:rgba(0,0,0,.7);border:1px solid var(--border);
+  color:var(--text);padding:.5rem .75rem;border-radius:8px;font-size:1.1rem;
+}
+.lightbox-close{top:1rem;right:1rem}
+.lightbox-prev{left:1rem;top:50%;transform:translateY(-50%)}
+.lightbox-next{right:1rem;top:50%;transform:translateY(-50%)}
+#lightbox-img{max-width:90vw;max-height:90vh;border-radius:8px;object-fit:contain}
+
+/* ANIMATIONS */
+@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes glow{0%,100%{box-shadow:0 0 10px rgba(0,245,212,.15)}50%{box-shadow:0 0 24px rgba(0,245,212,.3)}}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}
+.reveal.in{opacity:1;transform:none}
+.fade-in{animation:fadeUp .6s ease both}
+
+/* FOOTER */
+footer{
+  text-align:center;padding:2.5rem 1.5rem;
+  font-size:.8rem;color:var(--muted);
+  border-top:1px solid var(--border);
+  background:var(--bg2);
+}
+
+/* ======= RESPONSIVE ======= */
+@media(max-width:1024px){
+  .hero-grid{grid-template-columns:1fr}
+  .profile-card{max-width:420px;margin:0 auto}
+}
+@media(max-width:768px){
+  .nav-links{display:none}
+  .hamburger{display:block}
+  .hero-title{font-size:2.2rem}
+  .grid-3{grid-template-columns:1fr}
+  .grid-2{grid-template-columns:1fr}
+  section{padding:3.5rem 1rem}
+  .sec-title{font-size:1.7rem}
+}
+@media(max-width:580px){.hero-btns{flex-direction:column}}
+</style>
 </head>
-
 <body>
+<canvas id="bg-canvas"></canvas>
 
-  <!-- SIDEBAR -->
-  <aside class="sidebar">
-    <h2 class="logo">Londé Balossa Lotus Espoir</h2>
-    <nav>
-      <ul class="nav-root">
-        <li class="active" data-section="home" data-i18n="nav.home">🏠 Accueil</li>
-        <li data-section="apropos" data-i18n="nav.apropos">👤 À propos</li>
-
-        <!-- Alternance (arborescence) -->
-        <li class="has-children" data-section="alternance" aria-expanded="false">
-          <span class="caret" aria-hidden="true"></span><span class="label" data-i18n="nav.alternance">🏢 Alternance</span>
-          <ul class="tree-children">
-            <li class="tree-item" data-section="alternance" data-sub="alt-arrivee" data-i18n="nav.alt-arrivee">• Arrivée</li>
-            <li class="tree-item" data-section="alternance" data-sub="alt-equipe" data-i18n="nav.alt-equipe">• Équipe infra</li>
-            <li class="tree-item" data-section="alternance" data-sub="alt-tuteur" data-i18n="nav.alt-tuteur">• Tuteur</li>
-            <li class="tree-item" data-section="alternance" data-sub="alt-transdev" data-i18n="nav.alt-transdev">• Transdev</li>
-          </ul>
-        </li>
-
-        <li data-section="projets" data-i18n="nav.projets">🛠️ Projets</li>
-
-        <!-- Certifications (arborescence) -->
-        <li class="has-children" data-section="certifications" aria-expanded="false">
-          <span class="caret" aria-hidden="true"></span><span class="label" data-i18n="nav.certifications">🏅 Certifications</span>
-          <ul class="tree-children">
-            <li class="tree-item" data-section="certifications" data-sub="cert-reseau" data-i18n="nav.cert-reseau">• Réseau</li>
-            <li class="tree-item" data-section="certifications" data-sub="cert-systemes" data-i18n="nav.cert-systemes">• Systèmes</li>
-            <li class="tree-item" data-section="certifications" data-sub="cert-cloud" data-i18n="nav.cert-cloud">• Cloud</li>
-            <li class="tree-item" data-section="certifications" data-sub="cert-securite" data-i18n="nav.cert-securite">• Sécurité</li>
-            <li class="tree-item" data-section="certifications" data-sub="cert-devops" data-i18n="nav.cert-devops">• DevOps / IaC</li>
-            <li class="tree-item" data-section="certifications" data-sub="cert-itsm" data-i18n="nav.cert-itsm">• ITSM / Gouvernance</li>
-            <li class="tree-item" data-section="certifications" data-sub="cert-outils" data-i18n="nav.cert-outils">• Outils / Supervision</li>
-            <li class="tree-item" data-section="certifications" data-sub="cert-autres" data-i18n="nav.cert-autres">• Autres</li>
-          </ul>
-        </li>
-
-        <li data-section="veille" data-i18n="nav.veille">🔒 Veille technologique</li>
-        <li data-section="contact" data-i18n="nav.contact">📞 Contact</li>
-
-        <!-- Titre stylé non cliquable + Jeu tout en bas -->
-        <li class="menu-title" aria-disabled="true">🎮 ESPOIR RUN</li>
-        <li data-section="jeu" data-i18n="nav.jeu">🎮 Jeu – Dino SIO</li>
-      </ul>
-    </nav>
-  </aside>
-
-  <!-- CONTENU -->
-  <main class="terminal">
-    <button class="burger-btn">☰</button>
-    <div class="terminal-header">
-      <span class="dot red"></span>
-      <span class="dot yellow"></span>
-      <span class="dot green"></span>
-      <span class="title">espoir@portfolio:~</span>
+<!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo"><span class="bracket">&lt;/&gt;</span> Londé Balossa Lotus Espoir</div>
+    <div class="nav-links">
+      <button class="nav-link active" onclick="navTo('home')"           data-section="home"           data-i18n="nav.home">🏠 Accueil</button>
+      <button class="nav-link"        onclick="navTo('apropos')"         data-section="apropos"         data-i18n="nav.apropos">👤 À propos</button>
+      <button class="nav-link"        onclick="navTo('alternance')"      data-section="alternance"      data-i18n="nav.alternance">🏢 Alternance</button>
+      <button class="nav-link"        onclick="navTo('projets')"         data-section="projets"         data-i18n="nav.projets">🛠️ Projets</button>
+      <button class="nav-link"        onclick="navTo('certifications')"  data-section="certifications"  data-i18n="nav.certifications">🏅 Certifications</button>
+      <button class="nav-link"        onclick="navTo('veille')"          data-section="veille"          data-i18n="nav.veille">🔒 Veille</button>
+      <button class="nav-link"        onclick="navTo('blogs')"           data-section="blogs"           data-i18n="nav.blogs">📝 Blogs</button>
+      <button class="nav-link"        onclick="navTo('contact')"         data-section="contact"         data-i18n="nav.contact">📞 Contact</button>
+      <button class="nav-link"        onclick="navTo('jeu')"             data-section="jeu"             data-i18n="nav.jeu">🎮 Jeu</button>
+    </div>
+    <div style="display:flex;align-items:center;gap:.75rem;flex-shrink:0">
       <div class="lang-switcher" id="lang-switcher">
-        <button type="button" class="lang-btn active" data-lang="fr">FR</button>
-        <button type="button" class="lang-btn" data-lang="en">EN</button>
-        <button type="button" class="lang-btn" data-lang="cn">CN</button>
+        <button class="lang-btn active" data-lang="fr" data-i18n="lang.fr">FR</button>
+        <button class="lang-btn"        data-lang="en" data-i18n="lang.en">EN</button>
+        <button class="lang-btn"        data-lang="cn" data-i18n="lang.cn">中</button>
+      </div>
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mob-link" onclick="navTo('home');closeMenu()"           data-i18n="nav.home">🏠 Accueil</button>
+  <button class="mob-link" onclick="navTo('apropos');closeMenu()"        data-i18n="nav.apropos">👤 À propos</button>
+  <button class="mob-link" onclick="navTo('alternance');closeMenu()"     data-i18n="nav.alternance">🏢 Alternance</button>
+  <button class="mob-link" onclick="navTo('projets');closeMenu()"        data-i18n="nav.projets">🛠️ Projets</button>
+  <button class="mob-link" onclick="navTo('certifications');closeMenu()" data-i18n="nav.certifications">🏅 Certifications</button>
+  <button class="mob-link" onclick="navTo('veille');closeMenu()"         data-i18n="nav.veille">🔒 Veille</button>
+  <button class="mob-link" onclick="navTo('blogs');closeMenu()"          data-i18n="nav.blogs">📝 Blogs</button>
+  <button class="mob-link" onclick="navTo('contact');closeMenu()"        data-i18n="nav.contact">📞 Contact</button>
+  <button class="mob-link" onclick="navTo('jeu');closeMenu()"            data-i18n="nav.jeu">🎮 Jeu</button>
+</div>
+
+<!-- ============================================================
+     MAIN
+     ============================================================ -->
+<main>
+
+<!-- ======== HOME / HERO ======== -->
+<section id="home" class="hero-section" style="padding-top:0">
+  <div class="container">
+    <div class="hero-grid">
+
+      <!-- LEFT -->
+      <div>
+        <div class="hero-tag">💻 BTS SIO – SISR &nbsp;|&nbsp; Alternant Transdev</div>
+        <h1 class="hero-title">
+          <span style="font-size:.55em;font-family:'JetBrains Mono',monospace;font-weight:400;color:var(--c);display:block;margin-bottom:.35rem" data-i18n="home.title">[=== BIENVENUE ===]</span>
+          <span class="hero-name">Londé Balossa<br>Lotus Espoir</span>
+        </h1>
+        <p class="hero-role" data-i18n-html="home.welcome">Bienvenue sur le portfolio de <strong>Londé Balossa Lotus Espoir</strong>.</p>
+        <p class="hero-sub" data-i18n="home.instructions">Utilise le menu en haut pour naviguer.</p>
+        <p class="hero-sub" style="margin-top:-.5rem;font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--c)">Stack: Cisco ASA · Fortinet · Zabbix · VLANs · Zero Trust · SD-WAN v2</p>
+
+        <!-- Skill bars -->
+        <div style="margin:1.75rem 0">
+          <div class="sk-row"><div class="sk-label"><span>Réseaux — VLAN, ACL, Routing</span><span class="sk-pct">80%</span></div><div class="sk-track"><div class="sk-fill" data-w="80"></div></div></div>
+          <div class="sk-row"><div class="sk-label"><span>Cybersécurité / Zero Trust</span><span class="sk-pct">75%</span></div><div class="sk-track"><div class="sk-fill" data-w="75"></div></div></div>
+          <div class="sk-row"><div class="sk-label"><span>Linux / Windows Server</span><span class="sk-pct">70%</span></div><div class="sk-track"><div class="sk-fill" data-w="70"></div></div></div>
+          <div class="sk-row"><div class="sk-label"><span>Zabbix / Supervision SNMP</span><span class="sk-pct">65%</span></div><div class="sk-track"><div class="sk-fill" data-w="65"></div></div></div>
+          <div class="sk-row"><div class="sk-label"><span>SD-WAN / Fortinet</span><span class="sk-pct">60%</span></div><div class="sk-track"><div class="sk-fill" data-w="60"></div></div></div>
+          <div class="sk-row"><div class="sk-label"><span>Scripting / IaC</span><span class="sk-pct">50%</span></div><div class="sk-track"><div class="sk-fill" data-w="50"></div></div></div>
+        </div>
+
+        <div class="hero-btns">
+          <button class="btn-primary" onclick="navTo('contact')">📞 Contact</button>
+          <button class="btn-secondary" onclick="navTo('projets')">🛠️ Voir les projets →</button>
+        </div>
+      </div>
+
+      <!-- RIGHT: Profile Card -->
+      <div class="profile-card">
+        <div class="av-wrap"><div class="av-ring"></div><div class="av-inner">💻</div></div>
+        <div class="prof-name">Londé Balossa<br>Lotus Espoir</div>
+        <div class="prof-role">BTS SIO – SISR &nbsp;|&nbsp; Alternant Transdev</div>
+        <div class="prof-stats">
+          <div class="prof-stat"><span class="prof-stat-num">2+</span><span class="prof-stat-lbl">Projets</span></div>
+          <div class="prof-stat"><span class="prof-stat-num">8+</span><span class="prof-stat-lbl">Certs</span></div>
+          <div class="prof-stat"><span class="prof-stat-num">3</span><span class="prof-stat-lbl">Langues</span></div>
+        </div>
+        <div class="term-box">
+          <div class="term-dots"><div class="t-dot" style="background:#ff5f57"></div><div class="t-dot" style="background:#febc2e"></div><div class="t-dot" style="background:#28c840"></div></div>
+          <div class="term-line"><span class="t-prompt">$ whoami</span></div>
+          <div class="term-line"><span class="t-dim">&gt; </span><span>Londé — Alternant Transdev DSI</span></div>
+          <div class="term-line"><span class="t-prompt">$ skills --top</span></div>
+          <div class="term-line"><span class="t-dim">&gt; </span><span>Zero Trust, SD-WAN, Zabbix</span></div>
+          <div class="term-line"><span class="t-prompt">$ cat contact.txt</span></div>
+          <div class="term-line"><span class="t-dim">&gt; </span><span>londe305@gmail.com</span></div>
+        </div>
+        <div class="soc-row">
+          <a href="https://github.com/" target="_blank" rel="noopener" class="soc-btn"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener" class="soc-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="mailto:londe305@gmail.com" class="soc-btn"><i class="fas fa-envelope"></i> Email</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======== À PROPOS ======== -->
+<section id="apropos" style="background:var(--bg2)">
+  <div class="container">
+    <div class="sec-tag">👤 À PROPOS</div>
+    <h2 class="sec-title" data-i18n="apropos.title">[=== À PROPOS ===]</h2>
+    <p class="sec-sub">Profil, enjeux des infrastructures &amp; vision future.</p>
+
+    <div class="grid-2">
+      <div>
+        <div class="card reveal"><p data-i18n-html="apropos.intro"></p></div>
+        <div class="card reveal">
+          <h2 data-i18n="apropos.infra.title">Enjeux des infrastructures réseau</h2>
+          <ul><li data-i18n-html="apropos.infra.1"></li><li data-i18n-html="apropos.infra.2"></li><li data-i18n-html="apropos.infra.3"></li></ul>
+        </div>
+      </div>
+      <div>
+        <div class="card reveal">
+          <h2 data-i18n="apropos.future.title">Dans la prochaine décennie</h2>
+          <ul><li data-i18n-html="apropos.future.1"></li><li data-i18n-html="apropos.future.2"></li><li data-i18n-html="apropos.future.3"></li><li data-i18n-html="apropos.future.4"></li></ul>
+        </div>
+        <div class="card reveal" style="background:var(--cg);border-color:var(--border-h)">
+          <h2>Contact &amp; profil</h2>
+          <p><i class="fas fa-envelope" style="color:var(--c);margin-right:.5rem"></i>londe305@gmail.com</p>
+          <p><i class="fab fa-linkedin" style="color:var(--c);margin-right:.5rem"></i><a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">LinkedIn</a></p>
+          <p style="font-size:.8rem;color:var(--muted);margin-top:.75rem" data-i18n="apropos.assistant"></p>
+        </div>
       </div>
     </div>
+  </div>
+</section>
 
-    <div class="terminal-content">
+<!-- ======== ALTERNANCE ======== -->
+<section id="alternance">
+  <div class="container">
+    <div class="sec-tag">🏢 ALTERNANCE</div>
+    <h2 class="sec-title" data-i18n="alternance.title">[=== MON ALTERNANCE CHEZ TRANSDEV ===]</h2>
+    <p class="sec-sub">Découvrez mon parcours au sein du groupe Transdev — missions, équipe &amp; apprentissages.</p>
 
-      <!-- ACCUEIL -->
-      <section id="home" class="section active">
-        <h1 class="ascii" data-i18n="home.title">[=== BIENVENUE ===]</h1>
-        <p data-i18n-html="home.welcome">Bienvenue sur le portfolio de <strong>Londé Balossa Lotus Espoir</strong>.</p>
-        <p data-i18n="home.instructions">Utilise le menu à gauche pour naviguer.</p>
-      </section>
+    <div class="tab-bar" aria-label="Sous-onglets Alternance">
+      <button class="tab-btn active" id="alt-tab-arrivee"  onclick="activateAlt('arrivee')"  data-i18n="nav.alt-arrivee">• Arrivée</button>
+      <button class="tab-btn"        id="alt-tab-equipe"   onclick="activateAlt('equipe')"   data-i18n="nav.alt-equipe">• Équipe infra</button>
+      <button class="tab-btn"        id="alt-tab-tuteur"   onclick="activateAlt('tuteur')"   data-i18n="nav.alt-tuteur">• Tuteur</button>
+      <button class="tab-btn"        id="alt-tab-transdev" onclick="activateAlt('transdev')" data-i18n="nav.alt-transdev">• Transdev</button>
+    </div>
 
-      <!-- À PROPOS -->
-      <section id="apropos" class="section">
-        <h1 class="ascii" data-i18n="apropos.title">[=== À PROPOS ===]</h1>
-        <p data-i18n-html="apropos.intro">
-          Étudiant en BTS SIO (option SISR), je m'intéresse aux systèmes, réseaux et à la cybersécurité.
-          Mon objectif : bâtir des infrastructures <strong>performantes</strong>, <strong>sécurisées</strong> et <strong>résilientes</strong>.
-        </p>
-
-        <h2 data-i18n="apropos.infra.title">Enjeux des infrastructures réseau aujourd'hui</h2>
-        <ul>
-          <li data-i18n-html="apropos.infra.1"><strong>Performance &amp; scalabilité</strong> – absorber la croissance utilisateurs/données/services.</li>
-          <li data-i18n-html="apropos.infra.2"><strong>Sécurité</strong> – faire face aux ransomwares, compromissions d'identités, exposition Internet.</li>
-          <li data-i18n-html="apropos.infra.3"><strong>Disponibilité</strong> – maintenir un service 24/7 avec redondance, sauvegardes, PRA/PCA.</li>
-        </ul>
-
-        <h2 data-i18n="apropos.future.title">Dans la prochaine décennie</h2>
-        <ul>
-          <li data-i18n-html="apropos.future.1"><strong>Automatisation &amp; IaC/SDN</strong> – réseaux pilotés par code, déploiements répétables.</li>
-          <li data-i18n-html="apropos.future.2"><strong>Zero Trust généralisé</strong> – contrôle d'accès fort, moindre privilège, vérification continue.</li>
-          <li data-i18n-html="apropos.future.3"><strong>Observabilité</strong> – télémétrie fine, détection temps réel, auto‑remédiation.</li>
-          <li data-i18n-html="apropos.future.4"><strong>IA &amp; sécurité</strong> – détection d'anomalies, réponse automatisée.</li>
-        </ul>
-
-        <p data-i18n="apropos.assistant"><em>Assistant IA accessible depuis le bouton flottant en bas à droite.</em></p>
-      </section>
-
-      <!-- ALTERNANCE -->
-      <section id="alternance" class="section">
-        <h1 class="ascii" data-i18n="alternance.title">[=== MON ALTERNANCE CHEZ TRANSDEV ===]</h1>
-
-        <nav class="subtabs" aria-label="Sous-onglets Alternance">
-          <ul>
-            <li class="active" data-sub="alt-arrivee" data-i18n="nav.alt-arrivee">Arrivée</li>
-            <li data-sub="alt-equipe" data-i18n="nav.alt-equipe">Équipe infra</li>
-            <li data-sub="alt-tuteur" data-i18n="nav.alt-tuteur">Tuteur</li>
-            <li data-sub="alt-transdev" data-i18n="nav.alt-transdev">Transdev</li>
-          </ul>
-        </nav>
-
-        <div class="subpanels">
-          <div id="alt-arrivee" class="subpanel active">
-            <div class="card">
-              <h2 data-i18n="alt-arrivee.title">Arrivée au sein du groupe Transdev</h2>
-              <p data-i18n="alt-arrivee.text">(À compléter : contexte d'arrivée, objectifs de la mission, périmètre technique…)</p>
-            </div>
-          </div>
-
-          <div id="alt-equipe" class="subpanel">
-            <div class="card">
-              <h2 data-i18n="alt-equipe.title">L'équipe infrastructure</h2>
-              <p data-i18n="alt-equipe.text">(À compléter : organisation, responsabilités, technologies principales, interactions…)</p>
-            </div>
-          </div>
-
-          <div id="alt-tuteur" class="subpanel">
-            <div class="card">
-              <h2 data-i18n="alt-tuteur.title">Présentation</h2>
-              <p data-i18n-html="alt-tuteur.p1">
-                <strong>Johann Launay</strong> est <strong>Asset Manager</strong> / gestionnaire du parc informatique à la
-                <strong>DSI France</strong> de Transdev. Dans un entretien publié par Transdev, il met en avant les actions
-                de sobriété énergétique et l'optimisation du cycle de vie des équipements (reconditionnement, réduction
-                des emballages, méthodes de réception et logistique à Roissy) dans une démarche de gestion responsable
-                des actifs IT. <a href="https://www.transdev.com/fr/innovation-et-tech/la-dsi-france-et-la-sobriete-energetique-entretien-avec-johann-launay-gestionnaire-du-parc-informatique/" target="_blank" rel="noopener">Source</a>.
-              </p>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="alt-tuteur.role.title">Rôle &amp; missions (extraits publics)</h2>
-              <ul>
-                <li data-i18n-html="alt-tuteur.role.1">
-                  <strong>Gestion du parc IT &amp; sobriété :</strong> pilotage du cycle de vie des équipements, reconditionnement,
-                  logistique (plateforme de Roissy), réduction des impacts environnementaux liés aux actifs informatiques
-                  (démarche décrite par Transdev). <a href="https://www.transdev.com/fr/innovation-et-tech/la-dsi-france-et-la-sobriete-energetique-entretien-avec-johann-launay-gestionnaire-du-parc-informatique/" target="_blank" rel="noopener">Source</a>.
-                </li>
-                <li data-i18n-html="alt-tuteur.role.2">
-                  <strong>Parcours IT (éléments antérieurs, profil pro) :</strong> responsabilités systèmes, réseaux, data center,
-                  projets de consolidation d'infrastructures et d'outillage IT (ex. GLPI, supervision), telles que décrites
-                  sur un profil professionnel public (Viadeo/JDN).
-                  <a href="https://viadeo.journaldunet.com/p/johann-launay-5047557" target="_blank" rel="noopener">Source</a>.
-                </li>
-              </ul>
-              <p class="note" data-i18n-html="alt-tuteur.note1">
-                (Les items ci‑dessus reflètent uniquement des informations <em>publiques</em> et professionnelles.)
-              </p>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="alt-tuteur.role-internal.title">Fonctionnement avec mon tuteur (éléments internes)</h2>
-              <ul>
-                <li data-i18n-html="alt-tuteur.role-internal.1"><strong>Rituel hebdo :</strong> point <strong>30&nbsp;min chaque début de semaine</strong> pour cadrer priorités, risques et livrables.</li>
-                <li data-i18n-html="alt-tuteur.role-internal.2"><strong>Montée en autonomie :</strong> démonstration → binômage → réalisation encadrée → validation.</li>
-                <li data-i18n-html="alt-tuteur.role-internal.3"><strong>Traçabilité :</strong> ticketing + documentation des SOP/Runbooks + preuves pour E6.</li>
-              </ul>
-              <p class="note" data-i18n-html="alt-tuteur.note2">Ces informations décrivent notre organisation interne (non publiques).</p>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="alt-tuteur.learned.title">Ce que j'apprends à ses côtés</h2>
-              <ul>
-                <li data-i18n-html="alt-tuteur.learned.1"><strong>Démarrage en IT d'entreprise :</strong> j'ai véritablement fait mes débuts en environnement pro avec lui ; il a posé les bases (méthode, qualité, sécurité).</li>
-                <li data-i18n-html="alt-tuteur.learned.2"><strong>Gestion d'actifs IT "responsable" :</strong> penser cycle de vie complet (inventaire → exploitation → retrait), standardiser et mesurer l'impact (KPI simples).</li>
-                <li data-i18n-html="alt-tuteur.learned.3"><strong>Exigence &amp; mentorat :</strong> Johann est une vraie source de motivation et un <strong>mentor</strong> — il challenge, explique, et valide les étapes clés.</li>
-              </ul>
-            </div>
-          </div><!-- /alt-tuteur -->
-
-          <div id="alt-transdev" class="subpanel">
-            <div class="card">
-              <h2 data-i18n="alt-transdev.title">Qui est Transdev&nbsp;?</h2>
-              <p data-i18n-html="alt-transdev.p1">
-                Transdev est un opérateur et intégrateur de mobilités présent dans <strong>19&nbsp;pays</strong>, qui transporte en moyenne
-                <strong>12,8&nbsp;millions</strong> de passagers par jour et emploie plus de <strong>105&nbsp;000</strong> collaborateurs (2024).
-                Modes exploités&nbsp;: bus, car, tram, train, métro, ferries, vélo, transport à la demande et services autonomes.
-                <a href="https://fr.linkedin.com/company/-transdev" target="_blank" rel="noopener">Source</a>
-              </p>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="alt-transdev.gouv.title">Actionnariat &amp; gouvernance</h2>
-              <ul>
-                <li data-i18n-html="alt-transdev.gouv.1"><strong>Actionnariat (2025) :</strong> Groupe <strong>RETHMANN 66&nbsp;%</strong> et <strong>Caisse des Dépôts 34&nbsp;%</strong>
-                  – finalisation annoncée le 2&nbsp;juillet&nbsp;2025.
-                  <a href="https://www.transdev.com/wp-content/uploads/2025/07/2025-07-02-presse-release-rethmann-caisse-des-depots-transdev_en.pdf" target="_blank" rel="noopener">Source</a>
-                </li>
-                <li data-i18n-html="alt-transdev.gouv.2"><strong>Gouvernance :</strong> comité exécutif groupe (PDG Thierry Mallet, etc.) détaillé sur la page officielle.
-                  <a href="https://www.transdev.com/fr/notre-groupe/qui-dirige-le-groupe/" target="_blank" rel="noopener">Source</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="alt-transdev.chiffres.title">Chiffres 2024 (repères officiels)</h2>
-              <ul>
-                <li data-i18n-html="alt-transdev.chiffres.1"><strong>CA 2024 :</strong> ~<strong>10,05&nbsp;Md€</strong> (cap franchi) ; <strong>12,8&nbsp;M</strong> de passagers/jour en moyenne.</li>
-                <li data-i18n-html="alt-transdev.chiffres.2"><strong>Performance :</strong> résultat opérationnel courant 2024 en forte hausse (<em>donnée institutionnelle</em>).</li>
-                <li data-i18n-html="alt-transdev.chiffres.3"><strong>Emploi :</strong> +<strong>105&nbsp;000</strong> collaborateurs, recrutements importants en 2024.</li>
-              </ul>
-              <p class="note" data-i18n-html="alt-transdev.chiffres.note">
-                Sources institutionnelles (Caisse des Dépôts / pages corporate).
-                <a href="https://www.caissedesdepots.fr/eclairage/actualites/transdev-sest-surpasse-en-2024" target="_blank" rel="noopener">CDC 13&nbsp;mars&nbsp;2025</a> ·
-                <a href="https://fr.linkedin.com/company/-transdev" target="_blank" rel="noopener">Transdev (présentation)</a>
-              </p>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="alt-transdev.strat.title">Stratégie numérique &amp; gestion d'actifs (EAM)</h2>
-              <ul>
-                <li data-i18n-html="alt-transdev.strat.1"><strong>Standardisation EAM cloud :</strong> déploiements Infor CloudSuite EAM (Australasie) pour centraliser achats, maintenance, inventaires &amp; conformité.
-                  <a href="https://www.technologydecisions.com.au/content/cloud-and-virtualisation/news/transdev-selects-infor-for-cloud-based-asset-management-270053092" target="_blank" rel="noopener">Source</a>
-                </li>
-                <li data-i18n-html="alt-transdev.strat.2"><strong>Cadres ISO&nbsp;55001 :</strong> approches multi‑modalités et corpus de pratiques (AMBoK) pour aligner performance, sécurité et contrats.
-                  <a href="https://amcouncil.win/2023/08/11/transdev-multi-modal-asset-management-strategy-establishing-asset-management-body-of-knowledge-ambok/" target="_blank" rel="noopener">Source</a>
-                </li>
-                <li data-i18n-html="alt-transdev.strat.3"><strong>Cas d'usage :</strong> prise en main rapide d'un réseau ferroviaire en Suède en 2024 via outillage d'asset management (référence presse).
-                  <a href="https://railwaynews.net/transdev-sweden-rapid-rail-network-takeover-asset-management-success.html" target="_blank" rel="noopener">Source</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="alt-transdev.sober.title">IT &amp; sobriété (exemple France)</h2>
-              <p data-i18n-html="alt-transdev.sober.1">
-                En France, la DSI met en avant la <strong>sobriété énergétique</strong> et une gestion responsable du parc IT : reconditionnement des matériels,
-                réduction des emballages, méthodes de réception &amp; logistique (plateforme de Roissy), pour limiter l'empreinte des équipements.
-                <a href="https://www.transdev.com/fr/innovation-et-tech/la-dsi-france-et-la-sobriete-energetique-entretien-avec-johann-launay-gestionnaire-du-parc-informatique/" target="_blank" rel="noopener">Source</a>
-              </p>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="alt-transdev.links.title">Où suivre l'officiel</h2>
-              <ul class="download-list">
-                <li><a href="https://www.transdev.com/fr/notre-groupe/qui-dirige-le-groupe/" target="_blank" rel="noopener" data-i18n="alt-transdev.links.1">Gouvernance (ComEx)</a></li>
-                <li><a href="https://www.transdev.com/en/investor-relations/" target="_blank" rel="noopener" data-i18n="alt-transdev.links.2">Investors &amp; résultats</a></li>
-                <li><a href="https://fr.linkedin.com/company/-transdev" target="_blank" rel="noopener" data-i18n="alt-transdev.links.3">Présentation (LinkedIn corp.)</a></li>
-              </ul>
-            </div>
-          </div><!-- /alt-transdev -->
-
-        </div><!-- /subpanels alternance -->
-      </section><!-- /alternance -->
-
-<!-- PROJETS -->
-<section id="projets" class="section">
-  <h1 class="ascii" data-i18n="projets.title">[=== PROJETS ===]</h1>
-
-  <nav class="subtabs" aria-label="Sous-onglets Projets">
-    <ul>
-      <li class="active" data-sub="proj-crystal" data-i18n="projets.tab.crystal">Refresh Réseau Crystal</li>
-    </ul>
-  </nav>
-
-  <div class="subpanels">
-
-    <!-- ===================== -->
-    <!-- PROJET CRYSTAL -->
-    <!-- ===================== -->
-    <div id="proj-crystal" class="subpanel active">
-
+    <div class="tab-panel active" id="alt-arrivee">
+      <div class="card reveal"><h2 data-i18n="alt-arrivee.title">Arrivée au sein du groupe Transdev</h2><p data-i18n="alt-arrivee.text">(À compléter…)</p></div>
+    </div>
+    <div class="tab-panel" id="alt-equipe">
+      <div class="card"><h2 data-i18n="alt-equipe.title">L'équipe infrastructure</h2><p data-i18n="alt-equipe.text">(À compléter…)</p></div>
+    </div>
+    <div class="tab-panel" id="alt-tuteur">
       <div class="card">
-        <h2 data-i18n="crystal.intro.title">Refresh Réseau Crystal ▸ WAN / LAN / WLAN / SD‑WAN v2</h2>
-        <p data-i18n="crystal.intro.p">
-          Projet majeur de modernisation réseau du siège Crystal :
-          migration des firewalls vers une architecture SD‑WAN v2,
-          remplacement complet du LAN et du WLAN, montée en débit WAN
-          et déploiement progressif en environnement de production réel.
-        </p>
+        <h2 data-i18n="alt-tuteur.title">Présentation</h2>
+        <p data-i18n-html="alt-tuteur.p1"></p>
+        <h3 data-i18n="alt-tuteur.role.title">Rôle &amp; missions (extraits publics)</h3>
+        <ul><li data-i18n-html="alt-tuteur.role.1"></li><li data-i18n-html="alt-tuteur.role.2"></li></ul>
+        <p style="font-size:.78rem;color:var(--muted);margin-top:.5rem" data-i18n="alt-tuteur.note1"></p>
       </div>
-
-      <!-- SOUS-ONGLETS CRYSTAL -->
-            <nav class="subtabs subtabs--nested" aria-label="Sous-onglets Projet Crystal">
-              <ul>
-                <li class="active" data-sub="crystal-overview" data-i18n="crystal.tab.overview">Vue globale</li>
-                <li data-sub="crystal-architecture" data-i18n="crystal.tab.architecture">Architecture</li>
-                <li data-sub="crystal-planning" data-i18n="crystal.tab.planning">Planning</li>
-                <li data-sub="crystal-risques" data-i18n="crystal.tab.risques">Risques</li>
-                <li data-sub="crystal-suivi" data-i18n="crystal.tab.suivi">Suivi migration</li>
-                <li data-sub="crystal-role" data-i18n="crystal.tab.role">Rôle &amp; E6</li>
-              </ul>
-            </nav>
-
-            <div class="subpanels subpanels--nested">
-
-              <!-- VUE GLOBALE -->
-              <div id="crystal-overview" class="subpanel active">
-                <div class="card">
-                  <h3 data-i18n="crystal.overview.h3">Vue globale du projet</h3>
-                  <ul data-i18n-html="crystal.overview.ul">
-                    <li>Modernisation complète du réseau du siège Crystal</li>
-                    <li>Infrastructure critique avec utilisateurs en production</li>
-                    <li>Approche progressive et sécurisée</li>
-                    <li>Objectif : performance, sécurité et résilience</li>
-                  </ul>
-                </div>
-
-                <div class="card">
-                  <h3 data-i18n="crystal.overview.context.h3">Contexte</h3>
-                  <p data-i18n="crystal.overview.context.p">
-                    Le siège Crystal disposait d'une infrastructure vieillissante nécessitant une modernisation
-                    complète pour améliorer la performance, la sécurité et la résilience.
-                  </p>
-                </div>
-
-                <div class="card">
-                  <h3 data-i18n="crystal.overview.objectives.h3">Objectifs</h3>
-                  <ul data-i18n-html="crystal.overview.objectives.ul">
-                    <li>Migration Firewalls vers Fortigate 200G (SDWANv2)</li>
-                    <li>Montée en débit WAN (2G / 8G / 10G)</li>
-                    <li>Remplacement de 53 switches</li>
-                    <li>Déploiement de 80 bornes WiFi</li>
-                    <li>POC 1er étage avant déploiement global</li>
-                    <li>Processus complet ITIL : Change, CAB, rollback</li>
-                  </ul>
-                </div>
-              </div><!-- /crystal-overview -->
-
-              <!-- ARCHITECTURE -->
-              <div id="crystal-architecture" class="subpanel">
-                <div class="card">
-                  <h3 data-i18n="crystal.arch.h3">Architecture &amp; aspects techniques</h3>
-                  <pre>
-[ Liens opérateurs ]
-        ↓
-[ Firewalls Fortigate 200G ]
-        ↓
-[ SD‑WAN v2 ]
-        ↓
-[ Core LAN ]
-        ↓
-[ Switches x53 ]
-        ↓
-[ Bornes Wi‑Fi x80 ]
-                  </pre>
-                </div>
-
-                <div class="card">
-                  <h3 data-i18n="crystal.arch.schemas.h3">Schémas techniques – SD‑WAN V2 Crystal</h3>
-                  <div class="schema-gallery">
-                    <p class="note" data-i18n="crystal.arch.schemas.p">(Images à venir)</p>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <h3 data-i18n="crystal.arch.simple.h3">Architecture (vue simplifiée)</h3>
-                  <pre>
-[ WAN ISP ]───[ Fortigate 200G ]───[ Core LAN ]───[ Switches x53 ]───[ AP WiFi x80 ]
-                  </pre>
-                </div>
-              </div><!-- /crystal-architecture -->
-
-              <!-- PLANNING -->
-              <div id="crystal-planning" class="subpanel">
-                <div class="card">
-                  <h3 data-i18n="crystal.planning.h3">Planning &amp; organisation</h3>
-                  <ul data-i18n-html="crystal.planning.ul">
-                    <li>Semaine du 13 avril : préparation préproduction</li>
-                    <li>24 avril : tests et communication utilisateurs</li>
-                    <li>25–26 avril : migration firewalls</li>
-                    <li>27–28 avril : VSR (suivi renforcé)</li>
-                    <li>16 mai : POC LAN / Wi‑Fi</li>
-                    <li>Mai → juillet : déploiement global par étage</li>
-                  </ul>
-                </div>
-
-                <div class="card">
-                  <h3 data-i18n="crystal.planning.phases.h3">Planning (extrait par phases)</h3>
-                  <ul data-i18n-html="crystal.planning.phases.ul">
-                    <li>Phase 1 : Préparation &amp; Design</li>
-                    <li>Phase 2 : Configuration &amp; Validation</li>
-                    <li>Phase 3 : Migration Firewalls</li>
-                    <li>Phase 4 : POC LAN/WLAN</li>
-                    <li>Phase 5 : Déploiement global</li>
-                  </ul>
-                </div>
-              </div><!-- /crystal-planning -->
-
-              <!-- RISQUES -->
-              <div id="crystal-risques" class="subpanel">
-                <div class="card">
-                  <h3 data-i18n="crystal.risques.h3">Analyse des risques</h3>
-                  <ul data-i18n-html="crystal.risques.ul">
-                    <li>Contraintes physiques en baie (espace, câblage)</li>
-                    <li>Brassage LAN/WLAN complexe</li>
-                    <li>Dépendance aux ressources terrain</li>
-                    <li>Liaisons opérateurs non disponibles au démarrage</li>
-                  </ul>
-                  <p data-i18n="crystal.risques.p">
-                    Des décisions de migration progressive et de rollback
-                    ont été prises pour sécuriser la mise en production.
-                  </p>
-                </div>
-
-                <div class="card">
-                  <h3 data-i18n="crystal.risques.fiche.h3">Migration réseau — fiche synthèse</h3>
-
-                  <h4 data-i18n="crystal.risques.fiche.context.h4">Contexte</h4>
-                  <p data-i18n-html="crystal.risques.fiche.context.p">Migration et renouvellement d'équipements (switches, firewall, SD‑WAN).<br>Objectif : migration 1→1 et préparation upgrade 8‑Core.<br>Réunion : plan staging, export config, recâblage.</p>
-
-                  <h4 data-i18n="crystal.risques.fiche.problemes.h4">Problèmes rencontrés</h4>
-                  <ul data-i18n-html="crystal.risques.fiche.problemes.ul">
-                    <li>Reprise 1→1 obligatoire.</li>
-                    <li>Impact licences pour 8‑Core.</li>
-                    <li>Indisponibilité d'acteurs clés.</li>
-                  </ul>
-
-                  <h4 data-i18n="crystal.risques.fiche.decisions.h4">Décisions prises</h4>
-                  <ul data-i18n-html="crystal.risques.fiche.decisions.ul">
-                    <li>Préparer config sur la base de l'existant (1→1).</li>
-                    <li>Recâblage par l'équipe dédiée ; export fourni.</li>
-                  </ul>
-
-                  <h4 data-i18n="crystal.risques.fiche.actions.h4">Actions techniques</h4>
-                  <ul data-i18n-html="crystal.risques.fiche.actions.ul">
-                    <li>Export configuration switch.</li>
-                    <li>Staging en laboratoire et scripts d'import.</li>
-                    <li>Reprise interfaces/VLAN, vérif. règles firewall.</li>
-                  </ul>
-
-                  <h4 data-i18n="crystal.risques.fiche.blocages.h4">Blocages projet</h4>
-                  <ul data-i18n-html="crystal.risques.fiche.blocages.ul">
-                    <li>Validation manager requise (licences/budget).</li>
-                    <li>Dépendance présence terrain pour repérage.</li>
-                  </ul>
-
-                  <h4 data-i18n="crystal.risques.fiche.suite.h4">Suite du projet</h4>
-                  <ul data-i18n-html="crystal.risques.fiche.suite.ul">
-                    <li>Point dédié avec le manager pour valider l'upgrade.</li>
-                    <li>Planifier repérage, fixer date d'intervention.</li>
-                  </ul>
-
-                  <h4 data-i18n="crystal.risques.fiche.monrole.h4">Mon rôle</h4>
-                  <ul data-i18n-html="crystal.risques.fiche.monrole.ul">
-                    <li>Participation aux réunions de coordination.</li>
-                    <li>Analyse technique et préparation des exports.</li>
-                    <li>Support staging et tests de reprise.</li>
-                  </ul>
-                </div>
-              </div><!-- /crystal-risques -->
-
-              <!-- SUIVI MIGRATION -->
-              <div id="crystal-suivi" class="subpanel">
-                <div class="card">
-                  <h3 data-i18n="crystal.suivi.h3">Refresh Réseau Crystal — Suivi de migration</h3>
-                </div>
-
-                <div class="card">
-                  <h4 data-i18n="crystal.suivi.context.h4">Contexte</h4>
-                  <p data-i18n-html="crystal.suivi.context.p">Modernisation du réseau du siège Crystal (SD‑WAN v2).<br>Migration des firewalls en plusieurs phases.<br>Enjeu : continuité de service et sécurité.</p>
-                </div>
-
-                <div class="card">
-                  <h4 data-i18n="crystal.suivi.problemes.h4">Problèmes rencontrés</h4>
-                  <ul data-i18n-html="crystal.suivi.problemes.ul">
-                    <li>Reports de la migration firewall.</li>
-                    <li>Manque de ressources et charge de travail élevée.</li>
-                    <li>Risques d'impact sur d'autres projets.</li>
-                  </ul>
-                </div>
-
-                <div class="card">
-                  <h4 data-i18n="crystal.suivi.decisions.h4">Décisions prises</h4>
-                  <ul data-i18n-html="crystal.suivi.decisions.ul">
-                    <li>Replanification avec nouvelle date définie.</li>
-                    <li>Préparation renforcée avant migration.</li>
-                    <li>Priorisation de la sécurité et des tests.</li>
-                  </ul>
-                </div>
-
-                <div class="card">
-                  <h4 data-i18n="crystal.suivi.actions.h4">Actions techniques</h4>
-                  <ul data-i18n-html="crystal.suivi.actions.ul">
-                    <li>Firewalls installés, rackés et câblés.</li>
-                    <li>Configuration SD‑WAN v2 en cours.</li>
-                    <li>Brassage et étiquetage des câbles.</li>
-                    <li>Tests LAN, WAN, WiFi.</li>
-                  </ul>
-                </div>
-
-                <div class="card">
-                  <h4 data-i18n="crystal.suivi.risques.h4">Risques identifiés</h4>
-                  <ul data-i18n-html="crystal.suivi.risques.ul">
-                    <li>Surcharge des outils de supervision.</li>
-                    <li>Tests applicatifs incomplets.</li>
-                    <li>Règles firewall manquantes ou incohérentes.</li>
-                    <li>Dépendances externes (serveurs, vidéo, accès).</li>
-                  </ul>
-                </div>
-
-                <div class="card">
-                  <h4 data-i18n="crystal.suivi.orga.h4">Organisation de l'opération</h4>
-                  <ul data-i18n-html="crystal.suivi.orga.ul">
-                    <li>Préparation en amont pour réduire les risques.</li>
-                    <li>Migration avec tests techniques + fonctionnels.</li>
-                    <li>Rollback possible en cas de problème.</li>
-                    <li>Supervision renforcée post‑migration.</li>
-                  </ul>
-                </div>
-
-                <div class="card">
-                  <h4 data-i18n="crystal.suivi.suite.h4">Suite du projet</h4>
-                  <ul data-i18n-html="crystal.suivi.suite.ul">
-                    <li>Mise à jour planning.</li>
-                    <li>Finalisation tests métier.</li>
-                    <li>Validation règles firewall.</li>
-                    <li>Préparation support post‑migration.</li>
-                  </ul>
-                </div>
-
-                <div class="card">
-                  <h4 data-i18n="crystal.suivi.monrole.h4">Mon rôle</h4>
-                  <ul data-i18n-html="crystal.suivi.monrole.ul">
-                    <li>Participation aux réunions de suivi.</li>
-                    <li>Compréhension du projet réseau.</li>
-                    <li>Observation de la coordination équipes.</li>
-                  </ul>
-                </div>
-
-                <div class="card">
-                  <h4 data-i18n="crystal.suivi.competences.h4">Compétences développées</h4>
-                  <ul data-i18n-html="crystal.suivi.competences.ul">
-                    <li>Réseaux (LAN, WAN, SD‑WAN).</li>
-                    <li>Sécurité (firewall, règles de filtrage).</li>
-                    <li>Gestion de projet et analyse des risques.</li>
-                    <li>Travail en équipe multi‑domaine.</li>
-                  </ul>
-                </div>
-              </div><!-- /crystal-suivi -->
-
-              <!-- RÔLE & E6 -->
-              <div id="crystal-role" class="subpanel">
-                <div class="card">
-                  <h3 data-i18n="crystal.role.h3">Rôle personnel</h3>
-                  <ul data-i18n-html="crystal.role.ul">
-                    <li>Participation aux ateliers techniques</li>
-                    <li>Analyse réseau existant &amp; logs FW</li>
-                    <li>Préparation équipements (staging)</li>
-                    <li>Tests pré/post migration</li>
-                    <li>Documentation &amp; suivi projet</li>
-                  </ul>
-                </div>
-
-                <div class="card">
-                  <h3 data-i18n="crystal.role.e6.h3">Compétences E6 validées</h3>
-                  <ul data-i18n-html="crystal.role.e6.ul">
-                    <li>Conception d'infrastructure</li>
-                    <li>Installation &amp; configuration</li>
-                    <li>Tests &amp; validation</li>
-                    <li>Supervision &amp; exploitation</li>
-                    <li>Gestion de projet &amp; ITIL</li>
-                  </ul>
-                </div>
-              </div><!-- /crystal-role -->
-
-            </div><!-- /subpanels nested crystal -->
-          </div><!-- /proj-crystal -->
-        </div><!-- /subpanels projets -->
-      </section><!-- /projets -->
-
-      <!-- CERTIFICATIONS -->
-      <section id="certifications" class="section">
-        <h1 class="ascii" data-i18n="certifications.title">[=== CERTIFICATIONS ===]</h1>
-
-        <nav class="subtabs" aria-label="Sous-onglets Certifications">
-          <ul>
-            <li class="active" data-sub="cert-reseau" data-i18n="nav.cert-reseau">Réseau</li>
-            <li data-sub="cert-systemes" data-i18n="nav.cert-systemes">Systèmes</li>
-            <li data-sub="cert-cloud" data-i18n="nav.cert-cloud">Cloud</li>
-            <li data-sub="cert-securite" data-i18n="nav.cert-securite">Sécurité</li>
-            <li data-sub="cert-devops" data-i18n="nav.cert-devops">DevOps / IaC</li>
-            <li data-sub="cert-itsm" data-i18n="nav.cert-itsm">ITSM / Gouvernance</li>
-            <li data-sub="cert-outils" data-i18n="nav.cert-outils">Outils / Supervision</li>
-            <li data-sub="cert-autres" data-i18n="nav.cert-autres">Autres</li>
-          </ul>
-        </nav>
-
-        <div class="subpanels">
-          <div id="cert-reseau" class="subpanel active">
-            <div class="card">
-              <h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
-              <ul data-i18n-html="cert.reseau.obj.ul"><li>Maîtriser routage, commutation, IPv4/IPv6, VLAN, ACL.</li></ul>
-            </div>
-            <div class="card">
-              <h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
-              <ul class="download-list" data-i18n-html="cert.reseau.parcours.ul">
-                <li>#CCNA — plan de révision (PDF)</li>
-                <li>#JNCIA — notes &amp; lab (Lien)</li>
-              </ul>
-            </div>
-            <div class="card">
-              <h2 data-i18n="cert.h2.etat">État</h2>
-              <ul data-i18n-html="cert.reseau.etat.ul">
-                <li>CCNA — <em>en préparation</em></li>
-                <li>JNCIA — <em>à moyen terme</em></li>
-              </ul>
-            </div>
-          </div>
-
-          <div id="cert-systemes" class="subpanel">
-            <div class="card">
-              <h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
-              <ul data-i18n-html="cert.sys.obj.ul"><li>Linux (services, réseau), Windows (install, gestion, AD de base).</li></ul>
-            </div>
-            <div class="card">
-              <h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
-              <ul class="download-list" data-i18n-html="cert.sys.parcours.ul">
-                <li>#LPIC‑1 — plan (PDF)</li>
-                <li>#Windows Admin — checklists</li>
-              </ul>
-            </div>
-            <div class="card">
-              <h2 data-i18n="cert.h2.etat">État</h2>
-              <ul data-i18n-html="cert.sys.etat.ul"><li>LPIC‑1 — <em>en préparation</em></li></ul>
-            </div>
-          </div>
-
-          <div id="cert-cloud" class="subpanel">
-            <div class="card">
-              <h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
-              <ul data-i18n-html="cert.cloud.obj.ul"><li>Fondamentaux Azure/AWS (IAM, compute, réseau, stockage).</li></ul>
-            </div>
-            <div class="card">
-              <h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
-              <ul class="download-list" data-i18n-html="cert.cloud.parcours.ul">
-                <li>#AZ‑900 — mémo (PDF)</li>
-                <li>#AWS CCP — notes</li>
-              </ul>
-            </div>
-            <div class="card">
-              <h2 data-i18n="cert.h2.etat">État</h2>
-              <ul data-i18n-html="cert.cloud.etat.ul">
-                <li>AZ‑900 — <em>prévu</em></li>
-                <li>AWS CCP — <em>prévu</em></li>
-              </ul>
-            </div>
-          </div>
-
-          <div id="cert-securite" class="subpanel">
-            <div class="card">
-              <h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
-              <ul data-i18n-html="cert.secu.obj.ul"><li>Socle sécurité (concepts, IAM, réseau, endpoint, cloud, conformité).</li></ul>
-            </div>
-            <div class="card">
-              <h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
-              <ul class="download-list" data-i18n-html="cert.secu.parcours.ul">
-                <li>#Security+ — notes</li>
-                <li>#NSE 1‑3 — progression</li>
-                <li>#SC‑900 — mémo</li>
-              </ul>
-            </div>
-            <div class="card">
-              <h2 data-i18n="cert.h2.etat">État</h2>
-              <ul data-i18n-html="cert.secu.etat.ul">
-                <li>NSE 1‑3 — <em>en cours/obtenu (détailler)</em></li>
-                <li>Security+ — <em>à moyen terme</em></li>
-              </ul>
-            </div>
-          </div>
-
-          <div id="cert-devops" class="subpanel">
-            <div class="card">
-              <h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
-              <ul data-i18n-html="cert.devops.obj.ul"><li>Containerisation, orchestration et IaC (Docker, K8s, Terraform).</li></ul>
-            </div>
-            <div class="card">
-              <h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
-              <ul class="download-list" data-i18n-html="cert.devops.parcours.ul">
-                <li>#Docker Associate — mémo</li>
-                <li>#Terraform Associate — labs</li>
-              </ul>
-            </div>
-            <div class="card">
-              <h2 data-i18n="cert.h2.etat">État</h2>
-              <ul data-i18n-html="cert.devops.etat.ul"><li>Terraform Associate — <em>prévu</em></li></ul>
-            </div>
-          </div>
-
-          <div id="cert-itsm" class="subpanel">
-            <div class="card">
-              <h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
-              <ul data-i18n-html="cert.itsm.obj.ul"><li>Bonnes pratiques ITSM &amp; cycle de vie des services.</li></ul>
-            </div>
-            <div class="card">
-              <h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
-              <ul class="download-list" data-i18n-html="cert.itsm.parcours.ul">
-                <li>#ITIL® Foundation — mémo</li>
-              </ul>
-            </div>
-            <div class="card">
-              <h2 data-i18n="cert.h2.etat">État</h2>
-              <ul data-i18n-html="cert.itsm.etat.ul"><li>ITIL® Foundation — <em>prévu</em></li></ul>
-            </div>
-          </div>
-
-          <div id="cert-outils" class="subpanel">
-            <div class="card">
-              <h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
-              <ul data-i18n-html="cert.outils.obj.ul"><li>Mettre en œuvre et superviser (Zabbix, ELK) + exploitation.</li></ul>
-            </div>
-            <div class="card">
-              <h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
-              <ul class="download-list" data-i18n-html="cert.outils.parcours.ul">
-                <li>#Zabbix — parcours</li>
-                <li>#ELK — fiches</li>
-              </ul>
-            </div>
-            <div class="card">
-              <h2 data-i18n="cert.h2.etat">État</h2>
-              <ul data-i18n-html="cert.outils.etat.ul"><li>Zabbix — <em>en pratique</em></li></ul>
-            </div>
-          </div>
-
-          <div id="cert-autres" class="subpanel">
-            <div class="card">
-              <h2 data-i18n="cert.autres.h2">Autres badges / langues</h2>
-              <ul data-i18n-html="cert.autres.ul"><li>TOEIC / Voltaire / Badges internes (à compléter)</li></ul>
-            </div>
-          </div>
-        </div><!-- /subpanels certifications -->
-      </section><!-- /certifications -->
-
-      <!-- JEU – DINO SIO -->
-      <section id="jeu" class="section">
-        <h1 class="ascii" data-i18n="jeu.title">[=== JEU – DINO SIO ===]</h1>
-
-        <div class="card game-controls">
-          <button class="btn btn-start" data-i18n="jeu.btn.start">▶ Démarrer</button>
-          <button class="btn btn-restart" data-i18n="jeu.btn.restart">⟲ Rejouer</button>
-          <button class="btn btn-difficulty" data-i18n="jeu.btn.difficulty">⚙ Régler la difficulté</button>
-          <div class="hud">
-            <span><span data-i18n="jeu.score.label">Score</span> : <strong id="score">0</strong></span>
-            <span><span data-i18n="jeu.level.label">Niveau</span> : <strong id="level-label">CP</strong></span>
-          </div>
+      <div class="grid-2">
+        <div class="card">
+          <h2 data-i18n="alt-tuteur.role-internal.title">Fonctionnement avec mon tuteur</h2>
+          <ul><li data-i18n-html="alt-tuteur.role-internal.1"></li><li data-i18n-html="alt-tuteur.role-internal.2"></li><li data-i18n-html="alt-tuteur.role-internal.3"></li></ul>
+          <p style="font-size:.78rem;color:var(--muted);margin-top:.5rem" data-i18n="alt-tuteur.note2"></p>
         </div>
-
-        <div class="game-container">
-          <!-- FIX accessibilité : tabindex="0" pour navigation clavier -->
-          <canvas id="dino-canvas" width="760" height="220" tabindex="0" role="img" aria-label="Jeu Dino SIO — appuie sur Espace ou Flèche haut pour sauter"></canvas>
-          <div id="game-msg" class="game-msg hidden"></div>
+        <div class="card">
+          <h2 data-i18n="alt-tuteur.learned.title">Ce que j'apprends à ses côtés</h2>
+          <ul><li data-i18n-html="alt-tuteur.learned.1"></li><li data-i18n-html="alt-tuteur.learned.2"></li><li data-i18n-html="alt-tuteur.learned.3"></li></ul>
         </div>
-
-        <!-- Modale "philo" -->
-        <div id="diff-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="diff-title">
-          <div class="modal-box">
-            <h3 id="diff-title" data-i18n="jeu.modal.title">Difficulté</h3>
-            <p data-i18n="jeu.modal.p">Si ce bouton existait, ce ne serait pas fun 😉</p>
-            <div class="fake-control">
-              <label data-i18n="jeu.modal.label">Niveau</label>
-              <input type="range" min="1" max="5" value="3" disabled>
-              <span class="hint" data-i18n="jeu.modal.hint">(désactivé par choix philosophique)</span>
-            </div>
-            <button class="btn btn-close-modal" data-i18n="jeu.modal.close">Fermer</button>
-          </div>
-        </div>
-
-        <p class="note" data-i18n-html="jeu.note">Astuce : presse <kbd>Espace</kbd> ou <kbd>↑</kbd> pour sauter. Sur mobile, touche le canvas.</p>
-      </section><!-- /jeu -->
-
-      <!-- VEILLE -->
-      <section id="veille" class="section">
-        <h1 class="ascii" data-i18n="veille.title">[=== VEILLE TECHNOLOGIQUE ===]</h1>
-        <p data-i18n-html="veille.theme">
-          Thème : <strong>Zero Trust Security Model</strong>
-          (<em>Zero Trust Architecture</em>).
-        </p>
-
-        <nav class="subtabs" aria-label="Sous-onglets Veille">
-          <ul>
-            <li class="active" data-sub="zt-concepts" data-i18n="veille.tab.concepts">Concepts</li>
-            <li data-sub="zt-architecture" data-i18n="veille.tab.architecture">Architecture</li>
-            <li data-sub="zt-usecases" data-i18n="veille.tab.usecases">Cas d'usage</li>
-            <li data-sub="zt-analysis" data-i18n="veille.tab.analysis">Analyse personnelle</li>
-            <li data-sub="zt-news" data-i18n="veille.tab.news">Actualités</li>
-          </ul>
-        </nav>
-
-        <div class="subpanels">
-
-          <div id="zt-concepts" class="subpanel active">
-            <div class="card">
-              <h2 data-i18n="zt.concepts.h2">Qu'est‑ce que le Zero Trust ?</h2>
-              <p data-i18n-html="zt.concepts.p">
-                Le <strong>Zero Trust Security Model</strong> repose sur un principe fondamental :
-                <strong>ne jamais faire confiance par défaut</strong>.
-                Chaque accès est vérifié en continu, même à l'intérieur du réseau.
-              </p>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="zt.principles.h2">Principes fondamentaux</h2>
-              <ul data-i18n-html="zt.principles.ul">
-                <li><strong>Vérification systématique</strong> — authentification de chaque requête.</li>
-                <li><strong>Moindre privilège</strong> — accès strictement nécessaire.</li>
-                <li><strong>Micro‑segmentation</strong> — isolation des ressources.</li>
-                <li><strong>Contrôle continu</strong> — évaluation permanente du contexte.</li>
-                <li><strong>Supposition de compromission</strong> — l'attaque peut venir de partout.</li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="zt.compare.h2">Avant / Après Zero Trust</h2>
-              <table style="width:100%; border-collapse: collapse; font-size:0.95rem;">
-                <thead>
-                  <tr>
-                    <th style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.th1">Modèle traditionnel</th>
-                    <th style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.th2">Modèle Zero Trust</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r1c1">Confiance implicite</td>
-                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r1c2">Confiance vérifiée</td>
-                  </tr>
-                  <tr>
-                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r2c1">Périmètre réseau</td>
-                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r2c2">Identité &amp; contexte</td>
-                  </tr>
-                  <tr>
-                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r3c1">Accès large</td>
-                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r3c2">Accès minimal</td>
-                  </tr>
-                  <tr>
-                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r4c1">Détection tardive</td>
-                    <td style="border:1px solid var(--accent); padding:6px;" data-i18n="zt.compare.r4c2">Surveillance continue</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div><!-- /zt-concepts -->
-
-          <div id="zt-architecture" class="subpanel">
-            <div class="card">
-              <h2 data-i18n="zt.arch.simple.h2">Schéma Zero Trust (vue simplifiée)</h2>
-              <pre>
-[ Utilisateur / Appareil ]
-        |
-        v
-[ Vérification identité + MFA ]
-        |
-        v
-[ Accès conditionnel ]
-        |
-        v
-[ Micro‑segmentation ]
-        |
-        v
-[ Ressource autorisée ]
-              </pre>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="zt.arch.advanced.h2">Schéma Zero Trust (avancé)</h2>
-              <pre>
-[ Identité ] → [ MFA ] → [ Accès conditionnel ]
-      |                     |
-      v                     v
-[ Conformité device ]   [ ZTNA ]
-      |                     |
-      v                     v
-[ Micro‑segmentation ] → [ Ressource ]
-        |
-        v
-[ SIEM / EDR / XDR ]
-              </pre>
-            </div>
-          </div><!-- /zt-architecture -->
-
-          <div id="zt-usecases" class="subpanel">
-            <div class="card">
-              <h2 data-i18n="zt.usecase.google.h2">Étude de cas : Google BeyondCorp</h2>
-              <p data-i18n="zt.usecase.google.p">
-                Google a supprimé la notion de réseau interne de confiance.
-                Chaque accès passe par une vérification d'identité et de contexte.
-              </p>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="zt.usecase.enterprise.h2">Cas d'usage en entreprise</h2>
-              <ul data-i18n-html="zt.usecase.enterprise.ul">
-                <li>Remplacement du VPN par <strong>ZTNA</strong></li>
-                <li>Segmentation des serveurs</li>
-                <li>MFA obligatoire</li>
-                <li>Contrôle de conformité des postes</li>
-                <li>Analyse comportementale en temps réel</li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="zt.usecase.ransomware.h2">Exemple : attaque ransomware</h2>
-              <p data-i18n-html="zt.usecase.ransomware.p1"><strong>Sans Zero Trust :</strong> propagation rapide.</p>
-              <p data-i18n-html="zt.usecase.ransomware.p2"><strong>Avec Zero Trust :</strong></p>
-              <ul data-i18n-html="zt.usecase.ransomware.ul">
-                <li>MFA bloque l'accès initial</li>
-                <li>Micro‑segmentation limite la propagation</li>
-                <li>EDR/XDR détecte l'anomalie</li>
-                <li>Accès compromis automatiquement coupé</li>
-              </ul>
-            </div>
-          </div><!-- /zt-usecases -->
-
-          <div id="zt-analysis" class="subpanel">
-            <div class="card">
-              <h2 data-i18n="zt.analysis.h2">Analyse personnelle</h2>
-              <p data-i18n="zt.analysis.p1">
-                Le Zero Trust représente pour moi une évolution logique
-                de la cybersécurité moderne dans des environnements distribués.
-              </p>
-              <p data-i18n="zt.analysis.p2">
-                Il combine IAM, MFA, supervision et architecture réseau,
-                ce qui correspond à ma manière de travailler et à mon projet professionnel.
-              </p>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="zt.conclusion.h2">Conclusion</h2>
-              <p data-i18n="zt.conclusion.p">
-                Le Zero Trust n'est pas un produit mais une stratégie globale
-                indispensable pour renforcer la résilience face aux menaces actuelles.
-              </p>
-            </div>
-
-            <div class="card">
-              <h2 data-i18n="zt.faq.h2">FAQ Zero Trust</h2>
-              <ul data-i18n-html="zt.faq.ul">
-                <li><strong>Zéro confiance ?</strong> → confiance vérifiée.</li>
-                <li><strong>Remplace le VPN ?</strong> → oui, via ZTNA.</li>
-                <li><strong>Déploiement long ?</strong> → progressif.</li>
-                <li><strong>Réservé aux grandes entreprises ?</strong> → non.</li>
-              </ul>
-            </div>
-          </div><!-- /zt-analysis -->
-
-          <div id="zt-news" class="subpanel">
-            <h2 data-i18n="zt.news.h2">Actualités cybersécurité</h2>
-            <p data-i18n="zt.news.p">(mise à jour automatique)</p>
-            <div id="rss-container" class="rss"></div>
-          </div><!-- /zt-news -->
-
-        </div><!-- /subpanels veille -->
-      </section><!-- /veille -->
-
-      <!-- CONTACT -->
-      <section id="contact" class="section">
-        <h1 class="ascii" data-i18n="contact.title">[=== CONTACT ===]</h1>
-        <p data-i18n-html="contact.nom">Nom : <strong>Londé Balossa Lotus Espoir</strong></p>
-        <p data-i18n-html="contact.email">Email : <a href="mailto:londe305@gmail.com">londe305@gmail.com</a></p>
-        <p data-i18n-html="contact.linkedin">LinkedIn : <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">Mon Profil LinkedIn</a></p>
-      </section><!-- /contact -->
-
-    </div><!-- /terminal-content -->
-  </main>
-
-  <!-- Assistant IA global -->
-  <div id="assistant-modal" class="assistant-modal hidden" aria-hidden="true">
-    <div class="assistant-panel" role="dialog" aria-modal="true" aria-labelledby="assistant-title">
-      <div class="assistant-header">
+      </div>
+    </div>
+    <div class="tab-panel" id="alt-transdev">
+      <div class="grid-2">
         <div>
-          <h2 id="assistant-title">Assistant IA</h2>
-          <p class="assistant-subtitle">Définitions réseau et infrastructure, accessibles depuis n'importe quelle page.</p>
+          <div class="card"><h2 data-i18n="alt-transdev.title">Qui est Transdev ?</h2><p data-i18n-html="alt-transdev.p1"></p></div>
+          <div class="card"><h2 data-i18n="alt-transdev.gouv.title">Actionnariat &amp; gouvernance</h2><ul><li data-i18n-html="alt-transdev.gouv.1"></li><li data-i18n-html="alt-transdev.gouv.2"></li></ul></div>
+          <div class="card">
+            <h2 data-i18n="alt-transdev.chiffres.title">Chiffres 2024</h2>
+            <ul><li data-i18n-html="alt-transdev.chiffres.1"></li><li data-i18n-html="alt-transdev.chiffres.2"></li><li data-i18n-html="alt-transdev.chiffres.3"></li></ul>
+            <p style="font-size:.78rem;color:var(--muted);margin-top:.5rem" data-i18n-html="alt-transdev.chiffres.note"></p>
+          </div>
         </div>
-        <button id="assistant-close" class="assistant-close" aria-label="Fermer l'assistant">✕</button>
-      </div>
-      <div class="assistant-body">
-        <div id="ai-container">
-          <div id="chat-box"></div>
-          <div id="input-area">
-            <input type="text" id="question" placeholder="Pose une question (ex: c'est quoi un firewall ?)" />
-            <!-- FIX : onclick inline supprimé — l'écouteur est dans ai.js -->
-            <button id="assistant-send" type="button" class="btn">Envoyer</button>
+        <div>
+          <div class="card"><h2 data-i18n="alt-transdev.strat.title">Stratégie numérique &amp; EAM</h2><ul><li data-i18n-html="alt-transdev.strat.1"></li><li data-i18n-html="alt-transdev.strat.2"></li><li data-i18n-html="alt-transdev.strat.3"></li></ul></div>
+          <div class="card"><h2 data-i18n="alt-transdev.sober.title">IT &amp; sobriété</h2><ul><li data-i18n-html="alt-transdev.sober.1"></li></ul></div>
+          <div class="card">
+            <h2 data-i18n="alt-transdev.links.title">Liens officiels</h2>
+            <ul>
+              <li><a href="https://www.transdev.com/fr/notre-groupe/qui-dirige-le-groupe/" target="_blank" rel="noopener" data-i18n="alt-transdev.links.1">Gouvernance (ComEx)</a></li>
+              <li><a href="https://www.caissedesdepots.fr/eclairage/actualites/transdev-sest-surpasse-en-2024" target="_blank" rel="noopener" data-i18n="alt-transdev.links.2">Investors &amp; résultats</a></li>
+              <li><a href="https://fr.linkedin.com/company/-transdev" target="_blank" rel="noopener" data-i18n="alt-transdev.links.3">Présentation LinkedIn</a></li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <button id="assistant-toggle" type="button" class="assistant-toggle" aria-label="Ouvrir l'assistant IA">IA</button>
+</section>
 
-  <!-- Overlay mobile pour la sidebar -->
-  <div class="mobile-overlay"></div>
+<!-- ======== PROJETS ======== -->
+<section id="projets" style="background:var(--bg2)">
+  <div class="container">
+    <div class="sec-tag">🛠️ PROJETS</div>
+    <h2 class="sec-title" data-i18n="projets.title">[=== PROJETS ===]</h2>
+    <p class="sec-sub">Projets professionnels &amp; personnels en infrastructure réseau et cybersécurité.</p>
 
-  <!-- Lightbox visionneuse d'image -->
-  <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-label="Visionneuse d'image">
-    <button class="lightbox-close" aria-label="Fermer la visionneuse">✕</button>
-    <img id="lightbox-img" src="" alt="Image agrandie" />
-    <span class="lightbox-prev" role="button" aria-label="Image précédente">⟨</span>
-    <span class="lightbox-next" role="button" aria-label="Image suivante">⟩</span>
+    <div class="tab-bar">
+      <button class="tab-btn active" id="proj-tab-crystal"    onclick="activateProjet('crystal')"    data-i18n="projets.tab.crystal">🔥 Refresh Réseau Crystal</button>
+      <button class="tab-btn"        id="proj-tab-zerotrust"  onclick="activateProjet('zerotrust')"  data-i18n="projets.tab.zerotrust">🔒 Zero Trust Lab &amp; Zabbix</button>
+    </div>
+
+    <!-- Crystal -->
+    <div class="tab-panel active" id="proj-crystal">
+      <div class="card" style="margin-bottom:1.5rem">
+        <h2 data-i18n="crystal.intro.title">Refresh Réseau Crystal ▸ SD-WAN v2</h2>
+        <p data-i18n-html="crystal.intro.p"></p>
+      </div>
+      <div class="inner-tab-bar">
+        <button class="inner-tab-btn active" id="cry-tab-overview"      onclick="activateCrystal('overview')"      data-i18n="crystal.tab.overview">Vue globale</button>
+        <button class="inner-tab-btn"        id="cry-tab-architecture"  onclick="activateCrystal('architecture')"  data-i18n="crystal.tab.architecture">Architecture</button>
+        <button class="inner-tab-btn"        id="cry-tab-planning"      onclick="activateCrystal('planning')"      data-i18n="crystal.tab.planning">Planning</button>
+        <button class="inner-tab-btn"        id="cry-tab-risques"       onclick="activateCrystal('risques')"       data-i18n="crystal.tab.risques">Risques</button>
+        <button class="inner-tab-btn"        id="cry-tab-suivi"         onclick="activateCrystal('suivi')"         data-i18n="crystal.tab.suivi">Suivi migration</button>
+        <button class="inner-tab-btn"        id="cry-tab-role"          onclick="activateCrystal('role')"          data-i18n="crystal.tab.role">Rôle &amp; E6</button>
+      </div>
+      <div class="inner-tab-panel active" id="cry-overview">
+        <div class="grid-2">
+          <div class="card"><h2 data-i18n="crystal.overview.h3">Vue globale</h2><ul data-i18n-html="crystal.overview.ul"></ul></div>
+          <div class="card"><h3 data-i18n="crystal.overview.context.h3">Contexte</h3><p data-i18n="crystal.overview.context.p"></p><h3 data-i18n="crystal.overview.objectives.h3">Objectifs</h3><ul data-i18n-html="crystal.overview.objectives.ul"></ul></div>
+        </div>
+      </div>
+      <div class="inner-tab-panel" id="cry-architecture">
+        <div class="card">
+          <h2 data-i18n="crystal.arch.h3">Architecture &amp; aspects techniques</h2>
+          <h3 data-i18n="crystal.arch.schemas.h3">Schémas techniques</h3>
+          <p data-i18n="crystal.arch.schemas.p">(Images à venir)</p>
+          <h3 data-i18n="crystal.arch.simple.h3">Architecture (vue simplifiée)</h3>
+          <div class="tech-block">
+[WAN 2G/8G/10G] → [Fortigate 200G × 2 HA] → [Core Switch]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[53 switches par étage] + [80 bornes WiFi]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SD-WAN v2 — failover automatique
+          </div>
+        </div>
+      </div>
+      <div class="inner-tab-panel" id="cry-planning">
+        <div class="card">
+          <h2 data-i18n="crystal.planning.h3">Planning &amp; organisation</h2>
+          <ul data-i18n-html="crystal.planning.ul"></ul>
+          <h3 data-i18n="crystal.planning.phases.h3">Planning par phases</h3>
+          <ul data-i18n-html="crystal.planning.phases.ul"></ul>
+        </div>
+      </div>
+      <div class="inner-tab-panel" id="cry-risques">
+        <div class="card">
+          <h2 data-i18n="crystal.risques.h3">Analyse des risques</h2>
+          <ul data-i18n-html="crystal.risques.ul"></ul>
+          <p data-i18n="crystal.risques.p"></p>
+        </div>
+        <div class="card">
+          <h2 data-i18n="crystal.risques.fiche.h3">Migration — fiche synthèse</h2>
+          <div class="grid-2">
+            <div><h4 data-i18n="crystal.risques.fiche.context.h4">Contexte</h4><p data-i18n-html="crystal.risques.fiche.context.p"></p>
+            <h4 data-i18n="crystal.risques.fiche.problemes.h4">Problèmes</h4><ul data-i18n-html="crystal.risques.fiche.problemes.ul"></ul>
+            <h4 data-i18n="crystal.risques.fiche.decisions.h4">Décisions</h4><ul data-i18n-html="crystal.risques.fiche.decisions.ul"></ul></div>
+            <div><h4 data-i18n="crystal.risques.fiche.actions.h4">Actions techniques</h4><ul data-i18n-html="crystal.risques.fiche.actions.ul"></ul>
+            <h4 data-i18n="crystal.risques.fiche.blocages.h4">Blocages</h4><ul data-i18n-html="crystal.risques.fiche.blocages.ul"></ul>
+            <h4 data-i18n="crystal.risques.fiche.suite.h4">Suite</h4><ul data-i18n-html="crystal.risques.fiche.suite.ul"></ul>
+            <h4 data-i18n="crystal.risques.fiche.monrole.h4">Mon rôle</h4><ul data-i18n-html="crystal.risques.fiche.monrole.ul"></ul></div>
+          </div>
+        </div>
+      </div>
+      <div class="inner-tab-panel" id="cry-suivi">
+        <div class="card">
+          <h2 data-i18n="crystal.suivi.h3">Suivi de migration</h2>
+          <div class="grid-2">
+            <div>
+              <h4 data-i18n="crystal.suivi.context.h4">Contexte</h4><p data-i18n-html="crystal.suivi.context.p"></p>
+              <h4 data-i18n="crystal.suivi.problemes.h4">Problèmes</h4><ul data-i18n-html="crystal.suivi.problemes.ul"></ul>
+              <h4 data-i18n="crystal.suivi.decisions.h4">Décisions</h4><ul data-i18n-html="crystal.suivi.decisions.ul"></ul>
+              <h4 data-i18n="crystal.suivi.actions.h4">Actions techniques</h4><ul data-i18n-html="crystal.suivi.actions.ul"></ul>
+            </div>
+            <div>
+              <h4 data-i18n="crystal.suivi.risques.h4">Risques identifiés</h4><ul data-i18n-html="crystal.suivi.risques.ul"></ul>
+              <h4 data-i18n="crystal.suivi.orga.h4">Organisation</h4><ul data-i18n-html="crystal.suivi.orga.ul"></ul>
+              <h4 data-i18n="crystal.suivi.suite.h4">Suite</h4><ul data-i18n-html="crystal.suivi.suite.ul"></ul>
+              <h4 data-i18n="crystal.suivi.monrole.h4">Mon rôle</h4><ul data-i18n-html="crystal.suivi.monrole.ul"></ul>
+              <h4 data-i18n="crystal.suivi.competences.h4">Compétences développées</h4><ul data-i18n-html="crystal.suivi.competences.ul"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="inner-tab-panel" id="cry-role">
+        <div class="grid-2">
+          <div class="card"><h2 data-i18n="crystal.role.h3">Rôle personnel</h2><ul data-i18n-html="crystal.role.ul"></ul></div>
+          <div class="card"><h2 data-i18n="crystal.role.e6.h3">Compétences E6 validées</h2><ul data-i18n-html="crystal.role.e6.ul"></ul></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Zero Trust Lab -->
+    <div class="tab-panel" id="proj-zerotrust">
+      <div class="card"><h2 data-i18n="zt-lab.intro.title">Zero Trust &amp; Supervision Zabbix</h2><p data-i18n-html="zt-lab.intro.p"></p><ul data-i18n-html="zt-lab.intro.ul"></ul></div>
+      <div class="grid-2">
+        <div>
+          <div class="card"><h2 data-i18n="zt-lab.arch.title">Architecture réseau</h2><p data-i18n="zt-lab.arch.p"></p><ul data-i18n-html="zt-lab.arch.ul"></ul></div>
+          <div class="card">
+            <h2 data-i18n="zt-lab.schema.title">Schéma détaillé</h2>
+            <p data-i18n="zt-lab.schema.p"></p>
+            <div class="schema-gallery" style="margin:.75rem 0;border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:0 0 28px rgba(0,245,212,.08)">
+              <img src="images/zerotrust-schema.jpg" alt="Architecture Zéro Trust & Supervision Zabbix" style="width:100%;display:block;border-radius:12px;cursor:zoom-in" loading="lazy">
+            </div>
+            <p style="font-size:.78rem;color:var(--muted)" data-i18n="zt-lab.schema.legend"></p>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <h2 data-i18n="zt-lab.vlan.title">Segmentation VLAN</h2>
+            <p data-i18n="zt-lab.vlan.p"></p>
+            <table style="margin-top:.75rem">
+              <thead><tr><th data-i18n="zt-lab.vlan.th.id">VLAN</th><th data-i18n="zt-lab.vlan.th.nom">Nom</th><th data-i18n="zt-lab.vlan.th.role">Rôle</th><th data-i18n="zt-lab.vlan.th.acces">Accès</th></tr></thead>
+              <tbody>
+                <tr><td>10</td><td data-i18n="zt-lab.vlan.r1.nom">Users</td><td data-i18n="zt-lab.vlan.r1.role">Postes utilisateurs</td><td data-i18n="zt-lab.vlan.r1.acces">Internet uniquement</td></tr>
+                <tr><td>20</td><td data-i18n="zt-lab.vlan.r2.nom">Admin</td><td data-i18n="zt-lab.vlan.r2.role">Zabbix</td><td data-i18n="zt-lab.vlan.r2.acces">Lecture SNMP vers VLAN 30</td></tr>
+                <tr><td>30</td><td data-i18n="zt-lab.vlan.r3.nom">Servers</td><td data-i18n="zt-lab.vlan.r3.role">Serveurs internes</td><td data-i18n="zt-lab.vlan.r3.acces">Accès restreint</td></tr>
+                <tr><td>40</td><td data-i18n="zt-lab.vlan.r4.nom">Legacy</td><td data-i18n="zt-lab.vlan.r4.role">PS3 isolée</td><td data-i18n="zt-lab.vlan.r4.acces">Aucun</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="card"><h2 data-i18n="zt-lab.secu.title">Sécurité Zero Trust</h2><ul data-i18n-html="zt-lab.secu.ul"></ul></div>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="card"><h2 data-i18n="zt-lab.zabbix.title">Supervision Zabbix</h2><p data-i18n="zt-lab.zabbix.p"></p><ul data-i18n-html="zt-lab.zabbix.ul"></ul></div>
+        <div class="card"><h2 data-i18n="zt-lab.scenarios.title">Scénarios de test</h2><ul data-i18n-html="zt-lab.scenarios.ul"></ul></div>
+      </div>
+      <div class="card"><h2 data-i18n="zt-lab.results.title">Résultats &amp; compétences validées</h2><ul data-i18n-html="zt-lab.results.ul"></ul></div>
+    </div>
   </div>
+</section>
 
-  <!-- Ordre de chargement : lang → tabs → navigation → ui → game → assistant -->
-  <script src="lang.js" defer></script>
-  <script src="tabs.js" defer></script>
-  <script src="navigation.js" defer></script>
-  <script src="ui.js" defer></script>
-  <script src="game.js" defer></script>
-  <script src="assistant.js" defer></script>
+<!-- ======== CERTIFICATIONS ======== -->
+<section id="certifications">
+  <div class="container">
+    <div class="sec-tag">🏅 CERTIFICATIONS</div>
+    <h2 class="sec-title" data-i18n="certifications.title">[=== CERTIFICATIONS ===]</h2>
+    <p class="sec-sub">Parcours de certification par domaine — objectifs, ressources &amp; état d'avancement.</p>
 
-  <!-- Mise à jour de l'attribut lang lors du changement de langue -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var langMap = { fr: 'fr', en: 'en', cn: 'zh' };
-      document.querySelectorAll('.lang-btn').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          var lang = btn.getAttribute('data-lang');
-          if (langMap[lang]) {
-            document.documentElement.setAttribute('lang', langMap[lang]);
-          }
-        });
+    <div class="tab-bar">
+      <button class="tab-btn active" id="cert-tab-reseau"   onclick="activateCert('reseau')"   data-i18n="nav.cert-reseau">• Réseau</button>
+      <button class="tab-btn"        id="cert-tab-systemes" onclick="activateCert('systemes')" data-i18n="nav.cert-systemes">• Systèmes</button>
+      <button class="tab-btn"        id="cert-tab-cloud"    onclick="activateCert('cloud')"    data-i18n="nav.cert-cloud">• Cloud</button>
+      <button class="tab-btn"        id="cert-tab-securite" onclick="activateCert('securite')" data-i18n="nav.cert-securite">• Sécurité</button>
+      <button class="tab-btn"        id="cert-tab-devops"   onclick="activateCert('devops')"   data-i18n="nav.cert-devops">• DevOps / IaC</button>
+      <button class="tab-btn"        id="cert-tab-itsm"     onclick="activateCert('itsm')"     data-i18n="nav.cert-itsm">• ITSM</button>
+      <button class="tab-btn"        id="cert-tab-outils"   onclick="activateCert('outils')"   data-i18n="nav.cert-outils">• Outils</button>
+      <button class="tab-btn"        id="cert-tab-autres"   onclick="activateCert('autres')"   data-i18n="nav.cert-autres">• Autres</button>
+    </div>
+
+    <div class="tab-panel active" id="cert-reseau">
+      <div class="grid-3">
+        <div class="card"><h2 data-i18n="cert.h2.objectifs">Objectifs</h2><ul data-i18n-html="cert.reseau.obj.ul"></ul></div>
+        <div class="card"><h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2><ul data-i18n-html="cert.reseau.parcours.ul"></ul></div>
+        <div class="card"><h2 data-i18n="cert.h2.etat">État</h2><ul data-i18n-html="cert.reseau.etat.ul"></ul></div>
+      </div>
+    </div>
+    <div class="tab-panel" id="cert-systemes">
+      <div class="grid-3">
+        <div class="card"><h2 data-i18n="cert.h2.objectifs">Objectifs</h2><ul data-i18n-html="cert.sys.obj.ul"></ul></div>
+        <div class="card"><h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2><ul data-i18n-html="cert.sys.parcours.ul"></ul></div>
+        <div class="card"><h2 data-i18n="cert.h2.etat">État</h2><ul data-i18n-html="cert.sys.etat.ul"></ul></div>
+      </div>
+    </div>
+    <div class="tab-panel" id="cert-cloud">
+      <div class="grid-3">
+        <div class="card"><h2 data-i18n="cert.h2.objectifs">Objectifs</h2><ul data-i18n-html="cert.cloud.obj.ul"></ul></div>
+        <div class="card"><h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2><ul data-i18n-html="cert.cloud.parcours.ul"></ul></div>
+        <div class="card"><h2 data-i18n="cert.h2.etat">État</h2><ul data-i18n-html="cert.cloud.etat.ul"></ul></div>
+      </div>
+    </div>
+    <div class="tab-panel" id="cert-securite">
+      <div class="grid-3">
+        <div class="card"><h2 data-i18n="cert.h2.objectifs">Objectifs</h2><ul data-i18n-html="cert.secu.obj.ul"></ul></div>
+        <div class="card"><h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2><ul data-i18n-html="cert.secu.parcours.ul"></ul></div>
+        <div class="card"><h2 data-i18n="cert.h2.etat">État</h2><ul data-i18n-html="cert.secu.etat.ul"></ul></div>
+      </div>
+    </div>
+    <div class="tab-panel" id="cert-devops">
+      <div class="grid-3">
+        <div class="card"><h2 data-i18n="cert.h2.objectifs">Objectifs</h2><ul data-i18n-html="cert.devops.obj.ul"></ul></div>
+        <div class="card"><h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2><ul data-i18n-html="cert.devops.parcours.ul"></ul></div>
+        <div class="card"><h2 data-i18n="cert.h2.etat">État</h2><ul data-i18n-html="cert.devops.etat.ul"></ul></div>
+      </div>
+    </div>
+    <div class="tab-panel" id="cert-itsm">
+      <div class="grid-3">
+        <div class="card"><h2 data-i18n="cert.h2.objectifs">Objectifs</h2><ul data-i18n-html="cert.itsm.obj.ul"></ul></div>
+        <div class="card"><h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2><ul data-i18n-html="cert.itsm.parcours.ul"></ul></div>
+        <div class="card"><h2 data-i18n="cert.h2.etat">État</h2><ul data-i18n-html="cert.itsm.etat.ul"></ul></div>
+      </div>
+    </div>
+    <div class="tab-panel" id="cert-outils">
+      <div class="grid-3">
+        <div class="card"><h2 data-i18n="cert.h2.objectifs">Objectifs</h2><ul data-i18n-html="cert.outils.obj.ul"></ul></div>
+        <div class="card"><h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2><ul data-i18n-html="cert.outils.parcours.ul"></ul></div>
+        <div class="card"><h2 data-i18n="cert.h2.etat">État</h2><ul data-i18n-html="cert.outils.etat.ul"></ul></div>
+      </div>
+    </div>
+    <div class="tab-panel" id="cert-autres">
+      <div class="card"><h2 data-i18n="cert.autres.h2">Autres badges / langues</h2><ul data-i18n-html="cert.autres.ul"></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======== VEILLE TECHNOLOGIQUE ======== -->
+<section id="veille" style="background:var(--bg2)">
+  <div class="container">
+    <div class="sec-tag">🔒 VEILLE</div>
+    <h2 class="sec-title" data-i18n="veille.title">[=== VEILLE TECHNOLOGIQUE ===]</h2>
+    <p class="sec-sub" data-i18n-html="veille.theme">Thème : <strong>Zero Trust Security Model</strong></p>
+
+    <div class="tab-bar">
+      <button class="tab-btn active" id="vtab-concepts"     onclick="activateVeille(this,'zt-concepts')"           data-i18n="veille.tab.concepts">Concepts</button>
+      <button class="tab-btn"        id="vtab-architecture" onclick="activateVeille(this,'zt-architecture')"       data-i18n="veille.tab.architecture">Architecture</button>
+      <button class="tab-btn"        id="vtab-usecases"     onclick="activateVeille(this,'zt-usecases')"           data-i18n="veille.tab.usecases">Cas d'usage</button>
+      <button class="tab-btn"        id="vtab-analysis"     onclick="activateVeille(this,'zt-analysis')"           data-i18n="veille.tab.analysis">Analyse personnelle</button>
+      <button class="tab-btn"        id="vtab-news"         onclick="activateVeille(this,'zt-news',true)"          data-i18n="veille.tab.news">Actualités RSS</button>
+    </div>
+
+    <div class="tab-panel active" id="zt-concepts">
+      <div class="grid-2">
+        <div>
+          <div class="card"><h2 data-i18n="zt.concepts.h2">Qu'est-ce que le Zero Trust ?</h2><p data-i18n-html="zt.concepts.p"></p></div>
+          <div class="card"><h2 data-i18n="zt.principles.h2">Principes fondamentaux</h2><ul data-i18n-html="zt.principles.ul"></ul></div>
+        </div>
+        <div>
+          <div class="card">
+            <h2 data-i18n="zt.compare.h2">Avant / Après Zero Trust</h2>
+            <table>
+              <thead><tr><th data-i18n="zt.compare.th1">Modèle traditionnel</th><th data-i18n="zt.compare.th2">Modèle Zero Trust</th></tr></thead>
+              <tbody>
+                <tr><td data-i18n="zt.compare.r1c1">Confiance implicite</td><td data-i18n="zt.compare.r1c2">Confiance vérifiée</td></tr>
+                <tr><td data-i18n="zt.compare.r2c1">Périmètre réseau</td><td data-i18n="zt.compare.r2c2">Identité &amp; contexte</td></tr>
+                <tr><td data-i18n="zt.compare.r3c1">Accès large</td><td data-i18n="zt.compare.r3c2">Accès minimal</td></tr>
+                <tr><td data-i18n="zt.compare.r4c1">Détection tardive</td><td data-i18n="zt.compare.r4c2">Surveillance continue</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="card"><h2 data-i18n="zt.faq.h2">FAQ Zero Trust</h2><ul data-i18n-html="zt.faq.ul"></ul></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="zt-architecture">
+      <div class="grid-2">
+        <div class="card" style="grid-column:span 2">
+          <h2 data-i18n="zt.arch.simple.h2">Schéma Zero Trust — Architecture complète</h2>
+          <div class="schema-gallery" style="margin:.75rem 0;border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:0 0 28px rgba(0,245,212,.1)">
+            <img src="images/zerotrust-schema.jpg" alt="Architecture Zéro Trust & Supervision Zabbix" style="width:100%;display:block;border-radius:12px;cursor:zoom-in" loading="lazy">
+          </div>
+          <p style="font-size:.78rem;color:var(--muted);margin-top:.5rem">
+            Cisco 1921 (routage/NAT) → ASA 5516-X (NGFW FirePOWER) → Switch 2960 (VLAN 10/20/30/40) · Zabbix Server : SNMP &amp; logs ASA · Alertes Zero Trust temps réel
+          </p>
+          <div class="tech-block" style="margin-top:.75rem;font-size:.76rem">
+[Internet] → [Cisco 1921 — NAT/Routage] → [ASA 5516-X — NGFW FirePOWER]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Cisco 2960 — VLAN 10/20/30/40 — SNMP]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>
+[VLAN 10 Users 192.168.10.0/24] [VLAN 20 Admin] [VLAN 30 Servers] [VLAN 40 Legacy PS3]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Zabbix Server — Dashboard · Trafic &amp; Logs ASA · Alertes Sécurité]
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="zt-usecases">
+      <div class="grid-2">
+        <div>
+          <div class="card"><h2 data-i18n="zt.usecase.google.h2">Google BeyondCorp</h2><p data-i18n="zt.usecase.google.p"></p></div>
+          <div class="card"><h2 data-i18n="zt.usecase.enterprise.h2">Cas d'usage en entreprise</h2><ul data-i18n-html="zt.usecase.enterprise.ul"></ul></div>
+        </div>
+        <div class="card"><h2 data-i18n="zt.usecase.ransomware.h2">Exemple : attaque ransomware</h2><p data-i18n-html="zt.usecase.ransomware.p1"></p><p data-i18n-html="zt.usecase.ransomware.p2"></p><ul data-i18n-html="zt.usecase.ransomware.ul"></ul></div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="zt-analysis">
+      <div class="grid-2">
+        <div class="card"><h2 data-i18n="zt.analysis.h2">Analyse personnelle</h2><p data-i18n="zt.analysis.p1"></p><p data-i18n="zt.analysis.p2"></p></div>
+        <div class="card"><h2 data-i18n="zt.conclusion.h2">Conclusion</h2><p data-i18n="zt.conclusion.p"></p></div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="zt-news">
+      <div class="card">
+        <h2 data-i18n="zt.news.h2">Actualités cybersécurité</h2>
+        <p style="font-size:.8rem;color:var(--muted);margin-bottom:.75rem" data-i18n="zt.news.p">(mise à jour automatique)</p>
+        <div id="rss-container"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======== BLOGS ======== -->
+<section id="blogs">
+  <div class="container">
+    <div class="sec-tag">📝 BLOGS</div>
+    <h2 class="sec-title" data-i18n="nav.blogs">📝 Blogs</h2>
+    <p class="sec-sub">Articles techniques sur la cybersécurité, les réseaux et mes retours d'expérience.</p>
+    <div class="grid-auto" id="blogsGrid"></div>
+  </div>
+</section>
+
+<!-- ======== CONTACT ======== -->
+<section id="contact" style="background:var(--bg2)">
+  <div class="container-sm">
+    <div class="sec-tag">📞 CONTACT</div>
+    <h2 class="sec-title" data-i18n="contact.title">[=== CONTACT ===]</h2>
+    <p class="sec-sub">Disponible pour des questions, collaborations ou opportunités professionnelles.</p>
+
+    <div style="display:flex;flex-direction:column;gap:1rem">
+      <a href="mailto:londe305@gmail.com" class="ci-card">
+        <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+        <div><div class="ci-label">Email</div><div class="ci-value" data-i18n-html="contact.email">londe305@gmail.com</div></div>
+      </a>
+      <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener" class="ci-card">
+        <div class="ci-icon"><i class="fab fa-linkedin"></i></div>
+        <div><div class="ci-label">LinkedIn</div><div class="ci-value" data-i18n-html="contact.linkedin">Mon Profil LinkedIn</div></div>
+      </a>
+      <div class="ci-card" style="cursor:default">
+        <div class="ci-icon"><i class="fas fa-user"></i></div>
+        <div><div class="ci-label">Identité</div><div class="ci-value" data-i18n-html="contact.nom">Londé Balossa Lotus Espoir</div></div>
+      </div>
+    </div>
+
+    <div style="margin-top:2rem;text-align:center">
+      <a href="mailto:londe305@gmail.com" class="btn-primary">✉️ Envoyer un message</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======== JEU – DINO SIO ======== -->
+<section id="jeu">
+  <div class="container-sm">
+    <div class="sec-tag">🎮 JEU</div>
+    <h2 class="sec-title" data-i18n="jeu.title">[=== JEU – DINO SIO ===]</h2>
+    <p class="sec-sub" data-i18n-html="jeu.note">Astuce : <kbd>Espace</kbd> ou <kbd>↑</kbd> pour sauter.</p>
+
+    <div class="game-wrap">
+      <div class="game-score-row">
+        <span><span data-i18n="jeu.score.label">Score</span> : <span class="game-score-num" id="score">0</span></span>
+        <span><span data-i18n="jeu.level.label">Niveau</span> : <span class="game-score-num" id="level-label">CP</span></span>
+      </div>
+      <canvas id="dino-canvas" width="800" height="200"></canvas>
+      <div id="game-msg" class="hidden"></div>
+      <div class="game-ui">
+        <button class="game-btn btn-start"      data-i18n="jeu.btn.start">▶ Démarrer</button>
+        <button class="game-btn btn-restart"    data-i18n="jeu.btn.restart">⟲ Rejouer</button>
+        <button class="game-btn btn-difficulty" data-i18n="jeu.btn.difficulty">⚙ Difficulté</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <p>Portfolio &mdash; <strong>Londé Balossa Lotus Espoir</strong> · BTS SIO SISR · Alternant Transdev</p>
+  <p style="margin-top:.35rem;font-size:.75rem">londe305@gmail.com</p>
+</footer>
+
+<!-- ============================================================
+     MODALS
+     ============================================================ -->
+
+<!-- Blog modal -->
+<div class="modal" id="blogModal" onclick="if(event.target===this)closeModal()">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="modal-emoji" id="mEmoji"></div>
+    <div class="modal-title" id="mTitle"></div>
+    <div class="modal-meta"  id="mMeta"></div>
+    <div class="modal-body"  id="mBody"></div>
+  </div>
+</div>
+
+<!-- Game difficulty modal -->
+<div id="diff-modal" class="modal hidden">
+  <div class="modal-box" style="max-width:380px">
+    <button class="modal-close btn-close-modal">✕</button>
+    <div class="modal-emoji">⚙️</div>
+    <div class="modal-title" data-i18n="jeu.modal.title">Difficulté</div>
+    <p class="modal-meta"   data-i18n="jeu.modal.p">Si ce bouton existait, ce ne serait pas fun 😉</p>
+    <p style="font-size:.8rem;color:var(--muted);margin-bottom:1.25rem" data-i18n="jeu.modal.hint">(désactivé par choix philosophique)</p>
+    <button class="game-btn btn-close-modal" data-i18n="jeu.modal.close">Fermer</button>
+  </div>
+</div>
+
+<!-- Lightbox (for schema-gallery images) -->
+<div id="lightbox" class="hidden" role="dialog">
+  <img id="lightbox-img" src="" alt="Image agrandie">
+  <button class="lightbox-close">✕</button>
+  <button class="lightbox-prev">‹</button>
+  <button class="lightbox-next">›</button>
+</div>
+
+<!-- ============================================================
+     SCRIPTS
+     ============================================================ -->
+<script>
+/* Polyfills for game.js and ui.js */
+window.$ = (s,c) => (c||document).querySelector(s);
+window.$$ = (s,c) => Array.from((c||document).querySelectorAll(s));
+</script>
+<script src="lang.js"></script>
+<script>
+/* Inject missing nav.blogs translation */
+const _extra = { fr:{'nav.blogs':'📝 Blogs'}, en:{'nav.blogs':'📝 Blogs'}, cn:{'nav.blogs':'📝 博客'} };
+['fr','en','cn'].forEach(l => Object.assign(translations[l], _extra[l]));
+
+/* ---- Navigation ---- */
+function navTo(id) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
+function closeMenu()  { document.getElementById('mobileMenu').classList.remove('open'); }
+
+/* ---- Tab switcher (generic) ---- */
+function switchTabs(pPrefix, bPrefix, id) {
+  document.querySelectorAll('[id^="' + pPrefix + '"]').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('[id^="' + bPrefix + '"]').forEach(b => b.classList.remove('active'));
+  const panel = document.getElementById(pPrefix + id);
+  const btn   = document.getElementById(bPrefix + id);
+  if (panel) panel.classList.add('active');
+  if (btn)   btn.classList.add('active');
+}
+function activateAlt(id)     { switchTabs('alt-',     'alt-tab-',  id); }
+function activateProjet(id)  { switchTabs('proj-',    'proj-tab-', id); }
+function activateCrystal(id) { switchTabs('cry-',     'cry-tab-',  id); }
+function activateCert(id)    { switchTabs('cert-',    'cert-tab-', id); }
+function activateVeille(btn, panelId, rss) {
+  document.querySelectorAll('#veille .tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('#veille .tab-btn').forEach(b => b.classList.remove('active'));
+  const panel = document.getElementById(panelId);
+  if (panel) panel.classList.add('active');
+  if (btn)   btn.classList.add('active');
+  if (rss)   loadVeilleRSS();
+}
+
+/* ---- Blogs ---- */
+const BLOGS = [
+  { id:1, emoji:'🔒',
+    title:'Zero Trust : ne jamais faire confiance, toujours vérifier',
+    desc:'Exploration du modèle Zero Trust Security : principes fondamentaux, comparaison avec le périmètre réseau traditionnel, et mise en pratique dans un lab ASA.',
+    tags:['Zero Trust','Cybersécurité','Réseau'], date:'2025-04-10', time:'8 min',
+    body:`<h3>Introduction</h3><p>Le Zero Trust est une philosophie fondée sur <em>"Ne jamais faire confiance, toujours vérifier"</em>. Contrairement aux approches basées sur un périmètre de confiance, chaque requête est traitée comme potentiellement hostile.</p>
+<h3>Principes clés</h3><ul><li><strong>Vérification systématique</strong> : authentification de chaque requête, même interne.</li><li><strong>Moindre privilège</strong> : accès minimal nécessaire.</li><li><strong>Micro-segmentation</strong> : isolation des zones réseau.</li><li><strong>Assume breach</strong> : supposer la compromission.</li></ul>
+<h3>Mise en pratique</h3><p>Dans mon lab avec un ASA 5505, j'ai implémenté des ACL strictes "deny any any" par défaut, avec uniquement les flux nécessaires autorisés. La PS3 sur le VLAN 40 est totalement isolée — parfait exemple de micro-segmentation.</p>
+<h3>Résultats</h3><p>Surface d'attaque drastiquement réduite. Chaque flux non autorisé génère un log dans Zabbix, permettant une réponse rapide aux incidents.</p>` },
+  { id:2, emoji:'🛠️',
+    title:'Crystal Network Refresh : migration SD-WAN en production',
+    desc:'Retour d\'expérience sur la migration du réseau Crystal vers une architecture SD-WAN v2 Fortinet, avec gestion ITIL et stratégie de rollback.',
+    tags:['SD-WAN','Fortinet','ITIL','Migration'], date:'2025-05-20', time:'10 min',
+    body:`<h3>Contexte du projet</h3><p>Le siège Crystal avait une infrastructure réseau vieillissante. La mission : migrer vers une architecture SD-WAN v2 avec des Fortigate 200G, remplacer 53 switches et déployer 80 bornes WiFi.</p>
+<h3>Défis rencontrés</h3><ul><li>Contraintes physiques en baie (espace, câblage)</li><li>Liaisons opérateurs non disponibles au démarrage</li><li>Dépendances externes nombreuses (serveurs, vidéo)</li><li>Pression sur la continuité de service</li></ul>
+<h3>Approche ITIL</h3><p>Chaque intervention a fait l'objet d'un Change Request validé en CAB. Une stratégie de rollback était systématiquement préparée avant toute intervention en production.</p>
+<h3>Lessons learned</h3><p>La préparation en staging est cruciale. Les tests en lab avant migration évitent 80% des surprises. La documentation en temps réel (runbooks) permet un rollback efficace si nécessaire.</p>` },
+  { id:3, emoji:'📡',
+    title:'Supervision réseau avec Zabbix : retour d\'expérience',
+    desc:'Comment Zabbix m\'a permis de gagner une visibilité complète sur mon infrastructure lab : SNMP, dashboards, alertes et détection d\'anomalies.',
+    tags:['Zabbix','Supervision','SNMP','Monitoring'], date:'2025-06-01', time:'7 min',
+    body:`<h3>Pourquoi Zabbix ?</h3><p>Pour mon lab Zero Trust, j'avais besoin d'une solution de supervision open-source, puissante et flexible. Zabbix s'est imposé : support SNMP natif, alertes configurables et dashboards complets.</p>
+<h3>Configuration SNMP</h3><ul><li>SNMP v2c sur switch Cisco et routeur</li><li>SNMP v3 sur l'ASA 5505 pour la sécurité</li><li>Community strings isolées par VLAN</li><li>Polling toutes les 60 secondes</li></ul>
+<h3>Dashboards</h3><p>Dashboard principal : état des interfaces, trafic par VLAN, taux de refus ACL du firewall, graphiques de bande passante — le tout en temps réel.</p>
+<h3>Alertes &amp; incidents</h3><p>Zabbix a détecté plusieurs anomalies : scans réseau depuis le VLAN Users, tentatives SSH non autorisées, et une interface tombée à cause d'un câble mal branché. Alerté en moins de 60 secondes.</p>` }
+];
+
+function renderBlogs() {
+  const g = document.getElementById('blogsGrid');
+  if (!g) return;
+  g.innerHTML = BLOGS.map(b => `<div class="b-card" onclick="openModal(${b.id})">
+    <div class="b-emoji">${b.emoji}</div>
+    <div class="b-title">${b.title}</div>
+    <div class="b-desc">${b.desc}</div>
+    <div class="b-tags">${b.tags.map(t=>`<span class="b-tag">${t}</span>`).join('')}</div>
+    <div class="b-meta">📅 ${b.date} · ⏱️ ${b.time}</div>
+  </div>`).join('');
+}
+function openModal(id) {
+  const b = BLOGS.find(x => x.id === id); if (!b) return;
+  document.getElementById('mEmoji').textContent = b.emoji;
+  document.getElementById('mTitle').textContent = b.title;
+  document.getElementById('mMeta').textContent  = `${b.date} · ${b.time} · ${b.tags.join(', ')}`;
+  document.getElementById('mBody').innerHTML    = b.body;
+  document.getElementById('blogModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeModal() {
+  document.getElementById('blogModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+/* ---- Escape key ---- */
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    closeModal();
+    const dm = document.getElementById('diff-modal');
+    if (dm && !dm.classList.contains('hidden')) dm.classList.add('hidden');
+  }
+});
+
+/* ---- Scroll spy ---- */
+const _sections = ['home','apropos','alternance','projets','certifications','veille','blogs','contact','jeu'];
+const _spy = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const id = e.target.id;
+      document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+      document.querySelector(`.nav-link[data-section="${id}"]`)?.classList.add('active');
+    }
+  });
+}, { threshold: .2, rootMargin: '-80px 0px -60% 0px' });
+_sections.forEach(id => {
+  const el = document.getElementById(id);
+  if (el) _spy.observe(el);
+});
+
+/* ---- Reveal on scroll ---- */
+function observe() {
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); }), { threshold:.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  const io2 = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) { e.target.style.width = e.target.dataset.w + '%'; io2.unobserve(e.target); }
+  }), { threshold:.1 });
+  document.querySelectorAll('.sk-fill[data-w]').forEach(el => io2.observe(el));
+}
+
+/* ---- Cyberpunk background canvas ---- */
+(function(){
+  const cv = document.getElementById('bg-canvas');
+  const cx = cv.getContext('2d');
+  let W, H, frame = 0;
+
+  const PALETTE = ['#00f5d4','#00b4d8','#4cc9f0','#48cae4','#00d4ff','#0096c7','#22d3ee'];
+  const PALETTE_B = ['#7b2ff7','#4361ee','#3a0ca3'];
+
+  /* ---- resize ---- */
+  function rsz() {
+    W = cv.width  = window.innerWidth;
+    H = cv.height = window.innerHeight;
+  }
+  rsz(); window.addEventListener('resize', rsz);
+
+  /* ================================================================
+     PARTICLES — float upward, fade, glow
+  ================================================================ */
+  class Particle {
+    constructor(init) {
+      this.x  = Math.random() * (W||1200);
+      this.y  = init ? Math.random() * (H||800) : (H||800) + 6;
+      this.vx = (Math.random() - .5) * .5;
+      this.vy = -(Math.random() * .7 + .15);
+      this.r  = Math.random() * 1.8 + .3;
+      this.col= PALETTE[Math.floor(Math.random() * PALETTE.length)];
+      this.a  = Math.random() * .75 + .15;
+      this.life  = 1;
+      this.decay = Math.random() * .0025 + .0008;
+      this.glow  = Math.random() > .6;
+    }
+    update() {
+      this.x += this.vx; this.y += this.vy;
+      this.life -= this.decay;
+      if (this.life <= 0 || this.y < -10) Object.assign(this, new Particle(false));
+    }
+    draw() {
+      const a = Math.max(0, this.a * this.life);
+      cx.save();
+      cx.globalAlpha = a;
+      if (this.glow) { cx.shadowBlur = 14; cx.shadowColor = this.col; }
+      cx.fillStyle = this.col;
+      cx.beginPath(); cx.arc(this.x, this.y, this.r, 0, Math.PI*2); cx.fill();
+      cx.restore();
+    }
+  }
+  const PTS = Array.from({length:90}, (_,i) => new Particle(true));
+
+  /* ================================================================
+     LIGHT STREAKS — fast horizontal beams
+  ================================================================ */
+  class Streak {
+    constructor() { this.spawn(); }
+    spawn() {
+      this.x     = -350;
+      this.y     = Math.random() * H;
+      this.len   = Math.random() * 280 + 80;
+      this.speed = Math.random() * 9 + 5;
+      this.a     = Math.random() * .35 + .05;
+      this.col   = Math.random() > .45 ? '#00f5d4' : '#4cc9f0';
+      this.h     = Math.random() * 1.5 + .5;
+      this.angle = (Math.random() - .5) * .18;
+      this.delay = Math.floor(Math.random() * 220);
+    }
+    update() { if (this.delay > 0) { this.delay--; return; } this.x += this.speed; if (this.x > W + 400) this.spawn(); }
+    draw() {
+      if (this.delay > 0) return;
+      cx.save();
+      cx.globalAlpha = this.a;
+      cx.translate(this.x, this.y); cx.rotate(this.angle);
+      const g = cx.createLinearGradient(-this.len, 0, this.len * .6, 0);
+      g.addColorStop(0,'transparent'); g.addColorStop(.35, this.col); g.addColorStop(.7, this.col); g.addColorStop(1,'transparent');
+      cx.shadowBlur = 8; cx.shadowColor = this.col;
+      cx.fillStyle = g;
+      cx.fillRect(-this.len, -this.h/2, this.len * 1.6, this.h);
+      cx.restore();
+    }
+  }
+  const STREAKS = Array.from({length:8}, () => new Streak());
+
+  /* ================================================================
+     ENERGY WAVES — expanding rings
+  ================================================================ */
+  class Wave {
+    constructor() {
+      this.x   = Math.random() * W;
+      this.y   = Math.random() * H;
+      this.r   = 0;
+      this.max = Math.random() * 220 + 80;
+      this.spd = Math.random() * 1.2 + .4;
+      this.col = PALETTE[Math.floor(Math.random() * 4)];
+    }
+    update() { this.r += this.spd; }
+    draw() {
+      const a = .45 * (1 - this.r / this.max);
+      if (a <= 0) return;
+      cx.save();
+      cx.globalAlpha = a;
+      cx.strokeStyle = this.col;
+      cx.lineWidth = 1.2;
+      cx.shadowBlur = 10; cx.shadowColor = this.col;
+      cx.beginPath(); cx.arc(this.x, this.y, this.r, 0, Math.PI*2); cx.stroke();
+      cx.restore();
+    }
+    dead() { return this.r >= this.max; }
+  }
+  let waves = [], waveT = 0;
+
+  /* ================================================================
+     NETWORK NODES — static positions, animated flow dots on edges
+  ================================================================ */
+  let nodes = [], flowDots = [], nodeT = 0;
+  function buildNodes() {
+    nodes = Array.from({length:18}, () => ({
+      x: Math.random() * W, y: Math.random() * H,
+      col: PALETTE[Math.floor(Math.random() * 3)],
+      r: Math.random() * 2 + 1
+    }));
+    flowDots = [];
+    nodes.forEach((n,i) => {
+      nodes.forEach((m,j) => {
+        if (j <= i) return;
+        const d = Math.hypot(n.x-m.x, n.y-m.y);
+        if (d < 260) flowDots.push({ ax:n.x, ay:n.y, bx:m.x, by:m.y, t:Math.random(), spd: .003+Math.random()*.004, col:n.col });
       });
     });
-  </script>
+  }
 
+  /* ================================================================
+     DEEP GLOW ORBS — slow-moving soft light blobs
+  ================================================================ */
+  const ORBS = [
+    { x:.12, y:.28, r:.38, c:'rgba(0,119,182,.055)', vx:.00008, vy:.00005 },
+    { x:.82, y:.62, r:.32, c:'rgba(0,245,212,.040)', vx:-.00006, vy:.00007 },
+    { x:.50, y:.88, r:.28, c:'rgba(123,47,247,.038)', vx:.00007, vy:-.00006 },
+    { x:.65, y:.18, r:.22, c:'rgba(0,180,216,.045)', vx:-.00005, vy:.00008 },
+  ];
+
+  /* ================================================================
+     DRAW FUNCTIONS
+  ================================================================ */
+  function drawGrid() {
+    cx.save();
+    /* horizontal lines — subtle fade from center */
+    const gs = 55;
+    for (let y = 0; y < H; y += gs) {
+      const a = .025 + .015 * Math.sin(frame*.008 + y*.015);
+      cx.globalAlpha = a;
+      cx.strokeStyle = '#00f5d4';
+      cx.lineWidth = .5;
+      cx.beginPath(); cx.moveTo(0,y); cx.lineTo(W,y); cx.stroke();
+    }
+    for (let x = 0; x < W; x += gs) {
+      const a = .025 + .015 * Math.sin(frame*.008 + x*.015);
+      cx.globalAlpha = a;
+      cx.beginPath(); cx.moveTo(x,0); cx.lineTo(x,H); cx.stroke();
+    }
+    cx.restore();
+  }
+
+  function drawOrbs() {
+    ORBS.forEach(o => {
+      o.x = (o.x + o.vx + 1) % 1.2 - .1;
+      o.y = (o.y + o.vy + 1) % 1.2 - .1;
+      const px = o.x*W, py = o.y*H, pr = o.r * Math.min(W,H);
+      const g = cx.createRadialGradient(px,py,0,px,py,pr);
+      g.addColorStop(0, o.c); g.addColorStop(1,'transparent');
+      cx.save(); cx.globalAlpha = 1;
+      cx.fillStyle = g;
+      cx.beginPath(); cx.arc(px,py,pr,0,Math.PI*2); cx.fill();
+      cx.restore();
+    });
+  }
+
+  function drawNetwork() {
+    /* edges */
+    nodes.forEach((n,i) => {
+      nodes.forEach((m,j) => {
+        if (j <= i) return;
+        const d = Math.hypot(n.x-m.x, n.y-m.y);
+        if (d < 260) {
+          cx.save();
+          cx.globalAlpha = .06 * (1 - d/260);
+          cx.strokeStyle = '#00b4d8';
+          cx.lineWidth = .6;
+          cx.beginPath(); cx.moveTo(n.x,n.y); cx.lineTo(m.x,m.y); cx.stroke();
+          cx.restore();
+        }
+      });
+      /* node dot */
+      cx.save();
+      cx.globalAlpha = .4;
+      cx.shadowBlur = 8; cx.shadowColor = n.col;
+      cx.fillStyle = n.col;
+      cx.beginPath(); cx.arc(n.x,n.y,n.r,0,Math.PI*2); cx.fill();
+      cx.restore();
+    });
+    /* animated flow dots on edges */
+    flowDots.forEach(fd => {
+      fd.t = (fd.t + fd.spd) % 1;
+      const px = fd.ax + (fd.bx-fd.ax)*fd.t;
+      const py = fd.ay + (fd.by-fd.ay)*fd.t;
+      cx.save();
+      cx.globalAlpha = .7;
+      cx.shadowBlur = 10; cx.shadowColor = fd.col;
+      cx.fillStyle = fd.col;
+      cx.beginPath(); cx.arc(px,py,1.4,0,Math.PI*2); cx.fill();
+      cx.restore();
+    });
+  }
+
+  function drawParticleConnections() {
+    for (let i = 0; i < PTS.length; i++) {
+      for (let j = i+1; j < PTS.length; j++) {
+        const dx=PTS[i].x-PTS[j].x, dy=PTS[i].y-PTS[j].y, d=Math.hypot(dx,dy);
+        if (d < 100) {
+          cx.save();
+          cx.globalAlpha = .07*(1-d/100)*PTS[i].life*PTS[j].life;
+          cx.strokeStyle='#00f5d4'; cx.lineWidth=.4;
+          cx.beginPath(); cx.moveTo(PTS[i].x,PTS[i].y); cx.lineTo(PTS[j].x,PTS[j].y); cx.stroke();
+          cx.restore();
+        }
+      }
+    }
+  }
+
+  /* ================================================================
+     MAIN LOOP
+  ================================================================ */
+  buildNodes();
+
+  function loop() {
+    frame++;
+
+    /* base fill — very dark */
+    cx.fillStyle = '#050b14';
+    cx.fillRect(0,0,W,H);
+
+    drawOrbs();
+    drawGrid();
+
+    /* waves */
+    waveT++;
+    if (waveT % 80 === 0) waves.push(new Wave());
+    waves.forEach(w => { w.update(); w.draw(); });
+    waves = waves.filter(w => !w.dead());
+
+    /* streaks */
+    STREAKS.forEach(s => { s.update(); s.draw(); });
+
+    /* network */
+    nodeT++;
+    if (nodeT % 1200 === 0) buildNodes(); /* rebuild every ~20s so nodes drift */
+    drawNetwork();
+
+    /* particle connections + particles */
+    drawParticleConnections();
+    PTS.forEach(p => { p.update(); p.draw(); });
+
+    requestAnimationFrame(loop);
+  }
+  requestAnimationFrame(loop);
+})();
+
+/* ---- RSS (inline fallback) ---- */
+const _RSS_KEY = 'portfolioRSS', _RSS_TTL = 600000;
+const _RSS_FEEDS = [
+  { url:'https://feeds.feedburner.com/TheHackersNews', name:'Hacker News' },
+  { url:'https://krebsonsecurity.com/feed/', name:'Krebs' },
+  { url:'https://arstechnica.com/security/feed/', name:'Ars Tech' }
+];
+function _getRSSCache() { try{const r=localStorage.getItem(_RSS_KEY);if(!r)return null;const{ts,items}=JSON.parse(r);return Date.now()-ts<_RSS_TTL?items:null;}catch{return null;} }
+function _setRSSCache(items){try{localStorage.setItem(_RSS_KEY,JSON.stringify({ts:Date.now(),items}));}catch{}}
+async function _fetchURL(url,ms=8000){const c=new AbortController(),t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal});clearTimeout(t);return r;}catch(e){clearTimeout(t);throw e;}}
+function _parseRSS(xml,name){try{const d=new DOMParser().parseFromString(xml,'text/xml');return Array.from(d.querySelectorAll('item')).slice(0,6).map(el=>({title:el.querySelector('title')?.textContent?.trim()||'?',link:el.querySelector('link')?.textContent?.trim()||'#',pubDate:el.querySelector('pubDate')?.textContent?.trim()||'',source:name}));}catch{return[];}}
+async function _fetchFeed(feed){
+  try{const r=await _fetchURL(`https://api.allorigins.win/get?url=${encodeURIComponent(feed.url)}`);if(r.ok){const d=await r.json();if(d?.contents){const i=_parseRSS(d.contents,feed.name);if(i.length)return i;}}}catch{}
+  try{const r=await _fetchURL(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}&count=6`,6000);if(r.ok){const d=await r.json();if(d.status==='ok'&&d.items?.length)return d.items.map(i=>({title:i.title||'?',link:i.link||'#',pubDate:i.pubDate||'',source:feed.name}));}}catch{}
+  return [];
+}
+async function _fetchAllRSS(){const res=await Promise.allSettled(_RSS_FEEDS.map(_fetchFeed));return res.filter(r=>r.status==='fulfilled').flatMap(r=>r.value).sort((a,b)=>new Date(b.pubDate)-new Date(a.pubDate)).slice(0,18);}
+function _renderRSS(c,items){c.innerHTML=items.map(i=>{const d=i.pubDate?new Date(i.pubDate).toLocaleDateString('fr-FR'):'–';return`<p><a href="${i.link}" target="_blank" rel="noopener">${i.title}</a><span style="color:var(--c);font-size:.72rem;margin-left:6px">[${i.source}]</span><br><small style="color:var(--muted)">${d}</small></p>`;}).join('');}
+let _rssLoading = false;
+async function loadVeilleRSS() {
+  const c = document.getElementById('rss-container'); if (!c || _rssLoading) return;
+  const cached = _getRSSCache();
+  if (cached?.length) { _renderRSS(c, cached); _rssLoading=true; _fetchAllRSS().then(i=>{if(i.length){_setRSSCache(i);_renderRSS(c,i);}}).finally(()=>{_rssLoading=false;}); return; }
+  _rssLoading = true; c.innerHTML = '<p style="color:var(--muted)">📡 Chargement des actualités…</p>';
+  try { const items = await _fetchAllRSS(); if (items.length) { _setRSSCache(items); _renderRSS(c, items); } else c.innerHTML='<p style="color:var(--muted)">⚠️ Flux indisponibles.</p>'; } finally { _rssLoading = false; }
+}
+
+/* ---- Init ---- */
+renderBlogs();
+observe();
+</script>
+<script src="ui.js"></script>
+<script src="game.js"></script>
 </body>
 </html>
