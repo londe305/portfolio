@@ -7,23 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<style>
-:root{
-  --c:#00f5d4;--cg:rgba(0,245,212,.14);--cd:rgba(0,245,212,.07);
-  --purple:#7b61ff;--pg:rgba(123,97,255,.14);
-  --bg:#050b14;--bg2:#0a1122;--bg3:#0e1628;
-  --card:rgba(10,17,34,.88);
-  --text:#e2e8f0;--muted:#64748b;--muted2:#8897a8;
-  --border:rgba(0,245,212,.1);--border-h:rgba(0,245,212,.28);
-  --nav-h:64px;
-}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+<style>:root{  --c:#00f5d4;--cg:rgba(0,245,212,.14);--cd:rgba(0,245,212,.07);  --purple:#7b61ff;--pg:rgba(123,97,255,.14);  --bg:#050b14;--bg2:#0a1122;--bg3:#0e1628;  --card:rgba(10,17,34,.88);  --text:#e2e8f0;--muted:#64748b;--muted2:#8897a8;  --border:rgba(0,245,212,.1);--border-h:rgba(0,245,212,.28);  --nav-h:64px;}*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{font-size:16px}
-body{
-  font-family:'Inter',system-ui,sans-serif;
-  background:var(--bg);color:var(--text);
-  min-height:100vh;overflow-x:hidden;
-}
+body{  font-family:'Inter',system-ui,sans-serif;  background:var(--bg);color:var(--text);  min-height:100vh;overflow-x:hidden;}
 a{color:var(--c);text-decoration:none}
 a:hover{text-decoration:underline}
 strong{color:#fff}
@@ -35,195 +21,70 @@ th{background:var(--cd);color:var(--c)}
 tr:hover{background:var(--cd)}
 kbd{background:var(--bg2);border:1px solid var(--border);padding:.1rem .35rem;border-radius:4px;font-size:.85em}
 code{font-family:'JetBrains Mono',monospace;background:var(--cd);padding:.1rem .3rem;border-radius:3px;color:var(--c);font-size:.9em}
-button{font-family:inherit;cursor:pointer}
-
-/* SCROLLBAR */
-::-webkit-scrollbar{width:5px}
-::-webkit-scrollbar-track{background:var(--bg)}
-::-webkit-scrollbar-thumb{background:rgba(0,245,212,.25);border-radius:3px}
-
-/* BG CANVAS */
-#bg-canvas{position:fixed;inset:0;z-index:0;pointer-events:none}
-
-/* =================== NAVBAR =================== */
-.navbar{
-  position:fixed;top:0;left:0;right:0;z-index:100;
-  background:rgba(5,11,20,.82);backdrop-filter:blur(24px);
-  border-bottom:1px solid var(--border);
-  transition:background .3s;
-}
-.nav-inner{
-  max-width:1280px;margin:0 auto;padding:0 1.5rem;
-  display:flex;align-items:center;gap:1rem;height:var(--nav-h);
-}
-.nav-logo{
-  font-weight:900;font-size:.88rem;color:#fff;
-  white-space:nowrap;display:flex;align-items:center;gap:.4rem;
-  margin-right:.5rem;flex-shrink:0;
-}
-.nav-logo .bracket{color:var(--c)}
+button{font-family:inherit;cursor:pointer}/* SCROLLBAR */::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:rgba(0,245,212,.25);border-radius:3px}/* BG CANVAS */#bg-canvas{position:fixed;inset:0;z-index:0;pointer-events:none}/* =================== NAVBAR =================== */.navbar{  position:fixed;top:0;left:0;right:0;z-index:100;  background:rgba(5,11,20,.82);backdrop-filter:blur(24px);  border-bottom:1px solid var(--border);  transition:background .3s;}
+.nav-inner{  max-width:1280px;margin:0 auto;padding:0 1.5rem;  display:flex;align-items:center;gap:1rem;height:var(--nav-h);}
+.nav-logo{  font-family:'JetBrains Mono',monospace;font-size:.92rem;  white-space:nowrap;display:flex;align-items:center;gap:0;  margin-right:.5rem;flex-shrink:0;letter-spacing:-.01em;}
+.logo-lt,.logo-gt{color:var(--muted2);font-weight:400}
+.logo-c{color:var(--c);font-weight:700}
+.logo-name{color:#fff;font-weight:700;margin-left:.55rem;font-family:'Inter',sans-serif;letter-spacing:0}
 .nav-links{display:flex;gap:.1rem;flex:1;overflow-x:auto}
 .nav-links::-webkit-scrollbar{height:0}
-.nav-link{
-  padding:.36rem .7rem;font-size:.79rem;font-weight:500;
-  color:var(--muted);border-radius:7px;white-space:nowrap;
-  transition:color .2s,background .2s;
-  background:none;border:none;
-}
+.nav-link{  padding:.36rem .7rem;font-size:.79rem;font-weight:500;  color:var(--muted);border-radius:7px;white-space:nowrap;  transition:color .2s,background .2s;  background:none;border:none;}
 .nav-link:hover{color:var(--text);background:var(--cd)}
 .nav-link.active{color:var(--c)}
 .lang-switcher{display:flex;gap:.3rem;flex-shrink:0}
-.lang-btn{
-  padding:.24rem .52rem;font-size:.72rem;font-weight:700;
-  background:var(--bg2);border:1px solid var(--border);
-  color:var(--muted);border-radius:6px;
-  transition:all .2s;
-}
+.lang-btn{  padding:.24rem .52rem;font-size:.72rem;font-weight:700;  background:var(--bg2);border:1px solid var(--border);  color:var(--muted);border-radius:6px;  transition:all .2s;}
 .lang-btn:hover{border-color:var(--border-h);color:var(--text)}
 .lang-btn.active{background:var(--cg);border-color:var(--c);color:var(--c)}
-.hamburger{
-  display:none;background:none;border:1px solid var(--border);
-  color:var(--c);padding:.36rem .55rem;border-radius:7px;font-size:1rem;
-}
-
-/* MOBILE MENU */
-.mobile-menu{
-  display:none;position:fixed;top:var(--nav-h);left:0;right:0;z-index:99;
-  background:rgba(5,11,20,.97);backdrop-filter:blur(24px);
-  border-bottom:1px solid var(--border);padding:1rem;
-}
-.mobile-menu.open{display:block}
-.mob-link{
-  display:block;width:100%;padding:.6rem 1rem;font-size:.88rem;
-  color:var(--muted);background:none;border:none;text-align:left;
-  border-radius:8px;transition:color .2s,background .2s;
-}
-.mob-link:hover{color:var(--text);background:var(--cd)}
-
-/* =================== MAIN =================== */
-main{padding-top:var(--nav-h);position:relative;z-index:1}
+.hamburger{  display:none;background:none;border:1px solid var(--border);  color:var(--c);padding:.36rem .55rem;border-radius:7px;font-size:1rem;}/* MOBILE MENU */.mobile-menu{  display:none;position:fixed;top:var(--nav-h);left:0;right:0;z-index:99;  background:rgba(5,11,20,.97);backdrop-filter:blur(28px);  border-bottom:1px solid var(--border);padding:.65rem .75rem .9rem;  transform:translateY(-8px);opacity:0;transition:transform .22s ease,opacity .22s ease;}
+.mobile-menu.open{display:block;transform:translateY(0);opacity:1}
+.mob-link{  display:flex;align-items:center;gap:.5rem;width:100%;padding:.62rem .9rem;font-size:.86rem;  color:var(--muted);background:none;border:none;text-align:left;  border-radius:10px;transition:color .18s,background .18s;min-height:44px;}
+.mob-link:hover,.mob-link:active{color:var(--text);background:var(--cd)}
+.mob-section-label{font-size:.65rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:.35rem .9rem .1rem}
+.mob-divider{height:1px;background:var(--border);margin:.4rem .5rem}
+.mob-lang-row{display:flex;gap:.5rem;padding:.4rem .9rem}/* =================== MAIN =================== */main{padding-top:var(--nav-h);position:relative;z-index:1}
 section{padding:5rem 1.5rem;scroll-margin-top:var(--nav-h)}
 .container{max-width:1200px;margin:0 auto}
-.container-sm{max-width:900px;margin:0 auto}
-
-/* SECTION HEADER */
-.sec-tag{
-  display:inline-block;padding:.25rem .75rem;
-  background:var(--cd);border:1px solid var(--border);
-  color:var(--c);border-radius:999px;font-size:.74rem;font-weight:600;
-  margin-bottom:1rem;letter-spacing:.03em;
-}
-.sec-title{
-  font-size:2.1rem;font-weight:900;margin-bottom:.5rem;
-  background:linear-gradient(135deg,#fff 30%,var(--c) 70%,var(--purple));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-}
+.container-sm{max-width:900px;margin:0 auto}/* SECTION HEADER */.sec-tag{  display:inline-block;padding:.25rem .75rem;  background:var(--cd);border:1px solid var(--border);  color:var(--c);border-radius:999px;font-size:.74rem;font-weight:600;  margin-bottom:1rem;letter-spacing:.03em;}
+.sec-title{  font-size:2.1rem;font-weight:900;margin-bottom:.5rem;  background:linear-gradient(135deg,#fff 30%,var(--c) 70%,var(--purple));  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
 .sec-sub{font-size:.92rem;color:var(--muted);margin-bottom:2.5rem;line-height:1.6}
-.divider{height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent);margin:2rem 0}
-
-/* CARD */
-.card{
-  background:var(--card);border:1px solid var(--border);
-  border-radius:16px;padding:1.5rem;
-  backdrop-filter:blur(20px);
-  transition:border-color .25s,box-shadow .25s;
-  margin-bottom:1rem;
-}
+.divider{height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent);margin:2rem 0}/* CARD */.card{  background:var(--card);border:1px solid var(--border);  border-radius:16px;padding:1.5rem;  backdrop-filter:blur(20px);  transition:border-color .25s,box-shadow .25s;  margin-bottom:1rem;}
 .card:hover{border-color:var(--border-h);box-shadow:0 0 28px rgba(0,245,212,.07)}
 .card h2{font-size:1rem;font-weight:700;color:var(--c);margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
 .card h3{font-size:.9rem;font-weight:600;color:#a5bbd0;margin:.9rem 0 .45rem}
 .card h4{font-size:.85rem;font-weight:600;color:var(--c);margin:.8rem 0 .35rem}
 .card p{font-size:.9rem;line-height:1.75;color:var(--text);margin-bottom:.5rem}
-.card ul{font-size:.9rem;line-height:1.75}
-
-/* GRID UTILS */
-.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
+.card ul{font-size:.9rem;line-height:1.75}/* GRID UTILS */.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
 .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
-.grid-auto{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem}
-
-/* TABS */
-.tab-bar{
-  display:flex;gap:.4rem;flex-wrap:wrap;
-  margin-bottom:1.5rem;padding-bottom:.75rem;
-  border-bottom:1px solid var(--border);
-}
-.tab-btn{
-  padding:.38rem .9rem;font-size:.8rem;font-weight:500;
-  background:transparent;border:1px solid var(--border);
-  color:var(--muted);border-radius:8px;
-  transition:all .2s;
-}
+.grid-auto{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem}/* TABS */.tab-bar{  display:flex;gap:.4rem;flex-wrap:wrap;  margin-bottom:1.5rem;padding-bottom:.75rem;  border-bottom:1px solid var(--border);}
+.tab-btn{  padding:.38rem .9rem;font-size:.8rem;font-weight:500;  background:transparent;border:1px solid var(--border);  color:var(--muted);border-radius:8px;  transition:all .2s;}
 .tab-btn:hover{border-color:var(--border-h);color:var(--text)}
 .tab-btn.active{background:var(--cg);border-color:var(--c);color:var(--c)}
 .tab-panel{display:none}
 .tab-panel.active{display:block;animation:fadeUp .3s ease}
 .inner-tab-bar{display:flex;gap:.3rem;flex-wrap:wrap;margin-bottom:1rem}
-.inner-tab-btn{
-  padding:.3rem .7rem;font-size:.76rem;
-  background:var(--bg2);border:1px solid var(--border);
-  color:var(--muted);border-radius:6px;transition:all .2s;
-}
+.inner-tab-btn{  padding:.3rem .7rem;font-size:.76rem;  background:var(--bg2);border:1px solid var(--border);  color:var(--muted);border-radius:6px;transition:all .2s;}
 .inner-tab-btn:hover{border-color:var(--border-h);color:var(--text)}
 .inner-tab-btn.active{background:var(--cg);border-color:var(--c);color:var(--c)}
 .inner-tab-panel{display:none}
-.inner-tab-panel.active{display:block}
-
-/* SKILL BARS */
-.sk-row{margin-bottom:.75rem}
+.inner-tab-panel.active{display:block}/* SKILL BARS */.sk-row{margin-bottom:.75rem}
 .sk-label{display:flex;justify-content:space-between;font-size:.82rem;margin-bottom:.3rem;color:var(--muted2)}
 .sk-pct{color:var(--c);font-weight:600}
 .sk-track{height:6px;background:var(--bg2);border-radius:3px;overflow:hidden;border:1px solid var(--border)}
-.sk-fill{height:100%;background:linear-gradient(90deg,var(--c),var(--purple));border-radius:3px;width:0;transition:width 1.2s cubic-bezier(.4,0,.2,1)}
-
-/* HERO */
-.hero-section{min-height:100vh;display:flex;align-items:center;padding:2rem 1.5rem}
+.sk-fill{height:100%;background:linear-gradient(90deg,var(--c),var(--purple));border-radius:3px;width:0;transition:width 1.2s cubic-bezier(.4,0,.2,1)}/* HERO */.hero-section{min-height:100vh;display:flex;align-items:center;padding:2rem 1.5rem}
 .hero-grid{display:grid;grid-template-columns:1fr 380px;gap:3.5rem;align-items:center;width:100%}
-.hero-tag{
-  display:inline-flex;align-items:center;gap:.5rem;
-  padding:.32rem .85rem;background:var(--cd);
-  border:1px solid var(--border);color:var(--c);
-  border-radius:999px;font-size:.78rem;font-weight:600;
-  margin-bottom:1.5rem;
-}
+.hero-tag{  display:inline-flex;align-items:center;gap:.5rem;  padding:.32rem .85rem;background:var(--cd);  border:1px solid var(--border);color:var(--c);  border-radius:999px;font-size:.78rem;font-weight:600;  margin-bottom:1.5rem;}
 .hero-title{font-size:3.2rem;font-weight:900;line-height:1.1;margin-bottom:1.25rem}
-.hero-name{
-  background:linear-gradient(135deg,#fff 0%,var(--c) 50%,var(--purple) 100%);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-  display:block;
-}
+.hero-name{  background:linear-gradient(135deg,#fff 0%,var(--c) 50%,var(--purple) 100%);  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;  display:block;}
 .hero-role{font-size:.95rem;color:var(--c);font-weight:600;margin-bottom:1rem;font-family:'JetBrains Mono',monospace}
 .hero-sub{font-size:.95rem;color:var(--muted2);line-height:1.7;margin-bottom:2rem;max-width:520px}
 .hero-btns{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem}
-.btn-primary{
-  display:inline-flex;align-items:center;gap:.5rem;
-  padding:.72rem 1.75rem;background:var(--c);color:#000;
-  font-weight:700;font-size:.88rem;border-radius:10px;
-  border:none;transition:all .25s;text-decoration:none;
-  box-shadow:0 0 0 rgba(0,245,212,0);
-}
+.btn-primary{  display:inline-flex;align-items:center;gap:.5rem;  padding:.72rem 1.75rem;background:var(--c);color:#000;  font-weight:700;font-size:.88rem;border-radius:10px;  border:none;transition:all .25s;text-decoration:none;  box-shadow:0 0 0 rgba(0,245,212,0);}
 .btn-primary:hover{box-shadow:0 0 28px rgba(0,245,212,.45);transform:translateY(-2px);text-decoration:none}
-.btn-secondary{
-  display:inline-flex;align-items:center;gap:.5rem;
-  padding:.72rem 1.75rem;background:transparent;
-  color:var(--text);font-weight:600;font-size:.88rem;
-  border-radius:10px;border:1px solid var(--border);
-  transition:all .25s;text-decoration:none;
-}
+.btn-secondary{  display:inline-flex;align-items:center;gap:.5rem;  padding:.72rem 1.75rem;background:transparent;  color:var(--text);font-weight:600;font-size:.88rem;  border-radius:10px;border:1px solid var(--border);  transition:all .25s;text-decoration:none;}
 .btn-secondary:hover{border-color:var(--border-h);background:var(--cd);text-decoration:none}
-.btn-sm{padding:.4rem .9rem;font-size:.8rem;border-radius:8px}
-
-/* PROFILE CARD */
-.profile-card{
-  background:var(--card);border:1px solid var(--border);
-  border-radius:20px;padding:2rem 1.75rem;text-align:center;
-  backdrop-filter:blur(20px);position:relative;
-  box-shadow:0 0 60px rgba(0,245,212,.06);
-}
-.profile-card::before{
-  content:'';position:absolute;inset:-1px;border-radius:20px;
-  background:linear-gradient(135deg,rgba(0,245,212,.12),rgba(123,97,255,.12));
-  z-index:-1;pointer-events:none;
-}
+.btn-sm{padding:.4rem .9rem;font-size:.8rem;border-radius:8px}/* PROFILE CARD */.profile-card{  background:var(--card);border:1px solid var(--border);  border-radius:20px;padding:2rem 1.75rem;text-align:center;  backdrop-filter:blur(20px);position:relative;  box-shadow:0 0 60px rgba(0,245,212,.06);}
+.profile-card::before{  content:'';position:absolute;inset:-1px;border-radius:20px;  background:linear-gradient(135deg,rgba(0,245,212,.12),rgba(123,97,255,.12));  z-index:-1;pointer-events:none;}
 .av-wrap{position:relative;width:100px;height:100px;margin:0 auto 1.25rem}
 .av-ring{position:absolute;inset:-4px;border-radius:50%;background:conic-gradient(var(--c),var(--purple),var(--c));animation:spin 4s linear infinite}
 .av-inner{position:relative;z-index:1;width:100%;height:100%;background:var(--bg2);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:2.5rem}
@@ -233,95 +94,31 @@ section{padding:5rem 1.5rem;scroll-margin-top:var(--nav-h)}
 .prof-stats{display:flex;justify-content:center;gap:1.5rem;margin-bottom:1.5rem;padding:.75rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
 .prof-stat-num{font-size:1.3rem;font-weight:900;color:var(--c);display:block}
 .prof-stat-lbl{font-size:.68rem;color:var(--muted)}
-.term-box{
-  background:rgba(0,0,0,.5);border:1px solid var(--border);
-  border-radius:10px;padding:.9rem 1rem;text-align:left;margin-top:1rem;
-}
+.term-box{  background:rgba(0,0,0,.5);border:1px solid var(--border);  border-radius:10px;padding:.9rem 1rem;text-align:left;margin-top:1rem;}
 .term-dots{display:flex;gap:.35rem;margin-bottom:.55rem}
 .t-dot{width:10px;height:10px;border-radius:50%}
 .term-line{font-family:'JetBrains Mono',monospace;font-size:.77rem;line-height:1.85}
 .t-prompt{color:var(--c)}
 .t-dim{color:var(--muted)}
 .soc-row{display:flex;gap:.5rem;justify-content:center;margin-top:1.25rem;flex-wrap:wrap}
-.soc-btn{
-  padding:.38rem .75rem;font-size:.76rem;font-weight:600;
-  background:var(--bg2);border:1px solid var(--border);
-  color:var(--muted);border-radius:8px;transition:all .2s;
-}
-.soc-btn:hover{border-color:var(--border-h);color:var(--c)}
-
-/* TECH BLOCK */
-.tech-block{
-  font-family:'JetBrains Mono',monospace;font-size:.8rem;
-  line-height:2.1;background:rgba(0,0,0,.45);
-  padding:1.1rem;border-radius:10px;color:var(--c);
-  border:1px solid var(--border);margin:.75rem 0;
-}
-
-/* SCHEMA PLACEHOLDER */
-.schema-ph{
-  border:1px dashed rgba(0,245,212,.2);border-radius:10px;
-  padding:1.5rem;text-align:center;color:var(--muted);font-size:.85rem;margin:.75rem 0;
-}
-
-/* GLOW BADGE */
-.gbadge{
-  display:inline-block;padding:.2rem .6rem;
-  background:var(--cd);border:1px solid rgba(0,245,212,.28);
-  color:var(--c);border-radius:6px;font-size:.74rem;font-weight:600;
-}
-
-/* BLOGS */
-.b-card{
-  background:var(--card);border:1px solid var(--border);
-  border-radius:16px;padding:1.25rem;cursor:pointer;
-  transition:border-color .25s,transform .25s,box-shadow .25s;
-}
+.soc-btn{  padding:.38rem .75rem;font-size:.76rem;font-weight:600;  background:var(--bg2);border:1px solid var(--border);  color:var(--muted);border-radius:8px;transition:all .2s;}
+.soc-btn:hover{border-color:var(--border-h);color:var(--c)}/* TECH BLOCK */.tech-block{  font-family:'JetBrains Mono',monospace;font-size:.8rem;  line-height:2.1;background:rgba(0,0,0,.45);  padding:1.1rem;border-radius:10px;color:var(--c);  border:1px solid var(--border);margin:.75rem 0;}/* SCHEMA PLACEHOLDER */.schema-ph{  border:1px dashed rgba(0,245,212,.2);border-radius:10px;  padding:1.5rem;text-align:center;color:var(--muted);font-size:.85rem;margin:.75rem 0;}/* GLOW BADGE */.gbadge{  display:inline-block;padding:.2rem .6rem;  background:var(--cd);border:1px solid rgba(0,245,212,.28);  color:var(--c);border-radius:6px;font-size:.74rem;font-weight:600;}/* BLOGS */.b-card{  background:var(--card);border:1px solid var(--border);  border-radius:16px;padding:1.25rem;cursor:pointer;  transition:border-color .25s,transform .25s,box-shadow .25s;}
 .b-card:hover{border-color:var(--border-h);transform:translateY(-4px);box-shadow:0 8px 36px rgba(0,245,212,.1)}
 .b-emoji{font-size:1.8rem;margin-bottom:.6rem}
 .b-title{font-size:.92rem;font-weight:700;color:#fff;margin-bottom:.45rem}
 .b-desc{font-size:.8rem;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:.65rem;line-height:1.5}
 .b-tags{display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.6rem}
 .b-tag{font-size:.68rem;padding:.15rem .45rem;background:var(--cd);border:1px solid var(--border);color:var(--c);border-radius:4px}
-.b-meta{font-size:.7rem;color:var(--muted)}
-
-/* CONTACT CARDS */
-.ci-card{
-  background:var(--card);border:1px solid var(--border);
-  border-radius:16px;padding:1.25rem 1.5rem;
-  display:flex;align-items:center;gap:1.25rem;
-  transition:border-color .25s,transform .25s;
-  text-decoration:none;
-}
+.b-meta{font-size:.7rem;color:var(--muted)}/* CONTACT CARDS */.ci-card{  background:var(--card);border:1px solid var(--border);  border-radius:16px;padding:1.25rem 1.5rem;  display:flex;align-items:center;gap:1.25rem;  transition:border-color .25s,transform .25s;  text-decoration:none;}
 .ci-card:hover{border-color:var(--border-h);transform:translateY(-2px);text-decoration:none}
-.ci-icon{
-  width:52px;height:52px;border-radius:13px;
-  background:var(--cg);border:1px solid var(--border);
-  display:flex;align-items:center;justify-content:center;
-  font-size:1.35rem;flex-shrink:0;color:var(--c);
-}
+.ci-icon{  width:52px;height:52px;border-radius:13px;  background:var(--cg);border:1px solid var(--border);  display:flex;align-items:center;justify-content:center;  font-size:1.35rem;flex-shrink:0;color:var(--c);}
 .ci-label{font-size:.8rem;color:var(--muted);margin-bottom:.2rem}
-.ci-value{font-size:.92rem;font-weight:600;color:var(--text)}
-
-/* MODAL */
-.modal{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.76);backdrop-filter:blur(6px);align-items:center;justify-content:center;padding:1rem}
+.ci-value{font-size:.92rem;font-weight:600;color:var(--text)}/* MODAL */.modal{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.76);backdrop-filter:blur(6px);align-items:center;justify-content:center;padding:1rem}
 .modal.open{display:flex}
-.modal.hidden{display:none !important}
-/* diff-modal uses .hidden to hide → show when .hidden removed */
-#diff-modal{display:flex}
+.modal.hidden{display:none !important}/* diff-modal uses .hidden to hide → show when .hidden removed */#diff-modal{display:flex}
 #diff-modal.hidden{display:none !important}
-.modal-box{
-  background:var(--bg2);border:1px solid var(--border-h);
-  border-radius:20px;max-width:720px;width:100%;
-  max-height:85vh;overflow-y:auto;padding:2rem;position:relative;
-  box-shadow:0 0 60px rgba(0,245,212,.12);
-}
-.modal-close{
-  position:absolute;top:1rem;right:1rem;
-  background:none;border:1px solid var(--border);color:var(--muted);
-  width:32px;height:32px;border-radius:8px;font-size:.9rem;
-  transition:all .2s;
-}
+.modal-box{  background:var(--bg2);border:1px solid var(--border-h);  border-radius:20px;max-width:720px;width:100%;  max-height:85vh;overflow-y:auto;padding:2rem;position:relative;  box-shadow:0 0 60px rgba(0,245,212,.12);}
+.modal-close{  position:absolute;top:1rem;right:1rem;  background:none;border:1px solid var(--border);color:var(--muted);  width:32px;height:32px;border-radius:8px;font-size:.9rem;  transition:all .2s;}
 .modal-close:hover{border-color:var(--c);color:var(--c)}
 .modal-emoji{font-size:2.5rem;margin-bottom:1rem}
 .modal-title{font-size:1.25rem;font-weight:800;color:#fff;margin-bottom:.4rem}
@@ -329,1128 +126,1247 @@ section{padding:5rem 1.5rem;scroll-margin-top:var(--nav-h)}
 .modal-body{font-size:.9rem;line-height:1.8}
 .modal-body h3{color:var(--c);margin:1rem 0 .5rem;font-size:.95rem}
 .modal-body p{margin-bottom:.65rem}
-.modal-body ul{margin-bottom:.65rem;padding-left:1.2rem}
-
-/* GAME */
-.game-wrap{display:flex;flex-direction:column;align-items:center;gap:1.25rem}
+.modal-body ul{margin-bottom:.65rem;padding-left:1.2rem}/* GAME */.game-wrap{display:flex;flex-direction:column;align-items:center;gap:1.25rem}
 .game-ui{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:center}
-.game-btn{
-  padding:.5rem 1.1rem;font-size:.85rem;font-weight:600;
-  background:var(--cg);border:1px solid var(--c);
-  color:var(--c);border-radius:10px;transition:all .2s;
-}
+.game-btn{  padding:.5rem 1.1rem;font-size:.85rem;font-weight:600;  background:var(--cg);border:1px solid var(--c);  color:var(--c);border-radius:10px;transition:all .2s;}
 .game-btn:hover{background:var(--c);color:#000}
 .game-score-row{display:flex;gap:2.5rem;font-size:.85rem;color:var(--text);font-family:'JetBrains Mono',monospace}
 .game-score-num{color:var(--c);font-weight:700}
-#dino-canvas{
-  border:1px solid var(--border);border-radius:14px;
-  background:rgba(0,0,0,.45);max-width:100%;
-  box-shadow:0 0 28px rgba(0,245,212,.08);
-}
-#game-msg{
-  background:var(--card);border:1px solid var(--border);
-  border-radius:12px;padding:1rem 1.5rem;text-align:center;
-  font-size:.9rem;line-height:1.7;max-width:500px;
-}
-#game-msg.hidden{display:none}
-
-/* RSS */
-#rss-container p{font-size:.85rem;line-height:1.7;margin-bottom:.75rem;padding-bottom:.75rem;border-bottom:1px solid var(--border)}
-#rss-container a{color:var(--c)}
-
-/* LIGHTBOX */
-#lightbox{display:none;position:fixed;inset:0;z-index:300;background:rgba(0,0,0,.9);align-items:center;justify-content:center}
+#dino-canvas{  border:1px solid var(--border);border-radius:14px;  background:rgba(0,0,0,.45);max-width:100%;  box-shadow:0 0 28px rgba(0,245,212,.08);}
+#game-msg{  background:var(--card);border:1px solid var(--border);  border-radius:12px;padding:1rem 1.5rem;text-align:center;  font-size:.9rem;line-height:1.7;max-width:500px;}
+#game-msg.hidden{display:none}/* RSS */#rss-container p{font-size:.85rem;line-height:1.7;margin-bottom:.75rem;padding-bottom:.75rem;border-bottom:1px solid var(--border)}
+#rss-container a{color:var(--c)}/* LIGHTBOX */#lightbox{display:none;position:fixed;inset:0;z-index:300;background:rgba(0,0,0,.9);align-items:center;justify-content:center}
 #lightbox:not(.hidden){display:flex}
 #lightbox.hidden{display:none}
-.lightbox-close,.lightbox-prev,.lightbox-next{
-  position:absolute;background:rgba(0,0,0,.7);border:1px solid var(--border);
-  color:var(--text);padding:.5rem .75rem;border-radius:8px;font-size:1.1rem;
-}
+.lightbox-close,.lightbox-prev,.lightbox-next{  position:absolute;background:rgba(0,0,0,.7);border:1px solid var(--border);  color:var(--text);padding:.5rem .75rem;border-radius:8px;font-size:1.1rem;}
 .lightbox-close{top:1rem;right:1rem}
 .lightbox-prev{left:1rem;top:50%;transform:translateY(-50%)}
 .lightbox-next{right:1rem;top:50%;transform:translateY(-50%)}
-#lightbox-img{max-width:90vw;max-height:90vh;border-radius:8px;object-fit:contain}
-
-/* ANIMATIONS */
-@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+#lightbox-img{max-width:90vw;max-height:90vh;border-radius:8px;object-fit:contain}/* ANIMATIONS */@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}
+to{opacity:1;transform:none}}
 @keyframes glow{0%,100%{box-shadow:0 0 10px rgba(0,245,212,.15)}50%{box-shadow:0 0 24px rgba(0,245,212,.3)}}
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}
 .reveal.in{opacity:1;transform:none}
-.fade-in{animation:fadeUp .6s ease both}
+.fade-in{animation:fadeUp .6s ease both}/* SECTION SEPARATOR */.sec-sep{  display:flex;flex-direction:column;align-items:center;  padding:0;position:relative;z-index:1;}
+.sec-sep-line{  width:1px;height:48px;  background:linear-gradient(to bottom,transparent,rgba(0,245,212,.35));}
+.sec-sep-line.btm{  background:linear-gradient(to bottom,rgba(0,245,212,.35),transparent);}
+.sec-sep-num{  width:40px;height:40px;border-radius:50%;  border:1px solid rgba(0,245,212,.35);  background:var(--bg);color:var(--c);  display:flex;align-items:center;justify-content:center;  font-family:'JetBrains Mono',monospace;  font-size:.8rem;font-weight:700;  box-shadow:0 0 16px rgba(0,245,212,.12);  transition:box-shadow .3s,border-color .3s;}
+.sec-sep:hover .sec-sep-num{box-shadow:0 0 28px rgba(0,245,212,.28);border-color:var(--c)}/* FOOTER */footer{  text-align:center;padding:2.5rem 1.5rem;  font-size:.8rem;color:var(--muted);  border-top:1px solid var(--border);  background:var(--bg2);}/* ======================================================
+   RESPONSIVE — Mobile first, 4 breakpoints
+   ====================================================== */
 
-/* FOOTER */
-footer{
-  text-align:center;padding:2.5rem 1.5rem;
-  font-size:.8rem;color:var(--muted);
-  border-top:1px solid var(--border);
-  background:var(--bg2);
+/* --- Touch global --- */
+button,a,.tab-btn,.lang-btn,.nav-link,.mob-link,.b-card,.ci-card{
+  touch-action:manipulation;
+  -webkit-tap-highlight-color:transparent;
 }
 
-/* ======= RESPONSIVE ======= */
+/* --- Reduced motion : disable canvas --- */
+@media(prefers-reduced-motion:reduce){#bg-canvas{display:none}}
+
+/* --- Safe-area notch --- */
+.navbar{padding-top:env(safe-area-inset-top)}
+footer{padding-bottom:calc(1.5rem + env(safe-area-inset-bottom))}
+
+/* ---- 1024px — tablet ---- */
 @media(max-width:1024px){
   .hero-grid{grid-template-columns:1fr}
-  .profile-card{max-width:420px;margin:0 auto}
+  .profile-card{max-width:440px;margin:2rem auto 0}
+  .grid-3{grid-template-columns:repeat(2,1fr)}
 }
+
+/* ---- 768px — mobile landscape / small tablet ---- */
 @media(max-width:768px){
+  :root{--nav-h:56px}
+
+  /* Nav */
   .nav-links{display:none}
-  .hamburger{display:block}
-  .hero-title{font-size:2.2rem}
-  .grid-3{grid-template-columns:1fr}
-  .grid-2{grid-template-columns:1fr}
-  section{padding:3.5rem 1rem}
-  .sec-title{font-size:1.7rem}
+  .hamburger{display:flex;align-items:center;justify-content:center;
+    width:38px;height:38px;padding:0;font-size:1.1rem;border-radius:8px}
+  .nav-inner{padding:0 .9rem;gap:.5rem}
+  .lang-btn{padding:.18rem .38rem;font-size:.68rem}
+
+  /* Mobile menu — animated slide down */
+  .mobile-menu{
+    padding:.75rem .9rem 1rem;
+    animation:none;
+    max-height:calc(100vh - var(--nav-h));
+    overflow-y:auto;
+  }
+  .mob-link{
+    padding:.65rem .9rem;font-size:.85rem;
+    min-height:44px;display:flex;align-items:center;
+    border-radius:10px;
+  }
+  .mob-link:active{background:var(--cg)}
+
+  /* Hero */
+  .hero-section{min-height:auto;padding:2.5rem .9rem 2rem}
+  .hero-tag{font-size:.72rem;padding:.26rem .65rem}
+  .hero-title{font-size:2rem;line-height:1.15;margin-bottom:1rem}
+  .hero-sub{font-size:.88rem;margin-bottom:1rem;max-width:100%}
+  .hero-role{font-size:.9rem}
+  .hero-btns{flex-direction:column;gap:.6rem;margin-top:1.5rem}
+  .btn-primary,.btn-secondary{
+    width:100%;justify-content:center;min-height:46px;font-size:.88rem
+  }
+  .hero-stack{gap:.35rem}
+  .stack-badge{font-size:.7rem;padding:.2rem .5rem}
+
+  /* Sections */
+  section{padding:3rem .9rem;scroll-margin-top:var(--nav-h)}
+  .container,.container-sm{padding:0}
+  .sec-title{font-size:1.65rem}
+  .sec-sub{font-size:.85rem;margin-bottom:1.75rem}
+  .sec-tag{font-size:.67rem}
+
+  /* Grids */
+  .grid-2,.grid-3{grid-template-columns:1fr}
+  .grid-auto{grid-template-columns:1fr}
+
+  /* Tab bars — horizontal scroll (critical) */
+  .tab-bar,.inner-tab-bar{
+    overflow-x:auto;flex-wrap:nowrap;
+    padding-bottom:.4rem;gap:.3rem;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+    scroll-snap-type:x mandatory;
+  }
+  .tab-bar::-webkit-scrollbar,.inner-tab-bar::-webkit-scrollbar{display:none}
+  .tab-btn{
+    white-space:nowrap;flex-shrink:0;
+    min-height:36px;padding:.35rem .75rem;font-size:.78rem;
+    scroll-snap-align:start;
+  }
+  .inner-tab-btn{white-space:nowrap;flex-shrink:0;min-height:32px;font-size:.73rem}
+
+  /* Cards */
+  .card{padding:1.1rem 1rem}
+  .card h2{font-size:.9rem}
+  .card p,.card ul{font-size:.87rem}
+
+  /* Tables — horizontal scroll */
+  table{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  th,td{font-size:.8rem;padding:.4rem .6rem;white-space:nowrap}
+
+  /* Profile card */
+  .profile-card{padding:1.5rem 1.2rem;max-width:100%}
+  .av-wrap{width:80px;height:80px;margin-bottom:1rem}
+  .av-inner{font-size:2rem}
+  .prof-stats{gap:.75rem;margin:.75rem -.35rem}
+  .prof-stat-num{font-size:1.1rem}
+  .prof-stat-lbl{font-size:.62rem}
+  .term-line{font-size:.72rem;line-height:1.7}
+
+  /* Skill bars */
+  .sk-label{font-size:.78rem}
+
+  /* Blog cards */
+  .b-card{padding:1rem}
+  .b-title{font-size:.88rem}
+
+  /* Contact cards */
+  .ci-card{padding:1rem 1.1rem}
+  .ci-icon{width:44px;height:44px;font-size:1.1rem}
+
+  /* Modal */
+  .modal{padding:.5rem}
+  .modal-box{padding:1.4rem;border-radius:16px;max-height:88vh}
+  .modal-emoji{font-size:2rem}
+  .modal-title{font-size:1.1rem}
+
+  /* Game */
+  .game-score-row{font-size:.78rem;gap:1rem}
+  .game-btn{padding:.45rem .8rem;font-size:.8rem;min-height:40px}
+  #game-msg{padding:.85rem 1.1rem}
+
+  /* Lightbox */
+  .lightbox-prev{left:.4rem}
+  .lightbox-next{right:.4rem}
+  .lightbox-close{top:.4rem;right:.4rem}
+
+  /* Separators */
+  .sec-sep-line{height:30px}
+  .sec-sep-num{width:34px;height:34px;font-size:.72rem}
 }
-@media(max-width:580px){.hero-btns{flex-direction:column}}
+
+/* ---- 480px — small phones ---- */
+@media(max-width:480px){
+  :root{--nav-h:52px}
+  .hero-title{font-size:1.7rem}
+  .sec-title{font-size:1.45rem}
+  .hero-tag{font-size:.68rem}
+
+  /* Hide term box, it's too narrow */
+  .term-box{display:none}
+  .prof-stats{flex-wrap:wrap;justify-content:center}
+
+  /* Modal — bottom sheet */
+  .modal{
+    align-items:flex-end;padding:0;
+    background:rgba(0,0,0,.82)
+  }
+  .modal-box{
+    border-radius:20px 20px 0 0;
+    max-height:88vh;width:100%;
+    padding:1.2rem 1.1rem 1.4rem;
+  }
+  .modal-box::before{
+    content:'';display:block;width:36px;height:4px;
+    background:rgba(255,255,255,.15);border-radius:2px;
+    margin:0 auto .9rem;
+  }
+
+  /* Tab btn smaller */
+  .tab-btn{font-size:.74rem;padding:.28rem .6rem}
+
+  /* Skill bar label wrap prevention */
+  .sk-label{flex-wrap:wrap;gap:.15rem}
+}
+
+/* ---- 360px — very small phones ---- */
+@media(max-width:360px){
+  .hero-title{font-size:1.5rem}
+  .sec-title{font-size:1.3rem}
+  section{padding:2.5rem .7rem}
+  .card{padding:.9rem .85rem}
+  .btn-primary,.btn-secondary{font-size:.82rem;padding:.6rem .9rem}
+  .tab-btn{font-size:.7rem;padding:.25rem .5rem}
+  .nav-inner{padding:0 .65rem}
+}
+
+/* =====================================================
+   VISUAL ENHANCEMENTS — Big update
+   ===================================================== */
+
+/* --- Cards : glow lift + gradient shimmer on hover --- */
+.card{
+  position:relative;overflow:hidden;
+  transition:border-color .3s,box-shadow .3s,transform .25s;
+}
+.card::before{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,rgba(0,245,212,.06) 0%,transparent 60%);
+  opacity:0;transition:opacity .35s;pointer-events:none;border-radius:inherit;
+}
+.card:hover{
+  border-color:rgba(0,245,212,.35);
+  box-shadow:0 0 0 1px rgba(0,245,212,.06),0 12px 40px rgba(0,245,212,.12);
+  transform:translateY(-3px);
+}
+.card:hover::before{opacity:1}
+.card h2{
+  background:linear-gradient(90deg,var(--c) 0%,#a5f3e8 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  border-bottom:1px solid rgba(0,245,212,.15);
+}
+
+/* --- Section header : gradient bar underneath --- */
+.sec-title{
+  position:relative;padding-bottom:.7rem;
+}
+.sec-title::after{
+  content:'';position:absolute;left:0;bottom:0;
+  width:56px;height:3px;border-radius:2px;
+  background:linear-gradient(90deg,var(--c),var(--purple));
+  box-shadow:0 0 10px rgba(0,245,212,.4);
+}
+.sec-tag{
+  letter-spacing:.1em;font-size:.68rem;text-transform:uppercase;
+  box-shadow:0 0 12px rgba(0,245,212,.08);
+}
+
+/* --- Separators : pulse glow --- */
+@keyframes sep-pulse{
+  0%,100%{box-shadow:0 0 8px rgba(0,245,212,.12),0 0 0 0 rgba(0,245,212,.0)}
+  50%{box-shadow:0 0 20px rgba(0,245,212,.35),0 0 0 4px rgba(0,245,212,.05)}
+}
+.sec-sep-num{animation:sep-pulse 2.8s ease-in-out infinite}
+.sec-sep-line{transition:background .3s}
+.sec-sep:hover .sec-sep-line{background:linear-gradient(to bottom,transparent,rgba(0,245,212,.6))}
+.sec-sep:hover .sec-sep-line.btm{background:linear-gradient(to bottom,rgba(0,245,212,.6),transparent)}
+
+/* --- Skill bars : glow fill --- */
+.sk-fill{box-shadow:0 0 10px rgba(0,245,212,.35),inset 0 1px 0 rgba(255,255,255,.15)}
+.sk-track{position:relative}
+.sk-label span:first-child{color:var(--text)}
+
+/* --- Buttons : shine sweep on hover --- */
+.btn-primary{
+  position:relative;overflow:hidden;
+  background:linear-gradient(135deg,#00f5d4,#00d4b8);
+}
+.btn-primary::after{
+  content:'';position:absolute;top:-50%;left:-100%;
+  width:60%;height:200%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.18),transparent);
+  transform:skewX(-20deg);transition:left .5s;
+}
+.btn-primary:hover::after{left:150%}
+.btn-secondary{border-width:1px}
+.btn-secondary:hover{box-shadow:0 0 18px rgba(0,245,212,.15)}
+
+/* --- Tab bar improvements --- */
+.tab-btn.active{
+  box-shadow:0 0 14px rgba(0,245,212,.18);
+  font-weight:600;
+}
+.inner-tab-btn.active{box-shadow:0 0 8px rgba(0,245,212,.12)}
+
+/* --- Navbar logo glow on hover --- */
+.nav-logo:hover .logo-c{text-shadow:0 0 14px var(--c);color:var(--c)}
+.nav-link{transition:color .2s,background .2s,box-shadow .2s}
+.nav-link.active{box-shadow:inset 0 -2px 0 var(--c)}
+
+/* --- Profile card overhaul --- */
+.profile-card{
+  background:linear-gradient(145deg,rgba(8,17,36,.97),rgba(4,12,28,.99));
+  box-shadow:0 0 0 1px rgba(0,245,212,.08),0 24px 64px rgba(0,0,0,.5);
+}
+.profile-card::before{
+  background:linear-gradient(135deg,rgba(0,245,212,.14) 0%,rgba(123,97,255,.1) 50%,transparent 100%);
+  border-radius:20px;
+}
+.av-inner{
+  background:linear-gradient(135deg,var(--bg2),rgba(0,245,212,.08));
+  font-size:2.8rem;
+}
+.prof-stats{
+  background:rgba(0,245,212,.03);border-radius:10px;
+  margin:1rem -.5rem;padding:.75rem;
+}
+.prof-stat-num{
+  text-shadow:0 0 12px rgba(0,245,212,.5);
+}
+
+/* --- Table improvements --- */
+th{font-size:.78rem;letter-spacing:.04em;text-transform:uppercase}
+tr:nth-child(even){background:rgba(0,245,212,.025)}
+tr:hover{background:rgba(0,245,212,.06) !important}
+
+/* --- RSS items as cards --- */
+.rss-item{
+  background:rgba(10,17,34,.7);border:1px solid var(--border);
+  border-radius:10px;padding:.75rem 1rem;margin-bottom:.6rem;
+  transition:border-color .2s,box-shadow .2s,transform .2s;
+}
+.rss-item:hover{
+  border-color:var(--border-h);
+  box-shadow:0 4px 20px rgba(0,245,212,.08);
+  transform:translateX(4px);
+}
+.rss-item-meta{display:flex;justify-content:space-between;margin-bottom:.35rem}
+.rss-source{
+  font-size:.7rem;font-weight:700;color:var(--c);
+  background:var(--cg);padding:.1rem .45rem;border-radius:4px;
+  border:1px solid rgba(0,245,212,.2);
+}
+.rss-date{font-size:.7rem;color:var(--muted)}
+.rss-title{
+  display:block;font-size:.88rem;font-weight:500;color:var(--text);
+  line-height:1.5;text-decoration:none;
+  transition:color .2s;
+}
+.rss-title:hover{color:var(--c);text-decoration:none}
+.rss-notice{color:var(--muted);font-size:.85rem;padding:.5rem 0;font-style:italic}
+
+/* --- Lightbox close button --- */
+.lightbox-close,.lightbox-prev,.lightbox-next{transition:background .2s,border-color .2s}
+.lightbox-close:hover,.lightbox-prev:hover,.lightbox-next:hover{background:rgba(0,245,212,.15);border-color:var(--c)}
+
+/* --- Game canvas slight glow --- */
+#dino-canvas{box-shadow:0 0 40px rgba(0,245,212,.06)}
+
+/* --- Footer gradient top border --- */
+footer{border-top:1px solid transparent;background:linear-gradient(var(--bg2),var(--bg2)) padding-box,linear-gradient(90deg,transparent,var(--border-h),transparent) border-box}
+
+/* --- Hero enhancements --- */
+@keyframes hero-dot{0%{opacity:.4;transform:scale(.85)}100%{opacity:1;transform:scale(1.1)}}
+.hero-tag{
+  border-color:rgba(0,245,212,.25);
+  box-shadow:0 0 16px rgba(0,245,212,.08);
+  font-size:.8rem;
+}
+.hero-sub{border-left:2px solid rgba(0,245,212,.2);padding-left:.75rem;color:var(--muted2)}
+.hero-role{
+  background:linear-gradient(90deg,#fff,var(--c));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  font-size:1rem;letter-spacing:.01em;
+}
+.stack-badge{
+  display:inline-flex;align-items:center;gap:.3rem;
+  padding:.25rem .65rem;font-size:.73rem;font-weight:600;
+  background:rgba(0,245,212,.06);border:1px solid rgba(0,245,212,.18);
+  color:var(--c);border-radius:6px;transition:background .2s,border-color .2s;
+}
+.stack-badge:hover{background:rgba(0,245,212,.12);border-color:rgba(0,245,212,.35)}
 </style>
 </head>
 <body>
-<canvas id="bg-canvas"></canvas>
-
-<!-- ============================================================
-     NAVBAR
-     ============================================================ -->
-<nav class="navbar" id="navbar">
-  <div class="nav-inner">
-    <div class="nav-logo"><span class="bracket">&lt;/&gt;</span> Londé Balossa Lotus Espoir</div>
-    <div class="nav-links">
-      <button class="nav-link active" onclick="navTo('home')"           data-section="home"           data-i18n="nav.home">🏠 Accueil</button>
-      <button class="nav-link"        onclick="navTo('apropos')"         data-section="apropos"         data-i18n="nav.apropos">👤 À propos</button>
-      <button class="nav-link"        onclick="navTo('alternance')"      data-section="alternance"      data-i18n="nav.alternance">🏢 Alternance</button>
-      <button class="nav-link"        onclick="navTo('projets')"         data-section="projets"         data-i18n="nav.projets">🛠️ Projets</button>
-      <button class="nav-link"        onclick="navTo('certifications')"  data-section="certifications"  data-i18n="nav.certifications">🏅 Certifications</button>
-      <button class="nav-link"        onclick="navTo('veille')"          data-section="veille"          data-i18n="nav.veille">🔒 Veille</button>
-      <button class="nav-link"        onclick="navTo('blogs')"           data-section="blogs"           data-i18n="nav.blogs">📝 Blogs</button>
-      <button class="nav-link"        onclick="navTo('contact')"         data-section="contact"         data-i18n="nav.contact">📞 Contact</button>
-      <button class="nav-link"        onclick="navTo('jeu')"             data-section="jeu"             data-i18n="nav.jeu">🎮 Jeu</button>
-    </div>
-    <div style="display:flex;align-items:center;gap:.75rem;flex-shrink:0">
-      <div class="lang-switcher" id="lang-switcher">
-        <button class="lang-btn active" data-lang="fr" data-i18n="lang.fr">FR</button>
-        <button class="lang-btn"        data-lang="en" data-i18n="lang.en">EN</button>
-        <button class="lang-btn"        data-lang="cn" data-i18n="lang.cn">中</button>
-      </div>
-      <button class="hamburger" onclick="toggleMenu()">☰</button>
-    </div>
-  </div>
+<canvas id="bg-canvas">
+</canvas>
+<!-- ============================================================     NAVBAR     ============================================================ -->
+<nav class="navbar" id="navbar">  <div class="nav-inner">    <div class="nav-logo">
+<span class="logo-lt">&lt;</span>
+<span class="logo-c">C</span>
+<span class="logo-gt">/&gt;</span>
+<span class="logo-name">Londé</span>
+</div>    <div class="nav-links">      <button class="nav-link active" onclick="navTo('home')"           data-section="home"           data-i18n="nav.home">🏠 Accueil</button>      <button class="nav-link"        onclick="navTo('apropos')"         data-section="apropos"         data-i18n="nav.apropos">👤 À propos</button>      <button class="nav-link"        onclick="navTo('alternance')"      data-section="alternance"      data-i18n="nav.alternance">🏢 Alternance</button>      <button class="nav-link"        onclick="navTo('projets')"         data-section="projets"         data-i18n="nav.projets">🛠️ Projets</button>      <button class="nav-link"        onclick="navTo('certifications')"  data-section="certifications"  data-i18n="nav.certifications">🏅 Certifications</button>      <button class="nav-link"        onclick="navTo('veille')"          data-section="veille"          data-i18n="nav.veille">🔒 Veille</button>      <button class="nav-link"        onclick="navTo('blogs')"           data-section="blogs"           data-i18n="nav.blogs">📝 Blogs</button>      <button class="nav-link"        onclick="navTo('contact')"         data-section="contact"         data-i18n="nav.contact">📞 Contact</button>      <button class="nav-link"        onclick="navTo('jeu')"             data-section="jeu"             data-i18n="nav.jeu">🎮 Jeu</button>    </div>    <div style="display:flex;align-items:center;gap:.75rem;flex-shrink:0">      <div class="lang-switcher" id="lang-switcher">        <button class="lang-btn active" data-lang="fr" data-i18n="lang.fr">FR</button>        <button class="lang-btn"        data-lang="en" data-i18n="lang.en">EN</button>        <button class="lang-btn"        data-lang="cn" data-i18n="lang.cn">中</button>      </div>      <button class="hamburger" onclick="toggleMenu()">☰</button>    </div>  </div>
 </nav>
-
 <!-- MOBILE MENU -->
 <div class="mobile-menu" id="mobileMenu">
+  <div class="mob-section-label">Navigation</div>
   <button class="mob-link" onclick="navTo('home');closeMenu()"           data-i18n="nav.home">🏠 Accueil</button>
   <button class="mob-link" onclick="navTo('apropos');closeMenu()"        data-i18n="nav.apropos">👤 À propos</button>
   <button class="mob-link" onclick="navTo('alternance');closeMenu()"     data-i18n="nav.alternance">🏢 Alternance</button>
   <button class="mob-link" onclick="navTo('projets');closeMenu()"        data-i18n="nav.projets">🛠️ Projets</button>
   <button class="mob-link" onclick="navTo('certifications');closeMenu()" data-i18n="nav.certifications">🏅 Certifications</button>
   <button class="mob-link" onclick="navTo('veille');closeMenu()"         data-i18n="nav.veille">🔒 Veille</button>
+  <div class="mob-divider"></div>
   <button class="mob-link" onclick="navTo('blogs');closeMenu()"          data-i18n="nav.blogs">📝 Blogs</button>
   <button class="mob-link" onclick="navTo('contact');closeMenu()"        data-i18n="nav.contact">📞 Contact</button>
   <button class="mob-link" onclick="navTo('jeu');closeMenu()"            data-i18n="nav.jeu">🎮 Jeu</button>
+  <div class="mob-divider"></div>
+  <div class="mob-lang-row" id="lang-switcher-mob">
+    <button class="lang-btn active" data-lang="fr">FR</button>
+    <button class="lang-btn"        data-lang="en">EN</button>
+    <button class="lang-btn"        data-lang="cn">中</button>
+  </div>
 </div>
-
-<!-- ============================================================
-     MAIN
-     ============================================================ -->
+<!-- ============================================================     MAIN     ============================================================ -->
 <main>
-
 <!-- ======== HOME / HERO ======== -->
-<section id="home" class="hero-section" style="padding-top:0">
-  <div class="container">
-    <div class="hero-grid">
-
-      <!-- LEFT -->
-      <div>
-        <div class="hero-tag">💻 BTS SIO – SISR &nbsp;|&nbsp; Alternant Transdev</div>
-        <h1 class="hero-title">
-          <span style="font-size:.55em;font-family:'JetBrains Mono',monospace;font-weight:400;color:var(--c);display:block;margin-bottom:.35rem" data-i18n="home.title">[=== BIENVENUE ===]</span>
-          <span class="hero-name">Londé Balossa<br>Lotus Espoir</span>
-        </h1>
-        <p class="hero-role" data-i18n-html="home.welcome">Bienvenue sur le portfolio de <strong>Londé Balossa Lotus Espoir</strong>.</p>
-        <p class="hero-sub" data-i18n="home.instructions">Utilise le menu en haut pour naviguer.</p>
-        <p class="hero-sub" style="margin-top:-.5rem;font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--c)">Stack: Cisco ASA · Fortinet · Zabbix · VLANs · Zero Trust · SD-WAN v2</p>
-
-        <!-- Skill bars -->
-        <div style="margin:1.75rem 0">
-          <div class="sk-row"><div class="sk-label"><span>Réseaux — VLAN, ACL, Routing</span><span class="sk-pct">80%</span></div><div class="sk-track"><div class="sk-fill" data-w="80"></div></div></div>
-          <div class="sk-row"><div class="sk-label"><span>Cybersécurité / Zero Trust</span><span class="sk-pct">75%</span></div><div class="sk-track"><div class="sk-fill" data-w="75"></div></div></div>
-          <div class="sk-row"><div class="sk-label"><span>Linux / Windows Server</span><span class="sk-pct">70%</span></div><div class="sk-track"><div class="sk-fill" data-w="70"></div></div></div>
-          <div class="sk-row"><div class="sk-label"><span>Zabbix / Supervision SNMP</span><span class="sk-pct">65%</span></div><div class="sk-track"><div class="sk-fill" data-w="65"></div></div></div>
-          <div class="sk-row"><div class="sk-label"><span>SD-WAN / Fortinet</span><span class="sk-pct">60%</span></div><div class="sk-track"><div class="sk-fill" data-w="60"></div></div></div>
-          <div class="sk-row"><div class="sk-label"><span>Scripting / IaC</span><span class="sk-pct">50%</span></div><div class="sk-track"><div class="sk-fill" data-w="50"></div></div></div>
-        </div>
-
-        <div class="hero-btns">
-          <button class="btn-primary" onclick="navTo('contact')">📞 Contact</button>
-          <button class="btn-secondary" onclick="navTo('projets')">🛠️ Voir les projets →</button>
-        </div>
-      </div>
-
-      <!-- RIGHT: Profile Card -->
-      <div class="profile-card">
-        <div class="av-wrap"><div class="av-ring"></div><div class="av-inner">💻</div></div>
-        <div class="prof-name">Londé Balossa<br>Lotus Espoir</div>
-        <div class="prof-role">BTS SIO – SISR &nbsp;|&nbsp; Alternant Transdev</div>
-        <div class="prof-stats">
-          <div class="prof-stat"><span class="prof-stat-num">2+</span><span class="prof-stat-lbl">Projets</span></div>
-          <div class="prof-stat"><span class="prof-stat-num">8+</span><span class="prof-stat-lbl">Certs</span></div>
-          <div class="prof-stat"><span class="prof-stat-num">3</span><span class="prof-stat-lbl">Langues</span></div>
-        </div>
-        <div class="term-box">
-          <div class="term-dots"><div class="t-dot" style="background:#ff5f57"></div><div class="t-dot" style="background:#febc2e"></div><div class="t-dot" style="background:#28c840"></div></div>
-          <div class="term-line"><span class="t-prompt">$ whoami</span></div>
-          <div class="term-line"><span class="t-dim">&gt; </span><span>Londé — Alternant Transdev DSI</span></div>
-          <div class="term-line"><span class="t-prompt">$ skills --top</span></div>
-          <div class="term-line"><span class="t-dim">&gt; </span><span>Zero Trust, SD-WAN, Zabbix</span></div>
-          <div class="term-line"><span class="t-prompt">$ cat contact.txt</span></div>
-          <div class="term-line"><span class="t-dim">&gt; </span><span>londe305@gmail.com</span></div>
-        </div>
-        <div class="soc-row">
-          <a href="https://github.com/" target="_blank" rel="noopener" class="soc-btn"><i class="fab fa-github"></i> GitHub</a>
-          <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener" class="soc-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
-          <a href="mailto:londe305@gmail.com" class="soc-btn"><i class="fas fa-envelope"></i> Email</a>
-        </div>
-      </div>
-
-    </div>
-  </div>
+<section id="home" class="hero-section" style="padding-top:0">  <div class="container">    <div class="hero-grid">      <!-- LEFT -->      <div>        <div class="hero-tag"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--c);box-shadow:0 0 8px var(--c);animation:hero-dot 1.4s ease-in-out infinite alternate"></span>&nbsp;Disponible — Alternant DSI Transdev</div>        <h1 class="hero-title">          <span style="font-size:.48em;font-family:'JetBrains Mono',monospace;font-weight:500;color:var(--muted2);display:block;margin-bottom:.5rem;letter-spacing:.06em" data-i18n="home.title">// BTS SIO – SISR</span>          <span class="hero-name">Londé Balossa<br>Lotus Espoir</span>        </h1>        <p class="hero-role" data-i18n-html="home.welcome">Ingénierie réseau &amp; cybersécurité · <strong>Zero Trust</strong></p>        <p class="hero-sub" data-i18n="home.instructions">Architectures SD-WAN · supervision Zabbix · VLANs · Fortinet · Cisco</p>        <div class="hero-stack" style="display:flex;flex-wrap:wrap;gap:.45rem;margin:.75rem 0 1.5rem">          <span class="stack-badge">🔒 Zero Trust</span><span class="stack-badge">📡 SD-WAN v2</span><span class="stack-badge">🛡️ Cisco ASA</span><span class="stack-badge">📊 Zabbix</span><span class="stack-badge">🔧 Fortinet</span><span class="stack-badge">🌐 VLANs</span>        </div>        <!-- Skill bars -->        <div style="margin:1.75rem 0">          <div class="sk-row">
+<div class="sk-label">
+<span>Réseaux — VLAN, ACL, Routing</span>
+<span class="sk-pct">80%</span>
+</div>
+<div class="sk-track">
+<div class="sk-fill" data-w="80">
+</div>
+</div>
+</div>          <div class="sk-row">
+<div class="sk-label">
+<span>Cybersécurité / Zero Trust</span>
+<span class="sk-pct">75%</span>
+</div>
+<div class="sk-track">
+<div class="sk-fill" data-w="75">
+</div>
+</div>
+</div>          <div class="sk-row">
+<div class="sk-label">
+<span>Linux / Windows Server</span>
+<span class="sk-pct">70%</span>
+</div>
+<div class="sk-track">
+<div class="sk-fill" data-w="70">
+</div>
+</div>
+</div>          <div class="sk-row">
+<div class="sk-label">
+<span>Zabbix / Supervision SNMP</span>
+<span class="sk-pct">65%</span>
+</div>
+<div class="sk-track">
+<div class="sk-fill" data-w="65">
+</div>
+</div>
+</div>          <div class="sk-row">
+<div class="sk-label">
+<span>SD-WAN / Fortinet</span>
+<span class="sk-pct">60%</span>
+</div>
+<div class="sk-track">
+<div class="sk-fill" data-w="60">
+</div>
+</div>
+</div>          <div class="sk-row">
+<div class="sk-label">
+<span>Scripting / IaC</span>
+<span class="sk-pct">50%</span>
+</div>
+<div class="sk-track">
+<div class="sk-fill" data-w="50">
+</div>
+</div>
+</div>        </div>        <div class="hero-btns">          <button class="btn-primary" onclick="navTo('contact')">📞 Contact</button>          <button class="btn-secondary" onclick="navTo('projets')">🛠️ Voir les projets →</button>        </div>      </div>      <!-- RIGHT: Profile Card -->      <div class="profile-card">        <div class="av-wrap">
+<div class="av-ring">
+</div>
+<div class="av-inner">💻</div>
+</div>        <div class="prof-name">Londé Balossa<br>Lotus Espoir</div>        <div class="prof-role">BTS SIO – SISR &nbsp;|&nbsp; Alternant Transdev</div>        <div class="prof-stats">          <div class="prof-stat">
+<span class="prof-stat-num">2+</span>
+<span class="prof-stat-lbl">Projets</span>
+</div>          <div class="prof-stat">
+<span class="prof-stat-num">8+</span>
+<span class="prof-stat-lbl">Certs</span>
+</div>          <div class="prof-stat">
+<span class="prof-stat-num">3</span>
+<span class="prof-stat-lbl">Langues</span>
+</div>        </div>        <div class="term-box">          <div class="term-dots">
+<div class="t-dot" style="background:#ff5f57">
+</div>
+<div class="t-dot" style="background:#febc2e">
+</div>
+<div class="t-dot" style="background:#28c840">
+</div>
+</div>          <div class="term-line">
+<span class="t-prompt">$ whoami</span>
+</div>          <div class="term-line">
+<span class="t-dim">&gt; </span>
+<span>Londé — Alternant Transdev DSI</span>
+</div>          <div class="term-line">
+<span class="t-prompt">$ skills --top</span>
+</div>          <div class="term-line">
+<span class="t-dim">&gt; </span>
+<span>Zero Trust, SD-WAN, Zabbix</span>
+</div>          <div class="term-line">
+<span class="t-prompt">$ cat contact.txt</span>
+</div>          <div class="term-line">
+<span class="t-dim">&gt; </span>
+<span>londe305@gmail.com</span>
+</div>        </div>        <div class="soc-row">          <a href="https://github.com/" target="_blank" rel="noopener" class="soc-btn">
+<i class="fab fa-github">
+</i> GitHub</a>          <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener" class="soc-btn">
+<i class="fab fa-linkedin">
+</i> LinkedIn</a>          <a href="mailto:londe305@gmail.com" class="soc-btn">
+<i class="fas fa-envelope">
+</i> Email</a>        </div>      </div>    </div>  </div>
 </section>
-
+<!-- separator -->
+<div class="sec-sep">
+<div class="sec-sep-line">
+</div>
+<div class="sec-sep-num">1</div>
+<div class="sec-sep-line btm">
+</div>
+</div>
 <!-- ======== À PROPOS ======== -->
-<section id="apropos" style="background:var(--bg2)">
-  <div class="container">
-    <div class="sec-tag">👤 À PROPOS</div>
-    <h2 class="sec-title" data-i18n="apropos.title">[=== À PROPOS ===]</h2>
-    <p class="sec-sub">Profil, enjeux des infrastructures &amp; vision future.</p>
-
-    <div class="grid-2">
-      <div>
-        <div class="card reveal"><p data-i18n-html="apropos.intro"></p></div>
-        <div class="card reveal">
-          <h2 data-i18n="apropos.infra.title">Enjeux des infrastructures réseau</h2>
-          <ul><li data-i18n-html="apropos.infra.1"></li><li data-i18n-html="apropos.infra.2"></li><li data-i18n-html="apropos.infra.3"></li></ul>
-        </div>
-      </div>
-      <div>
-        <div class="card reveal">
-          <h2 data-i18n="apropos.future.title">Dans la prochaine décennie</h2>
-          <ul><li data-i18n-html="apropos.future.1"></li><li data-i18n-html="apropos.future.2"></li><li data-i18n-html="apropos.future.3"></li><li data-i18n-html="apropos.future.4"></li></ul>
-        </div>
-        <div class="card reveal" style="background:var(--cg);border-color:var(--border-h)">
-          <h2>Contact &amp; profil</h2>
-          <p><i class="fas fa-envelope" style="color:var(--c);margin-right:.5rem"></i>londe305@gmail.com</p>
-          <p><i class="fab fa-linkedin" style="color:var(--c);margin-right:.5rem"></i><a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">LinkedIn</a></p>
-          <p style="font-size:.8rem;color:var(--muted);margin-top:.75rem" data-i18n="apropos.assistant"></p>
-        </div>
-      </div>
-    </div>
-  </div>
+<section id="apropos" style="background:var(--bg2)">  <div class="container">    <div class="sec-tag">👤 À PROPOS</div>    <h2 class="sec-title" data-i18n="apropos.title">[=== À PROPOS ===]</h2>    <p class="sec-sub">Profil, enjeux des infrastructures &amp; vision future.</p>    <div class="grid-2">      <div>        <div class="card reveal">
+<p data-i18n-html="apropos.intro">
+</p>
+</div>        <div class="card reveal">          <h2 data-i18n="apropos.infra.title">Enjeux des infrastructures réseau</h2>          <ul>
+<li data-i18n-html="apropos.infra.1">
+</li>
+<li data-i18n-html="apropos.infra.2">
+</li>
+<li data-i18n-html="apropos.infra.3">
+</li>
+</ul>        </div>      </div>      <div>        <div class="card reveal">          <h2 data-i18n="apropos.future.title">Dans la prochaine décennie</h2>          <ul>
+<li data-i18n-html="apropos.future.1">
+</li>
+<li data-i18n-html="apropos.future.2">
+</li>
+<li data-i18n-html="apropos.future.3">
+</li>
+<li data-i18n-html="apropos.future.4">
+</li>
+</ul>        </div>        <div class="card reveal" style="background:var(--cg);border-color:var(--border-h)">          <h2>Contact &amp; profil</h2>          <p>
+<i class="fas fa-envelope" style="color:var(--c);margin-right:.5rem">
+</i>londe305@gmail.com</p>          <p>
+<i class="fab fa-linkedin" style="color:var(--c);margin-right:.5rem">
+</i>
+<a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">LinkedIn</a>
+</p>          <p style="font-size:.8rem;color:var(--muted);margin-top:.75rem" data-i18n="apropos.assistant">
+</p>        </div>      </div>    </div>  </div>
 </section>
-
+<!-- separator -->
+<div class="sec-sep">
+<div class="sec-sep-line">
+</div>
+<div class="sec-sep-num">2</div>
+<div class="sec-sep-line btm">
+</div>
+</div>
 <!-- ======== ALTERNANCE ======== -->
-<section id="alternance">
-  <div class="container">
-    <div class="sec-tag">🏢 ALTERNANCE</div>
-    <h2 class="sec-title" data-i18n="alternance.title">[=== MON ALTERNANCE CHEZ TRANSDEV ===]</h2>
-    <p class="sec-sub">Découvrez mon parcours au sein du groupe Transdev — missions, équipe &amp; apprentissages.</p>
-
-    <div class="tab-bar" aria-label="Sous-onglets Alternance">
-      <button class="tab-btn active" id="alt-tab-arrivee"  onclick="activateAlt('arrivee')"  data-i18n="nav.alt-arrivee">• Arrivée</button>
-      <button class="tab-btn"        id="alt-tab-equipe"   onclick="activateAlt('equipe')"   data-i18n="nav.alt-equipe">• Équipe infra</button>
-      <button class="tab-btn"        id="alt-tab-tuteur"   onclick="activateAlt('tuteur')"   data-i18n="nav.alt-tuteur">• Tuteur</button>
-      <button class="tab-btn"        id="alt-tab-transdev" onclick="activateAlt('transdev')" data-i18n="nav.alt-transdev">• Transdev</button>
-    </div>
-
-    <div class="tab-panel active" id="alt-arrivee">
-      <div class="card reveal"><h2 data-i18n="alt-arrivee.title">Arrivée au sein du groupe Transdev</h2><p data-i18n="alt-arrivee.text">(À compléter…)</p></div>
-    </div>
-    <div class="tab-panel" id="alt-equipe">
-      <div class="card"><h2 data-i18n="alt-equipe.title">L'équipe infrastructure</h2><p data-i18n="alt-equipe.text">(À compléter…)</p></div>
-    </div>
-    <div class="tab-panel" id="alt-tuteur">
-      <div class="card">
-        <h2 data-i18n="alt-tuteur.title">Présentation</h2>
-        <p data-i18n-html="alt-tuteur.p1"></p>
-        <h3 data-i18n="alt-tuteur.role.title">Rôle &amp; missions (extraits publics)</h3>
-        <ul><li data-i18n-html="alt-tuteur.role.1"></li><li data-i18n-html="alt-tuteur.role.2"></li></ul>
-        <p style="font-size:.78rem;color:var(--muted);margin-top:.5rem" data-i18n="alt-tuteur.note1"></p>
-      </div>
-      <div class="grid-2">
-        <div class="card">
-          <h2 data-i18n="alt-tuteur.role-internal.title">Fonctionnement avec mon tuteur</h2>
-          <ul><li data-i18n-html="alt-tuteur.role-internal.1"></li><li data-i18n-html="alt-tuteur.role-internal.2"></li><li data-i18n-html="alt-tuteur.role-internal.3"></li></ul>
-          <p style="font-size:.78rem;color:var(--muted);margin-top:.5rem" data-i18n="alt-tuteur.note2"></p>
-        </div>
-        <div class="card">
-          <h2 data-i18n="alt-tuteur.learned.title">Ce que j'apprends à ses côtés</h2>
-          <ul><li data-i18n-html="alt-tuteur.learned.1"></li><li data-i18n-html="alt-tuteur.learned.2"></li><li data-i18n-html="alt-tuteur.learned.3"></li></ul>
-        </div>
-      </div>
-    </div>
-    <div class="tab-panel" id="alt-transdev">
-      <div class="grid-2">
-        <div>
-          <div class="card"><h2 data-i18n="alt-transdev.title">Qui est Transdev ?</h2><p data-i18n-html="alt-transdev.p1"></p></div>
-          <div class="card"><h2 data-i18n="alt-transdev.gouv.title">Actionnariat &amp; gouvernance</h2><ul><li data-i18n-html="alt-transdev.gouv.1"></li><li data-i18n-html="alt-transdev.gouv.2"></li></ul></div>
-          <div class="card">
-            <h2 data-i18n="alt-transdev.chiffres.title">Chiffres 2024</h2>
-            <ul><li data-i18n-html="alt-transdev.chiffres.1"></li><li data-i18n-html="alt-transdev.chiffres.2"></li><li data-i18n-html="alt-transdev.chiffres.3"></li></ul>
-            <p style="font-size:.78rem;color:var(--muted);margin-top:.5rem" data-i18n-html="alt-transdev.chiffres.note"></p>
-          </div>
-        </div>
-        <div>
-          <div class="card"><h2 data-i18n="alt-transdev.strat.title">Stratégie numérique &amp; EAM</h2><ul><li data-i18n-html="alt-transdev.strat.1"></li><li data-i18n-html="alt-transdev.strat.2"></li><li data-i18n-html="alt-transdev.strat.3"></li></ul></div>
-          <div class="card"><h2 data-i18n="alt-transdev.sober.title">IT &amp; sobriété</h2><ul><li data-i18n-html="alt-transdev.sober.1"></li></ul></div>
-          <div class="card">
-            <h2 data-i18n="alt-transdev.links.title">Liens officiels</h2>
-            <ul>
-              <li><a href="https://www.transdev.com/fr/notre-groupe/qui-dirige-le-groupe/" target="_blank" rel="noopener" data-i18n="alt-transdev.links.1">Gouvernance (ComEx)</a></li>
-              <li><a href="https://www.caissedesdepots.fr/eclairage/actualites/transdev-sest-surpasse-en-2024" target="_blank" rel="noopener" data-i18n="alt-transdev.links.2">Investors &amp; résultats</a></li>
-              <li><a href="https://fr.linkedin.com/company/-transdev" target="_blank" rel="noopener" data-i18n="alt-transdev.links.3">Présentation LinkedIn</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<section id="alternance">  <div class="container">    <div class="sec-tag">🏢 ALTERNANCE</div>    <h2 class="sec-title" data-i18n="alternance.title">[=== MON ALTERNANCE CHEZ TRANSDEV ===]</h2>    <p class="sec-sub">Découvrez mon parcours au sein du groupe Transdev — missions, équipe &amp; apprentissages.</p>    <div class="tab-bar" aria-label="Sous-onglets Alternance">      <button class="tab-btn active" id="alt-tab-arrivee"  onclick="activateAlt('arrivee')"  data-i18n="nav.alt-arrivee">• Arrivée</button>      <button class="tab-btn"        id="alt-tab-equipe"   onclick="activateAlt('equipe')"   data-i18n="nav.alt-equipe">• Équipe infra</button>      <button class="tab-btn"        id="alt-tab-tuteur"   onclick="activateAlt('tuteur')"   data-i18n="nav.alt-tuteur">• Tuteur</button>      <button class="tab-btn"        id="alt-tab-transdev" onclick="activateAlt('transdev')" data-i18n="nav.alt-transdev">• Transdev</button>    </div>    <div class="tab-panel active" id="alt-arrivee">      <div class="card reveal">
+<h2 data-i18n="alt-arrivee.title">Arrivée au sein du groupe Transdev</h2>
+<p data-i18n="alt-arrivee.text">(À compléter…)</p>
+</div>    </div>    <div class="tab-panel" id="alt-equipe">      <div class="card">
+<h2 data-i18n="alt-equipe.title">L'équipe infrastructure</h2>
+<p data-i18n="alt-equipe.text">(À compléter…)</p>
+</div>    </div>    <div class="tab-panel" id="alt-tuteur">      <div class="card">        <h2 data-i18n="alt-tuteur.title">Présentation</h2>        <p data-i18n-html="alt-tuteur.p1">
+</p>        <h3 data-i18n="alt-tuteur.role.title">Rôle &amp; missions (extraits publics)</h3>        <ul>
+<li data-i18n-html="alt-tuteur.role.1">
+</li>
+<li data-i18n-html="alt-tuteur.role.2">
+</li>
+</ul>        <p style="font-size:.78rem;color:var(--muted);margin-top:.5rem" data-i18n="alt-tuteur.note1">
+</p>      </div>      <div class="grid-2">        <div class="card">          <h2 data-i18n="alt-tuteur.role-internal.title">Fonctionnement avec mon tuteur</h2>          <ul>
+<li data-i18n-html="alt-tuteur.role-internal.1">
+</li>
+<li data-i18n-html="alt-tuteur.role-internal.2">
+</li>
+<li data-i18n-html="alt-tuteur.role-internal.3">
+</li>
+</ul>          <p style="font-size:.78rem;color:var(--muted);margin-top:.5rem" data-i18n="alt-tuteur.note2">
+</p>        </div>        <div class="card">          <h2 data-i18n="alt-tuteur.learned.title">Ce que j'apprends à ses côtés</h2>          <ul>
+<li data-i18n-html="alt-tuteur.learned.1">
+</li>
+<li data-i18n-html="alt-tuteur.learned.2">
+</li>
+<li data-i18n-html="alt-tuteur.learned.3">
+</li>
+</ul>        </div>      </div>    </div>    <div class="tab-panel" id="alt-transdev">      <div class="grid-2">        <div>          <div class="card">
+<h2 data-i18n="alt-transdev.title">Qui est Transdev ?</h2>
+<p data-i18n-html="alt-transdev.p1">
+</p>
+</div>          <div class="card">
+<h2 data-i18n="alt-transdev.gouv.title">Actionnariat &amp; gouvernance</h2>
+<ul>
+<li data-i18n-html="alt-transdev.gouv.1">
+</li>
+<li data-i18n-html="alt-transdev.gouv.2">
+</li>
+</ul>
+</div>          <div class="card">            <h2 data-i18n="alt-transdev.chiffres.title">Chiffres 2024</h2>            <ul>
+<li data-i18n-html="alt-transdev.chiffres.1">
+</li>
+<li data-i18n-html="alt-transdev.chiffres.2">
+</li>
+<li data-i18n-html="alt-transdev.chiffres.3">
+</li>
+</ul>            <p style="font-size:.78rem;color:var(--muted);margin-top:.5rem" data-i18n-html="alt-transdev.chiffres.note">
+</p>          </div>        </div>        <div>          <div class="card">
+<h2 data-i18n="alt-transdev.strat.title">Stratégie numérique &amp; EAM</h2>
+<ul>
+<li data-i18n-html="alt-transdev.strat.1">
+</li>
+<li data-i18n-html="alt-transdev.strat.2">
+</li>
+<li data-i18n-html="alt-transdev.strat.3">
+</li>
+</ul>
+</div>          <div class="card">
+<h2 data-i18n="alt-transdev.sober.title">IT &amp; sobriété</h2>
+<ul>
+<li data-i18n-html="alt-transdev.sober.1">
+</li>
+</ul>
+</div>          <div class="card">            <h2 data-i18n="alt-transdev.links.title">Liens officiels</h2>            <ul>              <li>
+<a href="https://www.transdev.com/fr/notre-groupe/qui-dirige-le-groupe/" target="_blank" rel="noopener" data-i18n="alt-transdev.links.1">Gouvernance (ComEx)</a>
+</li>              <li>
+<a href="https://www.caissedesdepots.fr/eclairage/actualites/transdev-sest-surpasse-en-2024" target="_blank" rel="noopener" data-i18n="alt-transdev.links.2">Investors &amp; résultats</a>
+</li>              <li>
+<a href="https://fr.linkedin.com/company/-transdev" target="_blank" rel="noopener" data-i18n="alt-transdev.links.3">Présentation LinkedIn</a>
+</li>            </ul>          </div>        </div>      </div>    </div>  </div>
 </section>
-
+<!-- separator -->
+<div class="sec-sep">
+<div class="sec-sep-line">
+</div>
+<div class="sec-sep-num">3</div>
+<div class="sec-sep-line btm">
+</div>
+</div>
 <!-- ======== PROJETS ======== -->
-<section id="projets" style="background:var(--bg2)">
-  <div class="container">
-    <div class="sec-tag">🛠️ PROJETS</div>
-    <h2 class="sec-title" data-i18n="projets.title">[=== PROJETS ===]</h2>
-    <p class="sec-sub">Projets professionnels &amp; personnels en infrastructure réseau et cybersécurité.</p>
-
-    <div class="tab-bar">
-      <button class="tab-btn active" id="proj-tab-crystal"    onclick="activateProjet('crystal')"    data-i18n="projets.tab.crystal">🔥 Refresh Réseau Crystal</button>
-      <button class="tab-btn"        id="proj-tab-zerotrust"  onclick="activateProjet('zerotrust')"  data-i18n="projets.tab.zerotrust">🔒 Zero Trust Lab &amp; Zabbix</button>
-    </div>
-
-    <!-- Crystal -->
-    <div class="tab-panel active" id="proj-crystal">
-      <div class="card" style="margin-bottom:1.5rem">
-        <h2 data-i18n="crystal.intro.title">Refresh Réseau Crystal ▸ SD-WAN v2</h2>
-        <p data-i18n-html="crystal.intro.p"></p>
-      </div>
-      <div class="inner-tab-bar">
-        <button class="inner-tab-btn active" id="cry-tab-overview"      onclick="activateCrystal('overview')"      data-i18n="crystal.tab.overview">Vue globale</button>
-        <button class="inner-tab-btn"        id="cry-tab-architecture"  onclick="activateCrystal('architecture')"  data-i18n="crystal.tab.architecture">Architecture</button>
-        <button class="inner-tab-btn"        id="cry-tab-planning"      onclick="activateCrystal('planning')"      data-i18n="crystal.tab.planning">Planning</button>
-        <button class="inner-tab-btn"        id="cry-tab-risques"       onclick="activateCrystal('risques')"       data-i18n="crystal.tab.risques">Risques</button>
-        <button class="inner-tab-btn"        id="cry-tab-suivi"         onclick="activateCrystal('suivi')"         data-i18n="crystal.tab.suivi">Suivi migration</button>
-        <button class="inner-tab-btn"        id="cry-tab-role"          onclick="activateCrystal('role')"          data-i18n="crystal.tab.role">Rôle &amp; E6</button>
-      </div>
-      <div class="inner-tab-panel active" id="cry-overview">
-        <div class="grid-2">
-          <div class="card"><h2 data-i18n="crystal.overview.h3">Vue globale</h2><ul data-i18n-html="crystal.overview.ul"></ul></div>
-          <div class="card"><h3 data-i18n="crystal.overview.context.h3">Contexte</h3><p data-i18n="crystal.overview.context.p"></p><h3 data-i18n="crystal.overview.objectives.h3">Objectifs</h3><ul data-i18n-html="crystal.overview.objectives.ul"></ul></div>
-        </div>
-      </div>
-      <div class="inner-tab-panel" id="cry-architecture">
-        <div class="card">
-          <h2 data-i18n="crystal.arch.h3">Architecture &amp; aspects techniques</h2>
-          <h3 data-i18n="crystal.arch.schemas.h3">Schémas techniques</h3>
-          <p data-i18n="crystal.arch.schemas.p">(Images à venir)</p>
-          <h3 data-i18n="crystal.arch.simple.h3">Architecture (vue simplifiée)</h3>
-          <div class="tech-block">
-[WAN 2G/8G/10G] → [Fortigate 200G × 2 HA] → [Core Switch]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[53 switches par étage] + [80 bornes WiFi]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SD-WAN v2 — failover automatique
-          </div>
-        </div>
-      </div>
-      <div class="inner-tab-panel" id="cry-planning">
-        <div class="card">
-          <h2 data-i18n="crystal.planning.h3">Planning &amp; organisation</h2>
-          <ul data-i18n-html="crystal.planning.ul"></ul>
-          <h3 data-i18n="crystal.planning.phases.h3">Planning par phases</h3>
-          <ul data-i18n-html="crystal.planning.phases.ul"></ul>
-        </div>
-      </div>
-      <div class="inner-tab-panel" id="cry-risques">
-        <div class="card">
-          <h2 data-i18n="crystal.risques.h3">Analyse des risques</h2>
-          <ul data-i18n-html="crystal.risques.ul"></ul>
-          <p data-i18n="crystal.risques.p"></p>
-        </div>
-        <div class="card">
-          <h2 data-i18n="crystal.risques.fiche.h3">Migration — fiche synthèse</h2>
-          <div class="grid-2">
-            <div><h4 data-i18n="crystal.risques.fiche.context.h4">Contexte</h4><p data-i18n-html="crystal.risques.fiche.context.p"></p>
-            <h4 data-i18n="crystal.risques.fiche.problemes.h4">Problèmes</h4><ul data-i18n-html="crystal.risques.fiche.problemes.ul"></ul>
-            <h4 data-i18n="crystal.risques.fiche.decisions.h4">Décisions</h4><ul data-i18n-html="crystal.risques.fiche.decisions.ul"></ul></div>
-            <div><h4 data-i18n="crystal.risques.fiche.actions.h4">Actions techniques</h4><ul data-i18n-html="crystal.risques.fiche.actions.ul"></ul>
-            <h4 data-i18n="crystal.risques.fiche.blocages.h4">Blocages</h4><ul data-i18n-html="crystal.risques.fiche.blocages.ul"></ul>
-            <h4 data-i18n="crystal.risques.fiche.suite.h4">Suite</h4><ul data-i18n-html="crystal.risques.fiche.suite.ul"></ul>
-            <h4 data-i18n="crystal.risques.fiche.monrole.h4">Mon rôle</h4><ul data-i18n-html="crystal.risques.fiche.monrole.ul"></ul></div>
-          </div>
-        </div>
-      </div>
-      <div class="inner-tab-panel" id="cry-suivi">
-        <div class="card">
-          <h2 data-i18n="crystal.suivi.h3">Suivi de migration</h2>
-          <div class="grid-2">
-            <div>
-              <h4 data-i18n="crystal.suivi.context.h4">Contexte</h4><p data-i18n-html="crystal.suivi.context.p"></p>
-              <h4 data-i18n="crystal.suivi.problemes.h4">Problèmes</h4><ul data-i18n-html="crystal.suivi.problemes.ul"></ul>
-              <h4 data-i18n="crystal.suivi.decisions.h4">Décisions</h4><ul data-i18n-html="crystal.suivi.decisions.ul"></ul>
-              <h4 data-i18n="crystal.suivi.actions.h4">Actions techniques</h4><ul data-i18n-html="crystal.suivi.actions.ul"></ul>
-            </div>
-            <div>
-              <h4 data-i18n="crystal.suivi.risques.h4">Risques identifiés</h4><ul data-i18n-html="crystal.suivi.risques.ul"></ul>
-              <h4 data-i18n="crystal.suivi.orga.h4">Organisation</h4><ul data-i18n-html="crystal.suivi.orga.ul"></ul>
-              <h4 data-i18n="crystal.suivi.suite.h4">Suite</h4><ul data-i18n-html="crystal.suivi.suite.ul"></ul>
-              <h4 data-i18n="crystal.suivi.monrole.h4">Mon rôle</h4><ul data-i18n-html="crystal.suivi.monrole.ul"></ul>
-              <h4 data-i18n="crystal.suivi.competences.h4">Compétences développées</h4><ul data-i18n-html="crystal.suivi.competences.ul"></ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="inner-tab-panel" id="cry-role">
-        <div class="grid-2">
-          <div class="card"><h2 data-i18n="crystal.role.h3">Rôle personnel</h2><ul data-i18n-html="crystal.role.ul"></ul></div>
-          <div class="card"><h2 data-i18n="crystal.role.e6.h3">Compétences E6 validées</h2><ul data-i18n-html="crystal.role.e6.ul"></ul></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Zero Trust Lab -->
-    <div class="tab-panel" id="proj-zerotrust">
-      <div class="card"><h2 data-i18n="zt-lab.intro.title">Zero Trust &amp; Supervision Zabbix</h2><p data-i18n-html="zt-lab.intro.p"></p><ul data-i18n-html="zt-lab.intro.ul"></ul></div>
-      <div class="grid-2">
-        <div>
-          <div class="card"><h2 data-i18n="zt-lab.arch.title">Architecture réseau</h2><p data-i18n="zt-lab.arch.p"></p><ul data-i18n-html="zt-lab.arch.ul"></ul></div>
-          <div class="card">
-            <h2 data-i18n="zt-lab.schema.title">Schéma détaillé</h2>
-            <p data-i18n="zt-lab.schema.p"></p>
-            <div class="schema-gallery" style="margin:.75rem 0;border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:0 0 28px rgba(0,245,212,.08)">
-              <img src="images/zerotrust-schema.jpg" alt="Architecture Zéro Trust & Supervision Zabbix" style="width:100%;display:block;border-radius:12px;cursor:zoom-in" loading="lazy">
-            </div>
-            <p style="font-size:.78rem;color:var(--muted)" data-i18n="zt-lab.schema.legend"></p>
-          </div>
-        </div>
-        <div>
-          <div class="card">
-            <h2 data-i18n="zt-lab.vlan.title">Segmentation VLAN</h2>
-            <p data-i18n="zt-lab.vlan.p"></p>
-            <table style="margin-top:.75rem">
-              <thead><tr><th data-i18n="zt-lab.vlan.th.id">VLAN</th><th data-i18n="zt-lab.vlan.th.nom">Nom</th><th data-i18n="zt-lab.vlan.th.role">Rôle</th><th data-i18n="zt-lab.vlan.th.acces">Accès</th></tr></thead>
-              <tbody>
-                <tr><td>10</td><td data-i18n="zt-lab.vlan.r1.nom">Users</td><td data-i18n="zt-lab.vlan.r1.role">Postes utilisateurs</td><td data-i18n="zt-lab.vlan.r1.acces">Internet uniquement</td></tr>
-                <tr><td>20</td><td data-i18n="zt-lab.vlan.r2.nom">Admin</td><td data-i18n="zt-lab.vlan.r2.role">Zabbix</td><td data-i18n="zt-lab.vlan.r2.acces">Lecture SNMP vers VLAN 30</td></tr>
-                <tr><td>30</td><td data-i18n="zt-lab.vlan.r3.nom">Servers</td><td data-i18n="zt-lab.vlan.r3.role">Serveurs internes</td><td data-i18n="zt-lab.vlan.r3.acces">Accès restreint</td></tr>
-                <tr><td>40</td><td data-i18n="zt-lab.vlan.r4.nom">Legacy</td><td data-i18n="zt-lab.vlan.r4.role">PS3 isolée</td><td data-i18n="zt-lab.vlan.r4.acces">Aucun</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="card"><h2 data-i18n="zt-lab.secu.title">Sécurité Zero Trust</h2><ul data-i18n-html="zt-lab.secu.ul"></ul></div>
-        </div>
-      </div>
-      <div class="grid-2">
-        <div class="card"><h2 data-i18n="zt-lab.zabbix.title">Supervision Zabbix</h2><p data-i18n="zt-lab.zabbix.p"></p><ul data-i18n-html="zt-lab.zabbix.ul"></ul></div>
-        <div class="card"><h2 data-i18n="zt-lab.scenarios.title">Scénarios de test</h2><ul data-i18n-html="zt-lab.scenarios.ul"></ul></div>
-      </div>
-      <div class="card"><h2 data-i18n="zt-lab.results.title">Résultats &amp; compétences validées</h2><ul data-i18n-html="zt-lab.results.ul"></ul></div>
-    </div>
-  </div>
+<section id="projets" style="background:var(--bg2)">  <div class="container">    <div class="sec-tag">🛠️ PROJETS</div>    <h2 class="sec-title" data-i18n="projets.title">[=== PROJETS ===]</h2>    <p class="sec-sub">Projets professionnels &amp; personnels en infrastructure réseau et cybersécurité.</p>    <div class="tab-bar">      <button class="tab-btn active" id="proj-tab-crystal"    onclick="activateProjet('crystal')"    data-i18n="projets.tab.crystal">🔥 Refresh Réseau Crystal</button>      <button class="tab-btn"        id="proj-tab-zerotrust"  onclick="activateProjet('zerotrust')"  data-i18n="projets.tab.zerotrust">🔒 Zero Trust Lab &amp; Zabbix</button>    </div>    <!-- Crystal -->    <div class="tab-panel active" id="proj-crystal">      <div class="card" style="margin-bottom:1.5rem">        <h2 data-i18n="crystal.intro.title">Refresh Réseau Crystal ▸ SD-WAN v2</h2>        <p data-i18n-html="crystal.intro.p">
+</p>      </div>      <div class="inner-tab-bar">        <button class="inner-tab-btn active" id="cry-tab-overview"      onclick="activateCrystal('overview')"      data-i18n="crystal.tab.overview">Vue globale</button>        <button class="inner-tab-btn"        id="cry-tab-architecture"  onclick="activateCrystal('architecture')"  data-i18n="crystal.tab.architecture">Architecture</button>        <button class="inner-tab-btn"        id="cry-tab-planning"      onclick="activateCrystal('planning')"      data-i18n="crystal.tab.planning">Planning</button>        <button class="inner-tab-btn"        id="cry-tab-risques"       onclick="activateCrystal('risques')"       data-i18n="crystal.tab.risques">Risques</button>        <button class="inner-tab-btn"        id="cry-tab-suivi"         onclick="activateCrystal('suivi')"         data-i18n="crystal.tab.suivi">Suivi migration</button>        <button class="inner-tab-btn"        id="cry-tab-role"          onclick="activateCrystal('role')"          data-i18n="crystal.tab.role">Rôle &amp; E6</button>      </div>      <div class="inner-tab-panel active" id="cry-overview">        <div class="grid-2">          <div class="card">
+<h2 data-i18n="crystal.overview.h3">Vue globale</h2>
+<ul data-i18n-html="crystal.overview.ul">
+</ul>
+</div>          <div class="card">
+<h3 data-i18n="crystal.overview.context.h3">Contexte</h3>
+<p data-i18n="crystal.overview.context.p">
+</p>
+<h3 data-i18n="crystal.overview.objectives.h3">Objectifs</h3>
+<ul data-i18n-html="crystal.overview.objectives.ul">
+</ul>
+</div>        </div>      </div>      <div class="inner-tab-panel" id="cry-architecture">        <div class="card">          <h2 data-i18n="crystal.arch.h3">Architecture &amp; aspects techniques</h2>          <h3 data-i18n="crystal.arch.schemas.h3">Schémas techniques</h3>          <p data-i18n="crystal.arch.schemas.p">(Images à venir)</p>          <h3 data-i18n="crystal.arch.simple.h3">Architecture (vue simplifiée)</h3>          <div class="tech-block">[WAN 2G/8G/10G] → [Fortigate 200G × 2 HA] → [Core Switch]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[53 switches par étage] + [80 bornes WiFi]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SD-WAN v2 — failover automatique          </div>        </div>      </div>      <div class="inner-tab-panel" id="cry-planning">        <div class="card">          <h2 data-i18n="crystal.planning.h3">Planning &amp; organisation</h2>          <ul data-i18n-html="crystal.planning.ul">
+</ul>          <h3 data-i18n="crystal.planning.phases.h3">Planning par phases</h3>          <ul data-i18n-html="crystal.planning.phases.ul">
+</ul>        </div>      </div>      <div class="inner-tab-panel" id="cry-risques">        <div class="card">          <h2 data-i18n="crystal.risques.h3">Analyse des risques</h2>          <ul data-i18n-html="crystal.risques.ul">
+</ul>          <p data-i18n="crystal.risques.p">
+</p>        </div>        <div class="card">          <h2 data-i18n="crystal.risques.fiche.h3">Migration — fiche synthèse</h2>          <div class="grid-2">            <div>
+<h4 data-i18n="crystal.risques.fiche.context.h4">Contexte</h4>
+<p data-i18n-html="crystal.risques.fiche.context.p">
+</p>            <h4 data-i18n="crystal.risques.fiche.problemes.h4">Problèmes</h4>
+<ul data-i18n-html="crystal.risques.fiche.problemes.ul">
+</ul>            <h4 data-i18n="crystal.risques.fiche.decisions.h4">Décisions</h4>
+<ul data-i18n-html="crystal.risques.fiche.decisions.ul">
+</ul>
+</div>            <div>
+<h4 data-i18n="crystal.risques.fiche.actions.h4">Actions techniques</h4>
+<ul data-i18n-html="crystal.risques.fiche.actions.ul">
+</ul>            <h4 data-i18n="crystal.risques.fiche.blocages.h4">Blocages</h4>
+<ul data-i18n-html="crystal.risques.fiche.blocages.ul">
+</ul>            <h4 data-i18n="crystal.risques.fiche.suite.h4">Suite</h4>
+<ul data-i18n-html="crystal.risques.fiche.suite.ul">
+</ul>            <h4 data-i18n="crystal.risques.fiche.monrole.h4">Mon rôle</h4>
+<ul data-i18n-html="crystal.risques.fiche.monrole.ul">
+</ul>
+</div>          </div>        </div>      </div>      <div class="inner-tab-panel" id="cry-suivi">        <div class="card">          <h2 data-i18n="crystal.suivi.h3">Suivi de migration</h2>          <div class="grid-2">            <div>              <h4 data-i18n="crystal.suivi.context.h4">Contexte</h4>
+<p data-i18n-html="crystal.suivi.context.p">
+</p>              <h4 data-i18n="crystal.suivi.problemes.h4">Problèmes</h4>
+<ul data-i18n-html="crystal.suivi.problemes.ul">
+</ul>              <h4 data-i18n="crystal.suivi.decisions.h4">Décisions</h4>
+<ul data-i18n-html="crystal.suivi.decisions.ul">
+</ul>              <h4 data-i18n="crystal.suivi.actions.h4">Actions techniques</h4>
+<ul data-i18n-html="crystal.suivi.actions.ul">
+</ul>            </div>            <div>              <h4 data-i18n="crystal.suivi.risques.h4">Risques identifiés</h4>
+<ul data-i18n-html="crystal.suivi.risques.ul">
+</ul>              <h4 data-i18n="crystal.suivi.orga.h4">Organisation</h4>
+<ul data-i18n-html="crystal.suivi.orga.ul">
+</ul>              <h4 data-i18n="crystal.suivi.suite.h4">Suite</h4>
+<ul data-i18n-html="crystal.suivi.suite.ul">
+</ul>              <h4 data-i18n="crystal.suivi.monrole.h4">Mon rôle</h4>
+<ul data-i18n-html="crystal.suivi.monrole.ul">
+</ul>              <h4 data-i18n="crystal.suivi.competences.h4">Compétences développées</h4>
+<ul data-i18n-html="crystal.suivi.competences.ul">
+</ul>            </div>          </div>        </div>      </div>      <div class="inner-tab-panel" id="cry-role">        <div class="grid-2">          <div class="card">
+<h2 data-i18n="crystal.role.h3">Rôle personnel</h2>
+<ul data-i18n-html="crystal.role.ul">
+</ul>
+</div>          <div class="card">
+<h2 data-i18n="crystal.role.e6.h3">Compétences E6 validées</h2>
+<ul data-i18n-html="crystal.role.e6.ul">
+</ul>
+</div>        </div>      </div>    </div>    <!-- Zero Trust Lab -->    <div class="tab-panel" id="proj-zerotrust">      <div class="card">
+<h2 data-i18n="zt-lab.intro.title">Zero Trust &amp; Supervision Zabbix</h2>
+<p data-i18n-html="zt-lab.intro.p">
+</p>
+<ul data-i18n-html="zt-lab.intro.ul">
+</ul>
+</div>      <div class="grid-2">        <div>          <div class="card">
+<h2 data-i18n="zt-lab.arch.title">Architecture réseau</h2>
+<p data-i18n="zt-lab.arch.p">
+</p>
+<ul data-i18n-html="zt-lab.arch.ul">
+</ul>
+</div>          <div class="card">            <h2 data-i18n="zt-lab.schema.title">Schéma détaillé</h2>            <p data-i18n="zt-lab.schema.p">
+</p>            <div class="schema-gallery" style="margin:.75rem 0;border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:0 0 28px rgba(0,245,212,.08)">              <img src="images/zerotrust-schema.jpg" alt="Architecture Zéro Trust & Supervision Zabbix" style="width:100%;display:block;border-radius:12px;cursor:zoom-in" loading="lazy">            </div>            <p style="font-size:.78rem;color:var(--muted)" data-i18n="zt-lab.schema.legend">
+</p>          </div>        </div>        <div>          <div class="card">            <h2 data-i18n="zt-lab.vlan.title">Segmentation VLAN</h2>            <p data-i18n="zt-lab.vlan.p">
+</p>            <table style="margin-top:.75rem">              <thead>
+<tr>
+<th data-i18n="zt-lab.vlan.th.id">VLAN</th>
+<th data-i18n="zt-lab.vlan.th.nom">Nom</th>
+<th data-i18n="zt-lab.vlan.th.role">Rôle</th>
+<th data-i18n="zt-lab.vlan.th.acces">Accès</th>
+</tr>
+</thead>              <tbody>                <tr>
+<td>10</td>
+<td data-i18n="zt-lab.vlan.r1.nom">Users</td>
+<td data-i18n="zt-lab.vlan.r1.role">Postes utilisateurs</td>
+<td data-i18n="zt-lab.vlan.r1.acces">Internet uniquement</td>
+</tr>                <tr>
+<td>20</td>
+<td data-i18n="zt-lab.vlan.r2.nom">Admin</td>
+<td data-i18n="zt-lab.vlan.r2.role">Zabbix</td>
+<td data-i18n="zt-lab.vlan.r2.acces">Lecture SNMP vers VLAN 30</td>
+</tr>                <tr>
+<td>30</td>
+<td data-i18n="zt-lab.vlan.r3.nom">Servers</td>
+<td data-i18n="zt-lab.vlan.r3.role">Serveurs internes</td>
+<td data-i18n="zt-lab.vlan.r3.acces">Accès restreint</td>
+</tr>                <tr>
+<td>40</td>
+<td data-i18n="zt-lab.vlan.r4.nom">Legacy</td>
+<td data-i18n="zt-lab.vlan.r4.role">PS3 isolée</td>
+<td data-i18n="zt-lab.vlan.r4.acces">Aucun</td>
+</tr>              </tbody>            </table>          </div>          <div class="card">
+<h2 data-i18n="zt-lab.secu.title">Sécurité Zero Trust</h2>
+<ul data-i18n-html="zt-lab.secu.ul">
+</ul>
+</div>        </div>      </div>      <div class="grid-2">        <div class="card">
+<h2 data-i18n="zt-lab.zabbix.title">Supervision Zabbix</h2>
+<p data-i18n="zt-lab.zabbix.p">
+</p>
+<ul data-i18n-html="zt-lab.zabbix.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="zt-lab.scenarios.title">Scénarios de test</h2>
+<ul data-i18n-html="zt-lab.scenarios.ul">
+</ul>
+</div>      </div>      <div class="card">
+<h2 data-i18n="zt-lab.results.title">Résultats &amp; compétences validées</h2>
+<ul data-i18n-html="zt-lab.results.ul">
+</ul>
+</div>    </div>  </div>
 </section>
-
+<!-- separator -->
+<div class="sec-sep">
+<div class="sec-sep-line">
+</div>
+<div class="sec-sep-num">4</div>
+<div class="sec-sep-line btm">
+</div>
+</div>
 <!-- ======== CERTIFICATIONS ======== -->
-<section id="certifications">
-  <div class="container">
-    <div class="sec-tag">🏅 CERTIFICATIONS</div>
-    <h2 class="sec-title" data-i18n="certifications.title">[=== CERTIFICATIONS ===]</h2>
-    <p class="sec-sub">Parcours de certification par domaine — objectifs, ressources &amp; état d'avancement.</p>
-
-    <div class="tab-bar">
-      <button class="tab-btn active" id="cert-tab-reseau"   onclick="activateCert('reseau')"   data-i18n="nav.cert-reseau">• Réseau</button>
-      <button class="tab-btn"        id="cert-tab-systemes" onclick="activateCert('systemes')" data-i18n="nav.cert-systemes">• Systèmes</button>
-      <button class="tab-btn"        id="cert-tab-cloud"    onclick="activateCert('cloud')"    data-i18n="nav.cert-cloud">• Cloud</button>
-      <button class="tab-btn"        id="cert-tab-securite" onclick="activateCert('securite')" data-i18n="nav.cert-securite">• Sécurité</button>
-      <button class="tab-btn"        id="cert-tab-devops"   onclick="activateCert('devops')"   data-i18n="nav.cert-devops">• DevOps / IaC</button>
-      <button class="tab-btn"        id="cert-tab-itsm"     onclick="activateCert('itsm')"     data-i18n="nav.cert-itsm">• ITSM</button>
-      <button class="tab-btn"        id="cert-tab-outils"   onclick="activateCert('outils')"   data-i18n="nav.cert-outils">• Outils</button>
-      <button class="tab-btn"        id="cert-tab-autres"   onclick="activateCert('autres')"   data-i18n="nav.cert-autres">• Autres</button>
-    </div>
-
-    <div class="tab-panel active" id="cert-reseau">
-      <div class="grid-3">
-        <div class="card"><h2 data-i18n="cert.h2.objectifs">Objectifs</h2><ul data-i18n-html="cert.reseau.obj.ul"></ul></div>
-        <div class="card"><h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2><ul data-i18n-html="cert.reseau.parcours.ul"></ul></div>
-        <div class="card"><h2 data-i18n="cert.h2.etat">État</h2><ul data-i18n-html="cert.reseau.etat.ul"></ul></div>
-      </div>
-    </div>
-    <div class="tab-panel" id="cert-systemes">
-      <div class="grid-3">
-        <div class="card"><h2 data-i18n="cert.h2.objectifs">Objectifs</h2><ul data-i18n-html="cert.sys.obj.ul"></ul></div>
-        <div class="card"><h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2><ul data-i18n-html="cert.sys.parcours.ul"></ul></div>
-        <div class="card"><h2 data-i18n="cert.h2.etat">État</h2><ul data-i18n-html="cert.sys.etat.ul"></ul></div>
-      </div>
-    </div>
-    <div class="tab-panel" id="cert-cloud">
-      <div class="grid-3">
-        <div class="card"><h2 data-i18n="cert.h2.objectifs">Objectifs</h2><ul data-i18n-html="cert.cloud.obj.ul"></ul></div>
-        <div class="card"><h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2><ul data-i18n-html="cert.cloud.parcours.ul"></ul></div>
-        <div class="card"><h2 data-i18n="cert.h2.etat">État</h2><ul data-i18n-html="cert.cloud.etat.ul"></ul></div>
-      </div>
-    </div>
-    <div class="tab-panel" id="cert-securite">
-      <div class="grid-3">
-        <div class="card"><h2 data-i18n="cert.h2.objectifs">Objectifs</h2><ul data-i18n-html="cert.secu.obj.ul"></ul></div>
-        <div class="card"><h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2><ul data-i18n-html="cert.secu.parcours.ul"></ul></div>
-        <div class="card"><h2 data-i18n="cert.h2.etat">État</h2><ul data-i18n-html="cert.secu.etat.ul"></ul></div>
-      </div>
-    </div>
-    <div class="tab-panel" id="cert-devops">
-      <div class="grid-3">
-        <div class="card"><h2 data-i18n="cert.h2.objectifs">Objectifs</h2><ul data-i18n-html="cert.devops.obj.ul"></ul></div>
-        <div class="card"><h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2><ul data-i18n-html="cert.devops.parcours.ul"></ul></div>
-        <div class="card"><h2 data-i18n="cert.h2.etat">État</h2><ul data-i18n-html="cert.devops.etat.ul"></ul></div>
-      </div>
-    </div>
-    <div class="tab-panel" id="cert-itsm">
-      <div class="grid-3">
-        <div class="card"><h2 data-i18n="cert.h2.objectifs">Objectifs</h2><ul data-i18n-html="cert.itsm.obj.ul"></ul></div>
-        <div class="card"><h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2><ul data-i18n-html="cert.itsm.parcours.ul"></ul></div>
-        <div class="card"><h2 data-i18n="cert.h2.etat">État</h2><ul data-i18n-html="cert.itsm.etat.ul"></ul></div>
-      </div>
-    </div>
-    <div class="tab-panel" id="cert-outils">
-      <div class="grid-3">
-        <div class="card"><h2 data-i18n="cert.h2.objectifs">Objectifs</h2><ul data-i18n-html="cert.outils.obj.ul"></ul></div>
-        <div class="card"><h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2><ul data-i18n-html="cert.outils.parcours.ul"></ul></div>
-        <div class="card"><h2 data-i18n="cert.h2.etat">État</h2><ul data-i18n-html="cert.outils.etat.ul"></ul></div>
-      </div>
-    </div>
-    <div class="tab-panel" id="cert-autres">
-      <div class="card"><h2 data-i18n="cert.autres.h2">Autres badges / langues</h2><ul data-i18n-html="cert.autres.ul"></ul></div>
-    </div>
-  </div>
+<section id="certifications">  <div class="container">    <div class="sec-tag">🏅 CERTIFICATIONS</div>    <h2 class="sec-title" data-i18n="certifications.title">[=== CERTIFICATIONS ===]</h2>    <p class="sec-sub">Parcours de certification par domaine — objectifs, ressources &amp; état d'avancement.</p>    <div class="tab-bar">      <button class="tab-btn active" id="cert-tab-reseau"   onclick="activateCert('reseau')"   data-i18n="nav.cert-reseau">• Réseau</button>      <button class="tab-btn"        id="cert-tab-systemes" onclick="activateCert('systemes')" data-i18n="nav.cert-systemes">• Systèmes</button>      <button class="tab-btn"        id="cert-tab-cloud"    onclick="activateCert('cloud')"    data-i18n="nav.cert-cloud">• Cloud</button>      <button class="tab-btn"        id="cert-tab-securite" onclick="activateCert('securite')" data-i18n="nav.cert-securite">• Sécurité</button>      <button class="tab-btn"        id="cert-tab-devops"   onclick="activateCert('devops')"   data-i18n="nav.cert-devops">• DevOps / IaC</button>      <button class="tab-btn"        id="cert-tab-itsm"     onclick="activateCert('itsm')"     data-i18n="nav.cert-itsm">• ITSM</button>      <button class="tab-btn"        id="cert-tab-outils"   onclick="activateCert('outils')"   data-i18n="nav.cert-outils">• Outils</button>      <button class="tab-btn"        id="cert-tab-autres"   onclick="activateCert('autres')"   data-i18n="nav.cert-autres">• Autres</button>    </div>    <div class="tab-panel active" id="cert-reseau">      <div class="grid-3">        <div class="card">
+<h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
+<ul data-i18n-html="cert.reseau.obj.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
+<ul data-i18n-html="cert.reseau.parcours.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="cert.h2.etat">État</h2>
+<ul data-i18n-html="cert.reseau.etat.ul">
+</ul>
+</div>      </div>    </div>    <div class="tab-panel" id="cert-systemes">      <div class="grid-3">        <div class="card">
+<h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
+<ul data-i18n-html="cert.sys.obj.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
+<ul data-i18n-html="cert.sys.parcours.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="cert.h2.etat">État</h2>
+<ul data-i18n-html="cert.sys.etat.ul">
+</ul>
+</div>      </div>    </div>    <div class="tab-panel" id="cert-cloud">      <div class="grid-3">        <div class="card">
+<h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
+<ul data-i18n-html="cert.cloud.obj.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
+<ul data-i18n-html="cert.cloud.parcours.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="cert.h2.etat">État</h2>
+<ul data-i18n-html="cert.cloud.etat.ul">
+</ul>
+</div>      </div>    </div>    <div class="tab-panel" id="cert-securite">      <div class="grid-3">        <div class="card">
+<h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
+<ul data-i18n-html="cert.secu.obj.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
+<ul data-i18n-html="cert.secu.parcours.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="cert.h2.etat">État</h2>
+<ul data-i18n-html="cert.secu.etat.ul">
+</ul>
+</div>      </div>    </div>    <div class="tab-panel" id="cert-devops">      <div class="grid-3">        <div class="card">
+<h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
+<ul data-i18n-html="cert.devops.obj.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
+<ul data-i18n-html="cert.devops.parcours.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="cert.h2.etat">État</h2>
+<ul data-i18n-html="cert.devops.etat.ul">
+</ul>
+</div>      </div>    </div>    <div class="tab-panel" id="cert-itsm">      <div class="grid-3">        <div class="card">
+<h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
+<ul data-i18n-html="cert.itsm.obj.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
+<ul data-i18n-html="cert.itsm.parcours.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="cert.h2.etat">État</h2>
+<ul data-i18n-html="cert.itsm.etat.ul">
+</ul>
+</div>      </div>    </div>    <div class="tab-panel" id="cert-outils">      <div class="grid-3">        <div class="card">
+<h2 data-i18n="cert.h2.objectifs">Objectifs</h2>
+<ul data-i18n-html="cert.outils.obj.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="cert.h2.parcours">Parcours &amp; ressources</h2>
+<ul data-i18n-html="cert.outils.parcours.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="cert.h2.etat">État</h2>
+<ul data-i18n-html="cert.outils.etat.ul">
+</ul>
+</div>      </div>    </div>    <div class="tab-panel" id="cert-autres">      <div class="card">
+<h2 data-i18n="cert.autres.h2">Autres badges / langues</h2>
+<ul data-i18n-html="cert.autres.ul">
+</ul>
+</div>    </div>  </div>
 </section>
-
+<!-- separator -->
+<div class="sec-sep">
+<div class="sec-sep-line">
+</div>
+<div class="sec-sep-num">5</div>
+<div class="sec-sep-line btm">
+</div>
+</div>
 <!-- ======== VEILLE TECHNOLOGIQUE ======== -->
-<section id="veille" style="background:var(--bg2)">
-  <div class="container">
-    <div class="sec-tag">🔒 VEILLE</div>
-    <h2 class="sec-title" data-i18n="veille.title">[=== VEILLE TECHNOLOGIQUE ===]</h2>
-    <p class="sec-sub" data-i18n-html="veille.theme">Thème : <strong>Zero Trust Security Model</strong></p>
-
-    <div class="tab-bar">
-      <button class="tab-btn active" id="vtab-concepts"     onclick="activateVeille(this,'zt-concepts')"           data-i18n="veille.tab.concepts">Concepts</button>
-      <button class="tab-btn"        id="vtab-architecture" onclick="activateVeille(this,'zt-architecture')"       data-i18n="veille.tab.architecture">Architecture</button>
-      <button class="tab-btn"        id="vtab-usecases"     onclick="activateVeille(this,'zt-usecases')"           data-i18n="veille.tab.usecases">Cas d'usage</button>
-      <button class="tab-btn"        id="vtab-analysis"     onclick="activateVeille(this,'zt-analysis')"           data-i18n="veille.tab.analysis">Analyse personnelle</button>
-      <button class="tab-btn"        id="vtab-news"         onclick="activateVeille(this,'zt-news',true)"          data-i18n="veille.tab.news">Actualités RSS</button>
-    </div>
-
-    <div class="tab-panel active" id="zt-concepts">
-      <div class="grid-2">
-        <div>
-          <div class="card"><h2 data-i18n="zt.concepts.h2">Qu'est-ce que le Zero Trust ?</h2><p data-i18n-html="zt.concepts.p"></p></div>
-          <div class="card"><h2 data-i18n="zt.principles.h2">Principes fondamentaux</h2><ul data-i18n-html="zt.principles.ul"></ul></div>
-        </div>
-        <div>
-          <div class="card">
-            <h2 data-i18n="zt.compare.h2">Avant / Après Zero Trust</h2>
-            <table>
-              <thead><tr><th data-i18n="zt.compare.th1">Modèle traditionnel</th><th data-i18n="zt.compare.th2">Modèle Zero Trust</th></tr></thead>
-              <tbody>
-                <tr><td data-i18n="zt.compare.r1c1">Confiance implicite</td><td data-i18n="zt.compare.r1c2">Confiance vérifiée</td></tr>
-                <tr><td data-i18n="zt.compare.r2c1">Périmètre réseau</td><td data-i18n="zt.compare.r2c2">Identité &amp; contexte</td></tr>
-                <tr><td data-i18n="zt.compare.r3c1">Accès large</td><td data-i18n="zt.compare.r3c2">Accès minimal</td></tr>
-                <tr><td data-i18n="zt.compare.r4c1">Détection tardive</td><td data-i18n="zt.compare.r4c2">Surveillance continue</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="card"><h2 data-i18n="zt.faq.h2">FAQ Zero Trust</h2><ul data-i18n-html="zt.faq.ul"></ul></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="tab-panel" id="zt-architecture">
-      <div class="grid-2">
-        <div class="card" style="grid-column:span 2">
-          <h2 data-i18n="zt.arch.simple.h2">Schéma Zero Trust — Architecture complète</h2>
-          <div class="schema-gallery" style="margin:.75rem 0;border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:0 0 28px rgba(0,245,212,.1)">
-            <img src="images/zerotrust-schema.jpg" alt="Architecture Zéro Trust & Supervision Zabbix" style="width:100%;display:block;border-radius:12px;cursor:zoom-in" loading="lazy">
-          </div>
-          <p style="font-size:.78rem;color:var(--muted);margin-top:.5rem">
-            Cisco 1921 (routage/NAT) → ASA 5516-X (NGFW FirePOWER) → Switch 2960 (VLAN 10/20/30/40) · Zabbix Server : SNMP &amp; logs ASA · Alertes Zero Trust temps réel
-          </p>
-          <div class="tech-block" style="margin-top:.75rem;font-size:.76rem">
-[Internet] → [Cisco 1921 — NAT/Routage] → [ASA 5516-X — NGFW FirePOWER]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Cisco 2960 — VLAN 10/20/30/40 — SNMP]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>
-[VLAN 10 Users 192.168.10.0/24] [VLAN 20 Admin] [VLAN 30 Servers] [VLAN 40 Legacy PS3]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Zabbix Server — Dashboard · Trafic &amp; Logs ASA · Alertes Sécurité]
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="tab-panel" id="zt-usecases">
-      <div class="grid-2">
-        <div>
-          <div class="card"><h2 data-i18n="zt.usecase.google.h2">Google BeyondCorp</h2><p data-i18n="zt.usecase.google.p"></p></div>
-          <div class="card"><h2 data-i18n="zt.usecase.enterprise.h2">Cas d'usage en entreprise</h2><ul data-i18n-html="zt.usecase.enterprise.ul"></ul></div>
-        </div>
-        <div class="card"><h2 data-i18n="zt.usecase.ransomware.h2">Exemple : attaque ransomware</h2><p data-i18n-html="zt.usecase.ransomware.p1"></p><p data-i18n-html="zt.usecase.ransomware.p2"></p><ul data-i18n-html="zt.usecase.ransomware.ul"></ul></div>
-      </div>
-    </div>
-
-    <div class="tab-panel" id="zt-analysis">
-      <div class="grid-2">
-        <div class="card"><h2 data-i18n="zt.analysis.h2">Analyse personnelle</h2><p data-i18n="zt.analysis.p1"></p><p data-i18n="zt.analysis.p2"></p></div>
-        <div class="card"><h2 data-i18n="zt.conclusion.h2">Conclusion</h2><p data-i18n="zt.conclusion.p"></p></div>
-      </div>
-    </div>
-
-    <div class="tab-panel" id="zt-news">
-      <div class="card">
-        <h2 data-i18n="zt.news.h2">Actualités cybersécurité</h2>
-        <p style="font-size:.8rem;color:var(--muted);margin-bottom:.75rem" data-i18n="zt.news.p">(mise à jour automatique)</p>
-        <div id="rss-container"></div>
-      </div>
-    </div>
-  </div>
+<section id="veille" style="background:var(--bg2)">  <div class="container">    <div class="sec-tag">🔒 VEILLE</div>    <h2 class="sec-title" data-i18n="veille.title">[=== VEILLE TECHNOLOGIQUE ===]</h2>    <p class="sec-sub" data-i18n-html="veille.theme">Thème : <strong>Zero Trust Security Model</strong>
+</p>    <div class="tab-bar">      <button class="tab-btn active" id="vtab-concepts"     onclick="activateVeille(this,'zt-concepts')"           data-i18n="veille.tab.concepts">Concepts</button>      <button class="tab-btn"        id="vtab-architecture" onclick="activateVeille(this,'zt-architecture')"       data-i18n="veille.tab.architecture">Architecture</button>      <button class="tab-btn"        id="vtab-usecases"     onclick="activateVeille(this,'zt-usecases')"           data-i18n="veille.tab.usecases">Cas d'usage</button>      <button class="tab-btn"        id="vtab-analysis"     onclick="activateVeille(this,'zt-analysis')"           data-i18n="veille.tab.analysis">Analyse personnelle</button>      <button class="tab-btn"        id="vtab-news"         onclick="activateVeille(this,'zt-news',true)"          data-i18n="veille.tab.news">Actualités RSS</button>    </div>    <div class="tab-panel active" id="zt-concepts">      <div class="grid-2">        <div>          <div class="card">
+<h2 data-i18n="zt.concepts.h2">Qu'est-ce que le Zero Trust ?</h2>
+<p data-i18n-html="zt.concepts.p">
+</p>
+</div>          <div class="card">
+<h2 data-i18n="zt.principles.h2">Principes fondamentaux</h2>
+<ul data-i18n-html="zt.principles.ul">
+</ul>
+</div>        </div>        <div>          <div class="card">            <h2 data-i18n="zt.compare.h2">Avant / Après Zero Trust</h2>            <table>              <thead>
+<tr>
+<th data-i18n="zt.compare.th1">Modèle traditionnel</th>
+<th data-i18n="zt.compare.th2">Modèle Zero Trust</th>
+</tr>
+</thead>              <tbody>                <tr>
+<td data-i18n="zt.compare.r1c1">Confiance implicite</td>
+<td data-i18n="zt.compare.r1c2">Confiance vérifiée</td>
+</tr>                <tr>
+<td data-i18n="zt.compare.r2c1">Périmètre réseau</td>
+<td data-i18n="zt.compare.r2c2">Identité &amp; contexte</td>
+</tr>                <tr>
+<td data-i18n="zt.compare.r3c1">Accès large</td>
+<td data-i18n="zt.compare.r3c2">Accès minimal</td>
+</tr>                <tr>
+<td data-i18n="zt.compare.r4c1">Détection tardive</td>
+<td data-i18n="zt.compare.r4c2">Surveillance continue</td>
+</tr>              </tbody>            </table>          </div>          <div class="card">
+<h2 data-i18n="zt.faq.h2">FAQ Zero Trust</h2>
+<ul data-i18n-html="zt.faq.ul">
+</ul>
+</div>        </div>      </div>    </div>    <div class="tab-panel" id="zt-architecture">      <div class="grid-2">        <div class="card" style="grid-column:span 2">          <h2 data-i18n="zt.arch.simple.h2">Schéma Zero Trust — Architecture complète</h2>          <div class="schema-gallery" style="margin:.75rem 0;border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:0 0 28px rgba(0,245,212,.1)">            <img src="images/zerotrust-schema.jpg" alt="Architecture Zéro Trust & Supervision Zabbix" style="width:100%;display:block;border-radius:12px;cursor:zoom-in" loading="lazy">          </div>          <p style="font-size:.78rem;color:var(--muted);margin-top:.5rem">            Cisco 1921 (routage/NAT) → ASA 5516-X (NGFW FirePOWER) → Switch 2960 (VLAN 10/20/30/40) · Zabbix Server : SNMP &amp; logs ASA · Alertes Zero Trust temps réel          </p>          <div class="tech-block" style="margin-top:.75rem;font-size:.76rem">[Internet] → [Cisco 1921 — NAT/Routage] → [ASA 5516-X — NGFW FirePOWER]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Cisco 2960 — VLAN 10/20/30/40 — SNMP]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>[VLAN 10 Users 192.168.10.0/24] [VLAN 20 Admin] [VLAN 30 Servers] [VLAN 40 Legacy PS3]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Zabbix Server — Dashboard · Trafic &amp; Logs ASA · Alertes Sécurité]          </div>        </div>      </div>    </div>    <div class="tab-panel" id="zt-usecases">      <div class="grid-2">        <div>          <div class="card">
+<h2 data-i18n="zt.usecase.google.h2">Google BeyondCorp</h2>
+<p data-i18n="zt.usecase.google.p">
+</p>
+</div>          <div class="card">
+<h2 data-i18n="zt.usecase.enterprise.h2">Cas d'usage en entreprise</h2>
+<ul data-i18n-html="zt.usecase.enterprise.ul">
+</ul>
+</div>        </div>        <div class="card">
+<h2 data-i18n="zt.usecase.ransomware.h2">Exemple : attaque ransomware</h2>
+<p data-i18n-html="zt.usecase.ransomware.p1">
+</p>
+<p data-i18n-html="zt.usecase.ransomware.p2">
+</p>
+<ul data-i18n-html="zt.usecase.ransomware.ul">
+</ul>
+</div>      </div>    </div>    <div class="tab-panel" id="zt-analysis">      <div class="grid-2">        <div class="card">
+<h2 data-i18n="zt.analysis.h2">Analyse personnelle</h2>
+<p data-i18n="zt.analysis.p1">
+</p>
+<p data-i18n="zt.analysis.p2">
+</p>
+</div>        <div class="card">
+<h2 data-i18n="zt.conclusion.h2">Conclusion</h2>
+<p data-i18n="zt.conclusion.p">
+</p>
+</div>      </div>    </div>    <div class="tab-panel" id="zt-news">      <div class="card">        <h2 data-i18n="zt.news.h2">Actualités cybersécurité</h2>        <p style="font-size:.8rem;color:var(--muted);margin-bottom:.75rem" data-i18n="zt.news.p">(mise à jour automatique)</p>        <div id="rss-container">
+</div>      </div>    </div>  </div>
 </section>
-
+<!-- separator -->
+<div class="sec-sep">
+<div class="sec-sep-line">
+</div>
+<div class="sec-sep-num">6</div>
+<div class="sec-sep-line btm">
+</div>
+</div>
 <!-- ======== BLOGS ======== -->
-<section id="blogs">
-  <div class="container">
-    <div class="sec-tag">📝 BLOGS</div>
-    <h2 class="sec-title" data-i18n="nav.blogs">📝 Blogs</h2>
-    <p class="sec-sub">Articles techniques sur la cybersécurité, les réseaux et mes retours d'expérience.</p>
-    <div class="grid-auto" id="blogsGrid"></div>
-  </div>
+<section id="blogs">  <div class="container">    <div class="sec-tag">📝 BLOGS</div>    <h2 class="sec-title" data-i18n="nav.blogs">📝 Blogs</h2>    <p class="sec-sub">Articles techniques sur la cybersécurité, les réseaux et mes retours d'expérience.</p>    <div class="grid-auto" id="blogsGrid">
+</div>  </div>
 </section>
-
+<!-- separator -->
+<div class="sec-sep">
+<div class="sec-sep-line">
+</div>
+<div class="sec-sep-num">7</div>
+<div class="sec-sep-line btm">
+</div>
+</div>
 <!-- ======== CONTACT ======== -->
-<section id="contact" style="background:var(--bg2)">
-  <div class="container-sm">
-    <div class="sec-tag">📞 CONTACT</div>
-    <h2 class="sec-title" data-i18n="contact.title">[=== CONTACT ===]</h2>
-    <p class="sec-sub">Disponible pour des questions, collaborations ou opportunités professionnelles.</p>
-
-    <div style="display:flex;flex-direction:column;gap:1rem">
-      <a href="mailto:londe305@gmail.com" class="ci-card">
-        <div class="ci-icon"><i class="fas fa-envelope"></i></div>
-        <div><div class="ci-label">Email</div><div class="ci-value" data-i18n-html="contact.email">londe305@gmail.com</div></div>
-      </a>
-      <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener" class="ci-card">
-        <div class="ci-icon"><i class="fab fa-linkedin"></i></div>
-        <div><div class="ci-label">LinkedIn</div><div class="ci-value" data-i18n-html="contact.linkedin">Mon Profil LinkedIn</div></div>
-      </a>
-      <div class="ci-card" style="cursor:default">
-        <div class="ci-icon"><i class="fas fa-user"></i></div>
-        <div><div class="ci-label">Identité</div><div class="ci-value" data-i18n-html="contact.nom">Londé Balossa Lotus Espoir</div></div>
-      </div>
-    </div>
-
-    <div style="margin-top:2rem;text-align:center">
-      <a href="mailto:londe305@gmail.com" class="btn-primary">✉️ Envoyer un message</a>
-    </div>
-  </div>
+<section id="contact" style="background:var(--bg2)">  <div class="container-sm">    <div class="sec-tag">📞 CONTACT</div>    <h2 class="sec-title" data-i18n="contact.title">[=== CONTACT ===]</h2>    <p class="sec-sub">Disponible pour des questions, collaborations ou opportunités professionnelles.</p>    <div style="display:flex;flex-direction:column;gap:1rem">      <a href="mailto:londe305@gmail.com" class="ci-card">        <div class="ci-icon">
+<i class="fas fa-envelope">
+</i>
+</div>        <div>
+<div class="ci-label">Email</div>
+<div class="ci-value" data-i18n-html="contact.email">londe305@gmail.com</div>
+</div>      </a>      <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener" class="ci-card">        <div class="ci-icon">
+<i class="fab fa-linkedin">
+</i>
+</div>        <div>
+<div class="ci-label">LinkedIn</div>
+<div class="ci-value" data-i18n-html="contact.linkedin">Mon Profil LinkedIn</div>
+</div>      </a>      <div class="ci-card" style="cursor:default">        <div class="ci-icon">
+<i class="fas fa-user">
+</i>
+</div>        <div>
+<div class="ci-label">Identité</div>
+<div class="ci-value" data-i18n-html="contact.nom">Londé Balossa Lotus Espoir</div>
+</div>      </div>    </div>    <div style="margin-top:2rem;text-align:center">      <a href="mailto:londe305@gmail.com" class="btn-primary">✉️ Envoyer un message</a>    </div>  </div>
 </section>
-
+<!-- separator -->
+<div class="sec-sep">
+<div class="sec-sep-line">
+</div>
+<div class="sec-sep-num">8</div>
+<div class="sec-sep-line btm">
+</div>
+</div>
 <!-- ======== JEU – DINO SIO ======== -->
-<section id="jeu">
-  <div class="container-sm">
-    <div class="sec-tag">🎮 JEU</div>
-    <h2 class="sec-title" data-i18n="jeu.title">[=== JEU – DINO SIO ===]</h2>
-    <p class="sec-sub" data-i18n-html="jeu.note">Astuce : <kbd>Espace</kbd> ou <kbd>↑</kbd> pour sauter.</p>
-
-    <div class="game-wrap">
-      <div class="game-score-row">
-        <span><span data-i18n="jeu.score.label">Score</span> : <span class="game-score-num" id="score">0</span></span>
-        <span><span data-i18n="jeu.level.label">Niveau</span> : <span class="game-score-num" id="level-label">CP</span></span>
-      </div>
-      <canvas id="dino-canvas" width="800" height="200"></canvas>
-      <div id="game-msg" class="hidden"></div>
-      <div class="game-ui">
-        <button class="game-btn btn-start"      data-i18n="jeu.btn.start">▶ Démarrer</button>
-        <button class="game-btn btn-restart"    data-i18n="jeu.btn.restart">⟲ Rejouer</button>
-        <button class="game-btn btn-difficulty" data-i18n="jeu.btn.difficulty">⚙ Difficulté</button>
-      </div>
-    </div>
-  </div>
+<section id="jeu">  <div class="container-sm">    <div class="sec-tag">🎮 JEU</div>    <h2 class="sec-title" data-i18n="jeu.title">[=== JEU – DINO SIO ===]</h2>    <p class="sec-sub" data-i18n-html="jeu.note">Astuce : <kbd>Espace</kbd> ou <kbd>↑</kbd> pour sauter.</p>    <div class="game-wrap">      <div class="game-score-row">        <span>
+<span data-i18n="jeu.score.label">Score</span> : <span class="game-score-num" id="score">0</span>
+</span>        <span>
+<span data-i18n="jeu.level.label">Niveau</span> : <span class="game-score-num" id="level-label">CP</span>
+</span>      </div>      <canvas id="dino-canvas" width="800" height="200">
+</canvas>      <div id="game-msg" class="hidden">
+</div>      <div class="game-ui">        <button class="game-btn btn-start"      data-i18n="jeu.btn.start">▶ Démarrer</button>        <button class="game-btn btn-restart"    data-i18n="jeu.btn.restart">⟲ Rejouer</button>        <button class="game-btn btn-difficulty" data-i18n="jeu.btn.difficulty">⚙ Difficulté</button>      </div>    </div>  </div>
 </section>
-
 </main>
-
 <!-- FOOTER -->
-<footer>
-  <p>Portfolio &mdash; <strong>Londé Balossa Lotus Espoir</strong> · BTS SIO SISR · Alternant Transdev</p>
-  <p style="margin-top:.35rem;font-size:.75rem">londe305@gmail.com</p>
+<footer>  <p>Portfolio &mdash; <strong>Londé Balossa Lotus Espoir</strong> · BTS SIO SISR · Alternant Transdev</p>  <p style="margin-top:.35rem;font-size:.75rem">londe305@gmail.com</p>
 </footer>
-
-<!-- ============================================================
-     MODALS
-     ============================================================ -->
-
+<!-- ============================================================     MODALS     ============================================================ -->
 <!-- Blog modal -->
-<div class="modal" id="blogModal" onclick="if(event.target===this)closeModal()">
-  <div class="modal-box">
-    <button class="modal-close" onclick="closeModal()">✕</button>
-    <div class="modal-emoji" id="mEmoji"></div>
-    <div class="modal-title" id="mTitle"></div>
-    <div class="modal-meta"  id="mMeta"></div>
-    <div class="modal-body"  id="mBody"></div>
-  </div>
+<div class="modal" id="blogModal" onclick="if(event.target===this)closeModal()">  <div class="modal-box">    <button class="modal-close" onclick="closeModal()">✕</button>    <div class="modal-emoji" id="mEmoji">
+</div>    <div class="modal-title" id="mTitle">
+</div>    <div class="modal-meta"  id="mMeta">
+</div>    <div class="modal-body"  id="mBody">
+</div>  </div>
 </div>
-
 <!-- Game difficulty modal -->
-<div id="diff-modal" class="modal hidden">
-  <div class="modal-box" style="max-width:380px">
-    <button class="modal-close btn-close-modal">✕</button>
-    <div class="modal-emoji">⚙️</div>
-    <div class="modal-title" data-i18n="jeu.modal.title">Difficulté</div>
-    <p class="modal-meta"   data-i18n="jeu.modal.p">Si ce bouton existait, ce ne serait pas fun 😉</p>
-    <p style="font-size:.8rem;color:var(--muted);margin-bottom:1.25rem" data-i18n="jeu.modal.hint">(désactivé par choix philosophique)</p>
-    <button class="game-btn btn-close-modal" data-i18n="jeu.modal.close">Fermer</button>
-  </div>
+<div id="diff-modal" class="modal hidden">  <div class="modal-box" style="max-width:380px">    <button class="modal-close btn-close-modal">✕</button>    <div class="modal-emoji">⚙️</div>    <div class="modal-title" data-i18n="jeu.modal.title">Difficulté</div>    <p class="modal-meta"   data-i18n="jeu.modal.p">Si ce bouton existait, ce ne serait pas fun 😉</p>    <p style="font-size:.8rem;color:var(--muted);margin-bottom:1.25rem" data-i18n="jeu.modal.hint">(désactivé par choix philosophique)</p>    <button class="game-btn btn-close-modal" data-i18n="jeu.modal.close">Fermer</button>  </div>
 </div>
-
 <!-- Lightbox (for schema-gallery images) -->
-<div id="lightbox" class="hidden" role="dialog">
-  <img id="lightbox-img" src="" alt="Image agrandie">
-  <button class="lightbox-close">✕</button>
-  <button class="lightbox-prev">‹</button>
-  <button class="lightbox-next">›</button>
+<div id="lightbox" class="hidden" role="dialog">  <img id="lightbox-img" src="" alt="Image agrandie">  <button class="lightbox-close">✕</button>  <button class="lightbox-prev">‹</button>  <button class="lightbox-next">›</button>
 </div>
-
-<!-- ============================================================
-     SCRIPTS
-     ============================================================ -->
-<script>
-/* Polyfills for game.js and ui.js */
-window.$ = (s,c) => (c||document).querySelector(s);
-window.$$ = (s,c) => Array.from((c||document).querySelectorAll(s));
+<!-- ============================================================     SCRIPTS     ============================================================ -->
+<script>/* Polyfills for game.js and ui.js */window.$ = (s,c) => (c||document).querySelector(s);window.$$ = (s,c) => Array.from((c||document).querySelectorAll(s));</script>
+<script src="lang.js">
 </script>
-<script src="lang.js"></script>
-<script>
-/* Inject missing nav.blogs translation */
-const _extra = { fr:{'nav.blogs':'📝 Blogs'}, en:{'nav.blogs':'📝 Blogs'}, cn:{'nav.blogs':'📝 博客'} };
-['fr','en','cn'].forEach(l => Object.assign(translations[l], _extra[l]));
-
-/* ---- Navigation ---- */
-function navTo(id) {
-  const el = document.getElementById(id);
-  if (!el) return;
-  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
+<script>/* Inject missing nav.blogs translation */const _extra = { fr:{'nav.blogs':'📝 Blogs'}, en:{'nav.blogs':'📝 Blogs'}, cn:{'nav.blogs':'📝 博客'} };['fr','en','cn'].forEach(l => Object.assign(translations[l], _extra[l]));/* ---- Navigation ---- */function navTo(id) {  const el = document.getElementById(id);  if (!el) return;  el.scrollIntoView({ behavior: 'smooth', block: 'start' });}
 function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
-function closeMenu()  { document.getElementById('mobileMenu').classList.remove('open'); }
-
-/* ---- Tab switcher (generic) ---- */
-function switchTabs(pPrefix, bPrefix, id) {
-  document.querySelectorAll('[id^="' + pPrefix + '"]').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('[id^="' + bPrefix + '"]').forEach(b => b.classList.remove('active'));
-  const panel = document.getElementById(pPrefix + id);
-  const btn   = document.getElementById(bPrefix + id);
-  if (panel) panel.classList.add('active');
-  if (btn)   btn.classList.add('active');
-}
+function closeMenu()  { document.getElementById('mobileMenu').classList.remove('open'); }/* ---- Tab switcher (generic) ---- */function switchTabs(pPrefix, bPrefix, id) {  document.querySelectorAll('[id^="' + pPrefix + '"]').forEach(p => p.classList.remove('active'));  document.querySelectorAll('[id^="' + bPrefix + '"]').forEach(b => b.classList.remove('active'));  const panel = document.getElementById(pPrefix + id);  const btn   = document.getElementById(bPrefix + id);  if (panel) panel.classList.add('active');  if (btn)   btn.classList.add('active');}
 function activateAlt(id)     { switchTabs('alt-',     'alt-tab-',  id); }
 function activateProjet(id)  { switchTabs('proj-',    'proj-tab-', id); }
 function activateCrystal(id) { switchTabs('cry-',     'cry-tab-',  id); }
 function activateCert(id)    { switchTabs('cert-',    'cert-tab-', id); }
-function activateVeille(btn, panelId, rss) {
-  document.querySelectorAll('#veille .tab-panel').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('#veille .tab-btn').forEach(b => b.classList.remove('active'));
-  const panel = document.getElementById(panelId);
-  if (panel) panel.classList.add('active');
-  if (btn)   btn.classList.add('active');
-  if (rss)   loadVeilleRSS();
-}
-
-/* ---- Blogs ---- */
-const BLOGS = [
-  { id:1, emoji:'🔒',
-    title:'Zero Trust : ne jamais faire confiance, toujours vérifier',
-    desc:'Exploration du modèle Zero Trust Security : principes fondamentaux, comparaison avec le périmètre réseau traditionnel, et mise en pratique dans un lab ASA.',
-    tags:['Zero Trust','Cybersécurité','Réseau'], date:'2025-04-10', time:'8 min',
-    body:`<h3>Introduction</h3><p>Le Zero Trust est une philosophie fondée sur <em>"Ne jamais faire confiance, toujours vérifier"</em>. Contrairement aux approches basées sur un périmètre de confiance, chaque requête est traitée comme potentiellement hostile.</p>
-<h3>Principes clés</h3><ul><li><strong>Vérification systématique</strong> : authentification de chaque requête, même interne.</li><li><strong>Moindre privilège</strong> : accès minimal nécessaire.</li><li><strong>Micro-segmentation</strong> : isolation des zones réseau.</li><li><strong>Assume breach</strong> : supposer la compromission.</li></ul>
-<h3>Mise en pratique</h3><p>Dans mon lab avec un ASA 5505, j'ai implémenté des ACL strictes "deny any any" par défaut, avec uniquement les flux nécessaires autorisés. La PS3 sur le VLAN 40 est totalement isolée — parfait exemple de micro-segmentation.</p>
-<h3>Résultats</h3><p>Surface d'attaque drastiquement réduite. Chaque flux non autorisé génère un log dans Zabbix, permettant une réponse rapide aux incidents.</p>` },
-  { id:2, emoji:'🛠️',
-    title:'Crystal Network Refresh : migration SD-WAN en production',
-    desc:'Retour d\'expérience sur la migration du réseau Crystal vers une architecture SD-WAN v2 Fortinet, avec gestion ITIL et stratégie de rollback.',
-    tags:['SD-WAN','Fortinet','ITIL','Migration'], date:'2025-05-20', time:'10 min',
-    body:`<h3>Contexte du projet</h3><p>Le siège Crystal avait une infrastructure réseau vieillissante. La mission : migrer vers une architecture SD-WAN v2 avec des Fortigate 200G, remplacer 53 switches et déployer 80 bornes WiFi.</p>
-<h3>Défis rencontrés</h3><ul><li>Contraintes physiques en baie (espace, câblage)</li><li>Liaisons opérateurs non disponibles au démarrage</li><li>Dépendances externes nombreuses (serveurs, vidéo)</li><li>Pression sur la continuité de service</li></ul>
-<h3>Approche ITIL</h3><p>Chaque intervention a fait l'objet d'un Change Request validé en CAB. Une stratégie de rollback était systématiquement préparée avant toute intervention en production.</p>
-<h3>Lessons learned</h3><p>La préparation en staging est cruciale. Les tests en lab avant migration évitent 80% des surprises. La documentation en temps réel (runbooks) permet un rollback efficace si nécessaire.</p>` },
-  { id:3, emoji:'📡',
-    title:'Supervision réseau avec Zabbix : retour d\'expérience',
-    desc:'Comment Zabbix m\'a permis de gagner une visibilité complète sur mon infrastructure lab : SNMP, dashboards, alertes et détection d\'anomalies.',
-    tags:['Zabbix','Supervision','SNMP','Monitoring'], date:'2025-06-01', time:'7 min',
-    body:`<h3>Pourquoi Zabbix ?</h3><p>Pour mon lab Zero Trust, j'avais besoin d'une solution de supervision open-source, puissante et flexible. Zabbix s'est imposé : support SNMP natif, alertes configurables et dashboards complets.</p>
-<h3>Configuration SNMP</h3><ul><li>SNMP v2c sur switch Cisco et routeur</li><li>SNMP v3 sur l'ASA 5505 pour la sécurité</li><li>Community strings isolées par VLAN</li><li>Polling toutes les 60 secondes</li></ul>
-<h3>Dashboards</h3><p>Dashboard principal : état des interfaces, trafic par VLAN, taux de refus ACL du firewall, graphiques de bande passante — le tout en temps réel.</p>
-<h3>Alertes &amp; incidents</h3><p>Zabbix a détecté plusieurs anomalies : scans réseau depuis le VLAN Users, tentatives SSH non autorisées, et une interface tombée à cause d'un câble mal branché. Alerté en moins de 60 secondes.</p>` }
-];
-
-function renderBlogs() {
-  const g = document.getElementById('blogsGrid');
-  if (!g) return;
-  g.innerHTML = BLOGS.map(b => `<div class="b-card" onclick="openModal(${b.id})">
-    <div class="b-emoji">${b.emoji}</div>
-    <div class="b-title">${b.title}</div>
-    <div class="b-desc">${b.desc}</div>
-    <div class="b-tags">${b.tags.map(t=>`<span class="b-tag">${t}</span>`).join('')}</div>
-    <div class="b-meta">📅 ${b.date} · ⏱️ ${b.time}</div>
-  </div>`).join('');
-}
-function openModal(id) {
-  const b = BLOGS.find(x => x.id === id); if (!b) return;
-  document.getElementById('mEmoji').textContent = b.emoji;
-  document.getElementById('mTitle').textContent = b.title;
-  document.getElementById('mMeta').textContent  = `${b.date} · ${b.time} · ${b.tags.join(', ')}`;
-  document.getElementById('mBody').innerHTML    = b.body;
-  document.getElementById('blogModal').classList.add('open');
-  document.body.style.overflow = 'hidden';
-}
-function closeModal() {
-  document.getElementById('blogModal').classList.remove('open');
-  document.body.style.overflow = '';
-}
-
-/* ---- Escape key ---- */
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') {
-    closeModal();
-    const dm = document.getElementById('diff-modal');
-    if (dm && !dm.classList.contains('hidden')) dm.classList.add('hidden');
-  }
-});
-
-/* ---- Scroll spy ---- */
-const _sections = ['home','apropos','alternance','projets','certifications','veille','blogs','contact','jeu'];
-const _spy = new IntersectionObserver(entries => {
-  entries.forEach(e => {
-    if (e.isIntersecting) {
-      const id = e.target.id;
-      document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
-      document.querySelector(`.nav-link[data-section="${id}"]`)?.classList.add('active');
-    }
-  });
-}, { threshold: .2, rootMargin: '-80px 0px -60% 0px' });
-_sections.forEach(id => {
-  const el = document.getElementById(id);
-  if (el) _spy.observe(el);
-});
-
-/* ---- Reveal on scroll ---- */
-function observe() {
-  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); }), { threshold:.12 });
-  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-  const io2 = new IntersectionObserver(es => es.forEach(e => {
-    if (e.isIntersecting) { e.target.style.width = e.target.dataset.w + '%'; io2.unobserve(e.target); }
-  }), { threshold:.1 });
-  document.querySelectorAll('.sk-fill[data-w]').forEach(el => io2.observe(el));
-}
-
-/* ---- Cyberpunk background canvas ---- */
+function activateVeille(btn, panelId, rss) {  document.querySelectorAll('#veille .tab-panel').forEach(p => p.classList.remove('active'));  document.querySelectorAll('#veille .tab-btn').forEach(b => b.classList.remove('active'));  const panel = document.getElementById(panelId);  if (panel) panel.classList.add('active');  if (btn)   btn.classList.add('active');  if (rss)   loadVeilleRSS();}/* ---- Blogs ---- */const BLOGS = [  { id:1, emoji:'🔒',    title:'Zero Trust : ne jamais faire confiance, toujours vérifier',    desc:'Exploration du modèle Zero Trust Security : principes fondamentaux, comparaison avec le périmètre réseau traditionnel, et mise en pratique dans un lab ASA.',    tags:['Zero Trust','Cybersécurité','Réseau'], date:'2025-04-10', time:'8 min',    body:`<h3>Introduction</h3>
+<p>Le Zero Trust est une philosophie fondée sur <em>"Ne jamais faire confiance, toujours vérifier"</em>. Contrairement aux approches basées sur un périmètre de confiance, chaque requête est traitée comme potentiellement hostile.</p>
+<h3>Principes clés</h3>
+<ul>
+<li>
+<strong>Vérification systématique</strong> : authentification de chaque requête, même interne.</li>
+<li>
+<strong>Moindre privilège</strong> : accès minimal nécessaire.</li>
+<li>
+<strong>Micro-segmentation</strong> : isolation des zones réseau.</li>
+<li>
+<strong>Assume breach</strong> : supposer la compromission.</li>
+</ul>
+<h3>Mise en pratique</h3>
+<p>Dans mon lab avec un ASA 5505, j'ai implémenté des ACL strictes "deny any any" par défaut, avec uniquement les flux nécessaires autorisés. La PS3 sur le VLAN 40 est totalement isolée — parfait exemple de micro-segmentation.</p>
+<h3>Résultats</h3>
+<p>Surface d'attaque drastiquement réduite. Chaque flux non autorisé génère un log dans Zabbix, permettant une réponse rapide aux incidents.</p>` },  { id:2, emoji:'🛠️',    title:'Crystal Network Refresh : migration SD-WAN en production',    desc:'Retour d\'expérience sur la migration du réseau Crystal vers une architecture SD-WAN v2 Fortinet, avec gestion ITIL et stratégie de rollback.',    tags:['SD-WAN','Fortinet','ITIL','Migration'], date:'2025-05-20', time:'10 min',    body:`<h3>Contexte du projet</h3>
+<p>Le siège Crystal avait une infrastructure réseau vieillissante. La mission : migrer vers une architecture SD-WAN v2 avec des Fortigate 200G, remplacer 53 switches et déployer 80 bornes WiFi.</p>
+<h3>Défis rencontrés</h3>
+<ul>
+<li>Contraintes physiques en baie (espace, câblage)</li>
+<li>Liaisons opérateurs non disponibles au démarrage</li>
+<li>Dépendances externes nombreuses (serveurs, vidéo)</li>
+<li>Pression sur la continuité de service</li>
+</ul>
+<h3>Approche ITIL</h3>
+<p>Chaque intervention a fait l'objet d'un Change Request validé en CAB. Une stratégie de rollback était systématiquement préparée avant toute intervention en production.</p>
+<h3>Lessons learned</h3>
+<p>La préparation en staging est cruciale. Les tests en lab avant migration évitent 80% des surprises. La documentation en temps réel (runbooks) permet un rollback efficace si nécessaire.</p>` },  { id:3, emoji:'📡',    title:'Supervision réseau avec Zabbix : retour d\'expérience',    desc:'Comment Zabbix m\'a permis de gagner une visibilité complète sur mon infrastructure lab : SNMP, dashboards, alertes et détection d\'anomalies.',    tags:['Zabbix','Supervision','SNMP','Monitoring'], date:'2025-06-01', time:'7 min',    body:`<h3>Pourquoi Zabbix ?</h3>
+<p>Pour mon lab Zero Trust, j'avais besoin d'une solution de supervision open-source, puissante et flexible. Zabbix s'est imposé : support SNMP natif, alertes configurables et dashboards complets.</p>
+<h3>Configuration SNMP</h3>
+<ul>
+<li>SNMP v2c sur switch Cisco et routeur</li>
+<li>SNMP v3 sur l'ASA 5505 pour la sécurité</li>
+<li>Community strings isolées par VLAN</li>
+<li>Polling toutes les 60 secondes</li>
+</ul>
+<h3>Dashboards</h3>
+<p>Dashboard principal : état des interfaces, trafic par VLAN, taux de refus ACL du firewall, graphiques de bande passante — le tout en temps réel.</p>
+<h3>Alertes &amp; incidents</h3>
+<p>Zabbix a détecté plusieurs anomalies : scans réseau depuis le VLAN Users, tentatives SSH non autorisées, et une interface tombée à cause d'un câble mal branché. Alerté en moins de 60 secondes.</p>` }];function renderBlogs() {  const g = document.getElementById('blogsGrid');  if (!g) return;  g.innerHTML = BLOGS.map(b => `<div class="b-card" onclick="openModal(${b.id})">    <div class="b-emoji">${b.emoji}</div>    <div class="b-title">${b.title}</div>    <div class="b-desc">${b.desc}</div>    <div class="b-tags">${b.tags.map(t=>`<span class="b-tag">${t}</span>`).join('')}</div>    <div class="b-meta">📅 ${b.date} · ⏱️ ${b.time}</div>  </div>`).join('');}
+function openModal(id) {  const b = BLOGS.find(x => x.id === id); if (!b) return;  document.getElementById('mEmoji').textContent = b.emoji;  document.getElementById('mTitle').textContent = b.title;  document.getElementById('mMeta').textContent  = `${b.date} · ${b.time} · ${b.tags.join(', ')}`;  document.getElementById('mBody').innerHTML    = b.body;  document.getElementById('blogModal').classList.add('open');  document.body.style.overflow = 'hidden';}
+function closeModal() {  document.getElementById('blogModal').classList.remove('open');  document.body.style.overflow = '';}/* ---- Escape key ---- */document.addEventListener('keydown', e => {  if (e.key === 'Escape') {    closeModal();    const dm = document.getElementById('diff-modal');    if (dm && !dm.classList.contains('hidden')) dm.classList.add('hidden');  }});/* ---- Scroll spy ---- */const _sections = ['home','apropos','alternance','projets','certifications','veille','blogs','contact','jeu'];const _spy = new IntersectionObserver(entries => {  entries.forEach(e => {    if (e.isIntersecting) {      const id = e.target.id;      document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));      document.querySelector(`.nav-link[data-section="${id}"]`)?.classList.add('active');    }  });}, { threshold: .2, rootMargin: '-80px 0px -60% 0px' });_sections.forEach(id => {  const el = document.getElementById(id);  if (el) _spy.observe(el);});/* ---- Reveal on scroll ---- */function observe() {  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); }), { threshold:.12 });  document.querySelectorAll('.reveal').forEach(el => io.observe(el));  const io2 = new IntersectionObserver(es => es.forEach(e => {    if (e.isIntersecting) { e.target.style.width = e.target.dataset.w + '%'; io2.unobserve(e.target); }  }), { threshold:.1 });  document.querySelectorAll('.sk-fill[data-w]').forEach(el => io2.observe(el));}/* ---- Network equipment background canvas ---- */
 (function(){
-  const cv = document.getElementById('bg-canvas');
-  const cx = cv.getContext('2d');
-  let W, H, frame = 0;
+/* roundRect polyfill for older Safari */
+if(!CanvasRenderingContext2D.prototype.roundRect){CanvasRenderingContext2D.prototype.roundRect=function(x,y,w,h,r){r=Math.min(r,w/2,h/2);this.moveTo(x+r,y);this.lineTo(x+w-r,y);this.quadraticCurveTo(x+w,y,x+w,y+r);this.lineTo(x+w,y+h-r);this.quadraticCurveTo(x+w,y+h,x+w-r,y+h);this.lineTo(x+r,y+h);this.quadraticCurveTo(x,y+h,x,y+h-r);this.lineTo(x,y+r);this.quadraticCurveTo(x,y,x+r,y);this.closePath();};}
+const cv=document.getElementById('bg-canvas'),c=cv.getContext('2d');
+let W,H,raf,frame=0,nodes=[],edges=[],packets=[];
+const TEAL='#00f5d4',ORG='#ff6b35',PRP='#7b61ff';
 
-  const PALETTE = ['#00f5d4','#00b4d8','#4cc9f0','#48cae4','#00d4ff','#0096c7','#22d3ee'];
-  const PALETTE_B = ['#7b2ff7','#4361ee','#3a0ca3'];
-
-  /* ---- resize ---- */
-  function rsz() {
-    W = cv.width  = window.innerWidth;
-    H = cv.height = window.innerHeight;
-  }
-  rsz(); window.addEventListener('resize', rsz);
-
-  /* ================================================================
-     PARTICLES — float upward, fade, glow
-  ================================================================ */
-  class Particle {
-    constructor(init) {
-      this.x  = Math.random() * (W||1200);
-      this.y  = init ? Math.random() * (H||800) : (H||800) + 6;
-      this.vx = (Math.random() - .5) * .5;
-      this.vy = -(Math.random() * .7 + .15);
-      this.r  = Math.random() * 1.8 + .3;
-      this.col= PALETTE[Math.floor(Math.random() * PALETTE.length)];
-      this.a  = Math.random() * .75 + .15;
-      this.life  = 1;
-      this.decay = Math.random() * .0025 + .0008;
-      this.glow  = Math.random() > .6;
-    }
-    update() {
-      this.x += this.vx; this.y += this.vy;
-      this.life -= this.decay;
-      if (this.life <= 0 || this.y < -10) Object.assign(this, new Particle(false));
-    }
-    draw() {
-      const a = Math.max(0, this.a * this.life);
-      cx.save();
-      cx.globalAlpha = a;
-      if (this.glow) { cx.shadowBlur = 14; cx.shadowColor = this.col; }
-      cx.fillStyle = this.col;
-      cx.beginPath(); cx.arc(this.x, this.y, this.r, 0, Math.PI*2); cx.fill();
-      cx.restore();
-    }
-  }
-  const PTS = Array.from({length:90}, (_,i) => new Particle(true));
-
-  /* ================================================================
-     LIGHT STREAKS — fast horizontal beams
-  ================================================================ */
-  class Streak {
-    constructor() { this.spawn(); }
-    spawn() {
-      this.x     = -350;
-      this.y     = Math.random() * H;
-      this.len   = Math.random() * 280 + 80;
-      this.speed = Math.random() * 9 + 5;
-      this.a     = Math.random() * .35 + .05;
-      this.col   = Math.random() > .45 ? '#00f5d4' : '#4cc9f0';
-      this.h     = Math.random() * 1.5 + .5;
-      this.angle = (Math.random() - .5) * .18;
-      this.delay = Math.floor(Math.random() * 220);
-    }
-    update() { if (this.delay > 0) { this.delay--; return; } this.x += this.speed; if (this.x > W + 400) this.spawn(); }
-    draw() {
-      if (this.delay > 0) return;
-      cx.save();
-      cx.globalAlpha = this.a;
-      cx.translate(this.x, this.y); cx.rotate(this.angle);
-      const g = cx.createLinearGradient(-this.len, 0, this.len * .6, 0);
-      g.addColorStop(0,'transparent'); g.addColorStop(.35, this.col); g.addColorStop(.7, this.col); g.addColorStop(1,'transparent');
-      cx.shadowBlur = 8; cx.shadowColor = this.col;
-      cx.fillStyle = g;
-      cx.fillRect(-this.len, -this.h/2, this.len * 1.6, this.h);
-      cx.restore();
-    }
-  }
-  const STREAKS = Array.from({length:8}, () => new Streak());
-
-  /* ================================================================
-     ENERGY WAVES — expanding rings
-  ================================================================ */
-  class Wave {
-    constructor() {
-      this.x   = Math.random() * W;
-      this.y   = Math.random() * H;
-      this.r   = 0;
-      this.max = Math.random() * 220 + 80;
-      this.spd = Math.random() * 1.2 + .4;
-      this.col = PALETTE[Math.floor(Math.random() * 4)];
-    }
-    update() { this.r += this.spd; }
-    draw() {
-      const a = .45 * (1 - this.r / this.max);
-      if (a <= 0) return;
-      cx.save();
-      cx.globalAlpha = a;
-      cx.strokeStyle = this.col;
-      cx.lineWidth = 1.2;
-      cx.shadowBlur = 10; cx.shadowColor = this.col;
-      cx.beginPath(); cx.arc(this.x, this.y, this.r, 0, Math.PI*2); cx.stroke();
-      cx.restore();
-    }
-    dead() { return this.r >= this.max; }
-  }
-  let waves = [], waveT = 0;
-
-  /* ================================================================
-     NETWORK NODES — static positions, animated flow dots on edges
-  ================================================================ */
-  let nodes = [], flowDots = [], nodeT = 0;
-  function buildNodes() {
-    nodes = Array.from({length:18}, () => ({
-      x: Math.random() * W, y: Math.random() * H,
-      col: PALETTE[Math.floor(Math.random() * 3)],
-      r: Math.random() * 2 + 1
-    }));
-    flowDots = [];
-    nodes.forEach((n,i) => {
-      nodes.forEach((m,j) => {
-        if (j <= i) return;
-        const d = Math.hypot(n.x-m.x, n.y-m.y);
-        if (d < 260) flowDots.push({ ax:n.x, ay:n.y, bx:m.x, by:m.y, t:Math.random(), spd: .003+Math.random()*.004, col:n.col });
-      });
-    });
-  }
-
-  /* ================================================================
-     DEEP GLOW ORBS — slow-moving soft light blobs
-  ================================================================ */
-  const ORBS = [
-    { x:.12, y:.28, r:.38, c:'rgba(0,119,182,.055)', vx:.00008, vy:.00005 },
-    { x:.82, y:.62, r:.32, c:'rgba(0,245,212,.040)', vx:-.00006, vy:.00007 },
-    { x:.50, y:.88, r:.28, c:'rgba(123,47,247,.038)', vx:.00007, vy:-.00006 },
-    { x:.65, y:.18, r:.22, c:'rgba(0,180,216,.045)', vx:-.00005, vy:.00008 },
-  ];
-
-  /* ================================================================
-     DRAW FUNCTIONS
-  ================================================================ */
-  function drawGrid() {
-    cx.save();
-    /* horizontal lines — subtle fade from center */
-    const gs = 55;
-    for (let y = 0; y < H; y += gs) {
-      const a = .025 + .015 * Math.sin(frame*.008 + y*.015);
-      cx.globalAlpha = a;
-      cx.strokeStyle = '#00f5d4';
-      cx.lineWidth = .5;
-      cx.beginPath(); cx.moveTo(0,y); cx.lineTo(W,y); cx.stroke();
-    }
-    for (let x = 0; x < W; x += gs) {
-      const a = .025 + .015 * Math.sin(frame*.008 + x*.015);
-      cx.globalAlpha = a;
-      cx.beginPath(); cx.moveTo(x,0); cx.lineTo(x,H); cx.stroke();
-    }
-    cx.restore();
-  }
-
-  function drawOrbs() {
-    ORBS.forEach(o => {
-      o.x = (o.x + o.vx + 1) % 1.2 - .1;
-      o.y = (o.y + o.vy + 1) % 1.2 - .1;
-      const px = o.x*W, py = o.y*H, pr = o.r * Math.min(W,H);
-      const g = cx.createRadialGradient(px,py,0,px,py,pr);
-      g.addColorStop(0, o.c); g.addColorStop(1,'transparent');
-      cx.save(); cx.globalAlpha = 1;
-      cx.fillStyle = g;
-      cx.beginPath(); cx.arc(px,py,pr,0,Math.PI*2); cx.fill();
-      cx.restore();
-    });
-  }
-
-  function drawNetwork() {
-    /* edges */
-    nodes.forEach((n,i) => {
-      nodes.forEach((m,j) => {
-        if (j <= i) return;
-        const d = Math.hypot(n.x-m.x, n.y-m.y);
-        if (d < 260) {
-          cx.save();
-          cx.globalAlpha = .06 * (1 - d/260);
-          cx.strokeStyle = '#00b4d8';
-          cx.lineWidth = .6;
-          cx.beginPath(); cx.moveTo(n.x,n.y); cx.lineTo(m.x,m.y); cx.stroke();
-          cx.restore();
-        }
-      });
-      /* node dot */
-      cx.save();
-      cx.globalAlpha = .4;
-      cx.shadowBlur = 8; cx.shadowColor = n.col;
-      cx.fillStyle = n.col;
-      cx.beginPath(); cx.arc(n.x,n.y,n.r,0,Math.PI*2); cx.fill();
-      cx.restore();
-    });
-    /* animated flow dots on edges */
-    flowDots.forEach(fd => {
-      fd.t = (fd.t + fd.spd) % 1;
-      const px = fd.ax + (fd.bx-fd.ax)*fd.t;
-      const py = fd.ay + (fd.by-fd.ay)*fd.t;
-      cx.save();
-      cx.globalAlpha = .7;
-      cx.shadowBlur = 10; cx.shadowColor = fd.col;
-      cx.fillStyle = fd.col;
-      cx.beginPath(); cx.arc(px,py,1.4,0,Math.PI*2); cx.fill();
-      cx.restore();
-    });
-  }
-
-  function drawParticleConnections() {
-    for (let i = 0; i < PTS.length; i++) {
-      for (let j = i+1; j < PTS.length; j++) {
-        const dx=PTS[i].x-PTS[j].x, dy=PTS[i].y-PTS[j].y, d=Math.hypot(dx,dy);
-        if (d < 100) {
-          cx.save();
-          cx.globalAlpha = .07*(1-d/100)*PTS[i].life*PTS[j].life;
-          cx.strokeStyle='#00f5d4'; cx.lineWidth=.4;
-          cx.beginPath(); cx.moveTo(PTS[i].x,PTS[i].y); cx.lineTo(PTS[j].x,PTS[j].y); cx.stroke();
-          cx.restore();
-        }
-      }
-    }
-  }
-
-  /* ================================================================
-     MAIN LOOP
-  ================================================================ */
-  buildNodes();
-
-  function loop() {
-    frame++;
-
-    /* base fill — very dark */
-    cx.fillStyle = '#050b14';
-    cx.fillRect(0,0,W,H);
-
-    drawOrbs();
-    drawGrid();
-
-    /* waves */
-    waveT++;
-    if (waveT % 80 === 0) waves.push(new Wave());
-    waves.forEach(w => { w.update(); w.draw(); });
-    waves = waves.filter(w => !w.dead());
-
-    /* streaks */
-    STREAKS.forEach(s => { s.update(); s.draw(); });
-
-    /* network */
-    nodeT++;
-    if (nodeT % 1200 === 0) buildNodes(); /* rebuild every ~20s so nodes drift */
-    drawNetwork();
-
-    /* particle connections + particles */
-    drawParticleConnections();
-    PTS.forEach(p => { p.update(); p.draw(); });
-
-    requestAnimationFrame(loop);
-  }
-  requestAnimationFrame(loop);
-})();
-
-/* ---- RSS (inline fallback) ---- */
-const _RSS_KEY = 'portfolioRSS', _RSS_TTL = 600000;
-const _RSS_FEEDS = [
-  { url:'https://feeds.feedburner.com/TheHackersNews', name:'Hacker News' },
-  { url:'https://krebsonsecurity.com/feed/', name:'Krebs' },
-  { url:'https://arstechnica.com/security/feed/', name:'Ars Tech' }
-];
-function _getRSSCache() { try{const r=localStorage.getItem(_RSS_KEY);if(!r)return null;const{ts,items}=JSON.parse(r);return Date.now()-ts<_RSS_TTL?items:null;}catch{return null;} }
-function _setRSSCache(items){try{localStorage.setItem(_RSS_KEY,JSON.stringify({ts:Date.now(),items}));}catch{}}
-async function _fetchURL(url,ms=8000){const c=new AbortController(),t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal});clearTimeout(t);return r;}catch(e){clearTimeout(t);throw e;}}
-function _parseRSS(xml,name){try{const d=new DOMParser().parseFromString(xml,'text/xml');return Array.from(d.querySelectorAll('item')).slice(0,6).map(el=>({title:el.querySelector('title')?.textContent?.trim()||'?',link:el.querySelector('link')?.textContent?.trim()||'#',pubDate:el.querySelector('pubDate')?.textContent?.trim()||'',source:name}));}catch{return[];}}
-async function _fetchFeed(feed){
-  try{const r=await _fetchURL(`https://api.allorigins.win/get?url=${encodeURIComponent(feed.url)}`);if(r.ok){const d=await r.json();if(d?.contents){const i=_parseRSS(d.contents,feed.name);if(i.length)return i;}}}catch{}
-  try{const r=await _fetchURL(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}&count=6`,6000);if(r.ok){const d=await r.json();if(d.status==='ok'&&d.items?.length)return d.items.map(i=>({title:i.title||'?',link:i.link||'#',pubDate:i.pubDate||'',source:feed.name}));}}catch{}
-  return [];
+function drawRouter(x,y,r,a){
+  c.save();c.globalAlpha=a;
+  c.beginPath();c.arc(x,y,r,0,Math.PI*2);
+  c.strokeStyle=TEAL;c.fillStyle='rgba(0,245,212,.07)';c.lineWidth=1;c.fill();c.stroke();
+  [[0,-1],[1,0],[0,1],[-1,0]].forEach(([dx,dy])=>{
+    const ex=x+dx*r*1.38,ey=y+dy*r*1.38;
+    c.beginPath();c.moveTo(x+dx*r*.6,y+dy*r*.6);c.lineTo(ex,ey);
+    c.strokeStyle=TEAL;c.lineWidth=.9;c.stroke();
+    const ag=Math.atan2(dy,dx);
+    c.beginPath();c.moveTo(ex,ey);
+    c.lineTo(ex-r*.27*Math.cos(ag-.5),ey-r*.27*Math.sin(ag-.5));
+    c.lineTo(ex-r*.27*Math.cos(ag+.5),ey-r*.27*Math.sin(ag+.5));
+    c.closePath();c.fillStyle=TEAL;c.fill();
+  });
+  c.restore();
 }
+function drawSwitch(x,y,r,a){
+  c.save();c.globalAlpha=a;
+  const w=r*2.4,h=r*1.1;
+  c.beginPath();c.roundRect(x-w/2,y-h/2,w,h,3);
+  c.strokeStyle=TEAL;c.fillStyle='rgba(0,245,212,.06)';c.lineWidth=1;c.fill();c.stroke();
+  for(let i=0;i<6;i++){
+    const px=x-w*.38+i*(w*.76/5);
+    c.beginPath();c.arc(px,y+1,2.2,0,Math.PI*2);
+    c.fillStyle=i<4?'rgba(0,245,212,.7)':'rgba(255,107,53,.6)';c.fill();
+  }
+  c.restore();
+}
+function drawFirewall(x,y,r,a){
+  c.save();c.globalAlpha=a;
+  c.beginPath();c.moveTo(x,y-r);
+  c.bezierCurveTo(x+r*.9,y-r*.75,x+r*.9,y+r*.1,x,y+r*.9);
+  c.bezierCurveTo(x-r*.9,y+r*.1,x-r*.9,y-r*.75,x,y-r);
+  c.strokeStyle=ORG;c.fillStyle='rgba(255,107,53,.07)';c.lineWidth=1;c.fill();c.stroke();
+  c.beginPath();c.moveTo(x-r*.28,y+r*.05);c.lineTo(x-r*.02,y+r*.38);c.lineTo(x+r*.35,y-r*.22);
+  c.strokeStyle=ORG;c.lineWidth=1.4;c.stroke();
+  c.restore();
+}
+function drawServer(x,y,r,a){
+  c.save();c.globalAlpha=a;
+  const w=r*1.7,row=r*.58;
+  for(let i=0;i<3;i++){
+    const ry=y-r*.85+i*row;
+    c.beginPath();c.roundRect(x-w/2,ry,w,row-2,2);
+    c.strokeStyle=PRP;c.fillStyle='rgba(123,97,255,.07)';c.lineWidth=.9;c.fill();c.stroke();
+    c.beginPath();c.arc(x+w*.36,ry+row/2-1,2,0,Math.PI*2);
+    c.fillStyle=i===0?'rgba(0,245,212,.85)':'rgba(123,97,255,.5)';c.fill();
+  }
+  c.restore();
+}
+function drawPC(x,y,r,a){
+  c.save();c.globalAlpha=a;
+  const mw=r*1.9,mh=r*1.3;
+  c.beginPath();c.roundRect(x-mw/2,y-mh/2-3,mw,mh,3);
+  c.strokeStyle='rgba(0,245,212,.45)';c.fillStyle='rgba(0,245,212,.04)';c.lineWidth=.9;c.fill();c.stroke();
+  if(frame%60<35){c.beginPath();c.moveTo(x-mw*.18,y+mh*.1);c.lineTo(x-mw*.08,y+mh*.1);c.strokeStyle='rgba(0,245,212,.6)';c.lineWidth=1;c.stroke();}
+  c.beginPath();c.moveTo(x,y+mh/2-3);c.lineTo(x,y+mh/2+5);c.moveTo(x-r*.4,y+mh/2+5);c.lineTo(x+r*.4,y+mh/2+5);
+  c.strokeStyle='rgba(0,245,212,.35)';c.stroke();
+  c.restore();
+}
+function drawAP(x,y,r,a){
+  c.save();c.globalAlpha=a;
+  for(let i=0;i<3;i++){
+    c.beginPath();c.arc(x,y+r*.1,r*(.35+i*.3),-Math.PI*.78,-Math.PI*.22);
+    c.strokeStyle=`rgba(0,245,212,${.55-i*.12})`;c.lineWidth=1;c.stroke();
+  }
+  c.beginPath();c.arc(x,y+r*.1,2.5,0,Math.PI*2);c.fillStyle=TEAL;c.fill();
+  c.restore();
+}
+
+const FN={router:drawRouter,switch:drawSwitch,firewall:drawFirewall,server:drawServer,pc:drawPC,ap:drawAP};
+const COL={router:TEAL,switch:TEAL,firewall:ORG,server:PRP,pc:TEAL,ap:TEAL};
+const LBL={
+  router:['Core-R','Edge-R','R1','R2','BGP-R'],
+  switch:['SW-Core','SW-Dist','L3-SW','Access-1','SW2'],
+  firewall:['ASA-5505','FortiGate','FW-DMZ','PFSense'],
+  server:['Zabbix','DC01','SRV-01','AD-DS','NTP'],
+  pc:['WS-01','Client','HOST-A','PC-Sec'],
+  ap:['AP-RDC','AP-1F','WAP-Conf','WiFi6']
+};
+function rndLbl(t){const l=LBL[t];return l[Math.floor(Math.random()*l.length)];}
+
+function build(){
+  nodes=[];edges=[];packets=[];
+  const cnt=Math.max(10,Math.floor(W*H/90000)+6);
+  const tps=['router','switch','firewall','server','pc','pc','pc','ap'];
+  const forced=['firewall','router','server','switch'];
+  for(let i=0;i<cnt;i++){
+    nodes.push({x:70+Math.random()*(W-140),y:70+Math.random()*(H-140),
+      type:i<forced.length?forced[i]:tps[Math.floor(Math.random()*tps.length)],
+      ph:Math.random()*Math.PI*2,glow:0,label:''});
+  }
+  nodes.forEach(n=>{n.label=rndLbl(n.type);});
+  nodes.forEach((n,i)=>{
+    const ds=nodes.map((m,j)=>({j,d:Math.hypot(n.x-m.x,n.y-m.y)}))
+      .filter(d=>d.j!==i).sort((a,b)=>a.d-b.d);
+    ds.slice(0,2+(Math.random()<.3?1:0)).forEach(({j})=>{
+      if(!edges.find(e=>(e.a===i&&e.b===j)||(e.a===j&&e.b===i)))
+        edges.push({a:i,b:j,off:0});
+    });
+  });
+  edges.forEach(e=>{
+    if(Math.random()<.55) packets.push({
+      ei:edges.indexOf(e),t:Math.random(),
+      spd:.0025+Math.random()*.003,
+      dir:Math.random()<.5?1:-1,
+      col:Math.random()<.12?ORG:TEAL
+    });
+  });
+}
+
+function loop(){
+  frame++;
+  c.fillStyle='#080c14';c.fillRect(0,0,W,H);
+  [{x:.15,y:.3,r:.42,col:'rgba(0,245,212,.018)'},{x:.85,y:.65,r:.38,col:'rgba(0,180,216,.014)'}].forEach(o=>{
+    const g=c.createRadialGradient(o.x*W,o.y*H,0,o.x*W,o.y*H,o.r*W);
+    g.addColorStop(0,o.col);g.addColorStop(1,'transparent');
+    c.fillStyle=g;c.fillRect(0,0,W,H);
+  });
+  /* Edges */
+  edges.forEach(e=>{
+    const a=nodes[e.a],b=nodes[e.b];e.off-=.18;
+    c.save();c.globalAlpha=.055;c.strokeStyle=TEAL;c.lineWidth=.55;
+    c.setLineDash([5,9]);c.lineDashOffset=e.off;
+    c.beginPath();c.moveTo(a.x,a.y);c.lineTo(b.x,b.y);c.stroke();
+    c.setLineDash([]);c.restore();
+  });
+  /* Packets */
+  packets.forEach(p=>{
+    const e=edges[p.ei];if(!e)return;
+    const a=nodes[e.a],b=nodes[e.b];
+    const x=a.x+(b.x-a.x)*p.t,y=a.y+(b.y-a.y)*p.t;
+    c.save();c.globalAlpha=.82;c.shadowBlur=10;c.shadowColor=p.col;
+    c.fillStyle=p.col;c.beginPath();c.arc(x,y,2.8,0,Math.PI*2);c.fill();c.restore();
+    p.t+=p.spd*p.dir;
+    if(p.t>1||p.t<0){p.dir*=-1;p.t=Math.max(0,Math.min(1,p.t));
+      const ni=p.dir===1?e.a:e.b;if(nodes[ni])nodes[ni].glow=1;}
+  });
+  /* Nodes */
+  nodes.forEach(n=>{
+    const r=13,a=.42+.18*Math.sin(n.ph+frame*.018);
+    if(n.glow>0){
+      c.save();c.globalAlpha=n.glow*.22;c.shadowBlur=18;c.shadowColor=COL[n.type]||TEAL;
+      c.beginPath();c.arc(n.x,n.y,r+8,0,Math.PI*2);
+      c.strokeStyle=COL[n.type]||TEAL;c.lineWidth=1.5;c.stroke();
+      c.restore();n.glow=Math.max(0,n.glow-.025);
+    }
+    (FN[n.type]||drawPC)(n.x,n.y,r,a);
+    c.save();c.globalAlpha=a+.08;c.font='8.5px "JetBrains Mono",monospace';
+    c.fillStyle=COL[n.type]||TEAL;c.textAlign='center';
+    c.fillText(n.label,n.x,n.y+r+13);c.restore();
+    n.ph+=.008;
+  });
+  raf=requestAnimationFrame(loop);
+}
+
+function init(){W=cv.width=window.innerWidth;H=cv.height=window.innerHeight;build();loop();}
+window.addEventListener('resize',()=>{cancelAnimationFrame(raf);W=cv.width=window.innerWidth;H=cv.height=window.innerHeight;build();});
+init();
+})();/* ---- RSS (inline fallback) ---- */const _RSS_KEY = 'portfolioRSS', _RSS_TTL = 600000;const _RSS_FEEDS = [  { url:'https://feeds.feedburner.com/TheHackersNews', name:'Hacker News' },  { url:'https://krebsonsecurity.com/feed/', name:'Krebs' },  { url:'https://arstechnica.com/security/feed/', name:'Ars Tech' }];function _getRSSCache() { try{const r=localStorage.getItem(_RSS_KEY);if(!r)return null;const{ts,items}=JSON.parse(r);return Date.now()-ts<_RSS_TTL?items:null;}
+catch{return null;} }
+function _setRSSCache(items){try{localStorage.setItem(_RSS_KEY,JSON.stringify({ts:Date.now(),items}));}
+catch{}}
+async function _fetchURL(url,ms=8000){const c=new AbortController(),t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal});clearTimeout(t);return r;}
+catch(e){clearTimeout(t);throw e;}}
+function _parseRSS(xml,name){try{const d=new DOMParser().parseFromString(xml,'text/xml');return Array.from(d.querySelectorAll('item')).slice(0,6).map(el=>({title:el.querySelector('title')?.textContent?.trim()||'?',link:el.querySelector('link')?.textContent?.trim()||'#',pubDate:el.querySelector('pubDate')?.textContent?.trim()||'',source:name}));}
+catch{return[];}}
+async function _fetchFeed(feed){  try{const r=await _fetchURL(`https://api.allorigins.win/get?url=${encodeURIComponent(feed.url)}`);if(r.ok){const d=await r.json();if(d?.contents){const i=_parseRSS(d.contents,feed.name);if(i.length)return i;}}}
+catch{}  try{const r=await _fetchURL(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}&count=6`,6000);if(r.ok){const d=await r.json();if(d.status==='ok'&&d.items?.length)return d.items.map(i=>({title:i.title||'?',link:i.link||'#',pubDate:i.pubDate||'',source:feed.name}));}}
+catch{}  return [];}
 async function _fetchAllRSS(){const res=await Promise.allSettled(_RSS_FEEDS.map(_fetchFeed));return res.filter(r=>r.status==='fulfilled').flatMap(r=>r.value).sort((a,b)=>new Date(b.pubDate)-new Date(a.pubDate)).slice(0,18);}
-function _renderRSS(c,items){c.innerHTML=items.map(i=>{const d=i.pubDate?new Date(i.pubDate).toLocaleDateString('fr-FR'):'–';return`<p><a href="${i.link}" target="_blank" rel="noopener">${i.title}</a><span style="color:var(--c);font-size:.72rem;margin-left:6px">[${i.source}]</span><br><small style="color:var(--muted)">${d}</small></p>`;}).join('');}
-let _rssLoading = false;
-async function loadVeilleRSS() {
-  const c = document.getElementById('rss-container'); if (!c || _rssLoading) return;
-  const cached = _getRSSCache();
-  if (cached?.length) { _renderRSS(c, cached); _rssLoading=true; _fetchAllRSS().then(i=>{if(i.length){_setRSSCache(i);_renderRSS(c,i);}}).finally(()=>{_rssLoading=false;}); return; }
-  _rssLoading = true; c.innerHTML = '<p style="color:var(--muted)">📡 Chargement des actualités…</p>';
-  try { const items = await _fetchAllRSS(); if (items.length) { _setRSSCache(items); _renderRSS(c, items); } else c.innerHTML='<p style="color:var(--muted)">⚠️ Flux indisponibles.</p>'; } finally { _rssLoading = false; }
-}
-
-/* ---- Init ---- */
-renderBlogs();
-observe();
+function _renderRSS(c,items){c.innerHTML=items.map(i=>{const d=i.pubDate?new Date(i.pubDate).toLocaleDateString('fr-FR'):'–';return`<p>
+<a href="${i.link}" target="_blank" rel="noopener">${i.title}</a>
+<span style="color:var(--c);font-size:.72rem;margin-left:6px">[${i.source}]</span>
+<br>
+<small style="color:var(--muted)">${d}</small>
+</p>`;}).join('');}
+let _rssLoading = false;async function loadVeilleRSS() {  const c = document.getElementById('rss-container'); if (!c || _rssLoading) return;  const cached = _getRSSCache();  if (cached?.length) { _renderRSS(c, cached); _rssLoading=true; _fetchAllRSS().then(i=>{if(i.length){_setRSSCache(i);_renderRSS(c,i);}}).finally(()=>{_rssLoading=false;}); return; }  _rssLoading = true; c.innerHTML = '<p style="color:var(--muted)">📡 Chargement des actualités…</p>';  try { const items = await _fetchAllRSS(); if (items.length) { _setRSSCache(items); _renderRSS(c, items); } else c.innerHTML='<p style="color:var(--muted)">⚠️ Flux indisponibles.</p>'; } finally { _rssLoading = false; }}/* ---- Init ---- */renderBlogs();observe();</script>
+<script src="ui.js">
 </script>
-<script src="ui.js"></script>
-<script src="game.js"></script>
+<script src="game.js">
+</script>
 </body>
 </html>

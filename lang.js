@@ -815,10 +815,12 @@ function setLanguage(lang){
 function initLanguage(){
   const lang = getStoredLanguage();
   setLanguage(lang);
-  document.getElementById('lang-switcher')?.addEventListener('click', (e)=>{
-    const btn = e.target.closest('.lang-btn');
-    if (!btn) return;
-    setLanguage(btn.dataset.lang);
+  ['lang-switcher', 'lang-switcher-mob'].forEach(id => {
+    document.getElementById(id)?.addEventListener('click', (e) => {
+      const btn = e.target.closest('.lang-btn');
+      if (!btn) return;
+      setLanguage(btn.dataset.lang);
+    });
   });
 }
 document.addEventListener("DOMContentLoaded", () => {

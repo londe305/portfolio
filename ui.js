@@ -177,13 +177,13 @@ async function fetchAllFeeds() {
 /* ---- Rendu ---- */
 
 function buildRSSItem(item) {
-  const p    = document.createElement('p');
-  const date = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fr-FR') : 'Date inconnue';
-  p.innerHTML =
-    `<a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>` +
-    `<span style="color:var(--cyan,#00FFC6);font-size:0.75rem;margin-left:8px;">[${item.source}]</span><br>` +
-    `<small style="color:var(--text-dim,#64748b)">${date}</small>`;
-  return p;
+  const div  = document.createElement('div');
+  div.className = 'rss-item';
+  const date = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fr-FR') : '—';
+  div.innerHTML =
+    `<div class="rss-item-meta"><span class="rss-source">${item.source}</span><span class="rss-date">${date}</span></div>` +
+    `<a class="rss-title" href="${item.link}" target="_blank" rel="noopener">${item.title}</a>`;
+  return div;
 }
 
 function renderRSS(container, items) {
@@ -192,7 +192,7 @@ function renderRSS(container, items) {
 }
 
 function renderFallback(container) {
-  container.innerHTML = '<div class="rss-fallback">⚠️ Flux indisponibles — exemples.</div>';
+  container.innerHTML = '<p class="rss-notice">⚠️ Flux RSS indisponibles — affichage des exemples.</p>';
   RSS_FALLBACK.forEach(item => container.appendChild(buildRSSItem(item)));
 }
 
@@ -229,7 +229,7 @@ async function loadVeilleRSS() {
 
   // Pas de cache : chargement complet
   rssLoading = true;
-  container.innerHTML = '<p style="color:var(--text-muted)">📡 Chargement des actualités…</p>';
+  container.innerHTML = '<p class="rss-notice">📡 Chargement des actualités…</p>';
   try {
     const items = await fetchAllFeeds();
     if (items.length) { setRSSCache(items); renderRSS(container, items); }
@@ -239,20 +239,5 @@ async function loadVeilleRSS() {
   }
 }
 
-/* ---- Chargement paresseux : déclenché quand #zt-news devient actif ---- */
-
-(function watchVeilleNews() {
-  const newsPanel = document.getElementById('zt-news');
-  if (!newsPanel) return;
-
-  // Déjà actif au chargement (rare mais possible)
-  if (newsPanel.classList.contains('active')) { loadVeilleRSS(); return; }
-
-  // L'observer reste actif pour permettre les rechargements ultérieurs
-  const observer = new MutationObserver(() => {
-    if (newsPanel.classList.contains('active')) {
-      loadVeilleRSS();
-    }
-  });
-  observer.observe(newsPanel, { attributes: true, attributeFilter: ['class'] });
-})();
+/* ---- Exposition globale (appelée directement par activateVeille) ---- */
+window.loadVeilleRSS = loadVeilleRSS;
