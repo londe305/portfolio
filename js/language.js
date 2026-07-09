@@ -225,7 +225,6 @@ export const translations = {
     "veille.tab.architecture": "Architecture",
     "veille.tab.usecases": "Cas d'usage",
     "veille.tab.analysis": "Analyse personnelle",
-    "veille.tab.news": "Actualités",
     "zt.concepts.h2": "Qu'est‑ce que le Zero Trust ?",
     "zt.concepts.p": "Le <strong>Zero Trust Security Model</strong> repose sur un principe fondamental : <strong>ne jamais faire confiance par défaut</strong>. Chaque accès est vérifié en continu, même à l'intérieur du réseau.",
     "zt.principles.h2": "Principes fondamentaux",
@@ -254,8 +253,6 @@ export const translations = {
     "zt.conclusion.p": "Le Zero Trust n'est pas un produit mais une stratégie globale indispensable pour renforcer la résilience face aux menaces actuelles.",
     "zt.faq.h2": "FAQ Zero Trust",
     "zt.faq.ul": "<li><strong>Zéro confiance ?</strong> → confiance vérifiée.</li><li><strong>Remplace le VPN ?</strong> → oui, via ZTNA.</li><li><strong>Déploiement long ?</strong> → progressif.</li><li><strong>Réservé aux grandes entreprises ?</strong> → non.</li>",
-    "zt.news.h2": "Actualités cybersécurité",
-    "zt.news.p": "(mise à jour automatique)",
     /* === CYBERVEILLE === */
     "cyberveille.title": "[=== AGRÉGATEUR CYBERSÉCURITÉ ===]",
     "cyberveille.sub": "Sources faisant autorité, dédupliquées et triées automatiquement — archives conservées 7 jours.",
@@ -498,7 +495,6 @@ export const translations = {
     "veille.tab.architecture": "Architecture",
     "veille.tab.usecases": "Use cases",
     "veille.tab.analysis": "Personal analysis",
-    "veille.tab.news": "News",
     "zt.concepts.h2": "What is Zero Trust?",
     "zt.concepts.p": "The <strong>Zero Trust Security Model</strong> is based on a fundamental principle: <strong>never trust by default</strong>. Every access is continuously verified, even inside the network.",
     "zt.principles.h2": "Core principles",
@@ -527,8 +523,6 @@ export const translations = {
     "zt.conclusion.p": "Zero Trust is not a product but a comprehensive strategy essential for strengthening resilience against current threats.",
     "zt.faq.h2": "Zero Trust FAQ",
     "zt.faq.ul": "<li><strong>Zero trust?</strong> → verified trust.</li><li><strong>Replaces VPN?</strong> → yes, via ZTNA.</li><li><strong>Long deployment?</strong> → progressive.</li><li><strong>For large enterprises only?</strong> → no.</li>",
-    "zt.news.h2": "Cybersecurity news",
-    "zt.news.p": "(automatic update)",
     /* === CYBERVEILLE === */
     "cyberveille.title": "[=== CYBERSECURITY AGGREGATOR ===]",
     "cyberveille.sub": "Authoritative sources, deduplicated and automatically sorted — archives kept for 7 days.",

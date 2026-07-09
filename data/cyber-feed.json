@@ -1,31 +1,5 @@
 [
   {
-    "id": "seed0001",
-    "title": "[Exemple] Faille critique activement exploitée dans un pare-feu d'entreprise",
-    "link": "https://www.cisa.gov/cybersecurity-advisories",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-08T08:00:00.000Z",
-    "summary": "Ceci est un article d'exemple affiché en attendant le premier passage du workflow GitHub Actions planifié, qui alimentera ce flux avec les vraies actualités.",
-    "cveIds": [
-      "CVE-2026-10001"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "seed0002",
-    "title": "[Exemple] Nouvelle vulnérabilité corrigée dans un CMS très utilisé",
-    "link": "https://thehackernews.com/",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-08T05:30:00.000Z",
-    "summary": "Article d'exemple — les données réelles apparaîtront après la première exécution planifiée de la collecte RSS.",
-    "cveIds": [
-      "CVE-2026-10045"
-    ],
-    "severity": "cve"
-  },
-  {
     "id": "911e32b08c0973a5",
     "title": "Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation",
     "link": "https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/",
@@ -33,17 +7,6 @@
     "category": "vendor",
     "pubDate": "2026-07-07T22:00:21.000Z",
     "summary": "A cybercrime campaign combined a loader-as-a-service framework and DLL sideloading via a Go-compiled fake MpClient.dll, a novel evasion layer combination.\nThe post Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation ap",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "seed0003",
-    "title": "[Exemple] Campagne de phishing ciblant des grandes entreprises",
-    "link": "https://www.bleepingcomputer.com/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-07T14:00:00.000Z",
-    "summary": "Article d'exemple utilisé comme donnée de secours tant que data/cyber-feed.json n'a pas encore été régénéré par le workflow planifié.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -68,17 +31,6 @@
     "category": "advisory",
     "pubDate": "2026-07-07T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nHitachi Energy is aware of a buffer overflow vulnerability that affects e-mesh EMS product versions listed in this document. Successful exploitation of this vulnerability could lead to a buffer overflow condition, potentia",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0a92aa9d3e6db446",
-    "title": "Labcenter Proteus 9",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-07T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could disclose information and allow a malicious user to execute arbitrary code on affected installations.\nThe following versions of Labcenter Proteus 9 are affected:\nProteu",
     "cveIds": [],
     "severity": "normal"
   },
@@ -147,39 +99,6 @@
     "category": "advisory",
     "pubDate": "2026-07-07T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could lead to privilege escalation, or result in a denial-of-service attack.\nThe following versions of Hydro-Québec Le Circuit Electrique charging station backend are affect",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "seed0004",
-    "title": "[Exemple] Alerte CERT-FR : incident affectant plusieurs organismes",
-    "link": "https://www.cert.ssi.gouv.fr/alerte/",
-    "source": "CERT-FR (alerte)",
-    "category": "alert",
-    "pubDate": "2026-07-06T09:15:00.000Z",
-    "summary": "Article d'exemple — sera remplacé par les vraies alertes CERT-FR après le premier run du script fetch-feed.mjs.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "seed0005",
-    "title": "[Exemple] Analyse d'une nouvelle famille de ransomware",
-    "link": "https://blog.talosintelligence.com/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-07-05T11:45:00.000Z",
-    "summary": "Article d'exemple — le vrai contenu Talos sera récupéré lors des prochaines collectes planifiées.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "seed0006",
-    "title": "[Exemple] Bonnes pratiques de durcissement Zero Trust",
-    "link": "https://isc.sans.edu/",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-04T16:20:00.000Z",
-    "summary": "Article d'exemple sans caractère critique, pour illustrer le rendu standard d'une carte du flux.",
     "cveIds": [],
     "severity": "normal"
   },

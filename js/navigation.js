@@ -9,7 +9,6 @@
 ===================================================== */
 
 import { $, $$ } from './utils.js';
-import { loadVeilleRSS } from './ui.js';
 
 export function navTo(id) {
   const el = document.getElementById(id);
@@ -35,14 +34,13 @@ function switchTabs(pPrefix, bPrefix, id) {
   if (btn)   btn.classList.add('active');
 }
 
-/* ---- Veille tabs are scoped to #veille and may trigger the RSS feed ---- */
-function activateVeille(btn, panelId, rss) {
+/* ---- Veille tabs are scoped to #veille ---- */
+function activateVeille(btn, panelId) {
   $$('#veille .tab-panel').forEach(p => p.classList.remove('active'));
   $$('#veille .tab-btn').forEach(b => b.classList.remove('active'));
   const panel = document.getElementById(panelId);
   if (panel) panel.classList.add('active');
   if (btn)   btn.classList.add('active');
-  if (rss)   loadVeilleRSS();
 }
 
 function handleDelegatedClick(e) {
@@ -61,7 +59,7 @@ function handleDelegatedClick(e) {
 
   const veilleBtn = e.target.closest('[data-veille-panel]');
   if (veilleBtn) {
-    activateVeille(veilleBtn, veilleBtn.dataset.veillePanel, veilleBtn.hasAttribute('data-veille-rss'));
+    activateVeille(veilleBtn, veilleBtn.dataset.veillePanel);
     return;
   }
 }
