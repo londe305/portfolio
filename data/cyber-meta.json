@@ -1,36 +1,36 @@
 {
-  "lastRun": "2026-07-09T08:19:39.245Z",
-  "totalItems": 20,
+  "lastRun": "2026-07-09T12:11:40.564Z",
+  "totalItems": 94,
   "sources": [
     {
       "name": "The Hacker News",
-      "ok": false,
-      "itemCount": 0,
-      "error": "self-signed certificate in certificate chain"
+      "ok": true,
+      "itemCount": 20,
+      "error": null
     },
     {
       "name": "BleepingComputer",
-      "ok": false,
-      "itemCount": 0,
-      "error": "self-signed certificate in certificate chain"
+      "ok": true,
+      "itemCount": 15,
+      "error": null
     },
     {
       "name": "Krebs on Security",
-      "ok": false,
-      "itemCount": 0,
-      "error": "self-signed certificate in certificate chain"
+      "ok": true,
+      "itemCount": 10,
+      "error": null
     },
     {
       "name": "Dark Reading",
-      "ok": false,
-      "itemCount": 0,
-      "error": "self-signed certificate in certificate chain"
+      "ok": true,
+      "itemCount": 20,
+      "error": null
     },
     {
       "name": "SecurityWeek",
-      "ok": false,
-      "itemCount": 0,
-      "error": "self-signed certificate in certificate chain"
+      "ok": true,
+      "itemCount": 10,
+      "error": null
     },
     {
       "name": "CISA",
@@ -52,9 +52,9 @@
     },
     {
       "name": "Microsoft Security Blog",
-      "ok": false,
-      "itemCount": 0,
-      "error": "self-signed certificate in certificate chain"
+      "ok": true,
+      "itemCount": 10,
+      "error": null
     },
     {
       "name": "Palo Alto Unit 42",
@@ -64,21 +64,21 @@
     },
     {
       "name": "Cisco Talos",
-      "ok": false,
-      "itemCount": 0,
-      "error": "self-signed certificate in certificate chain"
+      "ok": true,
+      "itemCount": 15,
+      "error": null
     },
     {
       "name": "SANS ISC",
-      "ok": false,
-      "itemCount": 0,
-      "error": "self-signed certificate in certificate chain"
+      "ok": true,
+      "itemCount": 10,
+      "error": null
     },
     {
       "name": "The Record",
-      "ok": false,
-      "itemCount": 0,
-      "error": "self-signed certificate in certificate chain"
+      "ok": true,
+      "itemCount": 5,
+      "error": null
     }
   ]
 }
