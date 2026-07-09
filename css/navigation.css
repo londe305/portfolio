@@ -1,0 +1,35 @@
+/* =====================================================
+   navigation.css — Mobile navigation drawer
+===================================================== */
+
+.mobile-menu{
+  display:none;position:fixed;top:var(--nav-h);left:0;right:0;z-index:99;
+  background:rgba(5,11,20,.97);backdrop-filter:blur(28px);
+  border-bottom:1px solid var(--border);padding:.65rem .75rem .9rem;
+  transform:translateY(-8px);opacity:0;transition:transform .22s ease,opacity .22s ease;
+}
+.mobile-menu.open{display:block;transform:translateY(0);opacity:1}
+.mob-link{
+  display:flex;align-items:center;gap:.5rem;width:100%;padding:.62rem .9rem;font-size:.86rem;
+  color:var(--muted);background:none;border:none;text-align:left;
+  border-radius:10px;transition:color .18s,background .18s;min-height:44px;
+}
+.mob-link:hover,.mob-link:active{color:var(--text);background:var(--cd)}
+.mob-section-label{font-size:.65rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:.35rem .9rem .1rem}
+.mob-divider{height:1px;background:var(--border);margin:.4rem .5rem}
+.mob-lang-row{display:flex;gap:.5rem;padding:.4rem .9rem}
+
+@media(max-width:768px){
+  .mobile-menu{
+    padding:.75rem .9rem 1rem;
+    animation:none;
+    max-height:calc(100vh - var(--nav-h));
+    overflow-y:auto;
+  }
+  .mob-link{
+    padding:.65rem .9rem;font-size:.85rem;
+    min-height:44px;display:flex;align-items:center;
+    border-radius:10px;
+  }
+  .mob-link:active{background:var(--cg)}
+}

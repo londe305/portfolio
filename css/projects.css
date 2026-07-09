@@ -1,0 +1,21 @@
+/* =====================================================
+   projects.css — Project content blocks
+   (tech diagrams, schema gallery, ASCII tech blocks, badges)
+   Used in experience.html, projects.html and certifications.html.
+===================================================== */
+
+.tech-block{
+  font-family:'JetBrains Mono',monospace;font-size:.8rem;
+  line-height:2.1;background:rgba(0,0,0,.45);
+  padding:1.1rem;border-radius:10px;color:var(--c);
+  border:1px solid var(--border);margin:.75rem 0;
+}
+.schema-ph{
+  border:1px dashed rgba(0,245,212,.2);border-radius:10px;
+  padding:1.5rem;text-align:center;color:var(--muted);font-size:.85rem;margin:.75rem 0;
+}
+.gbadge{
+  display:inline-block;padding:.2rem .6rem;
+  background:var(--cd);border:1px solid rgba(0,245,212,.28);
+  color:var(--c);border-radius:6px;font-size:.74rem;font-weight:600;
+}

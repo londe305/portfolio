@@ -1,0 +1,15 @@
+[
+  { "name": "The Hacker News",   "url": "https://feeds.feedburner.com/TheHackersNews",             "category": "news" },
+  { "name": "BleepingComputer",  "url": "https://www.bleepingcomputer.com/feed/",                   "category": "news" },
+  { "name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/",                         "category": "news" },
+  { "name": "Dark Reading",      "url": "https://www.darkreading.com/rss.xml",                       "category": "news" },
+  { "name": "SecurityWeek",      "url": "https://www.securityweek.com/feed/",                        "category": "news" },
+  { "name": "CISA",              "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",     "category": "advisory" },
+  { "name": "CERT-FR (avis)",    "url": "https://www.cert.ssi.gouv.fr/avis/feed/",                   "category": "advisory" },
+  { "name": "CERT-FR (alerte)",  "url": "https://www.cert.ssi.gouv.fr/alerte/feed/",                 "category": "alert" },
+  { "name": "Microsoft Security Blog", "url": "https://www.microsoft.com/en-us/security/blog/feed/", "category": "vendor" },
+  { "name": "Palo Alto Unit 42", "url": "https://unit42.paloaltonetworks.com/feed/",                 "category": "vendor" },
+  { "name": "Cisco Talos",       "url": "https://blog.talosintelligence.com/rss/",                   "category": "vendor" },
+  { "name": "SANS ISC",          "url": "https://isc.sans.edu/rssfeed.xml",                          "category": "advisory" },
+  { "name": "The Record",        "url": "https://therecord.media/feed",                              "category": "news" }
+]

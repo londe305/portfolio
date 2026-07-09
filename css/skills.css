@@ -1,0 +1,21 @@
+/* =====================================================
+   skills.css — Animated skill bars (used in hero.html)
+===================================================== */
+
+.sk-row{margin-bottom:.75rem}
+.sk-label{display:flex;justify-content:space-between;font-size:.82rem;margin-bottom:.3rem;color:var(--muted2)}
+.sk-label span:first-child{color:var(--text)}
+.sk-pct{color:var(--c);font-weight:600}
+.sk-track{height:6px;background:var(--bg2);border-radius:3px;overflow:hidden;border:1px solid var(--border);position:relative}
+.sk-fill{
+  height:100%;background:linear-gradient(90deg,var(--c),var(--purple));border-radius:3px;width:0;
+  transition:width 1.2s cubic-bezier(.4,0,.2,1);
+  box-shadow:0 0 10px rgba(0,245,212,.35),inset 0 1px 0 rgba(255,255,255,.15);
+}
+
+@media(max-width:768px){
+  .sk-label{font-size:.78rem}
+}
+@media(max-width:480px){
+  .sk-label{flex-wrap:wrap;gap:.15rem}
+}

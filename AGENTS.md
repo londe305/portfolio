@@ -1,243 +1,129 @@
 # Agent Instructions for Portfolio Project
 
-**Project**: Interactive French portfolio website with terminal-themed design for Londé Balossa Lotus Espoir (BTS SIO student).
+**Project**: Interactive French portfolio website for Londé Balossa Lotus Espoir (BTS SIO student), built as a component-based static site (no build step, no framework).
 
 ---
 
 ## Quick Start
 
-This is a **single-page application** with:
-- **3 files**: `index.html` (structure), `script.js` (navigation + game), `style.css` (theming)
-- **No build step** — open `index.html` in a browser to run
-- **Navigation pattern**: Sidebar triggers `goTo(sectionId, subId)` which swaps visible sections
-- **Language**: French UI throughout
-- **Design**: Cyberpunk terminal aesthetic with cyan accent (#33e6cc)
+- **No build step** — open `index.html` over **http(s)**, not `file://` (component loading uses `fetch`, which browsers block on `file://`). For local dev, serve the folder with any static server (e.g. VS Code "Live Server", `npx serve`, `python -m http.server`).
+- **Entry point**: `index.html` is a thin shell — it only declares mount points and loads `js/main.js` as an ES module. All real markup lives in `components/*.html` and is injected at runtime.
+- **Language**: French UI by default, with EN/中 switching via `js/language.js`.
+- **Design**: Dark cyberpunk/network theme, teal accent `#00f5d4`, animated network-equipment canvas background.
 
 ---
 
 ## Architecture Overview
 
-### HTML Structure
-- **Sidebar** (`.sidebar`): Fixed navigation with tree items + collapsible groups
-  - Data attributes drive navigation: `data-section`, `data-sub`
-  - Icons use emoji (🏠, 👤, 🏢, 🛠️, etc.)
-  
-- **Main content** (`.terminal`): Terminal-styled container with sections
-  - Each major section is a `<section id="...">` with class `.section`
-  - Subsections use **subtabs pattern**: `.subtabs` (tab list) + `.subpanels` (content)
-  - Only `.section.active` and `.subpanel.active` are visible
+```
+/index.html              shell: mount points + <link> stylesheets + js/main.js
+/components/*.html       one HTML fragment per section (no <html>/<head>/<body>)
+/css/*.css                one stylesheet per component + global.css (tokens/utilities, load first)
+/js/*.js                  ES modules
+/images/                  static assets (e.g. zerotrust-schema.jpg)
+```
 
-### Key Sections
-1. **home**: Welcome message
-2. **apropos**: About student, career goals, challenges
-3. **alternance**: Internship at Transdev (4 subsections: Arrival, Team, Mentor, Company)
-4. **projets**: Major project "Refresh Réseau Crystal" with nested subsections (overview, architecture, planning, risks, role)
-5. **certifications**: 8 certification categories (networking, systems, cloud, security, DevOps, ITSM, tools, other)
-6. **veille**: Technology watch with RSS carousel (feeds Hacker News & Transdev news)
-7. **contact**: Contact section (template available)
-8. **jeu**: Dino game ("ESPOIR RUN") — sprite-less canvas game using keyboard/pointer input
+### Component loading (`js/main.js`)
+
+- `COMPONENTS` is a `[name, mountId]` list. Each entry is fetched independently via `Promise.allSettled` — **one failing/missing component never blocks the others**.
+- After all components settle, feature modules are initialised, each wrapped in its own `try/catch` (`safeInit`) — a bug in one module (e.g. the game) cannot break navigation or language switching.
+- `initNetworkCanvas()` and `initNavigation()` (click delegation) run *immediately*, before components finish loading, since they don't depend on injected markup.
+
+### Adding a new section
+1. Create `components/<name>.html` with just the `<section id="...">...</section>` markup (no wrapper tags).
+2. Add `['<name>', '<name>-mount']` to `COMPONENTS` in `js/main.js`.
+3. Add `<div id="<name>-mount"></div>` in `index.html` at the right place (inside `<main>` if it's a scrolling section).
+4. Add a matching `css/<name>.css` and `<link>` it in `index.html`'s `<head>`.
+5. If the section has nav entries, add buttons with `data-nav="<name>"` in `components/header.html` / `components/navigation.html` (no `onclick` — see below).
 
 ---
 
 ## JavaScript Conventions
 
-### Core Navigation Functions
+### No inline `onclick` — event delegation only
+All interactivity is wired through **data attributes** + delegated `click` listeners attached once on `document` (in `js/navigation.js` / `js/projects.js`). This is required because markup is injected asynchronously — a listener attached to `document` works regardless of when its target appears.
 
-```javascript
-// Navigate to a section with optional subsection
-goTo(sectionId, subId = null)
-  - Activates section, syncs sidebar highlight, applies background class
-  - Pauses/resumes game automatically
-  - Closes mobile menu on narrow screens
+| Attribute | Handled in | Effect |
+|---|---|---|
+| `data-nav="home"` | navigation.js | Smooth-scrolls to `#home`, closes mobile menu |
+| `data-action="toggle-menu"` | navigation.js | Toggles `.mobile-menu.open` |
+| `data-tab-group="alt"` `data-tab-id="arrivee"` | navigation.js | Generic tab switch: shows `#alt-arrivee` / `#alt-tab-arrivee` |
+| `data-veille-panel="zt-news"` `data-veille-rss="true"` | navigation.js | Veille tab switch; the `rss` flag triggers `loadVeilleRSS()` |
+| `data-blog-id="3"` | projects.js | Opens the blog modal for that article |
+| `data-action="close-modal"` | projects.js | Closes the blog modal |
 
-// Activate subtab within a section
-activateSubtab(sectionEl, subId)
-  - Removes active from all tabs/panels, adds to target
+Never reintroduce `onclick="..."` in component HTML — add a `data-*` attribute and a case in the relevant delegated handler instead.
 
-// Open/close tree group
-setTreeOpen(parentLi, open)
-  - Animates max-height from 0 to scrollHeight (0.25s transition)
-  - Sets aria-expanded for accessibility
+### Module responsibilities
+- **`utils.js`** — `$` / `$$` query helpers (replaces the old `window.$` globals).
+- **`language.js`** — `translations` object (fr/en/cn) + `initLanguage()`/`setLanguage()`. Must run *after* all components are in the DOM (it walks every `[data-i18n]` element).
+- **`navigation.js`** — navbar, mobile menu, generic tab switching, scroll-spy, reveal-on-scroll. Imports `loadVeilleRSS` from `ui.js`.
+- **`projects.js`** — `BLOGS` data array, blog grid rendering, blog article modal.
+- **`ui.js`** — lightbox (schema gallery), RSS feed loading (with localStorage cache + dual CORS-proxy fallback), and the animated network-equipment background canvas.
+- **`game.js`** — Dino SIO canvas game, exports `initGame()`. Already null-safe: if `#dino-canvas` isn't found (e.g. `components/game.html` failed to load), it returns no-op stubs instead of throwing.
+- **`main.js`** — the only module loaded by `index.html`; orchestrates component loading + module init, owns the global Escape-key handler (closes whichever modal is open).
 
-// Sync sidebar visual state
-syncSidebarTree(sectionId, subId)
-  - Highlights active menu items, opens parent groups
-```
-
-### Helper Selectors
-```javascript
-const $  = (s, r=document) => r.querySelector(s);        // Single element
-const $$ = (s, r=document) => Array.from(r.querySelectorAll(s)); // All elements
-```
-
-### Subtabs System
-**Pattern**: Every expandable section has this structure:
-```html
-<nav class="subtabs"><ul><li data-sub="id1">Tab 1</li>...</ul></nav>
-<div class="subpanels">
-  <div id="id1" class="subpanel active">Content 1</div>
-  ...
-</div>
-```
-**Init**: Call `initSubtabs(sectionId)` for each section needing tabs (done at load: alternance, certifications, projets, veille)
-
-### Game (`dinoGame` object)
-- Canvas-based, no sprites
-- Keyboard (Space/Arrow Up) or pointer input to jump
-- Score progression: obstacles labeled with school grades (CP–Terminale)
-- Difficulty modal for level selection
-- Methods: `start()`, `pause()`, `resume()`, `reset()`
-
-### RSS & Carousel
-- **Feed sources**: Hacker News (security/tech) + Transdev news
-- **API**: `api.rss2json.com` and `api.allorigins.win` (CORS proxy)
-- **Function**: `loadTransdevRSS()` + `initCarousel(track, dotsContainer)`
-- Elements: `#rss-carousel` (track), `#rss-dots` (indicators), `.carousel-btn` (prev/next)
+### Adding a new feature module
+1. Export an `initX()` function — never auto-run side effects at module load time (everything is sequenced explicitly from `main.js`).
+2. If it touches injected markup, call it from inside `bootstrap()` in `main.js`, after `Promise.allSettled(...)`, wrapped in `safeInit('label', initX)`.
+3. If it works on always-present elements (like `#bg-canvas`), it can run immediately, before component loading.
 
 ---
 
 ## CSS Architecture
 
-### CSS Custom Properties
+### Load order matters
+`global.css` is linked first — it defines the `:root` custom properties (`--c`, `--bg`, `--border`, etc.) and shared utility classes (`.card`, `.grid-2/3`, `.tab-bar`, `.sec-title`, animations) that every other stylesheet depends on.
+
+### Per-component responsive rules
+Each component's stylesheet owns its **own** `@media` blocks for its own selectors (no single giant responsive.css) — when you touch a component's layout, its breakpoints are right there in the same file. `global.css` keeps the cross-cutting responsive rules (typography scale, tab-bar scroll behavior, table overflow, etc.).
+
+### Key custom properties
 ```css
 :root {
-  --sidebar-w: 240px;      /* Sidebar width */
-  --accent: #33e6cc;       /* Cyan highlights */
-  --text: #e0fffb;         /* Light cyan text */
-  --bg: #000;              /* Black background */
-  --panel: #050608;        /* Slightly lighter bg for panels */
+  --c: #00f5d4;        /* teal accent */
+  --purple: #7b61ff;   /* secondary accent */
+  --bg: #050b14;        /* page background */
+  --card: rgba(10,17,34,.88);
+  --border: rgba(0,245,212,.1);
+  --nav-h: 64px;         /* navbar height, also overridden per breakpoint */
 }
 ```
-
-### Key Classes
-
-| Class | Purpose |
-|-------|---------|
-| `.sidebar` | Fixed left nav (0–240px) |
-| `.terminal` | Main content area (starts at 241px) |
-| `.section` | Major content section; only `.active` shown |
-| `.subtabs` | Tab navigation list |
-| `.subpanel` | Subsection content; only `.active` shown |
-| `.card` | Content wrapper with padding & border |
-| `.tree-children` | Collapsible menu group (animated) |
-| `.tree-item` | Individual menu item in tree |
-| `.has-children` | Parent menu item (has caret icon) |
-| `bg-home`, `bg-alternance`, etc. | Dynamic background image applied to `<body>` |
-
-### Animations
-- **Sidebar hover**: `translateX(5px)` + subtle highlight
-- **Tree expand/collapse**: `max-height` 0.25s ease + opacity
-- **Background switch**: `transition: background 0.6s ease`
-
-### Responsive Design
-- **Mobile breakpoint**: 600px (`.burger-btn` visible, sidebar slides out)
-- **Sidebar**: `position: fixed` (always on desktop, overlay on mobile)
-- **Burger menu**: Toggles `.sidebar.open` and `.mobile-overlay.active`
-
----
-
-## How to Add Features
-
-### Add a New Section
-1. Create `<section id="new-section" class="section">` in HTML
-2. Add sidebar menu item: `<li data-section="new-section">📌 Label</li>`
-3. Add to `goTo()` body.classList background cleanup (optional background image)
-4. Call `goTo("new-section")` from navigation events
-
-### Add Subsections (Subtabs)
-1. Create subtabs structure in section:
-```html
-<nav class="subtabs"><ul>
-  <li class="active" data-sub="sub1">Tab 1</li>
-  <li data-sub="sub2">Tab 2</li>
-</ul></nav>
-<div class="subpanels">
-  <div id="sub1" class="subpanel active">Content 1</div>
-  <div id="sub2" class="subpanel">Content 2</div>
-</div>
-```
-2. Call `initSubtabs("section-id")` in DOMContentLoaded
-
-### Add Tree Items (Collapsible Menu)
-1. Create parent list item with `.has-children`:
-```html
-<li class="has-children" data-section="section-id" aria-expanded="false">
-  <span class="caret"></span><span class="label">🏢 Menu Group</span>
-  <ul class="tree-children">
-    <li class="tree-item" data-section="..." data-sub="...">• Item</li>
-  </ul>
-</li>
-```
-2. Sidebar click handler auto-manages open/close + navigation
-
-### Modify Content
-- Edit section HTML directly in `<section>` blocks
-- Use `.card` divs for consistent styling
-- Add links with target="_blank" rel="noopener" for external URLs
 
 ---
 
 ## Common Patterns
 
-### Data Attributes for Navigation
+### i18n
 ```html
-<li data-section="alternance" data-sub="alt-tuteur">Mentor</li>
+<p data-i18n="home.welcome">Fallback text shown until JS runs</p>
+<p data-i18n-html="home.welcome">Use -html when the string contains markup (e.g. &lt;strong&gt;)</p>
 ```
-- `data-section`: Which main section to show
-- `data-sub`: Which subsection (optional) to activate
+Keys live in `translations.fr / .en / .cn` inside `js/language.js`.
 
-### Accessibility
-- `aria-expanded="true|false"` on collapsible groups
-- `aria-disabled="true"` on non-clickable menu titles
-- `aria-label="..."` on subtabs nav
-- Links: `target="_blank" rel="noopener"` for external URLs
-
-### Content Wrapping
+### Tabs
 ```html
-<div class="card">
-  <h2>Title</h2>
-  <p>Content</p>
-  <ul><li>Items</li></ul>
+<div class="tab-bar">
+  <button class="tab-btn active" id="alt-tab-arrivee" data-tab-group="alt" data-tab-id="arrivee">Tab 1</button>
 </div>
+<div class="tab-panel active" id="alt-arrivee">Content 1</div>
 ```
-
----
-
-## File Modification Notes
-
-### HTML (`index.html`)
-- Sections should remain within `<main class="terminal">`
-- Add new sections before `</main>`
-- Subtabs pattern is strict: `<nav class="subtabs">` must precede `<div class="subpanels">`
-
-### CSS (`style.css`)
-- Modify `--accent` or other CSS vars to change theme globally
-- Mobile styles use media query (implicit from `.burger-btn` visibility)
-- Background images would be applied via `body.bg-*` classes (currently not loaded)
-
-### JavaScript (`script.js`)
-- **Never remove**: `initSidebar()`, `initSubtabs()`, helper functions `$` and `$$`
-- **Game**: `dinoGame` is auto-initialized; only call its methods from `goTo()`
-- **RSS**: `loadTransdevRSS()` is optional; call on page load or in `veille` section
-- **Event listeners**: All delegated through sidebar/subtabs init; add new nav via HTML data attributes
+`switchTabs()` in `navigation.js` derives the panel/button id prefixes from `data-tab-group` automatically — no per-section JS needed.
 
 ---
 
 ## Browser Compatibility
-- **Required**: ES6 (arrow functions, const/let, template literals, optional chaining)
-- **Canvas API**: For dino game
-- **Fetch API**: For RSS feeds (with CORS proxies)
-- **CSS**: CSS variables (custom properties), will-change, transitions
+- **Required**: ES modules (`<script type="module">`), `fetch`, `IntersectionObserver`, CSS custom properties.
+- **Local testing must use http(s)** — `fetch()` of `components/*.html` is blocked by CORS when opening `index.html` via `file://`.
+- GitHub Pages (`.github/workflows/static.yml`) deploys the repo root as-is — this works out of the box since GitHub Pages serves over https.
+- All file paths are **case-sensitive** (GitHub Pages runs on Linux) — keep filenames/imports exactly matching the casing used in `components/`, `css/`, `js/`.
 
 ---
 
 ## Notes for AI Agents
 
-1. **Navigation is data-driven**: Always use `data-section` and `data-sub` attributes; never hardcode section IDs in JS.
-2. **Subtabs are context-local**: Changes in one section's tabs don't affect others; use `initSubtabs()` to add new tab groups.
-3. **Game pauses on section change**: Don't manually pause—`goTo()` handles it.
-4. **Mobile UX**: Always test burger menu logic at ≤600px viewport width.
-5. **French content**: All UI labels are in French; maintain consistency with emoji icons and tone (professional but friendly).
-6. **Links & citations**: External links are well-referenced; maintain this for credibility (especially Transdev content).
-7. **Performance**: Sidebar tree animations use `will-change` for smoothness; don't add heavy effects to `.section` transitions.
-8. **No build process**: This is vanilla JS/CSS/HTML; don't introduce bundlers unless explicitly requested.
+1. **Never add `onclick="..."` to component HTML** — use `data-*` attributes and extend the delegated handler in `navigation.js` or `projects.js` instead.
+2. **A missing/broken component must not break the rest of the page.** Keep `loadComponent()`'s try/catch and `safeInit()` wrapping intact when editing `main.js`.
+3. **`language.js`, scroll-spy and reveal-on-scroll must run after components are injected** — don't move their init calls before `Promise.allSettled` in `main.js`.
+4. **CSS lives next to the component it styles.** If you add a selector used only by `projects.html`, put it in `css/projects.css`, not `global.css`.
+5. **No bundler, no transpiler.** Don't introduce build tooling unless explicitly requested — this project intentionally has zero install step.

@@ -1,0 +1,21 @@
+/* =====================================================
+   blogs.css — Blog card grid + tags
+===================================================== */
+
+.b-card{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:16px;padding:1.25rem;cursor:pointer;
+  transition:border-color .25s,transform .25s,box-shadow .25s;
+}
+.b-card:hover{border-color:var(--border-h);transform:translateY(-4px);box-shadow:0 8px 36px rgba(0,245,212,.1)}
+.b-emoji{font-size:1.8rem;margin-bottom:.6rem}
+.b-title{font-size:.92rem;font-weight:700;color:#fff;margin-bottom:.45rem}
+.b-desc{display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:.8rem;color:var(--muted);margin-bottom:.65rem;line-height:1.5}
+.b-tags{display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.6rem}
+.b-tag{font-size:.68rem;padding:.15rem .45rem;background:var(--cd);border:1px solid var(--border);color:var(--c);border-radius:4px}
+.b-meta{font-size:.7rem;color:var(--muted)}
+
+@media(max-width:768px){
+  .b-card{padding:1rem}
+  .b-title{font-size:.88rem}
+}

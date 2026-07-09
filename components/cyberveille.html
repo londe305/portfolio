@@ -1,0 +1,46 @@
+<section id="cyberveille" style="background:var(--bg)">
+  <div class="container">
+    <div class="sec-tag">🛡️ CYBERVEILLE</div>
+    <h2 class="sec-title" data-i18n="cyberveille.title">[=== AGRÉGATEUR CYBERSÉCURITÉ ===]</h2>
+    <p class="sec-sub" data-i18n="cyberveille.sub">Sources faisant autorité, dédupliquées et triées automatiquement — archives conservées 7 jours.</p>
+
+    <div class="cv-layout">
+      <aside class="cv-sidebar">
+        <div class="card cv-side-card">
+          <h2 data-i18n="cyberveille.history.title">Historique (7 jours)</h2>
+          <div id="cv-day-filters" class="cv-day-list"></div>
+        </div>
+
+        <div class="card cv-side-card">
+          <h2 data-i18n="cyberveille.sources.title">Sources</h2>
+          <div id="cv-source-filters" class="cv-source-list"></div>
+        </div>
+
+        <div class="card cv-side-card">
+          <label class="cv-toggle">
+            <input type="checkbox" id="cv-critical-toggle">
+            <span data-i18n="cyberveille.criticalOnly">🚨 Alertes critiques / CVE uniquement</span>
+          </label>
+        </div>
+
+        <div class="card cv-side-card">
+          <h2 data-i18n="cyberveille.recent.title">Consultés récemment</h2>
+          <div id="cv-recent-list" class="cv-recent-list">
+            <p class="cv-empty" data-i18n="cyberveille.recent.empty">Aucun article consulté pour l'instant.</p>
+          </div>
+        </div>
+      </aside>
+
+      <div class="cv-main">
+        <div id="cv-alerts" class="cv-alerts"></div>
+        <div class="cv-meta-bar">
+          <span id="cv-count"></span>
+          <span id="cv-updated"></span>
+        </div>
+        <div id="cv-feed" class="cv-feed-list">
+          <p class="rss-notice" data-i18n="cyberveille.loading">📡 Chargement des actualités…</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

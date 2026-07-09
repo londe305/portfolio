@@ -1,0 +1,83 @@
+/* =====================================================
+   cyberveille.css — Agrégateur RSS cybersécurité :
+   sidebar (historique/sources/filtres) + flux central.
+===================================================== */
+
+.cv-layout{
+  display:grid;grid-template-columns:280px 1fr;gap:1.25rem;align-items:start;
+}
+
+/* ---- Sidebar ---- */
+.cv-side-card{padding:1.1rem}
+.cv-side-card h2{font-size:.82rem}
+
+.cv-day-list,.cv-source-list{display:flex;flex-direction:column;gap:.35rem}
+.cv-day-btn,.cv-source-chk{
+  display:flex;align-items:center;justify-content:space-between;gap:.5rem;
+  width:100%;text-align:left;background:transparent;border:1px solid var(--border);
+  color:var(--muted2);border-radius:8px;padding:.4rem .65rem;font-size:.8rem;
+  transition:all .2s;
+}
+.cv-day-btn:hover{border-color:var(--border-h);color:var(--text)}
+.cv-day-btn.active{background:var(--cg);border-color:var(--c);color:var(--c);font-weight:600}
+.cv-day-btn .cv-count{font-size:.7rem;color:var(--muted);background:var(--bg2);border-radius:999px;padding:.05rem .45rem}
+.cv-day-btn.active .cv-count{color:var(--c)}
+
+.cv-source-list label{display:flex;align-items:center;gap:.5rem;font-size:.8rem;color:var(--muted2);cursor:pointer;padding:.15rem 0}
+.cv-source-list input{accent-color:var(--c)}
+
+.cv-toggle{display:flex;align-items:center;gap:.6rem;font-size:.82rem;color:var(--text);cursor:pointer}
+.cv-toggle input{accent-color:var(--c);width:16px;height:16px}
+
+.cv-recent-list{display:flex;flex-direction:column;gap:.5rem}
+.cv-recent-item{display:block;font-size:.78rem;color:var(--text);line-height:1.5;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+.cv-recent-item:last-child{border-bottom:none;padding-bottom:0}
+.cv-recent-item:hover{color:var(--c)}
+.cv-empty{font-size:.78rem;color:var(--muted);font-style:italic}
+
+/* ---- Main feed ---- */
+.cv-alerts{display:flex;flex-direction:column;gap:.6rem;margin-bottom:1.25rem}
+.cv-alerts:empty{display:none;margin:0}
+
+.cv-meta-bar{
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:.76rem;color:var(--muted);margin-bottom:.85rem;
+  padding-bottom:.6rem;border-bottom:1px solid var(--border);
+}
+
+.cv-feed-list{display:flex;flex-direction:column;gap:.65rem}
+
+.cv-card{
+  background:rgba(10,17,34,.7);border:1px solid var(--border);
+  border-radius:10px;padding:.85rem 1.1rem;
+  transition:border-color .2s,box-shadow .2s,transform .2s;
+}
+.cv-card:hover{border-color:var(--border-h);box-shadow:0 4px 20px rgba(0,245,212,.08);transform:translateX(4px)}
+.cv-card.critical{border-color:rgba(255,107,53,.45)}
+.cv-card.critical:hover{box-shadow:0 4px 20px rgba(255,107,53,.15)}
+
+.cv-card-meta{display:flex;align-items:center;flex-wrap:wrap;gap:.4rem;margin-bottom:.4rem}
+.cv-source{
+  font-size:.7rem;font-weight:700;color:var(--c);background:var(--cg);
+  padding:.1rem .45rem;border-radius:4px;border:1px solid rgba(0,245,212,.2);
+}
+.cv-date{font-size:.7rem;color:var(--muted)}
+.cv-badge{font-size:.68rem;font-weight:700;padding:.1rem .45rem;border-radius:4px;letter-spacing:.02em}
+.cv-badge.critical{color:#ff6b35;background:rgba(255,107,53,.12);border:1px solid rgba(255,107,53,.35)}
+.cv-badge.cve{color:var(--purple);background:var(--pg);border:1px solid rgba(123,97,255,.3)}
+
+.cv-title{display:block;font-size:.9rem;font-weight:500;color:var(--text);line-height:1.5;text-decoration:none}
+.cv-title:hover{color:var(--c);text-decoration:none}
+.cv-summary{font-size:.8rem;color:var(--muted2);line-height:1.6;margin-top:.35rem}
+
+/* Highlighted alert strip cards reuse .cv-card.critical but slightly denser */
+.cv-alerts .cv-card{padding:.7rem 1rem}
+
+@media(max-width:900px){
+  .cv-layout{grid-template-columns:1fr}
+  .cv-sidebar{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+}
+@media(max-width:768px){
+  .cv-sidebar{grid-template-columns:1fr}
+  .cv-meta-bar{flex-direction:column;align-items:flex-start;gap:.25rem}
+}

@@ -1,0 +1,31 @@
+/* =====================================================
+   game.css — Dino SIO game
+===================================================== */
+
+.game-wrap{display:flex;flex-direction:column;align-items:center;gap:1.25rem}
+.game-ui{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:center}
+.game-btn{
+  padding:.5rem 1.1rem;font-size:.85rem;font-weight:600;
+  background:var(--cg);border:1px solid var(--c);
+  color:var(--c);border-radius:10px;transition:all .2s;
+}
+.game-btn:hover{background:var(--c);color:#000}
+.game-score-row{display:flex;gap:2.5rem;font-size:.85rem;color:var(--text);font-family:'JetBrains Mono',monospace}
+.game-score-num{color:var(--c);font-weight:700}
+#dino-canvas{
+  border:1px solid var(--border);border-radius:14px;
+  background:rgba(0,0,0,.45);max-width:100%;
+  box-shadow:0 0 40px rgba(0,245,212,.06);
+}
+#game-msg{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:12px;padding:1rem 1.5rem;text-align:center;
+  font-size:.9rem;line-height:1.7;max-width:500px;
+}
+#game-msg.hidden{display:none}
+
+@media(max-width:768px){
+  .game-score-row{font-size:.78rem;gap:1rem}
+  .game-btn{padding:.45rem .8rem;font-size:.8rem;min-height:40px}
+  #game-msg{padding:.85rem 1.1rem}
+}

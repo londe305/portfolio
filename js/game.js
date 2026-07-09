@@ -1,10 +1,10 @@
 /* =====================================================
    game.js — Jeu Dino SIO
-   Dépendances : navigation.js ($)
-   Exposé via  : window.dinoGame (resume / pause / reset)
 ===================================================== */
 
-const dinoGame = (function () {
+import { $ } from './utils.js';
+
+export function initGame() {
   const canvas = $('#dino-canvas');
   const ctx    = canvas?.getContext('2d');
   if (!canvas || !ctx) return { resume() {}, pause() {}, reset() {} };
@@ -241,4 +241,4 @@ const dinoGame = (function () {
 
   reset();
   return { resume, pause, reset };
-})();
+}

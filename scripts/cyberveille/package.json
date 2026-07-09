@@ -1,0 +1,12 @@
+{
+  "name": "cyberveille-feed-fetcher",
+  "private": true,
+  "type": "module",
+  "description": "Collecte planifiée (GitHub Actions) des flux RSS cybersécurité vers data/cyber-feed.json",
+  "scripts": {
+    "fetch": "node fetch-feed.mjs"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}

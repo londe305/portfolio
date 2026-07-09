@@ -1,0 +1,7 @@
+/* =====================================================
+   about.css — "À propos" section
+   The about section is built entirely from shared utility
+   classes (.card, .grid-2, .sec-*) defined in global.css.
+   This file is kept as the dedicated extension point for
+   any about-specific styling added in the future.
+===================================================== */

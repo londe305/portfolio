@@ -1,0 +1,25 @@
+/* =====================================================
+   contact.css — Contact info cards
+===================================================== */
+
+.ci-card{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:16px;padding:1.25rem 1.5rem;
+  display:flex;align-items:center;gap:1.25rem;
+  transition:border-color .25s,transform .25s;
+  text-decoration:none;
+}
+.ci-card:hover{border-color:var(--border-h);transform:translateY(-2px);text-decoration:none}
+.ci-icon{
+  width:52px;height:52px;border-radius:13px;
+  background:var(--cg);border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.35rem;flex-shrink:0;color:var(--c);
+}
+.ci-label{font-size:.8rem;color:var(--muted);margin-bottom:.2rem}
+.ci-value{font-size:.92rem;font-weight:600;color:var(--text)}
+
+@media(max-width:768px){
+  .ci-card{padding:1rem 1.1rem}
+  .ci-icon{width:44px;height:44px;font-size:1.1rem}
+}

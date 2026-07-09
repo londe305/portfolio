@@ -1,0 +1,122 @@
+<section id="projets" style="background:var(--bg2)">  <div class="container">    <div class="sec-tag">🛠️ PROJETS</div>    <h2 class="sec-title" data-i18n="projets.title">[=== PROJETS ===]</h2>    <p class="sec-sub">Projets professionnels &amp; personnels en infrastructure réseau et cybersécurité.</p>    <div class="tab-bar">      <button class="tab-btn active" id="proj-tab-crystal"    data-tab-group="proj" data-tab-id="crystal"    data-i18n="projets.tab.crystal">🔥 Refresh Réseau Crystal</button>      <button class="tab-btn"        id="proj-tab-zerotrust"  data-tab-group="proj" data-tab-id="zerotrust"  data-i18n="projets.tab.zerotrust">🔒 Zero Trust Lab &amp; Zabbix</button>    </div>    <!-- Crystal -->    <div class="tab-panel active" id="proj-crystal">      <div class="card" style="margin-bottom:1.5rem">        <h2 data-i18n="crystal.intro.title">Refresh Réseau Crystal ▸ SD-WAN v2</h2>        <p data-i18n-html="crystal.intro.p">
+</p>      </div>      <div class="inner-tab-bar">        <button class="inner-tab-btn active" id="cry-tab-overview"      data-tab-group="cry" data-tab-id="overview"      data-i18n="crystal.tab.overview">Vue globale</button>        <button class="inner-tab-btn"        id="cry-tab-architecture"  data-tab-group="cry" data-tab-id="architecture"  data-i18n="crystal.tab.architecture">Architecture</button>        <button class="inner-tab-btn"        id="cry-tab-planning"      data-tab-group="cry" data-tab-id="planning"      data-i18n="crystal.tab.planning">Planning</button>        <button class="inner-tab-btn"        id="cry-tab-risques"       data-tab-group="cry" data-tab-id="risques"       data-i18n="crystal.tab.risques">Risques</button>        <button class="inner-tab-btn"        id="cry-tab-suivi"         data-tab-group="cry" data-tab-id="suivi"         data-i18n="crystal.tab.suivi">Suivi migration</button>        <button class="inner-tab-btn"        id="cry-tab-role"          data-tab-group="cry" data-tab-id="role"          data-i18n="crystal.tab.role">Rôle &amp; E6</button>      </div>      <div class="inner-tab-panel active" id="cry-overview">        <div class="grid-2">          <div class="card">
+<h2 data-i18n="crystal.overview.h3">Vue globale</h2>
+<ul data-i18n-html="crystal.overview.ul">
+</ul>
+</div>          <div class="card">
+<h3 data-i18n="crystal.overview.context.h3">Contexte</h3>
+<p data-i18n="crystal.overview.context.p">
+</p>
+<h3 data-i18n="crystal.overview.objectives.h3">Objectifs</h3>
+<ul data-i18n-html="crystal.overview.objectives.ul">
+</ul>
+</div>        </div>      </div>      <div class="inner-tab-panel" id="cry-architecture">        <div class="card">          <h2 data-i18n="crystal.arch.h3">Architecture &amp; aspects techniques</h2>          <h3 data-i18n="crystal.arch.schemas.h3">Schémas techniques</h3>          <p data-i18n="crystal.arch.schemas.p">(Images à venir)</p>          <h3 data-i18n="crystal.arch.simple.h3">Architecture (vue simplifiée)</h3>          <div class="tech-block">[WAN 2G/8G/10G] → [Fortigate 200G × 2 HA] → [Core Switch]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[53 switches par étage] + [80 bornes WiFi]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SD-WAN v2 — failover automatique          </div>        </div>      </div>      <div class="inner-tab-panel" id="cry-planning">        <div class="card">          <h2 data-i18n="crystal.planning.h3">Planning &amp; organisation</h2>          <ul data-i18n-html="crystal.planning.ul">
+</ul>          <h3 data-i18n="crystal.planning.phases.h3">Planning par phases</h3>          <ul data-i18n-html="crystal.planning.phases.ul">
+</ul>        </div>      </div>      <div class="inner-tab-panel" id="cry-risques">        <div class="card">          <h2 data-i18n="crystal.risques.h3">Analyse des risques</h2>          <ul data-i18n-html="crystal.risques.ul">
+</ul>          <p data-i18n="crystal.risques.p">
+</p>        </div>        <div class="card">          <h2 data-i18n="crystal.risques.fiche.h3">Migration — fiche synthèse</h2>          <div class="grid-2">            <div>
+<h4 data-i18n="crystal.risques.fiche.context.h4">Contexte</h4>
+<p data-i18n-html="crystal.risques.fiche.context.p">
+</p>            <h4 data-i18n="crystal.risques.fiche.problemes.h4">Problèmes</h4>
+<ul data-i18n-html="crystal.risques.fiche.problemes.ul">
+</ul>            <h4 data-i18n="crystal.risques.fiche.decisions.h4">Décisions</h4>
+<ul data-i18n-html="crystal.risques.fiche.decisions.ul">
+</ul>
+</div>            <div>
+<h4 data-i18n="crystal.risques.fiche.actions.h4">Actions techniques</h4>
+<ul data-i18n-html="crystal.risques.fiche.actions.ul">
+</ul>            <h4 data-i18n="crystal.risques.fiche.blocages.h4">Blocages</h4>
+<ul data-i18n-html="crystal.risques.fiche.blocages.ul">
+</ul>            <h4 data-i18n="crystal.risques.fiche.suite.h4">Suite</h4>
+<ul data-i18n-html="crystal.risques.fiche.suite.ul">
+</ul>            <h4 data-i18n="crystal.risques.fiche.monrole.h4">Mon rôle</h4>
+<ul data-i18n-html="crystal.risques.fiche.monrole.ul">
+</ul>
+</div>          </div>        </div>      </div>      <div class="inner-tab-panel" id="cry-suivi">        <div class="card">          <h2 data-i18n="crystal.suivi.h3">Suivi de migration</h2>          <div class="grid-2">            <div>              <h4 data-i18n="crystal.suivi.context.h4">Contexte</h4>
+<p data-i18n-html="crystal.suivi.context.p">
+</p>              <h4 data-i18n="crystal.suivi.problemes.h4">Problèmes</h4>
+<ul data-i18n-html="crystal.suivi.problemes.ul">
+</ul>              <h4 data-i18n="crystal.suivi.decisions.h4">Décisions</h4>
+<ul data-i18n-html="crystal.suivi.decisions.ul">
+</ul>              <h4 data-i18n="crystal.suivi.actions.h4">Actions techniques</h4>
+<ul data-i18n-html="crystal.suivi.actions.ul">
+</ul>            </div>            <div>              <h4 data-i18n="crystal.suivi.risques.h4">Risques identifiés</h4>
+<ul data-i18n-html="crystal.suivi.risques.ul">
+</ul>              <h4 data-i18n="crystal.suivi.orga.h4">Organisation</h4>
+<ul data-i18n-html="crystal.suivi.orga.ul">
+</ul>              <h4 data-i18n="crystal.suivi.suite.h4">Suite</h4>
+<ul data-i18n-html="crystal.suivi.suite.ul">
+</ul>              <h4 data-i18n="crystal.suivi.monrole.h4">Mon rôle</h4>
+<ul data-i18n-html="crystal.suivi.monrole.ul">
+</ul>              <h4 data-i18n="crystal.suivi.competences.h4">Compétences développées</h4>
+<ul data-i18n-html="crystal.suivi.competences.ul">
+</ul>            </div>          </div>        </div>      </div>      <div class="inner-tab-panel" id="cry-role">        <div class="grid-2">          <div class="card">
+<h2 data-i18n="crystal.role.h3">Rôle personnel</h2>
+<ul data-i18n-html="crystal.role.ul">
+</ul>
+</div>          <div class="card">
+<h2 data-i18n="crystal.role.e6.h3">Compétences E6 validées</h2>
+<ul data-i18n-html="crystal.role.e6.ul">
+</ul>
+</div>        </div>      </div>    </div>    <!-- Zero Trust Lab -->    <div class="tab-panel" id="proj-zerotrust">      <div class="card">
+<h2 data-i18n="zt-lab.intro.title">Zero Trust &amp; Supervision Zabbix</h2>
+<p data-i18n-html="zt-lab.intro.p">
+</p>
+<ul data-i18n-html="zt-lab.intro.ul">
+</ul>
+</div>      <div class="grid-2">        <div>          <div class="card">
+<h2 data-i18n="zt-lab.arch.title">Architecture réseau</h2>
+<p data-i18n="zt-lab.arch.p">
+</p>
+<ul data-i18n-html="zt-lab.arch.ul">
+</ul>
+</div>          <div class="card">            <h2 data-i18n="zt-lab.schema.title">Schéma détaillé</h2>            <p data-i18n="zt-lab.schema.p">
+</p>            <div class="schema-gallery" style="margin:.75rem 0;border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:0 0 28px rgba(0,245,212,.08)">              <img src="images/zerotrust-schema.jpg" alt="Architecture Zéro Trust & Supervision Zabbix" style="width:100%;display:block;border-radius:12px;cursor:zoom-in" loading="lazy">            </div>            <p style="font-size:.78rem;color:var(--muted)" data-i18n="zt-lab.schema.legend">
+</p>          </div>        </div>        <div>          <div class="card">            <h2 data-i18n="zt-lab.vlan.title">Segmentation VLAN</h2>            <p data-i18n="zt-lab.vlan.p">
+</p>            <table style="margin-top:.75rem">              <thead>
+<tr>
+<th data-i18n="zt-lab.vlan.th.id">VLAN</th>
+<th data-i18n="zt-lab.vlan.th.nom">Nom</th>
+<th data-i18n="zt-lab.vlan.th.role">Rôle</th>
+<th data-i18n="zt-lab.vlan.th.acces">Accès</th>
+</tr>
+</thead>              <tbody>                <tr>
+<td>10</td>
+<td data-i18n="zt-lab.vlan.r1.nom">Users</td>
+<td data-i18n="zt-lab.vlan.r1.role">Postes utilisateurs</td>
+<td data-i18n="zt-lab.vlan.r1.acces">Internet uniquement</td>
+</tr>                <tr>
+<td>20</td>
+<td data-i18n="zt-lab.vlan.r2.nom">Admin</td>
+<td data-i18n="zt-lab.vlan.r2.role">Zabbix</td>
+<td data-i18n="zt-lab.vlan.r2.acces">Lecture SNMP vers VLAN 30</td>
+</tr>                <tr>
+<td>30</td>
+<td data-i18n="zt-lab.vlan.r3.nom">Servers</td>
+<td data-i18n="zt-lab.vlan.r3.role">Serveurs internes</td>
+<td data-i18n="zt-lab.vlan.r3.acces">Accès restreint</td>
+</tr>                <tr>
+<td>40</td>
+<td data-i18n="zt-lab.vlan.r4.nom">Legacy</td>
+<td data-i18n="zt-lab.vlan.r4.role">PS3 isolée</td>
+<td data-i18n="zt-lab.vlan.r4.acces">Aucun</td>
+</tr>              </tbody>            </table>          </div>          <div class="card">
+<h2 data-i18n="zt-lab.secu.title">Sécurité Zero Trust</h2>
+<ul data-i18n-html="zt-lab.secu.ul">
+</ul>
+</div>        </div>      </div>      <div class="grid-2">        <div class="card">
+<h2 data-i18n="zt-lab.zabbix.title">Supervision Zabbix</h2>
+<p data-i18n="zt-lab.zabbix.p">
+</p>
+<ul data-i18n-html="zt-lab.zabbix.ul">
+</ul>
+</div>        <div class="card">
+<h2 data-i18n="zt-lab.scenarios.title">Scénarios de test</h2>
+<ul data-i18n-html="zt-lab.scenarios.ul">
+</ul>
+</div>      </div>      <div class="card">
+<h2 data-i18n="zt-lab.results.title">Résultats &amp; compétences validées</h2>
+<ul data-i18n-html="zt-lab.results.ul">
+</ul>
+</div>    </div>  </div>
+</section>

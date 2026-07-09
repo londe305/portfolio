@@ -1,0 +1,61 @@
+/* =====================================================
+   header.css — Top navbar (logo, nav links, lang switcher)
+===================================================== */
+
+.navbar{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  background:rgba(5,11,20,.82);backdrop-filter:blur(24px);
+  border-bottom:1px solid var(--border);
+  transition:background .3s;
+  padding-top:env(safe-area-inset-top);
+}
+.nav-inner{
+  max-width:1280px;margin:0 auto;padding:0 1.5rem;
+  display:flex;align-items:center;gap:1rem;height:var(--nav-h);
+}
+.nav-logo{
+  font-family:'JetBrains Mono',monospace;font-size:.92rem;
+  white-space:nowrap;display:flex;align-items:center;gap:0;
+  margin-right:.5rem;flex-shrink:0;letter-spacing:-.01em;
+}
+.nav-logo:hover .logo-c{text-shadow:0 0 14px var(--c);color:var(--c)}
+.logo-lt,.logo-gt{color:var(--muted2);font-weight:400}
+.logo-c{color:var(--c);font-weight:700}
+.logo-name{color:#fff;font-weight:700;margin-left:.55rem;font-family:'Inter',sans-serif;letter-spacing:0}
+
+.nav-links{display:flex;gap:.1rem;flex:1;overflow-x:auto}
+.nav-links::-webkit-scrollbar{height:0}
+.nav-link{
+  padding:.36rem .7rem;font-size:.79rem;font-weight:500;
+  color:var(--muted);border-radius:7px;white-space:nowrap;
+  transition:color .2s,background .2s,box-shadow .2s;
+  background:none;border:none;
+}
+.nav-link:hover{color:var(--text);background:var(--cd)}
+.nav-link.active{color:var(--c);box-shadow:inset 0 -2px 0 var(--c)}
+
+.lang-switcher{display:flex;gap:.3rem;flex-shrink:0}
+.lang-btn{
+  padding:.24rem .52rem;font-size:.72rem;font-weight:700;
+  background:var(--bg2);border:1px solid var(--border);
+  color:var(--muted);border-radius:6px;
+  transition:all .2s;
+}
+.lang-btn:hover{border-color:var(--border-h);color:var(--text)}
+.lang-btn.active{background:var(--cg);border-color:var(--c);color:var(--c)}
+
+.hamburger{
+  display:none;background:none;border:1px solid var(--border);
+  color:var(--c);padding:.36rem .55rem;border-radius:7px;font-size:1rem;
+}
+
+@media(max-width:768px){
+  .nav-links{display:none}
+  .hamburger{display:flex;align-items:center;justify-content:center;
+    width:38px;height:38px;padding:0;font-size:1.1rem;border-radius:8px}
+  .nav-inner{padding:0 .9rem;gap:.5rem}
+  .lang-btn{padding:.18rem .38rem;font-size:.68rem}
+}
+@media(max-width:360px){
+  .nav-inner{padding:0 .65rem}
+}
