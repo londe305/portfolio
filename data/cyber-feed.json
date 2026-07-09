@@ -1,5 +1,60 @@
 [
   {
+    "id": "1e8a051e7df8e76d",
+    "title": "OpenMandriva Linux says contributor tried to sabotage the project",
+    "link": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-09T22:14:13.000Z",
+    "summary": "The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "26197385f907fe16",
+    "title": "Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure",
+    "link": "https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-09T20:32:00.000Z",
+    "summary": "Obscurity isn't a defense. If your company has any Internet-facing vulnerability, you're at risk from multiple threats.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "360b59020bb0eb8a",
+    "title": "Microsoft Reins in RoguePlanet Zero-Day Threat",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-09T20:21:19.000Z",
+    "summary": "The researcher known as \"Nightmare-Eclipse\" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "91e50513ef4cbf09",
+    "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
+    "link": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-09T20:10:00.000Z",
+    "summary": "Hackers compromised the Injective Labs SDK project's GitHub repository and used it to publish a malicious package on the Node Package Manager (npm) that stole cryptocurrency wallet private keys and mnemonic seed phrases. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1bc56fb993541837",
+    "title": "AI Agents Are a New Kind of Identity &amp; Most Organizations Aren't Ready",
+    "link": "https://www.darkreading.com/identity-access-management-security/ai-agents-new-kind-identity-most-organizations-not-ready",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-09T19:16:02.000Z",
+    "summary": "If you're handling them like a service account or API token, consider yourself behind. AI agents need a fundamentally different approach.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "7f14b9607d141356",
     "title": "WolfSSL, GeoVision, VTK vulnerabilities",
     "link": "https://blog.talosintelligence.com/wolfssl-vulnerabilities/",
@@ -1284,17 +1339,6 @@
     "category": "news",
     "pubDate": "2026-07-02T23:01:00.000Z",
     "summary": "Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c166f45a17cb86a6",
-    "title": "How We Added WebAuthn to a Browser-Based RDP Client",
-    "link": "https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-07-02T22:00:39.000Z",
-    "summary": "A look inside the reverse-engineering journey of building the first RDP client outside of Windows to support WebAuthn redirection.\nThe post How We Added WebAuthn to a Browser-Based RDP Client appeared first on Unit 42.",
     "cveIds": [],
     "severity": "normal"
   }
