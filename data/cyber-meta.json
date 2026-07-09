@@ -1,6 +1,84 @@
 {
-  "lastRun": null,
-  "totalItems": 6,
-  "sources": [],
-  "note": "Données de démonstration — sera remplacé par la première exécution planifiée de .github/workflows/cyberveille-feed.yml"
+  "lastRun": "2026-07-09T08:19:39.245Z",
+  "totalItems": 20,
+  "sources": [
+    {
+      "name": "The Hacker News",
+      "ok": false,
+      "itemCount": 0,
+      "error": "self-signed certificate in certificate chain"
+    },
+    {
+      "name": "BleepingComputer",
+      "ok": false,
+      "itemCount": 0,
+      "error": "self-signed certificate in certificate chain"
+    },
+    {
+      "name": "Krebs on Security",
+      "ok": false,
+      "itemCount": 0,
+      "error": "self-signed certificate in certificate chain"
+    },
+    {
+      "name": "Dark Reading",
+      "ok": false,
+      "itemCount": 0,
+      "error": "self-signed certificate in certificate chain"
+    },
+    {
+      "name": "SecurityWeek",
+      "ok": false,
+      "itemCount": 0,
+      "error": "self-signed certificate in certificate chain"
+    },
+    {
+      "name": "CISA",
+      "ok": true,
+      "itemCount": 20,
+      "error": null
+    },
+    {
+      "name": "CERT-FR (avis)",
+      "ok": true,
+      "itemCount": 20,
+      "error": null
+    },
+    {
+      "name": "CERT-FR (alerte)",
+      "ok": true,
+      "itemCount": 20,
+      "error": null
+    },
+    {
+      "name": "Microsoft Security Blog",
+      "ok": false,
+      "itemCount": 0,
+      "error": "self-signed certificate in certificate chain"
+    },
+    {
+      "name": "Palo Alto Unit 42",
+      "ok": true,
+      "itemCount": 15,
+      "error": null
+    },
+    {
+      "name": "Cisco Talos",
+      "ok": false,
+      "itemCount": 0,
+      "error": "self-signed certificate in certificate chain"
+    },
+    {
+      "name": "SANS ISC",
+      "ok": false,
+      "itemCount": 0,
+      "error": "self-signed certificate in certificate chain"
+    },
+    {
+      "name": "The Record",
+      "ok": false,
+      "itemCount": 0,
+      "error": "self-signed certificate in certificate chain"
+    }
+  ]
 }

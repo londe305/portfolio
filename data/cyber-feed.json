@@ -7,7 +7,9 @@
     "category": "advisory",
     "pubDate": "2026-07-08T08:00:00.000Z",
     "summary": "Ceci est un article d'exemple affiché en attendant le premier passage du workflow GitHub Actions planifié, qui alimentera ce flux avec les vraies actualités.",
-    "cveIds": ["CVE-2026-10001"],
+    "cveIds": [
+      "CVE-2026-10001"
+    ],
     "severity": "critical"
   },
   {
@@ -18,8 +20,21 @@
     "category": "news",
     "pubDate": "2026-07-08T05:30:00.000Z",
     "summary": "Article d'exemple — les données réelles apparaîtront après la première exécution planifiée de la collecte RSS.",
-    "cveIds": ["CVE-2026-10045"],
+    "cveIds": [
+      "CVE-2026-10045"
+    ],
     "severity": "cve"
+  },
+  {
+    "id": "911e32b08c0973a5",
+    "title": "Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation",
+    "link": "https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-07-07T22:00:21.000Z",
+    "summary": "A cybercrime campaign combined a loader-as-a-service framework and DLL sideloading via a Go-compiled fake MpClient.dll, a novel evasion layer combination.\nThe post Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation ap",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "seed0003",
@@ -29,6 +44,109 @@
     "category": "news",
     "pubDate": "2026-07-07T14:00:00.000Z",
     "summary": "Article d'exemple utilisé comme donnée de secours tant que data/cyber-feed.json n'a pas encore été régénéré par le workflow planifié.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8f7a6e0c69894688",
+    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-07T12:00:00.000Z",
+    "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-48908 JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
+    "cveIds": [
+      "CVE-2026-48908"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "11cb9308482ac943",
+    "title": "Hitachi Energy e-mesh EMS",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-07T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nHitachi Energy is aware of a buffer overflow vulnerability that affects e-mesh EMS product versions listed in this document. Successful exploitation of this vulnerability could lead to a buffer overflow condition, potentia",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0a92aa9d3e6db446",
+    "title": "Labcenter Proteus 9",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-07T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could disclose information and allow a malicious user to execute arbitrary code on affected installations.\nThe following versions of Labcenter Proteus 9 are affected:\nProteu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3e007c12107c4629",
+    "title": "Hitachi Energy PROMOD V",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-07T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nHitachi Energy is aware of insecure HTTP transmission vulnerability in PROMOD V product versions listed in this document. This vulnerability could allow attackers to intercept or manipulate sensitive data in transit, poten",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e50198d34ac084bf",
+    "title": "Digi International PortServer TS, Digi One SP IA",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-07T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to bypass authentication and gain access to restricted resources, obtain credentials, and inject malicious scripts.\nThe following versions of Digi In",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4ede79d99222a7c1",
+    "title": "Siemens SINEC OS",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-07T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSINEC OS before V4.0 contains multiple vulnerabilities. Siemens has released a new version for RUGGEDCOM RST2428P and recommends to update to the latest version.\nThe following versions of Siemens SINEC OS are affected:\nRUG",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "30b7570ac5aeea86",
+    "title": "Siemens Mendix Studio Pro",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-07T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nMendix Studio Pro versions before V11.12 are affected by a file parsing vulnerability that could be triggered when the application reads specially crafted malicious project during the build pipeline. This could allow an at",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ce32036f751f96e5",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-07T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-48282 Adobe ColdFusion Path Traversal Vulnerability\nThis type of vulnerability is a frequent attac",
+    "cveIds": [
+      "CVE-2026-48282"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "cfd83598153329d8",
+    "title": "Hydro-Québec Le Circuit Electrique charging station backend",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-07T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could lead to privilege escalation, or result in a denial-of-service attack.\nThe following versions of Hydro-Québec Le Circuit Electrique charging station backend are affect",
     "cveIds": [],
     "severity": "normal"
   },
@@ -62,6 +180,50 @@
     "category": "advisory",
     "pubDate": "2026-07-04T16:20:00.000Z",
     "summary": "Article d'exemple sans caractère critique, pour illustrer le rendu standard d'une carte du flux.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c166f45a17cb86a6",
+    "title": "How We Added WebAuthn to a Browser-Based RDP Client",
+    "link": "https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-07-02T22:00:39.000Z",
+    "summary": "A look inside the reverse-engineering journey of building the first RDP client outside of Windows to support WebAuthn redirection.\nThe post How We Added WebAuthn to a Browser-Based RDP Client appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "41c60a667ebe6d65",
+    "title": "Gardyn IoT Hub",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-02T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow unauthenticated users to access and control IoT Hub managed devices.\nThe following versions of Gardyn IoT Hub are affected:\nHome Firmware\nStudio Firmware\nCloud A",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ff928827e7082ea8",
+    "title": "ST Engineering iDirect iQ-Series Terminals",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-02T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition.\nThe following versions of ST Engineering iDirect iQ-Series ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "51730cde28bbc559",
+    "title": "CubeSpace CW0057 Reaction Wheel",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-02T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to upload arbitrary malicious firmware to the device.\nThe following versions of CubeSpace CW0057 Reaction Wheel are affected:\nCW0057 Reaction Wheel\nCVSS",
     "cveIds": [],
     "severity": "normal"
   }
