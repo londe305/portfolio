@@ -1,5 +1,49 @@
 [
   {
+    "id": "7f14b9607d141356",
+    "title": "WolfSSL, GeoVision, VTK vulnerabilities",
+    "link": "https://blog.talosintelligence.com/wolfssl-vulnerabilities/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-07-09T18:52:29.000Z",
+    "summary": "Cisco Talos’ Vulnerability Discovery & Research team recently disclosed three vulnerabilities in WolfSSF, fourteen in GeoVision, and one vulnerability in VTK-DICOM.\nThe vulnerabilities mentioned in this blog post have been patched by their ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e63035d6fd8b837b",
+    "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
+    "link": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-09T18:38:49.000Z",
+    "summary": "Datadog Security Labs is warning of \"several overlapping campaigns\" that are systematically enumerating corporate GitHub organizations, repositories, and user accounts through the GitHub API.\n\n\"Operators rely on automated scraping tooling w",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a6ee3125966f2e6b",
+    "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
+    "link": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-09T18:08:07.000Z",
+    "summary": "Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper. What stands out is how it is built: not one tool but three older destructive programs bolted into one, offered as commands the operator can choose from.\n\nEach is a",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0b9ffcdfa6976aec",
+    "title": "Winning 54% of the time",
+    "link": "https://blog.talosintelligence.com/winning-54-of-the-time/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-07-09T18:00:06.000Z",
+    "summary": "With Wimbledon's help, Hazel argues against the popular myth that \"Attackers only need to be right once, but defenders need to be right 100% of the time.\"",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "abd7c045b0a96138",
     "title": "New Helix vishing group emerges in SharePoint data theft attacks",
     "link": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
@@ -1251,61 +1295,6 @@
     "category": "vendor",
     "pubDate": "2026-07-02T22:00:39.000Z",
     "summary": "A look inside the reverse-engineering journey of building the first RDP client outside of Windows to support WebAuthn redirection.\nThe post How We Added WebAuthn to a Browser-Based RDP Client appeared first on Unit 42.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4bfe357ccf4326d6",
-    "title": "Apple Reverses Age-Old Patch Policy to Keep Up With AI",
-    "link": "https://www.darkreading.com/cybersecurity-operations/apple-patch-policy-ai",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-02T19:31:58.000Z",
-    "summary": "Expect more compressed patching cycles from Apple going forward, as attackers leverage artificial intelligence to reduce time to exploit.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "80703c01ba9374f5",
-    "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-    "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-07-02T19:27:33.000Z",
-    "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technolo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a9161212eb20c218",
-    "title": "FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs",
-    "link": "https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-02T19:11:33.000Z",
-    "summary": "After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "678d7bd52424a38e",
-    "title": "Ransomware Thugs Masquerade as Interpol to Entice Small Biz",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-02T18:07:40.000Z",
-    "summary": "The ransomware campaign relies on basic social engineering and stretches across multiple regions, including the US, Europe, Middle East, and elsewhere.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "82604ba1c12a3f90",
-    "title": "Catan and Mouse",
-    "link": "https://blog.talosintelligence.com/catan-and-mouse/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-07-02T18:00:34.000Z",
-    "summary": "What do board games and cybersecurity have in common? Pattern recognition. Strategy. Adaptation. In this week’s Threat Source Bill explores why curiosity may be a defender’s most valuable skill.",
     "cveIds": [],
     "severity": "normal"
   }
