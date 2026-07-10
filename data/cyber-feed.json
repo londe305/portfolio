@@ -1,5 +1,49 @@
 [
   {
+    "id": "f6e685c3126a5841",
+    "title": "No Manners Here: The Ruthless Rise of The Gentlemen Ransomware",
+    "link": "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-07-10T22:00:39.000Z",
+    "summary": "Unit 42 explores The Gentlemen ransomware operations, revealing the affiliate model driving its rapid growth. Learn more here.\nThe post No Manners Here: The Ruthless Rise of The Gentlemen Ransomware appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3bbc0d594a27780e",
+    "title": "New U-Boot flaws could enable stealthy firmware attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-10T21:59:02.000Z",
+    "summary": "Six vulnerabilities in the widely used U-Boot bootloader have been discovered that could allow attackers to execute malicious code during device boot, potentially enabling stealthy firmware attacks that compromise security protections and i",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "fd7f152cda19e02d",
+    "title": "Europe revives law allowing big tech to scan for CSAM",
+    "link": "https://therecord.media/chat-control-2-csam-scans-european-parliament-passage",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-10T19:30:00.000Z",
+    "summary": "The law known as Chat Control 2.0 passed in the European Parliament, permitting companies like Google, Meta and Microsoft to scan users' messages to hunt for CSAM.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4589d058f0a0d0ff",
+    "title": "Jen Ellis: Connecting Cyber Community With Political Machinery",
+    "link": "https://www.darkreading.com/cybersecurity-operations/jen-ellis-connecting-cyber-community-political-machinery",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-10T19:08:04.000Z",
+    "summary": "Security Pro File: On the heels of her recent honors as a Member of the Order of the British Empire (MBE), we take a look back at the events that shaped Jen Ellis' advocacy on behalf of security researchers.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "d52e0e6da47f0f79",
     "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
     "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
