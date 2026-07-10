@@ -1,5 +1,16 @@
 [
   {
+    "id": "8dd3f55dea68fbad",
+    "title": "ISC Stormcast For Friday, July 10th, 2026 https://isc.sans.edu/podcastdetail/10002, (Fri, Jul 10th)",
+    "link": "https://isc.sans.edu/diary/rss/33142",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-10T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "1e8a051e7df8e76d",
     "title": "OpenMandriva Linux says contributor tried to sabotage the project",
     "link": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
@@ -1273,72 +1284,6 @@
     "category": "news",
     "pubDate": "2026-07-03T13:01:00.000Z",
     "summary": "Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f4ece7704d1fb99d",
-    "title": "Vulnérabilité dans FreeBSD (03 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0830/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-03T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans FreeBSD. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "144df1c3585a09fd",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (03 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0831/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-03T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dc7809f7a11b8f79",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (03 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0832/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-03T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "972a337949955643",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (03 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0833/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-03T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'intég",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9d7c9a97d5d08e98",
-    "title": "Multiples vulnérabilités dans les produits IBM (03 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0834/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-03T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "21a57259d18b1863",
-    "title": "Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs",
-    "link": "https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-02T23:01:00.000Z",
-    "summary": "Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.",
     "cveIds": [],
     "severity": "normal"
   }
