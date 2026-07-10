@@ -1,5 +1,115 @@
 [
   {
+    "id": "7fed3296a43ea17e",
+    "title": "Cybercriminals Flock to Healthcare Businesses as Attacks Surge",
+    "link": "https://www.darkreading.com/threat-intelligence/cybercriminals-healthcare-businesses-attacks-surge",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-10T16:51:34.000Z",
+    "summary": "While cyberattacks against hospitals and clinics grew modestly in the first half of 2026, attacks on service providers and other healthcare businesses more than doubled.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3b30652011fa3503",
+    "title": "License plate cameras may be next target after Supreme Court reins in location tracking",
+    "link": "https://therecord.media/license-plate-cameras-may-be-next-target-after-supreme-court-reins-in-location-tracking",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-10T16:50:00.000Z",
+    "summary": "If a warrant is ultimately needed for ALPR searches, experts say, it would radically limit how the networks of cameras can be used and would change modern policing.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7428c9d53106d16b",
+    "title": "Police suspects Dutch hackers were involved in Odido breach",
+    "link": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-10T16:37:01.000Z",
+    "summary": "The Dutch National Police (Politie) says it has found \"strong indications\" that Dutch hackers have been involved in a February breach at the telecommunications provider Odido. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "83856a1a1e069742",
+    "title": "Progress urges ShareFile admins to shut down servers over “credible” threat",
+    "link": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-10T16:26:10.000Z",
+    "summary": "Progress Software is emailing ShareFile customers who use Storage Zone Controllers to immediately shut down their servers after identifying what it describes as a \"credible external security threat\" targeting the on-premises secure file-sha",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "59f39adbefb2acc9",
+    "title": "Securing our future: July 2026 progress report on Microsoft’s Secure Future Initiative",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-07-10T16:00:00.000Z",
+    "summary": "Microsoft’s latest Secure Future Initiative report outlines progress on secure foundations, AI-powered defense, and future-ready cybersecurity.\nThe post Securing our future: July 2026 progress report on Microsoft’s Secure Future Initiative ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "38c7b4a4b2997d93",
+    "title": "My Stack Simulator, (Wed, Jul 8th)",
+    "link": "https://isc.sans.edu/diary/rss/33138",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-10T15:52:27.000Z",
+    "summary": "The stack is a memory region where a program stores temporary data -&#;x26;#;xc2;&#;x26;#;xa0;like local variables and return addresses. Think of the stack as a pile of plates in your kitchen: you can only add a new plate to the top, and yo",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6b7226fcd17615ce",
+    "title": "Hackers exploit critical auth bypass in Gitea Docker image",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-10T15:48:38.000Z",
+    "summary": "Hackers are actively exploiting a critical vulnerability in the official Docker image for the Gitea self-hosted Git service that allows attackers to impersonate any user, including administrators. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e02153894562ab54",
+    "title": "Money launderer accused of stealing seized crypto while in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-10T15:30:19.000Z",
+    "summary": "A Bulgarian national has been charged with stealing $290,000 in government-seized cryptocurrency while serving 121 months in prison for helping launder millions stolen from American fraud victims. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "108d25e0712c72d3",
+    "title": "In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops",
+    "link": "https://www.securityweek.com/in-other-news-dhs-database-hacked-adobe-boosts-patch-cadence-canada-disrupts-ransomware-ops/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-10T15:01:19.000Z",
+    "summary": "Other noteworthy stories that might have slipped under the radar: Abnormal AI sued by Anthropic, AssuranceAmerica data breach affects 7 million people, NSA brings back TAO.\nThe post In Other News: DHS Database Hacked, Adobe Boosts Patch Cad",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "daf3bdaf00dabafc",
+    "title": "Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched",
+    "link": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-10T14:51:49.000Z",
+    "summary": "Researchers at Ledger's Donjon security team have shown that a precisely timed laser pulse, aimed at the chip inside a Tangem crypto wallet card, can reset the card's password to anything the attacker picks.\n\nNo old password. No backup card",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "0a2c3e9bef381190",
     "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
     "link": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
@@ -31,6 +141,17 @@
     "summary": "Organizations, and possibly ATMs, are at risk of compromise, thanks to holes in a Microsoft BitLocker security wrapper.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "b26ef8b4e53755ce",
+    "title": "More Countries Jump on the Social Media Ban Wagon",
+    "link": "https://www.darkreading.com/cyber-risk/more-countries-jump-on-the-social-media-ban-wagon",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-10T13:50:24.000Z",
+    "summary": "Age restrictions on accounts may be more of a ban(d) aid, because industry compliance is already falling short. Tech giants are struggling to follow the laws without affecting users.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "cd8f05c7bafcc6ee",
@@ -1170,17 +1291,6 @@
     "summary": "Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "38c7b4a4b2997d93",
-    "title": "My Stack Simulator, (Wed, Jul 8th)",
-    "link": "https://isc.sans.edu/diary/rss/33138",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-08T08:09:03.000Z",
-    "summary": "The stack is a memory region where a program stores temporary data -&#;x26;#;xc2;&#;x26;#;xa0;like local variables and return addresses. Think of the stack as a pile of plates in your kitchen: you can only add a new plate to the top, and yo",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "1957f66a0a760eb4",
