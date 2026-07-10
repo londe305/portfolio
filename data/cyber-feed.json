@@ -1,5 +1,170 @@
 [
   {
+    "id": "0a2c3e9bef381190",
+    "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
+    "link": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-10T14:19:50.000Z",
+    "summary": "Details have emerged about three now-patched security flaws in the OpenClaw personal artificial intelligence (AI) assistant that, if successfully exploited, could enable credential theft, privilege escalation, and arbitrary code execution o",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "82ace5ab0295e4b6",
+    "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
+    "link": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-10T14:00:10.000Z",
+    "summary": "AI agents are accelerating the growth of non-human identities, making it harder for organizations to understand what exists, who owns it, and what it can access. Netwrix explains why stronger visibility and identity governance are essential",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7a697bf9b4d155a8",
+    "title": "Fresh ATM Crypto Software Bugs: Jackpot or Bust?",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/atm-crypto-software-bugs-jackpot-bust",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-10T14:00:00.000Z",
+    "summary": "Organizations, and possibly ATMs, are at risk of compromise, thanks to holes in a Microsoft BitLocker security wrapper.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "cd8f05c7bafcc6ee",
+    "title": "China, India ran separate spying campaigns against same Pakistani police force",
+    "link": "https://therecord.media/china-india-ran-separate-spy-campaigns-against-same-police-force",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-10T13:20:00.000Z",
+    "summary": "The activity, in some cases breaching the exact same systems, ran between February 2024 and April 2026 and centered on the force responsible for the country’s southwestern province that has been the site of a long-running separatist insurge",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e4b38fb48af10e87",
+    "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
+    "link": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-10T13:15:23.000Z",
+    "summary": "The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON.\n\nChinese cybersecurity company QiAnXin said that while the threat cluster may appear like a low-sophi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8b77b9cb653dc4e9",
+    "title": "AI Coding: Do Security Risks Outweigh Productivity Gains?",
+    "link": "https://www.darkreading.com/application-security/ai-coding-security-risks-productivity-gains",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-10T13:00:00.000Z",
+    "summary": "AI coding tools cost $19-$200/month/user, but security scanning, remediation, and false positives add hidden costs. Are the productivity gains worth it?",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9767a019bc029b53",
+    "title": "Third US Security Expert Sentenced to Prison for Helping Ransomware Gang",
+    "link": "https://www.securityweek.com/third-us-security-expert-sentenced-to-prison-for-helping-ransomware-gang/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-10T12:58:39.000Z",
+    "summary": "Angelo Martino, a former ransomware negotiator, was sentenced to 70 months for helping the BlackCat/Alphv group.\nThe post Third US Security Expert Sentenced to Prison for Helping Ransomware Gang appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "54730da009a826c5",
+    "title": "China, India-Linked Hackers Both Targeted Same Pakistani Police Force",
+    "link": "https://www.securityweek.com/china-india-linked-hackers-both-targeted-same-pakistani-police-force/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-10T11:55:11.000Z",
+    "summary": "Both foes and allies have targeted the Balochistan Police force in Pakistan for at least two years, according to SentinelOne.\nThe post China, India-Linked Hackers Both Targeted Same Pakistani Police Force appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "28387fbe73efee85",
+    "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
+    "link": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-10T11:47:43.000Z",
+    "summary": "A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch.\n\nFoxIO researcher Sébastien Féry disclosed the flaw ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "23bbf9f455454da1",
+    "title": "Zimbra urges customers to patch critical web client XSS flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-10T11:47:38.000Z",
+    "summary": "The Zimbra security team urged customers to patch a critical vulnerability affecting the Classic Web Client used to access the Zimbra Collaboration suite. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d7aeafa52b07026e",
+    "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
+    "link": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-10T11:39:40.000Z",
+    "summary": "Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius Actionability Report, only 45% of organizations consolidate t",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "62df4d88515a3a7c",
+    "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
+    "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-10T11:30:02.000Z",
+    "summary": "A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and target lists naming more than 1.4 million websites.\n\nFar fewer",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3fadad185425e50a",
+    "title": "Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers",
+    "link": "https://www.securityweek.com/okta-warns-of-vishing-attacks-targeting-microsoft-365-customers/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-10T11:06:36.000Z",
+    "summary": "The attackers call victims to direct them to phishing websites mirroring Microsoft Entra ID login pages.\nThe post Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c2ab29ff7646f4d4",
+    "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
+    "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-10T10:56:23.000Z",
+    "summary": "Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their traffic private and secure.\n\nThe apps flagged w",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f9a9ab9988a01a39",
+    "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
+    "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-10T10:30:20.000Z",
+    "summary": "A threat actor has been targeting organizations spanning multiple sectors with voice-based fake security requests that prompt Microsoft 365 users to enroll a new Entra passkey with an aim to carry out data extortion attacks.\n\nThe threat act",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "dd18d8ff6f9a62bb",
     "title": "GigaWiper Combines Multiple Malware for System-Level Sabotage",
     "link": "https://www.securityweek.com/gigawiper-combines-multiple-malware-for-system-level-sabotage/",
@@ -23,7 +188,7 @@
   },
   {
     "id": "566ae72b5f73c511",
-    "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
+    "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets",
     "link": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
     "source": "The Hacker News",
     "category": "news",
@@ -84,6 +249,17 @@
     "category": "advisory",
     "pubDate": "2026-07-10T02:00:03.000Z",
     "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "96d5611372917845",
+    "title": "Dutch police trace Odido telco cyberattack to suspected local accomplice",
+    "link": "https://therecord.media/dutch-police-suspect-dutch-accomplice-in-odido-cyberattack",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-09T23:00:00.000Z",
+    "summary": "Dutch police said Thursday they had uncovered evidence suggesting that Dutch criminals were involved in the cyberattack on telecom provider Odido that exposed the personal data of more than 6 million customers earlier this year.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1064,6 +1240,28 @@
     "severity": "normal"
   },
   {
+    "id": "1a4e1a1228759aaa",
+    "title": "Multiples vulnérabilités dans les produits Foxit (08 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0845/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-08T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Foxit. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidenti",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "09c58f50aefeac1a",
+    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (08 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0846/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-08T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la poli",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "2953002c0d937aa3",
     "title": "Accenture confirms breach after hacker offers stolen data for sale",
     "link": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/",
@@ -1277,6 +1475,83 @@
     "severity": "normal"
   },
   {
+    "id": "a43bd7f42363f3d5",
+    "title": "Multiples vulnérabilités dans SPIP (07 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0838/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-07T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une injection SQL (SQLi) et une injection de code indirecte à distance ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cca68f1dc8f5b51c",
+    "title": "Vulnérabilité dans Mozilla Firefox pour iOS (07 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0839/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-07T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Mozilla Firefox pour iOS. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "33858e73f7a65d10",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (07 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0840/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-07T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d8cd6cc2cb3bf186",
+    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (07 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0841/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-07T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3db6d26413b1043d",
+    "title": "Multiples vulnérabilités dans Postfix (07 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0842/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-07T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Postfix. Elles permettent à un attaquant de provoquer un déni de service et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9e439f0f10fc94fd",
+    "title": "Multiples vulnérabilités dans PHP (07 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0843/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-07T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a1ac3b486dd3cc3a",
+    "title": "Vulnérabilité dans Synacor Zimbra Collaboration (07 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0844/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-07T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Synacor Zimbra Collaboration. Elle permet à un attaquant de provoquer une injection de code indirecte à distance (XSS).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "48b0ff4ad78def06",
     "title": "'BusySnake' Infostealer Slithers Into Critical Infrastructure Networks",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks",
@@ -1354,13 +1629,24 @@
     "severity": "normal"
   },
   {
-    "id": "a516dfa4b222dfdf",
-    "title": "Chinese LLMs Broaden the Gap Between Attackers &amp; Defenders",
-    "link": "https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-03T13:01:00.000Z",
-    "summary": "Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?",
+    "id": "7c17dff5fa2135b8",
+    "title": "Multiples vulnérabilités dans OpenSSH (06 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0836/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-06T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSH. Certaines d'entre elles permettent à un attaquant de provoquer un contournement de la politique de sécurité, un déni de service et un problème de sécurité non spécifié par l'édit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "afadaa9220475cd8",
+    "title": "Vulnérabilité dans PostgreSQL JDBC (06 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0837/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-06T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans PostgreSQL JDBC. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
     "cveIds": [],
     "severity": "normal"
   }
