@@ -1,5 +1,16 @@
 [
   {
+    "id": "bb9511f0204ee143",
+    "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+    "link": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-11T06:45:55.000Z",
+    "summary": "Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution.\n\nThe vulnerability has been described as a case of stored cross-site sc",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "f6e685c3126a5841",
     "title": "No Manners Here: The Ruthless Rise of The Gentlemen Ransomware",
     "link": "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
