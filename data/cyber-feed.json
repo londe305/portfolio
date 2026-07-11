@@ -1,5 +1,38 @@
 [
   {
+    "id": "de880be9b45b56ea",
+    "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+    "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-11T17:59:26.000Z",
+    "summary": "Version 8.14.0 of the jscrambler npm package shipped with a malicious preinstall hook that silently drops and runs a native infostealer during installation, one build each for Windows, macOS, and Linux.\n\nPublished on July 11, 2026, it needs",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "88c62dd00816960e",
+    "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
+    "link": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-11T17:49:31.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and India-aligned threat actors between February 2024 and April 20",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1b87405a2825c809",
+    "title": "Ghost Accounts Abuse GitHub API in Mass Recon Campaign",
+    "link": "https://www.securityweek.com/ghost-accounts-abuse-github-api-in-mass-recon-campaign/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-11T17:30:00.000Z",
+    "summary": "Multiple campaigns are using ghost accounts to map GitHub organizations, including their repositories and members.\nThe post Ghost Accounts Abuse GitHub API in Mass Recon Campaign appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "b1f8a32d1e54f1a3",
     "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
     "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
