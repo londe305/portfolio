@@ -1,5 +1,16 @@
 [
   {
+    "id": "b1f8a32d1e54f1a3",
+    "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
+    "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-11T14:18:23.000Z",
+    "summary": "The Australian Cyber Security Centre (ACSC) issued an alert about a global exploitation campaign targeting vulnerable content management systems (CMS) and plugins. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "7393cfedb80b90f7",
     "title": "Wireshark 4.6.7 Released, (Sat, Jul 11th)",
     "link": "https://isc.sans.edu/diary/rss/33146",
