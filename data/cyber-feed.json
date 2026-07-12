@@ -1,5 +1,16 @@
 [
   {
+    "id": "37dd2c00d87160b3",
+    "title": "RedHook Android malware now uses Wireless ADB for shell access",
+    "link": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-12T14:27:32.000Z",
+    "summary": "A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privileges without requiring a computer connection. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "de880be9b45b56ea",
     "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
     "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
