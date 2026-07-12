@@ -1,5 +1,16 @@
 [
   {
+    "id": "09290961771a9222",
+    "title": "Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-12T19:39:12.000Z",
+    "summary": "Anthropic has just extended access to Claude Fable 5 for paid subscribers until July 19, giving you another week to keep using the most powerful model. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "37dd2c00d87160b3",
     "title": "RedHook Android malware now uses Wireless ADB for shell access",
     "link": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",

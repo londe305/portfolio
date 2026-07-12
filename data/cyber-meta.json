@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-07-12T19:14:59.637Z",
-  "totalItems": 177,
+  "lastRun": "2026-07-12T21:57:27.711Z",
+  "totalItems": 178,
   "sources": [
     {
       "name": "The Hacker News",
@@ -16,9 +16,9 @@
     },
     {
       "name": "Krebs on Security",
-      "ok": false,
-      "itemCount": 0,
-      "error": "Status code 403"
+      "ok": true,
+      "itemCount": 10,
+      "error": null
     },
     {
       "name": "Dark Reading",
