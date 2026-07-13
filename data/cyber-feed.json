@@ -1,5 +1,27 @@
 [
   {
+    "id": "004891e7578c4902",
+    "title": "ISC Stormcast For Monday, July 13th, 2026 https://isc.sans.edu/podcastdetail/10004, (Mon, Jul 13th)",
+    "link": "https://isc.sans.edu/diary/rss/33148",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-13T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d5e1f960c4f82413",
+    "title": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-13T00:44:44.000Z",
+    "summary": "OpenAI is temporarily relaxing GPT-5.6 Sol usage after demand for the company's most powerful model surged over the past 48 hours. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "09290961771a9222",
     "title": "Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
@@ -1936,39 +1958,6 @@
     "category": "advisory",
     "pubDate": "2026-07-06T11:36:06.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f6f54200399fc972",
-    "title": "Multiples vulnérabilités dans Roundcube (06 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0835/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-06T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une falsification de requêtes côté serveur (SSRF) et une injection de code indirec",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7c17dff5fa2135b8",
-    "title": "Multiples vulnérabilités dans OpenSSH (06 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0836/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-06T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSH. Certaines d'entre elles permettent à un attaquant de provoquer un contournement de la politique de sécurité, un déni de service et un problème de sécurité non spécifié par l'édit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "afadaa9220475cd8",
-    "title": "Vulnérabilité dans PostgreSQL JDBC (06 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0837/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-06T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans PostgreSQL JDBC. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
     "cveIds": [],
     "severity": "normal"
   }
