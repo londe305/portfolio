@@ -1,5 +1,49 @@
 [
   {
+    "id": "74882a1e25f48f09",
+    "title": "Weak Security Continues to Fuel Russian Cyberattacks",
+    "link": "https://www.darkreading.com/endpoint-security/weak-security-fuel-russian-cyberattacks",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-13T21:24:59.000Z",
+    "summary": "In a first, the UK and the EU jointly impose sanctions on Russian individuals and entities for cyberattacks and disinformation campaigns in the region.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b27ea7c82dfb0e0d",
+    "title": "EU leaders eye social media ban for children under age 13",
+    "link": "https://therecord.media/eu-proposed-social-media-ban-kids-under-13",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-13T20:50:00.000Z",
+    "summary": "“While ultimately it is up to parents to decide when children get their first smartphones, what we already have is a consensus that there needs to be a start date for the age children can join social media,” says European Commission Preside",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e3016ff500cebeae",
+    "title": "Japan's largest taxi operator shuts systems after cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-13T20:18:59.000Z",
+    "summary": "Japan's largest taxi operator, Nihon Kotsu, announced that its systems were compromised in a cyberattack, forcing the company to shut down part of its infrastructure. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "38145f54330fe9b9",
+    "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-13T19:44:19.000Z",
+    "summary": "The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloaded almost 1,500 times. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "8cd8e95182fdd319",
     "title": "New CrashStealer malware poses as Apple crash reporting tool",
     "link": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
@@ -2277,28 +2321,6 @@
     "category": "advisory",
     "pubDate": "2026-07-07T00:00:00.000Z",
     "summary": "Une vulnérabilité a été découverte dans Synacor Zimbra Collaboration. Elle permet à un attaquant de provoquer une injection de code indirecte à distance (XSS).",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "48b0ff4ad78def06",
-    "title": "'BusySnake' Infostealer Slithers Into Critical Infrastructure Networks",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-06T21:37:56.000Z",
-    "summary": "A threat group researchers call \"Armored Likho\" has gained access to government agencies and electrical power entities in Russia, Brazil, and Kazakhstan.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6724b5fbc26a920c",
-    "title": "CitrixBleed-ing Again? NetScaler Vulnerability Under Attack",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-06T21:17:42.000Z",
-    "summary": "Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).",
     "cveIds": [],
     "severity": "normal"
   }
