@@ -1,5 +1,82 @@
 [
   {
+    "id": "8cd8e95182fdd319",
+    "title": "New CrashStealer malware poses as Apple crash reporting tool",
+    "link": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-13T19:04:02.000Z",
+    "summary": "A new macOS information-stealing malware called CrashStealer pretends to be Apple's crash-reporting tool to steal credentials, keychain data, and crypto wallets. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "37e6df0e952c31df",
+    "title": "VPN service favored by ransomware groups is sanctioned by US",
+    "link": "https://therecord.media/first-vpn-administrator-us-sanctions-ransomware-groups",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-13T18:50:00.000Z",
+    "summary": "The U.S. Treasury Department announced sanctions against First VPN Service (1VPNS) and its Ukrainian administrator for aiding ransomware groups. Separately, a Belarusian man was sanctioned for malware \"cryptors.\"",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f669886a179950ad",
+    "title": "'Yellow Teams' Are Defining the Future of AI Security",
+    "link": "https://www.darkreading.com/cybersecurity-operations/yellow-teams-defining-future-ai-security",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-13T18:18:30.000Z",
+    "summary": "In some companies, engineers are building defense and attack tools to test the potential of artificial intelligence for cybersecurity — and its threat.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "67a878ed5466ab7a",
+    "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
+    "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-13T17:36:12.000Z",
+    "summary": "Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems.\n\nUnlike other information stealers that are built on AppleScript droppers or Ob",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3e6ef506e7c5d428",
+    "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found",
+    "link": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-13T17:17:24.000Z",
+    "summary": "Google and Microsoft have pulled ModHeader, a popular header-editing extension with roughly 1.6 million installs across Chrome and Edge, after researchers found a hidden browsing-history collector built into its official store version.\n\nThe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "33b85d10e2234fa9",
+    "title": "Russian celebrity journalist Ksenia Sobchak says hackers accessed Telegram channels via email breach",
+    "link": "https://therecord.media/ksenia-sobchak-russian-hackers-leak",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-13T17:15:00.000Z",
+    "summary": "Following the breach of several of her Telegram channels, controversial Russian journalist Ksenia Sobchak claimed published screenshots of her correspondence with political figures were fake.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "20e828303a7a15fb",
+    "title": "Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-07-13T17:00:00.000Z",
+    "summary": "Microsoft Entra ID makes passkeys the default sign-in experience and introduces a new model for SMS and voice authentication. Read about how to prepare.\nThe post Microsoft Entra ID security updates: Passkeys are the default authentication m",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "2c70098f43400ecd",
     "title": "GigaWiper Lets Threat Actors Choose Their Own Destructive Attack",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/gigawiper-threat-actors-choose-their-own-destructive-attack",
@@ -141,6 +218,30 @@
     "summary": "Unauthenticated attackers could obtain the broker's confidential OAuth client secret, allowing them to take control of the broker.\nThe post RabbitMQ Vulnerability Threatens Enterprise Systems appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "a9d91b60714e6e57",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-13T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2008-4128 Cisco IOS Cross-Site Request Forgery Vulnerability\nThis type of vulnerability is a frequent a",
+    "cveIds": [
+      "CVE-2008-4128"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "295bd98aa08b557f",
+    "title": "Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-13T12:00:00.000Z",
+    "summary": "Russian Government-Sponsored Activity Targets Poorly Configured and Vulnerable Devices Across Critical Sectors\nExecutive summary\nRussian Federal Security Service (FSB) Center 16 cyber actors continue to exploit poorly configured and vulnera",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "880b57f6f856e468",
@@ -1202,15 +1303,15 @@
     "severity": "critical"
   },
   {
-    "id": "ee63bc4cdf63a607",
-    "title": "Schneider Electric PowerChute Serial Shutdown",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02",
+    "id": "eb7086a92109d630",
+    "title": "Schneider Electric Easergy MiCOM Px40 Series",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-09T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to overwrite critical files, forge or inject malicious log data, gain unauthorized account access, trigger denial‑of‑service conditions, truncate or al",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its Easergy MiCOM Px40 Series products. The [Easergy MiCOM Px40](https://www.se.com/ww/en/product-subcategory/4725-easergy-micom-px40-series/?filter=business-6-medium-volta",
     "cveIds": [],
-    "severity": "critical"
+    "severity": "normal"
   },
   {
     "id": "27c35e11c8290f5c",
@@ -1224,15 +1325,15 @@
     "severity": "normal"
   },
   {
-    "id": "eb7086a92109d630",
-    "title": "Schneider Electric Easergy MiCOM Px40 Series",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03",
+    "id": "ee63bc4cdf63a607",
+    "title": "Schneider Electric PowerChute Serial Shutdown",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-09T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its Easergy MiCOM Px40 Series products. The [Easergy MiCOM Px40](https://www.se.com/ww/en/product-subcategory/4725-easergy-micom-px40-series/?filter=business-6-medium-volta",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to overwrite critical files, forge or inject malicious log data, gain unauthorized account access, trigger denial‑of‑service conditions, truncate or al",
     "cveIds": [],
-    "severity": "normal"
+    "severity": "critical"
   },
   {
     "id": "bae4692f1f5990aa",
@@ -2024,19 +2125,6 @@
     "summary": "View CSAF\nSummary\nSINEC OS before V4.0 contains multiple vulnerabilities. Siemens has released a new version for RUGGEDCOM RST2428P and recommends to update to the latest version.\nThe following versions of Siemens SINEC OS are affected:\nRUG",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "ce32036f751f96e5",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-07T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-48282 Adobe ColdFusion Path Traversal Vulnerability\nThis type of vulnerability is a frequent attac",
-    "cveIds": [
-      "CVE-2026-48282"
-    ],
-    "severity": "cve"
   },
   {
     "id": "cfd83598153329d8",
