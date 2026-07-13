@@ -1,5 +1,49 @@
 [
   {
+    "id": "2c70098f43400ecd",
+    "title": "GigaWiper Lets Threat Actors Choose Their Own Destructive Attack",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/gigawiper-threat-actors-choose-their-own-destructive-attack",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-13T16:50:54.000Z",
+    "summary": "A modular implant borrows from various malware families to combine both backdoor and wiper activities to maximize impact and minimize operational output.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1989b89f8af9f592",
+    "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-13T15:20:16.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are exploiting vulnerabilities in the iCagenda and Balbooa Forms extensions for Joomla to achieve remote code execution through arbitrary file upload",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a7d16af7498e5239",
+    "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
+    "link": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-13T15:05:57.000Z",
+    "summary": "Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same tools, pointed the other way, and they don't file tickets.\n\n",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7fc7252b143c942e",
+    "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+    "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-07-13T15:03:28.000Z",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almos",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f0385cacd78e5c84",
     "title": "Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption",
     "link": "https://www.securityweek.com/hacker-conversations-jesse-mcgraw-ghostexodus-from-blackhat-hacker-to-redemption/",
@@ -31,6 +75,17 @@
     "summary": "Learn how attackers abuse Entra ID through a free hands-on Capture the Flag. Varonis created the Breach at the Beach CTF to teach defenders how to investigate Entra ID attack techniques using realistic scenarios. [...]",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "c79b4ee823130030",
+    "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
+    "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-13T13:49:48.000Z",
+    "summary": "Give an AI assistant a memory and access to your inbox, and you hand an attacker a way to rewrite what it thinks it knows about you. A single email can trick that agent into saving a false \"fact\" about the user, hide the change, and quietly",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "97312166f0d02a5a",
@@ -2156,28 +2211,6 @@
     "category": "news",
     "pubDate": "2026-07-06T21:17:42.000Z",
     "summary": "Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "35d821c797c6033d",
-    "title": "JadePuffer: The First Complete LLM-Driven Ransomware Attack",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-06T16:36:50.000Z",
-    "summary": "An \"agentic threat actor\" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "392dc8ac68fc5701",
-    "title": "5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-06T16:00:00.000Z",
-    "summary": "Read five key learnings from the Frost & Sullivan 2025 Frost Radar™ for CSPM to learn how CSPM is evolving from point-in-time compliance to continuous risk management.\nThe post 5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud ",
     "cveIds": [],
     "severity": "normal"
   }
