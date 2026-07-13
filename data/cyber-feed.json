@@ -1,5 +1,82 @@
 [
   {
+    "id": "c8e508556872e9b0",
+    "title": "US and allies warn of Russian critical infrastructure attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-13T09:32:23.000Z",
+    "summary": "Cybersecurity agencies from the United States and eight other countries have issued a joint warning that Russian state hackers are targeting vulnerable and poorly configured routers to infiltrate critical infrastructure networks. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d0416fbfac66eb1a",
+    "title": "Organizations Warned of Exploited Joomla Extension Vulnerabilities",
+    "link": "https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-13T09:08:02.000Z",
+    "summary": "Threat actors have been targeting Balbooa Forms and iCagenda Joomla extension flaws for remote code execution.\nThe post Organizations Warned of Exploited Joomla Extension Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c9f7674ab9762e9b",
+    "title": "Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns",
+    "link": "https://www.securityweek.com/progress-prompts-sharefile-storage-zone-controller-shutdown-amid-security-concerns/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-13T08:20:46.000Z",
+    "summary": "The company notified customers to manually shut down their servers while it is investigating a credible threat.\nThe post Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8166e99e5e319fce",
+    "title": "Centers Laboratory Data Breach Affects 540,000 Individuals",
+    "link": "https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-13T08:10:44.000Z",
+    "summary": "The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider.\nThe post Centers Laboratory Data Breach Affects 540,000 Individuals appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bd5d8aa1e075e415",
+    "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
+    "link": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-13T07:30:00.000Z",
+    "summary": "An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it: python3 -m http.server 8080, was still sitting in the readable .bas",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4981c3a5ac9eb866",
+    "title": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
+    "link": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-13T05:36:02.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of z",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f1b3aa5b78f6c652",
+    "title": "Someone Is Scanning for Your MCP Servers and AI Assistant Credentials, (Mon, Jul 13th)",
+    "link": "https://isc.sans.edu/diary/rss/33150",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-13T04:22:02.000Z",
+    "summary": "The setup",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "004891e7578c4902",
     "title": "ISC Stormcast For Monday, July 13th, 2026 https://isc.sans.edu/podcastdetail/10004, (Mon, Jul 13th)",
     "link": "https://isc.sans.edu/diary/rss/33148",
