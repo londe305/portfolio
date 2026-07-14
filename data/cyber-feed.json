@@ -1,5 +1,63 @@
 [
   {
+    "id": "5e5805c89ed2aefe",
+    "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
+    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-14T21:23:24.000Z",
+    "summary": "SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as CVE-2026-15409 and CVE-2026-15410, in zero-day attacks and urges customers to install the newly released security updates. [...]",
+    "cveIds": [
+      "CVE-2026-15409",
+      "CVE-2026-15410"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "014a965957784b12",
+    "title": "Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities",
+    "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-07-14T20:27:33.000Z",
+    "summary": "Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as \"critical\".\nMicrosoft notes that two of the vulnerabilities disclosed ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "81ec43082f19cc6b",
+    "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
+    "link": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-14T20:25:47.000Z",
+    "summary": "Microsoft shipped its largest Patch Tuesday on record today, and two of the fixes close holes that attackers are already exploiting. The release covers 622 of Microsoft's own CVEs by its Security Update Guide count, more than triple June's ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f48c117d7363bd96",
+    "title": "Spanish Police take down €140 million cyber fraud ring, arrest four",
+    "link": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-14T20:23:09.000Z",
+    "summary": "The Spanish Police dismantled a cybercrime and money-laundering organization that made €140 million ($160 million) from investment fraud and business email compromise (BEC) attacks. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "596ebf77ff19f476",
+    "title": "6 GHz Wi-Fi Flaws Could Disrupt Critical Systems",
+    "link": "https://www.darkreading.com/perimeter/6-ghz-wi-fi-flaws-disrupt-critical-systems",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-14T19:58:31.000Z",
+    "summary": "Automated Frequency Coordination systems by default trust client-side data, which could lead to location spoofing and other attacks that disrupt traffic.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "7c314ed73f17715f",
     "title": "US unseals indictment against alleged operators of Russian bulletproof hosting service",
     "link": "https://therecord.media/us-unseals-indictment-russians-bulletproof-hosting",
@@ -310,6 +368,20 @@
     "severity": "normal"
   },
   {
+    "id": "166a55c5f9ec1ea8",
+    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-14T12:00:00.000Z",
+    "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-15409 SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability\nCVE-2026-15410 Son",
+    "cveIds": [
+      "CVE-2026-15409",
+      "CVE-2026-15410"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "9bd05bea89e23506",
     "title": "ABB Ability Edgenius",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02",
@@ -321,17 +393,6 @@
     "severity": "normal"
   },
   {
-    "id": "4a387e081c61f360",
-    "title": "ABB T-MAC Plus",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-14T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nABB became aware of vulnerability in the products versions listed as affected in the advisory. An update is available that resolves the reported vulnerabilities. An attacker who successfully exploited any of these vulnerab",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "45027492839f1ac3",
     "title": "ABB Advant Master Online Builder",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01",
@@ -339,6 +400,17 @@
     "category": "advisory",
     "pubDate": "2026-07-14T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nABB became aware of vulnerability in the products versions listed as affected in the advisory, where an incorrect version of Online Builder (ONB) was included in the media. An update is available that resolves the vulnerab",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4a387e081c61f360",
+    "title": "ABB T-MAC Plus",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-14T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nABB became aware of vulnerability in the products versions listed as affected in the advisory. An update is available that resolves the reported vulnerabilities. An attacker who successfully exploited any of these vulnerab",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1936,6 +2008,17 @@
     "severity": "critical"
   },
   {
+    "id": "27c35e11c8290f5c",
+    "title": "OpenPLC v3",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-09T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to the filesystem and escalate this into arbitrary native code execution through the normal OpenPLC program compi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "eb7086a92109d630",
     "title": "Schneider Electric Easergy MiCOM Px40 Series",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03",
@@ -1956,17 +2039,6 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to overwrite critical files, forge or inject malicious log data, gain unauthorized account access, trigger denial‑of‑service conditions, truncate or al",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "27c35e11c8290f5c",
-    "title": "OpenPLC v3",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-09T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to the filesystem and escalate this into arbitrary native code execution through the normal OpenPLC program compi",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "bae4692f1f5990aa",
@@ -2646,38 +2718,5 @@
     "summary": "IT services giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other data from the company. [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "911e32b08c0973a5",
-    "title": "Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation",
-    "link": "https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-07-07T22:00:21.000Z",
-    "summary": "A cybercrime campaign combined a loader-as-a-service framework and DLL sideloading via a Go-compiled fake MpClient.dll, a novel evasion layer combination.\nThe post Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation ap",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b0756246e8cdb847",
-    "title": "Big Brand Jobs Scam Targets Marketing Pros' Google Accounts",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-07T21:02:29.000Z",
-    "summary": "The phishing campaign uses several tactics, including nested redirects, to evade detection and steal credentials from unsuspecting targets.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ad09438f62abde5d",
-    "title": "Dialogflow CX 'Rogue Agent' Flaw Enabled AI Chatbot Data Theft",
-    "link": "https://www.darkreading.com/application-security/dialogflow-cx-rogue-agent-flaw-enabled-ai-chatbot-data-theft",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-07T20:36:43.000Z",
-    "summary": "Varonis reported the flaw to Google in late 2025 and it has been addressed, but it reminds defenders to take a fresh look at their AI Infrastructure security.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
