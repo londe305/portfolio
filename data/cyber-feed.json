@@ -1,5 +1,172 @@
 [
   {
+    "id": "7c314ed73f17715f",
+    "title": "US unseals indictment against alleged operators of Russian bulletproof hosting service",
+    "link": "https://therecord.media/us-unseals-indictment-russians-bulletproof-hosting",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-14T19:26:00.000Z",
+    "summary": "The Russians face multiple charges for allegedly providing cybercriminals with infrastructure and tech support through the St. Petersburg-based business Media Land and a sister company, ML Cloud.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2c2b2700dd7b44b3",
+    "title": "Microsoft Patches a Record 570 Security Flaws",
+    "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-07-14T19:22:42.000Z",
+    "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesd",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f65b79307e5b3e18",
+    "title": "Nearly 300 GitHub repos pose as legit software to push malware",
+    "link": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-14T19:15:17.000Z",
+    "summary": "A threat actor has published hundreds of fake GitHub repositories impersonating legitimate software and security projects to distribute infostealer malware. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "39ba92c71ab7dfa3",
+    "title": "Microsoft Patch Tuesday July 2026 - The AI Acopolypse is Here , (Tue, Jul 14th)",
+    "link": "https://isc.sans.edu/diary/rss/33154",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-14T19:14:58.000Z",
+    "summary": "This patch Tuesday includes a staggering&#;x26;#;xc2;&#;x26;#;xa0;622 vulnerabilities, not including another 427 vulnerabilities in Chromium, affecting Microsoft&#;x26;#;39;s Edge browser. 62 of the vulnerabilities are rated critical. One w",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1cd369aac23a6886",
+    "title": "Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days",
+    "link": "https://www.securityweek.com/microsoft-patches-record-622-vulnerabilities-including-two-exploited-zero-days/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-14T18:50:20.000Z",
+    "summary": "Two flaws in Active Directory and SharePoint Server have been exploited as zero-days, and a BitLocker bug was publicly disclosed.\nThe post Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days appeared first on Sec",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0a16aeee4093d57c",
+    "title": "Microsoft releases Windows 10 KB5099539 extended security update",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-14T18:49:28.000Z",
+    "summary": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerabilities, along with additional security fixes. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4be8f1e160f6fd94",
+    "title": "Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims",
+    "link": "https://www.securityweek.com/synopsys-finds-no-evidence-of-data-breach-following-bosch-hack-claims/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-14T18:18:45.000Z",
+    "summary": "The D1R cybercrime group claimed to have stolen valuable data from Synopsys and Bosch, threatening to leak it unless a ransom is paid. \nThe post Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims appeared first on SecurityWeek",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "47a29edaf85b9b22",
+    "title": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data",
+    "link": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-14T18:17:57.000Z",
+    "summary": "SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP.\n\nThe vulnerability in question is CVE-2026-44747 (CVSS score: 9.9)",
+    "cveIds": [
+      "CVE-2026-44747"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "7db00584fb6de99a",
+    "title": "Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-14T18:01:36.000Z",
+    "summary": "Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1e3da20480d18338",
+    "title": "Manage Vendor Risk in a Few Practical Steps",
+    "link": "https://www.darkreading.com/cyber-risk/manage-vendor-risk-in-a-few-practical-steps",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-14T17:44:55.000Z",
+    "summary": "Risk tolerance, exposure visibility, board oversight — handling third-party risk is complicated but achievable with disciplined, precise governance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dffece0294c4e9b7",
+    "title": "Windows 11 KB5101650 & KB5099414 cumulative updates released",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-14T17:41:16.000Z",
+    "summary": "Microsoft has released Windows 11 KB5101650 and KB5099414 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7688d38ce62a2366",
+    "title": "Finland issues wanted notice for hacker behind massive psychotherapy data breach",
+    "link": "https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-14T17:28:00.000Z",
+    "summary": "The defendant's lawyer told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "cd12e30d37f448b9",
+    "title": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads",
+    "link": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-14T17:27:23.000Z",
+    "summary": "Any other browser extension that can run a script on claude.ai can still trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and its comments, and your Calendar.\n\nBoth this and ClaudeBleed need a rogue extension that",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a38f8da827e7a09d",
+    "title": "Adobe Patches Critical ColdFusion Vulnerabilities",
+    "link": "https://www.securityweek.com/adobe-patches-critical-coldfusion-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-14T17:06:35.000Z",
+    "summary": "The ColdFusion security defects could allow attackers to execute arbitrary code or elevate their privileges.\nThe post Adobe Patches Critical ColdFusion Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "44702ff15a48e62e",
+    "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
+    "link": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-14T16:52:37.000Z",
+    "summary": "Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments.\n\n\"LabubaRAT creates a reusable foothold for ha",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "329f5a611e5e7dcd",
     "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
     "link": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
@@ -12,7 +179,7 @@
   },
   {
     "id": "91ddb84bdc564ef5",
-    "title": "Frontier AI: The Genie's Out of the Bottle, But Where's the Rulebook?",
+    "title": "Frontier AI: The Genie's Out of the Bottle, but Where's the Rulebook?",
     "link": "https://www.darkreading.com/cybersecurity-operations/frontier-ai-genie-out-of-bottle-where-rulebook",
     "source": "Dark Reading",
     "category": "news",
@@ -143,28 +310,6 @@
     "severity": "normal"
   },
   {
-    "id": "4a387e081c61f360",
-    "title": "ABB T-MAC Plus",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-14T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nABB became aware of vulnerability in the products versions listed as affected in the advisory. An update is available that resolves the reported vulnerabilities. An attacker who successfully exploited any of these vulnerab",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "de7f891eb7c83571",
-    "title": "Rockwell Automation 1715-AENTR EtherNet/IP Adapter",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-14T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to read or delete files, stop tasks, modify memory, and change I/O states, potentially impacting the confidentiality, integrity, and availability of the",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "9bd05bea89e23506",
     "title": "ABB Ability Edgenius",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02",
@@ -176,6 +321,17 @@
     "severity": "normal"
   },
   {
+    "id": "4a387e081c61f360",
+    "title": "ABB T-MAC Plus",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-14T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nABB became aware of vulnerability in the products versions listed as affected in the advisory. An update is available that resolves the reported vulnerabilities. An attacker who successfully exploited any of these vulnerab",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "45027492839f1ac3",
     "title": "ABB Advant Master Online Builder",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01",
@@ -183,6 +339,32 @@
     "category": "advisory",
     "pubDate": "2026-07-14T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nABB became aware of vulnerability in the products versions listed as affected in the advisory, where an incorrect version of Online Builder (ONB) was included in the media. An update is available that resolves the vulnerab",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7c0a94a96eabb1a6",
+    "title": "CISA Urges SharePoint Hardening After New Exploitations",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-14T12:00:00.000Z",
+    "summary": "CISA is aware of active exploitation of vulnerabilities CVE-2026-32201, CVE-2026-45659, and CVE-2026-56164, enabling cyber threat actors to gain unauthorized access to on-premises SharePoint Server instances. These vulnerabilities affect al",
+    "cveIds": [
+      "CVE-2026-32201",
+      "CVE-2026-45659",
+      "CVE-2026-56164"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "de7f891eb7c83571",
+    "title": "Rockwell Automation 1715-AENTR EtherNet/IP Adapter",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-14T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to read or delete files, stop tasks, modify memory, and change I/O states, potentially impacting the confidentiality, integrity, and availability of the",
     "cveIds": [],
     "severity": "normal"
   },
@@ -660,17 +842,6 @@
     "severity": "normal"
   },
   {
-    "id": "d8f0a85582838035",
-    "title": "RabbitMQ Vulnerability Threatens Enterprise Systems",
-    "link": "https://www.securityweek.com/rabbitmq-vulnerability-threatens-enterprise-systems/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-13T12:00:00.000Z",
-    "summary": "Unauthenticated attackers could obtain the broker's confidential OAuth client secret, allowing them to take control of the broker.\nThe post RabbitMQ Vulnerability Threatens Enterprise Systems appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "a9d91b60714e6e57",
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -693,6 +864,17 @@
     "summary": "Russian Government-Sponsored Activity Targets Poorly Configured and Vulnerable Devices Across Critical Sectors\nExecutive summary\nRussian Federal Security Service (FSB) Center 16 cyber actors continue to exploit poorly configured and vulnera",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "d8f0a85582838035",
+    "title": "RabbitMQ Vulnerability Threatens Enterprise Systems",
+    "link": "https://www.securityweek.com/rabbitmq-vulnerability-threatens-enterprise-systems/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-13T12:00:00.000Z",
+    "summary": "Unauthenticated attackers could obtain the broker's confidential OAuth client secret, allowing them to take control of the broker.\nThe post RabbitMQ Vulnerability Threatens Enterprise Systems appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "880b57f6f856e468",
@@ -1765,17 +1947,6 @@
     "severity": "normal"
   },
   {
-    "id": "27c35e11c8290f5c",
-    "title": "OpenPLC v3",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-09T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to the filesystem and escalate this into arbitrary native code execution through the normal OpenPLC program compi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "ee63bc4cdf63a607",
     "title": "Schneider Electric PowerChute Serial Shutdown",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02",
@@ -1785,6 +1956,17 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to overwrite critical files, forge or inject malicious log data, gain unauthorized account access, trigger denial‑of‑service conditions, truncate or al",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "27c35e11c8290f5c",
+    "title": "OpenPLC v3",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-09T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to the filesystem and escalate this into arbitrary native code execution through the normal OpenPLC program compi",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "bae4692f1f5990aa",
@@ -2497,38 +2679,5 @@
     "summary": "Varonis reported the flaw to Google in late 2025 and it has been addressed, but it reminds defenders to take a fresh look at their AI Infrastructure security.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "042017c4c7446f6a",
-    "title": "More Odd DNS Records: NIMLOC, (Tue, Jul 7th)",
-    "link": "https://isc.sans.edu/diary/rss/33128",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-07T18:09:04.000Z",
-    "summary": "Yesterday, I talked about NAPTR records and how they are related to RCS. But there is another \"odd\" record that shows up in my DNS logs. This one isn&#;x26;#;39;t new, but I don&#;x26;#;39;t think I ever covered it: NIMLOC. At least that is",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8d57f449730d161d",
-    "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
-    "link": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-07T17:10:15.000Z",
-    "summary": "A new Android malware operation called RedWing is being rented out on Telegram as a ready-made bank-fraud service. It lets even low-skill criminals take over a victim's phone, steal their banking logins, and capture the one-time codes that ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f7c700187b5230b3",
-    "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
-    "link": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-07T16:37:33.000Z",
-    "summary": "A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project.\n\nFrom there, they could read live conversatio",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
