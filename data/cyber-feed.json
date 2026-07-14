@@ -1,5 +1,49 @@
 [
   {
+    "id": "329f5a611e5e7dcd",
+    "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
+    "link": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-14T16:08:47.000Z",
+    "summary": "Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers last week and has released security updates to patch the flaw. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "91ddb84bdc564ef5",
+    "title": "Frontier AI: The Genie's Out of the Bottle, But Where's the Rulebook?",
+    "link": "https://www.darkreading.com/cybersecurity-operations/frontier-ai-genie-out-of-bottle-where-rulebook",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-14T16:02:39.000Z",
+    "summary": "Cutting-edge artificial intelligence models are deploying with more independence and less human oversight. Several state governments are trying to legislate transparency in their use.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2bcbe82ac85c0963",
+    "title": "ClickFix's Mushrooming Ecosystem Demands New Defense Tactics",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-demands-new-defense",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-14T15:53:54.000Z",
+    "summary": "The attack vector is available for rent at scale, and evades AV and EDR, leaving YARA analysis as the best detection option.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "76831c35a52f01f9",
+    "title": "LastPass, Bitwarden users targeted with fake security alerts",
+    "link": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-14T15:31:52.000Z",
+    "summary": "LastPass is warning users about an ongoing phishing campaign that is using fake security notices to direct them to fraudulent websites. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "5481e1a754ed3c10",
     "title": "You Don't Have to Run an Exploit to Know If You're Vulnerable",
     "link": "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/",
@@ -18,6 +62,28 @@
     "category": "news",
     "pubDate": "2026-07-14T13:55:41.000Z",
     "summary": "The flaws can be exploited for authentication bypass, remote code execution, privilege escalation, and directory traversal.\nThe post 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ca0cbeac3a54ec7b",
+    "title": "NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says",
+    "link": "https://therecord.media/russian-intelligence-compromising-cameras-nato-ukraine-netherlands",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-14T13:55:00.000Z",
+    "summary": "Dutch intelligence officials report that at least one Russian agency is compromising internet-connected cameras across Europe to spy on military logistics and Ukrainian personnel.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "88ec909701ada578",
+    "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+    "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-14T13:48:07.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeov",
     "cveIds": [],
     "severity": "normal"
   },
@@ -73,6 +139,50 @@
     "category": "news",
     "pubDate": "2026-07-14T12:46:18.000Z",
     "summary": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard.\n\n\"An attacker explo",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4a387e081c61f360",
+    "title": "ABB T-MAC Plus",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-14T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nABB became aware of vulnerability in the products versions listed as affected in the advisory. An update is available that resolves the reported vulnerabilities. An attacker who successfully exploited any of these vulnerab",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "de7f891eb7c83571",
+    "title": "Rockwell Automation 1715-AENTR EtherNet/IP Adapter",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-14T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to read or delete files, stop tasks, modify memory, and change I/O states, potentially impacting the confidentiality, integrity, and availability of the",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9bd05bea89e23506",
+    "title": "ABB Ability Edgenius",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-14T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a publicly reported vulnerability. CVE‑2026‑3143",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "45027492839f1ac3",
+    "title": "ABB Advant Master Online Builder",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-14T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nABB became aware of vulnerability in the products versions listed as affected in the advisory, where an incorrect version of Online Builder (ONB) was included in the media. An update is available that resolves the vulnerab",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2420,16 +2530,5 @@
     "summary": "A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project.\n\nFrom there, they could read live conversatio",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "bf9ba08bad7eca1b",
-    "title": "'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows",
-    "link": "https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-07T15:24:30.000Z",
-    "summary": "The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
