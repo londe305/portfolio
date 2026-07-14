@@ -1,5 +1,137 @@
 [
   {
+    "id": "5481e1a754ed3c10",
+    "title": "You Don't Have to Run an Exploit to Know If You're Vulnerable",
+    "link": "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-14T14:00:10.000Z",
+    "summary": "Many vulnerabilities cannot be safely validated with live exploits, either because no exploit exists or the affected systems are too critical to test. Picus explains how TTP chaining helps organizations determine exploitability by validatin",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c67ba70e740d0dec",
+    "title": "7 Severe Vulnerabilities Patched in VMware Avi Load Balancer",
+    "link": "https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-14T13:55:41.000Z",
+    "summary": "The flaws can be exploited for authentication bypass, remote code execution, privilege escalation, and directory traversal.\nThe post 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "90147d026e286f21",
+    "title": "Cursor IDE Auto-Executes Malicious Code in Poisoned Repos",
+    "link": "https://www.darkreading.com/application-security/cursor-ide-malicious-code-poisoned-repos",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-14T13:00:00.000Z",
+    "summary": "Researchers reported the vulnerability to Cursor in December, but it still remains in the popular AI coding platform and can be exploited in poisoned repository attacks.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "96e5b5788cf569b3",
+    "title": "Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar",
+    "link": "https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-14T13:00:00.000Z",
+    "summary": "A ClaudeBleed-linked vulnerability reportedly persists across eight patches, exposing potentially sensitive data to other extensions. \nThe post Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar appeared first on Security",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9735ef3c6a4b67ec",
+    "title": "Microsoft Entra ID gets passkeys default authentication starting September",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-14T12:49:56.000Z",
+    "summary": "Microsoft has announced that passkeys will become the default authentication method for the Entra ID enterprise identity service starting September 2026. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7fc9be633c0247d0",
+    "title": "New phishing kits target Microsoft 365 accounts, evade MFA",
+    "link": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-14T12:49:00.000Z",
+    "summary": "Two new phishing kits, Jalisco and OmegaLord, have been discovered in attacks targeting Microsoft 365 accounts, using techniques that defeat multi-factor authentication (MFA). [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4ba31d9533ddf18f",
+    "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
+    "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-14T12:46:18.000Z",
+    "summary": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard.\n\n\"An attacker explo",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dfa51e4549f2aea9",
+    "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks",
+    "link": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-14T11:55:00.000Z",
+    "summary": "Researchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people using them.\n\nThe way these wallets talk to websites and bloc",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e9dab54800a38b1f",
+    "title": "SAP warns of critical flaws in NetWeaver and Commerce Cloud",
+    "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-14T11:42:21.000Z",
+    "summary": "SAP has addressed 16 vulnerabilities across multiple products as part of its July 2026 security updates, including three critical flaws in NetWeaver, Commerce Cloud, and AppRouter. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "935bcb7335678be2",
+    "title": "How Pentera Turns AI Security Workflows into Validation Engines",
+    "link": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-14T11:30:00.000Z",
+    "summary": "AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, severit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fc7f385d4632daeb",
+    "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+    "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-14T11:21:35.000Z",
+    "summary": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry.\n\nThe activity allows users to enumerate user accounts and validate stolen crede",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "efff3de4b64c475f",
+    "title": "SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud",
+    "link": "https://www.securityweek.com/sap-patches-critical-vulnerabilities-in-netweaver-approuter-commerce-cloud/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-14T11:17:56.000Z",
+    "summary": "The flaws could allow attackers to access and modify data, and cause system unavailability and request-response desynchronization.\nThe post SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud appeared first on Secur",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "609f80abdbd6da42",
     "title": "US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers",
     "link": "https://www.securityweek.com/us-allies-warn-of-russian-cyberattacks-targeting-critical-infrastructure-routers/",
@@ -78,7 +210,7 @@
   },
   {
     "id": "f718a819a7be157f",
-    "title": "Grok Build Uploads Entire Git Repositories to xAI Storage, Not Just Files It Reads",
+    "title": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read",
     "link": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
     "source": "The Hacker News",
     "category": "news",
@@ -171,7 +303,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-07-13T21:24:59.000Z",
-    "summary": "In a first, the UK and the EU jointly impose sanctions on Russian individuals and entities for cyberattacks and disinformation campaigns in the region.",
+    "summary": "In a first, the UK and the EU jointly imposed sanctions on Russian individuals and entities for cyberattacks and disinformation campaigns in the region.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2297,96 +2429,6 @@
     "category": "news",
     "pubDate": "2026-07-07T15:24:30.000Z",
     "summary": "The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8f7a6e0c69894688",
-    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-07T12:00:00.000Z",
-    "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-48908 JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
-    "cveIds": [
-      "CVE-2026-48908"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "3e007c12107c4629",
-    "title": "Hitachi Energy PROMOD V",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-07T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nHitachi Energy is aware of insecure HTTP transmission vulnerability in PROMOD V product versions listed in this document. This vulnerability could allow attackers to intercept or manipulate sensitive data in transit, poten",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4ede79d99222a7c1",
-    "title": "Siemens SINEC OS",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-07T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSINEC OS before V4.0 contains multiple vulnerabilities. Siemens has released a new version for RUGGEDCOM RST2428P and recommends to update to the latest version.\nThe following versions of Siemens SINEC OS are affected:\nRUG",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cfd83598153329d8",
-    "title": "Hydro-Québec Le Circuit Electrique charging station backend",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-07T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could lead to privilege escalation, or result in a denial-of-service attack.\nThe following versions of Hydro-Québec Le Circuit Electrique charging station backend are affect",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "30b7570ac5aeea86",
-    "title": "Siemens Mendix Studio Pro",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-07T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nMendix Studio Pro versions before V11.12 are affected by a file parsing vulnerability that could be triggered when the application reads specially crafted malicious project during the build pipeline. This could allow an at",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0a92aa9d3e6db446",
-    "title": "Labcenter Proteus 9",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-07T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could disclose information and allow a malicious user to execute arbitrary code on affected installations.\nThe following versions of Labcenter Proteus 9 are affected:\nProteu",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "11cb9308482ac943",
-    "title": "Hitachi Energy e-mesh EMS",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-07T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nHitachi Energy is aware of a buffer overflow vulnerability that affects e-mesh EMS product versions listed in this document. Successful exploitation of this vulnerability could lead to a buffer overflow condition, potentia",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e50198d34ac084bf",
-    "title": "Digi International PortServer TS, Digi One SP IA",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-07T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to bypass authentication and gain access to restricted resources, obtain credentials, and inject malicious scripts.\nThe following versions of Digi In",
     "cveIds": [],
     "severity": "normal"
   }
