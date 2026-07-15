@@ -1,5 +1,60 @@
 [
   {
+    "id": "ba9ae12e6675b65a",
+    "title": "Dutch police bust investment fraud ring stealing over €100 million",
+    "link": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-15T21:55:50.000Z",
+    "summary": "The Dutch Police announced the arrest of multiple individuals suspected of being part of an international investment fraud scheme estimated to have tens of thousands of victims. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7c68ccb36c2a2065",
+    "title": "Forgotten Bootloaders Expose Secure Boot Blind Spot",
+    "link": "https://www.darkreading.com/cyber-risk/forgotten-bootloaders-expose-secure-boot-blind-spot",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-15T21:19:19.000Z",
+    "summary": "Nearly a dozen vulnerable and now revoked UEFI shim bootloaders remained trusted for years, giving attackers a path to bypass Secure Boot.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6809d05515272157",
+    "title": "Identity Attacks Overtake Exploits as Top Ransomware Cause",
+    "link": "https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-15T20:16:13.000Z",
+    "summary": "Email attacks overtook exploits as the top ransomware root cause last year. Multifactor authentication (MFA) was deployed in 97% of credential-based attacks but failed to prevent compromise.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e6d925617f678737",
+    "title": "Zoom warns of critical account takeover vulnerability",
+    "link": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-15T20:16:02.000Z",
+    "summary": "Zoom is warning of a critical vulnerability in its desktop client and software development kit for Windows that could be exploited by an unauthenticated party to hijack accounts. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "92c602d914128527",
+    "title": "Trump administration unveils AI-supported clearinghouse for cyber vulnerabilities",
+    "link": "https://therecord.media/gold-eagle-cybersecurity-vulnerabilities-clearinghouse",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-15T20:00:00.000Z",
+    "summary": "The Gold Eagle program will allowe industry, critical infrastructure operators and the government to use artificial intelligence to rapidly detect, prioritize and patch cybersecurity vulnerabilities, officials said.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "83ec01c95c88c5ed",
     "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
     "link": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
@@ -2971,72 +3026,6 @@
     "category": "advisory",
     "pubDate": "2026-07-09T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "04152c4978a856df",
-    "title": "Mexico's New Cyber Plan Faces Its First Real Test",
-    "link": "https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-08T21:34:21.000Z",
-    "summary": "The Latin American nation's cybersecurity plan — still in the expansion phase — has to survive its own knockout round during the FIFA World Cup.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ce1fafd295a96ffa",
-    "title": "Mount Royal University confirms breach as hackers claim attack",
-    "link": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-08T21:26:59.000Z",
-    "summary": "Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "bf73efce67af72e3",
-    "title": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours",
-    "link": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-08T20:32:22.000Z",
-    "summary": "The attacker exploited AI workflows, chained cloud weaknesses, and stolen credentials to extort a large Amazon customer.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "96cd25be2ce2db26",
-    "title": "Greek victims file lawsuit against Intellexa over Predator spyware",
-    "link": "https://therecord.media/greek-victims-file-lawsuit-against-intellexa-spyware",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-08T20:20:00.000Z",
-    "summary": "The use of the spyware came to light in 2022, with traces of Predator found on dozens of phones. The scandal led to the resignation of Greece’s intelligence service chief and the prime minister’s chief of staff.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c4d5eab906c62157",
-    "title": "Cash App owner to pay $45 million to settle allegations of lax security",
-    "link": "https://therecord.media/cash-app-owner-to-pay-45-million-security-allegations",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-08T20:14:00.000Z",
-    "summary": "State attorneys general announced the bipartisan agreement with Block, Inc. on Wednesday, saying that the company incorrectly promised users that Cash App offered the same protections as a bank.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "311276f58f494796",
-    "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
-    "link": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-08T19:54:59.000Z",
-    "summary": "Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe, Skrill, and Neteller payment applications. [...]",
     "cveIds": [],
     "severity": "normal"
   }
