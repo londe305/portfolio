@@ -1,5 +1,82 @@
 [
   {
+    "id": "92a7238068becf04",
+    "title": "​    ​AsyncAPI npm packages infected with credential-stealing malware",
+    "link": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-15T15:37:27.000Z",
+    "summary": "Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access trojan with info-stealing capabilities. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8659834ba75b9807",
+    "title": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
+    "link": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-15T15:30:30.000Z",
+    "summary": "A malware framework called OkoBot has been running on Windows machines since April 2025, and one of its modules is built to con hardware wallet owners out of their recovery phrase.\n\nOn an infected PC, the request comes from inside the walle",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "69ba3c3a449d5704",
+    "title": "Claude Flaw Automatically Sends Malicious Prompts to AI Agents",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/claude-flaw-malicious-prompts-ai-agents",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-15T15:27:35.000Z",
+    "summary": "When combined with another exploit, the \"PromptFiction\" vulnerability, which has been fixed, could have enabled an end-to-end attack on a targeted system.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f2548ef2e3f5580b",
+    "title": "Unpatched Cursor Vulnerability Exposes Users to Code Execution",
+    "link": "https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-15T14:37:13.000Z",
+    "summary": "An attacker can create a malicious repository containing a git.exe in the project root, and Cursor executes it automatically.\nThe post Unpatched Cursor Vulnerability Exposes Users to Code Execution appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "548cf09abddb7ce5",
+    "title": "Dutch police dismantle global crypto investment scam, arrest alleged mastermind",
+    "link": "https://therecord.media/dutch-police-dismantle-global-crypto-investment-scam",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-15T14:14:00.000Z",
+    "summary": "Authorities said Wednesday that the group operated like a legitimate international business since at least 2021, running about two dozen call centers across several countries and employing more than 700 people who posed as professional fina",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "79e688b08a398c5d",
+    "title": "CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities",
+    "link": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-sharepoint-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-15T14:07:44.000Z",
+    "summary": "Three vulnerabilities are actively exploited in attacks, including two that have been targeted as zero-days.\nThe post CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "95280a92ca4c2785",
+    "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
+    "link": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-15T14:01:11.000Z",
+    "summary": "Intruder built an AI-powered \"vulnerability vending machine\" that combines code slicing with LLMs to automatically discover complex software vulnerabilities. The company explains how the system found and exploited a previously unknown WordP",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "2137e1972d97acb8",
     "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
     "link": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
@@ -64,6 +141,17 @@
     "category": "news",
     "pubDate": "2026-07-15T12:15:00.000Z",
     "summary": "Vulnerability counts have been surging this year, and Microsoft's mammoth disclosure this week of 622 bugs is larger than the three previous months combined.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3577f81d1cfec11a",
+    "title": "Establishing a Coordinated Vulnerability Disclosure Program to Work With Security Researchers",
+    "link": "https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-15T12:00:00.000Z",
+    "summary": "Developed by CISA, the National Security Agency (NSA) and international partners, this joint guidance contains best practices for software manufacturers and online service providers to design and implement a coordinated vulnerability disclo",
     "cveIds": [],
     "severity": "normal"
   },
@@ -302,6 +390,17 @@
     "severity": "normal"
   },
   {
+    "id": "02d5d119505fedb9",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (15 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0867/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "786f5dfecc0ca4f9",
     "title": "Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes",
     "link": "https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes",
@@ -333,7 +432,7 @@
     "source": "Cisco Talos",
     "category": "vendor",
     "pubDate": "2026-07-14T20:27:33.000Z",
-    "summary": "Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as \"critical\".\nMicrosoft notes that two of the vulnerabilities disclosed ",
+    "summary": "Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as \"critical.\"",
     "cveIds": [],
     "severity": "critical"
   },
@@ -432,7 +531,7 @@
     "source": "BleepingComputer",
     "category": "news",
     "pubDate": "2026-07-14T18:49:28.000Z",
-    "summary": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerabilities, along with additional security fixes. [...]",
+    "summary": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes this month's record-breaking July 2026 Patch Tuesday fixes, along with additional security improvements. [...]",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2024,6 +2123,127 @@
     "severity": "normal"
   },
   {
+    "id": "f8d51b9120380f96",
+    "title": "Multiples vulnérabilités dans Progress MOVEit Transfer (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0856/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-10T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Progress MOVEit Transfer. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une injection de cod",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "791b96cf887409f2",
+    "title": "Vulnérabilité dans NetApp ONTAP 9 (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0857/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-10T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans NetApp ONTAP 9. Elle permet à un attaquant de provoquer un déni de service à distance et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8b2dea87ddbb5c94",
+    "title": "Vulnérabilité dans CPython (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0858/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-10T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cd67515bf39e61da",
+    "title": "Multiples vulnérabilités dans Suricata (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0859/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-10T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Suricata. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fff51dccc5eb80a4",
+    "title": "Multiples vulnérabilités dans les produits Siemens (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0860/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-10T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0f2311cdf134c48f",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0861/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-10T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un contournement de l",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8d6ef4c3bfa0ae2e",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0862/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-10T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de servi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c3fb6b11b4ce81b5",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0863/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-10T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "15a5d554f5800ac6",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0864/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-10T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contourn",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "992d792ff86a02b0",
+    "title": "Multiples vulnérabilités dans les produits IBM (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0865/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-10T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une falsification de requê",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ae4449b217287916",
+    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0866/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-10T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "96d5611372917845",
     "title": "Dutch police trace Odido telco cyberattack to suspected local accomplice",
     "link": "https://therecord.media/dutch-police-suspect-dutch-accomplice-in-odido-cyberattack",
@@ -2602,6 +2822,83 @@
     "severity": "normal"
   },
   {
+    "id": "b0dc5a8f6027730a",
+    "title": "Multiples vulnérabilités dans Wireshark (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0849/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-09T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer un déni de service à distance et une atteinte à la confidentialité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d3a17bf426c19675",
+    "title": "Multiples vulnérabilités dans GitLab (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0850/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-09T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une injection de code indirecte à distance (XSS) et un contournement ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3d3c1f4492a66462",
+    "title": "Multiples vulnérabilités dans Traefik (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0851/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-09T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f9febe3875808203",
+    "title": "Multiples vulnérabilités dans les produits Juniper Networks (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0852/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-09T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Juniper Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et une atteinte à la confiden",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9a2d7fea0887823f",
+    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0853/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-09T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de serv",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a83b7da91a54f06c",
+    "title": "Vulnérabilité dans Microsoft Edge (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0854/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-09T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Microsoft Edge. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4e8831ef66cb4eea",
+    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0855/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-09T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "04152c4978a856df",
     "title": "Mexico's New Cyber Plan Faces Its First Real Test",
     "link": "https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test",
@@ -2730,72 +3027,6 @@
     "category": "news",
     "pubDate": "2026-07-08T16:45:54.000Z",
     "summary": "A financially motivated operation uses lures of cracked or pirated software to deliver a two-for-one malware combo for data theft and cryptomining.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bdc4857264a1e518",
-    "title": "Accenture Confirms Data Breach After Hacker Claims Source Code Theft",
-    "link": "https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-08T16:09:15.000Z",
-    "summary": "The professional services giant says it contained the incident, remediated its source, and experienced no operational or service delivery impact.\nThe post Accenture Confirms Data Breach After Hacker Claims Source Code Theft appeared first o",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "adfde6face88ab5d",
-    "title": "China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors",
-    "link": "https://www.securityweek.com/china-linked-apt-expands-arsenal-with-new-leash-backdoors/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-08T15:42:11.000Z",
-    "summary": "Cisco says the threat actor behind the LapDogs campaign has expanded its SOHO router malware toolkit with LongLeash, DogLeash, and JarLeash backdoors.\nThe post China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors appeared first on Se",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bce82ec1f44d8205",
-    "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
-    "link": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-08T15:07:24.000Z",
-    "summary": "AI coding assistants have a habit of making things up. Ask one to fetch a popular tool, and it will sometimes hand back a real-sounding name for a project that does not exist.\n\nNew research, which its authors call HalluSquatting, turns that",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d7d18a06566a1950",
-    "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
-    "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-08T14:38:05.000Z",
-    "summary": "Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and arbitrary command execution.\n\nThe list of ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c82398099853071d",
-    "title": "Former UK privacy chief preparing legal action against woman who reported him, minister says",
-    "link": "https://therecord.media/former-uk-privacy-chief-preparing-legal-action-against-woman-who-reported-him",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-08T14:20:00.000Z",
-    "summary": "Liz Kendall, the secretary of state for science, innovation and technology, said she was “absolutely appalled” at the findings of “sexual harassment and bullying” made by an independent investigation at the Information Commissioner’s Office",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fe8c788d8083a74f",
-    "title": "3 Ways AI Powers Service Desk Attacks and How to Prevent Them",
-    "link": "https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-08T14:01:11.000Z",
-    "summary": "Specops Software explains how AI is making service desk impersonation attacks more convincing, personalized, and scalable, along with practical steps organizations can take to strengthen onboarding and identity verification. [...]",
     "cveIds": [],
     "severity": "normal"
   }
