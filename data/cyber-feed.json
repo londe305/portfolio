@@ -1,5 +1,38 @@
 [
   {
+    "id": "5ca8367967d5b11d",
+    "title": "ISC Stormcast For Wednesday, July 15th, 2026 https://isc.sans.edu/podcastdetail/10008, (Wed, Jul 15th)",
+    "link": "https://isc.sans.edu/diary/rss/33158",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-15T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "06fe29ab821d24ce",
+    "title": "Recent DShield SIEM Update, (Tue, Jul 14th)",
+    "link": "https://isc.sans.edu/diary/rss/33156",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-15T01:38:43.000Z",
+    "summary": "The last update to the DShield SIEM [4] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "786f5dfecc0ca4f9",
+    "title": "Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-14T21:50:56.000Z",
+    "summary": "Three of the 622 CVEs for which Microsoft issued patches this week are zero-days; there are more than 60 critical vulnerabilities.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "5e5805c89ed2aefe",
     "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
     "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
@@ -176,7 +209,7 @@
     "source": "BleepingComputer",
     "category": "news",
     "pubDate": "2026-07-14T17:41:16.000Z",
-    "summary": "Microsoft has released Windows 11 KB5101650 and KB5099414 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+    "summary": "Microsoft has released Windows 11's June 2026 Update for version 25H2, 24H2, and 23H2, bringing fixes for over 570 security issues. [...]",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1882,7 +1915,7 @@
     "source": "Microsoft Security Blog",
     "category": "vendor",
     "pubDate": "2026-07-09T15:00:00.000Z",
-    "summary": "GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families an",
+    "summary": "GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously",
     "cveIds": [],
     "severity": "critical"
   },
@@ -2672,50 +2705,6 @@
     "category": "news",
     "pubDate": "2026-07-08T05:33:12.000Z",
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e76f51f19e6ae169",
-    "title": "ISC Stormcast For Wednesday, July 8th, 2026 https://isc.sans.edu/podcastdetail/9998, (Wed, Jul 8th)",
-    "link": "https://isc.sans.edu/diary/rss/33136",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-08T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1a4e1a1228759aaa",
-    "title": "Multiples vulnérabilités dans les produits Foxit (08 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0845/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-08T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Foxit. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidenti",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "09c58f50aefeac1a",
-    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (08 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0846/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-08T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la poli",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2953002c0d937aa3",
-    "title": "Accenture confirms breach after hacker offers stolen data for sale",
-    "link": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-07T22:06:07.000Z",
-    "summary": "IT services giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other data from the company. [...]",
     "cveIds": [],
     "severity": "critical"
   }
