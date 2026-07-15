@@ -1,5 +1,49 @@
 [
   {
+    "id": "f362ea39013426a0",
+    "title": "Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits",
+    "link": "https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-15T08:00:00.000Z",
+    "summary": "The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "228009902beaa09c",
+    "title": "US charges alleged operators of Russian bulletproof hosting service",
+    "link": "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-15T07:45:50.000Z",
+    "summary": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in damages to victims worldwide. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "141e4fef4277c9ab",
+    "title": "Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates",
+    "link": "https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-15T07:24:52.000Z",
+    "summary": "Public exploit code targeting the Firefox flaws exists, but no in-the-wild exploitation has been observed.\nThe post Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d8f6ea883c519ff4",
+    "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
+    "link": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-15T05:30:21.000Z",
+    "summary": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution.\n\nThe vulnerabilities are listed",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "3dc37ef31eaba0ba",
     "title": "SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits",
     "link": "https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/",
@@ -2664,51 +2708,5 @@
     "summary": "A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking devices.\n\nAccording to findings from Cisco Talos, UAT-7810 is ",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "534b4085ee0f669d",
-    "title": "Ubiquiti warns of new max severity  UniFi OS vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-08T08:15:20.000Z",
-    "summary": "Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1957f66a0a760eb4",
-    "title": "State IDs for AI Agents: Will Estonia Set a Precedent?",
-    "link": "https://www.darkreading.com/cybersecurity-operations/state-ids-ai-agents-estonia",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-08T08:01:00.000Z",
-    "summary": "The world's digital testing ground plans to help people use AI agents for government purposes.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e988b425cfe3d68e",
-    "title": "CISA orders feds to patch max severity ColdFusion flaw by Friday",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-08T07:16:55.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app development platform by Friday. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "37b84ac2f1af336a",
-    "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
-    "link": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-08T06:16:44.000Z",
-    "summary": "Researchers at Nebula Security have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has not been patched.\n\nThe vulnerable code has shipped by defaul",
-    "cveIds": [
-      "CVE-2026-43499"
-    ],
-    "severity": "cve"
   }
 ]
