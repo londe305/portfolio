@@ -19,7 +19,7 @@ const state = {
   items: [],
   dayFilter: null,      // null = tous les jours, sinon 'YYYY-MM-DD'
   excludedSources: new Set(),
-  criticalOnly: false
+  criticalOnly: true
 };
 
 /* ---- Utilitaires date ---- */
@@ -138,14 +138,14 @@ function buildDayFilters() {
 
   container.innerHTML = '';
   const allBtn = document.createElement('button');
-  allBtn.className = 'cv-day-btn active';
+  allBtn.className = 'cv-day-btn' + (state.dayFilter === null ? ' active' : '');
   allBtn.innerHTML = `<span>Tous</span><span class="cv-count">${state.items.length}</span>`;
   allBtn.addEventListener('click', () => setDayFilter(null, allBtn));
   container.appendChild(allBtn);
 
   days.forEach(key => {
     const btn = document.createElement('button');
-    btn.className = 'cv-day-btn';
+    btn.className = 'cv-day-btn' + (key === state.dayFilter ? ' active' : '');
     btn.innerHTML = `<span>${dayLabel(key)}</span><span class="cv-count">${counts.get(key)}</span>`;
     btn.addEventListener('click', () => setDayFilter(key, btn));
     container.appendChild(btn);
@@ -260,6 +260,9 @@ export async function initCyberveille() {
     }
 
     state.items = [...items].sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+
+    const todayKey = dayKey(new Date().toISOString());
+    state.dayFilter = state.items.some(item => dayKey(item.pubDate) === todayKey) ? todayKey : null;
 
     buildDayFilters();
     buildSourceFilters();
