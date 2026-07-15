@@ -1,7 +1,84 @@
 [
   {
+    "id": "83ec01c95c88c5ed",
+    "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
+    "link": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-15T18:43:08.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a previously unreported Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows signs of being developed with assistance from a large language model (LLM), albeit w",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bf388264b5bf10ad",
+    "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
+    "link": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-15T18:33:48.000Z",
+    "summary": "A Russian-speaking threat actor known as \"bandcampro\" used Google's open-source Gemini CLI AI tool as a hacking agent and to operate a small-scale botnet. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "77ee9cacb5293add",
+    "title": "Guten Tag, Bonjour, Hola to Our European Cyber Defenders!",
+    "link": "https://www.darkreading.com/threat-intelligence/guten-tag-bonjour-hola-european-cyber-defenders",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-15T18:08:56.000Z",
+    "summary": "We're thrilled to unveil the latest evolution of Dark Reading's DR Global section — your go-to source for region-specific cybersecurity intelligence beyond North America.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "87d84662f0be51d5",
+    "title": "Trump’s DNI pick grilled about election security, voter fraud",
+    "link": "https://therecord.media/jay-clayton-odni-nominee-senate-confirmation-hearing",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-15T17:50:00.000Z",
+    "summary": "Senators pressed director of national intelligence nominee Jay Clayton about his stance on the 2020 election and previous statements about voter fraud. Other issues took a back seat.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ae74f84c2ec57f44",
+    "title": "23andMe reaches $18 million settlement with states for massive breach",
+    "link": "https://therecord.media/genetic-testing-settlement-data-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-15T17:45:00.000Z",
+    "summary": "A coalition of 42 state attorneys general reached an $18 million settlement with 23andMe for cybersecurity failings that led to a data breach.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5772b2f186faccf9",
+    "title": "Is 'Tech-xit' Imminent? UK Steps Up Sovereignty Push Amid AI Strife",
+    "link": "https://www.darkreading.com/cybersecurity-operations/tech-xit-uk-sovereignty-push-amid-ai-strife",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-15T17:03:23.000Z",
+    "summary": "The US government's restrictions on Anthropic and OpenAI frontier models have intensified calls in the UK and other countries to reduce their reliance on US tech companies, with significant cyber implications.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d7307251ff84d03d",
+    "title": "Turning threat intelligence into decisive action with Defender Experts",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-07-15T16:00:35.000Z",
+    "summary": "Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools.\nThe post Turning threat intelligence into decisi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "92a7238068becf04",
-    "title": "​    ​AsyncAPI npm packages infected with credential-stealing malware",
+    "title": "AsyncAPI npm packages infected with credential-stealing malware",
     "link": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
     "source": "BleepingComputer",
     "category": "news",
@@ -154,6 +231,19 @@
     "summary": "Developed by CISA, the National Security Agency (NSA) and international partners, this joint guidance contains best practices for software manufacturers and online service providers to design and implement a coordinated vulnerability disclo",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "0dab11cca0fdba72",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/07/15/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-15T12:00:00.000Z",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2023-4346 KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account L",
+    "cveIds": [
+      "CVE-2023-4346"
+    ],
+    "severity": "cve"
   },
   {
     "id": "88994396911dc8ed",
@@ -1933,20 +2023,6 @@
     "severity": "critical"
   },
   {
-    "id": "1160719f032dacf0",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-10T12:00:00.000Z",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-48939 iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability\nCVE-2026-56291 Balb",
-    "cveIds": [
-      "CVE-2026-48939",
-      "CVE-2026-56291"
-    ],
-    "severity": "cve"
-  },
-  {
     "id": "54730da009a826c5",
     "title": "China, India-Linked Hackers Both Targeted Same Pakistani Police Force",
     "link": "https://www.securityweek.com/china-india-linked-hackers-both-targeted-same-pakistani-police-force/",
@@ -2961,72 +3037,6 @@
     "category": "news",
     "pubDate": "2026-07-08T19:54:59.000Z",
     "summary": "Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe, Skrill, and Neteller payment applications. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7cf8d411f08e9235",
-    "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-08T18:56:02.000Z",
-    "summary": "A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backdoor malware. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bdb3650c837946c4",
-    "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
-    "link": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-08T17:02:12.000Z",
-    "summary": "Sophos looked at a week of its own endpoint data and found that AI coding agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection rules written to catch human intruders.\n\nThe agents are not malicious. They just do a l",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "afaf53379702a270",
-    "title": "Protecting Microsoft at AI speed: How SFI proactively hardens our cloud",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-08T17:00:00.000Z",
-    "summary": "At Microsoft we encompass these security requirements, along with threat knowledge, and operational frameworks in our Secure Future Initiative (SFI), to guide what a well-defended cloud service looks like. But defining the requirements is o",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fd635eb0ae7eeb54",
-    "title": "Taiwan charges two businessmen over alleged role in Chinese espionage campaign",
-    "link": "https://therecord.media/taiwan-charges-businessmen-china-cyber-espionage-campaign",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-08T16:55:00.000Z",
-    "summary": "A company based in Taiwan was leasing out accounts on the popular LINE messaging app to Chinese spies, according to prosecutors, who charged two men in the alleged scheme.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e07f758ff2da0363",
-    "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
-    "link": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-08T16:47:25.000Z",
-    "summary": "A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll a new Entra passkey. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a1858addffac9966",
-    "title": "Vidar Infostealer Hammers SMBs via Malvertising Campaign",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/vidar-infostealer-smb-malvertising-campaign",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-08T16:45:54.000Z",
-    "summary": "A financially motivated operation uses lures of cracked or pirated software to deliver a two-for-one malware combo for data theft and cryptomining.",
     "cveIds": [],
     "severity": "normal"
   }
