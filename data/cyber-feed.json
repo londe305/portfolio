@@ -1,5 +1,19 @@
 [
   {
+    "id": "3dc37ef31eaba0ba",
+    "title": "SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits",
+    "link": "https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-15T05:19:42.000Z",
+    "summary": "SonicWall SMA1000 zero-day vulnerabilities CVE-2026-15409 and CVE-2026-15410 can be exploited for remote code execution.\nThe post SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-15409",
+      "CVE-2026-15410"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "5ca8367967d5b11d",
     "title": "ISC Stormcast For Wednesday, July 15th, 2026 https://isc.sans.edu/podcastdetail/10008, (Wed, Jul 15th)",
     "link": "https://isc.sans.edu/diary/rss/33158",
@@ -2696,16 +2710,5 @@
       "CVE-2026-43499"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "3c862d73ee4ce6f1",
-    "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
-    "link": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-08T05:33:12.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  ",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
