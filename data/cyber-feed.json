@@ -1,5 +1,139 @@
 [
   {
+    "id": "2137e1972d97acb8",
+    "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
+    "link": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-15T13:18:53.000Z",
+    "summary": "Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-15718, an invalid pointer in the JavaScript: WebAssembly co",
+    "cveIds": [
+      "CVE-2026-15718"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "1f87696d819a5b8b",
+    "title": "2-Click Cursor Exploit Enables Dev Environment Takeover",
+    "link": "https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-15T13:00:00.000Z",
+    "summary": "Simple age-old bugs give bad actors access to developers' secrets and source code-rich environments.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "70e3bbce1c759a32",
+    "title": "Windows Bind Link Attacks Can Hide Malware From EDR Tools",
+    "link": "https://www.securityweek.com/windows-bind-link-attacks-can-hide-malware-from-edr-tools/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-15T13:00:00.000Z",
+    "summary": "Bitdefender researchers show how Windows bind links can create conflicting filesystem views to hide malware from endpoint security products.\nThe post Windows Bind Link Attacks Can Hide Malware From EDR Tools appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c36be534c1150b48",
+    "title": "LAPD sidelines relationship with license-plate reader company Flock Safety",
+    "link": "https://therecord.media/lapd-halts-flock-safety-alpr-contract",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-15T13:00:00.000Z",
+    "summary": "The Los Angeles Police Department is the latest U.S. municipal agency to rethink its relationship to ALPR company Flock Safety.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "442dfbedf7f8e236",
+    "title": "Virtual Event Today: Cloud & Data Security Summit",
+    "link": "https://www.securityweek.com/virtual-event-today-cloud-data-security-summit/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-15T12:52:10.000Z",
+    "summary": "Attendees will be able to interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments.\nThe post Virtual Event Today: Cloud & Data Security Summit appeared first on Securi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cf7c9a791bd27f4f",
+    "title": "Microsoft smashes Patch Tuesday record for second successive month",
+    "link": "https://therecord.media/microsoft-vulnerabilities-patch-tuesday-release",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-15T12:15:00.000Z",
+    "summary": "Vulnerability counts have been surging this year, and Microsoft's mammoth disclosure this week of 622 bugs is larger than the three previous months combined.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "88994396911dc8ed",
+    "title": "US Charges Russian Individuals and Firms for Running Cybercrime Services",
+    "link": "https://www.securityweek.com/us-charges-russian-individuals-and-firms-for-running-cybercrime-services/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-15T11:58:05.000Z",
+    "summary": "The suspects and their companies were previously sanctioned by the United States and its allies.\nThe post US Charges Russian Individuals and Firms for Running Cybercrime Services appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dcc7d7954c83b3ca",
+    "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
+    "link": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-15T11:50:01.000Z",
+    "summary": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up.\n\nEnterprise workflows now live across SaaS applications, browsers, and a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "55e1fe9fda9a5fb9",
+    "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
+    "link": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-15T11:07:07.000Z",
+    "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive.\n\nIt has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerabil",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b86e59350d8ff67c",
+    "title": "New Webinar: Closing the Approval Gap in AI-Era Ad Tech",
+    "link": "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-15T11:06:57.000Z",
+    "summary": "A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages.\n\nThis on-demand webinar reveals how this Approval Gap forms, and gi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0ae9ea3506ec9a9f",
+    "title": "Vulnerabilities Patched by Fortinet, Ivanti, ServiceNow",
+    "link": "https://www.securityweek.com/vulnerabilities-patched-by-fortinet-ivanti-servicenow/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-15T11:02:57.000Z",
+    "summary": "A critical security defect in the ServiceNow AI platform could allow remote attackers to execute arbitrary code.\nThe post Vulnerabilities Patched by Fortinet, Ivanti, ServiceNow appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b4074b0b69119c56",
+    "title": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution",
+    "link": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-15T10:55:22.000Z",
+    "summary": "Open a repository in Cursor on Windows and, if a file named git.exe is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that anything in the folder is about to execute.\n\nWhatever that binary does, it doe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "0c65de229c9b57cb",
     "title": "White House Launches AI-Driven ‘Gold Eagle’ Vulnerability Coordination Initiative",
     "link": "https://www.securityweek.com/white-house-launches-ai-driven-gold-eagle-vulnerability-coordination-initiative/",
@@ -153,6 +287,17 @@
     "category": "advisory",
     "pubDate": "2026-07-15T01:38:43.000Z",
     "summary": "The last update to the DShield SIEM [4] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e3b50e700266546b",
+    "title": "Cribl Adds Agentic Detection Engineering &amp; Boosts SecOps With CardinalOps Deal",
+    "link": "https://www.darkreading.com/cybersecurity-operations/cribl-adds-agentic-detection-engineering-boosts-secops-with-cardinalops-deal",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-15T00:05:31.000Z",
+    "summary": "CardinalOps will give Cribl customers the ability to map detection rules and security controls to the MITRE ATT&CK framework. SecOps teams can identify coverage gaps and operationalize threat intelligence.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2651,116 +2796,6 @@
     "category": "news",
     "pubDate": "2026-07-08T14:01:11.000Z",
     "summary": "Specops Software explains how AI is making service desk impersonation attacks more convincing, personalized, and scalable, along with practical steps organizations can take to strengthen onboarding and identity verification. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "173c2d4b7fb241d1",
-    "title": "Spain arrests alleged supporter of pro-Russian hacktivist groups after FBI tip",
-    "link": "https://therecord.media/spain-arrest-alleged-supporter-noname-carr-zpentest",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-08T13:45:00.000Z",
-    "summary": "An FBI tip linked a man living in Spain to the hacking groups CyberArmy of Russia Reborn (CARR), Z-Pentest and NoName057(16).",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9185323241676b82",
-    "title": "Webinar Today: Why Email Security Keeps Failing",
-    "link": "https://www.securityweek.com/webinar-today-why-email-security-keeps-failing/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-08T13:16:28.000Z",
-    "summary": "Join the webinar as we break down why email-layer defenses alone can’t keep pace with the modern phishing ecosystem.\nThe post Webinar Today: Why Email Security Keeps Failing appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5cf319acf47726bd",
-    "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
-    "link": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-08T13:00:00.000Z",
-    "summary": "A recent EvilTokens campaign targeting businesses across the US and Europe is exposing a new email security blind spot. This “ghost phishing” technique keeps the malicious page hidden until it decrypts and comes to life inside the victim’s ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4fa32d85f0c6af1b",
-    "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
-    "link": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-08T12:52:15.000Z",
-    "summary": "A new banking fraudulent operation is targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges using ClickFix lures.\n\nThe activity cluster, tracked by Elastic Security Labs under the moniker REF6045, i",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a862312352299b9d",
-    "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-    "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-07-08T12:31:39.000Z",
-    "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intellige",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7dba178d0c505b8e",
-    "title": "DuckDuckGo browser now blocks YouTube video ads",
-    "link": "https://www.bleepingcomputer.com/news/software/duckduckgo-browser-now-blocks-youtube-video-ads/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-08T12:00:00.000Z",
-    "summary": "DuckDuckGo announced that its browser can now block most video ads on YouTube, including those shown before the video starts playing and during playback. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "366fe12b6b509852",
-    "title": "GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures",
-    "link": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-08T11:51:24.000Z",
-    "summary": "New research shows that a signed Git commit's hash is not the one-of-a-kind name that much of the software world assumes it to be. Given any signed commit, someone without the signing key can mint a second commit with the same files, author",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "077d2e7f408e0277",
-    "title": "The Verification Step Is the New ATO Battleground in 2026",
-    "link": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-08T11:30:00.000Z",
-    "summary": "For years, account takeover (ATO) followed a predictable script. Attackers bought stolen credentials in bulk, ran them through automated tools, and waited for matches. Credential stuffing was cheap, scalable, and for defenders, relatively w",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c651e26d1e6fba51",
-    "title": "Telco giant KDDI says data breach affects over 12 million people",
-    "link": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-08T11:24:16.000Z",
-    "summary": "Japanese telecommunications giant KDDI says that millions of people had their email addresses and passwords exposed after attackers breached an email platform used by five internet service providers (ISPs) in the country. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f1e6a10409fd7b0e",
-    "title": "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
-    "link": "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-08T11:21:07.000Z",
-    "summary": "An AI coding assistant that refuses to answer a dangerous request in its chat box can answer it anyway if the same request is broken into small, ordinary-looking steps inside a code editor. That is the finding of a new study of GitHub Copil",
     "cveIds": [],
     "severity": "normal"
   }
