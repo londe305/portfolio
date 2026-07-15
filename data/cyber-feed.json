@@ -1,5 +1,82 @@
 [
   {
+    "id": "0c65de229c9b57cb",
+    "title": "White House Launches AI-Driven ‘Gold Eagle’ Vulnerability Coordination Initiative",
+    "link": "https://www.securityweek.com/white-house-launches-ai-driven-gold-eagle-vulnerability-coordination-initiative/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-15T10:18:25.000Z",
+    "summary": "The new program stems from an AI-focused Executive Order signed by President Trump on June 2.\nThe post White House Launches AI-Driven ‘Gold Eagle’ Vulnerability Coordination Initiative appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "59eacecb0394d3f1",
+    "title": "TuxBot v3: Inside an IoT Botnet Framework With LLM-Assisted Development",
+    "link": "https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-07-15T10:00:54.000Z",
+    "summary": "TuxBot v3 Evolution, an IoT botnet framework built with LLMs. Read our analysis of its cross-compiled binaries, C2 architecture and bugs.\nThe post TuxBot v3: Inside an IoT Botnet Framework With LLM-Assisted Development appeared first on Uni",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7d903e24eea0412b",
+    "title": "Progress Confirms Zero-Day Vulnerability Behind ShareFile Disruption",
+    "link": "https://www.securityweek.com/progress-confirms-zero-day-vulnerability-behind-sharefile-disruption/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-15T09:48:29.000Z",
+    "summary": "The company has rolled out a fix and is restoring access for Storage Zones Controller customers who apply it.\nThe post Progress Confirms Zero-Day Vulnerability Behind ShareFile Disruption appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "51db287e860725a5",
+    "title": "CISA warns admins to patch actively exploited SharePoint flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-15T09:44:52.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned Tuesday that attackers are actively exploiting three vulnerabilities to hack Internet-exposed on-premises SharePoint Server instances. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "036cdf354d516784",
+    "title": "ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Rockwell",
+    "link": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-rockwell/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-15T09:19:58.000Z",
+    "summary": "The industrial giants fixed dozens of vulnerabilities across their ICS products, with advisories also released by CISA and VDE CERT.\nThe post ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Rockwell appeared first on Securit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "703342ddd7abdc59",
+    "title": "Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware",
+    "link": "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-15T09:16:13.000Z",
+    "summary": "Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and StepSecurity.\n\nThe affected packages are listed below -\n\n\n  @",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "641d94feb1f4ebb6",
+    "title": "Microsoft: Some Dell PCs shut down after recent Windows updates",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-dell-devices-shut-down-after-windows-update/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-15T08:26:48.000Z",
+    "summary": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f362ea39013426a0",
     "title": "Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits",
     "link": "https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits",
@@ -2684,28 +2761,6 @@
     "category": "news",
     "pubDate": "2026-07-08T11:21:07.000Z",
     "summary": "An AI coding assistant that refuses to answer a dangerous request in its chat box can answer it anyway if the same request is broken into small, ordinary-looking steps inside a code editor. That is the finding of a new study of GitHub Copil",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "44654f842d88b1f1",
-    "title": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-08T09:58:11.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) gave federal agencies until Friday to patch an actively exploited vulnerability in the Langflow visual framework for building AI agents. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4ed72d8b6c40007e",
-    "title": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
-    "link": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-08T09:04:33.000Z",
-    "summary": "A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking devices.\n\nAccording to findings from Cisco Talos, UAT-7810 is ",
     "cveIds": [],
     "severity": "normal"
   }
