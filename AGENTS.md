@@ -9,7 +9,7 @@
 - **No build step** — open `index.html` over **http(s)**, not `file://` (component loading uses `fetch`, which browsers block on `file://`). For local dev, serve the folder with any static server (e.g. VS Code "Live Server", `npx serve`, `python -m http.server`).
 - **Entry point**: `index.html` is a thin shell — it only declares mount points and loads `js/main.js` as an ES module. All real markup lives in `components/*.html` and is injected at runtime.
 - **Language**: French UI by default, with EN switching via `js/language.js`.
-- **Design**: Dark cyberpunk/network theme, teal accent `#00f5d4`, animated network-equipment canvas background.
+- **Design**: Dark cyberpunk theme, teal accent `#00f5d4`, animated canvas background (PCB circuit traces + pulses, floating science formulas).
 
 ---
 
@@ -62,7 +62,7 @@ Never reintroduce `onclick="..."` in component HTML — add a `data-*` attribute
 - **`language.js`** — `translations` object (fr/en) + `initLanguage()`/`setLanguage()`. Must run *after* all components are in the DOM (it walks every `[data-i18n]` element).
 - **`navigation.js`** — navbar, mobile menu, generic tab switching, scroll-spy, reveal-on-scroll.
 - **`projects.js`** — `BLOGS` data array, blog grid rendering, blog article modal.
-- **`ui.js`** — lightbox (schema gallery) and the animated network-equipment background canvas.
+- **`ui.js`** — lightbox (schema gallery) and the animated background canvas (PCB circuit traces/pulses + floating formulas, with a text-avoidance fade under the hero text column).
 - **`cyberveille.js`** — reads the static `data/cyber-feed.json` snapshot (no live fetch, no CORS proxy — see below) and renders the Cyberveille sidebar (day/source filters, "recently viewed" in `localStorage`) + main feed with CVE/critical highlighting.
 - **`game.js`** — Dino SIO canvas game, exports `initGame()`. Already null-safe: if `#dino-canvas` isn't found (e.g. `components/game.html` failed to load), it returns no-op stubs instead of throwing.
 - **`main.js`** — the only module loaded by `index.html`; orchestrates component loading + module init, owns the global Escape-key handler (closes whichever modal is open).
@@ -122,7 +122,7 @@ Keys live in `translations.fr / .en` inside `js/language.js`.
 ## Browser Compatibility
 - **Required**: ES modules (`<script type="module">`), `fetch`, `IntersectionObserver`, CSS custom properties.
 - **Local testing must use http(s)** — `fetch()` of `components/*.html` is blocked by CORS when opening `index.html` via `file://`.
-- GitHub Pages (`.github/workflows/static.yml`) deploys the repo root as-is — this works out of the box since GitHub Pages serves over https.
+- GitHub Pages (`.github/workflows/static.yml`) copies everything **except** `scripts/`, `AGENTS.md`, `.github/`, `.git/`, `.gitignore`, `.claude/`, `node_modules/`, `package*.json` into a temporary `_site/` directory and deploys that — it does **not** deploy the repo root as-is. `data/` is intentionally kept public (not excluded) because `cyberveille.js` fetches `data/cyber-feed.json`/`cyber-meta.json` client-side. When adding new root-level files/folders that shouldn't be public, add them to the `cp -r !(...)` exclusion list in `static.yml`.
 - All file paths are **case-sensitive** (GitHub Pages runs on Linux) — keep filenames/imports exactly matching the casing used in `components/`, `css/`, `js/`.
 
 ---

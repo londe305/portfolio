@@ -19,8 +19,10 @@ html{font-size:16px}
 body{
   font-family:'Inter',system-ui,sans-serif;
   background:var(--bg);color:var(--text);
-  min-height:100vh;overflow-x:hidden;
+  min-height:100vh;min-height:100dvh;overflow-x:hidden;
 }
+/* Lock background scroll while the mobile nav drawer or a modal is open */
+body.menu-open,body.modal-open{overflow:hidden}
 a{color:var(--c);text-decoration:none}
 a:hover{text-decoration:underline}
 strong{color:#fff}

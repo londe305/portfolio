@@ -10,7 +10,7 @@
 ===================================================== */
 
 import { initLanguage } from './language.js';
-import { initNavigation, initScrollBehavior } from './navigation.js';
+import { initNavigation, initScrollBehavior, closeMenu } from './navigation.js';
 import { initProjects, closeModal as closeBlogModal } from './projects.js';
 import { initLightbox, initNetworkCanvas } from './ui.js';
 import { initCyberveille } from './cyberveille.js';
@@ -68,11 +68,12 @@ async function bootstrap() {
   safeInit('cyberveille', initCyberveille);
   safeInit('game', initGame);
 
-  /* Escape closes whichever modal is open (blog article or game difficulty). */
+  /* Escape closes whichever overlay is open (blog article, game difficulty, mobile menu). */
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;
     closeBlogModal();
     document.getElementById('diff-modal')?.classList.add('hidden');
+    closeMenu();
   });
 }
 

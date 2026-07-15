@@ -24,12 +24,15 @@ export const translations = {
     "nav.blogs": "📝 Blogs",
     "nav.contact": "📞 Contact",
     "nav.jeu": "🎮 Jeu – Dino SIO",
+    /* === BLOGS === */
+    "blogs.sub": "Articles techniques sur la cybersécurité, les réseaux et mes retours d'expérience.",
     /* === HOME === */
     "home.title": "[=== BIENVENUE ===]",
     "home.welcome": "Bienvenue sur le portfolio de <strong>Londé Balossa Lotus Espoir</strong>.",
     "home.instructions": "Utilise le menu en haut pour naviguer.",
     /* === APROPOS === */
     "apropos.title": "[=== À PROPOS ===]",
+    "apropos.sub": "Profil, enjeux des infrastructures &amp; vision future.",
     "apropos.intro": "Étudiant en BTS SIO (option SISR), je m'intéresse aux systèmes, réseaux et à la cybersécurité. Mon objectif : bâtir des infrastructures <strong>performantes</strong>, <strong>sécurisées</strong> et <strong>résilientes</strong>.",
     "apropos.infra.title": "Enjeux des infrastructures réseau aujourd'hui",
     "apropos.infra.1": "<strong>Performance &amp; scalabilité</strong> – absorber la croissance utilisateurs/données/services.",
@@ -40,10 +43,9 @@ export const translations = {
     "apropos.future.2": "<strong>Zero Trust généralisé</strong> – contrôle d'accès fort, moindre privilège, vérification continue.",
     "apropos.future.3": "<strong>Observabilité</strong> – télémétrie fine, détection temps réel, auto-remédiation.",
     "apropos.future.4": "<strong>IA &amp; sécurité</strong> – détection d'anomalies, réponse automatisée.",
-    "apropos.assistant": "Assistant IA accessible depuis le bouton flottant en bas à droite.",
     /* === ALTERNANCE === */
     "alternance.title": "[=== MON ALTERNANCE CHEZ TRANSDEV ===]",
-    "alternance.subtabs.label": "Sous-onglets Alternance",
+    "alternance.sub": "Découvrez mon parcours au sein du groupe Transdev — missions, équipe &amp; apprentissages.",
     "alt-arrivee.title": "Arrivée au sein du groupe Transdev",
     "alt-arrivee.text": "(À compléter : contexte d'arrivée, objectifs de la mission, périmètre technique…)",
     "alt-equipe.title": "L'équipe infrastructure",
@@ -85,6 +87,7 @@ export const translations = {
     "alt-transdev.links.3": "Présentation (LinkedIn corp.)",
     /* === PROJETS === */
     "projets.title": "[=== PROJETS ===]",
+    "projets.sub": "Projets professionnels &amp; personnels en infrastructure réseau et cybersécurité.",
     "projets.tab.crystal": "Refresh Réseau Crystal",
     "projets.tab.zerotrust": "Zero Trust &amp; Supervision Zabbix",
     /* === PROJET ZERO TRUST LAB === */
@@ -96,7 +99,6 @@ export const translations = {
     "zt-lab.arch.ul": "<li><strong>Routeur (edge) :</strong> point d'entrée WAN, NAT, filtrage initial.</li><li><strong>Firewall ASA 5505 :</strong> cœur Zero Trust — règles ACL strictes, aucun flux autorisé par défaut, inspection des paquets inter-VLAN.</li><li><strong>Switch managé :</strong> segmentation L2 en VLANs, trunk vers le firewall, port-security activé.</li><li><strong>VLANs :</strong> isolation logique complète entre les zones (Users, Admin, Servers, Legacy).</li><li><strong>Zabbix (serveur de supervision) :</strong> collecte SNMP, alertes en temps réel, dashboard centralisé.</li>",
     "zt-lab.schema.title": "Schéma détaillé",
     "zt-lab.schema.p": "Vue complète de l'architecture Zero Trust du lab, incluant les flux autorisés, les zones de confiance et la position de Zabbix.",
-    "zt-lab.schema.placeholder": "📐 Schéma à ajouter — placer l'image dans <code>images/zerotrust-schema.png</code>",
     "zt-lab.schema.legend": "Légende : les flèches vertes représentent les flux autorisés par ACL, les rouges les flux bloqués par défaut. Zabbix collecte en lecture seule via SNMP (VLAN 20 → VLAN 30).",
     "zt-lab.vlan.title": "Segmentation VLAN",
     "zt-lab.vlan.p": "Chaque zone est isolée — aucune communication inter-VLAN sans règle ACL explicite sur le firewall.",
@@ -179,6 +181,7 @@ export const translations = {
     "crystal.role.e6.ul": "<li>Conception d'infrastructure</li><li>Installation &amp; configuration</li><li>Tests &amp; validation</li><li>Supervision &amp; exploitation</li><li>Gestion de projet &amp; ITIL</li>",
     /* === CERTIFICATIONS === */
     "certifications.title": "[=== CERTIFICATIONS ===]",
+    "certifications.sub": "Parcours de certification par domaine — objectifs, ressources &amp; état d'avancement.",
     "cert.h2.objectifs": "Objectifs",
     "cert.h2.parcours": "Parcours &amp; ressources",
     "cert.h2.etat": "État",
@@ -214,7 +217,6 @@ export const translations = {
     "jeu.level.label": "Niveau",
     "jeu.modal.title": "Difficulté",
     "jeu.modal.p": "Si ce bouton existait, ce ne serait pas fun 😉",
-    "jeu.modal.label": "Niveau",
     "jeu.modal.hint": "(désactivé par choix philosophique)",
     "jeu.modal.close": "Fermer",
     "jeu.note": "Astuce : presse <kbd>Espace</kbd> ou <kbd>↑</kbd> pour sauter. Sur mobile, touche le canvas.",
@@ -237,7 +239,6 @@ export const translations = {
     "zt.compare.r3c1": "Accès large",          "zt.compare.r3c2": "Accès minimal",
     "zt.compare.r4c1": "Détection tardive",    "zt.compare.r4c2": "Surveillance continue",
     "zt.arch.simple.h2": "Schéma Zero Trust (vue simplifiée)",
-    "zt.arch.advanced.h2": "Schéma Zero Trust (avancé)",
     "zt.usecase.google.h2": "Étude de cas : Google BeyondCorp",
     "zt.usecase.google.p": "Google a supprimé la notion de réseau interne de confiance. Chaque accès passe par une vérification d'identité et de contexte.",
     "zt.usecase.enterprise.h2": "Cas d'usage en entreprise",
@@ -264,9 +265,10 @@ export const translations = {
     "cyberveille.loading": "📡 Chargement des actualités…",
     /* === CONTACT === */
     "contact.title": "[=== CONTACT ===]",
+    "contact.sub": "Disponible pour des questions, collaborations ou opportunités professionnelles.",
     "contact.nom": "Nom : <strong>Londé Balossa Lotus Espoir</strong>",
     "contact.email": "Email : <a href=\"mailto:londe305@gmail.com\">londe305@gmail.com</a>",
-    "contact.linkedin": "LinkedIn : <a href=\"https://www.linkedin.com/feed/\" target=\"_blank\" rel=\"noopener\">Mon Profil LinkedIn</a>",
+    "contact.linkedin": "LinkedIn : <a href=\"https://www.linkedin.com/in/TON_PROFIL/\" target=\"_blank\" rel=\"noopener\">Mon Profil LinkedIn</a>",
   },
 
   en: {
@@ -294,12 +296,15 @@ export const translations = {
     "nav.blogs": "📝 Blogs",
     "nav.contact": "📞 Contact",
     "nav.jeu": "🎮 Game – Dino SIO",
+    /* === BLOGS === */
+    "blogs.sub": "Technical articles on cybersecurity, networks and my hands-on feedback.",
     /* === HOME === */
     "home.title": "[=== WELCOME ===]",
     "home.welcome": "Welcome to the portfolio of <strong>Londé Balossa Lotus Espoir</strong>.",
     "home.instructions": "Use the top navigation menu to explore the portfolio.",
     /* === APROPOS === */
     "apropos.title": "[=== ABOUT ===]",
+    "apropos.sub": "Profile, network infrastructure challenges &amp; future vision.",
     "apropos.intro": "BTS SIO student (SISR option), I focus on systems, networks and cybersecurity. My goal: build <strong>performant</strong>, <strong>secure</strong> and <strong>resilient</strong> infrastructures.",
     "apropos.infra.title": "Network infrastructure challenges today",
     "apropos.infra.1": "<strong>Performance &amp; scalability</strong> – absorb user/data/service growth.",
@@ -310,10 +315,9 @@ export const translations = {
     "apropos.future.2": "<strong>Wider Zero Trust</strong> – strong access control, least privilege, continuous verification.",
     "apropos.future.3": "<strong>Observability</strong> – detailed telemetry, real-time detection, self-remediation.",
     "apropos.future.4": "<strong>AI &amp; security</strong> – anomaly detection, automated response.",
-    "apropos.assistant": "AI assistant available from the floating button in the bottom right.",
     /* === ALTERNANCE === */
     "alternance.title": "[=== MY INTERNSHIP AT TRANSDEV ===]",
-    "alternance.subtabs.label": "Internship subtabs",
+    "alternance.sub": "Discover my journey within the Transdev group — assignments, team &amp; learnings.",
     "alt-arrivee.title": "Arrival at Transdev",
     "alt-arrivee.text": "(To complete: arrival context, mission objectives, technical scope…)",
     "alt-equipe.title": "Infrastructure team",
@@ -355,6 +359,7 @@ export const translations = {
     "alt-transdev.links.3": "Presentation (LinkedIn corp.)",
     /* === PROJETS === */
     "projets.title": "[=== PROJECTS ===]",
+    "projets.sub": "Professional &amp; personal projects in network infrastructure and cybersecurity.",
     "projets.tab.crystal": "Crystal Network Refresh",
     "projets.tab.zerotrust": "Zero Trust &amp; Zabbix Monitoring",
     /* === PROJET ZERO TRUST LAB === */
@@ -366,7 +371,6 @@ export const translations = {
     "zt-lab.arch.ul": "<li><strong>Edge router:</strong> WAN entry point, NAT, initial filtering.</li><li><strong>Firewall ASA 5505:</strong> Zero Trust core — strict ACL rules, no flow allowed by default, inter-VLAN packet inspection.</li><li><strong>Managed switch:</strong> L2 segmentation into VLANs, trunk to firewall, port-security enabled.</li><li><strong>VLANs:</strong> full logical isolation between zones (Users, Admin, Servers, Legacy).</li><li><strong>Zabbix (monitoring server):</strong> SNMP collection, real-time alerts, centralized dashboard.</li>",
     "zt-lab.schema.title": "Detailed diagram",
     "zt-lab.schema.p": "Full view of the lab Zero Trust architecture, including authorized flows, trust zones and Zabbix placement.",
-    "zt-lab.schema.placeholder": "📐 Diagram to add — place image at <code>images/zerotrust-schema.png</code>",
     "zt-lab.schema.legend": "Legend: green arrows represent ACL-authorized flows, red arrows represent flows blocked by default. Zabbix collects read-only via SNMP (VLAN 20 → VLAN 30).",
     "zt-lab.vlan.title": "VLAN segmentation",
     "zt-lab.vlan.p": "Each zone is isolated — no inter-VLAN communication without an explicit ACL rule on the firewall.",
@@ -449,6 +453,7 @@ export const translations = {
     "crystal.role.e6.ul": "<li>Infrastructure design</li><li>Installation &amp; configuration</li><li>Testing &amp; validation</li><li>Monitoring &amp; operations</li><li>Project management &amp; ITIL</li>",
     /* === CERTIFICATIONS === */
     "certifications.title": "[=== CERTIFICATIONS ===]",
+    "certifications.sub": "Certification path by domain — objectives, resources &amp; progress.",
     "cert.h2.objectifs": "Objectives",
     "cert.h2.parcours": "Path &amp; resources",
     "cert.h2.etat": "Status",
@@ -484,7 +489,6 @@ export const translations = {
     "jeu.level.label": "Level",
     "jeu.modal.title": "Difficulty",
     "jeu.modal.p": "If this button existed, it wouldn't be fun 😉",
-    "jeu.modal.label": "Level",
     "jeu.modal.hint": "(disabled by philosophical choice)",
     "jeu.modal.close": "Close",
     "jeu.note": "Tip: press <kbd>Space</kbd> or <kbd>↑</kbd> to jump. On mobile, tap the canvas.",
@@ -507,7 +511,6 @@ export const translations = {
     "zt.compare.r3c1": "Broad access",         "zt.compare.r3c2": "Minimal access",
     "zt.compare.r4c1": "Late detection",       "zt.compare.r4c2": "Continuous monitoring",
     "zt.arch.simple.h2": "Zero Trust diagram (simplified view)",
-    "zt.arch.advanced.h2": "Zero Trust diagram (advanced)",
     "zt.usecase.google.h2": "Case study: Google BeyondCorp",
     "zt.usecase.google.p": "Google eliminated the concept of a trusted internal network. Every access goes through identity and context verification.",
     "zt.usecase.enterprise.h2": "Enterprise use cases",
@@ -534,9 +537,10 @@ export const translations = {
     "cyberveille.loading": "📡 Loading news…",
     /* === CONTACT === */
     "contact.title": "[=== CONTACT ===]",
+    "contact.sub": "Available for questions, collaborations or professional opportunities.",
     "contact.nom": "Name: <strong>Londé Balossa Lotus Espoir</strong>",
     "contact.email": "Email: <a href=\"mailto:londe305@gmail.com\">londe305@gmail.com</a>",
-    "contact.linkedin": "LinkedIn: <a href=\"https://www.linkedin.com/feed/\" target=\"_blank\" rel=\"noopener\">My LinkedIn Profile</a>",
+    "contact.linkedin": "LinkedIn: <a href=\"https://www.linkedin.com/in/TON_PROFIL/\" target=\"_blank\" rel=\"noopener\">My LinkedIn Profile</a>",
   },
 };
 
@@ -569,11 +573,9 @@ export function setLanguage(lang){
 export function initLanguage(){
   const lang = getStoredLanguage();
   setLanguage(lang);
-  ['lang-switcher', 'lang-switcher-mob'].forEach(id => {
-    document.getElementById(id)?.addEventListener('click', (e) => {
-      const btn = e.target.closest('.lang-btn');
-      if (!btn) return;
-      setLanguage(btn.dataset.lang);
-    });
+  document.getElementById('lang-switcher')?.addEventListener('click', (e) => {
+    const btn = e.target.closest('.lang-btn');
+    if (!btn) return;
+    setLanguage(btn.dataset.lang);
   });
 }

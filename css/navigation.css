@@ -17,7 +17,6 @@
 .mob-link:hover,.mob-link:active{color:var(--text);background:var(--cd)}
 .mob-section-label{font-size:.65rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:.35rem .9rem .1rem}
 .mob-divider{height:1px;background:var(--border);margin:.4rem .5rem}
-.mob-lang-row{display:flex;gap:.5rem;padding:.4rem .9rem}
 
 @media(max-width:768px){
   .mobile-menu{

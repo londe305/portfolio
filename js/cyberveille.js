@@ -190,8 +190,7 @@ function renderAlerts() {
   container.innerHTML = '';
   if (!alerts.length) return;
   const heading = document.createElement('div');
-  heading.className = 'cv-sub';
-  heading.style.cssText = 'font-size:.78rem;font-weight:700;color:#ff6b35;margin-bottom:.1rem';
+  heading.className = 'cv-alerts-heading';
   heading.textContent = '🚨 Alertes critiques & CVE majeures';
   container.appendChild(heading);
   alerts.forEach(item => container.appendChild(buildCard(item)));

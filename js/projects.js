@@ -60,12 +60,12 @@ export function openModal(id) {
   document.getElementById('mMeta').textContent  = `${b.date} · ${b.time} · ${b.tags.join(', ')}`;
   document.getElementById('mBody').innerHTML    = b.body;
   document.getElementById('blogModal').classList.add('open');
-  document.body.style.overflow = 'hidden';
+  document.body.classList.add('modal-open');
 }
 
 export function closeModal() {
   document.getElementById('blogModal')?.classList.remove('open');
-  document.body.style.overflow = '';
+  document.body.classList.remove('modal-open');
 }
 
 function handleDelegatedClick(e) {

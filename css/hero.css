@@ -2,7 +2,7 @@
    hero.css — Home/hero section, profile card, CTA buttons
 ===================================================== */
 
-.hero-section{min-height:100vh;display:flex;align-items:center;padding:2rem 1.5rem}
+.hero-section{min-height:100vh;min-height:100dvh;display:flex;align-items:center;padding:2rem 1.5rem}
 .hero-grid{display:grid;grid-template-columns:1fr 380px;gap:3.5rem;align-items:center;width:100%}
 .hero-tag{
   display:inline-flex;align-items:center;gap:.5rem;
