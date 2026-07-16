@@ -1,5 +1,49 @@
 [
   {
+    "id": "b1c95b60370cb975",
+    "title": "UK investigates TikTok for alleged age-verification lapses, exposing kids to online harms",
+    "link": "https://therecord.media/ofcom-investigation-tiktok-age-verification",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-16T16:15:00.000Z",
+    "summary": "“Age checks are a cornerstone of the UK’s online safety laws,” said Ofcom’s Chief Executive, Melanie Dawes. “Too many services have no or inadequate age checks in place, which is not good enough.”",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6fd5df50ef5443f6",
+    "title": "Ukrainians rally against dismissal of tech-minded defense minister Fedorov",
+    "link": "https://therecord.media/ukraine-fedorov-drones-dismissal",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-16T16:00:00.000Z",
+    "summary": "Ukraine President Volodymyr Zelensky dismissed Defense Minister Mykhailo Fedorov, who championed the push to integrate drone technology and digital innovation into the military.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4635f0da87173442",
+    "title": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
+    "link": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-16T15:41:15.000Z",
+    "summary": "A lot of this week’s trouble starts with something that looks close enough.\n\nA familiar repo. A useful installer. A harmless sync setting. Then the handoff goes bad, the box starts talking to someone else, and the damage moves faster than t",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "39f59573692fb750",
+    "title": "Legacy Systems, Real-World Impacts: The Reality of OT Security",
+    "link": "https://www.securityweek.com/legacy-systems-real-world-impacts-the-reality-of-ot-security/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-16T15:15:00.000Z",
+    "summary": "Legacy systems, safety concerns, and critical infrastructure risks make OT vulnerability disclosure one of cybersecurity's most challenging balancing acts.\nThe post Legacy Systems, Real-World Impacts: The Reality of OT Security appeared fir",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "38c5bff33b88898f",
     "title": "AI Agents Broke the Security Playbook. Here's What Replaces It.",
     "link": "https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/",
@@ -31,6 +75,17 @@
     "summary": "Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "a25a1064848d7f8a",
+    "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
+    "link": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-16T13:33:25.000Z",
+    "summary": "n8n, the workflow automation platform, handed out the wrong accounts at login. On Enterprise instances configured to trust more than one external token issuer, it matched an incoming JWT to a local user on the sub claim alone and ignored is",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "bc584295fe0c7c48",
@@ -2978,83 +3033,6 @@
     "category": "news",
     "pubDate": "2026-07-09T16:49:02.000Z",
     "summary": "GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor authentication (2FA).\n\nThe Microsoft-owned subsidiary",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ec3f218f64d55765",
-    "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
-    "link": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-09T15:09:28.000Z",
-    "summary": "Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it.\n\nThis week is full of that kind of damage. Not loud. Not clever. Just smal",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c6ebe04b09c02e9b",
-    "title": "QIZ Security Raises $17 Million for Cryptographic Governance Platform",
-    "link": "https://www.securityweek.com/qiz-security-raises-17-million-for-cryptographic-governance-platform/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-09T15:03:51.000Z",
-    "summary": "The Israeli company has developed a cryptographic posture and post-quantum cryptography management platform.\nThe post QIZ Security Raises $17 Million for Cryptographic Governance Platform appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9a474f82df6b59a4",
-    "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-09T15:00:00.000Z",
-    "summary": "GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "647f6d4664ae913c",
-    "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-09T14:39:51.000Z",
-    "summary": "A new phishing-as-a-service (PhaaS) operation called Forg365 focuses on stealing Microsoft 365 accounts by combining adversary-in-the-middle (AiTM) and device code methods with AI-assisted lure generation. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d223bc40f396b0b4",
-    "title": "As Global Conflicts Go Digital, Businesses Need Wartime Game Plans",
-    "link": "https://www.darkreading.com/cybersecurity-operations/businesses-wartime-cybersecurity-gameplans",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-09T14:31:20.000Z",
-    "summary": "The fate of a Ukrainian tax software company shows how modern cyber warfare can claim casualties far beyond the battlefield, and how businesses across the ocean still need to protect themselves.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8d188c8f28458134",
-    "title": "Latvian forestry company still restoring systems weeks after ransomware attack",
-    "link": "https://therecord.media/latvia-state-owned-foresty-company-lvm-ransomware",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-09T14:20:00.000Z",
-    "summary": "A foreign, financially motivated group was responsible for a cyberattack on state-owned forestry company Latvijas Valsts Mezi (LVM), officials said.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b2668682de2e0e36",
-    "title": "UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge",
-    "link": "https://www.securityweek.com/uk-government-rolls-out-agentic-ai-defense-plan-alongside-industry-pledge/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-09T14:19:53.000Z",
-    "summary": "Two announcements on July 7, 2026, demonstrate the government’s determination to improve the level of cybersecurity within the UK.\nThe post UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge appeared first on Security",
     "cveIds": [],
     "severity": "normal"
   }
