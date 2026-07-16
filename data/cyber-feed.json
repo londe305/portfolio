@@ -1,5 +1,71 @@
 [
   {
+    "id": "76e9061d415a3411",
+    "title": "New ClickLock macOS malware traps users into revealing login password",
+    "link": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-16T21:52:54.000Z",
+    "summary": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ef1e407414236b9e",
+    "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
+    "link": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-16T21:09:41.000Z",
+    "summary": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the United States. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0d4f207668461454",
+    "title": "Senator calls on Rubio, Blanche to push back against Canadian surveillance legislation",
+    "link": "https://therecord.media/canada-lawful-access-act-surveillance-wyden-letter",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-16T21:00:35.000Z",
+    "summary": "Democratic Sen. Ron Wyden says the Trump administration should pressure Canada not to enact a proposal that would \"weaponize American technology infrastructure\" for surveillance purposes.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bd8d8fdcbf426672",
+    "title": "Agentic AI Is Untamable: Ask the Right Security Questions",
+    "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-untamable-ask-the-right-security-questions",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-16T20:57:47.000Z",
+    "summary": "Forget about attackers. Agentic artificial intelligence is creating enough risks for organizations and demands a security reframe.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ae704f7c55b07b9f",
+    "title": "1M+ Emails Use Hidden Text to Dupe AI Security Filters",
+    "link": "https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-16T19:41:31.000Z",
+    "summary": "Artificial intelligence and LLMs can be surprisingly ineffective against text salting, allowing phishing emails to slide right into your inbox.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4ce7f098249515b7",
+    "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
+    "link": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-16T19:26:07.000Z",
+    "summary": "A flaw in Anthropic's Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks, potentially allowing it to abuse Claude's access to connected services such as Gmail, Go",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f03a9f3ded528d88",
     "title": "New OkoBot framework deploys 20 payloads to steal data, crypto",
     "link": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
@@ -3070,38 +3136,5 @@
     "summary": "The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "26197385f907fe16",
-    "title": "Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure",
-    "link": "https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-09T20:32:00.000Z",
-    "summary": "Obscurity isn't a defense. If your company has any Internet-facing vulnerability, you're at risk from multiple threats.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "360b59020bb0eb8a",
-    "title": "Microsoft Reins in RoguePlanet Zero-Day Threat",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-09T20:21:19.000Z",
-    "summary": "The researcher known as \"Nightmare-Eclipse\" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "91e50513ef4cbf09",
-    "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
-    "link": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-09T20:10:00.000Z",
-    "summary": "Hackers compromised the Injective Labs SDK project's GitHub repository and used it to publish a malicious package on the Node Package Manager (npm) that stole cryptocurrency wallet private keys and mnemonic seed phrases. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
