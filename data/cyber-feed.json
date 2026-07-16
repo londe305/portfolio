@@ -1,5 +1,126 @@
 [
   {
+    "id": "3437590192e7f2f3",
+    "title": "CISA orders feds to patch actively exploited Oracle flaw by Saturday",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-16T10:56:03.000Z",
+    "summary": "CISA has ordered federal agencies to secure their systems by Saturday against ongoing attacks exploiting a critical vulnerability in the Oracle E-Business Suite financial application. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1a5369c691d09475",
+    "title": "Splunk, Zoom Patch Critical Vulnerabilities",
+    "link": "https://www.securityweek.com/splunk-zoom-patch-critical-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-16T10:54:34.000Z",
+    "summary": "The flaws could allow attackers to access credentials and data, take over accounts, and escalate their privileges.\nThe post Splunk, Zoom Patch Critical Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8b7cf0b275997954",
+    "title": "Russian hackers trojanize WebEx, Zoom apps to push Starland malware",
+    "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-16T10:19:34.000Z",
+    "summary": "A financially motivated Russian threat actor tracked as UAT-11795 is using trojanized software to steal credentials and cryptocurrency by deploying a new backdoor called Starland RAT. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "261098196dbb89e8",
+    "title": "AI Can Find Bugs, But Human Knowledge Still Proves Them",
+    "link": "https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-16T10:10:00.000Z",
+    "summary": "Artificial intelligence (AI) is changing offensive security, but it has not changed the standard that matters most: a finding has to be proven before it becomes useful. AI-assisted tools can read code quickly, generate payloads, summarize a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3aae118191632e86",
+    "title": "The Hunter's Paradox: Is it time to embrace automated threat hunting?",
+    "link": "https://blog.talosintelligence.com/the-hunters-paradox-is-it-time-to-embrace-automated-threat-hunting/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-07-16T10:00:07.000Z",
+    "summary": "Humans can no longer keep up with the volume and velocity of security data on their own, but AI can't be fully trusted. David discusses the merits of both and muses on what the future might look like.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "508931895d5f63de",
+    "title": "UAT-11795 deploys novel Starland RAT and bespoke WLDR C2 implant in financially motivated campaign",
+    "link": "https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-07-16T10:00:01.000Z",
+    "summary": "Cisco Talos is disclosing UAT-11795, a sophisticated, Russian-speaking, financially motivated adversary that has been conducting a malicious campaign targeting users in the U.S. and Europe since at least June 2025.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9c7acbeadb2134dd",
+    "title": "New Spirals ransomware encrypts victim network in under 24 hours",
+    "link": "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-16T10:00:00.000Z",
+    "summary": "A new ransomware actor called Spirals completed a corporate intrusion, from initial access to data theft and encryption, in less than 24 hours. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "fb34f65774c8776c",
+    "title": "Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide",
+    "link": "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-16T09:23:19.000Z",
+    "summary": "Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people's Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-F",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4d75e13eb858b147",
+    "title": "F5 Patches Multiple NGINX, BIG-IP Vulnerabilities",
+    "link": "https://www.securityweek.com/f5-patches-multiple-nginx-big-ip-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-16T09:20:10.000Z",
+    "summary": "Attackers could exploit the bugs to modify configurations, terminate or restart processes, cross security boundaries, leak memory, and execute code.\nThe post F5 Patches Multiple NGINX, BIG-IP Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e51a1261d55ebdb4",
+    "title": "China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans",
+    "link": "https://www.securityweek.com/chinas-top-cybersecurity-firms-hit-by-mounting-military-procurement-bans/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-16T08:49:27.000Z",
+    "summary": "Chinese cybersecurity firms are facing action from the country’s military, but it’s not due to product or technical failures.\nThe post China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3c725c5c79d55ae1",
+    "title": "OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol",
+    "link": "https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-16T08:42:31.000Z",
+    "summary": "OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely.\n\n\"GPT‑Red is a strong red-teamer, and our ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "d7437998bb56fe41",
     "title": "Old UEFI Shims Expose Systems to Secure Boot Bypass",
     "link": "https://www.securityweek.com/old-uefi-shims-expose-systems-to-secure-boot-bypass/",
@@ -86,6 +207,17 @@
     "category": "vendor",
     "pubDate": "2026-07-15T23:00:33.000Z",
     "summary": "Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. \nThe post The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15) appeared first on ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "22b68765e24cad05",
+    "title": "Cyberattack on Japan's largest cold-chain operator disrupts KFC, supermarket supplies",
+    "link": "https://therecord.media/cyberattack-japan-nichirei-logistics-impacts-kfc",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-15T23:00:00.000Z",
+    "summary": "Kentucky Fried Chicken restaurants have been left short on ingredients and major restaurant chains struggling to keep up with deliveries following a cyberattack on Nichirei Logistics Group.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2804,108 +2936,5 @@
     "summary": "Affecting every major distribution since 2011, the Linux kernel vulnerability allows attackers to gain root access.\nThe post 15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "4ac05475263ff808",
-    "title": "Microsoft to retire the OWA Light client in Exchange Server",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-09T11:00:35.000Z",
-    "summary": "Microsoft has announced plans to disable Outlook Web Access (OWA) Light, the lightweight version of the Outlook Web App email client, in a future Exchange Server update. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "220c3baa100b4dc6",
-    "title": "Summer of Clearinghouses",
-    "link": "https://thehackernews.com/2026/07/summer-of-clearinghouses.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-09T11:00:00.000Z",
-    "summary": "Everyone seems to have announced a clearinghouse over the past few weeks. We did too. Ours is called Athena, and the main thing that sets it apart is that it was already real and running when we announced it — built quietly months earlier, ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "15bb85e89ddb4d64",
-    "title": "GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses",
-    "link": "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-09T10:43:09.000Z",
-    "summary": "Cybersecurity researchers have flagged a new ransomware family called GodDamn that employs the PoisonX kernel driver to neutralize security software as part of its defense evasion strategy.\n\nAccording to a new report published by the Threat",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "cf0084ccff10c677",
-    "title": "Microsoft Patches Defender ‘RoguePlanet’ Vulnerability",
-    "link": "https://www.securityweek.com/microsoft-patches-defender-rogueplanet-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-09T10:28:35.000Z",
-    "summary": "The privilege escalation vulnerability tracked as CVE-2026-50656 has been patched with a Microsoft Malware Protection Engine update.\nThe post Microsoft Patches Defender ‘RoguePlanet’ Vulnerability appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-50656"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "7c5cd184ef3554da",
-    "title": "Mount Royal University Confirms Data Stolen in Ransomware Attack",
-    "link": "https://www.securityweek.com/mount-royal-university-confirms-data-stolen-in-ransomware-attack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-09T10:06:18.000Z",
-    "summary": "Hackers accessed the institution’s internal network and deleted two drives containing employee, student, and university data.\nThe post Mount Royal University Confirms Data Stolen in Ransomware Attack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7a960f873e82817e",
-    "title": "'GodDamn' Ransomware Uses BYOVD to Smite US Companies",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-09T10:00:00.000Z",
-    "summary": "Microsoft signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4db6d9c5b6ab43bd",
-    "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
-    "link": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-09T09:47:28.000Z",
-    "summary": "Law enforcement agencies have arrested 5,811 suspects and seized $293 million in illicit assets in a global anti-fraud operation spanning 97 countries. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "255f925b78451928",
-    "title": "AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique",
-    "link": "https://www.securityweek.com/ai-coding-tools-tricked-into-hacking-developer-machine-via-decades-old-technique/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-09T08:52:21.000Z",
-    "summary": "Wiz has disclosed the details of a new AI coding assistant attack method it has dubbed GhostApproval.\nThe post AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "20f355c4396250d9",
-    "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
-    "link": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-09T08:48:48.000Z",
-    "summary": "Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public.\n\nThe vulnerability, tracked as CVE-2026-50656 (CVSS score: 7.8), is a privilege escalation is",
-    "cveIds": [
-      "CVE-2026-50656"
-    ],
-    "severity": "cve"
   }
 ]
