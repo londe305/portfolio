@@ -1,5 +1,38 @@
 [
   {
+    "id": "a7e893960f55f6fb",
+    "title": "ISC Stormcast For Thursday, July 16th, 2026 https://isc.sans.edu/podcastdetail/10010, (Thu, Jul 16th)",
+    "link": "https://isc.sans.edu/diary/rss/33160",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-16T02:40:10.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9f41d3fbde2f13c4",
+    "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-07-16T01:36:21.000Z",
+    "summary": "Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses.\nThe post Unpacking the AsyncAPI np",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5ef78c2731f3503c",
+    "title": "The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)",
+    "link": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-07-15T23:00:33.000Z",
+    "summary": "Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. \nThe post The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15) appeared first on ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ba9ae12e6675b65a",
     "title": "Dutch police bust investment fraud ring stealing over €100 million",
     "link": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
@@ -2927,105 +2960,6 @@
     "category": "news",
     "pubDate": "2026-07-09T04:01:49.000Z",
     "summary": "Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure comprising more than 230 lookalike domains.\n\nThe",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c9f05f4bc4d686e5",
-    "title": "ISC Stormcast For Thursday, July 9th, 2026 https://isc.sans.edu/podcastdetail/10000, (Thu, Jul 9th)",
-    "link": "https://isc.sans.edu/diary/rss/33140",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-09T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "07d05980ced038c2",
-    "title": "&#x5f;HELP&#x5f;ME&#x5f;ESCAPE&#x5f;FROM&#x5f;BELARUS&#x5f;PLEASE&#x5f; &#x5b;Guest Diary&#x5d;, (Tue, Jul 7th)",
-    "link": "https://isc.sans.edu/diary/rss/33130",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-09T01:20:02.000Z",
-    "summary": "[This is a Guest Diary by Jason Callahan, an ISC intern as part of the SANS.edu BACS program]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b0dc5a8f6027730a",
-    "title": "Multiples vulnérabilités dans Wireshark (09 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0849/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer un déni de service à distance et une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d3a17bf426c19675",
-    "title": "Multiples vulnérabilités dans GitLab (09 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0850/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une injection de code indirecte à distance (XSS) et un contournement ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3d3c1f4492a66462",
-    "title": "Multiples vulnérabilités dans Traefik (09 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0851/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f9febe3875808203",
-    "title": "Multiples vulnérabilités dans les produits Juniper Networks (09 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0852/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Juniper Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et une atteinte à la confiden",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9a2d7fea0887823f",
-    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (09 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0853/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de serv",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a83b7da91a54f06c",
-    "title": "Vulnérabilité dans Microsoft Edge (09 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0854/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Microsoft Edge. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4e8831ef66cb4eea",
-    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (09 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0855/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
     "cveIds": [],
     "severity": "normal"
   }
