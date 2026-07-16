@@ -1,5 +1,62 @@
 [
   {
+    "id": "d7437998bb56fe41",
+    "title": "Old UEFI Shims Expose Systems to Secure Boot Bypass",
+    "link": "https://www.securityweek.com/old-uefi-shims-expose-systems-to-secure-boot-bypass/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-16T07:59:22.000Z",
+    "summary": "Signed by Microsoft, the vulnerable UEFI shim bootloaders could be abused on any system, regardless of the OS.\nThe post Old UEFI Shims Expose Systems to Secure Boot Bypass appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "291a71049912d9b8",
+    "title": "Zoom Patches Critical Windows Flaw That Could Enable Account Takeover",
+    "link": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-16T07:22:44.000Z",
+    "summary": "Zoom has released security updates for a critical security flaw impacting Zoom Workplace for Windows that could facilitate account takeover.\n\nThe vulnerability, tracked as CVE-2026-53412 (CVSS score: 9.8), affects Zoom Desktop Client for Wi",
+    "cveIds": [
+      "CVE-2026-53412"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "f6652812c034fd5d",
+    "title": "Police Disrupt a €140M Cyber Fraud Ring in Spain",
+    "link": "https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-16T07:00:00.000Z",
+    "summary": "Iberian hackers carried out a variety of cyberattacks and laundered the winnings through complex financial networks.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dd0a1e7e08d42e28",
+    "title": "Nightmare Eclipse Drops ‘LegacyHive’ Windows Zero-Day",
+    "link": "https://www.securityweek.com/nightmare-eclipse-drops-legacyhive-windows-zero-day/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-16T06:48:40.000Z",
+    "summary": "The researcher stripped the proof-of-concept (PoC) exploit to prevent immediate exploitation of the vulnerability.\nThe post Nightmare Eclipse Drops ‘LegacyHive’ Windows Zero-Day  appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ae8f96a16b0cb5ce",
+    "title": "Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities",
+    "link": "https://www.securityweek.com/trend-micro-tanium-eset-and-tenable-patch-severe-product-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-16T06:08:08.000Z",
+    "summary": "The cybersecurity companies patched critical and high-severity vulnerabilities in some of their products.\nThe post Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "a7e893960f55f6fb",
     "title": "ISC Stormcast For Thursday, July 16th, 2026 https://isc.sans.edu/podcastdetail/10010, (Thu, Jul 16th)",
     "link": "https://isc.sans.edu/diary/rss/33160",
@@ -2850,117 +2907,5 @@
       "CVE-2026-50656"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "15bd287799b3134d",
-    "title": "European Organizations Have a Collaboration Security Confidence Gap",
-    "link": "https://www.darkreading.com/cybersecurity-operations/european-organizations-collaboration-security-confidence-gap",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-09T08:00:00.000Z",
-    "summary": "A new survey shows security leaders have an inflated sense of safety regarding their collaboration tools and platforms.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fa6eabc7526812c8",
-    "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
-    "link": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-09T07:47:16.000Z",
-    "summary": "American insurance company AssuranceAmerica has disclosed a data breach impacting nearly 7 million drivers after attackers gained access to its systems earlier this year.  [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "934c3716ca3aa48a",
-    "title": "Chrome 150 Update Patches 27 Vulnerabilities",
-    "link": "https://www.securityweek.com/chrome-150-update-patches-27-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-09T07:27:59.000Z",
-    "summary": "The security refresh resolves 13 use-after-free bugs, including two critical-severity flaws found by Google.\nThe post Chrome 150 Update Patches 27 Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a62f8c98b6315daf",
-    "title": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
-    "link": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-09T07:21:06.000Z",
-    "summary": "Meta has announced that its new artificial intelligence (AI) model Muse Image lets people use public Instagram posts and reels to generate AI content, and it's enabled by default.\n\n\"You can also @-mention Instagram accounts in the Meta AI a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c4fe7fde0f9dbb5f",
-    "title": "8Layers Raises $2.9 Million for Identity Security Platform",
-    "link": "https://www.securityweek.com/8layers-raises-2-9-million-for-identity-security-platform/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-09T06:45:22.000Z",
-    "summary": "The Spanish startup has closed an extended pre-seed funding round two months after launching its digital identity protection platform.\nThe post 8Layers Raises $2.9 Million for Identity Security Platform appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "db60505a54dd3ed3",
-    "title": "Microsoft patches RoguePlanet Defender zero-day vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-09T05:42:49.000Z",
-    "summary": "Microsoft has released a security patch to address a Defender zero-day vulnerability known as \"RoguePlanet,\" disclosed after the June 2026 Patch Tuesday. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ceb5a6a3fb566882",
-    "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
-    "link": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-09T05:15:02.000Z",
-    "summary": "Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead.\n\nThat is the finding in a proof-of-concept published Wednesday by the AI Now Institute, an attack it calls",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "73a19348f535e026",
-    "title": "Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices",
-    "link": "https://www.securityweek.com/unpatched-backdoor-in-tenda-firmware-grants-admin-access-to-devices/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-09T05:00:41.000Z",
-    "summary": "Tracked as CVE-2026-11405, the vulnerability allows unauthenticated attackers to access a device's web management interface.\nThe post Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-11405"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "0974a89e0db9c32f",
-    "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
-    "link": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-09T04:27:18.000Z",
-    "summary": "Researchers at Wiz found that a flaw in six popular AI coding assistants lets a booby-trapped code project quietly take control of a developer's computer. The assistant asks permission to edit one harmless-looking file, but the write lands ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "20f5eb750dcf57c9",
-    "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
-    "link": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-09T04:01:49.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure comprising more than 230 lookalike domains.\n\nThe",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
