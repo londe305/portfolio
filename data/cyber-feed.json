@@ -1,5 +1,62 @@
 [
   {
+    "id": "bacdd22356749d5c",
+    "title": "US charges two over laundering $43 million from investment fraud",
+    "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-17T08:13:37.000Z",
+    "summary": "U.S. prosecutors on Thursday charged a New York man and woman for their roles in a large-scale crime ring that laundered money stolen in cyber investment fraud scams. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7344e78357246748",
+    "title": "Fresh SharePoint Vulnerability Exploited Soon After Disclosure",
+    "link": "https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-17T07:15:59.000Z",
+    "summary": "The critical-severity security defect allows remote, authenticated attackers to execute arbitrary code on the server.\nThe post Fresh SharePoint Vulnerability Exploited Soon After Disclosure appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "badd573e65c919bb",
+    "title": "CISA urges immediate action on actively exploited Fortinet flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-17T07:03:33.000Z",
+    "summary": "CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection platform. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f41ad026c7909257",
+    "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
+    "link": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-17T06:42:23.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executiv",
+    "cveIds": [
+      "CVE-2026-58644"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "15fc31872ec3a460",
+    "title": "Coca-Cola Suspends US Fairlife Production Due to Ransomware Attack",
+    "link": "https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-17T06:23:08.000Z",
+    "summary": "The company says the incident has not affected product quality and safety, nor Fairlife’s Canada production.\nThe post Coca-Cola Suspends US Fairlife Production Due to Ransomware Attack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "03dc7a1f0c4c5a74",
     "title": "ISC Stormcast For Friday, July 17th, 2026 https://isc.sans.edu/podcastdetail/10012, (Fri, Jul 17th)",
     "link": "https://isc.sans.edu/diary/rss/33162",
@@ -614,7 +671,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-07-16T07:22:44.000Z",
-    "summary": "Zoom has released security updates for a critical security flaw impacting Zoom Workplace for Windows that could facilitate account takeover.\n\nThe vulnerability, tracked as CVE-2026-53412 (CVSS score: 9.8), affects Zoom Desktop Client for Wi",
+    "summary": "Zoom has released security updates for a critical security flaw impacting Zoom Workplace for Windows that could facilitate account takeover.\n\nThe vulnerability, tracked as CVE-2026-53412 (CVSS score: 9.8), affects Zoom Workplace for Windows",
     "cveIds": [
       "CVE-2026-53412"
     ],
@@ -2980,39 +3037,6 @@
     "category": "news",
     "pubDate": "2026-07-10T08:32:33.000Z",
     "summary": "Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution.\nThe post ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ef3b0da341936b9c",
-    "title": "Former ransomware negotiator gets 4 years for BlackCat attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-10T08:17:52.000Z",
-    "summary": "A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3b173ea47a5eed6f",
-    "title": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
-    "link": "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-10T08:10:12.000Z",
-    "summary": "A 41-year-old former ransomware negotiator has been sentenced to nearly six years (i.e., 70 months) in prison in the U.S. for their role in conspiring with the now-defunct BlackCat ransomware operators to extort multiple victims and working",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5164aa1539d3049b",
-    "title": "Network of 200 GitHub Repositories Used for Malware Infection",
-    "link": "https://www.securityweek.com/network-of-200-github-repositories-used-for-malware-infection/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-10T08:00:14.000Z",
-    "summary": "A Go module is used to load PowerShell code that fetches a resolver from public dead drops to execute Windows malware.\nThe post Network of 200 GitHub Repositories Used for Malware Infection appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   }
