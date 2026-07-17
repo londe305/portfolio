@@ -1,5 +1,49 @@
 [
   {
+    "id": "a2011263dcef1a9d",
+    "title": "Ernst & Young discloses data breach after support system hack",
+    "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-17T14:55:28.000Z",
+    "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "65df313db5f062bd",
+    "title": "In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint",
+    "link": "https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-17T14:27:54.000Z",
+    "summary": "Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach.\nThe post In Other News: Iran Tracks US Military Phones, CrashStealer",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6fab4f7a27f5bdc1",
+    "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
+    "link": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-17T14:00:10.000Z",
+    "summary": "Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek \"clean\" residential proxies and combine them with browser fingerprints, device profiles, and other identity ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "66b19a41d9303d11",
+    "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
+    "link": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-17T13:48:56.000Z",
+    "summary": "North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job postings and coding challenges.\n\n\"Any us",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "57738e5a1b5f55a9",
     "title": "Dairy company Fairlife suspends production in US after cyber incident",
     "link": "https://therecord.media/dairy-company-fairlife-suspends-production-us-cyber-incident",
@@ -3006,115 +3050,5 @@
     "summary": "Progress Software is emailing ShareFile customers who use Storage Zone Controllers to immediately shut down their servers after identifying what it describes as a \"credible external security threat\" targeting the on-premises secure file-sha",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "59f39adbefb2acc9",
-    "title": "Securing our future: July 2026 progress report on Microsoft’s Secure Future Initiative",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-10T16:00:00.000Z",
-    "summary": "Microsoft’s latest Secure Future Initiative report outlines progress on secure foundations, AI-powered defense, and future-ready cybersecurity.\nThe post Securing our future: July 2026 progress report on Microsoft’s Secure Future Initiative ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5f6c7f2d8eb2eba3",
-    "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
-    "link": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-10T15:57:14.000Z",
-    "summary": "Researchers at firmware security firm Binarly have found six new flaws in U-Boot, the small program that starts up hardware as varied as home routers, smart cameras, and the management chips inside data-center servers.\n\nFour of the bugs can",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "38c7b4a4b2997d93",
-    "title": "My Stack Simulator, (Wed, Jul 8th)",
-    "link": "https://isc.sans.edu/diary/rss/33138",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-10T15:52:27.000Z",
-    "summary": "The stack is a memory region where a program stores temporary data -&#;x26;#;xc2;&#;x26;#;xa0;like local variables and return addresses. Think of the stack as a pile of plates in your kitchen: you can only add a new plate to the top, and yo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6b7226fcd17615ce",
-    "title": "Hackers exploit critical auth bypass in Gitea Docker image",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-10T15:48:38.000Z",
-    "summary": "Hackers are actively exploiting a critical vulnerability in the official Docker image for the Gitea self-hosted Git service that allows attackers to impersonate any user, including administrators. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e02153894562ab54",
-    "title": "Money launderer accused of stealing seized crypto while in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-10T15:30:19.000Z",
-    "summary": "A Bulgarian national has been charged with stealing $290,000 in government-seized cryptocurrency while serving 121 months in prison for helping launder millions stolen from American fraud victims. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "108d25e0712c72d3",
-    "title": "In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops",
-    "link": "https://www.securityweek.com/in-other-news-dhs-database-hacked-adobe-boosts-patch-cadence-canada-disrupts-ransomware-ops/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-10T15:01:19.000Z",
-    "summary": "Other noteworthy stories that might have slipped under the radar: Abnormal AI sued by Anthropic, AssuranceAmerica data breach affects 7 million people, NSA brings back TAO.\nThe post In Other News: DHS Database Hacked, Adobe Boosts Patch Cad",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "daf3bdaf00dabafc",
-    "title": "Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched",
-    "link": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-10T14:51:49.000Z",
-    "summary": "Researchers at Ledger's Donjon security team have shown that a precisely timed laser pulse, aimed at the chip inside a Tangem crypto wallet card, can reset the card's password to anything the attacker picks.\n\nNo old password. No backup card",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0a2c3e9bef381190",
-    "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
-    "link": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-10T14:19:50.000Z",
-    "summary": "Details have emerged about three now-patched security flaws in the OpenClaw personal artificial intelligence (AI) assistant that, if successfully exploited, could enable credential theft, privilege escalation, and arbitrary code execution o",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "82ace5ab0295e4b6",
-    "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
-    "link": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-10T14:00:10.000Z",
-    "summary": "AI agents are accelerating the growth of non-human identities, making it harder for organizations to understand what exists, who owns it, and what it can access. Netwrix explains why stronger visibility and identity governance are essential",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7a697bf9b4d155a8",
-    "title": "Fresh ATM Crypto Software Bugs: Jackpot or Bust?",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/atm-crypto-software-bugs-jackpot-bust",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-10T14:00:00.000Z",
-    "summary": "Organizations, and possibly ATMs, are at risk of compromise, thanks to holes in a Microsoft BitLocker security wrapper.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
