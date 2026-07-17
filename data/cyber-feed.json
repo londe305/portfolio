@@ -1,5 +1,49 @@
 [
   {
+    "id": "7ac4399d9bcbd72b",
+    "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+    "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-17T21:20:10.000Z",
+    "summary": "An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable.\n\nEvery 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what i",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ec8d609cca91d81e",
+    "title": "Abbott Laboratories probes two cyber incidents amid extortion claims",
+    "link": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-17T20:45:52.000Z",
+    "summary": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that atta",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c77a96e5b932eaa8",
+    "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
+    "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-17T20:20:53.000Z",
+    "summary": "Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts.\n\nOpenSSL shipped the HollowByte fix in J",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1d0e2ca5c9977a84",
+    "title": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-17T20:01:13.000Z",
+    "summary": "When chained together, the two vulnerabilities allow threat actors to gain root-level capabilities on SonicWall's mobile access appliances.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "81c3ccc6cbdf7cc4",
     "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
     "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
@@ -2995,27 +3039,5 @@
     "summary": "Unit 42 explores The Gentlemen ransomware operations, revealing the affiliate model driving its rapid growth. Learn more here.\nThe post No Manners Here: The Ruthless Rise of The Gentlemen Ransomware appeared first on Unit 42.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "3bbc0d594a27780e",
-    "title": "New U-Boot flaws could enable stealthy firmware attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-10T21:59:02.000Z",
-    "summary": "Six vulnerabilities in the widely used U-Boot bootloader have been discovered that could allow attackers to execute malicious code during device boot, potentially enabling stealthy firmware attacks that compromise security protections and i",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "fd7f152cda19e02d",
-    "title": "Europe revives law allowing big tech to scan for CSAM",
-    "link": "https://therecord.media/chat-control-2-csam-scans-european-parliament-passage",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-10T19:30:00.000Z",
-    "summary": "The law known as Chat Control 2.0 passed in the European Parliament, permitting companies like Google, Meta and Microsoft to scan users' messages to hunt for CSAM.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
