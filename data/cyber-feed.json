@@ -1,5 +1,38 @@
 [
   {
+    "id": "03dc7a1f0c4c5a74",
+    "title": "ISC Stormcast For Friday, July 17th, 2026 https://isc.sans.edu/podcastdetail/10012, (Fri, Jul 17th)",
+    "link": "https://isc.sans.edu/diary/rss/33162",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-17T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b45a9dd60efd3ff3",
+    "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-07-16T23:12:02.000Z",
+    "summary": "From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal browser credentials, authentication token",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b150fa0f88c61a02",
+    "title": "AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report",
+    "link": "https://unit42.paloaltonetworks.com/ai-incident-response-report/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-07-16T23:00:59.000Z",
+    "summary": "Explore Unit 42's perspectives on AI's impact on cybersecurity, including key updates since the 2026 Incident Response Report.\nThe post AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report appeared first on",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "76e9061d415a3411",
     "title": "New ClickLock macOS malware traps users into revealing login password",
     "link": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
@@ -2980,160 +3013,6 @@
     "category": "news",
     "pubDate": "2026-07-10T08:00:14.000Z",
     "summary": "A Go module is used to load PowerShell code that fetches a resolver from public dead drops to execute Windows malware.\nThe post Network of 200 GitHub Repositories Used for Malware Infection appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8dd3f55dea68fbad",
-    "title": "ISC Stormcast For Friday, July 10th, 2026 https://isc.sans.edu/podcastdetail/10002, (Fri, Jul 10th)",
-    "link": "https://isc.sans.edu/diary/rss/33142",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-10T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f8d51b9120380f96",
-    "title": "Multiples vulnérabilités dans Progress MOVEit Transfer (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0856/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Progress MOVEit Transfer. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une injection de cod",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "791b96cf887409f2",
-    "title": "Vulnérabilité dans NetApp ONTAP 9 (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0857/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-10T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans NetApp ONTAP 9. Elle permet à un attaquant de provoquer un déni de service à distance et une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8b2dea87ddbb5c94",
-    "title": "Vulnérabilité dans CPython (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0858/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-10T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cd67515bf39e61da",
-    "title": "Multiples vulnérabilités dans Suricata (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0859/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Suricata. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fff51dccc5eb80a4",
-    "title": "Multiples vulnérabilités dans les produits Siemens (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0860/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0f2311cdf134c48f",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0861/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un contournement de l",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8d6ef4c3bfa0ae2e",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0862/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de servi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c3fb6b11b4ce81b5",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0863/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "15a5d554f5800ac6",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0864/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contourn",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "992d792ff86a02b0",
-    "title": "Multiples vulnérabilités dans les produits IBM (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0865/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une falsification de requê",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ae4449b217287916",
-    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0866/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "96d5611372917845",
-    "title": "Dutch police trace Odido telco cyberattack to suspected local accomplice",
-    "link": "https://therecord.media/dutch-police-suspect-dutch-accomplice-in-odido-cyberattack",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-09T23:00:00.000Z",
-    "summary": "Dutch police said Thursday they had uncovered evidence suggesting that Dutch criminals were involved in the cyberattack on telecom provider Odido that exposed the personal data of more than 6 million customers earlier this year.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1e8a051e7df8e76d",
-    "title": "OpenMandriva Linux says contributor tried to sabotage the project",
-    "link": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-09T22:14:13.000Z",
-    "summary": "The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]",
     "cveIds": [],
     "severity": "normal"
   }
