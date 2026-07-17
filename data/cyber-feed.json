@@ -1,5 +1,126 @@
 [
   {
+    "id": "57738e5a1b5f55a9",
+    "title": "Dairy company Fairlife suspends production in US after cyber incident",
+    "link": "https://therecord.media/dairy-company-fairlife-suspends-production-us-cyber-incident",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-17T13:40:00.000Z",
+    "summary": "Fairlife’s U.S. operation includes plants in Michigan, New York and Arizona, and the company's retail sales passed $1 billion in 2022.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d4d59d62c64eec1a",
+    "title": "Gold Eagle Clearinghouse Targets Security Gap, But How Is Unclear",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-17T13:00:00.000Z",
+    "summary": "The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9bef7b8ef5645362",
+    "title": "Zelensky appoints Ukraine's acting security service chief as acting defense minister",
+    "link": "https://therecord.media/ukraine-acting-defense-minister-yevhenii-khmara",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-17T12:50:00.000Z",
+    "summary": "Yevhenii Khmara, a major general with deep experience in intelligence, counterterrorism and long-range strikes against Russia, is Ukraine's new acting defense minister.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7db717f39d06318d",
+    "title": "Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive",
+    "link": "https://www.securityweek.com/podcast-broken-governance-agentic-ai-and-the-mindstone-agent-exclusive/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-17T12:11:22.000Z",
+    "summary": "(Video) Artificial intelligence is transforming cybersecurity, but are governance, compliance, and security practices evolving fast enough to keep up?\nThe post Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive appear",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "810729f078186745",
+    "title": "Google Bets 'Agentic Defense' Strategy Can Outpace Attackers",
+    "link": "https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-17T11:50:25.000Z",
+    "summary": "Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8863a3e1474189da",
+    "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
+    "link": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-17T11:44:41.000Z",
+    "summary": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the display off, and the abil",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "672ba59b77d938ae",
+    "title": "Beacon Security Raises $13 Million for Security Data Platform",
+    "link": "https://www.securityweek.com/beacon-security-raises-13-million-for-security-data-platform/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-17T11:43:36.000Z",
+    "summary": "The startup helps organizations detect, hunt, and protect their assets across environments at machine speed.\nThe post Beacon Security Raises $13 Million for Security Data Platform appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "aacd60876e079359",
+    "title": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?",
+    "link": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-17T11:30:00.000Z",
+    "summary": "Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated acquisition pathways are transforming how ca",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "141e2821ce490ce3",
+    "title": "Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday",
+    "link": "https://www.securityweek.com/industry-reactions-to-pentagon-suspending-cmmc-phase-2-feedback-friday/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-17T11:08:04.000Z",
+    "summary": "Industry professionals broadly agree that the suspension pauses third-party CMMC audits but not the underlying legal obligation to protect CUI.\nThe post Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday appeared first ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1bff26a8f67c8967",
+    "title": "New Windows LegacyHive zero-day gives hackers admin privileges",
+    "link": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-17T11:05:30.000Z",
+    "summary": "A security researcher using the \"Nightmare Eclipse\" handle has released a Windows zero-day exploit dubbed LegacyHive that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "41000770a9cbe99c",
+    "title": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
+    "link": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-17T10:53:31.000Z",
+    "summary": "Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov.\n\nHis wife, Maria Yurova, told REN TV that border officers ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "a41c8cadd329d929",
     "title": "Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy",
     "link": "https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/",
@@ -190,12 +311,12 @@
   },
   {
     "id": "bd8d8fdcbf426672",
-    "title": "Agentic AI Is Untamable: Ask the Right Security Questions",
+    "title": "Agentic AI: Taming the Unpredictable",
     "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-untamable-ask-the-right-security-questions",
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-07-16T20:57:47.000Z",
-    "summary": "Forget about attackers. Agentic artificial intelligence is creating enough risks for organizations and demands a security reframe.",
+    "summary": "Agentic artificial intelligence is creating enough risks for organizations to demand a security reframe.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1440,6 +1561,83 @@
     "category": "advisory",
     "pubDate": "2026-07-15T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "34da178c9feaa2da",
+    "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access 1000 (15 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0875/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Sonicwall Secure Mobile Access 1000. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une falsification de requêtes côté serveur (SSRF). L'édite",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7d67ef91d82bbc1d",
+    "title": "Multiples vulnérabilités dans Apache Tomcat (15 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0876/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4f5e762896d812fb",
+    "title": "Multiples vulnérabilités dans les produits SAP (15 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0877/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injectio",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c4c7f50458c2ca8a",
+    "title": "Vulnérabilité dans Veeam Backup & Replication (15 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0878/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-15T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Veeam Backup & Replication. Elle permet à un attaquant de provoquer une élévation de privilèges.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6eac9e3a1f3734cf",
+    "title": "Multiples vulnérabilités dans les produits Fortinet (15 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0879/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Fortinet. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité de",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "66bdc4456f1adcbb",
+    "title": "Multiples vulnérabilités dans les produits Siemens (15 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0880/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dista",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "51bd2782f5951d70",
+    "title": "Vulnérabilité dans Schneider Electric EcoStruxure (15 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0881/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-15T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Schneider Electric EcoStruxure. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2918,137 +3116,5 @@
     "summary": "Organizations, and possibly ATMs, are at risk of compromise, thanks to holes in a Microsoft BitLocker security wrapper.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "b26ef8b4e53755ce",
-    "title": "More Countries Jump on the Social Media 'Ban Wagon'",
-    "link": "https://www.darkreading.com/cyber-risk/more-countries-jump-on-the-social-media-ban-wagon",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-10T13:50:24.000Z",
-    "summary": "Age restrictions on accounts may be more of a stopgap because industry compliance is already falling short. Tech giants are struggling to follow the laws without affecting users.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cd8f05c7bafcc6ee",
-    "title": "China, India ran separate spying campaigns against same Pakistani police force",
-    "link": "https://therecord.media/china-india-ran-separate-spy-campaigns-against-same-police-force",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-10T13:20:00.000Z",
-    "summary": "The activity, in some cases breaching the exact same systems, ran between February 2024 and April 2026 and centered on the force responsible for the country’s southwestern province that has been the site of a long-running separatist insurge",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e4b38fb48af10e87",
-    "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
-    "link": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-10T13:15:23.000Z",
-    "summary": "The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON.\n\nChinese cybersecurity company QiAnXin said that while the threat cluster may appear like a low-sophi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8b77b9cb653dc4e9",
-    "title": "AI Coding: Do Security Risks Outweigh Productivity Gains?",
-    "link": "https://www.darkreading.com/application-security/ai-coding-security-risks-productivity-gains",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-10T13:00:00.000Z",
-    "summary": "AI coding tools cost $19-$200/month/user, but security scanning, remediation, and false positives add hidden costs. Are the productivity gains worth it?",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9767a019bc029b53",
-    "title": "Third US Security Expert Sentenced to Prison for Helping Ransomware Gang",
-    "link": "https://www.securityweek.com/third-us-security-expert-sentenced-to-prison-for-helping-ransomware-gang/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-10T12:58:39.000Z",
-    "summary": "Angelo Martino, a former ransomware negotiator, was sentenced to 70 months for helping the BlackCat/Alphv group.\nThe post Third US Security Expert Sentenced to Prison for Helping Ransomware Gang appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "54730da009a826c5",
-    "title": "China, India-Linked Hackers Both Targeted Same Pakistani Police Force",
-    "link": "https://www.securityweek.com/china-india-linked-hackers-both-targeted-same-pakistani-police-force/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-10T11:55:11.000Z",
-    "summary": "Both foes and allies have targeted the Balochistan Police force in Pakistan for at least two years, according to SentinelOne.\nThe post China, India-Linked Hackers Both Targeted Same Pakistani Police Force appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "28387fbe73efee85",
-    "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
-    "link": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-10T11:47:43.000Z",
-    "summary": "A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch.\n\nFoxIO researcher Sébastien Féry disclosed the flaw ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "23bbf9f455454da1",
-    "title": "Zimbra urges customers to patch critical web client XSS flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-10T11:47:38.000Z",
-    "summary": "The Zimbra security team urged customers to patch a critical vulnerability affecting the Classic Web Client used to access the Zimbra Collaboration suite. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d7aeafa52b07026e",
-    "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
-    "link": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-10T11:39:40.000Z",
-    "summary": "Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius Actionability Report, only 45% of organizations consolidate t",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "62df4d88515a3a7c",
-    "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
-    "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-10T11:30:02.000Z",
-    "summary": "A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and target lists naming more than 1.4 million websites.\n\nFar fewer",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3fadad185425e50a",
-    "title": "Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers",
-    "link": "https://www.securityweek.com/okta-warns-of-vishing-attacks-targeting-microsoft-365-customers/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-10T11:06:36.000Z",
-    "summary": "The attackers call victims to direct them to phishing websites mirroring Microsoft Entra ID login pages.\nThe post Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c2ab29ff7646f4d4",
-    "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
-    "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-10T10:56:23.000Z",
-    "summary": "Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their traffic private and secure.\n\nThe apps flagged w",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
