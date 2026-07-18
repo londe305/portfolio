@@ -1,5 +1,16 @@
 [
   {
+    "id": "99efddde529770b6",
+    "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-18T14:17:19.000Z",
+    "summary": "Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "1cdeed2956e80a6d",
     "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
     "link": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
@@ -2993,17 +3004,6 @@
     "category": "news",
     "pubDate": "2026-07-11T17:30:00.000Z",
     "summary": "Multiple campaigns are using ghost accounts to map GitHub organizations, including their repositories and members.\nThe post Ghost Accounts Abuse GitHub API in Mass Recon Campaign appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b1f8a32d1e54f1a3",
-    "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
-    "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-11T14:18:23.000Z",
-    "summary": "The Australian Cyber Security Centre (ACSC) issued an alert about a global exploitation campaign targeting vulnerable content management systems (CMS) and plugins. [...]",
     "cveIds": [],
     "severity": "normal"
   }
