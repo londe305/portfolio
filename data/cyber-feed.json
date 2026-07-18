@@ -12,7 +12,7 @@
   },
   {
     "id": "ec8d609cca91d81e",
-    "title": "Abbott Laboratories probes two cyber incidents amid extortion claims",
+    "title": "Abbott probes two cyber incidents amid extortion claims",
     "link": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
     "source": "BleepingComputer",
     "category": "news",
@@ -3026,17 +3026,6 @@
     "category": "news",
     "pubDate": "2026-07-11T06:45:55.000Z",
     "summary": "Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution.\n\nThe vulnerability has been described as a case of stored cross-site sc",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f6e685c3126a5841",
-    "title": "No Manners Here: The Ruthless Rise of The Gentlemen Ransomware",
-    "link": "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-07-10T22:00:39.000Z",
-    "summary": "Unit 42 explores The Gentlemen ransomware operations, revealing the affiliate model driving its rapid growth. Learn more here.\nThe post No Manners Here: The Ruthless Rise of The Gentlemen Ransomware appeared first on Unit 42.",
     "cveIds": [],
     "severity": "critical"
   }
