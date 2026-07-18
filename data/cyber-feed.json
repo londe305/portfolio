@@ -6,7 +6,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-07-17T21:20:10.000Z",
-    "summary": "An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable.\n\nEvery 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what i",
+    "summary": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story below reflects all of it.\n\nAn anonymous HTT",
     "cveIds": [],
     "severity": "normal"
   },
@@ -3017,16 +3017,5 @@
     "summary": "A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open image files at all, then convinced a codin",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "bb9511f0204ee143",
-    "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
-    "link": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-11T06:45:55.000Z",
-    "summary": "Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution.\n\nThe vulnerability has been described as a case of stored cross-site sc",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
