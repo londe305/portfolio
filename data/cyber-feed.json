@@ -2995,27 +2995,5 @@
     "summary": "The Australian Cyber Security Centre (ACSC) issued an alert about a global exploitation campaign targeting vulnerable content management systems (CMS) and plugins. [...]",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "7393cfedb80b90f7",
-    "title": "Wireshark 4.6.7 Released, (Sat, Jul 11th)",
-    "link": "https://isc.sans.edu/diary/rss/33146",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-11T09:07:06.000Z",
-    "summary": "Wireshark release 4.6.7 fixes 12 vulnerabilities and 16 bugs.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5692c67fced5413f",
-    "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
-    "link": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-11T09:03:57.000Z",
-    "summary": "A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open image files at all, then convinced a codin",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
