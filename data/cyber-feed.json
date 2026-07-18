@@ -1,5 +1,16 @@
 [
   {
+    "id": "5c3b60e219c27899",
+    "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
+    "link": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-18T17:22:47.000Z",
+    "summary": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "99efddde529770b6",
     "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
     "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
@@ -2971,39 +2982,6 @@
     "category": "news",
     "pubDate": "2026-07-12T14:27:32.000Z",
     "summary": "A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privileges without requiring a computer connection. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "de880be9b45b56ea",
-    "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
-    "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-11T17:59:26.000Z",
-    "summary": "The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook that drops and executes a native binary, o",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "88c62dd00816960e",
-    "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
-    "link": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-11T17:49:31.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and India-aligned threat actors between February 2024 and April 20",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1b87405a2825c809",
-    "title": "Ghost Accounts Abuse GitHub API in Mass Recon Campaign",
-    "link": "https://www.securityweek.com/ghost-accounts-abuse-github-api-in-mass-recon-campaign/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-11T17:30:00.000Z",
-    "summary": "Multiple campaigns are using ghost accounts to map GitHub organizations, including their repositories and members.\nThe post Ghost Accounts Abuse GitHub API in Mass Recon Campaign appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   }
