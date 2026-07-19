@@ -50,7 +50,7 @@
     "source": "BleepingComputer",
     "category": "news",
     "pubDate": "2026-07-18T19:32:02.000Z",
-    "summary": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
+    "summary": "7-Zip version 26.02 was released on June 25 to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
     "cveIds": [],
     "severity": "normal"
   },
