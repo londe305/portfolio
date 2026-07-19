@@ -1,5 +1,49 @@
 [
   {
+    "id": "76731cef70f59655",
+    "title": "Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)",
+    "link": "https://isc.sans.edu/diary/rss/33164",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-19T15:00:38.000Z",
+    "summary": "We have been following issues with Hikvision cameras for a long, long time. Like many similar products, Hikvision cameras have a long history of vulnerabilities and are often targeted by internet-wide scans that our honeypot network detects",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "42d2707e3fded79b",
+    "title": "Hackers abuse ViPNet software to target Russian govt agencies",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-19T14:23:46.000Z",
+    "summary": "An advanced threat actor is abusing the update mechanism for the ViPNet private networking product suite to target Russian organizations, including government agencies. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b446b9d245f9f05e",
+    "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+    "link": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-19T13:30:55.000Z",
+    "summary": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware.\n\nAccording to the Computer Emergency Response Team o",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7fc08de83e9348c8",
+    "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+    "link": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-19T13:18:56.000Z",
+    "summary": "A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public disclosure since June 22, 2026.\n\nCybersecur",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "fcea53af666bcc41",
     "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
     "link": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
@@ -2982,17 +3026,6 @@
     "category": "news",
     "pubDate": "2026-07-12T19:39:12.000Z",
     "summary": "Anthropic has just extended access to Claude Fable 5 for paid subscribers until July 19, giving you another week to keep using the most powerful model. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "37dd2c00d87160b3",
-    "title": "RedHook Android malware now uses Wireless ADB for shell access",
-    "link": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-12T14:27:32.000Z",
-    "summary": "A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privileges without requiring a computer connection. [...]",
     "cveIds": [],
     "severity": "normal"
   }
