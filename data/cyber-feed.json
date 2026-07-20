@@ -1,5 +1,63 @@
 [
   {
+    "id": "cf051d723f4254d7",
+    "title": "'WP2Shell' Opens Millions of WordPress Sites to Remote Takeover",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-20T21:38:18.000Z",
+    "summary": "Barely three days after disclosure, attackers are widely chaining together CVE-2026-60137 and CVE-2026-63030 to lob exploit attempts against one of the largest attack surfaces on the Internet.",
+    "cveIds": [
+      "CVE-2026-60137",
+      "CVE-2026-63030"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "8d94b7afbd1eb094",
+    "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
+    "link": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-20T21:14:42.000Z",
+    "summary": "Researchers escaped the sandboxes in Cursor, Codex, Gemini CLI and Antigravity by having the AI agent write files that trusted host tools later run. Multiple CVEs, patches, and Google downgrading two Antigravity findings. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "73f94a7811403245",
+    "title": "JadePuffer agentic attacks now target AI model data with ransomware",
+    "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-20T21:08:02.000Z",
+    "summary": "The JadePuffer autonomous AI agent has upgraded with custom malware called EncForge that focuses on encrypting AI assets, such as training datasets, vector databases, and model checkpoints. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "49a6b0a674e5fcea",
+    "title": "Remediating Vulnerabilities With LLMs: Inside Ivanti's Automation Push",
+    "link": "https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-20T20:26:56.000Z",
+    "summary": "Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages; but cost and human-in-the-loop viability remain open questions.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0b0b53e4cf1bf825",
+    "title": "Flock Safety kills acoustic system designed to detect 'human distress'",
+    "link": "https://therecord.media/flock-safety-kills-audio-detection-system-human-distress",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-20T19:55:00.000Z",
+    "summary": "\"Community consultation\" is one of the reasons automated license plate reader (ALPR) company Flock Safety cited in its decision to drop voice-oriented tech from a gunshot detection system.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "2c956141b20b1813",
     "title": "CISOs Feel the Heat Over AI Risk",
     "link": "https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk",
@@ -929,9 +987,9 @@
     "severity": "normal"
   },
   {
-    "id": "b150fa0f88c61a02",
+    "id": "3f82115dcb5d8465",
     "title": "AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report",
-    "link": "https://unit42.paloaltonetworks.com/ai-incident-response-report/",
+    "link": "https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/",
     "source": "Palo Alto Unit 42",
     "category": "vendor",
     "pubDate": "2026-07-16T23:00:59.000Z",
@@ -2985,49 +3043,5 @@
     "summary": "The retailer said the incident did not affect its online shopping platform itself but involved a separately stored customer database maintained by a third-party provider. According to notifications sent to Lidl's German, Belgian and Dutch c",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "a933ea63e75a6bec",
-    "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-13T22:02:41.000Z",
-    "summary": "Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misconfigured guest access targeting SaaS-bas",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "74882a1e25f48f09",
-    "title": "Weak Security Continues to Fuel Russian Cyberattacks",
-    "link": "https://www.darkreading.com/endpoint-security/weak-security-fuel-russian-cyberattacks",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-13T21:24:59.000Z",
-    "summary": "In a first, the UK and the EU jointly imposed sanctions on Russian individuals and entities for cyberattacks and disinformation campaigns in the region.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b27ea7c82dfb0e0d",
-    "title": "EU leaders eye social media ban for children under age 13",
-    "link": "https://therecord.media/eu-proposed-social-media-ban-kids-under-13",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-13T20:50:00.000Z",
-    "summary": "“While ultimately it is up to parents to decide when children get their first smartphones, what we already have is a consensus that there needs to be a start date for the age children can join social media,” says European Commission Preside",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e3016ff500cebeae",
-    "title": "Japan's largest taxi operator shuts systems after cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-13T20:18:59.000Z",
-    "summary": "Japan's largest taxi operator, Nihon Kotsu, announced that its systems were compromised in a cyberattack, forcing the company to shut down part of its infrastructure. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
