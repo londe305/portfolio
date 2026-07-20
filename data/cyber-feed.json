@@ -1,5 +1,49 @@
 [
   {
+    "id": "e9a18457ff8f4bd8",
+    "title": "Hackers were inside South Korea's diplomat training system for 9 months",
+    "link": "https://therecord.media/south-korea-cyberattack-foreign-ministry",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-20T15:15:00.000Z",
+    "summary": "Unidentified hackers compromised an online education system used by South Korea's diplomatic academy, stealing personal information belonging to former and current employees of the country's Ministry of Foreign Affairs.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "317b7f43e0636b5b",
+    "title": "Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software",
+    "link": "https://www.securityweek.com/neo-emerges-from-stealth-with-100m-to-control-and-secure-enterprise-ai-software/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-20T14:54:03.000Z",
+    "summary": "Neo raised money across seed and Series A funding rounds from Andreessen Horowitz, Bessemer Venture Partners, and others.\nThe post Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software appeared first on SecurityWe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6d68159c5e95a607",
+    "title": "Romania races to restore land registry after cyberattack disrupts property market",
+    "link": "https://therecord.media/romania-cyberattack-land-registry",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-20T14:45:00.000Z",
+    "summary": "Romania's land registry agency is still recovering from a cyberattack it called \"the most serious technical incident in the institution's history.\"",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "91948e6d60370e02",
+    "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
+    "link": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-20T14:33:43.000Z",
+    "summary": "A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050.\n\nGroup-IB,",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ece6da7d57fdbc79",
     "title": "SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch",
     "link": "https://www.securityweek.com/sonicwall-zero-days-exploited-to-deliver-custom-malware-for-weeks-before-patch/",
@@ -2992,50 +3036,6 @@
     "category": "news",
     "pubDate": "2026-07-13T16:50:54.000Z",
     "summary": "A modular implant borrows from various malware families to combine both backdoor and wiper activities to maximize impact and minimize operational output.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1989b89f8af9f592",
-    "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-13T15:20:16.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are exploiting vulnerabilities in the iCagenda and Balbooa Forms extensions for Joomla to achieve remote code execution through arbitrary file upload",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a7d16af7498e5239",
-    "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
-    "link": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-13T15:05:57.000Z",
-    "summary": "Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same tools, pointed the other way, and they don't file tickets.\n\n",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7fc7252b143c942e",
-    "title": "Lessons Learned from CISA’s Recent GitHub Leak",
-    "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-07-13T15:03:28.000Z",
-    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almos",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f0385cacd78e5c84",
-    "title": "Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption",
-    "link": "https://www.securityweek.com/hacker-conversations-jesse-mcgraw-ghostexodus-from-blackhat-hacker-to-redemption/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-13T14:30:00.000Z",
-    "summary": "Once a notorious blackhat hacker, McGraw shares his journey from high school hacking and prison to redemption as a cybersecurity advocate.\nThe post Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption appeare",
     "cveIds": [],
     "severity": "normal"
   }
