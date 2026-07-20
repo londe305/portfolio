@@ -1,5 +1,221 @@
 [
   {
+    "id": "ece6da7d57fdbc79",
+    "title": "SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch",
+    "link": "https://www.securityweek.com/sonicwall-zero-days-exploited-to-deliver-custom-malware-for-weeks-before-patch/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-20T14:11:05.000Z",
+    "summary": "The zero-days CVE-2026-15409 and CVE-2026-15410 were exploited by a threat actor tracked by Volexity as UTA0533.\nThe post SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-15409",
+      "CVE-2026-15410"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "649b16eca00ac964",
+    "title": "An AI SOC Evaluation Guide for Security Leaders",
+    "link": "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-20T14:01:11.000Z",
+    "summary": "Choosing an AI SOC platform requires understanding how it will perform in your own environment, not just during an evaluation. Prophet Security shares a practical framework for assessing AI SOC solutions, including how to validate accuracy,",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c80e77461aaaea3a",
+    "title": "Cybersecurity Keeps Events 'Uneventful'",
+    "link": "https://www.darkreading.com/cyber-risk/cybersecurity-keeps-events-uneventful",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-20T14:00:00.000Z",
+    "summary": "From the World Cup to the United States' 250th celebration, this year's event calendar has been packed with high-profile gatherings that drew global audiences, intense scrutiny, and enormous security demands.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "06114b9ee68d23cc",
+    "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
+    "link": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-20T13:32:26.000Z",
+    "summary": "A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools.\n\nThe paths were often simple: exposed systems, weak checks, old drivers, fake pro",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a15fb722a738009e",
+    "title": "OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability",
+    "link": "https://www.securityweek.com/openssl-silently-fixes-hollowbyte-dos-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-20T12:32:40.000Z",
+    "summary": "Attackers could send waves of malicious payloads to trigger buffer pre-allocations that are not freed, exhausting server memory.\nThe post OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6f8c284c6cea5be6",
+    "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
+    "link": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-20T12:13:39.000Z",
+    "summary": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, and the locations of ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "347a223ac2f21309",
+    "title": "Hugging Face warns an autonomous AI agent hacked its network",
+    "link": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-20T11:56:28.000Z",
+    "summary": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8e30930b3f8d5028",
+    "title": "New Index Tracks Material Breaches — And Refuses to Add Up the Losses",
+    "link": "https://www.securityweek.com/new-index-tracks-material-breaches-and-refuses-to-add-up-the-losses/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-20T11:46:50.000Z",
+    "summary": "Longtime cybersecurity executive Richard Bird built the resource for security experts, journalists, policymakers, and everyday citizens.\nThe post New Index Tracks Material Breaches — And Refuses to Add Up the Losses appeared first on Securi",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a30f65c3fe36a5c6",
+    "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
+    "link": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-20T11:30:00.000Z",
+    "summary": "The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of AI-driven discovery overwhelm triage capab",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "88b0e4774cbc8dda",
+    "title": "Ernst & Young Data Breach Affects Personal, Financial Information",
+    "link": "https://www.securityweek.com/ernst-young-data-breach-affects-personal-financial-information/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-20T11:27:38.000Z",
+    "summary": "Hackers stole names, addresses, Social Security numbers, credit/debit card numbers, and other information from a third-party management platform.\nThe post Ernst & Young Data Breach Affects Personal, Financial Information appeared first on S",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2002595598bd20b4",
+    "title": "Software provider to more than 2,000 US hospitals says hackers stole employee and customer data",
+    "link": "https://therecord.media/software-provider-for-us-hospitals-customer-data-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-20T11:00:00.000Z",
+    "summary": "Craneware, which is headquartered in Edinburgh and listed on London's AIM market, told investors it detected unauthorized access to a “subset” of its data environment and has since brought in outside forensic investigators.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ac2a2fe777c8e2ff",
+    "title": "Microsoft confirms Windows Server Update Services sync delays",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-20T10:47:28.000Z",
+    "summary": "Microsoft is working to fix a known issue affecting Windows Server Update Services (WSUS) servers, which has caused synchronization problems for more than a week. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "442dfbedf7f8e236",
+    "title": "Watch on Demand: Cloud & Data Security Summit",
+    "link": "https://www.securityweek.com/virtual-event-today-cloud-data-security-summit/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-20T10:31:25.000Z",
+    "summary": "Attendees will be able to interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments.\nThe post Watch on Demand: Cloud & Data Security Summit appeared first on SecurityWe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9cf688ceed175484",
+    "title": "Capital One Open Sources AI-Powered ‘VulnHunter’ Security Tool",
+    "link": "https://www.securityweek.com/capital-one-open-sources-ai-powered-vulnhunter-security-tool/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-20T10:25:07.000Z",
+    "summary": "The agentic security tool identifies potentially exploitable code flaws, traces attack paths, and recommends targeted remediations.\nThe post Capital One Open Sources AI-Powered ‘VulnHunter’ Security Tool appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1ae055ce2bc81095",
+    "title": "Windows KB5121767 OOB update fixes shutdowns on some Dell PCs",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-20T10:06:17.000Z",
+    "summary": "Microsoft has released emergency updates to fix a known issue causing some Dell PCs to shut down after installing the July 2026 Windows 11 security updates. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3413583d44be525c",
+    "title": "Hugging Face Hacked in Autonomous AI Attack",
+    "link": "https://www.securityweek.com/hugging-face-hacked-in-autonomous-ai-attack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-20T09:36:15.000Z",
+    "summary": "Targeting production infrastructure, the attack compromised internal datasets and service credentials.\nThe post Hugging Face Hacked in Autonomous AI Attack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5b2674b4519ab056",
+    "title": "Critical ServiceNow code execution flaw now exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-20T09:29:20.000Z",
+    "summary": "Attackers have begun exploiting a critical vulnerability (CVE-2026-6875) in the ServiceNow AI Platform, according to threat intelligence company Defused. [...]",
+    "cveIds": [
+      "CVE-2026-6875"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "588da4c0d957e880",
+    "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
+    "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-20T09:10:56.000Z",
+    "summary": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detail",
+    "cveIds": [
+      "CVE-2026-14266"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "06aebcc63783f6c0",
+    "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
+    "link": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-20T09:07:11.000Z",
+    "summary": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet.\n\nThe findings come from an analysis of 200 Gem",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "d15852e567773ef4",
     "title": "Chrome 150 Update Patches Severe Memory Safety Bugs",
     "link": "https://www.securityweek.com/chrome-150-update-patches-severe-memory-safety-bugs/",
@@ -1510,17 +1726,6 @@
     "severity": "normal"
   },
   {
-    "id": "442dfbedf7f8e236",
-    "title": "Virtual Event Today: Cloud & Data Security Summit",
-    "link": "https://www.securityweek.com/virtual-event-today-cloud-data-security-summit/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-15T12:52:10.000Z",
-    "summary": "Attendees will be able to interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments.\nThe post Virtual Event Today: Cloud & Data Security Summit appeared first on Securi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "cf7c9a791bd27f4f",
     "title": "Microsoft smashes Patch Tuesday record for second successive month",
     "link": "https://therecord.media/microsoft-vulnerabilities-patch-tuesday-release",
@@ -2833,194 +3038,5 @@
     "summary": "Once a notorious blackhat hacker, McGraw shares his journey from high school hacking and prison to redemption as a cybersecurity advocate.\nThe post Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption appeare",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "3366da564fc23779",
-    "title": "Lidl discloses online shop breach after service provider hack",
-    "link": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-13T14:19:43.000Z",
-    "summary": "German discount supermarket chain Lidl notified customers in Germany, Belgium, and the Netherlands that attackers stole their personal information in a breach at a service provider. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "71558ebc4bf09265",
-    "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
-    "link": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-13T14:01:11.000Z",
-    "summary": "Learn how attackers abuse Entra ID through a free hands-on Capture the Flag. Varonis created the Breach at the Beach CTF to teach defenders how to investigate Entra ID attack techniques using realistic scenarios. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c79b4ee823130030",
-    "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
-    "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-13T13:49:48.000Z",
-    "summary": "Give an AI assistant a memory and access to your inbox, and you hand an attacker a way to rewrite what it thinks it knows about you. A single email can trick that agent into saving a false \"fact\" about the user, hide the change, and quietly",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "97312166f0d02a5a",
-    "title": "UK charges suspects linked to Russian Coms call spoofing platform",
-    "link": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-13T13:23:30.000Z",
-    "summary": "UK authorities charged five people following a National Crime Agency (NCA) investigation into Russian Coms, a major caller ID spoofing platform used by criminals to make over 1.8 million scam calls. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ebd4ad1a53ac1ea7",
-    "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
-    "link": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-13T13:03:33.000Z",
-    "summary": "A new phishing-as-a-service (PhaaS) operation called Forg365 is using a combination of device code phishing, adversary-in-the-middle (AitM) tactics, antibot evasion, artificial intelligence (AI)-assisted lure creation, and post-compromise m",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e10037dc4eeaf4a8",
-    "title": "Turning the Tables on Email Scammers With 'ScamBuster'",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/turning-tables-email-scammers-scambuster",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-13T13:00:00.000Z",
-    "summary": "An open source, AI-driven system adopts victim personas to engage with phishing attackers, allowing organizations and law enforcement to gather relevant data on cybercriminal operations.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "abbf6c42f83c4218",
-    "title": "Cybersecurity M&A Roundup: 37 Deals Announced in June 2026",
-    "link": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-june-2026/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-13T12:20:14.000Z",
-    "summary": "Significant cybersecurity M&A deals announced by 1Password, Accenture, Cisco, F5, Rubrik, and SailPoint.\nThe post Cybersecurity M&A Roundup: 37 Deals Announced in June 2026 appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "295bd98aa08b557f",
-    "title": "Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting",
-    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-13T12:00:00.000Z",
-    "summary": "Russian Government-Sponsored Activity Targets Poorly Configured and Vulnerable Devices Across Critical Sectors\nExecutive summary\nRussian Federal Security Service (FSB) Center 16 cyber actors continue to exploit poorly configured and vulnera",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a9d91b60714e6e57",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-13T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2008-4128 Cisco IOS Cross-Site Request Forgery Vulnerability\nThis type of vulnerability is a frequent a",
-    "cveIds": [
-      "CVE-2008-4128"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "d8f0a85582838035",
-    "title": "RabbitMQ Vulnerability Threatens Enterprise Systems",
-    "link": "https://www.securityweek.com/rabbitmq-vulnerability-threatens-enterprise-systems/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-13T12:00:00.000Z",
-    "summary": "Unauthenticated attackers could obtain the broker's confidential OAuth client secret, allowing them to take control of the broker.\nThe post RabbitMQ Vulnerability Threatens Enterprise Systems appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "880b57f6f856e468",
-    "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
-    "link": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-13T11:54:46.000Z",
-    "summary": "Meta has filed a patent application for an AI that listens to your voice throughout the day, works out how it thinks you are feeling from the way you sound, and keeps a timestamped log of every read.\n\nEach read gets pinned to the moment it ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8a7e4808efdbd77d",
-    "title": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
-    "link": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-13T11:37:05.000Z",
-    "summary": "A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. They had already connected Claude to a few detection tools and ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0a6582e83971f241",
-    "title": "EU sanctions Russian GRU military hackers over cyberattacks",
-    "link": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-13T11:19:05.000Z",
-    "summary": "The European Union and the United Kingdom jointly sanctioned dozens of Russian individuals and entities and accused Russia of coordinating a network of hacking groups responsible for attacks across Europe. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "792d8e893d8ade85",
-    "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
-    "link": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-13T11:02:33.000Z",
-    "summary": "Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration.\n\n\"The script looked for the Domain Controller (DC) and mapped users, comput",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fb058a87631bb2b0",
-    "title": "Zimbra Patches Critical Code Execution Vulnerability",
-    "link": "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-13T10:03:47.000Z",
-    "summary": "The flaw results in malicious code embedded in crafted emails being executed when the emails are opened.\nThe post Zimbra Patches Critical Code Execution Vulnerability appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ce953968f766c772",
-    "title": "EU Targets Russian Intelligence Officers Accused of Running a Yearslong Cyber Spying Campaign",
-    "link": "https://www.securityweek.com/eu-targets-russian-intelligence-officers-accused-of-running-a-yearslong-cyber-spying-campaign/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-13T10:00:00.000Z",
-    "summary": "The move targeted people and entities accused of links to an online spying network that the EU claims targeted governments and carried out sabotage operations against critical infrastructure.\nThe post EU Targets Russian Intelligence Officer",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c8e508556872e9b0",
-    "title": "US and allies warn of Russian critical infrastructure attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-13T09:32:23.000Z",
-    "summary": "Cybersecurity agencies from the United States and eight other countries have issued a joint warning that Russian state hackers are targeting vulnerable and poorly configured routers to infiltrate critical infrastructure networks. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
