@@ -1,5 +1,52 @@
 [
   {
+    "id": "d15852e567773ef4",
+    "title": "Chrome 150 Update Patches Severe Memory Safety Bugs",
+    "link": "https://www.securityweek.com/chrome-150-update-patches-severe-memory-safety-bugs/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-20T08:12:19.000Z",
+    "summary": "The fresh security update resolves six critical and high-severity use-after-free vulnerabilities.\nThe post Chrome 150 Update Patches Severe Memory Safety Bugs appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b28632a33ec75ec5",
+    "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
+    "link": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-20T05:27:26.000Z",
+    "summary": "In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system.\n\nThe company said it detected and responded to the incident targeting",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "792bdb3eb78f42ea",
+    "title": "WP2Shell WordPress Vulnerabilities Exploited in the Wild",
+    "link": "https://www.securityweek.com/wp2shell-wordpress-vulnerabilities-exploited-in-the-wild/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-20T05:21:29.000Z",
+    "summary": "Exploitation of the new WordPress vulnerabilities tracked as CVE-2026-60137 and CVE-2026-63030 started soon after disclosure.\nThe post WP2Shell WordPress Vulnerabilities Exploited in the Wild appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-60137",
+      "CVE-2026-63030"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "44e4de974c084c5c",
+    "title": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
+    "link": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-20T05:15:39.000Z",
+    "summary": "Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of serving additional payloads.\n\nThe rogue g",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "7f66c2f80286a000",
     "title": "ISC Stormcast For Monday, July 20th, 2026 https://isc.sans.edu/podcastdetail/10014, (Mon, Jul 20th)",
     "link": "https://isc.sans.edu/diary/rss/33166",
@@ -1908,6 +1955,39 @@
     "severity": "normal"
   },
   {
+    "id": "e47434a8cf865348",
+    "title": "Vulnérabilité dans ESET Inspect Connector (15 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0882/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-15T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans ESET Inspect Connector. Elle permet à un attaquant de provoquer une élévation de privilèges.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "52fe997c34341036",
+    "title": "Multiples vulnérabilités dans Progress LoadMaster (15 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0883/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Progress LoadMaster. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9b0a32b37fe2eaaa",
+    "title": "Vulnérabilité dans Xen XAPI (15 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0884/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-15T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Xen XAPI. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "786f5dfecc0ca4f9",
     "title": "Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes",
     "link": "https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes",
@@ -2942,71 +3022,5 @@
     "summary": "Cybersecurity agencies from the United States and eight other countries have issued a joint warning that Russian state hackers are targeting vulnerable and poorly configured routers to infiltrate critical infrastructure networks. [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "d0416fbfac66eb1a",
-    "title": "Organizations Warned of Exploited Joomla Extension Vulnerabilities",
-    "link": "https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-13T09:08:02.000Z",
-    "summary": "Threat actors have been targeting Balbooa Forms and iCagenda Joomla extension flaws for remote code execution.\nThe post Organizations Warned of Exploited Joomla Extension Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c9f7674ab9762e9b",
-    "title": "Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns",
-    "link": "https://www.securityweek.com/progress-prompts-sharefile-storage-zone-controller-shutdown-amid-security-concerns/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-13T08:20:46.000Z",
-    "summary": "The company notified customers to manually shut down their servers while it is investigating a credible threat.\nThe post Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8166e99e5e319fce",
-    "title": "Centers Laboratory Data Breach Affects 540,000 Individuals",
-    "link": "https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-13T08:10:44.000Z",
-    "summary": "The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider.\nThe post Centers Laboratory Data Breach Affects 540,000 Individuals appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "bd5d8aa1e075e415",
-    "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
-    "link": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-13T07:30:00.000Z",
-    "summary": "An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it: python3 -m http.server 8080, was still sitting in the readable .bas",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4981c3a5ac9eb866",
-    "title": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
-    "link": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-13T05:36:02.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of z",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f1b3aa5b78f6c652",
-    "title": "Someone Is Scanning for Your MCP Servers and AI Assistant Credentials, (Mon, Jul 13th)",
-    "link": "https://isc.sans.edu/diary/rss/33150",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-13T04:22:02.000Z",
-    "summary": "The setup",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
