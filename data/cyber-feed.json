@@ -1,5 +1,49 @@
 [
   {
+    "id": "4777faf33e89a4a4",
+    "title": "Zimbra Update Patches Critical Vulnerabilities",
+    "link": "https://www.securityweek.com/zimbra-update-patches-critical-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-21T08:20:08.000Z",
+    "summary": "The latest Zimbra refresh resolves command injection, XSS, restriction bypass, and SSRF security defects.\nThe post Zimbra Update Patches Critical Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9aa4dc065b1bd34c",
+    "title": "Windows LegacyHive zero-day flaw gets free, unofficial patches",
+    "link": "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-21T08:06:26.000Z",
+    "summary": "Free unofficial patches are available for a recently disclosed Windows zero-day flaw that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "567b9f117ea0a225",
+    "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
+    "link": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-21T07:34:32.000Z",
+    "summary": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month.\n\nThe same operator has now been spotted deploying ENCFORGE, a new compiled Go ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3fdf359519ec07c1",
+    "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+    "link": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-21T06:29:26.000Z",
+    "summary": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber.\n\nIn a post shared on X, the threat intelligence firm said it's observing in-the-wild exploitation of ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "6307139d39a77510",
     "title": "ISC Stormcast For Tuesday, July 21st, 2026 https://isc.sans.edu/podcastdetail/10016, (Tue, Jul 21st)",
     "link": "https://isc.sans.edu/diary/rss/33170",
@@ -98,6 +142,17 @@
     "category": "news",
     "pubDate": "2026-07-20T19:55:00.000Z",
     "summary": "\"Community consultation\" is one of the reasons automated license plate reader (ALPR) company Flock Safety cited in its decision to drop voice-oriented tech from a gunshot detection system.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7f415f60a0eefb62",
+    "title": "25 Years After Code Red: What the Worm Era Can Teach Us About AI Security",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/25-years-after-code-red-what-the-worm-era-can-teach-us-about-ai-security-2",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-20T19:32:04.000Z",
+    "summary": "Marc Maiffret reflects on Code Red's legacy and the security lessons helping organizations navigate AI risk today.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -3019,50 +3074,6 @@
     "category": "news",
     "pubDate": "2026-07-14T09:02:48.000Z",
     "summary": "xAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed.\n\nA researcher publishing as cereblab, testing version 0.2.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b0063232775d043d",
-    "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
-    "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-14T08:02:33.000Z",
-    "summary": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN service provider for enabling ransomware actors' and other cybercriminals' malicious activities, including ransomware attacks ag",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6dea223605b55fba",
-    "title": "148 npm Packages Disguised as Student Proxies Turned Browsers Into a DDoS Botnet",
-    "link": "https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-14T07:08:36.000Z",
-    "summary": "A campaign of 148 npm packages disguised as student web proxies turned visitors' browsers into a distributed denial-of-service botnet for roughly two weeks in May, according to new research from JFrog.\n\nThe packages did not go after the dev",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "92e46021c49082ea",
-    "title": "Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules",
-    "link": "https://www.securityweek.com/pentagon-suspends-cmmc-phase-2-as-it-rethinks-contractor-cybersecurity-rules/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-14T06:37:50.000Z",
-    "summary": "A new CMMC review and reform task force will conduct a comprehensive review of the program.\nThe post Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8b2a6448615be664",
-    "title": "Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity",
-    "link": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-14T06:19:24.000Z",
-    "summary": "Attackers whose methods line up with the data-extortion group ShinyHunters have spent the past year walking into corporate Salesforce environments without exploiting a single flaw in the platform.\n\nThe way in has been the trust the organiza",
     "cveIds": [],
     "severity": "normal"
   }
