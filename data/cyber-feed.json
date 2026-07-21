@@ -1,5 +1,107 @@
 [
   {
+    "id": "2705c6e2b9a96d60",
+    "title": "DNI nominee Clayton wins Senate panel’s approval",
+    "link": "https://therecord.media/jay-clayton-dni-nomination-senate-committee-approval",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-21T19:00:00.000Z",
+    "summary": "By a party-line vote, the Senate Intelligence Committee sent the nomination of Jay Clayton to lead ODNI to the Senate floor.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0388fbcf8067ffd4",
+    "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
+    "link": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-21T18:50:54.000Z",
+    "summary": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8714d10a37085d85",
+    "title": "Hacker Turns AI Jailbreaks Into Offensive Attack Platform",
+    "link": "https://www.darkreading.com/cyber-risk/hacker-ai-jailbreaks-offensive-attack-platform",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-21T18:38:52.000Z",
+    "summary": "A Russian-speaking actor, \"Trim,\" dismantled publicly available frontier models and integrated them with offensive security tools.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a6e14213326dba4c",
+    "title": "Trump Orders Defense Contractors to Map Software, Suppliers Across Critical Supply Chains",
+    "link": "https://www.securityweek.com/trump-orders-defense-contractors-to-map-software-suppliers-across-critical-supply-chains/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-21T18:16:09.000Z",
+    "summary": "New executive order calls for end-to-end visibility into defense supply chains, including software dependencies, foreign ownership and cyber-related supplier risks.\nThe post Trump Orders Defense Contractors to Map Software, Suppliers Across",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6d6bc4561c3bd8f1",
+    "title": "Cisco Launches Low-Cost AI Models for Source Code Security",
+    "link": "https://www.securityweek.com/cisco-launches-low-cost-ai-models-for-source-code-security/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-21T17:44:33.000Z",
+    "summary": "The open-weight Antares models are designed to pinpoint known vulnerabilities in codebases faster and at a fraction of the cost of larger AI models.\nThe post Cisco Launches Low-Cost AI Models for Source Code Security appeared first on Secur",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4bc8dcbb31fcfbc5",
+    "title": "Spain fines 23andMe nearly $3 million for cybersecurity failings enabling 2023 hack",
+    "link": "https://therecord.media/spain-fines-23andme-3-million-cyber-failings-data-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-21T17:10:00.000Z",
+    "summary": "The Agencia Española de Protección de Datos (AEPD) announced the fine on Friday, saying in its decision that more than 2,600 Spaniards were impacted by a breach affecting 6.9 million people worldwide.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c136d8044256f057",
+    "title": "Critical wp2shell WordPress flaws exploited to install webshells",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-21T16:41:50.000Z",
+    "summary": "Hackers are exploiting the \"wp2shell\" critical vulnerability suite (CVE-2026-63030 and CVE-2026-60137) affecting WordPress Core to deploy persistent webshells and install malicious plugins on affected servers. [...]",
+    "cveIds": [
+      "CVE-2026-63030",
+      "CVE-2026-60137"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "d235ef6ff6a6b4f7",
+    "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
+    "link": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-21T16:06:12.000Z",
+    "summary": "Hidden text on a web page was enough to make Kiro, AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approval step able to stop it.\n\nIntezer, in research with Kodem Sec",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1a528feed537541c",
+    "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
+    "link": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-21T15:09:28.000Z",
+    "summary": "Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently.\n\nA",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "58841e16626d1c2b",
     "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
     "link": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
@@ -69,7 +171,7 @@
   },
   {
     "id": "b8f0f8eabd05b7c6",
-    "title": "Choose Wisely: AI-Generated Coding Risk Varies, A Lot",
+    "title": "Choose Wisely: AI-Generated Coding Risk Varies, a Lot",
     "link": "https://www.darkreading.com/application-security/choose-wisely-ai-generated-coding-risk-varies",
     "source": "Dark Reading",
     "category": "news",
@@ -112,6 +214,28 @@
     "severity": "normal"
   },
   {
+    "id": "2fd6b47b8951056e",
+    "title": "Tycon Systems TPDIN-Monitor-WEB2",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-21T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipment, which could present a physical safety r",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "43a6403f5e69bafc",
+    "title": "Siemens SIDIS Secured SmartPlug",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-21T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSIDIS Secured SmartPlug before V7.26.0310 is affected by multiple vulnerabilities in the components OpenSSL, OpenSSH, and several other packages as described below. Siemens has released a new version of SIDIS Secured Smart",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6a256aaf279743e5",
     "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
@@ -124,6 +248,94 @@
       "CVE-2026-0770"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "c50b86278d285455",
+    "title": "Siemens IAM Client",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-21T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nMultiple Siemens products are affected by unquoted search path vulnerability in IAM Client. This could allow an authenticated local attacker to perform privilege escalation. Siemens has released new versions for several af",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a85f1c1635986a5a",
+    "title": "Siemens RUGGEDCOM APE1808 with Palo Alto Networks Virtual NGFW",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-21T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nPalo Alto Networks has published [1] information on vulnerabilities in PAN-OS. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Customers are advised to consult and implement t",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1d2407a0dd87e129",
+    "title": "Rockwell Automation 1734 POINT I/O",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-09",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-21T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product.\nThe following versions of Rockwell Automation 1734 POINT I/O are affected:\n1734 POINT I/O 3.0",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5f6b5e1e18024e4b",
+    "title": "Rockwell Automation 1718-AENTR/1719-AENTR",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-21T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product.\nThe following versions of Rockwell Automation 1718-AENTR/1719-AENTR are affected:\n1718/ 1719 ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "40595772e3738f65",
+    "title": "Rockwell Automation Studio 5000 Logix Designer",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-10",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-21T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow for a local attacker to execute arbitrary files, alter configurations, or execute arbitrary code.\nThe following versions of Rockwell Automation Studio 5000 Logix",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "285ac42e55763b15",
+    "title": "Siemens CADRA",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-21T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nCADRA is affected by multiple zlib and Foxit vulnerabilities. Siemens has released a new version for CADRA and recommends to update to the latest version. Siemens is preparing further fix versions and recommends specific c",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5864a7804341b406",
+    "title": "Rockwell Automation FactoryTalk Services Platform",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-21T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to impersonate an authorized user on the FTSP server, resulting in unauthorized access to system configurations.\nThe following versions of Rockwell Auto",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e7e69ea6ea7c90bd",
+    "title": "Siemens Opcenter X",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-21T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nOpcenter X before V2604 contain an authentication bypass vulnerability that could allow an attacker to gain full unauthorized access to the application. Siemens has released a new version for Opcenter X and recommends to u",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "06fe19b9b7da0d76",
@@ -332,7 +544,7 @@
     "source": "BleepingComputer",
     "category": "news",
     "pubDate": "2026-07-20T22:39:30.000Z",
-    "summary": "Cosmetics giant Estée Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]",
+    "summary": "Cosmetics giant Estée Lauder is notifying employees of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]",
     "cveIds": [],
     "severity": "critical"
   },
@@ -1632,13 +1844,46 @@
     "severity": "normal"
   },
   {
-    "id": "2ff9fa385d07052e",
-    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03",
+    "id": "89de11fdf4ac5c92",
+    "title": "AutomationDirect Productivity Suite",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-04",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of NASA Core Flight System (cFS) Health & Safety (HS) Application are affected:\nCore Flig",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker with local or physical access to cause memory corruption, unintended information disclosure, application instability, or a denial-of-service conditio",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "62c272caea5ad8be",
+    "title": "Rockwell Automation Flex 5000 Adapter",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-16T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the affected product.\nThe following versions of Rockwell Automation Flex 5000 Adapter are affected:\nFlex 5000 ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a7fe31d7b6fe8230",
+    "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-16T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT are affected:\n1756-EN3 <=V12.001",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fea9722e06634048",
+    "title": "Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-16T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix a",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1676,13 +1921,13 @@
     "severity": "normal"
   },
   {
-    "id": "62c272caea5ad8be",
-    "title": "Rockwell Automation Flex 5000 Adapter",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08",
+    "id": "2ff9fa385d07052e",
+    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the affected product.\nThe following versions of Rockwell Automation Flex 5000 Adapter are affected:\nFlex 5000 ",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of NASA Core Flight System (cFS) Health & Safety (HS) Application are affected:\nCore Flig",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1701,17 +1946,6 @@
     "severity": "cve"
   },
   {
-    "id": "fea9722e06634048",
-    "title": "Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "37b03f155726fd61",
     "title": "Rockwell Automation Arena",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-01",
@@ -1719,28 +1953,6 @@
     "category": "advisory",
     "pubDate": "2026-07-16T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation these vulnerabilities could allow an attacker to execute arbitrary code in the context of the current process.\nThe following versions of Rockwell Automation Arena are affected:\nArena <=V17.00.00 (CV",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "89de11fdf4ac5c92",
-    "title": "AutomationDirect Productivity Suite",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker with local or physical access to cause memory corruption, unintended information disclosure, application instability, or a denial-of-service conditio",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a7fe31d7b6fe8230",
-    "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT are affected:\n1756-EN3 <=V12.001",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2833,172 +3045,5 @@
     "summary": "Automated Frequency Coordination systems by default trust client-side data, which could lead to location spoofing and other attacks that disrupt traffic.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "7c314ed73f17715f",
-    "title": "US unseals indictment against alleged operators of Russian bulletproof hosting service",
-    "link": "https://therecord.media/us-unseals-indictment-russians-bulletproof-hosting",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-14T19:26:00.000Z",
-    "summary": "The Russians face multiple charges for allegedly providing cybercriminals with infrastructure and tech support through the St. Petersburg-based business Media Land and a sister company, ML Cloud.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2c2b2700dd7b44b3",
-    "title": "Microsoft Patches a Record 570 Security Flaws",
-    "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-07-14T19:22:42.000Z",
-    "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesd",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f65b79307e5b3e18",
-    "title": "Nearly 300 GitHub repos pose as legit software to push malware",
-    "link": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-14T19:15:17.000Z",
-    "summary": "A threat actor has published hundreds of fake GitHub repositories impersonating legitimate software and security projects to distribute infostealer malware. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "39ba92c71ab7dfa3",
-    "title": "Microsoft Patch Tuesday July 2026 - The AI Acopolypse is Here , (Tue, Jul 14th)",
-    "link": "https://isc.sans.edu/diary/rss/33154",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-14T19:14:58.000Z",
-    "summary": "This patch Tuesday includes a staggering&#;x26;#;xc2;&#;x26;#;xa0;622 vulnerabilities, not including another 427 vulnerabilities in Chromium, affecting Microsoft&#;x26;#;39;s Edge browser. 62 of the vulnerabilities are rated critical. One w",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1cd369aac23a6886",
-    "title": "Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days",
-    "link": "https://www.securityweek.com/microsoft-patches-record-622-vulnerabilities-including-two-exploited-zero-days/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-14T18:50:20.000Z",
-    "summary": "Two flaws in Active Directory and SharePoint Server have been exploited as zero-days, and a BitLocker bug was publicly disclosed.\nThe post Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days appeared first on Sec",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0a16aeee4093d57c",
-    "title": "Microsoft releases Windows 10 KB5099539 extended security update",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-14T18:49:28.000Z",
-    "summary": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes this month's record-breaking July 2026 Patch Tuesday fixes, along with additional security improvements. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4be8f1e160f6fd94",
-    "title": "Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims",
-    "link": "https://www.securityweek.com/synopsys-finds-no-evidence-of-data-breach-following-bosch-hack-claims/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-14T18:18:45.000Z",
-    "summary": "The D1R cybercrime group claimed to have stolen valuable data from Synopsys and Bosch, threatening to leak it unless a ransom is paid. \nThe post Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims appeared first on SecurityWeek",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "47a29edaf85b9b22",
-    "title": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data",
-    "link": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-14T18:17:57.000Z",
-    "summary": "SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP.\n\nThe vulnerability in question is CVE-2026-44747 (CVSS score: 9.9)",
-    "cveIds": [
-      "CVE-2026-44747"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "7db00584fb6de99a",
-    "title": "Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-14T18:01:36.000Z",
-    "summary": "Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1e3da20480d18338",
-    "title": "Manage Vendor Risk in a Few Practical Steps",
-    "link": "https://www.darkreading.com/cyber-risk/manage-vendor-risk-in-a-few-practical-steps",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-14T17:44:55.000Z",
-    "summary": "Risk tolerance, exposure visibility, board oversight — handling third-party risk is complicated but achievable with disciplined, precise governance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dffece0294c4e9b7",
-    "title": "Windows 11 KB5101650 & KB5099414 cumulative updates released",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-14T17:41:16.000Z",
-    "summary": "Microsoft has released Windows 11's June 2026 Update for version 25H2, 24H2, and 23H2, bringing fixes for over 570 security issues. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7688d38ce62a2366",
-    "title": "Finland issues wanted notice for hacker behind massive psychotherapy data breach",
-    "link": "https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-14T17:28:00.000Z",
-    "summary": "The defendant's lawyer told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "cd12e30d37f448b9",
-    "title": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads",
-    "link": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-14T17:27:23.000Z",
-    "summary": "Any other browser extension that can run a script on claude.ai can still trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and its comments, and your Calendar.\n\nBoth this and ClaudeBleed need a rogue extension that",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a38f8da827e7a09d",
-    "title": "Adobe Patches Critical ColdFusion Vulnerabilities",
-    "link": "https://www.securityweek.com/adobe-patches-critical-coldfusion-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-14T17:06:35.000Z",
-    "summary": "The ColdFusion security defects could allow attackers to execute arbitrary code or elevate their privileges.\nThe post Adobe Patches Critical ColdFusion Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "44702ff15a48e62e",
-    "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
-    "link": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-14T16:52:37.000Z",
-    "summary": "Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments.\n\n\"LabubaRAT creates a reusable foothold for ha",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
