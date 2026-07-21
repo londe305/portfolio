@@ -1,5 +1,18 @@
 [
   {
+    "id": "58841e16626d1c2b",
+    "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
+    "link": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-21T14:57:51.000Z",
+    "summary": "A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr.\n\nThe vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserial",
+    "cveIds": [
+      "CVE-2026-50522"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "76c3e9e80b2c3760",
     "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
     "link": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
@@ -39,7 +52,7 @@
     "source": "The Record",
     "category": "news",
     "pubDate": "2026-07-21T13:30:00.000Z",
-    "summary": "The speed of 5G and 4G networks across much of Taiwan will be temporarily reduced to 1 percent of capacity as the island holds annual civilian and military drills.",
+    "summary": "The speed of 5G and 4G networks across much of Taiwan will be temporarily reduced to 1 percent of capacity as the island holds annual civilian and military exercises.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -97,6 +110,20 @@
     "summary": "The website was hacked on Saturday, when its homepage was replaced with a message displaying a cryptocurrency wallet address and threatening to publish unspecified information about President William Ruto unless the ransom was paid.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "6a256aaf279743e5",
+    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-21T12:00:00.000Z",
+    "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2021-27137 DD-WRT Stack-Based Buffer Overflow Vulnerability\nCVE-2026-0770 Langflow Inclusion of Func",
+    "cveIds": [
+      "CVE-2021-27137",
+      "CVE-2026-0770"
+    ],
+    "severity": "cve"
   },
   {
     "id": "06fe19b9b7da0d76",
@@ -1605,13 +1632,13 @@
     "severity": "normal"
   },
   {
-    "id": "fea9722e06634048",
-    "title": "Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06",
+    "id": "2ff9fa385d07052e",
+    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix a",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of NASA Core Flight System (cFS) Health & Safety (HS) Application are affected:\nCore Flig",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1649,13 +1676,13 @@
     "severity": "normal"
   },
   {
-    "id": "a7fe31d7b6fe8230",
-    "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
+    "id": "62c272caea5ad8be",
+    "title": "Rockwell Automation Flex 5000 Adapter",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT are affected:\n1756-EN3 <=V12.001",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the affected product.\nThe following versions of Rockwell Automation Flex 5000 Adapter are affected:\nFlex 5000 ",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1672,6 +1699,17 @@
       "CVE-2026-39808"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "fea9722e06634048",
+    "title": "Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-16T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix a",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "37b03f155726fd61",
@@ -1696,24 +1734,13 @@
     "severity": "normal"
   },
   {
-    "id": "62c272caea5ad8be",
-    "title": "Rockwell Automation Flex 5000 Adapter",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08",
+    "id": "a7fe31d7b6fe8230",
+    "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the affected product.\nThe following versions of Rockwell Automation Flex 5000 Adapter are affected:\nFlex 5000 ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2ff9fa385d07052e",
-    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of NASA Core Flight System (cFS) Health & Safety (HS) Application are affected:\nCore Flig",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT are affected:\n1756-EN3 <=V12.001",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2971,50 +2998,6 @@
     "category": "news",
     "pubDate": "2026-07-14T16:52:37.000Z",
     "summary": "Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments.\n\n\"LabubaRAT creates a reusable foothold for ha",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "329f5a611e5e7dcd",
-    "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
-    "link": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-14T16:08:47.000Z",
-    "summary": "Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers last week and has released security updates to patch the flaw. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "91ddb84bdc564ef5",
-    "title": "Frontier AI: The Genie's Out of the Bottle, but Where's the Rulebook?",
-    "link": "https://www.darkreading.com/cybersecurity-operations/frontier-ai-genie-out-of-bottle-where-rulebook",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-14T16:02:39.000Z",
-    "summary": "Cutting-edge artificial intelligence models are deploying with more independence and less human oversight. Several state governments are trying to legislate transparency in their use.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2bcbe82ac85c0963",
-    "title": "ClickFix's Mushrooming Ecosystem Demands New Defense Tactics",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-demands-new-defense",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-14T15:53:54.000Z",
-    "summary": "The attack vector is available for rent at scale, and evades AV and EDR, leaving YARA analysis as the best detection option.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "76831c35a52f01f9",
-    "title": "LastPass, Bitwarden users targeted with fake security alerts",
-    "link": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-14T15:31:52.000Z",
-    "summary": "LastPass is warning users about an ongoing phishing campaign that is using fake security notices to direct them to fraudulent websites. [...]",
     "cveIds": [],
     "severity": "normal"
   }
