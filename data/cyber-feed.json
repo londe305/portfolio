@@ -1,5 +1,84 @@
 [
   {
+    "id": "fcab69a7853ada9b",
+    "title": "Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack",
+    "link": "https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-21T11:12:33.000Z",
+    "summary": "Hackers exfiltrated personal, financial, and health information from the company’s Oracle EBS instance in August 2025.\nThe post Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a0869fafb87e9e93",
+    "title": "Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data",
+    "link": "https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-21T10:19:21.000Z",
+    "summary": "A security researcher discovered a broken access control vulnerability in Meta’s support infrastructure.\nThe post Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "be7c59208c24869a",
+    "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-21T10:12:24.000Z",
+    "summary": "The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1e9f7c552de999b0",
+    "title": "Clover Health Investments Discloses Data Breach",
+    "link": "https://www.securityweek.com/clover-health-investments-discloses-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-21T09:36:51.000Z",
+    "summary": "Using social engineering, hackers compromised employee accounts with access to personal and health information.\nThe post Clover Health Investments Discloses Data Breach appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3a2679bddf229ab2",
+    "title": "Microsoft shares manual fix for WSUS sync delays and timeouts",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-manual-fix-for-wsus-sync-delays-and-timeouts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-21T09:05:50.000Z",
+    "summary": "Microsoft has shared manual mitigations to help IT administrators fix Windows Server Update Services (WSUS) servers affected by a known issue that causes Windows Update scans to fail or time out. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1cfa0d30e91cb773",
+    "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
+    "link": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-21T08:59:30.000Z",
+    "summary": "Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable websites.\n\nThe two security flaws, tracked as C",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "fb2e662191b22bd5",
+    "title": "Exploitation of ServiceNow Vulnerability Seen Days After Disclosure",
+    "link": "https://www.securityweek.com/exploitation-of-servicenow-vulnerability-seen-days-after-disclosure/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-21T08:41:53.000Z",
+    "summary": "The ServiceNow AI platform vulnerability tracked as CVE-2026-6875 can be exploited for remote code execution.\nThe post Exploitation of ServiceNow Vulnerability Seen Days After Disclosure appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-6875"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "4777faf33e89a4a4",
     "title": "Zimbra Update Patches Critical Vulnerabilities",
     "link": "https://www.securityweek.com/zimbra-update-patches-critical-vulnerabilities/",
@@ -2988,93 +3067,5 @@
     "summary": "The flaws could allow attackers to access and modify data, and cause system unavailability and request-response desynchronization.\nThe post SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud appeared first on Secur",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "609f80abdbd6da42",
-    "title": "US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers",
-    "link": "https://www.securityweek.com/us-allies-warn-of-russian-cyberattacks-targeting-critical-infrastructure-routers/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-14T10:51:01.000Z",
-    "summary": "Multiple state-sponsored APTs are compromising poorly secured devices across critical infrastructure sector networks.\nThe post US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c5b2d548018200a9",
-    "title": "Microsoft starts testing cleaner Windows Search without ads",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-testing-cleaner-windows-search-without-ads/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-14T10:47:23.000Z",
-    "summary": "Microsoft is now testing a cleaner and faster version of Windows Search that should prioritize relevant results over ads and promotional content. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4f8aefb6926412c4",
-    "title": "[Video] Where protection starts: Cisco Talos Intelligence Integrations",
-    "link": "https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-07-14T10:47:18.000Z",
-    "summary": "Every day, defenders make high-consequence decisions with incomplete information. Learn how Cisco Talos Intelligence Integrations help reduce uncertainty by turning the latest threat intelligence into proactive protections across Cisco tech",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f282e4da8be50914",
-    "title": "The serpent’s tongue: Luring the Python out of its den",
-    "link": "https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-07-14T10:00:06.000Z",
-    "summary": "This blog examines the full lifecycle of a Python package, from hosting on repositories such as PyPI or custom web servers, through source and wheel distribution formats, to the final installation into virtual or system-wide Python environm",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7a41883e7ad246b2",
-    "title": "US sanctions VPN, malware providers for enabling ransomware attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-14T09:40:13.000Z",
-    "summary": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) sanctioned two individuals and one entity for enabling ransomware attacks against U.S. organizations. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "252edb9a3c5231c7",
-    "title": "Valarian Raises $50 Million for Sovereign Infrastructure Control Layer",
-    "link": "https://www.securityweek.com/valarian-raises-50-million-for-sovereign-infrastructure-control-layer/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-14T09:32:15.000Z",
-    "summary": "UK-based cybersecurity firm Valarian has raised a total of $70 million for its ACRA technology.\nThe post Valarian Raises $50 Million for Sovereign Infrastructure Control Layer appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fc650ea88f5366d7",
-    "title": "Multiple Jscrambler Packages Impacted by Supply Chain Attack",
-    "link": "https://www.securityweek.com/multiple-jscrambler-packages-impacted-by-supply-chain-attack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-14T09:04:39.000Z",
-    "summary": "A threat actor poisoned several Jscrambler NPM package versions to drop a cross-platform credential stealer.\nThe post Multiple Jscrambler Packages Impacted by Supply Chain Attack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f718a819a7be157f",
-    "title": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read",
-    "link": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-14T09:02:48.000Z",
-    "summary": "xAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed.\n\nA researcher publishing as cereblab, testing version 0.2.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
