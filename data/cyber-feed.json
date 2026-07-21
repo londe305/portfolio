@@ -1,5 +1,40 @@
 [
   {
+    "id": "316c1449fbeb4c72",
+    "title": "Ransomware Is Accelerating, But It's Not Because of AI",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-21T21:48:05.000Z",
+    "summary": "Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4fc3eaa2bbee83a6",
+    "title": "Using LLMs to Find and Prioritize Vulnerabilities Is No Easy Task",
+    "link": "https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-21T21:27:37.000Z",
+    "summary": "The latest large language models have high false-positive rates and fail to take into account the context of scans, leading to more work for AppSec professionals.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "26efc8a1f16396b8",
+    "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-21T20:06:55.000Z",
+    "summary": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]",
+    "cveIds": [
+      "CVE-2026-50522"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "2705c6e2b9a96d60",
     "title": "DNI nominee Clayton wins Senate panel’s approval",
     "link": "https://therecord.media/jay-clayton-dni-nomination-senate-committee-approval",
@@ -20,6 +55,17 @@
     "summary": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "01b2645c805e86a0",
+    "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
+    "link": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-21T18:46:32.000Z",
+    "summary": "Apple has moved to address a security flaw in its Hide My Email service that enabled users' real email addresses to be unmasked, effectively undermining the feature's privacy guarantees.\n\n404 Media reported Tuesday that a fix for the issue ",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "8714d10a37085d85",
@@ -2976,74 +3022,5 @@
     "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "786f5dfecc0ca4f9",
-    "title": "Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-14T21:50:56.000Z",
-    "summary": "Three of the 622 CVEs for which Microsoft issued patches this week are zero-days; there are more than 60 critical vulnerabilities.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5e5805c89ed2aefe",
-    "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
-    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-14T21:23:24.000Z",
-    "summary": "SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as CVE-2026-15409 and CVE-2026-15410, in zero-day attacks and urges customers to install the newly released security updates. [...]",
-    "cveIds": [
-      "CVE-2026-15409",
-      "CVE-2026-15410"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "014a965957784b12",
-    "title": "Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities",
-    "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-07-14T20:27:33.000Z",
-    "summary": "Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as \"critical.\"",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "81ec43082f19cc6b",
-    "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
-    "link": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-14T20:25:47.000Z",
-    "summary": "Microsoft shipped its largest Patch Tuesday on record today, and two of the fixes close holes that attackers are already exploiting. The release covers 622 of Microsoft's own CVEs by its Security Update Guide count, more than triple June's ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f48c117d7363bd96",
-    "title": "Spanish Police take down €140 million cyber fraud ring, arrest four",
-    "link": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-14T20:23:09.000Z",
-    "summary": "The Spanish Police dismantled a cybercrime and money-laundering organization that made €140 million ($160 million) from investment fraud and business email compromise (BEC) attacks. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "596ebf77ff19f476",
-    "title": "6 GHz Wi-Fi Flaws Could Disrupt Critical Systems",
-    "link": "https://www.darkreading.com/perimeter/6-ghz-wi-fi-flaws-disrupt-critical-systems",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-14T19:58:31.000Z",
-    "summary": "Automated Frequency Coordination systems by default trust client-side data, which could lead to location spoofing and other attacks that disrupt traffic.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
