@@ -1,5 +1,60 @@
 [
   {
+    "id": "2f50f0e44d3b7ecf",
+    "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
+    "link": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-22T21:43:39.000Z",
+    "summary": "The Upbound Group fintech company disclosed that threat actors who stole data from its systems leveraged it to create $13 million in Acima leases. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4f58fb9597105a7b",
+    "title": "Attackers Are Learning to Live Off the AI Toolchain",
+    "link": "https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-22T21:29:01.000Z",
+    "summary": "Sandworm_Mode is an early example of malware that exploits trusted AI tools and workflows to make malicious activity virtually indistinguishable from normal activity.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d2471b2eca22c7c0",
+    "title": "Extension of CISA 2015 info-sharing protections passes as part of House’s defense bill",
+    "link": "https://therecord.media/cisa-2015-extension-passes-house-ndaa",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-22T20:39:35.000Z",
+    "summary": "A 10-year renewal of the cybersecurity information-sharing law known as CISA 2015 passed as part of the House's fiscal 2027 defense authorization bill.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f4b89f8de79ab5f7",
+    "title": "South Korea discloses data breach impacting diplomats worldwide",
+    "link": "https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-22T20:06:54.000Z",
+    "summary": "South Korea disclosed that hackers breached the National Diplomatic Academy's online education system for ten months and stole personal information belonging to current and former employees of the Ministry of Foreign Affairs (MFA), includin",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3f8c79a42a3e9f01",
+    "title": "Fake Bahrain Alert App Deploys Android Surveillance Malware",
+    "link": "https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-22T19:42:42.000Z",
+    "summary": "A malicious application delivers four-stage Android spyware via phony Google Play sites, exploiting civilian fear during Iranian missile strikes.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ba438cbe8f41475f",
     "title": "Federal agencies broaden alert on Iran-linked OT attacks",
     "link": "https://therecord.media/federal-agencies-broaden-alert-on-iran-linked-ot-attacks",
@@ -9,6 +64,17 @@
     "summary": "The observed incidents include “malicious project file interactions and manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays,” the advisory says.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "9e36f1a32c9e8061",
+    "title": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier",
+    "link": "https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-22T18:37:42.000Z",
+    "summary": "Beginning July 27, 2026, GitHub will cut public bug bounty payouts by at least half at every severity level. Critical findings will drop from $20,000-$30,000+ to a fixed $10,000, while its permanent invite-only VIP tier will pay $30,000 or ",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "72743ead52c6841c",
@@ -218,6 +284,20 @@
     "summary": "A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck.\n\nThe vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of unauthenticated pat",
     "cveIds": [
       "CVE-2026-29059"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "4571e8d9c39b6b71",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/07/22/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-22T12:00:00.000Z",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-16232 Check Point SmartConsole Improper Authentication Vulnerability\nCVE-2026-50522 Microsoft ",
+    "cveIds": [
+      "CVE-2026-16232",
+      "CVE-2026-50522"
     ],
     "severity": "cve"
   },
@@ -2367,79 +2447,13 @@
     "severity": "normal"
   },
   {
-    "id": "62c272caea5ad8be",
-    "title": "Rockwell Automation Flex 5000 Adapter",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08",
+    "id": "37b03f155726fd61",
+    "title": "Rockwell Automation Arena",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-01",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the affected product.\nThe following versions of Rockwell Automation Flex 5000 Adapter are affected:\nFlex 5000 ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a7fe31d7b6fe8230",
-    "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT are affected:\n1756-EN3 <=V12.001",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fea9722e06634048",
-    "title": "Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e4e6778bf988758d",
-    "title": "Siemens SICAM 8",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nMultiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICORE for CP-8010/CP-8012 - SICAM EGS Device fi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ac1d9289fc46660e",
-    "title": "SALTO ProAccess Space",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability allows an authenticated attacker to escalate privileges and access spaces outside their assigned partition, within the same Salto ProAccess Space installation or system. Exploi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9011e6778ec391e0",
-    "title": "Rockwell Automation FactoryTalk DataMosaix",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-09",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated attacker to inject malicious scripts on the server.\nThe following versions of Rockwell Automation FactoryTalk DataMosaix are affected:\nDataMosaix P",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2ff9fa385d07052e",
-    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of NASA Core Flight System (cFS) Health & Safety (HS) Application are affected:\nCore Flig",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation these vulnerabilities could allow an attacker to execute arbitrary code in the context of the current process.\nThe following versions of Rockwell Automation Arena are affected:\nArena <=V17.00.00 (CV",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2458,13 +2472,79 @@
     "severity": "cve"
   },
   {
-    "id": "37b03f155726fd61",
-    "title": "Rockwell Automation Arena",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-01",
+    "id": "2ff9fa385d07052e",
+    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation these vulnerabilities could allow an attacker to execute arbitrary code in the context of the current process.\nThe following versions of Rockwell Automation Arena are affected:\nArena <=V17.00.00 (CV",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of NASA Core Flight System (cFS) Health & Safety (HS) Application are affected:\nCore Flig",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "62c272caea5ad8be",
+    "title": "Rockwell Automation Flex 5000 Adapter",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-16T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the affected product.\nThe following versions of Rockwell Automation Flex 5000 Adapter are affected:\nFlex 5000 ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e4e6778bf988758d",
+    "title": "Siemens SICAM 8",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-16T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nMultiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICORE for CP-8010/CP-8012 - SICAM EGS Device fi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a7fe31d7b6fe8230",
+    "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-16T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT are affected:\n1756-EN3 <=V12.001",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9011e6778ec391e0",
+    "title": "Rockwell Automation FactoryTalk DataMosaix",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-09",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-16T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated attacker to inject malicious scripts on the server.\nThe following versions of Rockwell Automation FactoryTalk DataMosaix are affected:\nDataMosaix P",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fea9722e06634048",
+    "title": "Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-16T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ac1d9289fc46660e",
+    "title": "SALTO ProAccess Space",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-16T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability allows an authenticated attacker to escalate privileges and access spaces outside their assigned partition, within the same Salto ProAccess Space installation or system. Exploi",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2788,60 +2868,5 @@
     "summary": "Kentucky Fried Chicken restaurants have been left short on ingredients and major restaurant chains struggling to keep up with deliveries following a cyberattack on Nichirei Logistics Group.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "ba9ae12e6675b65a",
-    "title": "Dutch police bust investment fraud ring stealing over €100 million",
-    "link": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-15T21:55:50.000Z",
-    "summary": "The Dutch Police announced the arrest of multiple individuals suspected of being part of an international investment fraud scheme estimated to have tens of thousands of victims. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7c68ccb36c2a2065",
-    "title": "Forgotten Bootloaders Expose Secure Boot Blind Spot",
-    "link": "https://www.darkreading.com/cyber-risk/forgotten-bootloaders-expose-secure-boot-blind-spot",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-15T21:19:19.000Z",
-    "summary": "Nearly a dozen vulnerable and now revoked UEFI shim bootloaders remained trusted for years, giving attackers a path to bypass Secure Boot.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6809d05515272157",
-    "title": "Identity Attacks Overtake Exploits as Top Ransomware Cause",
-    "link": "https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-15T20:16:13.000Z",
-    "summary": "Email attacks overtook exploits as the top ransomware root cause last year. Multifactor authentication (MFA) was deployed in 97% of credential-based attacks but failed to prevent compromise.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e6d925617f678737",
-    "title": "Zoom warns of critical account takeover vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-15T20:16:02.000Z",
-    "summary": "Zoom is warning of a critical vulnerability in its desktop client and software development kit for Windows that could be exploited by an unauthenticated party to hijack accounts. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "92c602d914128527",
-    "title": "Trump administration unveils AI-supported clearinghouse for cyber vulnerabilities",
-    "link": "https://therecord.media/gold-eagle-cybersecurity-vulnerabilities-clearinghouse",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-15T20:00:00.000Z",
-    "summary": "The Gold Eagle program will allowe industry, critical infrastructure operators and the government to use artificial intelligence to rapidly detect, prioritize and patch cybersecurity vulnerabilities, officials said.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
