@@ -1,5 +1,49 @@
 [
   {
+    "id": "8f60e733a8fddee8",
+    "title": "ISC Stormcast For Wednesday, July 22nd, 2026 https://isc.sans.edu/podcastdetail/10018, (Wed, Jul 22nd)",
+    "link": "https://isc.sans.edu/diary/rss/33174",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-22T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "76af5b683c70d8f4",
+    "title": "LG to Ban Residential Proxies from Smart TV Apps",
+    "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-07-22T01:10:38.000Z",
+    "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found th",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "23459ed98e7b8dd9",
+    "title": "Police dismantle Kratos phishing platform, arrest developer",
+    "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-21T23:07:33.000Z",
+    "summary": "Authorities in Germany and the U.S. dismantled the central infrastructure of Kratos, a phishing-as-a-service (PhaaS) platform with global reach, and its developer was arrested in Indonesia. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "51c9870741d98909",
+    "title": "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
+    "link": "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-21T22:34:17.000Z",
+    "summary": "A large-scale operation dubbed 'FakeGit' is pushing SmartLoader and StealC malware through 7,600 malicious GitHub repositories that accumulated more than 14 million downloads. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "316c1449fbeb4c72",
     "title": "Ransomware Is Accelerating, But It's Not Because of AI",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai",
@@ -2780,247 +2824,5 @@
       "CVE-2026-15410"
     ],
     "severity": "critical"
-  },
-  {
-    "id": "5ca8367967d5b11d",
-    "title": "ISC Stormcast For Wednesday, July 15th, 2026 https://isc.sans.edu/podcastdetail/10008, (Wed, Jul 15th)",
-    "link": "https://isc.sans.edu/diary/rss/33158",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-15T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "06fe29ab821d24ce",
-    "title": "Recent DShield SIEM Update, (Tue, Jul 14th)",
-    "link": "https://isc.sans.edu/diary/rss/33156",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-15T01:38:43.000Z",
-    "summary": "The last update to the DShield SIEM [4] was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e3b50e700266546b",
-    "title": "Cribl Adds Agentic Detection Engineering &amp; Boosts SecOps With CardinalOps Deal",
-    "link": "https://www.darkreading.com/cybersecurity-operations/cribl-adds-agentic-detection-engineering-boosts-secops-with-cardinalops-deal",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-15T00:05:31.000Z",
-    "summary": "CardinalOps will give Cribl customers the ability to map detection rules and security controls to the MITRE ATT&CK framework. SecOps teams can identify coverage gaps and operationalize threat intelligence.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "08fc409314903e58",
-    "title": "Multiples vulnérabilités dans Microsoft Office (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0868/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Office. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8798e44c4bd753a6",
-    "title": "Multiples vulnérabilités dans Microsoft Windows (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0869/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c3abdee0f5926958",
-    "title": "Multiples vulnérabilités dans Microsoft .Net (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0870/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft .Net. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6fef2f70fb07e45f",
-    "title": "Multiples vulnérabilités dans Microsoft Azure (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0871/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "50a3902daa65968b",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0872/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dis",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d28cf013639b15ed",
-    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0873/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "59c5b94f986ca619",
-    "title": "Multiples vulnérabilités dans Google Chrome (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0874/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "34da178c9feaa2da",
-    "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access 1000 (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0875/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Sonicwall Secure Mobile Access 1000. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une falsification de requêtes côté serveur (SSRF). L'édite",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7d67ef91d82bbc1d",
-    "title": "Multiples vulnérabilités dans Apache Tomcat (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0876/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4f5e762896d812fb",
-    "title": "Multiples vulnérabilités dans les produits SAP (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0877/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injectio",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c4c7f50458c2ca8a",
-    "title": "Vulnérabilité dans Veeam Backup & Replication (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0878/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Veeam Backup & Replication. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6eac9e3a1f3734cf",
-    "title": "Multiples vulnérabilités dans les produits Fortinet (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0879/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Fortinet. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité de",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "66bdc4456f1adcbb",
-    "title": "Multiples vulnérabilités dans les produits Siemens (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0880/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dista",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "51bd2782f5951d70",
-    "title": "Vulnérabilité dans Schneider Electric EcoStruxure (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0881/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Schneider Electric EcoStruxure. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e47434a8cf865348",
-    "title": "Vulnérabilité dans ESET Inspect Connector (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0882/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans ESET Inspect Connector. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "52fe997c34341036",
-    "title": "Multiples vulnérabilités dans Progress LoadMaster (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0883/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Progress LoadMaster. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9b0a32b37fe2eaaa",
-    "title": "Vulnérabilité dans Xen XAPI (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0884/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Xen XAPI. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9c16257eaa023e01",
-    "title": "Multiples vulnérabilités dans les produits Citrix (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0885/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un contournement de la po",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "02d5d119505fedb9",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0867/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
