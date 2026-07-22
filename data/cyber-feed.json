@@ -1,5 +1,82 @@
 [
   {
+    "id": "ba438cbe8f41475f",
+    "title": "Federal agencies broaden alert on Iran-linked OT attacks",
+    "link": "https://therecord.media/federal-agencies-broaden-alert-on-iran-linked-ot-attacks",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-22T19:18:00.000Z",
+    "summary": "The observed incidents include “malicious project file interactions and manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays,” the advisory says.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "72743ead52c6841c",
+    "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
+    "link": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-22T18:07:16.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain complete control of a target environment.\n\nThe hig",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "73ef57569dd68649",
+    "title": "French Parliament greenlights social media ban for under-15s",
+    "link": "https://therecord.media/france-social-media-ban-parliament",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-22T18:00:00.000Z",
+    "summary": "Both houses of the French Parliament voted to block social media access for children under 15, making France the first European country to enact a ban amid a broadening global crackdown.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5ae16e85dbc3bf22",
+    "title": "Rondo Meets Geoserver, (Wed, Jul 22nd)",
+    "link": "https://isc.sans.edu/diary/rss/33176",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-22T17:35:33.000Z",
+    "summary": "This isn&#;x26;#;39;t a new attack, but something I saw \"pop-up\" in our logs this week:",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "39b8b607a61827cc",
+    "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-22T16:59:17.000Z",
+    "summary": "Swiss rail vehicle manufacturer Stadler Rail says the Everest ransomware gang demanded about $12.3 million after breaching a data exchange platform shared with one of its suppliers. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "db3a256756991f37",
+    "title": "New Kimsuky campaign compromised South Korean software vendors",
+    "link": "https://therecord.media/kimsuky-north-korea-espionage-groupware-companies",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-22T16:47:00.000Z",
+    "summary": "A North Korean advanced persistent threat (APT) group recently targeted vendors of collaborative-work software, South Korean researchers said.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ee7654e3dd6bed26",
+    "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-07-22T16:00:00.000Z",
+    "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions.\nThe post Real world incident response: Micro",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f85fb5897dbaa069",
     "title": "When AI Attacks: OpenAI Models Autonomously Hack Hugging Face",
     "link": "https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face",
@@ -42,6 +119,17 @@
     "summary": "Hackers leaked names, email addresses, phone numbers, passwords, and financial information stolen from the two platforms. \nThe post Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "75318ab57dbc06ab",
+    "title": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
+    "link": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-22T15:01:21.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited, could facilitate a silent hijack of a user's WhatsApp data.\n\nT",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "6c4aa5b4045f2bfc",
@@ -379,7 +467,7 @@
   },
   {
     "id": "316c1449fbeb4c72",
-    "title": "Ransomware Is Accelerating, But It's Not Because of AI",
+    "title": "Ransomware Is Accelerating, but It's Not Because of AI",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai",
     "source": "Dark Reading",
     "category": "news",
@@ -2755,71 +2843,5 @@
     "summary": "The Gold Eagle program will allowe industry, critical infrastructure operators and the government to use artificial intelligence to rapidly detect, prioritize and patch cybersecurity vulnerabilities, officials said.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "83ec01c95c88c5ed",
-    "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
-    "link": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-15T18:43:08.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a previously unreported Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows signs of being developed with assistance from a large language model (LLM), albeit w",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bf388264b5bf10ad",
-    "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
-    "link": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-15T18:33:48.000Z",
-    "summary": "A Russian-speaking threat actor known as \"bandcampro\" used Google's open-source Gemini CLI AI tool as a hacking agent and to operate a small-scale botnet. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "77ee9cacb5293add",
-    "title": "Guten Tag, Bonjour, Hola to Our European Cyber Defenders!",
-    "link": "https://www.darkreading.com/threat-intelligence/guten-tag-bonjour-hola-european-cyber-defenders",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-15T18:08:56.000Z",
-    "summary": "We're thrilled to unveil the latest evolution of Dark Reading's DR Global section — your go-to source for region-specific cybersecurity intelligence beyond North America.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "87d84662f0be51d5",
-    "title": "Trump’s DNI pick grilled about election security, voter fraud",
-    "link": "https://therecord.media/jay-clayton-odni-nominee-senate-confirmation-hearing",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-15T17:50:00.000Z",
-    "summary": "Senators pressed director of national intelligence nominee Jay Clayton about his stance on the 2020 election and previous statements about voter fraud. Other issues took a back seat.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ae74f84c2ec57f44",
-    "title": "23andMe reaches $18 million settlement with states for massive breach",
-    "link": "https://therecord.media/genetic-testing-settlement-data-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-15T17:45:00.000Z",
-    "summary": "A coalition of 42 state attorneys general reached an $18 million settlement with 23andMe for cybersecurity failings that led to a data breach.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5772b2f186faccf9",
-    "title": "Is 'Tech-xit' Imminent? UK Steps Up Sovereignty Push Amid AI Strife",
-    "link": "https://www.darkreading.com/cybersecurity-operations/tech-xit-uk-sovereignty-push-amid-ai-strife",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-15T17:03:23.000Z",
-    "summary": "The US government's restrictions on Anthropic and OpenAI frontier models have intensified calls in the UK and other countries to reduce their reliance on US tech companies, with significant cyber implications.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
