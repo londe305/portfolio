@@ -1,5 +1,82 @@
 [
   {
+    "id": "f85fb5897dbaa069",
+    "title": "When AI Attacks: OpenAI Models Autonomously Hack Hugging Face",
+    "link": "https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-22T15:53:47.000Z",
+    "summary": "Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b1cba3031a558c53",
+    "title": "Japanese food logistics giant recovers as extortion group claims cyberattack",
+    "link": "https://therecord.media/nichirei-japan-food-logistics-cyberattack-recovery",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-22T15:40:00.000Z",
+    "summary": "Nichirei Logistics Group said warehouse operations and frozen food shipments are returning to normal. A cybercrime gang said it caused the disruption.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ab34513f25a0494a",
+    "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
+    "link": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-22T15:30:00.000Z",
+    "summary": "Enterprise AI can accelerate ransomware attacks when AI assistants and agents inherit excessive permissions or compromised identities. Acronis explains how identity controls, governance, and least-privilege access help reduce AI-enabled ran",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f710c449669c9ebc",
+    "title": "Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts",
+    "link": "https://www.securityweek.com/suno-paidwork-data-breaches-affect-tens-of-millions-of-accounts/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-22T15:02:11.000Z",
+    "summary": "Hackers leaked names, email addresses, phone numbers, passwords, and financial information stolen from the two platforms. \nThe post Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6c4aa5b4045f2bfc",
+    "title": "Palo Alto Networks to Acquire Observability Platform Provider Embrace",
+    "link": "https://www.securityweek.com/palo-alto-networks-to-acquire-observability-platform-provider-embrace/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-22T14:58:53.000Z",
+    "summary": "Acquisition follows January's Chronosphere deal, deepening Palo Alto Networks' push beyond core security into observability.\nThe post Palo Alto Networks to Acquire Observability Platform Provider Embrace appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "754c285c087e7bc9",
+    "title": "Flaw in Adobe Extension With 300M Installs Enabled WhatsApp Data Theft",
+    "link": "https://www.securityweek.com/flaw-in-adobe-extension-with-300m-installs-enabled-whatsapp-data-theft/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-22T14:22:31.000Z",
+    "summary": "An attacker only needed to convince the targeted user to visit a malicious website to exfiltrate WhatsApp messages and contacts.\nThe post Flaw in Adobe Extension With 300M Installs Enabled WhatsApp Data Theft appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "714bb4f1eb321b9c",
+    "title": "New InfraTrust report reveals infrastructure flaws admins should patch first",
+    "link": "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-22T14:15:00.000Z",
+    "summary": "Eclypsium has launched InfraTrust, a new infrastructure cybersecurity knowledge base and monthly InfraTrust Pulse report designed to help organizations prioritize vulnerabilities affecting infrastructure, firmware, networking, and edge devi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "14e85f7ba2bf6329",
     "title": "When Identity Verification Fails: Lessons from a Real-World SIM Swap and Near Account Takeover",
     "link": "https://www.securityweek.com/when-identity-verification-fails-lessons-from-a-real-world-sim-swap-and-near-account-takeover/",
@@ -2570,6 +2647,39 @@
     "severity": "critical"
   },
   {
+    "id": "f6bdad589ec40252",
+    "title": "Multiples vulnérabilités dans les produits Splunk (16 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0888/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et une injection ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f9f40929d1e7d53b",
+    "title": "Multiples vulnérabilités dans Drupal (16 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0889/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Drupal. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c404e01ab2be64cc",
+    "title": "Multiples vulnérabilités dans Cisco RoomOS (16 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0890/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Cisco RoomOS. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique de sécurité et un problème de ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "5ef78c2731f3503c",
     "title": "The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)",
     "link": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
@@ -2709,72 +2819,6 @@
     "category": "news",
     "pubDate": "2026-07-15T17:03:23.000Z",
     "summary": "The US government's restrictions on Anthropic and OpenAI frontier models have intensified calls in the UK and other countries to reduce their reliance on US tech companies, with significant cyber implications.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d7307251ff84d03d",
-    "title": "Turning threat intelligence into decisive action with Defender Experts",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-15T16:00:35.000Z",
-    "summary": "Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools.\nThe post Turning threat intelligence into decisi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "92a7238068becf04",
-    "title": "AsyncAPI npm packages infected with credential-stealing malware",
-    "link": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-15T15:37:27.000Z",
-    "summary": "Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access trojan with info-stealing capabilities. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8659834ba75b9807",
-    "title": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
-    "link": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-15T15:30:30.000Z",
-    "summary": "A malware framework called OkoBot has been running on Windows machines since April 2025, and one of its modules is built to con hardware wallet owners out of their recovery phrase.\n\nOn an infected PC, the request comes from inside the walle",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "69ba3c3a449d5704",
-    "title": "Claude Flaw Automatically Sends Malicious Prompts to AI Agents",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/claude-flaw-malicious-prompts-ai-agents",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-15T15:27:35.000Z",
-    "summary": "When combined with another exploit, the \"PromptFiction\" vulnerability, which has been fixed, could have enabled an end-to-end attack on a targeted system.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f2548ef2e3f5580b",
-    "title": "Unpatched Cursor Vulnerability Exposes Users to Code Execution",
-    "link": "https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-15T14:37:13.000Z",
-    "summary": "An attacker can create a malicious repository containing a git.exe in the project root, and Cursor executes it automatically.\nThe post Unpatched Cursor Vulnerability Exposes Users to Code Execution appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "548cf09abddb7ce5",
-    "title": "Dutch police dismantle global crypto investment scam, arrest alleged mastermind",
-    "link": "https://therecord.media/dutch-police-dismantle-global-crypto-investment-scam",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-15T14:14:00.000Z",
-    "summary": "Authorities said Wednesday that the group operated like a legitimate international business since at least 2021, running about two dozen call centers across several countries and employing more than 700 people who posed as professional fina",
     "cveIds": [],
     "severity": "normal"
   }
