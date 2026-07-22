@@ -1,5 +1,152 @@
 [
   {
+    "id": "14e85f7ba2bf6329",
+    "title": "When Identity Verification Fails: Lessons from a Real-World SIM Swap and Near Account Takeover",
+    "link": "https://www.securityweek.com/when-identity-verification-fails-lessons-from-a-real-world-sim-swap-and-near-account-takeover/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-22T14:00:00.000Z",
+    "summary": "Identity confidence changes throughout every interaction and should be reassessed continuously as new risk signals emerge.\nThe post When Identity Verification Fails: Lessons from a Real-World SIM Swap and Near Account Takeover appeared firs",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f1637a4ffb3b35e0",
+    "title": "Adobe Chrome extension flaw let sites access private WhatsApp chats",
+    "link": "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-22T13:22:20.000Z",
+    "summary": "The Adobe Acrobat extension for Chrome could be used to access conversations and data rendered in WhatsApp Web without any form of authentication. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cfaac67c80aeb1a7",
+    "title": "StrongestLayer Raises $4.1 Million in Seed Funding Extension",
+    "link": "https://www.securityweek.com/strongestlayer-raises-4-1-million-in-seed-funding-extension/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-22T13:00:00.000Z",
+    "summary": "The startup will use the fresh investment to accelerate its go-to-market strategy and to expand its platform.\nThe post StrongestLayer Raises $4.1 Million in Seed Funding Extension appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c7f0fa0b0099e6b3",
+    "title": "Vibe-Coded Apps Riddled With Exploitable Security Flaws",
+    "link": "https://www.securityweek.com/vibe-coded-apps-riddled-with-exploitable-security-flaws/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-22T13:00:00.000Z",
+    "summary": "Analysis found 434 exploitable flaws in AI-generated apps, with denial-of-service, authorization and secrets exposure risks among the most common issues.\nThe post Vibe-Coded Apps Riddled With Exploitable Security Flaws appeared first on Sec",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a1f183c43170adca",
+    "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
+    "link": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-22T12:36:36.000Z",
+    "summary": "A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck.\n\nThe vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of unauthenticated pat",
+    "cveIds": [
+      "CVE-2026-29059"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "417020a6c94c5ffd",
+    "title": "OpenAI models behind breach of Hugging Face systems, companies say",
+    "link": "https://therecord.media/openai-cyberattack-hugging-face",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-22T12:00:00.000Z",
+    "summary": "OpenAI announced that its models were behind a breach of the AI platform Hugging Face, which had earlier detected an attack carried out by \"by an autonomous AI agent.\"",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "39e188970f3dc67e",
+    "title": "The Fastest Path to AI Adoption Runs Through Security",
+    "link": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-22T11:58:00.000Z",
+    "summary": "Security leaders who build fast, visible paths to AI adoption are becoming the most valued partners in their organizations. AI governance done right gives security teams the visibility they need, employees the tools they want, and CISOs the",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e44108cdf1525f45",
+    "title": "CISA orders urgent action on actively exploited Langflow RCE flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-langflow-rce-flaw/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-22T11:43:28.000Z",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday ordered U.S. government agencies to prioritize patching an actively exploited vulnerability in the Langflow visual framework for building AI agents. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "737b99f98d8dfb14",
+    "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+    "link": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-22T11:30:02.000Z",
+    "summary": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted Hugging Face's production infrastructure las",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "02fe5fd9059950ed",
+    "title": "EU Financial Institutions Leak Data Through Cookie Trackers",
+    "link": "https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-22T11:30:00.000Z",
+    "summary": "European and US banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "65098a939c6b00ff",
+    "title": "Fourth SharePoint Vulnerability Exploited in Past Month’s Wave of Attacks",
+    "link": "https://www.securityweek.com/fourth-sharepoint-vulnerability-exploited-in-past-months-wave-of-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-22T11:29:16.000Z",
+    "summary": "CVE-2026-50522 is being exploited by threat actors to steal machine keys and retain long-term access.\nThe post Fourth SharePoint Vulnerability Exploited in Past Month’s Wave of Attacks appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-50522"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "8c38d81eddc9413d",
+    "title": "Why Modern SOCs Need Multi-Layered Detections",
+    "link": "https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-22T11:25:35.000Z",
+    "summary": "The cycle is over. For years, cybersecurity followed a familiar pattern: defenses improved, attackers adapted, and the back-and-forth continued. Today, AI-equipped attackers are simply outpacing defenses. Most intrusions now bypass endpoint",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "28ad19240a6abb1b",
+    "title": "Stop renting storage space — this lifetime 2TB plan is yours for $59",
+    "link": "https://www.bleepingcomputer.com/news/security/stop-renting-storage-space-this-lifetime-2tb-plan-is-yours-for-59/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-22T11:09:16.000Z",
+    "summary": "Cloud storage costs tend to creep up over time, since most services charge monthly or annually for as long as you use them. FileJump's Lifetime Plan skips that model entirely, offering 2TB of cloud storage for a single payment of $59 (MSRP ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "227ba890d77979c4",
     "title": "Microsoft to stop Exchange 2016 / 2019 security updates in October",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/",
@@ -106,17 +253,6 @@
     "category": "news",
     "pubDate": "2026-07-22T04:57:52.000Z",
     "summary": "A single invisible comment in an Azure DevOps pull request can turn a reviewer's own AI coding agent against them, driving it into projects the attacker has no rights to reach and quietly leaking what it finds.\n\nThe flaw is in Microsoft's o",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "737b99f98d8dfb14",
-    "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
-    "link": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-22T04:18:33.000Z",
-    "summary": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted Hugging Face's production infrastructure las",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2639,131 +2775,6 @@
     "category": "news",
     "pubDate": "2026-07-15T14:14:00.000Z",
     "summary": "Authorities said Wednesday that the group operated like a legitimate international business since at least 2021, running about two dozen call centers across several countries and employing more than 700 people who posed as professional fina",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "79e688b08a398c5d",
-    "title": "CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities",
-    "link": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-sharepoint-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-15T14:07:44.000Z",
-    "summary": "Three vulnerabilities are actively exploited in attacks, including two that have been targeted as zero-days.\nThe post CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "95280a92ca4c2785",
-    "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
-    "link": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-15T14:01:11.000Z",
-    "summary": "Intruder built an AI-powered \"vulnerability vending machine\" that combines code slicing with LLMs to automatically discover complex software vulnerabilities. The company explains how the system found and exploited a previously unknown WordP",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2137e1972d97acb8",
-    "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
-    "link": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-15T13:18:53.000Z",
-    "summary": "Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-15718, an invalid pointer in the JavaScript: WebAssembly co",
-    "cveIds": [
-      "CVE-2026-15718"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "1f87696d819a5b8b",
-    "title": "2-Click Cursor Exploit Enables Dev Environment Takeover",
-    "link": "https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-15T13:00:00.000Z",
-    "summary": "Simple age-old bugs give bad actors access to developers' secrets and source code-rich environments.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "70e3bbce1c759a32",
-    "title": "Windows Bind Link Attacks Can Hide Malware From EDR Tools",
-    "link": "https://www.securityweek.com/windows-bind-link-attacks-can-hide-malware-from-edr-tools/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-15T13:00:00.000Z",
-    "summary": "Bitdefender researchers show how Windows bind links can create conflicting filesystem views to hide malware from endpoint security products.\nThe post Windows Bind Link Attacks Can Hide Malware From EDR Tools appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c36be534c1150b48",
-    "title": "LAPD sidelines relationship with license-plate reader company Flock Safety",
-    "link": "https://therecord.media/lapd-halts-flock-safety-alpr-contract",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-15T13:00:00.000Z",
-    "summary": "The Los Angeles Police Department is the latest U.S. municipal agency to rethink its relationship to ALPR company Flock Safety.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cf7c9a791bd27f4f",
-    "title": "Microsoft smashes Patch Tuesday record for second successive month",
-    "link": "https://therecord.media/microsoft-vulnerabilities-patch-tuesday-release",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-15T12:15:00.000Z",
-    "summary": "Vulnerability counts have been surging this year, and Microsoft's mammoth disclosure this week of 622 bugs is larger than the three previous months combined.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3577f81d1cfec11a",
-    "title": "Establishing a Coordinated Vulnerability Disclosure Program to Work With Security Researchers",
-    "link": "https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-15T12:00:00.000Z",
-    "summary": "Developed by CISA, the National Security Agency (NSA) and international partners, this joint guidance contains best practices for software manufacturers and online service providers to design and implement a coordinated vulnerability disclo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0dab11cca0fdba72",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/07/15/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-15T12:00:00.000Z",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2023-4346 KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account L",
-    "cveIds": [
-      "CVE-2023-4346"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "88994396911dc8ed",
-    "title": "US Charges Russian Individuals and Firms for Running Cybercrime Services",
-    "link": "https://www.securityweek.com/us-charges-russian-individuals-and-firms-for-running-cybercrime-services/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-15T11:58:05.000Z",
-    "summary": "The suspects and their companies were previously sanctioned by the United States and its allies.\nThe post US Charges Russian Individuals and Firms for Running Cybercrime Services appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dcc7d7954c83b3ca",
-    "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
-    "link": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-15T11:50:01.000Z",
-    "summary": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up.\n\nEnterprise workflows now live across SaaS applications, browsers, and a",
     "cveIds": [],
     "severity": "normal"
   }
