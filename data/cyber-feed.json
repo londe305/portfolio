@@ -1,5 +1,93 @@
 [
   {
+    "id": "76ab149e0bd986f1",
+    "title": "Ransomware Group Threatening to Leak Data Stolen From Coca-Cola’s Fairlife",
+    "link": "https://www.securityweek.com/ransomware-group-threatening-to-leak-data-stolen-from-coca-colas-fairlife/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-22T08:32:02.000Z",
+    "summary": "The Anubis ransomware group claims to have stolen 1 TB of confidential data from the Coca-Cola subsidiary.\nThe post Ransomware Group Threatening to Leak Data Stolen From Coca-Cola’s Fairlife appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b714e2ce54ec19ce",
+    "title": "OpenAI Says Its AI Models Broke Loose and Hacked Hugging Face",
+    "link": "https://www.securityweek.com/openai-says-its-ai-models-broke-loose-and-hacked-hugging-face/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-22T07:48:49.000Z",
+    "summary": "The admission comes days after Hugging Face disclosed an attack powered by autonomous AI agents. \nThe post OpenAI Says Its AI Models Broke Loose and Hacked Hugging Face  appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e3ddceb42be8bc0a",
+    "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-22T06:40:29.000Z",
+    "summary": "American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8a973fa49f955efa",
+    "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
+    "link": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-22T06:38:45.000Z",
+    "summary": "German and US law enforcement have taken down the core infrastructure of Kratos, described by German investigators as one of the world's most widely used criminal phishing kits, and Indonesian authorities arrested the man they say developed",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f0f0cda2af475737",
+    "title": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library",
+    "link": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-22T06:00:06.000Z",
+    "summary": "Cybersecurity researchers have discovered a NuGet typosquat that's unlike the typical information-stealing malware distributed via package registries: usual info-stealers: it's designed to rig live game results on Digitain.\n\nThe package, na",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7d67665d5a3ed80f",
+    "title": "OpenAI says its AI models hacked Hugging Face during testing",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-says-its-ai-models-hacked-hugging-face-during-testing/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-22T05:19:20.000Z",
+    "summary": "OpenAI says its AI models, including GPT‑5.6 Sol and a pre-release model, hacked into the Hugging Face artificial intelligence repository while being tested in a sandboxed testing environment. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2eb2c3841f0ad53c",
+    "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
+    "link": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-22T04:57:52.000Z",
+    "summary": "A single invisible comment in an Azure DevOps pull request can turn a reviewer's own AI coding agent against them, driving it into projects the attacker has no rights to reach and quietly leaking what it finds.\n\nThe flaw is in Microsoft's o",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "737b99f98d8dfb14",
+    "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+    "link": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-22T04:18:33.000Z",
+    "summary": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted Hugging Face's production infrastructure las",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "8f60e733a8fddee8",
     "title": "ISC Stormcast For Wednesday, July 22nd, 2026 https://isc.sans.edu/podcastdetail/10018, (Wed, Jul 22nd)",
     "link": "https://isc.sans.edu/diary/rss/33174",
@@ -2754,75 +2842,6 @@
     "pubDate": "2026-07-15T09:16:13.000Z",
     "summary": "Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and StepSecurity.\n\nThe affected packages are listed below -\n\n\n  @",
     "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "641d94feb1f4ebb6",
-    "title": "Microsoft: Some Dell PCs shut down after recent Windows updates",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-dell-devices-shut-down-after-windows-update/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-15T08:26:48.000Z",
-    "summary": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f362ea39013426a0",
-    "title": "Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits",
-    "link": "https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-15T08:00:00.000Z",
-    "summary": "The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "228009902beaa09c",
-    "title": "US charges alleged operators of Russian bulletproof hosting service",
-    "link": "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-15T07:45:50.000Z",
-    "summary": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in damages to victims worldwide. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "141e4fef4277c9ab",
-    "title": "Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates",
-    "link": "https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-15T07:24:52.000Z",
-    "summary": "Public exploit code targeting the Firefox flaws exists, but no in-the-wild exploitation has been observed.\nThe post Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d8f6ea883c519ff4",
-    "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
-    "link": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-15T05:30:21.000Z",
-    "summary": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution.\n\nThe vulnerabilities are listed",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3dc37ef31eaba0ba",
-    "title": "SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits",
-    "link": "https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-15T05:19:42.000Z",
-    "summary": "SonicWall SMA1000 zero-day vulnerabilities CVE-2026-15409 and CVE-2026-15410 can be exploited for remote code execution.\nThe post SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-15409",
-      "CVE-2026-15410"
-    ],
     "severity": "critical"
   }
 ]
