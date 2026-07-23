@@ -1,5 +1,84 @@
 [
   {
+    "id": "165d023818bfe520",
+    "title": "Upbound Group Says Data Breach Led to $13 Million in Fraudulent Contract Losses",
+    "link": "https://www.securityweek.com/upbound-group-says-data-breach-led-to-13-million-in-fraudulent-contract-losses/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-23T10:49:10.000Z",
+    "summary": "Hackers recently obtained non-sensitive customer information and other documents from the company.\nThe post Upbound Group Says Data Breach Led to $13 Million in Fraudulent Contract Losses appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9379c70898413940",
+    "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
+    "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-07-23T10:00:38.000Z",
+    "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victim",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "72088c0a8ca5a1c4",
+    "title": "Preview: Cisco Talos at Black Hat USA 2026",
+    "link": "https://blog.talosintelligence.com/preview-cisco-talos-at-black-hat-usa-2026/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-07-23T10:00:14.000Z",
+    "summary": "Here’s some of the ways Talos is showing up at Black Hat, alongside our friends at Cisco and Splunk.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c9367ff415bbdb13",
+    "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
+    "link": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-23T10:00:00.000Z",
+    "summary": "The Chaos ransomware gang is using a new backdoor dubbed msaRAT that hides command-and-control (C2) communication by routing it through the Chrome or Edge browsers. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "48598680644293f3",
+    "title": "Assaf Keren Appointed New CISO of Meta",
+    "link": "https://www.securityweek.com/assaf-keren-appointed-new-ciso-of-meta/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-23T09:53:51.000Z",
+    "summary": "He replaces Guy Rosen, who announced his retirement from the company after 13 years.\nThe post Assaf Keren Appointed New CISO of Meta appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a22d9a26e1d95658",
+    "title": "Microsoft working to fix Exchange Online mailbox quarantine issue",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-23T09:20:10.000Z",
+    "summary": "Microsoft is working to resolve an ongoing Exchange Online issue that has been mistakenly quarantining customers' mailboxes since Sunday. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a372f25bb6e9355f",
+    "title": "New Check Point Zero-Day Vulnerability Exploited in the Wild",
+    "link": "https://www.securityweek.com/new-check-point-zero-day-vulnerability-exploited-in-the-wild/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-23T09:06:04.000Z",
+    "summary": "The vulnerability tracked as CVE-2026-16232 has been exploited against customers with certain configurations.\nThe post New Check Point Zero-Day Vulnerability Exploited in the Wild appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-16232"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "fa2fb983e7968dd4",
     "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
@@ -9,6 +88,19 @@
     "summary": "Israeli cybersecurity firm Check Point Software has addressed an actively exploited zero-day flaw in the company's SmartConsole graphical user interface (GUI) admin panel. [...]",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "2f74b6923b27034e",
+    "title": "Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs",
+    "link": "https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-23T08:04:35.000Z",
+    "summary": "RefluXFS, a new Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600, lets an unprivileged local user overwrite root-owned files on an XFS filesystem and gain persistent root access.\n\nQualys said default installations of Red",
+    "cveIds": [
+      "CVE-2026-64600"
+    ],
+    "severity": "cve"
   },
   {
     "id": "6b38bf9b1a6f7484",
@@ -62,6 +154,28 @@
     "category": "news",
     "pubDate": "2026-07-23T01:00:00.000Z",
     "summary": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a5f7d679af8d4d38",
+    "title": "Flaws in Passkey Implementation Show Old Attacks Still Work",
+    "link": "https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-22T23:50:01.000Z",
+    "summary": "Ahead of Black Hat USA, researchers find exploitable flaws in how Microsoft handles passkeys that could allow attackers to impersonate privileged users.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "81310213b1f9763d",
+    "title": "Swiss train maker Stadler refuses Everest $12 million ransomware demand",
+    "link": "https://therecord.media/stadler-refuses-everest-ransom-demand",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-22T23:00:00.000Z",
+    "summary": "Stadler Rail said it will not make a $12.3 million ransom payment after cybercriminals stole technical data from a supplier's file-sharing platform.",
     "cveIds": [],
     "severity": "critical"
   },
@@ -2677,127 +2791,6 @@
     "category": "news",
     "pubDate": "2026-07-16T11:17:23.000Z",
     "summary": "An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously unreported backdoor dubbed Stupig.\n\nDaxin (\"srt64.sys\"), as the k",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3437590192e7f2f3",
-    "title": "CISA orders feds to patch actively exploited Oracle flaw by Saturday",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-16T10:56:03.000Z",
-    "summary": "CISA has ordered federal agencies to secure their systems by Saturday against ongoing attacks exploiting a critical vulnerability in the Oracle E-Business Suite financial application. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1a5369c691d09475",
-    "title": "Splunk, Zoom Patch Critical Vulnerabilities",
-    "link": "https://www.securityweek.com/splunk-zoom-patch-critical-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-16T10:54:34.000Z",
-    "summary": "The flaws could allow attackers to access credentials and data, take over accounts, and escalate their privileges.\nThe post Splunk, Zoom Patch Critical Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8b7cf0b275997954",
-    "title": "Russian hackers trojanize WebEx, Zoom apps to push Starland malware",
-    "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-16T10:19:34.000Z",
-    "summary": "A financially motivated Russian threat actor tracked as UAT-11795 is using trojanized software to steal credentials and cryptocurrency by deploying a new backdoor called Starland RAT. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "261098196dbb89e8",
-    "title": "AI Can Find Bugs, But Human Knowledge Still Proves Them",
-    "link": "https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-16T10:10:00.000Z",
-    "summary": "Artificial intelligence (AI) is changing offensive security, but it has not changed the standard that matters most: a finding has to be proven before it becomes useful. AI-assisted tools can read code quickly, generate payloads, summarize a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3aae118191632e86",
-    "title": "The Hunter's Paradox: Is it time to embrace automated threat hunting?",
-    "link": "https://blog.talosintelligence.com/the-hunters-paradox-is-it-time-to-embrace-automated-threat-hunting/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-07-16T10:00:07.000Z",
-    "summary": "Humans can no longer keep up with the volume and velocity of security data on their own, but AI can't be fully trusted. David discusses the merits of both and muses on what the future might look like.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "508931895d5f63de",
-    "title": "UAT-11795 deploys novel Starland RAT and bespoke WLDR C2 implant in financially motivated campaign",
-    "link": "https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-07-16T10:00:01.000Z",
-    "summary": "Cisco Talos is disclosing UAT-11795, a sophisticated, Russian-speaking, financially motivated adversary that has been conducting a malicious campaign targeting users in the U.S. and Europe since at least June 2025.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9c7acbeadb2134dd",
-    "title": "New Spirals ransomware encrypts victim network in under 24 hours",
-    "link": "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-16T10:00:00.000Z",
-    "summary": "A new ransomware actor called Spirals completed a corporate intrusion, from initial access to data theft and encryption, in less than 24 hours. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "fb34f65774c8776c",
-    "title": "Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide",
-    "link": "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-16T09:23:19.000Z",
-    "summary": "Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people's Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-F",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4d75e13eb858b147",
-    "title": "F5 Patches Multiple NGINX, BIG-IP Vulnerabilities",
-    "link": "https://www.securityweek.com/f5-patches-multiple-nginx-big-ip-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-16T09:20:10.000Z",
-    "summary": "Attackers could exploit the bugs to modify configurations, terminate or restart processes, cross security boundaries, leak memory, and execute code.\nThe post F5 Patches Multiple NGINX, BIG-IP Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e51a1261d55ebdb4",
-    "title": "China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans",
-    "link": "https://www.securityweek.com/chinas-top-cybersecurity-firms-hit-by-mounting-military-procurement-bans/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-16T08:49:27.000Z",
-    "summary": "Chinese cybersecurity firms are facing action from the country’s military, but it’s not due to product or technical failures.\nThe post China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3c725c5c79d55ae1",
-    "title": "OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol",
-    "link": "https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-16T08:42:31.000Z",
-    "summary": "OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely.\n\n\"GPT‑Red is a strong red-teamer, and our ",
     "cveIds": [],
     "severity": "normal"
   }
