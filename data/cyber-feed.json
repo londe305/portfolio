@@ -1,5 +1,49 @@
 [
   {
+    "id": "fa2fb983e7968dd4",
+    "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-23T08:13:07.000Z",
+    "summary": "Israeli cybersecurity firm Check Point Software has addressed an actively exploited zero-day flaw in the company's SmartConsole graphical user interface (GUI) admin panel. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6b38bf9b1a6f7484",
+    "title": "Brazilian Banking Trojan Actively Spreading in Portugal",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-23T07:00:00.000Z",
+    "summary": "Portuguese businesses operate in the same native language as Brazilian hackers, making those businesses easy targets.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a982ab7248bdfa96",
+    "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
+    "link": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-23T06:34:36.000Z",
+    "summary": "Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw that has come under active exploitation in the wild.\n\nThe sec",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "36add522bb9e8170",
+    "title": "US Warns of Iranian Hackers Targeting Siemens, Schneider, and Rockwell ICS Devices",
+    "link": "https://www.securityweek.com/us-warns-of-iranian-hackers-targeting-siemens-schneider-and-rockwell-ics-devices/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-23T05:28:50.000Z",
+    "summary": "An updated advisory from federal agencies provides information on the techniques used to hack programmable logic controllers.\nThe post US Warns of Iranian Hackers Targeting Siemens, Schneider, and Rockwell ICS Devices appeared first on Secu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e5b94a91c0382a03",
     "title": "ISC Stormcast For Thursday, July 23rd, 2026 https://isc.sans.edu/podcastdetail/10020, (Thu, Jul 23rd)",
     "link": "https://isc.sans.edu/diary/rss/33178",
@@ -2756,62 +2800,5 @@
     "summary": "OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely.\n\n\"GPT‑Red is a strong red-teamer, and our ",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "d7437998bb56fe41",
-    "title": "Old UEFI Shims Expose Systems to Secure Boot Bypass",
-    "link": "https://www.securityweek.com/old-uefi-shims-expose-systems-to-secure-boot-bypass/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-16T07:59:22.000Z",
-    "summary": "Signed by Microsoft, the vulnerable UEFI shim bootloaders could be abused on any system, regardless of the OS.\nThe post Old UEFI Shims Expose Systems to Secure Boot Bypass appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "291a71049912d9b8",
-    "title": "Zoom Patches Critical Windows Flaw That Could Enable Account Takeover",
-    "link": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-16T07:22:44.000Z",
-    "summary": "Zoom has released security updates for a critical security flaw impacting Zoom Workplace for Windows that could facilitate account takeover.\n\nThe vulnerability, tracked as CVE-2026-53412 (CVSS score: 9.8), affects Zoom Workplace for Windows",
-    "cveIds": [
-      "CVE-2026-53412"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "f6652812c034fd5d",
-    "title": "Police Disrupt a €140M Cyber Fraud Ring in Spain",
-    "link": "https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-16T07:00:00.000Z",
-    "summary": "Iberian hackers carried out a variety of cyberattacks and laundered the winnings through complex financial networks.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dd0a1e7e08d42e28",
-    "title": "Nightmare Eclipse Drops ‘LegacyHive’ Windows Zero-Day",
-    "link": "https://www.securityweek.com/nightmare-eclipse-drops-legacyhive-windows-zero-day/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-16T06:48:40.000Z",
-    "summary": "The researcher stripped the proof-of-concept (PoC) exploit to prevent immediate exploitation of the vulnerability.\nThe post Nightmare Eclipse Drops ‘LegacyHive’ Windows Zero-Day  appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ae8f96a16b0cb5ce",
-    "title": "Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities",
-    "link": "https://www.securityweek.com/trend-micro-tanium-eset-and-tenable-patch-severe-product-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-16T06:08:08.000Z",
-    "summary": "The cybersecurity companies patched critical and high-severity vulnerabilities in some of their products.\nThe post Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
