@@ -1,5 +1,128 @@
 [
   {
+    "id": "e01d54c1a9f910e2",
+    "title": "Russian Global Webmail Espionage",
+    "link": "https://unit42.paloaltonetworks.com/russian-webmail-espionage/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-07-23T14:10:53.000Z",
+    "summary": "Unit 42 details a Russian cyberespionage campaign targeting  Zimbra webmail servers using JavaScript injection to steal credentials.\nThe post Russian Global Webmail Espionage appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dbd2f5f262816f4e",
+    "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
+    "link": "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-23T14:00:10.000Z",
+    "summary": "FedRAMP 20X replaces point-in-time assessments with continuous, machine-readable evidence that demonstrates security controls are working. Anecdotes explains what the transition from Rev5 to FedRAMP 20X means and how organizations can prepa",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "05610a7fc774de1b",
+    "title": "Abstract Raises $25 Million to Expand Composable Security Operations Platform",
+    "link": "https://www.securityweek.com/abstract-raises-25-million-to-expand-composable-security-operations-platform/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-23T13:54:56.000Z",
+    "summary": "The latest investment round brings the total raised by Abstract to nearly $50 million.\nThe post Abstract Raises $25 Million to Expand Composable Security Operations Platform appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6a20c58a71606734",
+    "title": "When the \"Autonomous Attacker\" Is Your Own AI Model, (Thu, Jul 23rd)",
+    "link": "https://isc.sans.edu/diary/rss/33180",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-23T13:40:27.000Z",
+    "summary": "Two disclosures, five days apart, described the same intrusion from opposite ends â€”",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ac9fed24d06fc688",
+    "title": "Major Australian energy supplier confirms customer data compromised",
+    "link": "https://therecord.media/australia-origin-energy-data-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-23T13:20:00.000Z",
+    "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d689d673ce61f031",
+    "title": "Nuclear-Sabotage Malware Benchmark Trips Up Most Frontier AI Models",
+    "link": "https://www.securityweek.com/nuclear-sabotage-malware-benchmark-trips-up-most-frontier-ai-models/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-23T12:42:12.000Z",
+    "summary": "SentinelOne’s new benchmark, built on the Fast16 case, shows which AI models can sustain a malware investigation and which cannot.\nThe post Nuclear-Sabotage Malware Benchmark Trips Up Most Frontier AI Models appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "621758c34b1c42f0",
+    "title": "EU fines Google $1 billion for search, app store antitrust violations",
+    "link": "https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-23T12:33:19.000Z",
+    "summary": "The European Commission fined Google €890 million ($1 billion) on Thursday after finding the company had violated the European Union's Digital Markets Act (DMA), which ensures fair online competition. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f173b3f24f021d75",
+    "title": "How Synthetic Identity Fraud is Coming for Machine Identities",
+    "link": "https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-23T11:45:00.000Z",
+    "summary": "Most people understand identity theft as an attacker stealing a real person's sensitive information and impersonating them. Synthetic identity fraud is much harder to catch. Instead of stealing a real identity, the attacker manufactures a n",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "90b23a9fee9d00bf",
+    "title": "New RefluXFS Linux flaw lets attackers gain root privileges",
+    "link": "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-23T11:40:16.000Z",
+    "summary": "A nine-year-old race condition vulnerability in the Linux kernel's XFS filesystem, tracked as CVE-2026-64600, allows local attackers to overwrite protected files and gain root privileges. [...]",
+    "cveIds": [
+      "CVE-2026-64600"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "cf41f7d3a9779069",
+    "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
+    "link": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-23T11:28:54.000Z",
+    "summary": "Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel and WebHost Manager (WHM) instances.\n\nThe activity involves",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "33161dea67a78304",
+    "title": "Agentic AI Challenges Progress in Confidential Computing",
+    "link": "https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-23T11:17:51.000Z",
+    "summary": "Core issues that slowed down adoption of secure data vaults are being resolved by technology, but artificial intelligence poses new ones. Experts have some answers.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "165d023818bfe520",
     "title": "Upbound Group Says Data Breach Led to $13 Million in Fraudulent Contract Losses",
     "link": "https://www.securityweek.com/upbound-group-says-data-breach-led-to-13-million-in-fraudulent-contract-losses/",
@@ -29,6 +152,17 @@
     "category": "vendor",
     "pubDate": "2026-07-23T10:00:14.000Z",
     "summary": "Here’s some of the ways Talos is showing up at Black Hat, alongside our friends at Cisco and Splunk.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1e18d6e4be5fecee",
+    "title": "Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts",
+    "link": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-23T10:00:00.000Z",
+    "summary": "Google on Thursday announced a new way for users to sign-in to their accounts by letting them take a selfie video.\n\nThe selfie for sign-in, per the tech giant, is another option on top of existing recovery methods to log in to an account, i",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2504,294 +2638,5 @@
     "summary": "Legacy systems, safety concerns, and critical infrastructure risks make OT vulnerability disclosure one of cybersecurity's most challenging balancing acts.\nThe post Legacy Systems, Real-World Impacts: The Reality of OT Security appeared fir",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "38c5bff33b88898f",
-    "title": "AI Agents Broke the Security Playbook. Here's What Replaces It.",
-    "link": "https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-16T14:00:10.000Z",
-    "summary": "Traditional security workflows were built for environments that changed at human speed. Token Security explains why AI agents require a new approach: building on a live identity foundation while giving security teams the flexibility to crea",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f4a54d3cb743fdda",
-    "title": "Sandworm hackers have a CAPTCHA trick for Ukrainians",
-    "link": "https://therecord.media/ukraine-sandworm-hacks-captcha-powershell",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-16T13:50:00.000Z",
-    "summary": "Rather than verifying they are human, the CAPTCHA users are instructed to copy and paste a PowerShell command into their Windows computers.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4692479099c21427",
-    "title": "23andMe to pay $18 million in new genetics data breach settlement",
-    "link": "https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-16T13:47:23.000Z",
-    "summary": "Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a25a1064848d7f8a",
-    "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
-    "link": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-16T13:33:25.000Z",
-    "summary": "n8n, the workflow automation platform, handed out the wrong accounts at login. On Enterprise instances configured to trust more than one external token issuer, it matched an incoming JWT to a local user on the sub claim alone and ignored is",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bc584295fe0c7c48",
-    "title": "Two Scattered Spider Hackers Sentenced to Jail in UK",
-    "link": "https://www.securityweek.com/two-scattered-spider-hackers-sentenced-to-jail-in-uk/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-16T13:21:12.000Z",
-    "summary": "Thalha Jubair and Owen Flowers were prosecuted over a 2024 cyberattack targeting Transport for London (TfL).\nThe post Two Scattered Spider Hackers Sentenced to Jail in UK appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "45f7c85f8ea4e993",
-    "title": "AI Data Centers Are Being Built Faster Than They Can Be Secured",
-    "link": "https://www.securityweek.com/ai-data-centers-are-being-built-faster-than-they-can-be-secured/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-16T13:00:00.000Z",
-    "summary": "AI infrastructure introduces new security risks that traditional data center designs were never built to handle.\nThe post AI Data Centers Are Being Built Faster Than They Can Be Secured appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9d3d6177d2f8cca9",
-    "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
-    "link": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-16T12:50:13.000Z",
-    "summary": "Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026.\n\n\"The malware is full-featured, lightweight, and modular,\" Elasti",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "44e7dff4a4cf674b",
-    "title": "‘ClickLock Stealer’ Bypasses macOS Security With Social Engineering, Process Killing",
-    "link": "https://www.securityweek.com/clicklock-stealer-bypasses-macos-security-with-social-engineering-process-killing/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-16T12:43:59.000Z",
-    "summary": "The new macOS malware has targeted at least 100 users to steal their passwords and cryptocurrency. \nThe post ‘ClickLock Stealer’ Bypasses macOS Security With Social Engineering, Process Killing appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0415858632385a1a",
-    "title": "New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password",
-    "link": "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-16T12:33:42.000Z",
-    "summary": "ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog,",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "25a520643693061a",
-    "title": "Scattered Spider members behind TfL hack get five years in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-behind-transport-for-london-hack-get-five-years-in-prison/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-16T12:31:29.000Z",
-    "summary": "Two leading members of the Scattered Spider cybercrime collective were sentenced to five years and six months in prison each for hacking Transport for London (TfL) in 2024. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "89de11fdf4ac5c92",
-    "title": "AutomationDirect Productivity Suite",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker with local or physical access to cause memory corruption, unintended information disclosure, application instability, or a denial-of-service conditio",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "37b03f155726fd61",
-    "title": "Rockwell Automation Arena",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation these vulnerabilities could allow an attacker to execute arbitrary code in the context of the current process.\nThe following versions of Rockwell Automation Arena are affected:\nArena <=V17.00.00 (CV",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f5a26aba95245c9f",
-    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/07/16/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-25089 Fortinet FortiSandbox OS Command Injection Vulnerability  \nCVE-2026-39808 Fortinet Forti",
-    "cveIds": [
-      "CVE-2026-25089",
-      "CVE-2026-39808"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "2ff9fa385d07052e",
-    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of NASA Core Flight System (cFS) Health & Safety (HS) Application are affected:\nCore Flig",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "62c272caea5ad8be",
-    "title": "Rockwell Automation Flex 5000 Adapter",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the affected product.\nThe following versions of Rockwell Automation Flex 5000 Adapter are affected:\nFlex 5000 ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e4e6778bf988758d",
-    "title": "Siemens SICAM 8",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nMultiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICORE for CP-8010/CP-8012 - SICAM EGS Device fi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a7fe31d7b6fe8230",
-    "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT are affected:\n1756-EN3 <=V12.001",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9011e6778ec391e0",
-    "title": "Rockwell Automation FactoryTalk DataMosaix",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-09",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated attacker to inject malicious scripts on the server.\nThe following versions of Rockwell Automation FactoryTalk DataMosaix are affected:\nDataMosaix P",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fea9722e06634048",
-    "title": "Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ac1d9289fc46660e",
-    "title": "SALTO ProAccess Space",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability allows an authenticated attacker to escalate privileges and access spaces outside their assigned partition, within the same Salto ProAccess Space installation or system. Exploi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f2bdf8ad89547631",
-    "title": "Scattered Spider hackers sentenced to 5.5 years over £29 million Transport for London hack",
-    "link": "https://therecord.media/scattered-spider-hackers-tfl-sentenced",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-16T12:00:00.000Z",
-    "summary": "Two leading members of the Scattered Spider cybercrime collective have been sentenced to more than five years in prison for carrying out the 2024 cyberattack against Transport for London (TfL).",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0795d27e86c7120a",
-    "title": "Windows 11 24H2 Home and Pro reach end of support in 90 days",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-90-days/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-16T11:59:24.000Z",
-    "summary": "Microsoft announced on Wednesday that systems running Windows 10 Enterprise LTSB 2016 and Home and Pro editions of Windows 11 24H2 will stop receiving updates in three months. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "712d68ac39579cb1",
-    "title": "20+ Hijacked Government Websites Became an Attack Channel",
-    "link": "https://thehackernews.com/2026/07/20-hijacked-government-websites.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-16T11:58:00.000Z",
-    "summary": "More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of interactive malware analysis and threat intelligence solution",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ca50a4d4e17d518c",
-    "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
-    "link": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-16T11:32:28.000Z",
-    "summary": "Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click \"Buy Now\" instead. Ask a coding assistant to apply a maintainer's fix from a GitHub thread, and a fake comment can make it run a stran",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fef5b55ae88edd9b",
-    "title": "Oak Emerges From Stealth Mode With $60 Million in Funding",
-    "link": "https://www.securityweek.com/oak-emerges-from-stealth-mode-with-60-million-in-funding/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-16T11:23:56.000Z",
-    "summary": "The startup has built an AI-powered Identity Operating System that governs all identities across an organization’s environment.\nThe post Oak Emerges From Stealth Mode With $60 Million in Funding appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8d7bea2aa83f0115",
-    "title": "Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor",
-    "link": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-16T11:17:23.000Z",
-    "summary": "An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously unreported backdoor dubbed Stupig.\n\nDaxin (\"srt64.sys\"), as the k",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
