@@ -1,5 +1,71 @@
 [
   {
+    "id": "5e5fe5ee16db8959",
+    "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-23T16:32:35.000Z",
+    "summary": "Ukraine's CERT has uncovered attacks distributing an archive containing the legitimate Notepad++ application and a malicious utility called LunchPoke disguised as a plugin to establish persistence. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ade2302dc9f2615a",
+    "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-23T15:34:43.000Z",
+    "summary": "Microsoft Teams and several Microsoft 365 services are experiencing an ongoing outage, with users reporting problems accessing Teams, SharePoint, Excel and the Microsoft 365 Admin Center. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f86649064f2e997a",
+    "title": "OpenAI Fixes ChatGPT Agent Flaw That Could Let Attackers Forge an AI Insider",
+    "link": "https://www.securityweek.com/openai-fixes-chatgpt-agent-flaw-that-could-let-attackers-forge-an-ai-insider/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-23T15:09:59.000Z",
+    "summary": "AgentForger allows an attacker to create, insert and remotely control an invisible autonomous AI agent inside a victim organization.\nThe post OpenAI Fixes ChatGPT Agent Flaw That Could Let Attackers Forge an AI Insider appeared first on Sec",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a12eb3a6dacb8c99",
+    "title": "Is Patching Dead? Vulnerability Management in the Post-Mythos Era",
+    "link": "https://www.securityweek.com/is-patching-dead-vulnerability-management-in-the-post-mythos-era/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-23T15:00:00.000Z",
+    "summary": "You cannot out-patch a machine that writes a working exploit from a vulnerability description in twenty hours. Stop trying to optimize a game you cannot win.\nThe post Is Patching Dead? Vulnerability Management in the Post-Mythos Era appeare",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a873d64a57a78a2c",
+    "title": "Email threat landscape: Q2 2026 trends and insights",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-07-23T15:00:00.000Z",
+    "summary": "In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat actors expanded into Teams-based social ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c2d16c1dbbdbdd7f",
+    "title": "Chick-fil-A Accounts Get Fried in Credential Stuffing Attack",
+    "link": "https://www.securityweek.com/chick-fil-a-accounts-get-fried-in-credential-stuffing-attack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-23T14:55:19.000Z",
+    "summary": "Threat actors used credentials obtained from other companies to hack into Chick-fil-A One accounts.\nThe post Chick-fil-A Accounts Get Fried in Credential Stuffing Attack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e01d54c1a9f910e2",
     "title": "Russian Global Webmail Espionage",
     "link": "https://unit42.paloaltonetworks.com/russian-webmail-espionage/",
@@ -44,6 +110,17 @@
     "severity": "normal"
   },
   {
+    "id": "79e2037efe9c4c83",
+    "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
+    "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-23T13:27:59.000Z",
+    "summary": "Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which the agent runs to read or write files anyw",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ac9fed24d06fc688",
     "title": "Major Australian energy supplier confirms customer data compromised",
     "link": "https://therecord.media/australia-origin-energy-data-breach",
@@ -51,6 +128,17 @@
     "category": "news",
     "pubDate": "2026-07-23T13:20:00.000Z",
     "summary": "Origin Energy said it was working to figure out how many Australians were affected by a recent data breach.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ca8aca8861828e58",
+    "title": "Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge",
+    "link": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-23T13:11:09.000Z",
+    "summary": "The Chaos ransomware group ran its command-and-control through the victim's own browser. Cisco Talos on Thursday detailed msaRAT, the Rust implant behind it, found on a compromised Windows machine ahead of the encryptor.\n\nThe implant never ",
     "cveIds": [],
     "severity": "critical"
   },
@@ -73,6 +161,28 @@
     "category": "news",
     "pubDate": "2026-07-23T12:33:19.000Z",
     "summary": "The European Commission fined Google €890 million ($1 billion) on Thursday after finding the company had violated the European Union's Digital Markets Act (DMA), which ensures fair online competition. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6c12a23c8db287b6",
+    "title": "China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks",
+    "link": "https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-23T12:20:23.000Z",
+    "summary": "An exposed Alibaba Cloud server has revealed a China-nexus operation that Group-IB tracks as JadeProx. The cluster has targeted government, healthcare, and education organizations across Asia and Latin America with a previously undocumented",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d9cea57d40b0ffe5",
+    "title": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-23T12:00:00.000Z",
+    "summary": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite\nExecutive summary \nA group of Russian state-supported cyber actors has been targeting and compromising various Western government a",
     "cveIds": [],
     "severity": "normal"
   },
@@ -266,6 +376,17 @@
     "category": "news",
     "pubDate": "2026-07-23T05:28:50.000Z",
     "summary": "An updated advisory from federal agencies provides information on the techniques used to hack programmable logic controllers.\nThe post US Warns of Iranian Hackers Targeting Siemens, Schneider, and Rockwell ICS Devices appeared first on Secu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b0b6fcf47e0404f3",
+    "title": "State Department imposes visa restrictions on foreign cyber scammers",
+    "link": "https://therecord.media/visa-restrictions-cyber-scammers",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-23T04:00:00.000Z",
+    "summary": "Individuals connected to transnational cyber-scam operations face new U.S. visa restrictions under a new policy announced by Secretary of State Marco Rubio.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2464,6 +2585,83 @@
     "severity": "normal"
   },
   {
+    "id": "5c2da96e829eaf3c",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (17 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0896/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9002621208fce4a9",
+    "title": "Multiples vulnérabilités dans Google Chrome (17 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0897/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e36591ffbbc7d748",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (17 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0898/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "23a8b8604cd4a068",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (17 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0899/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "690ad5463126c7bc",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (17 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0900/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "255a1afa5a2eddb6",
+    "title": "Multiples vulnérabilités dans les produits IBM (17 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0901/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0a8475778dbdd54c",
+    "title": "Multiples vulnérabilités dans Microsoft Windows (17 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0895/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentia",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "b45a9dd60efd3ff3",
     "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
@@ -2583,60 +2781,5 @@
     "summary": "Owen Flowers, 18, and Thalha Jubair, 20, were each sentenced to five and a half years at Woolwich Crown Court on Thursday, 16 July 2026, for the 2024 hack of Transport for London.\n\nThe attack left 148 TfL systems inoperable and forced all 2",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "b1c95b60370cb975",
-    "title": "UK investigates TikTok for alleged age-verification lapses, exposing kids to online harms",
-    "link": "https://therecord.media/ofcom-investigation-tiktok-age-verification",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-16T16:15:00.000Z",
-    "summary": "“Age checks are a cornerstone of the UK’s online safety laws,” said Ofcom’s Chief Executive, Melanie Dawes. “Too many services have no or inadequate age checks in place, which is not good enough.”",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4c432cd009b9e157",
-    "title": "Least privilege for AI agents: Identity, access, and tool binding",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-16T16:00:00.000Z",
-    "summary": "As AI agents become more autonomous, strong identity, access, and auditing controls are critical to keeping them secure.\nThe post Least privilege for AI agents: Identity, access, and tool binding appeared first on Microsoft Security Blog.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6fd5df50ef5443f6",
-    "title": "Ukrainians rally against dismissal of tech-minded defense minister Fedorov",
-    "link": "https://therecord.media/ukraine-fedorov-drones-dismissal",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-16T16:00:00.000Z",
-    "summary": "Ukraine President Volodymyr Zelensky dismissed Defense Minister Mykhailo Fedorov, who championed the push to integrate drone technology and digital innovation into the military.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4635f0da87173442",
-    "title": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
-    "link": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-16T15:41:15.000Z",
-    "summary": "A lot of this week’s trouble starts with something that looks close enough.\n\nA familiar repo. A useful installer. A harmless sync setting. Then the handoff goes bad, the box starts talking to someone else, and the damage moves faster than t",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "39f59573692fb750",
-    "title": "Legacy Systems, Real-World Impacts: The Reality of OT Security",
-    "link": "https://www.securityweek.com/legacy-systems-real-world-impacts-the-reality-of-ot-security/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-16T15:15:00.000Z",
-    "summary": "Legacy systems, safety concerns, and critical infrastructure risks make OT vulnerability disclosure one of cybersecurity's most challenging balancing acts.\nThe post Legacy Systems, Real-World Impacts: The Reality of OT Security appeared fir",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
