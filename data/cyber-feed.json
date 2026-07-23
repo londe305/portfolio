@@ -1,5 +1,49 @@
 [
   {
+    "id": "ed411c91b1d53382",
+    "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-23T21:23:18.000Z",
+    "summary": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ee76a125388e473d",
+    "title": "New Dolphin X malware uses AI to rank high-value targets",
+    "link": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-23T21:20:34.000Z",
+    "summary": "A new Dolphin X remote access trojan claims to use an AI-powered profiling feature to score and rank infected users, helping cybercriminals identify which victims should be targeted first. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7d56cd6326b5e70f",
+    "title": "Australian energy provider Origin says data breach exposes client data",
+    "link": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-23T20:14:35.000Z",
+    "summary": "Origin Energy has confirmed that an unauthorized party accessed and subsequently leaked customer data online, exposing sensitive personally identifiable information (PII), among others. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2eaa88bd2ca47064",
+    "title": "Fake Claude app promoted by Bing ads pushes SectopRAT malware",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-23T19:48:30.000Z",
+    "summary": "A malvertising campaign on the Bing search service is pushing a fake Claude desktop app installer hosted on a legitimate Claude.ai domain to deliver the SectopRAT malware. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "711a8c6076de78c1",
     "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
     "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
@@ -249,6 +293,17 @@
     "category": "advisory",
     "pubDate": "2026-07-23T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow a non-privileged user to escalate privileges or view the credentials of other users.\nThe following versions of Weintek cMT3092X are affected:\ncMT3092X firmware <",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7a6e15c709a4adb5",
+    "title": "Rockwell Automation ThinManager",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-23T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to restricted system directories outside of the application's intended directory.\nThe following versions of Rockw",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1396,17 +1451,6 @@
       "CVE-2026-0770"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "7a6e15c709a4adb5",
-    "title": "Rockwell Automation ThinManager",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-21T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to restricted system directories outside of the application's intended directory.\nThe following versions of Rockw",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "c50b86278d285455",
@@ -2812,61 +2856,6 @@
     "category": "vendor",
     "pubDate": "2026-07-16T23:00:59.000Z",
     "summary": "Explore Unit 42's perspectives on AI's impact on cybersecurity, including key updates since the 2026 Incident Response Report.\nThe post AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report appeared first on",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "76e9061d415a3411",
-    "title": "New ClickLock macOS malware traps users into revealing login password",
-    "link": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-16T21:52:54.000Z",
-    "summary": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ef1e407414236b9e",
-    "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
-    "link": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-16T21:09:41.000Z",
-    "summary": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the United States. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0d4f207668461454",
-    "title": "Senator calls on Rubio, Blanche to push back against Canadian surveillance legislation",
-    "link": "https://therecord.media/canada-lawful-access-act-surveillance-wyden-letter",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-16T21:00:35.000Z",
-    "summary": "Democratic Sen. Ron Wyden says the Trump administration should pressure Canada not to enact a proposal that would \"weaponize American technology infrastructure\" for surveillance purposes.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bd8d8fdcbf426672",
-    "title": "Agentic AI: Taming the Unpredictable",
-    "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-untamable-ask-the-right-security-questions",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-16T20:57:47.000Z",
-    "summary": "Agentic artificial intelligence is creating enough risks for organizations to demand a security reframe.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ae704f7c55b07b9f",
-    "title": "1M+ Emails Use Hidden Text to Dupe AI Security Filters",
-    "link": "https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-16T19:41:31.000Z",
-    "summary": "Artificial intelligence and LLMs can be surprisingly ineffective against text salting, allowing phishing emails to slide right into your inbox.",
     "cveIds": [],
     "severity": "normal"
   }
