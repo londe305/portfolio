@@ -1,5 +1,38 @@
 [
   {
+    "id": "eb03a2fa4681da06",
+    "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
+    "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-24T10:15:29.000Z",
+    "summary": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance, which runs the country's treasury and tax co",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "97652cd4ceb226e4",
+    "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
+    "link": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-24T10:09:24.000Z",
+    "summary": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping despite extensive public disclosures into thei",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "10914aba84e9435b",
+    "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
+    "link": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-24T07:41:06.000Z",
+    "summary": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour review of the forum software's source cod",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ff9d1cdea189a0f3",
     "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
     "link": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
@@ -20,6 +53,17 @@
     "summary": "The AI security layer and guardrails for many AI products don't evenly protect against jailbreaking and unsafe actions in every single language.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "65ed4cac539f3309",
+    "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say",
+    "link": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-24T06:58:27.000Z",
+    "summary": "Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0.\n\nAll four chains require RESTORE. The Streams chains also need EVAL and XGROUP; the 8.8.0 c",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "968e9f178a945f34",
@@ -2645,94 +2689,6 @@
     "category": "news",
     "pubDate": "2026-07-17T11:30:00.000Z",
     "summary": "Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated acquisition pathways are transforming how ca",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "141e2821ce490ce3",
-    "title": "Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday",
-    "link": "https://www.securityweek.com/industry-reactions-to-pentagon-suspending-cmmc-phase-2-feedback-friday/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-17T11:08:04.000Z",
-    "summary": "Industry professionals broadly agree that the suspension pauses third-party CMMC audits but not the underlying legal obligation to protect CUI.\nThe post Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday appeared first ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1bff26a8f67c8967",
-    "title": "New Windows LegacyHive zero-day gives hackers admin privileges",
-    "link": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-17T11:05:30.000Z",
-    "summary": "A security researcher using the \"Nightmare Eclipse\" handle has released a Windows zero-day exploit dubbed LegacyHive that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "41000770a9cbe99c",
-    "title": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
-    "link": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-17T10:53:31.000Z",
-    "summary": "Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov.\n\nHis wife, Maria Yurova, told REN TV that border officers ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a41c8cadd329d929",
-    "title": "Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy",
-    "link": "https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-07-17T10:00:24.000Z",
-    "summary": "A technical analysis of three chained zero-day vulnerabilities in Siemens ROX II OT switches that allow privilege escalation and persistent root access.\nThe post Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy appeared first ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4e815d9268aaa751",
-    "title": "Windows Server 2022 reach end of mainstream support in 90 days",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-17T09:10:15.000Z",
-    "summary": "Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9b76a2b67ecdf9ec",
-    "title": "Cyberattack Disrupts Operations of Japanese Frozen Food Giant Nichirei",
-    "link": "https://www.securityweek.com/cyberattack-disrupts-operations-of-japanese-frozen-food-giant-nichirei/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-17T09:06:27.000Z",
-    "summary": "The company disconnected its systems on July 13 and is starting to gradually restore operations.\nThe post Cyberattack Disrupts Operations of Japanese Frozen Food Giant Nichirei appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6899f60b43c6c9e3",
-    "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
-    "link": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-17T08:56:39.000Z",
-    "summary": "ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and files from synced OneDrive and SharePoint folders.\n\nIt gets i",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "324b2014e82ffbcb",
-    "title": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
-    "link": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-17T08:46:45.000Z",
-    "summary": "Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since late 2025 with a focus on long-term access and intelligence ga",
     "cveIds": [],
     "severity": "normal"
   }
