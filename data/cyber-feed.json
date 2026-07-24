@@ -1,5 +1,93 @@
 [
   {
+    "id": "07476b43568007dd",
+    "title": "Vatican's Official Prayer App Leaks 700K+ Global Users' PII",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-24T13:00:00.000Z",
+    "summary": "A porous API endpoint exposes, names, email addresses, location, and site status, all of which can be easily gleaned by anyone with a browser.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d251652da266ddbc",
+    "title": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
+    "link": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-24T12:56:53.000Z",
+    "summary": "Europol has flagged 4,340 URLs for removal during a multi-week operation targeting online content linked to \"The Com,\" a loosely organized network of nihilistic violent extremist groups. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "80ef218e6fa42c70",
+    "title": "AegisAI Raises $36 Million for AI-Powered Email Security",
+    "link": "https://www.securityweek.com/aegisai-raises-36-million-for-ai-powered-email-security/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-24T12:01:18.000Z",
+    "summary": "The company has raised a total of $49 million in funding, including from Battery Ventures, Accel and Foundation Capital.\nThe post AegisAI Raises $36 Million for AI-Powered Email Security appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6bef077b53cc3baf",
+    "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+    "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-24T11:53:55.000Z",
+    "summary": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agen",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c6f845a8406c10c7",
+    "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
+    "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-24T11:45:17.000Z",
+    "summary": "A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet.\n\nXBOW's testing got the same result on workers acros",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7774107641221c44",
+    "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
+    "link": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-24T11:30:00.000Z",
+    "summary": "AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents is harder than we ever imagined. This is ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "69a12bf1baddfe83",
+    "title": "Industry Reactions to OpenAI Models Hacking Hugging Face: Feedback Friday",
+    "link": "https://www.securityweek.com/industry-reactions-to-openai-models-hacking-hugging-face-feedback-friday/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-24T11:19:46.000Z",
+    "summary": "Industry professionals debate whether it represents a lab containment failure or an unprecedented agentic capability milestone.\nThe post Industry Reactions to OpenAI Models Hacking Hugging Face: Feedback Friday appeared first on SecurityWee",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "58344f7ad90fc2c6",
+    "title": "Man gets six years for hacking 750 women's Snapchat accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-24T11:17:19.000Z",
+    "summary": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 women to steal nude photos. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "eb03a2fa4681da06",
     "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
     "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
@@ -688,6 +776,39 @@
     "severity": "critical"
   },
   {
+    "id": "bfa04b9351a9f96d",
+    "title": "Multiples vulnérabilités dans les produits Mitel (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0911/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mitel. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une injection de code indirecte à distance (XSS).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f3e25684bb0928ef",
+    "title": "Multiples vulnérabilités dans les produits Check Point (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0912/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Check Point. Elles permettent à un attaquant de provoquer une élévation de privilèges et un contournement de la politique de sécurité. Check Point indique que la vulnérabilit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "17389389270bbe8e",
+    "title": "Multiples vulnérabilités dans Mozilla Thunderbird (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0913/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Thunderbird. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distan",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a5f7d679af8d4d38",
     "title": "Flaws in Passkey Implementation Show Old Attacks Still Work",
     "link": "https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work",
@@ -1230,6 +1351,61 @@
     "category": "news",
     "pubDate": "2026-07-22T01:10:38.000Z",
     "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found th",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7f24994dd4e04220",
+    "title": "Multiples vulnérabilités dans les produits Elastic (22 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0906/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-22T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intég",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "72c1c9a2ab6190f9",
+    "title": "Multiples vulnérabilités dans Google Chrome (22 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0907/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-22T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bd7ac2b1df1c0b96",
+    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (22 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0908/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-22T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et un contournem",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "88d01429e7f87894",
+    "title": "Multiples vulnérabilités dans GLPI (22 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0909/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-22T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans GLPI. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "555b7868adc4a82b",
+    "title": "Multiples vulnérabilités dans les produits Mozilla (22 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0910/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-22T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dista",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1840,6 +2016,17 @@
     "severity": "normal"
   },
   {
+    "id": "a4536d91b4f5e0bb",
+    "title": "Multiples vulnérabilités dans Tenable Security Center (21 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0905/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Security Center. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un contournement de la pol",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "0b2b05b129971c78",
     "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
     "link": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
@@ -2350,6 +2537,39 @@
     "severity": "normal"
   },
   {
+    "id": "852708ce655e0e96",
+    "title": "Multiples vulnérabilités dans Mattermost Server (20 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0902/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-20T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "293a6091df0818d4",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (20 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0903/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-20T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "806d1ae3f5d3f271",
+    "title": "Multiples vulnérabilités dans WordPress (20 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0904/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-20T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un contournement de la politique de sécurité. Le CERT-FR a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "2df2717626a53d07",
     "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
     "link": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
@@ -2590,105 +2810,6 @@
     "category": "news",
     "pubDate": "2026-07-17T14:00:10.000Z",
     "summary": "Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek \"clean\" residential proxies and combine them with browser fingerprints, device profiles, and other identity ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "66b19a41d9303d11",
-    "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
-    "link": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-17T13:48:56.000Z",
-    "summary": "North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job postings and coding challenges.\n\n\"Any us",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "57738e5a1b5f55a9",
-    "title": "Dairy company Fairlife suspends production in US after cyber incident",
-    "link": "https://therecord.media/dairy-company-fairlife-suspends-production-us-cyber-incident",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-17T13:40:00.000Z",
-    "summary": "Fairlife’s U.S. operation includes plants in Michigan, New York and Arizona, and the company's retail sales passed $1 billion in 2022.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d4d59d62c64eec1a",
-    "title": "Gold Eagle Clearinghouse Targets Security Gap, But How Is Unclear",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-17T13:00:00.000Z",
-    "summary": "The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9bef7b8ef5645362",
-    "title": "Zelensky appoints Ukraine's acting security service chief as acting defense minister",
-    "link": "https://therecord.media/ukraine-acting-defense-minister-yevhenii-khmara",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-17T12:50:00.000Z",
-    "summary": "Yevhenii Khmara, a major general with deep experience in intelligence, counterterrorism and long-range strikes against Russia, is Ukraine's new acting defense minister.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7db717f39d06318d",
-    "title": "Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive",
-    "link": "https://www.securityweek.com/podcast-broken-governance-agentic-ai-and-the-mindstone-agent-exclusive/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-17T12:11:22.000Z",
-    "summary": "(Video) Artificial intelligence is transforming cybersecurity, but are governance, compliance, and security practices evolving fast enough to keep up?\nThe post Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive appear",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "810729f078186745",
-    "title": "Google Bets 'Agentic Defense' Strategy Can Outpace Attackers",
-    "link": "https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-17T11:50:25.000Z",
-    "summary": "Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8863a3e1474189da",
-    "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
-    "link": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-17T11:44:41.000Z",
-    "summary": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the display off, and the abil",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "672ba59b77d938ae",
-    "title": "Beacon Security Raises $13 Million for Security Data Platform",
-    "link": "https://www.securityweek.com/beacon-security-raises-13-million-for-security-data-platform/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-17T11:43:36.000Z",
-    "summary": "The startup helps organizations detect, hunt, and protect their assets across environments at machine speed.\nThe post Beacon Security Raises $13 Million for Security Data Platform appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "aacd60876e079359",
-    "title": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?",
-    "link": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-17T11:30:00.000Z",
-    "summary": "Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated acquisition pathways are transforming how ca",
     "cveIds": [],
     "severity": "normal"
   }
