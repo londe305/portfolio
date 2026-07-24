@@ -1,5 +1,16 @@
 [
   {
+    "id": "a2d0d0b2e082ec97",
+    "title": "ISC Stormcast For Friday, July 24th, 2026 https://isc.sans.edu/podcastdetail/10022, (Fri, Jul 24th)",
+    "link": "https://isc.sans.edu/diary/rss/33182",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-24T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ed411c91b1d53382",
     "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
@@ -2748,115 +2759,5 @@
     "summary": "The company has yet to determine the full scope, nature, and impact of the incident.\nThe post Coca-Cola Suspends US Fairlife Production Due to Ransomware Attack appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "03dc7a1f0c4c5a74",
-    "title": "ISC Stormcast For Friday, July 17th, 2026 https://isc.sans.edu/podcastdetail/10012, (Fri, Jul 17th)",
-    "link": "https://isc.sans.edu/diary/rss/33162",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-17T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5c2da96e829eaf3c",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (17 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0896/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-17T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9002621208fce4a9",
-    "title": "Multiples vulnérabilités dans Google Chrome (17 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0897/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-17T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e36591ffbbc7d748",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (17 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0898/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-17T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "23a8b8604cd4a068",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (17 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0899/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-17T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "690ad5463126c7bc",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (17 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0900/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-17T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "255a1afa5a2eddb6",
-    "title": "Multiples vulnérabilités dans les produits IBM (17 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0901/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-17T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0a8475778dbdd54c",
-    "title": "Multiples vulnérabilités dans Microsoft Windows (17 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0895/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-17T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentia",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b45a9dd60efd3ff3",
-    "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-16T23:12:02.000Z",
-    "summary": "From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal browser credentials, authentication token",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3f82115dcb5d8465",
-    "title": "AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report",
-    "link": "https://unit42.paloaltonetworks.com/ai-insights-incident-response-report/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-07-16T23:00:59.000Z",
-    "summary": "Explore Unit 42's perspectives on AI's impact on cybersecurity, including key updates since the 2026 Incident Response Report.\nThe post AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report appeared first on",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
