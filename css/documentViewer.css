@@ -1,0 +1,64 @@
+/* =====================================================
+   documentViewer.css — Section "Documentation" (liste des
+   sous-parties) + modal du visualiseur PDF en diaporama.
+===================================================== */
+
+.doc-list{display:flex;flex-direction:column;gap:.6rem;margin-top:1rem}
+.doc-item{
+  display:flex;align-items:center;gap:.9rem;
+  width:100%;text-align:left;
+  background:var(--bg2);border:1px solid var(--border);border-radius:12px;
+  padding:.85rem 1rem;color:var(--text);font-size:1rem;
+  transition:border-color .2s,background .2s,transform .2s;
+}
+button.doc-item:hover{border-color:var(--border-h);background:rgba(0,245,212,.05);transform:translateX(3px)}
+.doc-item.disabled{opacity:.55}
+.doc-item-num{
+  flex-shrink:0;width:28px;height:28px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--cg);border:1px solid var(--border-h);color:var(--c);
+  font-family:'JetBrains Mono',monospace;font-size:.8rem;font-weight:700;
+}
+.doc-item-label{flex:1;display:flex;flex-direction:column;gap:.15rem}
+.doc-item-title{font-size:.88rem;font-weight:600}
+.doc-item-soon{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+.doc-item-arrow{color:var(--c);font-size:1.1rem}
+
+/* Modal visualiseur */
+.doc-modal-box{max-width:840px}
+.doc-modal-title{font-size:1.05rem;font-weight:800;color:#fff;margin-bottom:.9rem;padding-right:2rem;min-height:1.3em}
+.doc-canvas-wrap{
+  position:relative;background:#0a1120;border:1px solid var(--border);border-radius:12px;
+  overflow:auto;max-height:60vh;display:flex;justify-content:center;padding:.5rem;
+  touch-action:pan-y;
+}
+#doc-canvas{max-width:100%;border-radius:4px;box-shadow:0 8px 30px rgba(0,0,0,.4)}
+.doc-status{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  color:var(--muted);font-size:1.1rem;pointer-events:none;
+}
+.doc-toolbar{display:flex;align-items:center;justify-content:center;gap:1rem;margin-top:1rem;flex-wrap:wrap}
+.doc-nav-btn{
+  width:38px;height:38px;border-radius:8px;
+  background:var(--bg2);border:1px solid var(--border);color:var(--text);
+  font-size:1.2rem;transition:border-color .2s,color .2s;
+}
+.doc-nav-btn:hover:not(:disabled){border-color:var(--c);color:var(--c)}
+.doc-nav-btn:disabled{opacity:.35;cursor:default}
+.doc-page-indicator{font-family:'JetBrains Mono',monospace;font-size:.85rem;color:var(--muted);min-width:70px;text-align:center}
+.doc-download-btn{
+  margin-left:auto;padding:.5rem 1rem;border-radius:8px;
+  background:var(--cg);border:1px solid var(--border-h);color:var(--c);
+  font-size:.82rem;font-weight:600;white-space:nowrap;
+}
+.doc-download-btn:hover{background:rgba(0,245,212,.22);text-decoration:none}
+
+@media(max-width:768px){
+  .doc-canvas-wrap{max-height:52vh}
+  .doc-toolbar{gap:.6rem}
+  .doc-download-btn{margin-left:0;order:3;width:100%;text-align:center}
+}
+@media(max-width:480px){
+  .doc-item{padding:.7rem .85rem}
+  .doc-item-title{font-size:.82rem}
+}

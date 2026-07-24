@@ -15,6 +15,7 @@ import { initProjects, closeModal as closeBlogModal } from './projects.js';
 import { initLightbox, initNetworkCanvas } from './ui.js';
 import { initCyberveille } from './cyberveille.js';
 import { initGame } from './game.js';
+import { initDocumentViewer, closeDocViewer } from './documentViewer.js';
 
 /* Component name → DOM mount point id (see index.html). */
 const COMPONENTS = [
@@ -52,6 +53,15 @@ function safeInit(label, fn) {
   catch (err) { console.error(`[main] Échec de l'initialisation "${label}":`, err); }
 }
 
+function bindEscapeHandler() {
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    closeBlogModal();
+    closeDocViewer();
+    document.getElementById('diff-modal')?.classList.add('hidden');
+  });
+}
+
 /* Background canvas + click delegation work immediately, even
    before components are injected — start them right away so the
    page feels alive as soon as possible. */
@@ -67,13 +77,8 @@ async function bootstrap() {
   safeInit('projects', initProjects);
   safeInit('cyberveille', initCyberveille);
   safeInit('game', initGame);
-
-  /* Escape closes whichever modal is open (blog article or game difficulty). */
-  document.addEventListener('keydown', (e) => {
-    if (e.key !== 'Escape') return;
-    closeBlogModal();
-    document.getElementById('diff-modal')?.classList.add('hidden');
-  });
+  safeInit('document-viewer', initDocumentViewer);
+  bindEscapeHandler();
 }
 
 bootstrap();

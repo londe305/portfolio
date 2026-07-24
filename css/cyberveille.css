@@ -6,6 +6,7 @@
 .cv-layout{
   display:grid;grid-template-columns:280px 1fr;gap:1.25rem;align-items:start;
 }
+.cv-layout>*{min-width:0}
 
 .rss-notice{color:var(--muted);font-size:.85rem;padding:.5rem 0;font-style:italic}
 
@@ -51,7 +52,7 @@
 
 .cv-card{
   background:rgba(10,17,34,.7);border:1px solid var(--border);
-  border-radius:10px;padding:.85rem 1.1rem;
+  border-radius:10px;padding:.85rem 1.1rem;overflow-wrap:break-word;
   transition:border-color .2s,box-shadow .2s,transform .2s;
 }
 .cv-card:hover{border-color:var(--border-h);box-shadow:0 4px 20px rgba(0,245,212,.08);transform:translateX(4px)}

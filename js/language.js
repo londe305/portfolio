@@ -1,3 +1,5 @@
+import { safeStorage } from './utils.js';
+
 export const translations = {
   fr: {
     "lang.fr": "FR", "lang.en": "EN",
@@ -114,6 +116,12 @@ export const translations = {
     "zt-lab.scenarios.ul": "<li><strong>Intrusion PS3 détectée :</strong> tentative de ping depuis VLAN 40 → refus ASA + alerte Zabbix.</li><li><strong>Scan réseau détecté :</strong> nmap depuis VLAN Users → logs syslog + alerte refus ACL élevé.</li><li><strong>Interface ASA down :</strong> alerte critique Zabbix en moins de 60 secondes.</li><li><strong>Connexion admin non autorisée :</strong> tentative SSH vers Servers depuis VLAN Users → refus + log immédiat.</li>",
     "zt-lab.results.title": "Résultats &amp; compétences validées",
     "zt-lab.results.ul": "<li><strong>Surface d'attaque réduite :</strong> aucun équipement joignable sans règle explicite.</li><li><strong>Visibilité réseau complète :</strong> chaque flux, refus et anomalie est visible dans Zabbix.</li><li><strong>Architecture reproductible :</strong> configuration documentée, exportable vers un environnement de production.</li><li><strong>Compétences E6 :</strong> conception infrastructure, sécurité réseau, supervision, documentation technique.</li>",
+    "docs.zt.title": "📄 Documentation du projet",
+    "docs.zt.sub": "Rapports détaillés, rédigés étape par étape, consultables directement ici.",
+    "docs.zt.1.title": "1. Préparation du système",
+    "docs.zt.2.title": "2. Identification et configuration des services",
+    "docs.soon": "Bientôt disponible",
+    "docs.download": "⬇ Télécharger le PDF",
     "crystal.intro.title": "Refresh Réseau Crystal ▸ WAN / LAN / WLAN / SD‑WAN v2",
     "crystal.intro.p": "Projet majeur de modernisation réseau du siège Crystal : migration des firewalls vers une architecture SD‑WAN v2, remplacement complet du LAN et du WLAN, montée en débit WAN et déploiement progressif en environnement de production réel.",
     "crystal.tab.overview": "Vue globale",
@@ -384,6 +392,12 @@ export const translations = {
     "zt-lab.scenarios.ul": "<li><strong>PS3 intrusion detected:</strong> ping attempt from VLAN 40 → ASA denial + Zabbix alert.</li><li><strong>Network scan detected:</strong> nmap from VLAN Users → syslog + high ACL denial alert.</li><li><strong>ASA interface down:</strong> Zabbix critical alert within 60 seconds.</li><li><strong>Unauthorized admin connection:</strong> SSH attempt to Servers from VLAN Users → denial + immediate log.</li>",
     "zt-lab.results.title": "Results &amp; validated skills",
     "zt-lab.results.ul": "<li><strong>Reduced attack surface:</strong> no device reachable without an explicit rule.</li><li><strong>Full network visibility:</strong> every flow, denial and anomaly visible in Zabbix.</li><li><strong>Reproducible architecture:</strong> documented configuration, exportable to a production environment.</li><li><strong>E6 skills:</strong> infrastructure design, network security, monitoring, technical documentation.</li>",
+    "docs.zt.title": "📄 Project documentation",
+    "docs.zt.sub": "Detailed step-by-step reports, readable directly here.",
+    "docs.zt.1.title": "1. System preparation",
+    "docs.zt.2.title": "2. Service identification & configuration",
+    "docs.soon": "Coming soon",
+    "docs.download": "⬇ Download PDF",
     "crystal.intro.title": "Crystal Network Refresh ▸ WAN / LAN / WLAN / SD‑WAN v2",
     "crystal.intro.p": "Major network modernization project for the Crystal headquarters: firewall migration to SD‑WAN v2 architecture, complete LAN and WLAN replacement, WAN bandwidth upgrade and progressive deployment in a live production environment.",
     "crystal.tab.overview": "Overview",
@@ -541,7 +555,7 @@ export const translations = {
 };
 
 export function getStoredLanguage(){
-  const lang = localStorage.getItem('portfolioLang');
+  const lang = safeStorage.getItem('portfolioLang');
   if (lang && ['fr','en'].includes(lang)) return lang;
   const browser = navigator.language?.slice(0,2).toLowerCase();
   return ['fr','en'].includes(browser) ? browser : 'fr';
@@ -550,7 +564,7 @@ export function getStoredLanguage(){
 export function setLanguage(lang){
   if (!translations[lang]) return;
   document.documentElement.lang = lang;
-  localStorage.setItem('portfolioLang', lang);
+  safeStorage.setItem('portfolioLang', lang);
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === lang);
   });

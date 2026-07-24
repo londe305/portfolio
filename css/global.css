@@ -106,6 +106,7 @@ section{padding:5rem 1.5rem;scroll-margin-top:var(--nav-h)}
 .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
 .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
 .grid-auto{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem}
+.grid-2>*,.grid-3>*,.grid-auto>*{min-width:0}
 
 /* TABS */
 .tab-bar{

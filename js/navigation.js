@@ -10,6 +10,9 @@
 
 import { $, $$ } from './utils.js';
 
+let scrollSpyObserver = null;
+let revealObserver = null;
+
 export function navTo(id) {
   const el = document.getElementById(id);
   if (!el) return;
@@ -66,6 +69,9 @@ function handleDelegatedClick(e) {
 
 /* ---- Scroll-spy: highlight the active nav link ---- */
 function initScrollSpy() {
+  if (typeof IntersectionObserver === 'undefined') return;
+  scrollSpyObserver?.disconnect();
+
   const sectionIds = ['home', 'apropos', 'alternance', 'projets', 'certifications', 'veille', 'cyberveille', 'blogs', 'contact', 'jeu'];
   const spy = new IntersectionObserver(entries => {
     entries.forEach(entry => {
@@ -76,6 +82,8 @@ function initScrollSpy() {
       }
     });
   }, { threshold: .2, rootMargin: '-80px 0px -60% 0px' });
+  scrollSpyObserver = spy;
+
   sectionIds.forEach(id => {
     const el = document.getElementById(id);
     if (el) spy.observe(el);
@@ -84,9 +92,13 @@ function initScrollSpy() {
 
 /* ---- Reveal-on-scroll + animated skill bars ---- */
 function initReveal() {
+  if (typeof IntersectionObserver === 'undefined') return;
+  revealObserver?.disconnect();
+
   const io = new IntersectionObserver(entries => {
     entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
   }, { threshold: .12 });
+  revealObserver = io;
   $$('.reveal').forEach(el => io.observe(el));
 
   const io2 = new IntersectionObserver(entries => {

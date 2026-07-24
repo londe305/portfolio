@@ -10,6 +10,8 @@
    est servi par le même serveur statique que le reste du site.
 ===================================================== */
 
+import { safeStorage } from './utils.js';
+
 const FEED_URL = 'data/cyber-feed.json';
 const META_URL = 'data/cyber-meta.json';
 const RECENT_KEY = 'cyberveilleRecent';
@@ -54,17 +56,14 @@ async function fetchJSON(url) {
 /* ---- "Consultés récemment" (localStorage) ---- */
 
 function getRecent() {
-  try { return JSON.parse(localStorage.getItem(RECENT_KEY)) || []; }
-  catch { return []; }
+  return safeStorage.getJSON(RECENT_KEY, []);
 }
 
 function recordRecent(item) {
-  try {
-    const list = getRecent().filter(r => r.link !== item.link);
-    list.unshift({ title: item.title, link: item.link, source: item.source });
-    localStorage.setItem(RECENT_KEY, JSON.stringify(list.slice(0, RECENT_MAX)));
-    renderRecent();
-  } catch { /* quota dépassé ou localStorage indisponible — on ignore */ }
+  const list = getRecent().filter(r => r.link !== item.link);
+  list.unshift({ title: item.title, link: item.link, source: item.source });
+  safeStorage.setJSON(RECENT_KEY, list.slice(0, RECENT_MAX));
+  renderRecent();
 }
 
 function renderRecent() {

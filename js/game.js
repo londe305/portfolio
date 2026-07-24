@@ -2,7 +2,7 @@
    game.js — Jeu Dino SIO
 ===================================================== */
 
-import { $ } from './utils.js';
+import { $, safeStorage } from './utils.js';
 
 export function initGame() {
   const canvas = $('#dino-canvas');
@@ -28,11 +28,11 @@ export function initGame() {
       particles = [], flashTime = 0, lastOmittedObstacle = null;
 
   function loadHighScore() {
-    const saved = localStorage.getItem('dinoHighScore');
+    const saved = safeStorage.getItem('dinoHighScore');
     return saved ? parseInt(saved, 10) : 0;
   }
   function saveHighScore() {
-    if (score > highScore) { highScore = score; localStorage.setItem('dinoHighScore', score); }
+    if (score > highScore) { highScore = score; safeStorage.setItem('dinoHighScore', score); }
   }
   highScore = loadHighScore();
 
