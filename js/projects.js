@@ -45,10 +45,6 @@ export const BLOGS = [
 <p>Zabbix a détecté plusieurs anomalies : scans réseau depuis le VLAN Users, tentatives SSH non autorisées, et une interface tombée à cause d'un câble mal branché. Alerté en moins de 60 secondes.</p>` }
 ];
 
-function setBodyScroll(locked) {
-  document.body.style.overflow = locked ? 'hidden' : '';
-}
-
 export function renderBlogs() {
   const grid = document.getElementById('blogsGrid');
   if (!grid) return;
@@ -77,13 +73,13 @@ export function openModal(id) {
   metaEl.textContent = `${blog.date} · ${blog.time} · ${blog.tags.join(', ')}`;
   bodyEl.innerHTML = blog.body;
   modal.classList.add('open');
-  setBodyScroll(true);
+  document.body.classList.add('modal-open');
 }
 
 export function closeModal() {
   const modal = document.getElementById('blogModal');
   if (modal) modal.classList.remove('open');
-  setBodyScroll(false);
+  document.body.classList.remove('modal-open');
 }
 
 function handleDelegatedClick(e) {

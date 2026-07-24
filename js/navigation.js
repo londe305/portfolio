@@ -20,11 +20,17 @@ export function navTo(id) {
 }
 
 export function toggleMenu() {
-  document.getElementById('mobileMenu')?.classList.toggle('open');
+  const menu = document.getElementById('mobileMenu');
+  if (!menu) return;
+  const open = menu.classList.toggle('open');
+  document.body.classList.toggle('menu-open', open);
+  document.querySelector('[data-action="toggle-menu"]')?.setAttribute('aria-expanded', String(open));
 }
 
 export function closeMenu() {
   document.getElementById('mobileMenu')?.classList.remove('open');
+  document.body.classList.remove('menu-open');
+  document.querySelector('[data-action="toggle-menu"]')?.setAttribute('aria-expanded', 'false');
 }
 
 /* ---- Generic tab switcher: <prefix>-<id> panel + <prefix>-tab-<id> button ---- */
@@ -64,6 +70,12 @@ function handleDelegatedClick(e) {
   if (veilleBtn) {
     activateVeille(veilleBtn, veilleBtn.dataset.veillePanel);
     return;
+  }
+
+  /* Tap outside the open mobile menu (and outside the hamburger) closes it. */
+  const menu = document.getElementById('mobileMenu');
+  if (menu?.classList.contains('open') && !e.target.closest('#mobileMenu') && !e.target.closest('[data-action="toggle-menu"]')) {
+    closeMenu();
   }
 }
 

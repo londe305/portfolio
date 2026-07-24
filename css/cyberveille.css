@@ -41,6 +41,7 @@
 /* ---- Main feed ---- */
 .cv-alerts{display:flex;flex-direction:column;gap:.6rem;margin-bottom:1.25rem}
 .cv-alerts:empty{display:none;margin:0}
+.cv-alerts-heading{font-size:.78rem;font-weight:700;color:#ff6b35;margin-bottom:.1rem}
 
 .cv-meta-bar{
   display:flex;justify-content:space-between;align-items:center;

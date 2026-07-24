@@ -10,7 +10,7 @@
 ===================================================== */
 
 import { initLanguage } from './language.js';
-import { initNavigation, initScrollBehavior } from './navigation.js';
+import { initNavigation, initScrollBehavior, closeMenu } from './navigation.js';
 import { initProjects, closeModal as closeBlogModal } from './projects.js';
 import { initLightbox, initNetworkCanvas } from './ui.js';
 import { initCyberveille } from './cyberveille.js';
@@ -59,6 +59,7 @@ function bindEscapeHandler() {
     closeBlogModal();
     closeDocViewer();
     document.getElementById('diff-modal')?.classList.add('hidden');
+    closeMenu();
   });
 }
 

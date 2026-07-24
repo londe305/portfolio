@@ -1,16 +1,16 @@
 <!-- ============================================================     MODALS     ============================================================ -->
 <!-- Blog modal -->
-<div class="modal" id="blogModal" >  <div class="modal-box">    <button class="modal-close" data-action="close-modal">✕</button>    <div class="modal-emoji" id="mEmoji">
+<div class="modal" id="blogModal" >  <div class="modal-box">    <button class="modal-close" data-action="close-modal" aria-label="Fermer">✕</button>    <div class="modal-emoji" id="mEmoji">
 </div>    <div class="modal-title" id="mTitle">
 </div>    <div class="modal-meta"  id="mMeta">
 </div>    <div class="modal-body"  id="mBody">
 </div>  </div>
 </div>
 <!-- Game difficulty modal -->
-<div id="diff-modal" class="modal hidden">  <div class="modal-box" style="max-width:380px">    <button class="modal-close btn-close-modal">✕</button>    <div class="modal-emoji">⚙️</div>    <div class="modal-title" data-i18n="jeu.modal.title">Difficulté</div>    <p class="modal-meta"   data-i18n="jeu.modal.p">Si ce bouton existait, ce ne serait pas fun 😉</p>    <p style="font-size:.8rem;color:var(--muted);margin-bottom:1.25rem" data-i18n="jeu.modal.hint">(désactivé par choix philosophique)</p>    <button class="game-btn btn-close-modal" data-i18n="jeu.modal.close">Fermer</button>  </div>
+<div id="diff-modal" class="modal hidden">  <div class="modal-box" style="max-width:380px">    <button class="modal-close btn-close-modal" aria-label="Fermer">✕</button>    <div class="modal-emoji">⚙️</div>    <div class="modal-title" data-i18n="jeu.modal.title">Difficulté</div>    <p class="modal-meta"   data-i18n="jeu.modal.p">Si ce bouton existait, ce ne serait pas fun 😉</p>    <p style="font-size:.8rem;color:var(--muted);margin-bottom:1.25rem" data-i18n="jeu.modal.hint">(désactivé par choix philosophique)</p>    <button class="game-btn btn-close-modal" data-i18n="jeu.modal.close">Fermer</button>  </div>
 </div>
 <!-- Lightbox (for schema-gallery images) -->
-<div id="lightbox" class="hidden" role="dialog">  <img id="lightbox-img" src="" alt="Image agrandie">  <button class="lightbox-close">✕</button>  <button class="lightbox-prev">‹</button>  <button class="lightbox-next">›</button>
+<div id="lightbox" class="hidden" role="dialog" aria-modal="true" aria-label="Visionneuse d'image">  <img id="lightbox-img" src="" alt="Image agrandie">  <button class="lightbox-close" aria-label="Fermer">✕</button>  <button class="lightbox-prev" aria-label="Image précédente">‹</button>  <button class="lightbox-next" aria-label="Image suivante">›</button>
 </div>
 <!-- Document viewer modal (PDF.js diaporama) -->
 <div class="modal doc-modal" id="docModal">  <div class="modal-box doc-modal-box">    <button class="modal-close" data-action="close-doc">✕</button>    <div class="doc-modal-title" id="doc-title"></div>    <div class="doc-canvas-wrap" id="doc-canvas-wrap">      <canvas id="doc-canvas"></canvas>      <div class="doc-status" id="doc-status"></div>    </div>    <div class="doc-toolbar">      <button type="button" class="doc-nav-btn" data-action="doc-prev" id="doc-prev" aria-label="Page précédente">‹</button>      <span class="doc-page-indicator"><span id="doc-page-cur">1</span> / <span id="doc-page-total">1</span></span>      <button type="button" class="doc-nav-btn" data-action="doc-next" id="doc-next" aria-label="Page suivante">›</button>      <a class="doc-download-btn" id="doc-download" download data-i18n="docs.download">⬇ Télécharger le PDF</a>    </div>  </div>

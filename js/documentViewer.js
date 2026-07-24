@@ -136,7 +136,7 @@ export function closeDocViewer() {
   const { modal } = els();
   if (!modal) return;
   modal.classList.remove('open');
-  document.body.style.overflow = '';
+  document.body.classList.remove('modal-open');
   state.pdf = null;
   state.pageNum = 1;
   state.pageCount = 0;
@@ -157,7 +157,7 @@ export async function openDocument(setKey, docId, label) {
   if (canvas) canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height);
 
   modal.classList.add('open');
-  document.body.style.overflow = 'hidden';
+  document.body.classList.add('modal-open');
   setStatus('…');
 
   try {
