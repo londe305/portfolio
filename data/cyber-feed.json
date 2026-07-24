@@ -1,12 +1,89 @@
 [
   {
+    "id": "5143c661d85137f0",
+    "title": "'Wrench' attacks against crypto holders appear to be on the rise",
+    "link": "https://therecord.media/wrench-attacks-against-cryptocurrency-holders",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-24T15:55:00.000Z",
+    "summary": "There are more reports than ever before of strong-arm tactics like home invasions and kidnappings against cryptocurrency holders, researchers say.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9bf285359f7cb4c0",
+    "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-24T15:41:44.000Z",
+    "summary": "Microsoft says a bug in its automated network maintenance request system caused Thursday's massive outage by mistakenly removing IP routes from more devices than intended, disrupting Azure and Microsoft 365 services. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "68327402f2a76e00",
+    "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
+    "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-24T15:12:35.000Z",
+    "summary": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineer",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fd753ee12bef6146",
+    "title": "In Other News: Dolphin X AI-Powered Malware, Car Anti-Theft Device Hack, 400 Linux Kernel Flaws",
+    "link": "https://www.securityweek.com/in-other-news-dolphin-x-ai-powered-malware-car-anti-theft-device-hack-400-linux-kernel-flaws/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-24T14:20:00.000Z",
+    "summary": "Noteworthy stories that might have slipped under the radar: Siemens ROX II industrial switch vulnerabilities, Russian Zimbra webmail espionage campaign, Stadler Rail ransomware extortion attempt.\nThe post In Other News: Dolphin X AI-Powered",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "91710fe58c4b6956",
+    "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
+    "link": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-24T14:15:21.000Z",
+    "summary": "Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine.\n\nThey codenamed the flaw Certighost. B",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2b3f4ab0806fe6f0",
+    "title": "Chick-fil-A data breach affects more than 13,000 customers",
+    "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-24T14:04:29.000Z",
+    "summary": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6ad599be5cc6206f",
+    "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
+    "link": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-24T14:01:11.000Z",
+    "summary": "Slopsquatting, phantom squatting, and HalluSquatting all exploit the same late-binding attack pattern, where AI coding agents trust hallucinated package, repo, or domain names. ActiveState explains how pre-fetch verification and governed de",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "07476b43568007dd",
     "title": "Vatican's Official Prayer App Leaks 700K+ Global Users' PII",
     "link": "https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii",
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-07-24T13:00:00.000Z",
-    "summary": "A porous API endpoint exposes, names, email addresses, location, and site status, all of which can be easily gleaned by anyone with a browser.",
+    "summary": "A porous API endpoint exposes, names, email addresses, country, and site status, all of which can be easily gleaned by anyone with a browser.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -18,6 +95,17 @@
     "category": "news",
     "pubDate": "2026-07-24T12:56:53.000Z",
     "summary": "Europol has flagged 4,340 URLs for removal during a multi-week operation targeting online content linked to \"The Com,\" a loosely organized network of nihilistic violent extremist groups. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f1fa880b88362062",
+    "title": "Default Azure Automation Setting Enables Cross-Tenant Identity Takeover",
+    "link": "https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-24T12:48:16.000Z",
+    "summary": "Microsoft addresses a public-by-default configuration and chain of code flaws in Azure Automation that could have let attackers seize another tenant's identity and access others' data, credentials, and cloud workloads.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2744,72 +2832,6 @@
     "category": "news",
     "pubDate": "2026-07-17T17:12:23.000Z",
     "summary": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys.\n\nA Shodan harvester keeps the scan queue stocked with ComfyUI, Ollama, n8n, Open WebUI, Langflow,",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f062c8e4d71b2da0",
-    "title": "The Real AI Threat Is Blind Trust",
-    "link": "https://www.darkreading.com/application-security/real-ai-threat-blind-trust",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-17T16:43:13.000Z",
-    "summary": "AI models left to both interpret and execute commands eliminate critical cybersecurity oversight.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c63d54de55c994f5",
-    "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
-    "link": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-17T16:39:16.000Z",
-    "summary": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine.\n\nExpel, which shared technical details of the event, described the threat actor as a sub-group of Gol",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e8109ca507f2097f",
-    "title": "Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain attacks",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-17T16:00:00.000Z",
-    "summary": "Join Microsoft Security at Black Hat USA 2026 for supply chain research, hands-on security experiences, expert conversations, and our reception.\nThe post Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain att",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a2011263dcef1a9d",
-    "title": "Ernst & Young discloses data breach after support system hack",
-    "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-17T14:55:28.000Z",
-    "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "65df313db5f062bd",
-    "title": "In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint",
-    "link": "https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-17T14:27:54.000Z",
-    "summary": "Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach.\nThe post In Other News: Iran Tracks US Military Phones, CrashStealer",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6fab4f7a27f5bdc1",
-    "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
-    "link": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-17T14:00:10.000Z",
-    "summary": "Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek \"clean\" residential proxies and combine them with browser fingerprints, device profiles, and other identity ",
     "cveIds": [],
     "severity": "normal"
   }
