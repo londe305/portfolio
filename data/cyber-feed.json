@@ -1,5 +1,38 @@
 [
   {
+    "id": "4c6720cf4c117fa9",
+    "title": "CISOs vs. Boards: Myth or Misunderstanding?",
+    "link": "https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-24T21:31:53.000Z",
+    "summary": "Escalating threats are forcing boards to prioritize security, but communication gaps persist. Boards and security teams each say they need more support to bridge the divide.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3fccf010f6ad9b53",
+    "title": "OnTrac notifies customers of data breach after network hack",
+    "link": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-24T19:55:01.000Z",
+    "summary": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c18b8e009b4948bb",
+    "title": "Escape Artists: 'Incorrigible' AI Models Resist Rehabilitation",
+    "link": "https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-24T19:45:02.000Z",
+    "summary": "The hacking of Hugging Face by a rogue OpenAI agent is significant, but unsurprising — and preventing the next AI model escape will be difficult, at best.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "48f93ebbef92964d",
     "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
     "link": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
@@ -2790,49 +2823,5 @@
     "summary": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "7ac4399d9bcbd72b",
-    "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
-    "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-17T21:20:10.000Z",
-    "summary": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story below reflects all of it.\n\nAn anonymous HTT",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ec8d609cca91d81e",
-    "title": "Abbott probes two cyber incidents amid extortion claims",
-    "link": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-17T20:45:52.000Z",
-    "summary": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that atta",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c77a96e5b932eaa8",
-    "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
-    "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-17T20:20:53.000Z",
-    "summary": "Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts.\n\nOpenSSL shipped the HollowByte fix in J",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1d0e2ca5c9977a84",
-    "title": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-17T20:01:13.000Z",
-    "summary": "When chained together, the two vulnerabilities allow threat actors to gain root-level capabilities on SonicWall's mobile access appliances.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
