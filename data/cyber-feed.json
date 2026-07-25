@@ -1,5 +1,27 @@
 [
   {
+    "id": "08a5f217800bb545",
+    "title": "Malicious sites use JavaScript to build malware in browser memory",
+    "link": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-25T15:21:09.000Z",
+    "summary": "A massive malvertising campaign is using fake Solana, Luno, and TradingView webpages with malicious JavaScript that instructs browsers to assemble malware directly in memory. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cf18834b8584cff1",
+    "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-25T14:16:26.000Z",
+    "summary": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "41ac194d5fcc7887",
     "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
     "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
@@ -2878,16 +2900,5 @@
     "summary": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "99efddde529770b6",
-    "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-18T14:17:19.000Z",
-    "summary": "Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
