@@ -1,5 +1,16 @@
 [
   {
+    "id": "e4420d62b7ee27c9",
+    "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
+    "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-25T18:48:44.000Z",
+    "summary": "A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL.\n\nConfiant, whic",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "08a5f217800bb545",
     "title": "Malicious sites use JavaScript to build malware in browser memory",
     "link": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
@@ -2878,16 +2889,5 @@
     "summary": "A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public disclosure since June 22, 2026.\n\nCybersecur",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "fcea53af666bcc41",
-    "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
-    "link": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-18T19:32:02.000Z",
-    "summary": "7-Zip version 26.02 was released on June 25 to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
