@@ -1,14 +1,14 @@
 [
   {
-    "id": "58c10ecb0d067588",
-    "title": "OpenAI confirms ChatGPT is down worldwide",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
-    "source": "BleepingComputer",
+    "id": "41ac194d5fcc7887",
+    "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+    "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+    "source": "The Hacker News",
     "category": "news",
-    "pubDate": "2026-07-25T09:31:09.000Z",
-    "summary": "ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity issues worldwide. [...]",
+    "pubDate": "2026-07-25T12:52:43.000Z",
+    "summary": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the",
     "cveIds": [],
-    "severity": "normal"
+    "severity": "critical"
   },
   {
     "id": "ecd8e77873a62836",
@@ -16,8 +16,52 @@
     "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
     "source": "The Hacker News",
     "category": "news",
-    "pubDate": "2026-07-25T08:34:15.000Z",
-    "summary": "Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server.\n\nAn ordinary authenticated user triggers it by committing t",
+    "pubDate": "2026-07-25T10:14:26.000Z",
+    "summary": "Security researchers at depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update.\n\nAny",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5b9586162dea04a0",
+    "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+    "link": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-25T10:14:21.000Z",
+    "summary": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportun",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "74666cf2751e2bf8",
+    "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-25T10:14:03.000Z",
+    "summary": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign.\n\n\"A",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "35dcfac959da54eb",
+    "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
+    "link": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-25T09:53:41.000Z",
+    "summary": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims.\n\nSwiss cyberse",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "58c10ecb0d067588",
+    "title": "OpenAI confirms ChatGPT is down worldwide",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-25T09:31:09.000Z",
+    "summary": "ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity issues worldwide. [...]",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2843,17 +2887,6 @@
     "category": "news",
     "pubDate": "2026-07-18T14:17:19.000Z",
     "summary": "Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1cdeed2956e80a6d",
-    "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
-    "link": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-18T13:15:24.000Z",
-    "summary": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial",
     "cveIds": [],
     "severity": "normal"
   }
