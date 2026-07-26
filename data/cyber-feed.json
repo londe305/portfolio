@@ -1,5 +1,16 @@
 [
   {
+    "id": "2c7b2036b3c2a6f5",
+    "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
+    "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-25T22:37:47.000Z",
+    "summary": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect devices with cryptominers. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e4420d62b7ee27c9",
     "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
     "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
