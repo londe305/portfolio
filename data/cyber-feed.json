@@ -1,5 +1,27 @@
 [
   {
+    "id": "a97f6090fb5c14d1",
+    "title": "Scans for ESAFENET CDG 3 Document Management System Weak Logins, (Sun, Jul 26th)",
+    "link": "https://isc.sans.edu/diary/rss/33184",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-26T15:26:14.000Z",
+    "summary": "ESAFENET&#;x26;#;39;s CDG showed up in our data before. The company focused on secure document management and data leakage prevention solutions. The \"CDG\" stands for \"Content Data Guard\", and the product appears to be mostly targeting the C",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2697dc06420410d6",
+    "title": "GitHub, PyPI add time-absed defenses against supply chain attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-26T14:13:39.000Z",
+    "summary": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "2c7b2036b3c2a6f5",
     "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
     "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
@@ -2856,27 +2878,5 @@
       "CVE-2026-42533"
     ],
     "severity": "critical"
-  },
-  {
-    "id": "76731cef70f59655",
-    "title": "Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)",
-    "link": "https://isc.sans.edu/diary/rss/33164",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-19T15:00:38.000Z",
-    "summary": "We have been following issues with Hikvision cameras for a long, long time. Like many similar products, Hikvision cameras have a long history of vulnerabilities and are often targeted by internet-wide scans that our honeypot network detects",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "42d2707e3fded79b",
-    "title": "Hackers abuse ViPNet software to target Russian govt agencies",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-19T14:23:46.000Z",
-    "summary": "An advanced threat actor is abusing the update mechanism for the ViPNet private networking product suite to target Russian organizations, including government agencies. [...]",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
