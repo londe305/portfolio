@@ -12,7 +12,7 @@
   },
   {
     "id": "2697dc06420410d6",
-    "title": "GitHub, PyPI add time-absed defenses against supply chain attacks",
+    "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
     "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
     "source": "BleepingComputer",
     "category": "news",
@@ -2865,18 +2865,5 @@
     "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un contournement de la politique de sécurité. Le CERT-FR a",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "2df2717626a53d07",
-    "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
-    "link": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-19T20:42:49.000Z",
-    "summary": "F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and ",
-    "cveIds": [
-      "CVE-2026-42533"
-    ],
-    "severity": "critical"
   }
 ]
