@@ -1,5 +1,16 @@
 [
   {
+    "id": "7c032f2e3ad3d749",
+    "title": "ISC Stormcast For Monday, July 27th, 2026 https://isc.sans.edu/podcastdetail/10024, (Mon, Jul 27th)",
+    "link": "https://isc.sans.edu/diary/rss/33186",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-27T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a97f6090fb5c14d1",
     "title": "Scans for ESAFENET CDG 3 Document Management System Weak Logins, (Sun, Jul 26th)",
     "link": "https://isc.sans.edu/diary/rss/33184",
@@ -2819,50 +2830,6 @@
     "category": "news",
     "pubDate": "2026-07-20T05:15:39.000Z",
     "summary": "Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of serving additional payloads.\n\nThe rogue g",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7f66c2f80286a000",
-    "title": "ISC Stormcast For Monday, July 20th, 2026 https://isc.sans.edu/podcastdetail/10014, (Mon, Jul 20th)",
-    "link": "https://isc.sans.edu/diary/rss/33166",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-20T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "852708ce655e0e96",
-    "title": "Multiples vulnérabilités dans Mattermost Server (20 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0902/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-20T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "293a6091df0818d4",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (20 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0903/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-20T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données et un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "806d1ae3f5d3f271",
-    "title": "Multiples vulnérabilités dans WordPress (20 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0904/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-20T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un contournement de la politique de sécurité. Le CERT-FR a",
     "cveIds": [],
     "severity": "normal"
   }
