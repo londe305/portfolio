@@ -1,5 +1,60 @@
 [
   {
+    "id": "a62439ecf9d95d02",
+    "title": "Anthropic’s Opus 5 Nears Mythos 5 on Finding Bugs, but Falls Short on Exploits",
+    "link": "https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-27T10:02:41.000Z",
+    "summary": "Binary-based vulnerability scanning, penetration testing, and exploit generation are blocked in Opus 5.\nThe post Anthropic’s Opus 5 Nears Mythos 5 on Finding Bugs, but Falls Short on Exploits appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "322139844212510e",
+    "title": "DentaQuest Data Breach Potentially Impacts Over 23 Million People",
+    "link": "https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-27T09:34:12.000Z",
+    "summary": "In May 2026, hackers stole personal and dental health information from DentaQuest’s computer network.\nThe post DentaQuest Data Breach Potentially Impacts Over 23 Million People appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "cdf31655de8d582c",
+    "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
+    "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-27T08:48:47.000Z",
+    "summary": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East.\n\nThe intrusions have resulted in the deployment of previously unreported malwar",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b1809b7e17b9eb1b",
+    "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
+    "link": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-27T08:01:23.000Z",
+    "summary": "GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request.\n\n\"The cooldown configuration option in the dependabot.yml still controls ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "733af3862c68eaec",
+    "title": "MCBS Data Breach Affects 1.2 Million Individuals",
+    "link": "https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-27T04:51:32.000Z",
+    "summary": "The PEAR ransomware group claimed to have stolen 3 TB of information from the medical business management company.\nThe post MCBS Data Breach Affects 1.2 Million Individuals appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "7c032f2e3ad3d749",
     "title": "ISC Stormcast For Monday, July 27th, 2026 https://isc.sans.edu/podcastdetail/10024, (Mon, Jul 27th)",
     "link": "https://isc.sans.edu/diary/rss/33186",
@@ -2735,101 +2790,6 @@
     "category": "news",
     "pubDate": "2026-07-20T10:06:17.000Z",
     "summary": "Microsoft has released emergency updates to fix a known issue causing some Dell PCs to shut down after installing the July 2026 Windows 11 security updates. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3413583d44be525c",
-    "title": "Hugging Face Hacked in Autonomous AI Attack",
-    "link": "https://www.securityweek.com/hugging-face-hacked-in-autonomous-ai-attack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-20T09:36:15.000Z",
-    "summary": "Targeting production infrastructure, the attack compromised internal datasets and service credentials.\nThe post Hugging Face Hacked in Autonomous AI Attack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5b2674b4519ab056",
-    "title": "Critical ServiceNow code execution flaw now exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-20T09:29:20.000Z",
-    "summary": "Attackers have begun exploiting a critical vulnerability (CVE-2026-6875) in the ServiceNow AI Platform, according to threat intelligence company Defused. [...]",
-    "cveIds": [
-      "CVE-2026-6875"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "588da4c0d957e880",
-    "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-    "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-20T09:10:56.000Z",
-    "summary": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detail",
-    "cveIds": [
-      "CVE-2026-14266"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "06aebcc63783f6c0",
-    "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
-    "link": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-20T09:07:11.000Z",
-    "summary": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet.\n\nThe findings come from an analysis of 200 Gem",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d15852e567773ef4",
-    "title": "Chrome 150 Update Patches Severe Memory Safety Bugs",
-    "link": "https://www.securityweek.com/chrome-150-update-patches-severe-memory-safety-bugs/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-20T08:12:19.000Z",
-    "summary": "The fresh security update resolves six critical and high-severity use-after-free vulnerabilities.\nThe post Chrome 150 Update Patches Severe Memory Safety Bugs appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b28632a33ec75ec5",
-    "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
-    "link": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-20T05:27:26.000Z",
-    "summary": "In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system.\n\nThe company said it detected and responded to the incident targeting",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "792bdb3eb78f42ea",
-    "title": "WP2Shell WordPress Vulnerabilities Exploited in the Wild",
-    "link": "https://www.securityweek.com/wp2shell-wordpress-vulnerabilities-exploited-in-the-wild/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-20T05:21:29.000Z",
-    "summary": "Exploitation of the new WordPress vulnerabilities tracked as CVE-2026-60137 and CVE-2026-63030 started soon after disclosure.\nThe post WP2Shell WordPress Vulnerabilities Exploited in the Wild appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-60137",
-      "CVE-2026-63030"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "44e4de974c084c5c",
-    "title": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
-    "link": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-20T05:15:39.000Z",
-    "summary": "Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of serving additional payloads.\n\nThe rogue g",
     "cveIds": [],
     "severity": "normal"
   }
