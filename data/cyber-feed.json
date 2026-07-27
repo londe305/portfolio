@@ -1,5 +1,49 @@
 [
   {
+    "id": "a18ae72d1ac1ee93",
+    "title": "Telegram phishing campaign targeted exiled Belarusian activist, Russians and Kazakhstanis",
+    "link": "https://therecord.media/telegram-belarus-activist-russia-cyberattack",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-27T16:00:00.000Z",
+    "summary": "Researchers have uncovered a highly personalized phishing campaign that used Telegram to try to hijack the account of an exiled Belarusian activist, as well as users in Russia and Kazakhstan.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "253e5c9215b540be",
+    "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
+    "link": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-27T15:39:51.000Z",
+    "summary": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "fd07d6d7a654776e",
+    "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
+    "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-27T15:12:27.000Z",
+    "summary": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a9e928fac27f6b39",
+    "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
+    "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-27T14:40:00.000Z",
+    "summary": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interac",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "33428f1496d076d3",
     "title": "New GitHub, PyPI Policies Boost Supply Chain Security",
     "link": "https://www.securityweek.com/new-github-pypi-policies-boost-supply-chain-security/",
@@ -2787,28 +2831,6 @@
     "category": "news",
     "pubDate": "2026-07-20T17:15:00.000Z",
     "summary": "Over the course of the World Cup tournament, the Department of Justice seized more than 1,000 domains for illegally streaming games.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e9a18457ff8f4bd8",
-    "title": "Hackers were inside South Korea's diplomat training system for 9 months",
-    "link": "https://therecord.media/south-korea-cyberattack-foreign-ministry",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-20T15:15:00.000Z",
-    "summary": "Unidentified hackers compromised an online education system used by South Korea's diplomatic academy, stealing personal information belonging to former and current employees of the country's Ministry of Foreign Affairs.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "317b7f43e0636b5b",
-    "title": "Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software",
-    "link": "https://www.securityweek.com/neo-emerges-from-stealth-with-100m-to-control-and-secure-enterprise-ai-software/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-20T14:54:03.000Z",
-    "summary": "Neo raised money across seed and Series A funding rounds from Andreessen Horowitz, Bessemer Venture Partners, and others.\nThe post Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software appeared first on SecurityWe",
     "cveIds": [],
     "severity": "normal"
   }
