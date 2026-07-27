@@ -1,5 +1,170 @@
 [
   {
+    "id": "33428f1496d076d3",
+    "title": "New GitHub, PyPI Policies Boost Supply Chain Security",
+    "link": "https://www.securityweek.com/new-github-pypi-policies-boost-supply-chain-security/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-27T14:26:00.000Z",
+    "summary": "Dependabot gets a three-day cooldown window before opening pull requests, and PyPI rejects file uploads to releases older than 14 days.\nThe post New GitHub, PyPI Policies Boost Supply Chain Security appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "81b1cefc8a7c8525",
+    "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
+    "link": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-27T14:10:54.000Z",
+    "summary": "Monday starts with the usual promise that everything is under control. Then the logs wake up.\n\nThis week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "05ebd712e3e35a16",
+    "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
+    "link": "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-27T14:01:11.000Z",
+    "summary": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations can discover, assess, and govern AI agents before unmanaged permissions and autonomous ac",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "05ee0e8e9ee1c153",
+    "title": "PTC Windchill Vulnerability Exploited in Ransomware Campaign",
+    "link": "https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-27T13:19:30.000Z",
+    "summary": "The critical unsafe deserialization flaw allows attackers to execute arbitrary code remotely, without authentication.\nThe post PTC Windchill Vulnerability Exploited in Ransomware Campaign appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3e6c4d0ed08e8699",
+    "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
+    "link": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-27T13:05:15.000Z",
+    "summary": "n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation platform. Security Joes found the flaw while probing n8n's Febr",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f2ce61b68c01a016",
+    "title": "MedusaHVNC Malware Uses Hidden Windows Desktops to Evade Detection",
+    "link": "https://www.securityweek.com/medusahvnc-malware-uses-hidden-windows-desktops-to-evade-detection/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-27T13:00:00.000Z",
+    "summary": "The malware-as-a-service operation launches legitimate browsers on an invisible desktop, giving attackers persistent and covert remote access to compromised Windows systems.\nThe post MedusaHVNC Malware Uses Hidden Windows Desktops to Evade ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "94fb342247ca6c35",
+    "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
+    "link": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-27T12:37:49.000Z",
+    "summary": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools.\n\n\"The victim was directed through compromised web inf",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "eb1fda3c6b2352c6",
+    "title": "Nvidia and Tech Giants Launch AI Security Alliance",
+    "link": "https://www.securityweek.com/nvidia-and-tech-giants-launch-ai-security-alliance/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-27T12:25:43.000Z",
+    "summary": "The Nvidia-led coalition aims to give defenders more open tools for testing, auditing and protecting AI models and agents.\nThe post Nvidia and Tech Giants Launch AI Security Alliance appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6d928a94e93b543e",
+    "title": "Hackers used autonomous AI agent to spy on Thailand's finance ministry",
+    "link": "https://therecord.media/thailand-hackers-ai-finance-ministry",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-27T12:00:00.000Z",
+    "summary": "Hackers used an autonomous artificial intelligence agent to carry out a cyber-espionage campaign against Thailand's Ministry of Finance, researchers discovered.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ccabec856127bcbd",
+    "title": "Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack",
+    "link": "https://www.securityweek.com/coca-cola-confirms-data-breach-after-fairlife-ransomware-attack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-27T11:29:03.000Z",
+    "summary": "The Anubis cybercrime group has taken credit for the attack and is threatening to leak data.\nThe post Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e2d394b56d4cf279",
+    "title": "Beelzebub Raises $3.4 Million for Hacker-Trapping Platform",
+    "link": "https://www.securityweek.com/beelzebub-raises-3-4-million-for-hacker-trapping-platform/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-27T11:06:24.000Z",
+    "summary": "The company plans to expand its research team, open new offices in Rome and San Francisco, and acquire new clients.\nThe post Beelzebub Raises $3.4 Million for Hacker-Trapping Platform appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9de9a825d701c9ef",
+    "title": "What’s Hiding in Your Mobile Apps? Lookout MSEC Aims to Find Out",
+    "link": "https://www.securityweek.com/whats-hiding-in-your-mobile-apps-lookout-msec-aims-to-find-out/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-27T11:00:00.000Z",
+    "summary": "The new Mobile Security Exposure Center creates SBOMs for enterprise mobile apps to uncover vulnerable components, dependencies and hidden risks.\nThe post What’s Hiding in Your Mobile Apps? Lookout MSEC Aims to Find Out appeared first on Se",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8bd7ed051abe7385",
+    "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
+    "link": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-27T10:51:45.000Z",
+    "summary": "The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a sophisticated crypter service called Cruciferra.\n\nAcc",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dc5cc74fb1c45792",
+    "title": "Hacked Public Wi-Fi Gateways Used to Harvest Corporate Credentials",
+    "link": "https://www.securityweek.com/hacked-public-wi-fi-gateways-used-to-harvest-corporate-credentials/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-27T10:50:19.000Z",
+    "summary": "A threat actor has been using the compromised appliances to target the Microsoft 365 accounts of traveling corporate employees.\nThe post Hacked Public Wi-Fi Gateways Used to Harvest Corporate Credentials appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "412f2204e5464ce0",
+    "title": "Java Spring Boot \"heapdump\" scans, (Mon, Jul 27th)",
+    "link": "https://isc.sans.edu/diary/rss/33188",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-27T10:04:51.000Z",
+    "summary": "Spring Boot exposes the endpoint \"/actuator/heapdump\" to collect debug information. By default, the endpoint will return a file heapdump.hprof, which includes a binary heapdump that can be used to analyze the current state of the applicatio",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a62439ecf9d95d02",
     "title": "Anthropic’s Opus 5 Nears Mythos 5 on Finding Bugs, but Falls Short on Exploits",
     "link": "https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/",
@@ -693,17 +858,6 @@
     "severity": "normal"
   },
   {
-    "id": "a12eb3a6dacb8c99",
-    "title": "Is Patching Dead? Vulnerability Management in the Post-Mythos Era",
-    "link": "https://www.securityweek.com/is-patching-dead-vulnerability-management-in-the-post-mythos-era/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-23T15:00:00.000Z",
-    "summary": "You cannot out-patch a machine that writes a working exploit from a vulnerability description in twenty hours. Stop trying to optimize a game you cannot win.\nThe post Is Patching Dead? Vulnerability Management in the Post-Mythos Era appeare",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "a873d64a57a78a2c",
     "title": "Email threat landscape: Q2 2026 trends and insights",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
@@ -711,6 +865,17 @@
     "category": "vendor",
     "pubDate": "2026-07-23T15:00:00.000Z",
     "summary": "In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat actors expanded into Teams-based social ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a12eb3a6dacb8c99",
+    "title": "Is Patching Dead? Vulnerability Management in the Post-Mythos Era",
+    "link": "https://www.securityweek.com/is-patching-dead-vulnerability-management-in-the-post-mythos-era/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-23T15:00:00.000Z",
+    "summary": "You cannot out-patch a machine that writes a working exploit from a vulnerability description in twenty hours. Stop trying to optimize a game you cannot win.\nThe post Is Patching Dead? Vulnerability Management in the Post-Mythos Era appeare",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1168,6 +1333,50 @@
     "category": "advisory",
     "pubDate": "2026-07-23T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Thunderbird. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distan",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e6c02d9a03e8ab3c",
+    "title": "Multiples vulnérabilités dans Oracle Database Server (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0914/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Database Server. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d9033e4e0dfedfca",
+    "title": "Multiples vulnérabilités dans Oracle Java SE (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0915/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d6cd2cc6a6b5536c",
+    "title": "Multiples vulnérabilités dans Oracle MySQL (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0916/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle MySQL. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "11ca1f83fd0cc07a",
+    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0917/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2600,196 +2809,6 @@
     "category": "news",
     "pubDate": "2026-07-20T14:54:03.000Z",
     "summary": "Neo raised money across seed and Series A funding rounds from Andreessen Horowitz, Bessemer Venture Partners, and others.\nThe post Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software appeared first on SecurityWe",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6d68159c5e95a607",
-    "title": "Romania races to restore land registry after cyberattack disrupts property market",
-    "link": "https://therecord.media/romania-cyberattack-land-registry",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-20T14:45:00.000Z",
-    "summary": "Romania's land registry agency is still recovering from a cyberattack it called \"the most serious technical incident in the institution's history.\"",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "91948e6d60370e02",
-    "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
-    "link": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-20T14:33:43.000Z",
-    "summary": "A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050.\n\nGroup-IB,",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ece6da7d57fdbc79",
-    "title": "SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch",
-    "link": "https://www.securityweek.com/sonicwall-zero-days-exploited-to-deliver-custom-malware-for-weeks-before-patch/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-20T14:11:05.000Z",
-    "summary": "The zero-days CVE-2026-15409 and CVE-2026-15410 were exploited by a threat actor tracked by Volexity as UTA0533.\nThe post SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-15409",
-      "CVE-2026-15410"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "649b16eca00ac964",
-    "title": "An AI SOC Evaluation Guide for Security Leaders",
-    "link": "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-20T14:01:11.000Z",
-    "summary": "Choosing an AI SOC platform requires understanding how it will perform in your own environment, not just during an evaluation. Prophet Security shares a practical framework for assessing AI SOC solutions, including how to validate accuracy,",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c80e77461aaaea3a",
-    "title": "Cybersecurity Keeps Events 'Uneventful'",
-    "link": "https://www.darkreading.com/cyber-risk/cybersecurity-keeps-events-uneventful",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-20T14:00:00.000Z",
-    "summary": "From the World Cup to the United States' 250th celebration, this year's event calendar has been packed with high-profile gatherings that drew global audiences, intense scrutiny, and enormous security demands.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "06114b9ee68d23cc",
-    "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
-    "link": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-20T13:32:26.000Z",
-    "summary": "A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools.\n\nThe paths were often simple: exposed systems, weak checks, old drivers, fake pro",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a15fb722a738009e",
-    "title": "OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability",
-    "link": "https://www.securityweek.com/openssl-silently-fixes-hollowbyte-dos-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-20T12:32:40.000Z",
-    "summary": "Attackers could send waves of malicious payloads to trigger buffer pre-allocations that are not freed, exhausting server memory.\nThe post OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6f8c284c6cea5be6",
-    "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
-    "link": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-20T12:13:39.000Z",
-    "summary": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, and the locations of ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "347a223ac2f21309",
-    "title": "Hugging Face warns an autonomous AI agent hacked its network",
-    "link": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-20T11:56:28.000Z",
-    "summary": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8e30930b3f8d5028",
-    "title": "New Index Tracks Material Breaches — And Refuses to Add Up the Losses",
-    "link": "https://www.securityweek.com/new-index-tracks-material-breaches-and-refuses-to-add-up-the-losses/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-20T11:46:50.000Z",
-    "summary": "Longtime cybersecurity executive Richard Bird built the resource for security experts, journalists, policymakers, and everyday citizens.\nThe post New Index Tracks Material Breaches — And Refuses to Add Up the Losses appeared first on Securi",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a30f65c3fe36a5c6",
-    "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
-    "link": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-20T11:30:00.000Z",
-    "summary": "The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of AI-driven discovery overwhelm triage capab",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "88b0e4774cbc8dda",
-    "title": "Ernst & Young Data Breach Affects Personal, Financial Information",
-    "link": "https://www.securityweek.com/ernst-young-data-breach-affects-personal-financial-information/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-20T11:27:38.000Z",
-    "summary": "Hackers stole names, addresses, Social Security numbers, credit/debit card numbers, and other information from a third-party management platform.\nThe post Ernst & Young Data Breach Affects Personal, Financial Information appeared first on S",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2002595598bd20b4",
-    "title": "Software provider to more than 2,000 US hospitals says hackers stole employee and customer data",
-    "link": "https://therecord.media/software-provider-for-us-hospitals-customer-data-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-20T11:00:00.000Z",
-    "summary": "Craneware, which is headquartered in Edinburgh and listed on London's AIM market, told investors it detected unauthorized access to a “subset” of its data environment and has since brought in outside forensic investigators.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ac2a2fe777c8e2ff",
-    "title": "Microsoft confirms Windows Server Update Services sync delays",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-20T10:47:28.000Z",
-    "summary": "Microsoft is working to fix a known issue affecting Windows Server Update Services (WSUS) servers, which has caused synchronization problems for more than a week. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "442dfbedf7f8e236",
-    "title": "Watch on Demand: Cloud & Data Security Summit",
-    "link": "https://www.securityweek.com/virtual-event-today-cloud-data-security-summit/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-20T10:31:25.000Z",
-    "summary": "Attendees will be able to interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments.\nThe post Watch on Demand: Cloud & Data Security Summit appeared first on SecurityWe",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9cf688ceed175484",
-    "title": "Capital One Open Sources AI-Powered ‘VulnHunter’ Security Tool",
-    "link": "https://www.securityweek.com/capital-one-open-sources-ai-powered-vulnhunter-security-tool/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-20T10:25:07.000Z",
-    "summary": "The agentic security tool identifies potentially exploitable code flaws, traces attack paths, and recommends targeted remediations.\nThe post Capital One Open Sources AI-Powered ‘VulnHunter’ Security Tool appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1ae055ce2bc81095",
-    "title": "Windows KB5121767 OOB update fixes shutdowns on some Dell PCs",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-20T10:06:17.000Z",
-    "summary": "Microsoft has released emergency updates to fix a known issue causing some Dell PCs to shut down after installing the July 2026 Windows 11 security updates. [...]",
     "cveIds": [],
     "severity": "normal"
   }
