@@ -1,5 +1,71 @@
 [
   {
+    "id": "24feb41701cc347e",
+    "title": "Ghost Credentials Expose Cloud Systems to Hidden Identity Risks",
+    "link": "https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-28T21:33:23.000Z",
+    "summary": "Security researcher Aleksandr Krasnov reveals dormant non-human identities can create security blind spots and releases NHI Hound, an open source tool to sniff out trust paths.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "284191530b9da705",
+    "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
+    "link": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-28T21:17:39.000Z",
+    "summary": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking attack. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "24452eaf45677879",
+    "title": "Flaw From 2002 Exposes Data Centers to Server Takeover",
+    "link": "https://www.darkreading.com/cyber-risk/flaw-exposes-data-centers-server-takeover",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-28T21:07:55.000Z",
+    "summary": "Lots of Internet-exposed server management controllers are subject to offline password-cracking attacks — and adversaries have taken note.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ce7558c86819f76e",
+    "title": "OpenAI models used Artifactory zero-days to escape to the internet",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-28T20:37:06.000Z",
+    "summary": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attacking Hugging Face. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "356fa6cba449b887",
+    "title": "When AI Agents Escape Sandboxes, Old Security Rules Apply",
+    "link": "https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-28T20:27:36.000Z",
+    "summary": "OpenAI's recent AI agent sandbox escape proves traditional security principles matter more than ever: limit access, isolate execution, log everything.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ec3ac98d3e2e36db",
+    "title": "Stronger AI Safety Requires Peeking Inside the 'Black Box'",
+    "link": "https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-28T20:05:32.000Z",
+    "summary": "Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "fa7c4b6dddc2a99a",
     "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
     "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
@@ -493,7 +559,7 @@
   },
   {
     "id": "f5265b90696520c1",
-    "title": "Agentic Browsers Rewind Web Security by 20 years",
+    "title": "Agentic Browsers Rewind Web Security by 20 Years",
     "link": "https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years",
     "source": "Dark Reading",
     "category": "news",
@@ -2724,40 +2790,5 @@
     "summary": "A large-scale operation dubbed 'FakeGit' is pushing SmartLoader and StealC malware through 7,600 malicious GitHub repositories that accumulated more than 14 million downloads. [...]",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "316c1449fbeb4c72",
-    "title": "Ransomware Is Accelerating, but It's Not Because of AI",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-21T21:48:05.000Z",
-    "summary": "Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4fc3eaa2bbee83a6",
-    "title": "Using LLMs to Find &amp; Prioritize Vulnerabilities Is No Easy Task",
-    "link": "https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-21T21:27:37.000Z",
-    "summary": "The latest large language models have high false-positive rates and fail to take into account the context of scans, leading to more work for AppSec professionals.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "26efc8a1f16396b8",
-    "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-21T20:06:55.000Z",
-    "summary": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]",
-    "cveIds": [
-      "CVE-2026-50522"
-    ],
-    "severity": "critical"
   }
 ]
