@@ -1,5 +1,49 @@
 [
   {
+    "id": "fa7c4b6dddc2a99a",
+    "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
+    "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-28T18:59:07.000Z",
+    "summary": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128.\n\nThe HAWK attack exploits a previously unused symmetry in the lattice",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "76bd11dc1fb33c2b",
+    "title": "CISA shares advice on isolating vital systems during cyberattacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-28T18:41:04.000Z",
+    "summary": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or other major disruptions. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "282e58443f9213e0",
+    "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
+    "link": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-28T18:08:50.000Z",
+    "summary": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "aac17526ecbd3c36",
+    "title": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-28T16:38:48.000Z",
+    "summary": "Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "444f0bed861e7401",
     "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
     "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
@@ -2714,83 +2758,6 @@
     "cveIds": [
       "CVE-2026-50522"
     ],
-    "severity": "critical"
-  },
-  {
-    "id": "2705c6e2b9a96d60",
-    "title": "DNI nominee Clayton wins Senate panel’s approval",
-    "link": "https://therecord.media/jay-clayton-dni-nomination-senate-committee-approval",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-21T19:00:00.000Z",
-    "summary": "By a party-line vote, the Senate Intelligence Committee sent the nomination of Jay Clayton to lead ODNI to the Senate floor.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0388fbcf8067ffd4",
-    "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
-    "link": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-21T18:50:54.000Z",
-    "summary": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "01b2645c805e86a0",
-    "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
-    "link": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-21T18:46:32.000Z",
-    "summary": "Apple has moved to address a security flaw in its Hide My Email service that enabled users' real email addresses to be unmasked, effectively undermining the feature's privacy guarantees.\n\n404 Media reported Tuesday that a fix for the issue ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8714d10a37085d85",
-    "title": "Hacker Turns AI Jailbreaks Into Offensive Attack Platform",
-    "link": "https://www.darkreading.com/cyber-risk/hacker-ai-jailbreaks-offensive-attack-platform",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-21T18:38:52.000Z",
-    "summary": "A Russian-speaking actor, \"Trim,\" dismantled publicly available frontier models and integrated them with offensive security tools.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a6e14213326dba4c",
-    "title": "Trump Orders Defense Contractors to Map Software, Suppliers Across Critical Supply Chains",
-    "link": "https://www.securityweek.com/trump-orders-defense-contractors-to-map-software-suppliers-across-critical-supply-chains/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-21T18:16:09.000Z",
-    "summary": "New executive order calls for end-to-end visibility into defense supply chains, including software dependencies, foreign ownership and cyber-related supplier risks.\nThe post Trump Orders Defense Contractors to Map Software, Suppliers Across",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6d6bc4561c3bd8f1",
-    "title": "Cisco Launches Low-Cost AI Models for Source Code Security",
-    "link": "https://www.securityweek.com/cisco-launches-low-cost-ai-models-for-source-code-security/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-21T17:44:33.000Z",
-    "summary": "The open-weight Antares models are designed to pinpoint known vulnerabilities in codebases faster and at a fraction of the cost of larger AI models.\nThe post Cisco Launches Low-Cost AI Models for Source Code Security appeared first on Secur",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4bc8dcbb31fcfbc5",
-    "title": "Spain fines 23andMe nearly $3 million for cybersecurity failings enabling 2023 hack",
-    "link": "https://therecord.media/spain-fines-23andme-3-million-cyber-failings-data-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-21T17:10:00.000Z",
-    "summary": "The Agencia Española de Protección de Datos (AEPD) announced the fine on Friday, saying in its decision that more than 2,600 Spaniards were impacted by a breach affecting 6.9 million people worldwide.",
-    "cveIds": [],
     "severity": "critical"
   }
 ]
