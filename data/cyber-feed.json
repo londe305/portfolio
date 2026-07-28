@@ -1,5 +1,49 @@
 [
   {
+    "id": "444f0bed861e7401",
+    "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+    "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-28T15:01:33.000Z",
+    "summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process.\n\nIf that happens, Tengu's other persistence mechanisms get another chance to relaunch i",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bbdcacd07822e8d5",
+    "title": "Cyera Acquiring Oasis Security in $1 Billion Deal",
+    "link": "https://www.securityweek.com/cyera-acquiring-oasis-security-in-1-billion-deal/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-28T14:55:30.000Z",
+    "summary": "Oasis Security recently raised $120 million in Series B funding for its agentic access management platform.\nThe post Cyera Acquiring Oasis Security in $1 Billion Deal appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "592c25b94f0339a7",
+    "title": "India’s Bank of Baroda confirms cyber incident after hackers claim data theft",
+    "link": "https://therecord.media/india-bank-of-baroda-reports-cybersecurity-incident",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-28T14:45:57.000Z",
+    "summary": "An employee's email account had been compromised, allowing unauthorized access to \"certain data,\" Bank of Baroda reported.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7942bdf3bfc6aabf",
+    "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
+    "link": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-28T14:41:36.000Z",
+    "summary": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet.\n\nOf the 36",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "b8403050b17c6858",
     "title": "Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe",
     "link": "https://www.securityweek.com/apple-patches-87-vulnerabilities-in-ios-155-in-macos-tahoe/",
@@ -79,6 +123,28 @@
     "severity": "normal"
   },
   {
+    "id": "9085f44b92b7dee1",
+    "title": "Siemens Mendix Runtime",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nMendix documentation for access rules does not adequately describe the special behavior of the System.User entity, leaving developers without sufficient guidance to configure access rules securely. This documentation gap m",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "90bc57782902ef72",
+    "title": "MikroTik RouterOS and Cloud Hosted Router",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to rapidly guess passwords and gain unauthorized system access.\nThe following versions of MikroTik RouterOS and Cloud Hosted Router are affected:\nRouterOS",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "8615f50bea44fc48",
     "title": "CI Fortify – Advice for isolating vital systems",
     "link": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
@@ -86,6 +152,61 @@
     "category": "advisory",
     "pubDate": "2026-07-28T12:00:00.000Z",
     "summary": "CI Fortify – Advice for isolating vital systems\nCISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of Investigation and international partners, released join",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8e68635fd7b2e587",
+    "title": "Siemens SIMATIC S7-PLCSIM Advanced",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSIMATIC S7-PLCSIM Advanced contains a vulnerability that could allow an attacker to cause a denial of service condition. Siemens is preparing fix versions and recommends specific countermeasures for products where fixes ar",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "706afe4efe72a798",
+    "title": "Siemens Desigo CC",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nOpenSSL has published a stack based buffer overflow vulnerability that allows a remote attacker to cause a denial of service (DoS) or potentially allow for remote code execution. Siemens has released new versions for sever",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "45cc039019a0a9b8",
+    "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nMultiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.6 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fix versions a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dffbaa85df90905e",
+    "title": "ABB KNX Update Tool",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nABB has been contacted by a researcher who identified a vulnerability in one of its products. ABB has been contacted by a researcher who identified a vulnerability in one of its products. The vulnerability report has been ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bcbdcff595af536f",
+    "title": "igloohome Smart Lock Mobile Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an unauthorized actor to access functions or backend services.\nThe following versions of igloohome Smart Lock Mobile Application are affected:\nSmart Lock Mobile App",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1550,24 +1671,13 @@
     "severity": "normal"
   },
   {
-    "id": "7e2b00889bf8588b",
-    "title": "MZ Automation libIEC61850",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06",
+    "id": "e3d52122386bd2cd",
+    "title": "MZ Automation lib60870",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an unauthenticated network-adjacent attacker to crash critical IEC 61850 services or execute arbitrary code, disrupting or compromising protection, visibility, a",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "070f775265fdf717",
-    "title": "Panduit IntraVUE",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker with access to the IT network to manipulate industrial control devices without requiring physical access, specialized insider knowledge, or advanced ",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could cause the parsing process to crash, which will cause a denial of service.\nThe following versions of MZ Automation lib60870 are affected:\nlib60870 <=2.4.0\nCVSS\nVendor\nEqui",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1583,24 +1693,13 @@
     "severity": "normal"
   },
   {
-    "id": "e3d52122386bd2cd",
-    "title": "MZ Automation lib60870",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
+    "id": "070f775265fdf717",
+    "title": "Panduit IntraVUE",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could cause the parsing process to crash, which will cause a denial of service.\nThe following versions of MZ Automation lib60870 are affected:\nlib60870 <=2.4.0\nCVSS\nVendor\nEqui",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6340dd9d129f5a8b",
-    "title": "Johnson Controls XAAP Android",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in an attacker obtaining confidential information from the device.\nThe following versions of Johnson Controls XAAP Android are affected:\nXAAP Android <1.53\nCVSS\nVe",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker with access to the IT network to manipulate industrial control devices without requiring physical access, specialized insider knowledge, or advanced ",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1623,6 +1722,28 @@
     "category": "advisory",
     "pubDate": "2026-07-23T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to restricted system directories outside of the application's intended directory.\nThe following versions of Rockw",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7e2b00889bf8588b",
+    "title": "MZ Automation libIEC61850",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-23T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an unauthenticated network-adjacent attacker to crash critical IEC 61850 services or execute arbitrary code, disrupting or compromising protection, visibility, a",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6340dd9d129f5a8b",
+    "title": "Johnson Controls XAAP Android",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-23T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in an attacker obtaining confidential information from the device.\nThe following versions of Johnson Controls XAAP Android are affected:\nXAAP Android <1.53\nCVSS\nVe",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2670,55 +2791,6 @@
     "pubDate": "2026-07-21T17:10:00.000Z",
     "summary": "The Agencia Española de Protección de Datos (AEPD) announced the fine on Friday, saying in its decision that more than 2,600 Spaniards were impacted by a breach affecting 6.9 million people worldwide.",
     "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c136d8044256f057",
-    "title": "Critical wp2shell WordPress flaws exploited to install webshells",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-21T16:41:50.000Z",
-    "summary": "Hackers are exploiting the \"wp2shell\" critical vulnerability suite (CVE-2026-63030 and CVE-2026-60137) affecting WordPress Core to deploy persistent webshells and install malicious plugins on affected servers. [...]",
-    "cveIds": [
-      "CVE-2026-63030",
-      "CVE-2026-60137"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "d235ef6ff6a6b4f7",
-    "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
-    "link": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-21T16:06:12.000Z",
-    "summary": "Hidden text on a web page was enough to make Kiro, AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approval step able to stop it.\n\nIntezer, in research with Kodem Sec",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1a528feed537541c",
-    "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
-    "link": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-21T15:09:28.000Z",
-    "summary": "Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently.\n\nA",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "58841e16626d1c2b",
-    "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
-    "link": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-21T14:57:51.000Z",
-    "summary": "A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr.\n\nThe vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserial",
-    "cveIds": [
-      "CVE-2026-50522"
-    ],
     "severity": "critical"
   }
 ]
