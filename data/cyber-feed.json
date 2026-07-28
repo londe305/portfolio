@@ -1,5 +1,71 @@
 [
   {
+    "id": "57ba38253412154c",
+    "title": "Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model",
+    "link": "https://www.securityweek.com/microsoft-unveils-mai-cyber-1-flash-its-first-cybersecurity-ai-model/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-28T11:11:48.000Z",
+    "summary": "The company claims MAI-Cyber-1-Flash tops Anthropic’s Mythos and OpenAI’s GPT-5.6 Sol in CyberGym testing.\nThe post Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model  appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fd7b9cce4a51bcfc",
+    "title": "Hacker Conversations: Tal Kollander’s Journey From Black Hat to Hack Blocker",
+    "link": "https://www.securityweek.com/hacker-conversations-tal-kollanders-journey-from-black-hat-to-hack-blocker/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-28T11:00:00.000Z",
+    "summary": "Tal Kollander’s history divides neatly into two halves: first as an active hacker and then as the block that stops hacks.\nThe post Hacker Conversations: Tal Kollander’s Journey From Black Hat to Hack Blocker appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e3787e788baecfb2",
+    "title": "Act Security Emerges from Stealth to Fight the Patch Problem",
+    "link": "https://www.securityweek.com/act-security-emerges-from-stealth-to-fight-the-patch-problem/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-28T11:00:00.000Z",
+    "summary": "Act Security tackles the spiraling patch problem caused by AI’s ability to find new vulnerabilities in existing cloud environments. \nThe post Act Security Emerges from Stealth to Fight the Patch Problem appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "613c41e555a3303d",
+    "title": "Hush Security Raises $30 Million for AI Agent Governance",
+    "link": "https://www.securityweek.com/hush-security-raises-30-million-for-ai-agent-governance/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-28T10:17:27.000Z",
+    "summary": "The startup will invest in expanding engineering and sales teams, accelerating ecosystem support, and expanding corporate partnerships.\nThe post Hush Security Raises $30 Million for AI Agent Governance appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "03fe9294fdaca6c9",
+    "title": "IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains",
+    "link": "https://blog.talosintelligence.com/ir-trends-q2-2026/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-07-28T10:00:01.000Z",
+    "summary": "Talos IR's Q2 report highlights a significant surge in phishing-based initial access and the weaponization of legitimate remote management tools. Learn how to sharpen your defenses.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b05aca282570c3a8",
+    "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
+    "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-28T09:10:03.000Z",
+    "summary": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "c0ae87bc7164afc7",
     "title": "Google Adopts New Threat Actor Naming System",
     "link": "https://www.securityweek.com/google-adopts-new-threat-actor-naming-system/",
@@ -9,6 +75,32 @@
     "summary": "The new two-word naming convention uses a memorable term utilized in public reporting and a cluster-categorization word.\nThe post Google Adopts New Threat Actor Naming System appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "258d732292b4c5a9",
+    "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
+    "link": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-28T08:11:22.000Z",
+    "summary": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution.\n\nThe vulnerability, assigned CVE-2026-63077",
+    "cveIds": [
+      "CVE-2026-63077"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "80107a728f69e9cd",
+    "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
+    "link": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-28T08:04:44.000Z",
+    "summary": "STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264 (CVSS score: 7.8), is a use-after-free race in the kernel's network tra",
+    "cveIds": [
+      "CVE-2026-53264"
+    ],
+    "severity": "cve"
   },
   {
     "id": "a82ac1eafa4cae07",
@@ -45,7 +137,7 @@
   },
   {
     "id": "0ede672f8e44d10b",
-    "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
+    "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
     "link": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
     "source": "The Hacker News",
     "category": "news",
@@ -2761,82 +2853,5 @@
     "summary": "A cloud tenant using nothing but ordinary GPU access can push a data center's power draw up and down fast enough to threaten the grid it runs on, with no exploit and no break-in.\n\nThat is the claim behind Bit2Watt, described by three Zhejia",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "fcab69a7853ada9b",
-    "title": "Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack",
-    "link": "https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-21T11:12:33.000Z",
-    "summary": "Hackers exfiltrated personal, financial, and health information from the company’s Oracle EBS instance in August 2025.\nThe post Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0a2e0f8d87eec3a7",
-    "title": "US seizes over 1,000 websites in FIFA World Cup piracy crackdown",
-    "link": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-21T11:07:07.000Z",
-    "summary": "The U.S. Justice Department has seized more than 1,000 websites and blocked 1,970 domains used to stream FIFA World Cup 2026 matches without authorization. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a0869fafb87e9e93",
-    "title": "Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data",
-    "link": "https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-21T10:19:21.000Z",
-    "summary": "A security researcher discovered a broken access control vulnerability in Meta’s support infrastructure.\nThe post Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "be7c59208c24869a",
-    "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-21T10:12:24.000Z",
-    "summary": "The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1e9f7c552de999b0",
-    "title": "Clover Health Investments Discloses Data Breach",
-    "link": "https://www.securityweek.com/clover-health-investments-discloses-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-21T09:36:51.000Z",
-    "summary": "Using social engineering, hackers compromised employee accounts with access to personal and health information.\nThe post Clover Health Investments Discloses Data Breach appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3a2679bddf229ab2",
-    "title": "Microsoft shares manual fix for WSUS sync delays and timeouts",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-manual-fix-for-wsus-sync-delays-and-timeouts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-21T09:05:50.000Z",
-    "summary": "Microsoft has shared manual mitigations to help IT administrators fix Windows Server Update Services (WSUS) servers affected by a known issue that causes Windows Update scans to fail or time out. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1cfa0d30e91cb773",
-    "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
-    "link": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-21T08:59:30.000Z",
-    "summary": "Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable websites.\n\nThe two security flaws, tracked as C",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
