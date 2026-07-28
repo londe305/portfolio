@@ -1,5 +1,106 @@
 [
   {
+    "id": "b8403050b17c6858",
+    "title": "Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe",
+    "link": "https://www.securityweek.com/apple-patches-87-vulnerabilities-in-ios-155-in-macos-tahoe/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-28T14:19:31.000Z",
+    "summary": "Apple announced that dozens of vulnerabilities have been patched in each of its operating systems.\nThe post Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "02342417641774ac",
+    "title": "Is Your SSO Protected Against Modern Credential Attacks?",
+    "link": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-28T14:00:10.000Z",
+    "summary": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d22d44038d4f0fe5",
+    "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
+    "link": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-28T13:33:47.000Z",
+    "summary": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment.\n\nArtifactory is JFrog's software repository manager. OpenAI says the models",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ce3caecb8122b3b4",
+    "title": "OT Security Startup Frenos Raises $1.52 Million",
+    "link": "https://www.securityweek.com/ot-security-startup-frenos-raises-1-52-million/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-28T13:05:25.000Z",
+    "summary": "The company will use the fresh investment to grow its customer success and AI R&D teams.\nThe post OT Security Startup Frenos Raises $1.52 Million appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fd5f744f3ab65af5",
+    "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
+    "link": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-28T12:56:14.000Z",
+    "summary": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default.\n\nThe critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in ",
+    "cveIds": [
+      "CVE-2026-53921"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "c608e9a3f951148f",
+    "title": "Former Citigroup CISO Blauner on What Makes A Great Security Leader",
+    "link": "https://www.darkreading.com/cybersecurity-operations/former-citigroup-ciso-blauner-great-security-leader",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-28T12:30:00.000Z",
+    "summary": "The cybersecurity pioneer discusses the evolution of the CISO role, AI's impact on careers, and why operational resilience is the profession's next frontier.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a2ecc15302d67fac",
+    "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-28T12:10:23.000Z",
+    "summary": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8615f50bea44fc48",
+    "title": "CI Fortify – Advice for isolating vital systems",
+    "link": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "CI Fortify – Advice for isolating vital systems\nCISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of Investigation and international partners, released join",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e2225af3b0449f38",
+    "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
+    "link": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-28T11:55:20.000Z",
+    "summary": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "57ba38253412154c",
     "title": "Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model",
     "link": "https://www.securityweek.com/microsoft-unveils-mai-cyber-1-flash-its-first-cybersecurity-ai-model/",
@@ -226,6 +327,17 @@
     "severity": "critical"
   },
   {
+    "id": "f5265b90696520c1",
+    "title": "Agentic Browsers Rewind Web Security by 20 years",
+    "link": "https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-27T21:39:09.000Z",
+    "summary": "PleaseFix class of flaws makes it easy to socially engineer agentic browsers and highlights weaknesses in how they handle cross-origin requests.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "16ac7903dd7c9e2a",
     "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
     "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
@@ -279,6 +391,17 @@
     "summary": "An FBI agent explains how the mulitnational law-enforcement Operation Cronos was successful in disrupting the largest ransomware group of its time.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "487aa476e2d82efe",
+    "title": "Why Resetting Passwords No Longer Stops Attackers",
+    "link": "https://www.darkreading.com/endpoint-security/why-resetting-passwords-no-longer-stop-attacks",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-27T18:39:50.000Z",
+    "summary": "As attackers shift from password theft to session and token theft to bypass multifactor authentication controls, organizations must move beyond login security and protect authenticated sessions.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "7324670db8391cfe",
@@ -1427,50 +1550,6 @@
     "severity": "normal"
   },
   {
-    "id": "df28f046eb386c64",
-    "title": "Weintek cMT3092X",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow a non-privileged user to escalate privileges or view the credentials of other users.\nThe following versions of Weintek cMT3092X are affected:\ncMT3092X firmware <",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7a6e15c709a4adb5",
-    "title": "Rockwell Automation ThinManager",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to restricted system directories outside of the application's intended directory.\nThe following versions of Rockw",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d9cea57d40b0ffe5",
-    "title": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite",
-    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite\nExecutive summary \nA group of Russian state-supported cyber actors has been targeting and compromising various Western government a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6340dd9d129f5a8b",
-    "title": "Johnson Controls XAAP Android",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in an attacker obtaining confidential information from the device.\nThe following versions of Johnson Controls XAAP Android are affected:\nXAAP Android <1.53\nCVSS\nVe",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "7e2b00889bf8588b",
     "title": "MZ Automation libIEC61850",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06",
@@ -1482,13 +1561,13 @@
     "severity": "critical"
   },
   {
-    "id": "e3d52122386bd2cd",
-    "title": "MZ Automation lib60870",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
+    "id": "070f775265fdf717",
+    "title": "Panduit IntraVUE",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could cause the parsing process to crash, which will cause a denial of service.\nThe following versions of MZ Automation lib60870 are affected:\nlib60870 <=2.4.0\nCVSS\nVendor\nEqui",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker with access to the IT network to manipulate industrial control devices without requiring physical access, specialized insider knowledge, or advanced ",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1504,13 +1583,57 @@
     "severity": "normal"
   },
   {
-    "id": "070f775265fdf717",
-    "title": "Panduit IntraVUE",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04",
+    "id": "e3d52122386bd2cd",
+    "title": "MZ Automation lib60870",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker with access to the IT network to manipulate industrial control devices without requiring physical access, specialized insider knowledge, or advanced ",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could cause the parsing process to crash, which will cause a denial of service.\nThe following versions of MZ Automation lib60870 are affected:\nlib60870 <=2.4.0\nCVSS\nVendor\nEqui",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6340dd9d129f5a8b",
+    "title": "Johnson Controls XAAP Android",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-23T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in an attacker obtaining confidential information from the device.\nThe following versions of Johnson Controls XAAP Android are affected:\nXAAP Android <1.53\nCVSS\nVe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d9cea57d40b0ffe5",
+    "title": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-23T12:00:00.000Z",
+    "summary": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite\nExecutive summary \nA group of Russian state-supported cyber actors has been targeting and compromising various Western government a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7a6e15c709a4adb5",
+    "title": "Rockwell Automation ThinManager",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-23T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to restricted system directories outside of the application's intended directory.\nThe following versions of Rockw",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "df28f046eb386c64",
+    "title": "Weintek cMT3092X",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-23T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow a non-privileged user to escalate privileges or view the credentials of other users.\nThe following versions of Weintek cMT3092X are affected:\ncMT3092X firmware <",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1803,6 +1926,28 @@
     "category": "advisory",
     "pubDate": "2026-07-23T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5340d97104f58601",
+    "title": "Multiples vulnérabilités dans Oracle Systems (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0918/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Systems. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un déni de service.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9eb01fb64e3c2282",
+    "title": "Multiples vulnérabilités dans Oracle Virtualization (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0919/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un déni de service.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2575,283 +2720,5 @@
       "CVE-2026-50522"
     ],
     "severity": "critical"
-  },
-  {
-    "id": "76c3e9e80b2c3760",
-    "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
-    "link": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-21T14:04:57.000Z",
-    "summary": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments.\n\nArctic Wolf Labs said it investigated multipl",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a87439721021da4f",
-    "title": "Closing the Identity Gaps in Critical Infrastructure Security",
-    "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-21T14:00:10.000Z",
-    "summary": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device trust before granting access to critical s",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d86e0337e48d061c",
-    "title": "Captive Portal Detection, (Tue, Jul 21st)",
-    "link": "https://isc.sans.edu/diary/rss/33172",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-21T13:44:56.000Z",
-    "summary": "Not everything our honeypots detect is an attack. Sometimes it is just \"odd traffic\", and this is one example: Our \"First Seen\" list currently includes \"http://detectportal.firefox.co",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7715d67cb39d2eb0",
-    "title": "Taiwan to slow mobile data during national resilience drills",
-    "link": "https://therecord.media/taiwan-mobile-5g-speed-reductions-han-kuang",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-21T13:30:00.000Z",
-    "summary": "The speed of 5G and 4G networks across much of Taiwan will be temporarily reduced to 1 percent of capacity as the island holds annual civilian and military exercises.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3487fb972adb1996",
-    "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
-    "link": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-21T13:18:31.000Z",
-    "summary": "Zimbra has rolled out fixes to address multiple critical security issues, including a command injection flaw in the Simple Network Management Protocol (SNMP) monitoring component.\n\nAs many as nine security vulnerabilities have been patched ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b8f0f8eabd05b7c6",
-    "title": "Choose Wisely: AI-Generated Coding Risk Varies, a Lot",
-    "link": "https://www.darkreading.com/application-security/choose-wisely-ai-generated-coding-risk-varies",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-21T13:00:00.000Z",
-    "summary": "AI-generated code introduces 15 vulnerabilities on average per codebase, but the actual risk depends on framework pairing more than the model used.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "70bf60083475050d",
-    "title": "Empirical Security Raises $25 Million in Series A Funding",
-    "link": "https://www.securityweek.com/empirical-security-raises-25-million-in-series-a-funding/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-21T12:47:18.000Z",
-    "summary": "The startup will use the investment to accelerate the development of its threat prediction and discovery products.\nThe post Empirical Security Raises $25 Million in Series A Funding appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "af1a050201f6f14c",
-    "title": "SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity",
-    "link": "https://www.securityweek.com/securityweek-launches-critical-impact-awards-to-recognize-excellence-in-industrial-cybersecurity/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-21T12:30:00.000Z",
-    "summary": "Independently judged and sponsor-neutral, the new awards program honors the people, organizations, and technologies delivering proven impact in industrial cybersecurity; winners to be announced live at the 2026 ICS Cybersecurity Conference ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d52def23b94c0460",
-    "title": "Kenya probes hack of president's website after bitcoin ransom demand",
-    "link": "https://therecord.media/kenya-probes-hack-of-presidents-website-after-ransom-demand",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-21T12:08:00.000Z",
-    "summary": "The website was hacked on Saturday, when its homepage was replaced with a message displaying a cryptocurrency wallet address and threatening to publish unspecified information about President William Ruto unless the ransom was paid.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5f6b5e1e18024e4b",
-    "title": "Rockwell Automation 1718-AENTR/1719-AENTR",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-21T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product.\nThe following versions of Rockwell Automation 1718-AENTR/1719-AENTR are affected:\n1718/ 1719 ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "43a6403f5e69bafc",
-    "title": "Siemens SIDIS Secured SmartPlug",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-21T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSIDIS Secured SmartPlug before V7.26.0310 is affected by multiple vulnerabilities in the components OpenSSL, OpenSSH, and several other packages as described below. Siemens has released a new version of SIDIS Secured Smart",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6a256aaf279743e5",
-    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-21T12:00:00.000Z",
-    "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2021-27137 DD-WRT Stack-Based Buffer Overflow Vulnerability\nCVE-2026-0770 Langflow Inclusion of Func",
-    "cveIds": [
-      "CVE-2021-27137",
-      "CVE-2026-0770"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "c50b86278d285455",
-    "title": "Siemens IAM Client",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-21T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nMultiple Siemens products are affected by unquoted search path vulnerability in IAM Client. This could allow an authenticated local attacker to perform privilege escalation. Siemens has released new versions for several af",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a85f1c1635986a5a",
-    "title": "Siemens RUGGEDCOM APE1808 with Palo Alto Networks Virtual NGFW",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-21T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nPalo Alto Networks has published [1] information on vulnerabilities in PAN-OS. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Customers are advised to consult and implement t",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1d2407a0dd87e129",
-    "title": "Rockwell Automation 1734 POINT I/O",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-09",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-21T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product.\nThe following versions of Rockwell Automation 1734 POINT I/O are affected:\n1734 POINT I/O 3.0",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5864a7804341b406",
-    "title": "Rockwell Automation FactoryTalk Services Platform",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-21T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to impersonate an authorized user on the FTSP server, resulting in unauthorized access to system configurations.\nThe following versions of Rockwell Auto",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "40595772e3738f65",
-    "title": "Rockwell Automation Studio 5000 Logix Designer",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-10",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-21T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow for a local attacker to execute arbitrary files, alter configurations, or execute arbitrary code.\nThe following versions of Rockwell Automation Studio 5000 Logix",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "285ac42e55763b15",
-    "title": "Siemens CADRA",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-21T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nCADRA is affected by multiple zlib and Foxit vulnerabilities. Siemens has released a new version for CADRA and recommends to update to the latest version. Siemens is preparing further fix versions and recommends specific c",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e7e69ea6ea7c90bd",
-    "title": "Siemens Opcenter X",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-21T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nOpcenter X before V2604 contain an authentication bypass vulnerability that could allow an attacker to gain full unauthorized access to the application. Siemens has released a new version for Opcenter X and recommends to u",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2fd6b47b8951056e",
-    "title": "Tycon Systems TPDIN-Monitor-WEB2",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-21T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipment, which could present a physical safety r",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "06fe19b9b7da0d76",
-    "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
-    "link": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-21T11:58:00.000Z",
-    "summary": "An Android app that can draw over other windows and write to shared storage can slip instructions to the AI agent driving that phone, in text no human eye will ever see. Two more steps, and the same app is running commands on the PC driving",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "24339dd3f46f3735",
-    "title": "New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication",
-    "link": "https://www.securityweek.com/new-hollowgraph-malware-abuses-microsoft-365-calendar-for-cc-communication/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-21T11:55:28.000Z",
-    "summary": "Part of a larger toolkit, HollowGraph uses a compromised 365 account’s calendar as a two-way dead-drop.\nThe post New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9540b6fd01dbf2e3",
-    "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
-    "link": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-21T11:42:23.000Z",
-    "summary": "Every patch is a confession.\n\nThe moment a vendor ships a security fix, the diff between the old code and the new code tells anyone watching exactly what was broken and where. Turn that diff back into a working exploit, and you can hit ever",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "63102346c6fb1bb9",
-    "title": "CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG",
-    "link": "https://www.securityweek.com/ciso-conversations-andreas-gaetje-from-economics-to-ciso-at-korber-ag/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-21T11:30:00.000Z",
-    "summary": "Gaetje’s story shows that you don’t need to be a ‘deep bit-crawler’ to become a Chief Information Security Officer.\nThe post CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5f7e631ba298b703",
-    "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
-    "link": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-21T11:24:50.000Z",
-    "summary": "A cloud tenant using nothing but ordinary GPU access can push a data center's power draw up and down fast enough to threaten the grid it runs on, with no exploit and no break-in.\n\nThat is the claim behind Bit2Watt, described by three Zhejia",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
