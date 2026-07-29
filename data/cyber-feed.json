@@ -1,5 +1,51 @@
 [
   {
+    "id": "b373298601a4a243",
+    "title": "Anthropic confirms Claude is down worldwide",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-29T21:39:29.000Z",
+    "summary": "Claude is down for some users, with Anthropic confirming elevated errors across multiple AI models. The disruption is causing requests to fail with a \"529 Overloaded\" message, including in Claude and tools that rely on its API. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5b47dfb06d8e2d02",
+    "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-29T21:35:40.000Z",
+    "summary": "Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively exploited in zero-day attacks to gain unauthorized access to vulnerable devices. [...]",
+    "cveIds": [
+      "CVE-2026-20316"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "73584dea6687fd60",
+    "title": "OpenAI's Rogue Model Claims More Victims Beyond Hugging Face",
+    "link": "https://www.darkreading.com/application-security/openai-rogue-model-claims-more-victims-beyond-hugging-face",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-29T19:48:12.000Z",
+    "summary": "OpenAI revealed rogue AI models compromised more services than initially disclosed, including a Modal customer environment and others.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b360cf1cb99c2d95",
+    "title": "Red Agents vs. Blue Agents: How to Make AI Better At Defense",
+    "link": "https://www.darkreading.com/cybersecurity-operations/red-agents-vs-blue-agents-make-ai-better-defense",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-29T19:46:20.000Z",
+    "summary": "The agentic AI playing field was heavily tilted toward offense, so researchers began using red team agents to help teach their blue counterparts.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "3c95f7725d7b9936",
     "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
     "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
@@ -266,6 +312,19 @@
     "severity": "normal"
   },
   {
+    "id": "06f94c065a4ac5c8",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-29T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-20316 Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability\nThis type",
+    "cveIds": [
+      "CVE-2026-20316"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "98188d77c26a4d3e",
     "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
     "link": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
@@ -453,6 +512,17 @@
     "summary": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.\n\nThe list of affected packages is as follows -\n\n\n  @joyfill/lay",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "43b8dc250f0be504",
+    "title": "FTC sues Hims & Hers for allegedly sharing patient information with third-party platforms",
+    "link": "https://therecord.media/hims-hers-privacy-lawsuit-ftc",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-29T04:00:00.000Z",
+    "summary": "Popular telehealth provider Hims & Hers \"shared consumers’ sensitive health information with third-party advertising platforms such as Meta and Snap despite promising to protect patient privacy,\" the federal government alleges.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "5e142d7bf836f368",
@@ -721,17 +791,6 @@
     "severity": "normal"
   },
   {
-    "id": "8615f50bea44fc48",
-    "title": "CI Fortify – Advice for isolating vital systems",
-    "link": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "CI Fortify – Advice for isolating vital systems\nCISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of Investigation and international partners, released join",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "90bc57782902ef72",
     "title": "MikroTik RouterOS and Cloud Hosted Router",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
@@ -754,6 +813,17 @@
     "severity": "normal"
   },
   {
+    "id": "8615f50bea44fc48",
+    "title": "CI Fortify – Advice for isolating vital systems",
+    "link": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "CI Fortify – Advice for isolating vital systems\nCISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of Investigation and international partners, released join",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "706afe4efe72a798",
     "title": "Siemens Desigo CC",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-01",
@@ -761,6 +831,17 @@
     "category": "advisory",
     "pubDate": "2026-07-28T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nOpenSSL has published a stack based buffer overflow vulnerability that allows a remote attacker to cause a denial of service (DoS) or potentially allow for remote code execution. Siemens has released new versions for sever",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bcbdcff595af536f",
+    "title": "igloohome Smart Lock Mobile Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an unauthorized actor to access functions or backend services.\nThe following versions of igloohome Smart Lock Mobile Application are affected:\nSmart Lock Mobile App",
     "cveIds": [],
     "severity": "normal"
   },
@@ -783,17 +864,6 @@
     "category": "advisory",
     "pubDate": "2026-07-28T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nABB has been contacted by a researcher who identified a vulnerability in one of its products. ABB has been contacted by a researcher who identified a vulnerability in one of its products. The vulnerability report has been ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bcbdcff595af536f",
-    "title": "igloohome Smart Lock Mobile Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an unauthorized actor to access functions or backend services.\nThe following versions of igloohome Smart Lock Mobile Application are affected:\nSmart Lock Mobile App",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2280,24 +2350,35 @@
     "severity": "normal"
   },
   {
-    "id": "e3d52122386bd2cd",
-    "title": "MZ Automation lib60870",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
+    "id": "7e2b00889bf8588b",
+    "title": "MZ Automation libIEC61850",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could cause the parsing process to crash, which will cause a denial of service.\nThe following versions of MZ Automation lib60870 are affected:\nlib60870 <=2.4.0\nCVSS\nVendor\nEqui",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an unauthenticated network-adjacent attacker to crash critical IEC 61850 services or execute arbitrary code, disrupting or compromising protection, visibility, a",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7a6e15c709a4adb5",
+    "title": "Rockwell Automation ThinManager",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-23T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to restricted system directories outside of the application's intended directory.\nThe following versions of Rockw",
     "cveIds": [],
     "severity": "normal"
   },
   {
-    "id": "e7b61edb1ce2bc44",
-    "title": "Johnson Controls C-CURE 9000 and Victor application server",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01",
+    "id": "6340dd9d129f5a8b",
+    "title": "Johnson Controls XAAP Android",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-02",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker with network access to achieve remote code execution.\nThe following versions of Johnson Controls C-CURE 9000 and Victor application server are affect",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in an attacker obtaining confidential information from the device.\nThe following versions of Johnson Controls XAAP Android are affected:\nXAAP Android <1.53\nCVSS\nVe",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2313,6 +2394,17 @@
     "severity": "normal"
   },
   {
+    "id": "e7b61edb1ce2bc44",
+    "title": "Johnson Controls C-CURE 9000 and Victor application server",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-23T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker with network access to achieve remote code execution.\nThe following versions of Johnson Controls C-CURE 9000 and Victor application server are affect",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "d9cea57d40b0ffe5",
     "title": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite",
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
@@ -2324,35 +2416,13 @@
     "severity": "normal"
   },
   {
-    "id": "7a6e15c709a4adb5",
-    "title": "Rockwell Automation ThinManager",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05",
+    "id": "e3d52122386bd2cd",
+    "title": "MZ Automation lib60870",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to restricted system directories outside of the application's intended directory.\nThe following versions of Rockw",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7e2b00889bf8588b",
-    "title": "MZ Automation libIEC61850",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an unauthenticated network-adjacent attacker to crash critical IEC 61850 services or execute arbitrary code, disrupting or compromising protection, visibility, a",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6340dd9d129f5a8b",
-    "title": "Johnson Controls XAAP Android",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-23T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in an attacker obtaining confidential information from the device.\nThe following versions of Johnson Controls XAAP Android are affected:\nXAAP Android <1.53\nCVSS\nVe",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could cause the parsing process to crash, which will cause a denial of service.\nThe following versions of MZ Automation lib60870 are affected:\nlib60870 <=2.4.0\nCVSS\nVendor\nEqui",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2724,60 +2794,5 @@
     "summary": "Stadler Rail said it will not make a $12.3 million ransom payment after cybercriminals stole technical data from a supplier's file-sharing platform.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "2f50f0e44d3b7ecf",
-    "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
-    "link": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-22T21:43:39.000Z",
-    "summary": "The Upbound Group fintech company disclosed that threat actors who stole data from its systems leveraged it to create $13 million in Acima leases. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4f58fb9597105a7b",
-    "title": "Attackers Are Learning to Live Off the AI Toolchain",
-    "link": "https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-22T21:29:01.000Z",
-    "summary": "Sandworm_Mode is an early example of malware that exploits trusted AI tools and workflows to make malicious activity virtually indistinguishable from normal activity.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d2471b2eca22c7c0",
-    "title": "Extension of CISA 2015 info-sharing protections passes as part of House’s defense bill",
-    "link": "https://therecord.media/cisa-2015-extension-passes-house-ndaa",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-22T20:39:35.000Z",
-    "summary": "A 10-year renewal of the cybersecurity information-sharing law known as CISA 2015 passed as part of the House's fiscal 2027 defense authorization bill.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f4b89f8de79ab5f7",
-    "title": "South Korea discloses data breach impacting diplomats worldwide",
-    "link": "https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-22T20:06:54.000Z",
-    "summary": "South Korea disclosed that hackers breached the National Diplomatic Academy's online education system for ten months and stole personal information belonging to current and former employees of the Ministry of Foreign Affairs (MFA), includin",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3f8c79a42a3e9f01",
-    "title": "Fake Bahrain Alert App Deploys Android Surveillance Malware",
-    "link": "https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-22T19:42:42.000Z",
-    "summary": "A malicious application delivers four-stage Android spyware via phony Google Play sites, exploiting civilian fear during Iranian missile strikes.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
