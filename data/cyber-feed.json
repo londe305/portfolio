@@ -1,5 +1,71 @@
 [
   {
+    "id": "2cedc8aa80f4a308",
+    "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-29T16:04:59.000Z",
+    "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other o",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3e57e4f822db077b",
+    "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+    "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-29T15:39:30.000Z",
+    "summary": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.\n\nThe vulnerability, ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dc28e084be7f301f",
+    "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+    "link": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-29T15:31:15.000Z",
+    "summary": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.\n\nThe first of the three critical-rated flaws is C",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "65abd9d4a633f693",
+    "title": "Hackers target over 30 Minnesota water utilities in coordinated OT attack",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-29T14:55:57.000Z",
+    "summary": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated cyberattack.\" [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "772f6427178ec9ed",
+    "title": "Laundry Bear’s webmail hackers had more in store after February, report says",
+    "link": "https://therecord.media/russia-hackers-outlook-webmail-malware",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-29T14:45:00.000Z",
+    "summary": "Researchers say the Russian state-linked hacking group tracked as Laundry Bear recently began exploiting a bug in Microsoft Outlook Web Access.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9d2b9cf55f9ed8e0",
+    "title": "Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms",
+    "link": "https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-29T14:40:33.000Z",
+    "summary": "The vulnerability in the AI hosting platform Ruflo allows an unauthenticated attacker to take over the system and corrupt memory, so bad behavior can persist after patching.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "1b37553b3ba2ef0c",
     "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
     "link": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
@@ -18,6 +84,28 @@
     "category": "news",
     "pubDate": "2026-07-29T13:56:22.000Z",
     "summary": "​​Microsoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b7ec7019895fb4b2",
+    "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
+    "link": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-29T13:48:36.000Z",
+    "summary": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response.\n\nBraham, Plymouth, South St. Paul and Maple Plain have publicly de",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9fa456aff07038ad",
+    "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
+    "link": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-29T13:42:57.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years.\n\nAccording ",
     "cveIds": [],
     "severity": "normal"
   },
@@ -84,6 +172,17 @@
     "category": "news",
     "pubDate": "2026-07-29T12:15:00.000Z",
     "summary": "Angola’s largest telecommunications operator, Unitel, was hit by a cyberattack that has left millions of people nationwide without voice services, mobile data, and internet access.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "91ad4a6ca3ada0ec",
+    "title": "2026 Minimum Elements for a Software Bill of Materials (SBOM)",
+    "link": "https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-29T12:00:00.000Z",
+    "summary": "CISA, the National Security Agency, the Federal Bureau of Investigation, and international partners released joint guidance, 2026 Minimum Elements for a Software Bill of Materials (SBOM), that updates and replaces the minimum elements for a",
     "cveIds": [],
     "severity": "normal"
   },
@@ -543,17 +642,6 @@
     "severity": "normal"
   },
   {
-    "id": "90bc57782902ef72",
-    "title": "MikroTik RouterOS and Cloud Hosted Router",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to rapidly guess passwords and gain unauthorized system access.\nThe following versions of MikroTik RouterOS and Cloud Hosted Router are affected:\nRouterOS",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "8615f50bea44fc48",
     "title": "CI Fortify – Advice for isolating vital systems",
     "link": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
@@ -561,6 +649,17 @@
     "category": "advisory",
     "pubDate": "2026-07-28T12:00:00.000Z",
     "summary": "CI Fortify – Advice for isolating vital systems\nCISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of Investigation and international partners, released join",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "90bc57782902ef72",
+    "title": "MikroTik RouterOS and Cloud Hosted Router",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to rapidly guess passwords and gain unauthorized system access.\nThe following versions of MikroTik RouterOS and Cloud Hosted Router are affected:\nRouterOS",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2678,82 +2777,5 @@
     "summary": "A North Korean advanced persistent threat (APT) group recently targeted vendors of collaborative-work software, South Korean researchers said.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "ee7654e3dd6bed26",
-    "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-22T16:00:00.000Z",
-    "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions.\nThe post Real world incident response: Micro",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f85fb5897dbaa069",
-    "title": "When AI Attacks: OpenAI Models Autonomously Hack Hugging Face",
-    "link": "https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-22T15:53:47.000Z",
-    "summary": "Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b1cba3031a558c53",
-    "title": "Japanese food logistics giant recovers as extortion group claims cyberattack",
-    "link": "https://therecord.media/nichirei-japan-food-logistics-cyberattack-recovery",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-22T15:40:00.000Z",
-    "summary": "Nichirei Logistics Group said warehouse operations and frozen food shipments are returning to normal. A cybercrime gang said it caused the disruption.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ab34513f25a0494a",
-    "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
-    "link": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-22T15:30:00.000Z",
-    "summary": "Enterprise AI can accelerate ransomware attacks when AI assistants and agents inherit excessive permissions or compromised identities. Acronis explains how identity controls, governance, and least-privilege access help reduce AI-enabled ran",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f710c449669c9ebc",
-    "title": "Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts",
-    "link": "https://www.securityweek.com/suno-paidwork-data-breaches-affect-tens-of-millions-of-accounts/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-22T15:02:11.000Z",
-    "summary": "Hackers leaked names, email addresses, phone numbers, passwords, and financial information stolen from the two platforms. \nThe post Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "75318ab57dbc06ab",
-    "title": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
-    "link": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-22T15:01:21.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited, could facilitate a silent hijack of a user's WhatsApp data.\n\nT",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6c4aa5b4045f2bfc",
-    "title": "Palo Alto Networks to Acquire Observability Platform Provider Embrace",
-    "link": "https://www.securityweek.com/palo-alto-networks-to-acquire-observability-platform-provider-embrace/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-22T14:58:53.000Z",
-    "summary": "Acquisition follows January's Chronosphere deal, deepening Palo Alto Networks' push beyond core security into observability.\nThe post Palo Alto Networks to Acquire Observability Platform Provider Embrace appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
