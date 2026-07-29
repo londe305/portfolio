@@ -1,5 +1,73 @@
 [
   {
+    "id": "3c95f7725d7b9936",
+    "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+    "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-29T18:10:00.000Z",
+    "summary": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.\n\nTracked as CVE-2026-66066 (CVSS score: 9.5),",
+    "cveIds": [
+      "CVE-2026-66066"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "23895b49fa11a67f",
+    "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
+    "link": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-29T17:54:05.000Z",
+    "summary": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHunters. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "903d4bd49440bce2",
+    "title": "Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-29T17:43:38.000Z",
+    "summary": "Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what CISOs should be aware of.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "28745ba13180b0d0",
+    "title": "Hugging Face Hack Lessons for Cyber Defenders",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/hugging-face-hack-lessons-cyber-defenders",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-29T17:35:23.000Z",
+    "summary": "Dark Reading Confidential Episode 20: Expert Rich Mogull reflects on lessons cyber teams should pull from the OpenAI agent's attack on Hugging Face.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3b0835ce574fab02",
+    "title": "OpenAI says rogue agent behind Hugging Face hack broke into additional services",
+    "link": "https://therecord.media/openai-says-rogue-agent-behind-hugging-face-hack-broke-into-additional-services",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-29T17:22:00.000Z",
+    "summary": "The four additional targeted organizations weren’t named. OpenAI said they were not affected as severely as Hugging Face.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "19e39e3f5a476688",
+    "title": "When AppSec Scanners Become a Supply Chain Attack Vector",
+    "link": "https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-29T17:06:52.000Z",
+    "summary": "New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "2cedc8aa80f4a308",
     "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
     "link": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
@@ -9,6 +77,17 @@
     "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other o",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "8a9815b898fff147",
+    "title": "​​Better security starts with better questions",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/29/better-security-starts-with-better-questions/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-07-29T16:00:00.000Z",
+    "summary": "Learn how better questions, trusted AI, and human judgment help security leaders make confident decisions and build resilient systems.\nThe post ​​Better security starts with better questions appeared first on Microsoft Security Blog.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "3e57e4f822db077b",
@@ -34,7 +113,7 @@
   },
   {
     "id": "65abd9d4a633f693",
-    "title": "Hackers target over 30 Minnesota water utilities in coordinated OT attack",
+    "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
     "source": "BleepingComputer",
     "category": "news",
@@ -2700,82 +2779,5 @@
     "summary": "A malicious application delivers four-stage Android spyware via phony Google Play sites, exploiting civilian fear during Iranian missile strikes.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "ba438cbe8f41475f",
-    "title": "Federal agencies broaden alert on Iran-linked OT attacks",
-    "link": "https://therecord.media/federal-agencies-broaden-alert-on-iran-linked-ot-attacks",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-22T19:18:00.000Z",
-    "summary": "The observed incidents include “malicious project file interactions and manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays,” the advisory says.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9e36f1a32c9e8061",
-    "title": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier",
-    "link": "https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-22T18:37:42.000Z",
-    "summary": "Beginning July 27, 2026, GitHub will cut public bug bounty payouts by at least half at every severity level. Critical findings will drop from $20,000-$30,000+ to a fixed $10,000, while its permanent invite-only VIP tier will pay $30,000 or ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "72743ead52c6841c",
-    "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
-    "link": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-22T18:07:16.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain complete control of a target environment.\n\nThe hig",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "73ef57569dd68649",
-    "title": "French Parliament greenlights social media ban for under-15s",
-    "link": "https://therecord.media/france-social-media-ban-parliament",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-22T18:00:00.000Z",
-    "summary": "Both houses of the French Parliament voted to block social media access for children under 15, making France the first European country to enact a ban amid a broadening global crackdown.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5ae16e85dbc3bf22",
-    "title": "Rondo Meets Geoserver, (Wed, Jul 22nd)",
-    "link": "https://isc.sans.edu/diary/rss/33176",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-22T17:35:33.000Z",
-    "summary": "This isn&#;x26;#;39;t a new attack, but something I saw \"pop-up\" in our logs this week:",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "39b8b607a61827cc",
-    "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-22T16:59:17.000Z",
-    "summary": "Swiss rail vehicle manufacturer Stadler Rail says the Everest ransomware gang demanded about $12.3 million after breaching a data exchange platform shared with one of its suppliers. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "db3a256756991f37",
-    "title": "New Kimsuky campaign compromised South Korean software vendors",
-    "link": "https://therecord.media/kimsuky-north-korea-espionage-groupware-companies",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-22T16:47:00.000Z",
-    "summary": "A North Korean advanced persistent threat (APT) group recently targeted vendors of collaborative-work software, South Korean researchers said.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
