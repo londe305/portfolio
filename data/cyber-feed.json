@@ -1,5 +1,128 @@
 [
   {
+    "id": "1b37553b3ba2ef0c",
+    "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
+    "link": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-29T14:02:12.000Z",
+    "summary": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege are becoming the foundation for securing a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "acc7d4a1cc421fbe",
+    "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-29T13:56:22.000Z",
+    "summary": "​​Microsoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "efb117a41edb01fd",
+    "title": "US Bans Foreign-Made Humanoid Robots, Targeting China Over National Security",
+    "link": "https://www.securityweek.com/us-bans-foreign-made-humanoid-robots-targeting-china-over-national-security/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-29T13:31:00.000Z",
+    "summary": "The agency said imports of advanced robots pose cybersecurity and other national security risks.\nThe post US Bans Foreign-Made Humanoid Robots, Targeting China Over National Security appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c369e3e86d821894",
+    "title": "Mate Security Raises $35 Million for Agentic SOC",
+    "link": "https://www.securityweek.com/mate-security-raises-35-million-for-agentic-soc/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-29T12:47:13.000Z",
+    "summary": "The startup will use the investment to expand its customer support, sales, and R&D teams.\nThe post Mate Security Raises $35 Million for Agentic SOC appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "98464ff42dee89df",
+    "title": "Russia accuses Telegram founder of aiding terrorism, seeks international arrest",
+    "link": "https://therecord.media/russia-telegram-durov-arrest",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-29T12:45:00.000Z",
+    "summary": "Russia is seeking to place Telegram founder Pavel Durov on an international wanted list, alleging that the app has been used by Ukrainian intelligence to organize terrorist attacks and conduct espionage inside Russia.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d555c538ebe2a631",
+    "title": "ThreatLocker Raises $190 Million in Series F Funding",
+    "link": "https://www.securityweek.com/threatlocker-raises-190-million-in-series-f-funding/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-29T12:17:14.000Z",
+    "summary": "The company was previously valued at $1.6 billion, and the latest raise has significantly increased that valuation.\nThe post ThreatLocker Raises $190 Million in Series F Funding appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3f447d046039337b",
+    "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
+    "link": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-29T12:15:00.000Z",
+    "summary": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along.\n\nThe conversation happening in security circles right no",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eb5e82d1dcdff23d",
+    "title": "Cyberattack hits Angola’s largest telco hours before landmark stock debut",
+    "link": "https://therecord.media/angola-unitel-cyberattack-outage",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-29T12:15:00.000Z",
+    "summary": "Angola’s largest telecommunications operator, Unitel, was hit by a cyberattack that has left millions of people nationwide without voice services, mobile data, and internet access.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "98188d77c26a4d3e",
+    "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
+    "link": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-29T11:57:00.000Z",
+    "summary": "Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser.\n\nTracked as CVE-2026-10702, the bug provides arbitrary code execution inside the browser'",
+    "cveIds": [
+      "CVE-2026-10702"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "e2893b97dfcbac62",
+    "title": "Critical VM Escape Vulnerability Patched in VMware ESXi",
+    "link": "https://www.securityweek.com/critical-vm-escape-vulnerability-patched-in-vmware-esxi/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-29T11:42:38.000Z",
+    "summary": "A total of five vulnerabilities have been patched in VMware ESXi, vCenter, Workstation, and Fusion.\nThe post Critical VM Escape Vulnerability Patched in VMware ESXi appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "36963e13e8b37ff3",
+    "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
+    "link": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-29T11:13:10.000Z",
+    "summary": "Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lack the coordination, visibility, and executive alignment needed to withstand a serious cyberattack.\n\n",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "bf3ec0a23adc9f92",
     "title": "These near-mint ASUS Chromebook refurbs are only $145",
     "link": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/",
@@ -182,7 +305,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-07-28T21:33:23.000Z",
-    "summary": "Dormant nonhuman identities can create security blind spots, says security researcher Aleksandr Krasnov, who has released an open source tool to sniff out trust paths.",
+    "summary": "Dormant nonhuman identities can create security blind spots, says security researcher Aleksandr Krasnov, who plans to release an open source tool next week at Black Hat USA 2026 that sniffs out trust paths.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1671,6 +1794,28 @@
     "severity": "normal"
   },
   {
+    "id": "42fe3f92bb179d65",
+    "title": "Multiples vulnérabilités dans MongoDB (24 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0922/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-24T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité, un déni de service et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "151906124e5c9505",
+    "title": "Vulnérabilité dans NetApp ONTAP 9 (24 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0923/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-24T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans NetApp ONTAP 9. Elle permet à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ed411c91b1d53382",
     "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
@@ -2359,6 +2504,28 @@
     "severity": "normal"
   },
   {
+    "id": "c997b3ec4ea97a8c",
+    "title": "Multiples vulnérabilités dans Oracle Weblogic (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0920/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "63d858b80ede962b",
+    "title": "Vulnérabilité dans Moodle (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0921/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-23T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Moodle. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a5f7d679af8d4d38",
     "title": "Flaws in Passkey Implementation Show Old Attacks Still Work",
     "link": "https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work",
@@ -2588,117 +2755,5 @@
     "summary": "Acquisition follows January's Chronosphere deal, deepening Palo Alto Networks' push beyond core security into observability.\nThe post Palo Alto Networks to Acquire Observability Platform Provider Embrace appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "754c285c087e7bc9",
-    "title": "Flaw in Adobe Extension With 300M Installs Enabled WhatsApp Data Theft",
-    "link": "https://www.securityweek.com/flaw-in-adobe-extension-with-300m-installs-enabled-whatsapp-data-theft/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-22T14:22:31.000Z",
-    "summary": "An attacker only needed to convince the targeted user to visit a malicious website to exfiltrate WhatsApp messages and contacts.\nThe post Flaw in Adobe Extension With 300M Installs Enabled WhatsApp Data Theft appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "714bb4f1eb321b9c",
-    "title": "New InfraTrust report reveals infrastructure flaws admins should patch first",
-    "link": "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-22T14:15:00.000Z",
-    "summary": "Eclypsium has launched InfraTrust, a new infrastructure cybersecurity knowledge base and monthly InfraTrust Pulse report designed to help organizations prioritize vulnerabilities affecting infrastructure, firmware, networking, and edge devi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "14e85f7ba2bf6329",
-    "title": "When Identity Verification Fails: Lessons from a Real-World SIM Swap and Near Account Takeover",
-    "link": "https://www.securityweek.com/when-identity-verification-fails-lessons-from-a-real-world-sim-swap-and-near-account-takeover/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-22T14:00:00.000Z",
-    "summary": "Identity confidence changes throughout every interaction and should be reassessed continuously as new risk signals emerge.\nThe post When Identity Verification Fails: Lessons from a Real-World SIM Swap and Near Account Takeover appeared firs",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f1637a4ffb3b35e0",
-    "title": "Adobe Chrome extension flaw let sites access private WhatsApp chats",
-    "link": "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-22T13:22:20.000Z",
-    "summary": "The Adobe Acrobat extension for Chrome could be used to access conversations and data rendered in WhatsApp Web without any form of authentication. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cfaac67c80aeb1a7",
-    "title": "StrongestLayer Raises $4.1 Million in Seed Funding Extension",
-    "link": "https://www.securityweek.com/strongestlayer-raises-4-1-million-in-seed-funding-extension/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-22T13:00:00.000Z",
-    "summary": "The startup will use the fresh investment to accelerate its go-to-market strategy and to expand its platform.\nThe post StrongestLayer Raises $4.1 Million in Seed Funding Extension appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c7f0fa0b0099e6b3",
-    "title": "Vibe-Coded Apps Riddled With Exploitable Security Flaws",
-    "link": "https://www.securityweek.com/vibe-coded-apps-riddled-with-exploitable-security-flaws/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-22T13:00:00.000Z",
-    "summary": "Analysis found 434 exploitable flaws in AI-generated apps, with denial-of-service, authorization and secrets exposure risks among the most common issues.\nThe post Vibe-Coded Apps Riddled With Exploitable Security Flaws appeared first on Sec",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a1f183c43170adca",
-    "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
-    "link": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-22T12:36:36.000Z",
-    "summary": "A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck.\n\nThe vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of unauthenticated pat",
-    "cveIds": [
-      "CVE-2026-29059"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "417020a6c94c5ffd",
-    "title": "OpenAI models behind breach of Hugging Face systems, companies say",
-    "link": "https://therecord.media/openai-cyberattack-hugging-face",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-22T12:00:00.000Z",
-    "summary": "OpenAI announced that its models were behind a breach of the AI platform Hugging Face, which had earlier detected an attack carried out by \"by an autonomous AI agent.\"",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "39e188970f3dc67e",
-    "title": "The Fastest Path to AI Adoption Runs Through Security",
-    "link": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-22T11:58:00.000Z",
-    "summary": "Security leaders who build fast, visible paths to AI adoption are becoming the most valued partners in their organizations. AI governance done right gives security teams the visibility they need, employees the tools they want, and CISOs the",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e44108cdf1525f45",
-    "title": "CISA orders urgent action on actively exploited Langflow RCE flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-langflow-rce-flaw/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-22T11:43:28.000Z",
-    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday ordered U.S. government agencies to prioritize patching an actively exploited vulnerability in the Langflow visual framework for building AI agents. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
