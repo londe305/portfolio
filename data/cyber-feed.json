@@ -1,5 +1,82 @@
 [
   {
+    "id": "cdeb07dcf67b7ad3",
+    "title": "JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack",
+    "link": "https://www.securityweek.com/jfrog-zero-days-exploited-in-openai-hugging-face-hack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-29T08:46:30.000Z",
+    "summary": "The OpenAI models targeted services beyond Hugging Face as they attempted to solve the tasks they were given.\nThe post JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e84210faadf6acb7",
+    "title": "Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks",
+    "link": "https://www.securityweek.com/dozens-of-minnesota-water-utilities-targeted-in-coordinated-ot-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-29T07:53:22.000Z",
+    "summary": "State and federal agencies respond after intrusions disrupt automated controls at municipal water and wastewater utilities.\nThe post Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "38316d34b111110a",
+    "title": "Apple Patches Everything (July 2026), (Wed, Jul 29th)",
+    "link": "https://isc.sans.edu/diary/rss/33196",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-29T07:32:37.000Z",
+    "summary": "I am a bit late with this summary, but this week Apple released updates to all its operating systems and Safari. The Safari update, as usual, targets macOS prior to macOS 26. macOS updates covered the two older versions (14 and 15), while o",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "14707cf75c0c24cf",
+    "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
+    "link": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-29T07:07:23.000Z",
+    "summary": "Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control panels and certificates to 170 internet se",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "776610eab752e948",
+    "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+    "link": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-29T06:45:02.000Z",
+    "summary": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment, and also hacked multiple third-party accounts and services as part ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3f1cce9632b1165b",
+    "title": "ShinyHunters Claims Ernst & Young Hack",
+    "link": "https://www.securityweek.com/shinyhunters-claims-ernst-young-hack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-29T06:23:34.000Z",
+    "summary": "Ernst & Young previously confirmed that personal and financial information was stolen from a third-party management platform.\nThe post ShinyHunters Claims Ernst & Young Hack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2889416392b1100a",
+    "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
+    "link": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-29T04:20:57.000Z",
+    "summary": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.\n\nThe list of affected packages is as follows -\n\n\n  @joyfill/lay",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "5e142d7bf836f368",
     "title": "ISC Stormcast For Wednesday, July 29th, 2026 https://isc.sans.edu/podcastdetail/10028, (Wed, Jul 29th)",
     "link": "https://isc.sans.edu/diary/rss/33194",
@@ -2636,82 +2713,5 @@
     "summary": "Many of the vulnerabilities fixed with the July 2026 Critical Patch Update were likely discovered by AI.\nThe post Oracle Patches Over 1,400 Vulnerabilities With Quarterly Security Updates appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "76ab149e0bd986f1",
-    "title": "Ransomware Group Threatening to Leak Data Stolen From Coca-Cola’s Fairlife",
-    "link": "https://www.securityweek.com/ransomware-group-threatening-to-leak-data-stolen-from-coca-colas-fairlife/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-22T08:32:02.000Z",
-    "summary": "The Anubis ransomware group claims to have stolen 1 TB of confidential data from the Coca-Cola subsidiary.\nThe post Ransomware Group Threatening to Leak Data Stolen From Coca-Cola’s Fairlife appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b714e2ce54ec19ce",
-    "title": "OpenAI Says Its AI Models Broke Loose and Hacked Hugging Face",
-    "link": "https://www.securityweek.com/openai-says-its-ai-models-broke-loose-and-hacked-hugging-face/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-22T07:48:49.000Z",
-    "summary": "OpenAI says its AI models went rogue, as CISOS call the incident a watershed moment, warning that autonomous AI threat models have officially crossed into production reality.\nThe post OpenAI Says Its AI Models Broke Loose and Hacked Hugging",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e3ddceb42be8bc0a",
-    "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-22T06:40:29.000Z",
-    "summary": "American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8a973fa49f955efa",
-    "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
-    "link": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-22T06:38:45.000Z",
-    "summary": "German and US law enforcement have taken down the core infrastructure of Kratos, described by German investigators as one of the world's most widely used criminal phishing kits, and Indonesian authorities arrested the man they say developed",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f0f0cda2af475737",
-    "title": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library",
-    "link": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-22T06:00:06.000Z",
-    "summary": "Cybersecurity researchers have discovered a NuGet typosquat that's unlike the typical information-stealing malware distributed via package registries: usual info-stealers: it's designed to rig live game results on Digitain.\n\nThe package, na",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7d67665d5a3ed80f",
-    "title": "OpenAI says its AI models hacked Hugging Face during testing",
-    "link": "https://www.bleepingcomputer.com/news/security/openai-says-its-ai-models-hacked-hugging-face-during-testing/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-22T05:19:20.000Z",
-    "summary": "OpenAI says its AI models, including GPT‑5.6 Sol and a pre-release model, hacked into the Hugging Face artificial intelligence repository while being tested in a sandboxed testing environment. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2eb2c3841f0ad53c",
-    "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
-    "link": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-22T04:57:52.000Z",
-    "summary": "A single invisible comment in an Azure DevOps pull request can turn a reviewer's own AI coding agent against them, driving it into projects the attacker has no rights to reach and quietly leaking what it finds.\n\nThe flaw is in Microsoft's o",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
