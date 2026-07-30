@@ -1,5 +1,49 @@
 [
   {
+    "id": "ca98f3e46a413f3a",
+    "title": "JetBrains warns of critical TeamCity remote code execution flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-30T22:01:31.000Z",
+    "summary": "JetBrains is warning of a critical authentication bypass vulnerability affecting TeamCity On-Premises that could be exploited to achieve remote code execution. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a521757c871e5667",
+    "title": "Minnesota Water Utility Attacks Expose Sector's Cyber-Risks",
+    "link": "https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-30T21:16:13.000Z",
+    "summary": "A likely Iran-backed actor targeted more than 30 community water systems in Minnesota in a sobering reminder of rising threats to US critical infrastructure.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "94f633e910b01dda",
+    "title": "Bank of America to Acquire Cybersecurity Firm MDSec",
+    "link": "https://www.securityweek.com/bank-of-america-to-acquire-cybersecurity-firm-mdsec/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-30T21:02:21.000Z",
+    "summary": "The acquisition will add approximately 65 cybersecurity professionals to Bank of America’s operations in the United Kingdom.\nThe post Bank of America to Acquire Cybersecurity Firm MDSec appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b80e4b1c5c9268c3",
+    "title": "AI Harnesses Burst With Potential Exploit Opps",
+    "link": "https://www.darkreading.com/application-security/ai-harnesses-potential-exploit-opps",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-30T19:40:40.000Z",
+    "summary": "A myriad of software makes up the typical AI harness, and trust issues between the components can create concerning attack vectors.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "8a9a0c1fdad65675",
     "title": "Okta to Acquire Identity Threat Detection Firm Permiso",
     "link": "https://www.securityweek.com/okta-to-acquire-identity-threat-detection-firm-permiso/",
@@ -297,6 +341,17 @@
     "severity": "normal"
   },
   {
+    "id": "bf4b29c951c9216d",
+    "title": "Open Source Software: Security Principles and Practices",
+    "link": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Principles and Practices guidance helps agencies securely use, evaluate, and",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "eb761ef7ccd11eb8",
     "title": "MikroTik RouterOS",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-01",
@@ -330,6 +385,17 @@
     "severity": "normal"
   },
   {
+    "id": "9c03acb6461c52d8",
+    "title": "CISA Urges Water and Wastewater Systems Sector to Protect OT Against Activity Targeting PLCs",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "CISA is currently observing a significant increase in cyber threat actors targeting programmable logic controllers (PLCs) in the Water and Wastewater Systems (WWS) Sector. CISA urges critical infrastructure owners, operators, and integrator",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "132ed02d3902c921",
     "title": "Johnson Controls OpenBlue Employee",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-02",
@@ -350,17 +416,6 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the device.\nThe following versions of MZ Automation GmbH libiec61850 are affected:\nlibiec61850 <1.6.2 (CVE-",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "bf4b29c951c9216d",
-    "title": "Open Source Software: Security Principles and Practices",
-    "link": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-30T12:00:00.000Z",
-    "summary": "Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Principles and Practices guidance helps agencies securely use, evaluate, and",
-    "cveIds": [],
-    "severity": "critical"
   },
   {
     "id": "19d71e68d370a1ec",
@@ -1434,17 +1489,6 @@
     "severity": "normal"
   },
   {
-    "id": "45cc039019a0a9b8",
-    "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nMultiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.6 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fix versions a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "8615f50bea44fc48",
     "title": "CI Fortify – Advice for isolating vital systems",
     "link": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
@@ -1452,6 +1496,17 @@
     "category": "advisory",
     "pubDate": "2026-07-28T12:00:00.000Z",
     "summary": "CI Fortify – Advice for isolating vital systems\nCI Fortify – Advice for isolating vital systems (PDF)\nCISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of I",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "45cc039019a0a9b8",
+    "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nMultiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.6 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fix versions a",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2780,50 +2835,6 @@
     "category": "advisory",
     "pubDate": "2026-07-24T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ed411c91b1d53382",
-    "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-23T21:23:18.000Z",
-    "summary": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ee76a125388e473d",
-    "title": "New Dolphin X malware uses AI to rank high-value targets",
-    "link": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-23T21:20:34.000Z",
-    "summary": "A new Dolphin X remote access trojan claims to use an AI-powered profiling feature to score and rank infected users, helping cybercriminals identify which victims should be targeted first. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7d56cd6326b5e70f",
-    "title": "Australian energy provider Origin says data breach exposes client data",
-    "link": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-23T20:14:35.000Z",
-    "summary": "Origin Energy has confirmed that an unauthorized party accessed and subsequently leaked customer data online, exposing sensitive personally identifiable information (PII), among others. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2eaa88bd2ca47064",
-    "title": "Fake Claude app promoted by Bing ads pushes SectopRAT malware",
-    "link": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-23T19:48:30.000Z",
-    "summary": "A malvertising campaign on the Bing search service is pushing a fake Claude desktop app installer hosted on a legitimate Claude.ai domain to deliver the SectopRAT malware. [...]",
     "cveIds": [],
     "severity": "normal"
   }
