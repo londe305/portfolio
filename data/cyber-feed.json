@@ -1,5 +1,104 @@
 [
   {
+    "id": "8a9a0c1fdad65675",
+    "title": "Okta to Acquire Identity Threat Detection Firm Permiso",
+    "link": "https://www.securityweek.com/okta-to-acquire-identity-threat-detection-firm-permiso/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-30T19:10:26.000Z",
+    "summary": "The deal extends Okta's reach beyond identity management and into the realm of security operations, positioning the company to compete more directly on identity threat detection and response.\nThe post Okta to Acquire Identity Threat Detecti",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ecd0cf366963fdf2",
+    "title": "Semiconductor chip titan Analog Devices reports data breach",
+    "link": "https://therecord.media/analog-devices-semiconductor-company-data-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-30T19:10:00.000Z",
+    "summary": "In a filing for federal regulators, Massachusetts-based Analog Devices said intruders had exfiltrated data from its networks earlier this summer, but the scope of the incident is still under investigation.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5871e107a16fd2b3",
+    "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
+    "link": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-30T18:18:24.000Z",
+    "summary": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c7665e71ff03bc05",
+    "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
+    "link": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-30T18:13:24.000Z",
+    "summary": "Amazon linked multiple high-profile open-source software supply chain attacks targeting the Node Package Manager (npm) ecosystem to North Korean hackers. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "19f69dffaed86812",
+    "title": "VMware fixes three critical flaws allowing auth bypass, VM escapes",
+    "link": "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-30T18:00:51.000Z",
+    "summary": "Broadcom has released security updates to fix five vulnerabilities in VMware vCenter, ESX, Workstation, and Fusion, including three critical flaws that allow attackers to bypass authentication, execute arbitrary code, or escape from a virtu",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "32c0e11d815f9782",
+    "title": "You were onto something with “It’s the Climb,” Miley",
+    "link": "https://blog.talosintelligence.com/you-were-onto-something-with-its-the-climb-miley/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-07-30T18:00:35.000Z",
+    "summary": "Amy hikes Virginia’s most difficult trail and muses on the persistent challenges of cybersecurity. The two aren't dissimilar.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2915a33b88237452",
+    "title": "Google says AI helped Chrome fix 1,072 security bugs in two releases",
+    "link": "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-30T17:00:00.000Z",
+    "summary": "Google says artificial intelligence is dramatically increasing the number of security vulnerabilities it can find and fix in Chrome, with more than 1,000 security bugs patched across the browser's two most recent releases as it expands its ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1ef900d67892d700",
+    "title": "Read This Before You Buy That TV Streaming Stick",
+    "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-07-30T16:49:00.000Z",
+    "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d3b6dcbe88d1f35c",
+    "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-30T16:46:15.000Z",
+    "summary": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "cbfd7c1c889e0591",
     "title": "​​​​What’s new in Microsoft Security: July 2026",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/07/30/whats-new-in-microsoft-security-july-2026/",
@@ -165,6 +264,94 @@
     "severity": "normal"
   },
   {
+    "id": "4e741d796bd3c379",
+    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of NASA Core Flight System (cFS) Health & Safety (HS) Application are affected:\nCore Flig",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9fad9afc6cab3025",
+    "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected product by sending specially crafted packets under specific ti",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1fa9f10e8dbcd07b",
+    "title": "Schneider Electric IGSS",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its IGSS Definition module for the IGSS (Interactive Graphical SCADA System) product. The [IGSS](https://igss.schneider-electric.com/) product is a state-of-the-art SCADA s",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eb761ef7ccd11eb8",
+    "title": "MikroTik RouterOS",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to extract the router's WireGuard private key in plaintext using only low‑privilege API access, enabling full VPN impersonation and decryption of all as",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "86e2f4b5cfc029b6",
+    "title": "Toptech Systems RCU II+ and Multiload II+",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to gain full system control and misuse it to access or manipulate connected networks and resources.\nThe following versions of Toptech Systems RCU II+ an",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "76ed38e68b0a3ff1",
+    "title": "Watchfire Controller Software",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-09",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a malicious user the ability to deliver malicious firmware that can update and gain full control of the controller.\nThe following versions of Watchfire Controller S",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "132ed02d3902c921",
+    "title": "Johnson Controls OpenBlue Employee",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to upload malicious files, execute stored cross-site scripting attacks, or inject arbitrary HTML content.\nThe following versions of Johnson Controls ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2e276ef7b440f9ba",
+    "title": "MZ Automation GmbH libiec61850",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the device.\nThe following versions of MZ Automation GmbH libiec61850 are affected:\nlibiec61850 <1.6.2 (CVE-",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "bf4b29c951c9216d",
     "title": "Open Source Software: Security Principles and Practices",
     "link": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
@@ -174,6 +361,42 @@
     "summary": "Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Principles and Practices guidance helps agencies securely use, evaluate, and",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "19d71e68d370a1ec",
+    "title": "MZ Automation lib60870",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-11",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed.\nThe following versions of MZ Automation lib60870 are affected:\nlib60870 2.4.0 (CVE-2026-61893, CVE-2026-63033)\nCVSS\nVendor\nEquipment\nV",
+    "cveIds": [
+      "CVE-2026-61893",
+      "CVE-2026-63033"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "ba1d0f85fc525d77",
+    "title": "Rockwell Automation CompactLogix 5380 ControlLogix 5580 / 1756-EN4TR Communications Module",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation CompactLogix 5380 ControlLogix 5580 / 1756-EN4TR Communications Mo",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1b9b8501f02a7f3b",
+    "title": "o6 Automation open62541",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-08",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, cause a denial of service, or potentially execute arbitrary code.\nThe following versions of o6 Automation open6254",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "50504694f9f0ca80",
@@ -732,6 +955,17 @@
     "severity": "normal"
   },
   {
+    "id": "91ad4a6ca3ada0ec",
+    "title": "2026 Minimum Elements for a Software Bill of Materials (SBOM)",
+    "link": "https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-29T12:00:00.000Z",
+    "summary": "CISA, the National Security Agency, the Federal Bureau of Investigation, and international partners released joint guidance, 2026 Minimum Elements for a Software Bill of Materials (SBOM), that updates and replaces the minimum elements for a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "06f94c065a4ac5c8",
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -743,17 +977,6 @@
       "CVE-2026-20316"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "91ad4a6ca3ada0ec",
-    "title": "2026 Minimum Elements for a Software Bill of Materials (SBOM)",
-    "link": "https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-29T12:00:00.000Z",
-    "summary": "CISA, the National Security Agency, the Federal Bureau of Investigation, and international partners released joint guidance, 2026 Minimum Elements for a Software Bill of Materials (SBOM), that updates and replaces the minimum elements for a",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "98188d77c26a4d3e",
@@ -1200,28 +1423,6 @@
     "severity": "normal"
   },
   {
-    "id": "8615f50bea44fc48",
-    "title": "CI Fortify – Advice for isolating vital systems",
-    "link": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "CI Fortify – Advice for isolating vital systems\nCI Fortify – Advice for isolating vital systems (PDF)\nCISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of I",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bcbdcff595af536f",
-    "title": "igloohome Smart Lock Mobile Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an unauthorized actor to access functions or backend services.\nThe following versions of igloohome Smart Lock Mobile Application are affected:\nSmart Lock Mobile App",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "dffbaa85df90905e",
     "title": "ABB KNX Update Tool",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-07",
@@ -1244,6 +1445,17 @@
     "severity": "normal"
   },
   {
+    "id": "8615f50bea44fc48",
+    "title": "CI Fortify – Advice for isolating vital systems",
+    "link": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "CI Fortify – Advice for isolating vital systems\nCI Fortify – Advice for isolating vital systems (PDF)\nCISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of I",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "706afe4efe72a798",
     "title": "Siemens Desigo CC",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-01",
@@ -1255,13 +1467,13 @@
     "severity": "normal"
   },
   {
-    "id": "8e68635fd7b2e587",
-    "title": "Siemens SIMATIC S7-PLCSIM Advanced",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-03",
+    "id": "bcbdcff595af536f",
+    "title": "igloohome Smart Lock Mobile Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSIMATIC S7-PLCSIM Advanced contains a vulnerability that could allow an attacker to cause a denial of service condition. Siemens is preparing fix versions and recommends specific countermeasures for products where fixes ar",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an unauthorized actor to access functions or backend services.\nThe following versions of igloohome Smart Lock Mobile Application are affected:\nSmart Lock Mobile App",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1273,6 +1485,17 @@
     "category": "advisory",
     "pubDate": "2026-07-28T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to rapidly guess passwords and gain unauthorized system access.\nThe following versions of MikroTik RouterOS and Cloud Hosted Router are affected:\nRouterOS",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8e68635fd7b2e587",
+    "title": "Siemens SIMATIC S7-PLCSIM Advanced",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSIMATIC S7-PLCSIM Advanced contains a vulnerability that could allow an attacker to cause a denial of service condition. Siemens is preparing fix versions and recommends specific countermeasures for products where fixes ar",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2601,50 +2824,6 @@
     "category": "news",
     "pubDate": "2026-07-23T19:48:30.000Z",
     "summary": "A malvertising campaign on the Bing search service is pushing a fake Claude desktop app installer hosted on a legitimate Claude.ai domain to deliver the SectopRAT malware. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "711a8c6076de78c1",
-    "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
-    "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-23T18:36:08.000Z",
-    "summary": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client.\n\nThe payload goes after the last 90 days of email, the organization's entire email directory, the passw",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0b34406bfc4abdb0",
-    "title": "Don’t swing at everything",
-    "link": "https://blog.talosintelligence.com/dont-swing-at-everything/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-07-23T18:00:46.000Z",
-    "summary": "Thorsten explores Q2 2026 stats, the artificial buffer zone of 2026, and why smart, prioritized patching is more critical than ever.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a43bfb637d12f233",
-    "title": "International alert spotlights Russia-linked attacks on Zimbra webmail",
-    "link": "https://therecord.media/zimbra-webmail-zero-click-phishing-russia-laundry-bear",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-23T16:58:00.000Z",
-    "summary": "A Kremlin-backed group known as Laundry Bear has been using a zero-click phishing technique to break into Zimbra webmail accounts worldwide, the U.S. and other nations said.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "175ee78dc97fddab",
-    "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
-    "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-23T16:49:27.000Z",
-    "summary": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Zimbra Collaboration email servers by combining phishing attacks with the exploitation of a now-patch",
     "cveIds": [],
     "severity": "normal"
   }
