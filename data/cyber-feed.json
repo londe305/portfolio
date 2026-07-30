@@ -2673,16 +2673,5 @@
     "summary": "Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw that has come under active exploitation in the wild.\n\nThe sec",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "36add522bb9e8170",
-    "title": "US Warns of Iranian Hackers Targeting Siemens, Schneider, and Rockwell ICS Devices",
-    "link": "https://www.securityweek.com/us-warns-of-iranian-hackers-targeting-siemens-schneider-and-rockwell-ics-devices/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-23T05:28:50.000Z",
-    "summary": "An updated advisory from federal agencies provides information on the techniques used to hack programmable logic controllers.\nThe post US Warns of Iranian Hackers Targeting Siemens, Schneider, and Rockwell ICS Devices appeared first on Secu",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
