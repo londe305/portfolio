@@ -1,5 +1,71 @@
 [
   {
+    "id": "2e1a8c8f354e9ad2",
+    "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
+    "link": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-30T10:33:15.000Z",
+    "summary": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect target",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "adca9452f28ed3e0",
+    "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
+    "link": "https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-30T10:32:59.000Z",
+    "summary": "The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5a8fd33cd11f1d85",
+    "title": "Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks",
+    "link": "https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-07-30T10:00:52.000Z",
+    "summary": "Unit 42 details a Chinese speaking threat actor combining autonomous AI scanning across seven vulnerabilities with manual exploitation. Read more.\nThe post Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks appear",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "10d17a3df9f51192",
+    "title": "Black Hat special: Rewind and revisit",
+    "link": "https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-07-30T10:00:08.000Z",
+    "summary": "Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "20e8ffb0709e60b6",
+    "title": "Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms",
+    "link": "https://www.securityweek.com/critical-ruflo-flaw-lets-attackers-spawn-rogue-ai-swarms/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-30T09:56:10.000Z",
+    "summary": "Unauthenticated attackers could send HTTP requests to an exposed endpoint to execute commands inside the MCP bridge container.\nThe post Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms  appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f60917f9f56b0be7",
+    "title": "1 in 5 Data Center Assets Are Within Easy Reach of Attackers",
+    "link": "https://www.securityweek.com/1-in-5-data-center-assets-are-within-easy-reach-of-attackers/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-30T09:28:37.000Z",
+    "summary": "Claroty has analyzed 750,000 cyber-physical systems across some of the world’s largest data center facilities.\nThe post 1 in 5 Data Center Assets Are Within Easy Reach of Attackers appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "0ecf09d3c90c6cb1",
     "title": "US and Allies Update SBOM Guidance",
     "link": "https://www.securityweek.com/us-and-allies-update-sbom-guidance/",
@@ -2616,95 +2682,5 @@
     "summary": "Core issues that slowed down adoption of secure data vaults are being resolved by technology, but artificial intelligence poses new ones. Experts have some answers.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "165d023818bfe520",
-    "title": "Upbound Group Says Data Breach Led to $13 Million in Fraudulent Contract Losses",
-    "link": "https://www.securityweek.com/upbound-group-says-data-breach-led-to-13-million-in-fraudulent-contract-losses/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-23T10:49:10.000Z",
-    "summary": "Hackers recently obtained non-sensitive customer information and other documents from the company.\nThe post Upbound Group Says Data Breach Led to $13 Million in Fraudulent Contract Losses appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9379c70898413940",
-    "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
-    "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-07-23T10:00:38.000Z",
-    "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victim",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "72088c0a8ca5a1c4",
-    "title": "Preview: Cisco Talos at Black Hat USA 2026",
-    "link": "https://blog.talosintelligence.com/preview-cisco-talos-at-black-hat-usa-2026/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-07-23T10:00:14.000Z",
-    "summary": "Here’s some of the ways Talos is showing up at Black Hat, alongside our friends at Cisco and Splunk.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1e18d6e4be5fecee",
-    "title": "Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts",
-    "link": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-23T10:00:00.000Z",
-    "summary": "Google on Thursday announced a new way for users to sign-in to their accounts by letting them take a selfie video.\n\nThe selfie for sign-in, per the tech giant, is another option on top of existing recovery methods to log in to an account, i",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c9367ff415bbdb13",
-    "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
-    "link": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-23T10:00:00.000Z",
-    "summary": "The Chaos ransomware gang is using a new backdoor dubbed msaRAT that hides command-and-control (C2) communication by routing it through the Chrome or Edge browsers. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "48598680644293f3",
-    "title": "Assaf Keren Appointed New CISO of Meta",
-    "link": "https://www.securityweek.com/assaf-keren-appointed-new-ciso-of-meta/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-23T09:53:51.000Z",
-    "summary": "He replaces Guy Rosen, who announced his retirement from the company after 13 years.\nThe post Assaf Keren Appointed New CISO of Meta appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a22d9a26e1d95658",
-    "title": "Microsoft working to fix Exchange Online mailbox quarantine issue",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-23T09:20:10.000Z",
-    "summary": "Microsoft is working to resolve an ongoing Exchange Online issue that has been mistakenly quarantining customers' mailboxes since Sunday. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a372f25bb6e9355f",
-    "title": "New Check Point Zero-Day Vulnerability Exploited in the Wild",
-    "link": "https://www.securityweek.com/new-check-point-zero-day-vulnerability-exploited-in-the-wild/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-23T09:06:04.000Z",
-    "summary": "The vulnerability tracked as CVE-2026-16232 has been exploited against customers with certain configurations.\nThe post New Check Point Zero-Day Vulnerability Exploited in the Wild appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-16232"
-    ],
-    "severity": "critical"
   }
 ]
