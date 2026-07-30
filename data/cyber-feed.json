@@ -1,5 +1,60 @@
 [
   {
+    "id": "b5ef662449b606af",
+    "title": "ISC Stormcast For Thursday, July 30th, 2026 https://isc.sans.edu/podcastdetail/10030, (Thu, Jul 30th)",
+    "link": "https://isc.sans.edu/diary/rss/33200",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-30T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f6bd5a50d7093f54",
+    "title": "SE Asian Cybercriminal Syndicates Become a Global Power",
+    "link": "https://www.darkreading.com/threat-intelligence/se-asian-cybercriminal-syndicates-global-power",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-30T01:00:00.000Z",
+    "summary": "The groups move from goods to services and continue to traffic people from at least 80 countries, costing nations in the region at least $88 billion in 2025 alone.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d47415a2dfb8b3de",
+    "title": "Reconnaissance First: An SSH Bot That Sizes Up Your Hardware Before Deploying a Miner &#x5b;Guest Diary&#x5d;, (Thu, Jul 30th)",
+    "link": "https://isc.sans.edu/diary/rss/33198",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-30T00:42:29.000Z",
+    "summary": "[This is a Guest Diary by Adam Cann, an ISC intern as part of the SANS.edu BACS program]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "720f0ec86e603cf3",
+    "title": "'Flying Eagle' Full-Service Mobile RAT Builder Wings Across China",
+    "link": "https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-30T00:30:00.000Z",
+    "summary": "A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims' bank accounts.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "27893276e7264935",
+    "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
+    "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-29T23:44:07.000Z",
+    "summary": "The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "b373298601a4a243",
     "title": "Anthropic confirms Claude is down worldwide",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
@@ -2629,170 +2684,5 @@
     "summary": "An updated advisory from federal agencies provides information on the techniques used to hack programmable logic controllers.\nThe post US Warns of Iranian Hackers Targeting Siemens, Schneider, and Rockwell ICS Devices appeared first on Secu",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "e5b94a91c0382a03",
-    "title": "ISC Stormcast For Thursday, July 23rd, 2026 https://isc.sans.edu/podcastdetail/10020, (Thu, Jul 23rd)",
-    "link": "https://isc.sans.edu/diary/rss/33178",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-23T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "222552ddd21978bd",
-    "title": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-23T01:00:00.000Z",
-    "summary": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "bfa04b9351a9f96d",
-    "title": "Multiples vulnérabilités dans les produits Mitel (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0911/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-23T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mitel. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une injection de code indirecte à distance (XSS).",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f3e25684bb0928ef",
-    "title": "Multiples vulnérabilités dans les produits Check Point (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0912/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-23T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Check Point. Elles permettent à un attaquant de provoquer une élévation de privilèges et un contournement de la politique de sécurité. Check Point indique que la vulnérabilit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "17389389270bbe8e",
-    "title": "Multiples vulnérabilités dans Mozilla Thunderbird (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0913/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-23T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Thunderbird. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distan",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e6c02d9a03e8ab3c",
-    "title": "Multiples vulnérabilités dans Oracle Database Server (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0914/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-23T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Database Server. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d9033e4e0dfedfca",
-    "title": "Multiples vulnérabilités dans Oracle Java SE (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0915/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-23T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d6cd2cc6a6b5536c",
-    "title": "Multiples vulnérabilités dans Oracle MySQL (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0916/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-23T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle MySQL. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "11ca1f83fd0cc07a",
-    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0917/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-23T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5340d97104f58601",
-    "title": "Multiples vulnérabilités dans Oracle Systems (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0918/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-23T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Systems. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un déni de service.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9eb01fb64e3c2282",
-    "title": "Multiples vulnérabilités dans Oracle Virtualization (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0919/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-23T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un déni de service.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c997b3ec4ea97a8c",
-    "title": "Multiples vulnérabilités dans Oracle Weblogic (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0920/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-23T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "63d858b80ede962b",
-    "title": "Vulnérabilité dans Moodle (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0921/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-23T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Moodle. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a5f7d679af8d4d38",
-    "title": "Flaws in Passkey Implementation Show Old Attacks Still Work",
-    "link": "https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-22T23:50:01.000Z",
-    "summary": "Ahead of Black Hat USA, researchers find exploitable flaws in how Microsoft handles passkeys that could allow attackers to impersonate privileged users.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "81310213b1f9763d",
-    "title": "Swiss train maker Stadler refuses Everest $12 million ransomware demand",
-    "link": "https://therecord.media/stadler-refuses-everest-ransom-demand",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-22T23:00:00.000Z",
-    "summary": "Stadler Rail said it will not make a $12.3 million ransom payment after cybercriminals stole technical data from a supplier's file-sharing platform.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
