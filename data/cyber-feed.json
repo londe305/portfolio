@@ -1,5 +1,71 @@
 [
   {
+    "id": "cbfd7c1c889e0591",
+    "title": "​​​​What’s new in Microsoft Security: July 2026",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/30/whats-new-in-microsoft-security-july-2026/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-07-30T16:00:00.000Z",
+    "summary": "This month’s updates help security and IT teams secure their AI environments, use AI to defend, and strengthen the foundations that AI-powered operations depend on.\nThe post ​​​​What’s new in Microsoft Security: July 2026 appeared first on ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5b5817220812e11f",
+    "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-30T15:56:33.000Z",
+    "summary": "Threat actors are impersonating IT support staff in Microsoft Teams calls to gain remote access to corporate devices and deploy Chaos ransomware in attacks targeting North American organizations. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5679113d3a1d8317",
+    "title": "Timeless Compliance: Why Better Questions Beat Bigger Frameworks",
+    "link": "https://www.securityweek.com/timeless-compliance-why-better-questions-beat-bigger-frameworks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-30T15:46:17.000Z",
+    "summary": "The best compliance programs aren't the biggest ones. They're the ones built on a short list of questions that can actually be answered, and that still hold true when the models change.\nThe post Timeless Compliance: Why Better Questions Bea",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dd9cf75371070352",
+    "title": "Claude Mythos — Hype vs. Reality: What Security Teams Need to Know",
+    "link": "https://www.darkreading.com/cybersecurity-operations/claude-mythos-hype-vs-reality",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-30T15:28:43.000Z",
+    "summary": "In this edition of Reporters' Notebook, our journalists discuss the ins and outs of Anthropic's Claude Mythos rollout. How seriously should we take its risks? How big of a deal is it?",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "861e9974c36abe1c",
+    "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
+    "link": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-30T15:25:57.000Z",
+    "summary": "A lot of security still comes down to trusting the wrong screen.\n\nThis week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credentials, exposed system",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f514704c1ce08f3d",
+    "title": "Analog Devices discloses data breach, says operations unaffected",
+    "link": "https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-30T15:12:25.000Z",
+    "summary": "American semiconductor company Analog Devices announced that an unauthorized party accessed some of its systems and exfiltrated certain files. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "89e01566a56543f8",
     "title": "After the Break-In: What Attackers Do Once They're Already Inside",
     "link": "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/",
@@ -31,6 +97,17 @@
     "summary": "Cyberattack tools and infrastructure used by North Korea’s Lazarus Group appear to have been shared with ransomware criminals targeting South Korean organizations — further evidence of deepening entanglement between Pyongyang-backed hackers",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "7f78909ba7325c09",
+    "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
+    "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-30T13:34:09.000Z",
+    "summary": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz.\n\nWiz, which codenamed the cha",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "6c2cbcfc86a5aa7b",
@@ -86,6 +163,17 @@
     "summary": "Researchers warn that AI could turn dangling DNS takeovers into a nation-state weapon capable of disrupting governments, banks and global supply chains.\nThe post ‘DangleGeddon’: AI Could Weaponize Forgotten DNS Records at Global Scale appea",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "bf4b29c951c9216d",
+    "title": "Open Source Software: Security Principles and Practices",
+    "link": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Principles and Practices guidance helps agencies securely use, evaluate, and",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "50504694f9f0ca80",
@@ -644,17 +732,6 @@
     "severity": "normal"
   },
   {
-    "id": "91ad4a6ca3ada0ec",
-    "title": "2026 Minimum Elements for a Software Bill of Materials (SBOM)",
-    "link": "https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-29T12:00:00.000Z",
-    "summary": "CISA, the National Security Agency, the Federal Bureau of Investigation, and international partners released joint guidance, 2026 Minimum Elements for a Software Bill of Materials (SBOM), that updates and replaces the minimum elements for a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "06f94c065a4ac5c8",
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -666,6 +743,17 @@
       "CVE-2026-20316"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "91ad4a6ca3ada0ec",
+    "title": "2026 Minimum Elements for a Software Bill of Materials (SBOM)",
+    "link": "https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-29T12:00:00.000Z",
+    "summary": "CISA, the National Security Agency, the Federal Bureau of Investigation, and international partners released joint guidance, 2026 Minimum Elements for a Software Bill of Materials (SBOM), that updates and replaces the minimum elements for a",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "98188d77c26a4d3e",
@@ -1112,57 +1200,13 @@
     "severity": "normal"
   },
   {
-    "id": "9085f44b92b7dee1",
-    "title": "Siemens Mendix Runtime",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nMendix documentation for access rules does not adequately describe the special behavior of the System.User entity, leaving developers without sufficient guidance to configure access rules securely. This documentation gap m",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "90bc57782902ef72",
-    "title": "MikroTik RouterOS and Cloud Hosted Router",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to rapidly guess passwords and gain unauthorized system access.\nThe following versions of MikroTik RouterOS and Cloud Hosted Router are affected:\nRouterOS",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8e68635fd7b2e587",
-    "title": "Siemens SIMATIC S7-PLCSIM Advanced",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSIMATIC S7-PLCSIM Advanced contains a vulnerability that could allow an attacker to cause a denial of service condition. Siemens is preparing fix versions and recommends specific countermeasures for products where fixes ar",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "8615f50bea44fc48",
     "title": "CI Fortify – Advice for isolating vital systems",
     "link": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "CI Fortify – Advice for isolating vital systems\nCISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of Investigation and international partners, released join",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "706afe4efe72a798",
-    "title": "Siemens Desigo CC",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nOpenSSL has published a stack based buffer overflow vulnerability that allows a remote attacker to cause a denial of service (DoS) or potentially allow for remote code execution. Siemens has released new versions for sever",
+    "summary": "CI Fortify – Advice for isolating vital systems\nCI Fortify – Advice for isolating vital systems (PDF)\nCISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of I",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1178,6 +1222,17 @@
     "severity": "normal"
   },
   {
+    "id": "dffbaa85df90905e",
+    "title": "ABB KNX Update Tool",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nABB has been contacted by a researcher who identified a vulnerability in one of its products. ABB has been contacted by a researcher who identified a vulnerability in one of its products. The vulnerability report has been ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "45cc039019a0a9b8",
     "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-04",
@@ -1189,13 +1244,46 @@
     "severity": "normal"
   },
   {
-    "id": "dffbaa85df90905e",
-    "title": "ABB KNX Update Tool",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-07",
+    "id": "706afe4efe72a798",
+    "title": "Siemens Desigo CC",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-01",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nABB has been contacted by a researcher who identified a vulnerability in one of its products. ABB has been contacted by a researcher who identified a vulnerability in one of its products. The vulnerability report has been ",
+    "summary": "View CSAF\nSummary\nOpenSSL has published a stack based buffer overflow vulnerability that allows a remote attacker to cause a denial of service (DoS) or potentially allow for remote code execution. Siemens has released new versions for sever",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8e68635fd7b2e587",
+    "title": "Siemens SIMATIC S7-PLCSIM Advanced",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSIMATIC S7-PLCSIM Advanced contains a vulnerability that could allow an attacker to cause a denial of service condition. Siemens is preparing fix versions and recommends specific countermeasures for products where fixes ar",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "90bc57782902ef72",
+    "title": "MikroTik RouterOS and Cloud Hosted Router",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to rapidly guess passwords and gain unauthorized system access.\nThe following versions of MikroTik RouterOS and Cloud Hosted Router are affected:\nRouterOS",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9085f44b92b7dee1",
+    "title": "Siemens Mendix Runtime",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nMendix documentation for access rules does not adequately describe the special behavior of the System.User entity, leaving developers without sufficient guidance to configure access rules securely. This documentation gap m",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2557,94 +2645,6 @@
     "category": "news",
     "pubDate": "2026-07-23T16:49:27.000Z",
     "summary": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Zimbra Collaboration email servers by combining phishing attacks with the exploitation of a now-patch",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5e5fe5ee16db8959",
-    "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-23T16:32:35.000Z",
-    "summary": "Ukraine's CERT has uncovered attacks distributing an archive containing the legitimate Notepad++ application and a malicious utility called LunchPoke disguised as a plugin to establish persistence. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b0b6fcf47e0404f3",
-    "title": "State Department imposes visa restrictions on foreign cyber scammers",
-    "link": "https://therecord.media/visa-restrictions-cyber-scammers",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-23T16:29:00.000Z",
-    "summary": "Individuals connected to transnational cyber-scam operations face U.S. visa restrictions under a new policy announced by Secretary of State Marco Rubio.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ade2302dc9f2615a",
-    "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-23T15:34:43.000Z",
-    "summary": "Microsoft is impacted by a massive outage affecting Teams and Microsoft 365 services, primarily affecting users in North America. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f86649064f2e997a",
-    "title": "OpenAI Fixes ChatGPT Agent Flaw That Could Let Attackers Forge an AI Insider",
-    "link": "https://www.securityweek.com/openai-fixes-chatgpt-agent-flaw-that-could-let-attackers-forge-an-ai-insider/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-23T15:09:59.000Z",
-    "summary": "AgentForger allows an attacker to create, insert and remotely control an invisible autonomous AI agent inside a victim organization.\nThe post OpenAI Fixes ChatGPT Agent Flaw That Could Let Attackers Forge an AI Insider appeared first on Sec",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c1d6930241ebe889",
-    "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
-    "link": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-23T15:02:07.000Z",
-    "summary": "Most of this week's trouble came dressed as something useful.\n\nA package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders to an AI agent. Other threats hid in open systems, weak cod",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a873d64a57a78a2c",
-    "title": "Email threat landscape: Q2 2026 trends and insights",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-23T15:00:00.000Z",
-    "summary": "In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat actors expanded into Teams-based social ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a12eb3a6dacb8c99",
-    "title": "Is Patching Dead? Vulnerability Management in the Post-Mythos Era",
-    "link": "https://www.securityweek.com/is-patching-dead-vulnerability-management-in-the-post-mythos-era/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-23T15:00:00.000Z",
-    "summary": "You cannot out-patch a machine that writes a working exploit from a vulnerability description in twenty hours. Stop trying to optimize a game you cannot win.\nThe post Is Patching Dead? Vulnerability Management in the Post-Mythos Era appeare",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c2d16c1dbbdbdd7f",
-    "title": "Chick-fil-A Accounts Get Fried in Credential Stuffing Attack",
-    "link": "https://www.securityweek.com/chick-fil-a-accounts-get-fried-in-credential-stuffing-attack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-23T14:55:19.000Z",
-    "summary": "Threat actors used credentials obtained from other companies to hack into Chick-fil-A One accounts.\nThe post Chick-fil-A Accounts Get Fried in Credential Stuffing Attack appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   }
