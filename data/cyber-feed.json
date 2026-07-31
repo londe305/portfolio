@@ -1,5 +1,137 @@
 [
   {
+    "id": "8e5deb56c12de2e8",
+    "title": "The Morning After We Pull a Root of Trust, Nobody Owns It",
+    "link": "https://www.darkreading.com/cyber-risk/morning-after-we-pull-root-of-trust-nobody-owns-it",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-31T14:00:00.000Z",
+    "summary": "The most valuable move any security team can make is building a certificate and key inventory.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e102c017935729ac",
+    "title": "Interpol Leverages Global System to Curtail Fraud Payments",
+    "link": "https://www.darkreading.com/cybersecurity-operations/interpol-leverages-global-system-curtail-fraud-payments",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-31T13:30:00.000Z",
+    "summary": "When a fraudulent transaction occurs, law enforcement agencies must work quickly to halt payments before cybercriminals cash out.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9d5306398d16f3f3",
+    "title": "DROP Platform Lets Californians Reduce Digital Footprint",
+    "link": "https://www.darkreading.com/data-privacy/drop-platform-lets-californians-ditch-their-data",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-31T13:19:36.000Z",
+    "summary": "The Delete Request and Opt-out Platform (DROP) launches Aug. 1 and hundreds of thousands of California residents already registered. Other states could follow if the process goes smoothly.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2866d27e28a78bae",
+    "title": "USA Fencing Lunges Into the Hidden Identity Challenge in Amateur Sports",
+    "link": "https://www.darkreading.com/identity-access-management-security/usa-fencing-hidden-identity-challenge-amateur-sports",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-07-31T13:00:00.000Z",
+    "summary": "The organization behind Team USA's Olympic/Paralympic fencing teams has automated identity verification to handle growing membership, cutting manual review time while ensuring athletes compete in the correct categories.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ca4c4731f40c409a",
+    "title": "Anthropic says its AI hacked real-world companies in three incidents",
+    "link": "https://therecord.media/anthropic-ai-hacked-three-real-companies",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-31T12:15:00.000Z",
+    "summary": "Claude maker Anthropic said its AI models escaped test environments and breached networks at three companies on the open internet.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c41e7cceb044979d",
+    "title": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
+    "link": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-31T11:24:59.000Z",
+    "summary": "Device code phishing - the abuse of the OAuth 2.0 device authorization grant to steal access tokens - has evolved from a niche red-team technique to an industrial-scale threat in under six months.\n\nDesigned for input-constrained devices lik",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "122a974b1caee842",
+    "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
+    "link": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-31T11:21:27.000Z",
+    "summary": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously.\n\nAfter an initial Telegram instruction, the agent found internet-facing systems an",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0c1f8895d77e1319",
+    "title": "Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace",
+    "link": "https://www.securityweek.com/googles-ai-agent-uncovers-13-year-old-chrome-flaw-amid-record-patching-pace/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-31T10:28:45.000Z",
+    "summary": "The internet giant has built an agent harness to find vulnerabilities across Chrome’s codebase.\nThe post Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "176f32034f124582",
+    "title": "The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version",
+    "link": "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-07-31T10:00:18.000Z",
+    "summary": "Analysis of XCSSET v40 reveals a macOS malware targeting developers via Xcode. Unit 42 used advanced pattern matching and AI to decode its logic.\nThe post The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version appeared first",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c81043d927db4671",
+    "title": "EU to Crack Down on AI Deepfakes, Illicit Imagery and Hacking With New Team in Brussels",
+    "link": "https://www.securityweek.com/eu-to-crack-down-on-ai-deepfakes-illicit-imagery-and-hacking-with-new-team-in-brussels/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-31T10:00:00.000Z",
+    "summary": "When the AI Act comes into force, AI companies will be required to make clear to consumers with labels or digital watermarks that chatbots or imagery are generated with AI.\nThe post EU to Crack Down on AI Deepfakes, Illicit Imagery and Hack",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6bcfc28edbfb96fb",
+    "title": "Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations",
+    "link": "https://www.securityweek.com/after-openai-disclosure-anthropic-finds-its-own-models-hacked-3-organizations/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-31T09:39:57.000Z",
+    "summary": "A security company’s systems were hacked after it installed a malicious Python package deployed by Claude. \nThe post Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "093d2a24f930b292",
+    "title": "zipdump.py: Metadata Encoding, (Fri, Jul 31st)",
+    "link": "https://isc.sans.edu/diary/rss/33202",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-07-31T09:22:19.000Z",
+    "summary": "I was asked for help with a problem similar to the following.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "651b1c0bf485de66",
     "title": "Critical Flaw Led to Azure Cosmos DB Pwnage",
     "link": "https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/",
@@ -33,6 +165,28 @@
       "CVE-2026-63077"
     ],
     "severity": "critical"
+  },
+  {
+    "id": "1327568e61ad15f1",
+    "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+    "link": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-31T06:41:44.000Z",
+    "summary": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecuri",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "eec3752b0602b83f",
+    "title": "Finland to disconnect fiber-optic link to Russia as lease expires",
+    "link": "https://therecord.media/finland-russia-fiber-optic-disconnection",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-31T04:00:00.000Z",
+    "summary": "Finland stopped power transmissions with Russia at the start of the war in Ukraine, and two related telecom connections will stop at the end of this year, authorities said.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "40b7e7065e035099",
@@ -299,17 +453,6 @@
     "severity": "critical"
   },
   {
-    "id": "38bcebff47d08755",
-    "title": "DataBahn Raises $40 Million for Agentic Data Pipeline Management",
-    "link": "https://www.securityweek.com/databahn-raises-40-million-for-agentic-data-pipeline-management/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-30T14:00:00.000Z",
-    "summary": "The company will accelerate investments in R&D and product innovation to expand its agentic data control plane.\nThe post DataBahn Raises $40 Million for Agentic Data Pipeline Management appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "dba12ddf1ef8b16f",
     "title": "North Korea’s Lazarus Group sharing tools with ransomware hackers, South Korean agencies warn",
     "link": "https://therecord.media/north-korea-hackers-ransomware",
@@ -321,6 +464,17 @@
     "severity": "critical"
   },
   {
+    "id": "38bcebff47d08755",
+    "title": "DataBahn Raises $40 Million for Agentic Data Pipeline Management",
+    "link": "https://www.securityweek.com/databahn-raises-40-million-for-agentic-data-pipeline-management/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-30T14:00:00.000Z",
+    "summary": "The company will accelerate investments in R&D and product innovation to expand its agentic data control plane.\nThe post DataBahn Raises $40 Million for Agentic Data Pipeline Management appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "7f78909ba7325c09",
     "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
     "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
@@ -330,6 +484,17 @@
     "summary": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants, according to Wiz.\n\nWiz, which codenamed the cha",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "0ad38c17704843cd",
+    "title": "North Korean hackers behind major open-source supply chain attacks, Amazon says",
+    "link": "https://therecord.media/north-korea-hackers-amazon-malware",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-07-30T13:00:00.000Z",
+    "summary": "A North Korea-linked hacker group was behind several high-profile compromises of open-source software libraries used by developers worldwide, researchers have found.",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "6c2cbcfc86a5aa7b",
@@ -352,17 +517,6 @@
     "summary": "The company will invest in accelerating the development and adoption of its agentic platform.\nThe post Discern Security Raises $13 Million in Series A Funding appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "0ad38c17704843cd",
-    "title": "North Korean hackers behind major open-source supply chain attacks, Amazon says",
-    "link": "https://therecord.media/north-korea-hackers-amazon-malware",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-30T13:00:00.000Z",
-    "summary": "A North Korea-linked hacker group was behind several high-profile compromises of open-source software libraries used by developers worldwide, researchers have found.",
-    "cveIds": [],
-    "severity": "critical"
   },
   {
     "id": "207f70882c64c86c",
@@ -1860,6 +2014,17 @@
     "severity": "normal"
   },
   {
+    "id": "e52a83a08586fc64",
+    "title": "Multiples vulnérabilités dans les produits Apple (28 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0938/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-28T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des d",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "868d586d629799ee",
     "title": "Hackers target US firms in FastJson RCE zero-day attacks",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
@@ -2335,6 +2500,50 @@
     "severity": "normal"
   },
   {
+    "id": "069151ada61b1fe7",
+    "title": "Multiples vulnérabilités dans les produits Atlassian (27 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0934/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-27T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Atlassian. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dis",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7f75a88868e2b7ba",
+    "title": "Multiples vulnérabilités dans GLPI (27 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0935/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-27T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans GLPI. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à l'intégrité des données et une injection SQL (SQLi).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4fdc131b6f92a9e3",
+    "title": "Vulnérabilité dans Traefik (27 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0936/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-27T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Traefik. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "131658ca9c50ea21",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (27 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0937/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-27T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique de sécurité et un problème de sécurité non spé",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a97f6090fb5c14d1",
     "title": "Scans for ESAFENET CDG 3 Document Management System Weak Logins, (Sun, Jul 26th)",
     "link": "https://isc.sans.edu/diary/rss/33184",
@@ -2573,171 +2782,6 @@
     "category": "news",
     "pubDate": "2026-07-24T15:12:35.000Z",
     "summary": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineer",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fd753ee12bef6146",
-    "title": "In Other News: Dolphin X AI-Powered Malware, Car Anti-Theft Device Hack, 400 Linux Kernel Flaws",
-    "link": "https://www.securityweek.com/in-other-news-dolphin-x-ai-powered-malware-car-anti-theft-device-hack-400-linux-kernel-flaws/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-24T14:20:00.000Z",
-    "summary": "Noteworthy stories that might have slipped under the radar: Siemens ROX II industrial switch vulnerabilities, Russian Zimbra webmail espionage campaign, Stadler Rail ransomware extortion attempt.\nThe post In Other News: Dolphin X AI-Powered",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "91710fe58c4b6956",
-    "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
-    "link": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-24T14:15:21.000Z",
-    "summary": "Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine.\n\nThey codenamed the flaw Certighost. B",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2b3f4ab0806fe6f0",
-    "title": "Chick-fil-A data breach affects more than 13,000 customers",
-    "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-24T14:04:29.000Z",
-    "summary": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6ad599be5cc6206f",
-    "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
-    "link": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-24T14:01:11.000Z",
-    "summary": "Slopsquatting, phantom squatting, and HalluSquatting all exploit the same late-binding attack pattern, where AI coding agents trust hallucinated package, repo, or domain names. ActiveState explains how pre-fetch verification and governed de",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "07476b43568007dd",
-    "title": "Vatican's Official Prayer App Leaks 700K+ Global Users' PII",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-24T13:00:00.000Z",
-    "summary": "A porous API endpoint exposes, names, email addresses, country, and site status, all of which can be easily gleaned by anyone with a browser.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d251652da266ddbc",
-    "title": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
-    "link": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-24T12:56:53.000Z",
-    "summary": "Europol has flagged 4,340 URLs for removal during a multi-week operation targeting online content linked to \"The Com,\" a loosely organized network of nihilistic violent extremist groups. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f1fa880b88362062",
-    "title": "Default Azure Automation Setting Enables Cross-Tenant Identity Takeover",
-    "link": "https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-24T12:48:16.000Z",
-    "summary": "Microsoft addresses a public-by-default configuration and chain of code flaws in Azure Automation that could have let attackers seize another tenant's identity and access others' data, credentials, and cloud workloads.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "80ef218e6fa42c70",
-    "title": "AegisAI Raises $36 Million for AI-Powered Email Security",
-    "link": "https://www.securityweek.com/aegisai-raises-36-million-for-ai-powered-email-security/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-24T12:01:18.000Z",
-    "summary": "The company has raised a total of $49 million in funding, including from Battery Ventures, Accel and Foundation Capital.\nThe post AegisAI Raises $36 Million for AI-Powered Email Security appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6bef077b53cc3baf",
-    "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
-    "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-24T11:53:55.000Z",
-    "summary": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agen",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c6f845a8406c10c7",
-    "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
-    "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-24T11:45:17.000Z",
-    "summary": "A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet.\n\nXBOW's testing got the same result on workers acros",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7774107641221c44",
-    "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
-    "link": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-24T11:30:00.000Z",
-    "summary": "AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents is harder than we ever imagined. This is ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "69a12bf1baddfe83",
-    "title": "Industry Reactions to OpenAI Models Hacking Hugging Face: Feedback Friday",
-    "link": "https://www.securityweek.com/industry-reactions-to-openai-models-hacking-hugging-face-feedback-friday/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-24T11:19:46.000Z",
-    "summary": "Industry professionals debate whether it represents a lab containment failure or an unprecedented agentic capability milestone.\nThe post Industry Reactions to OpenAI Models Hacking Hugging Face: Feedback Friday appeared first on SecurityWee",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "58344f7ad90fc2c6",
-    "title": "Man gets six years for hacking 750 women's Snapchat accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-24T11:17:19.000Z",
-    "summary": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 women to steal nude photos. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "eb03a2fa4681da06",
-    "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
-    "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-24T10:15:29.000Z",
-    "summary": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance, which runs the country's treasury and tax co",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "97652cd4ceb226e4",
-    "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
-    "link": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-24T10:09:24.000Z",
-    "summary": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping despite extensive public disclosures into thei",
     "cveIds": [],
     "severity": "normal"
   }
