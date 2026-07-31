@@ -1,5 +1,40 @@
 [
   {
+    "id": "651b1c0bf485de66",
+    "title": "Critical Flaw Led to Azure Cosmos DB Pwnage",
+    "link": "https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-31T09:04:02.000Z",
+    "summary": "Named CosmosEscape, the vulnerability exposed the primary key for Cosmos DB accounts, granting full read and write access.\nThe post Critical Flaw Led to Azure Cosmos DB Pwnage appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7174c93487a7f1e2",
+    "title": "CareCloud Data Breach Impacts Over 350,000",
+    "link": "https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-31T07:51:43.000Z",
+    "summary": "In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment.\nThe post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9177bc296244e6ca",
+    "title": "Critical Code Execution Vulnerability Patched in TeamCity",
+    "link": "https://www.securityweek.com/critical-code-execution-vulnerability-patched-in-teamcity/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-31T06:50:30.000Z",
+    "summary": "Tracked as CVE-2026-63077, the security defect can be exploited without authentication via the agent polling protocol.\nThe post Critical Code Execution Vulnerability Patched in TeamCity  appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-63077"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "40b7e7065e035099",
     "title": "ISC Stormcast For Friday, July 31st, 2026 https://isc.sans.edu/podcastdetail/10032, (Fri, Jul 31st)",
     "link": "https://isc.sans.edu/diary/rss/33204",
@@ -2705,71 +2740,5 @@
     "summary": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping despite extensive public disclosures into thei",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "10914aba84e9435b",
-    "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
-    "link": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-24T07:41:06.000Z",
-    "summary": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour review of the forum software's source cod",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ff9d1cdea189a0f3",
-    "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-24T07:36:39.000Z",
-    "summary": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1d9b041ab9e1b3cb",
-    "title": "Europe's Multilingual Reality Exposes AI Security Gaps",
-    "link": "https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-24T07:00:00.000Z",
-    "summary": "The AI security layer and guardrails for many AI products don't evenly protect against jailbreaking and unsafe actions in every single language.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "65ed4cac539f3309",
-    "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say",
-    "link": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-24T06:58:27.000Z",
-    "summary": "Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0.\n\nAll four chains require RESTORE. The Streams chains also need EVAL and XGROUP; the 8.8.0 c",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "968e9f178a945f34",
-    "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
-    "link": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-24T06:50:57.000Z",
-    "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems.\n\nThe activity has been attributed by ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "266fd3418e80f9a0",
-    "title": "Data Breach Confirmed After Australian Energy Giant Origin Is Hacked",
-    "link": "https://www.securityweek.com/data-breach-confirmed-after-australian-energy-giant-origin-is-hacked/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-24T05:52:31.000Z",
-    "summary": "A hacker claims to have stolen the information of 2 million Origin Energy customers and is threatening to leak it. \nThe post Data Breach Confirmed After Australian Energy Giant Origin Is Hacked appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
