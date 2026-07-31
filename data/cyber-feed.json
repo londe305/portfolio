@@ -1,5 +1,49 @@
 [
   {
+    "id": "ddfbc3229b935add",
+    "title": "In Other News: OpenAI Open Source Tool, AWS Links Hacks to North Korea, Mythos Crypto Research",
+    "link": "https://www.securityweek.com/in-other-news-openai-open-source-tool-aws-links-hacks-to-north-korea-mythos-crypto-research/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-31T15:47:02.000Z",
+    "summary": "Noteworthy stories that might have slipped under the radar: parcel delivery company OnTrac hacked, Adobe patches, UK Department for Education loses 607,000 records.\nThe post In Other News: OpenAI Open Source Tool, AWS Links Hacks to North K",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f8d403c850df2483",
+    "title": "Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers",
+    "link": "https://www.securityweek.com/cyberattacks-on-minnesota-water-systems-investigated-as-officials-warn-about-iranian-hackers/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-07-31T15:17:41.000Z",
+    "summary": "Iran has the “geopolitical motivations” and a recent history of targeting water systems, experts pointed out.\nThe post Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers appeared first on SecurityWe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "79881b4024d3123e",
+    "title": "Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies",
+    "link": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-31T14:45:01.000Z",
+    "summary": "Bitsight says some cheap Android TV boxes have shipped with apps that rewrite their hardware identity to mimic Samsung, Huawei, Xiaomi, or Vivo phones, then click ads on websites run by the same operators.\n\nResearchers named the operation F",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fc02c7e08aa73165",
+    "title": "ESET tracks rise in malicious AI skills and adaptable malware",
+    "link": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-31T14:01:11.000Z",
+    "summary": "Attackers are adapting established techniques to AI platforms, emerging technologies, and changing user behavior. ESET's new threat report examines the rise of malicious AI skills, AI-assisted malware, ClickFix attacks, record quishing acti",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "8e5deb56c12de2e8",
     "title": "The Morning After We Pull a Root of Trust, Nobody Owns It",
     "link": "https://www.darkreading.com/cyber-risk/morning-after-we-pull-root-of-trust-nobody-owns-it",
@@ -44,6 +88,17 @@
     "severity": "normal"
   },
   {
+    "id": "0d5d6a707b71b84f",
+    "title": "Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined",
+    "link": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-31T12:51:52.000Z",
+    "summary": "Google on Thursday announced that it fixed a whopping 1,072 security bugs in Chrome versions 149 and 150, surpassing the total number of flaws the company fixed across the prior 23 milestones combined.\n\nBoth versions were released last mont",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ca4c4731f40c409a",
     "title": "Anthropic says its AI hacked real-world companies in three incidents",
     "link": "https://therecord.media/anthropic-ai-hacked-three-real-companies",
@@ -53,6 +108,17 @@
     "summary": "Claude maker Anthropic said its AI models escaped test environments and breached networks at three companies on the open internet.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "8e306e9cb719c6c1",
+    "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
+    "link": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-07-31T11:55:00.000Z",
+    "summary": "An academic study has disclosed a \"widespread class\" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service (DoS) attacks and even session hijacking, allowing an attack",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "c41e7cceb044979d",
@@ -133,12 +199,12 @@
   },
   {
     "id": "651b1c0bf485de66",
-    "title": "Critical Flaw Led to Azure Cosmos DB Pwnage",
+    "title": "Critical Flaw Allowed to Azure Cosmos DB Pwnage",
     "link": "https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/",
     "source": "SecurityWeek",
     "category": "news",
     "pubDate": "2026-07-31T09:04:02.000Z",
-    "summary": "Named CosmosEscape, the vulnerability exposed the primary key for Cosmos DB accounts, granting full read and write access.\nThe post Critical Flaw Led to Azure Cosmos DB Pwnage appeared first on SecurityWeek.",
+    "summary": "Named CosmosEscape, the vulnerability exposed the primary key for Cosmos DB accounts, granting full read and write access.\nThe post Critical Flaw Allowed to Azure Cosmos DB Pwnage appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
   },
@@ -2749,39 +2815,6 @@
     "category": "news",
     "pubDate": "2026-07-24T17:14:00.000Z",
     "summary": "The new British prime minister is retaining Liz Lloyd in a cyber policy role, making her one of the few Keir Starmer allies remaining in government.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5143c661d85137f0",
-    "title": "'Wrench' attacks against crypto holders appear to be on the rise",
-    "link": "https://therecord.media/wrench-attacks-against-cryptocurrency-holders",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-24T15:55:00.000Z",
-    "summary": "There are more reports than ever before of strong-arm tactics like home invasions and kidnappings against cryptocurrency holders, researchers say.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9bf285359f7cb4c0",
-    "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-24T15:41:44.000Z",
-    "summary": "Microsoft says a bug in its automated network maintenance request system caused Thursday's massive outage by mistakenly removing IP routes from more devices than intended, disrupting Azure and Microsoft 365 services. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "68327402f2a76e00",
-    "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
-    "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-24T15:12:35.000Z",
-    "summary": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineer",
     "cveIds": [],
     "severity": "normal"
   }
