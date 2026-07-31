@@ -1,5 +1,38 @@
 [
   {
+    "id": "4b4c01933a40913e",
+    "title": "Arch Linux disables AUR package adoption to stop malware flood",
+    "link": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-31T21:38:08.000Z",
+    "summary": "The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "58970b535e19de28",
+    "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
+    "link": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-31T21:09:25.000Z",
+    "summary": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e32d7079a1eb6b8b",
+    "title": "CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-07-31T21:01:37.000Z",
+    "summary": "Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and stea",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "9987c9f75fe523f1",
     "title": "OpenAI says its new GPT 5.6 models are becoming more cost-efficient",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/",
@@ -160,7 +193,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-07-31T13:19:36.000Z",
-    "summary": "The Delete Request and Opt-out Platform (DROP) launches Aug. 1 and hundreds of thousands of California residents already registered. Other states could follow if the process goes smoothly.",
+    "summary": "Hundreds of thousands of California residents have already registered for the Delete Request and Opt-out Platform (DROP), which launches Aug. 1. Other states could follow if the process goes smoothly.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2837,39 +2870,6 @@
     "category": "news",
     "pubDate": "2026-07-25T08:30:00.000Z",
     "summary": "A researcher has explained how an attacker could exploit these vulnerabilities to target industrial organizations.\nThe post Rockwell Patches Code Execution Flaws in Arena Simulation Software appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4c6720cf4c117fa9",
-    "title": "CISOs vs. Boards: Myth or Misunderstanding?",
-    "link": "https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-24T21:31:53.000Z",
-    "summary": "Escalating threats are forcing boards to prioritize security, but communication gaps persist. Boards and security teams each say they need more support to bridge the divide.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3fccf010f6ad9b53",
-    "title": "OnTrac notifies customers of data breach after network hack",
-    "link": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-24T19:55:01.000Z",
-    "summary": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c18b8e009b4948bb",
-    "title": "Escape Artists: 'Incorrigible' AI Models Resist Rehabilitation",
-    "link": "https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-24T19:45:02.000Z",
-    "summary": "The hacking of Hugging Face by a rogue OpenAI agent is significant, but unsurprising — and preventing the next AI model escape will be difficult, at best.",
     "cveIds": [],
     "severity": "normal"
   }
