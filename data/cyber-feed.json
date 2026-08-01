@@ -1,5 +1,38 @@
 [
   {
+    "id": "5788eeab53ffce78",
+    "title": "Phishing Campaigns Targeting AI Solutions Providers, (Sat, Aug 1st)",
+    "link": "https://isc.sans.edu/diary/rss/33206",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-01T07:22:32.000Z",
+    "summary": "Most phishing campaigns rely on the fact that the victim is afraid to loose \"something\": money, access to information, ... Many brands have been impersonated by campaigns but I spotted some phishing emails that focus on AI services like Cha",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b94013c6f502307a",
+    "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
+    "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-01T07:12:42.000Z",
+    "summary": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution.\n\nThe vulnerability, tracked as C",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a23c1dcb63a4492f",
+    "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
+    "link": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-01T06:29:05.000Z",
+    "summary": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report.\n\nResearchers trac",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "1e197764be800c26",
     "title": "Amgen says cloud data breach exposed patient health, proprietary info",
     "link": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
