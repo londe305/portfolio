@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-01T19:19:11.079Z",
+  "lastRun": "2026-08-01T22:02:29.207Z",
   "totalItems": 258,
   "sources": [
     {
@@ -76,9 +76,9 @@
     },
     {
       "name": "The Record",
-      "ok": false,
-      "itemCount": 0,
-      "error": "Status code 520"
+      "ok": true,
+      "itemCount": 5,
+      "error": null
     }
   ]
 }
