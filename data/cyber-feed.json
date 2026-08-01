@@ -1,5 +1,16 @@
 [
   {
+    "id": "6e179e2105e4cc57",
+    "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
+    "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-01T17:17:22.000Z",
+    "summary": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet m",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "612b12a16d83e110",
     "title": "Rails patches critical Active Storage flaw with RCE potential",
     "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
@@ -2848,17 +2859,6 @@
     "category": "news",
     "pubDate": "2026-07-25T22:37:47.000Z",
     "summary": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect devices with cryptominers. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e4420d62b7ee27c9",
-    "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
-    "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-25T18:48:44.000Z",
-    "summary": "A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL.\n\nConfiant, whic",
     "cveIds": [],
     "severity": "normal"
   }
