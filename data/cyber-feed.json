@@ -1,5 +1,16 @@
 [
   {
+    "id": "1e197764be800c26",
+    "title": "Amgen says cloud data breach exposed patient health, proprietary info",
+    "link": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-07-31T22:16:42.000Z",
+    "summary": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "4b4c01933a40913e",
     "title": "Arch Linux disables AUR package adoption to stop malware flood",
     "link": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
