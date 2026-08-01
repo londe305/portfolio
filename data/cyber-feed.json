@@ -1,5 +1,16 @@
 [
   {
+    "id": "612b12a16d83e110",
+    "title": "Rails patches critical Active Storage flaw with RCE potential",
+    "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-01T14:20:30.000Z",
+    "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "daed7d1838bb9067",
     "title": "Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments",
     "link": "https://www.securityweek.com/balance-theory-raises-19-million-to-help-enterprises-manage-cybersecurity-investments/",
@@ -2850,27 +2861,5 @@
     "summary": "A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL.\n\nConfiant, whic",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "08a5f217800bb545",
-    "title": "Malicious sites use JavaScript to build malware in browser memory",
-    "link": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-25T15:21:09.000Z",
-    "summary": "A massive malvertising campaign is using fake Solana, Luno, and TradingView webpages with malicious JavaScript that instructs browsers to assemble malware directly in memory. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cf18834b8584cff1",
-    "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-25T14:16:26.000Z",
-    "summary": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
