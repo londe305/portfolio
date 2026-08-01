@@ -1,5 +1,27 @@
 [
   {
+    "id": "daed7d1838bb9067",
+    "title": "Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments",
+    "link": "https://www.securityweek.com/balance-theory-raises-19-million-to-help-enterprises-manage-cybersecurity-investments/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-01T12:30:00.000Z",
+    "summary": "The funding round was led by SYN Ventures, with participation from existing investors DataTribe and TEDCO. \nThe post Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0c050cb209f7eba3",
+    "title": "Ruby on Rails Patches Critical Vulnerability",
+    "link": "https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-01T11:15:00.000Z",
+    "summary": "The flaw can be exploited by unauthenticated attackers to read arbitrary files and potentially achieve remote code execution (RCE).\nThe post Ruby on Rails Patches Critical Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "a2387078b1d649b4",
     "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
     "link": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
@@ -2848,17 +2870,6 @@
     "category": "news",
     "pubDate": "2026-07-25T14:16:26.000Z",
     "summary": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "41ac194d5fcc7887",
-    "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
-    "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-25T12:52:43.000Z",
-    "summary": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the",
     "cveIds": [],
     "severity": "critical"
   }
