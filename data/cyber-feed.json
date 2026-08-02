@@ -1,5 +1,16 @@
 [
   {
+    "id": "396aff28f311b806",
+    "title": "Atomic MacOS (AMOS) stealer infection, (Sun, Aug 2nd)",
+    "link": "https://isc.sans.edu/diary/rss/33208",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-02T03:21:28.000Z",
+    "summary": "Introduction",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6e179e2105e4cc57",
     "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
     "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
@@ -2848,17 +2859,6 @@
     "category": "news",
     "pubDate": "2026-07-26T14:13:39.000Z",
     "summary": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2c7b2036b3c2a6f5",
-    "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
-    "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-25T22:37:47.000Z",
-    "summary": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect devices with cryptominers. [...]",
     "cveIds": [],
     "severity": "normal"
   }
