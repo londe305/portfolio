@@ -1,5 +1,16 @@
 [
   {
+    "id": "aca1354564cadfd9",
+    "title": "Google Chrome may soon block New Tab hijacker extensions by default",
+    "link": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-02T14:17:16.000Z",
+    "summary": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "396aff28f311b806",
     "title": "Atomic MacOS (AMOS) stealer infection, (Sun, Aug 2nd)",
     "link": "https://isc.sans.edu/diary/rss/33208",
@@ -2837,28 +2848,6 @@
     "category": "advisory",
     "pubDate": "2026-07-27T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique de sécurité et un problème de sécurité non spé",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a97f6090fb5c14d1",
-    "title": "Scans for ESAFENET CDG 3 Document Management System Weak Logins, (Sun, Jul 26th)",
-    "link": "https://isc.sans.edu/diary/rss/33184",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-26T15:26:14.000Z",
-    "summary": "ESAFENET&#;x26;#;39;s CDG showed up in our data before. The company focused on secure document management and data leakage prevention solutions. The \"CDG\" stands for \"Content Data Guard\", and the product appears to be mostly targeting the C",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2697dc06420410d6",
-    "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-26T14:13:39.000Z",
-    "summary": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]",
     "cveIds": [],
     "severity": "normal"
   }
