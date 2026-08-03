@@ -1,5 +1,38 @@
 [
   {
+    "id": "ffb57ea319256abd",
+    "title": "Fake Roblox Xeno script launcher pushes infostealer, RAT malware",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-03T19:25:10.000Z",
+    "summary": "Fake Xeno Executor installers are infecting unsuspecting Roblox players with malware that provides remote access and steals sensitive information. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9aa3c87b13bfbde2",
+    "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
+    "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-03T18:43:53.000Z",
+    "summary": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack ta",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f13ef28a052f3291",
+    "title": "Hackers steal 31,000 records identifying people behind Liechtenstein companies, foundations",
+    "link": "https://therecord.media/hackers-steal-records-liechtenstein-companies-foundations",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-03T17:36:00.000Z",
+    "summary": "A cyberattack compromised tens of thousands of records related to companies, foundations and trusts in Liechtenstein, prompting the government to to form a “crisis unit” to address the breach.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "d7fcd6cb55a2884d",
     "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
@@ -46,17 +79,6 @@
     "severity": "normal"
   },
   {
-    "id": "a421f30d516d9354",
-    "title": "Chinese Actor Weaponizes DeepSeek AI Agent to Attack Security Firm",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-03T15:56:28.000Z",
-    "summary": "Researchers intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking to launch further attacks.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
     "id": "6c6ba43ca66850e4",
     "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 1)",
     "link": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-1/",
@@ -68,6 +90,17 @@
     "severity": "normal"
   },
   {
+    "id": "a421f30d516d9354",
+    "title": "Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-03T15:42:18.000Z",
+    "summary": "Researchers from Jesta intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking and to launch further attacks",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "924f2de363983f9a",
     "title": "Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion",
     "link": "https://www.securityweek.com/visa-to-acquire-fraud-intelligence-firm-biocatch-for-2-4-billion/",
@@ -75,6 +108,17 @@
     "category": "news",
     "pubDate": "2026-08-03T15:32:05.000Z",
     "summary": "The payments giant says BioCatch’s behavioral and device intelligence will help financial institutions combat account takeovers, scams and other forms of digital fraud.\nThe post Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Bill",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6a9351dd3f4b64ca",
+    "title": "Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations",
+    "link": "https://www.securityweek.com/cyberattack-hits-liechtensteins-register-of-people-behind-companies-and-foundations/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-03T15:15:00.000Z",
+    "summary": "The list of people behind companies, foundations and trusteeships is part of efforts to combat money laundering and terror financing.\nThe post Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations appeared fir",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2799,82 +2843,5 @@
     "summary": "An FBI agent explains how the mulitnational law-enforcement Operation Cronos was successful in disrupting the largest ransomware group of its time.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "487aa476e2d82efe",
-    "title": "Why Resetting Passwords No Longer Stops Attackers",
-    "link": "https://www.darkreading.com/endpoint-security/why-resetting-passwords-no-longer-stop-attacks",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-27T18:39:50.000Z",
-    "summary": "As attackers shift from password theft to session and token theft to bypass multifactor authentication controls, organizations must move beyond login security and protect authenticated sessions.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7324670db8391cfe",
-    "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
-    "link": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-27T18:10:05.000Z",
-    "summary": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents.\n\nThe 37-member group spans cloud, securit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d65b55f9898c6133",
-    "title": "UK court rejects Bahrain immunity claim in spyware case",
-    "link": "https://therecord.media/uk-court-rejects-bahrain-immunity-claim-spyware-case",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-27T17:52:00.000Z",
-    "summary": "The alleged hacking by officials in Bahrain “allowed access to and exfiltration of information on the computers, interception of communications conducted using the computers and use of the computers’ microphones and cameras to surveil the r",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "46bf72e8fc829f21",
-    "title": "Health system in South Carolina, Georgia closes offices after malware affects networks",
-    "link": "https://therecord.media/health-system-south-carolina-georgia-disruptions-malware",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-27T17:38:00.000Z",
-    "summary": "On Sunday, AnMed published a statement online saying they were “experiencing a cybersecurity disruption involving malware” and were working to restore systems and determine the scope of the incident.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6f8a6e4ea6b97b50",
-    "title": "Adversaries Don't Need a Zero-Day — They Read Your Rulebook",
-    "link": "https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-27T17:31:18.000Z",
-    "summary": "Confidence in autonomous security tools is declining, and here's why.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "391be122548ec367",
-    "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
-    "link": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-27T17:29:07.000Z",
-    "summary": "Apple is being sued by three people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Sparrow Wallet application from the App Store. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bd11017f18adc25f",
-    "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
-    "link": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-27T17:16:28.000Z",
-    "summary": "Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-device relays after a March law-enforcement operation against JackSkid infrastructure. The researchers sa",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
