@@ -1,5 +1,62 @@
 [
   {
+    "id": "c600019927d3d463",
+    "title": "Attackers Exploit N-able Patch Bypass Flaw on RMM Servers",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-03T21:21:11.000Z",
+    "summary": "Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.",
+    "cveIds": [
+      "CVE-2026-18577"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "f12c19346a9417ba",
+    "title": "New Tool Traces AI Videos Back to Their Source",
+    "link": "https://www.darkreading.com/cyber-risk/new-tool-advances-ai-generated-video-detection",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-03T20:42:28.000Z",
+    "summary": "Researchers dug into the root of the problem with the goal of promoting industry collaboration on improved protective measures.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e89c8d8a7d065b59",
+    "title": "Anthropic: AI Attacks Result of Security Gaps, Not Model Issues",
+    "link": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-03T20:31:12.000Z",
+    "summary": "Last month's incidents in which Claude breached real-world systems derived from over-permissioning, especially with Internet access.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6180b0d0c543fd7d",
+    "title": "Bitcoin hardware wallet maker destroys some inventory after more than $88 million stolen",
+    "link": "https://therecord.media/bitcoin-theft-coldcard-cyberattack",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-03T20:15:00.000Z",
+    "summary": "The company behind a popular hardware wallet for bitcoin owners was forced to destroy part of its inventory after thieves siphoned more than $88 million from customers through a firmware vulnerability.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "845ccd1bb48b11db",
+    "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
+    "link": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-03T20:01:22.000Z",
+    "summary": "A new Russian loader-as-a-service named DOUBLECUP uses ClickFix attacks to hide malicious code in PNG images cached by victims' browsers, ultimately delivering CountLoader to Windows and macOS devices and a new remote access trojan named De",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ffb57ea319256abd",
     "title": "Fake Roblox Xeno script launcher pushes infostealer, RAT malware",
     "link": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
@@ -96,7 +153,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-08-03T15:42:18.000Z",
-    "summary": "Researchers from Jesta intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking and to launch further attacks",
+    "summary": "Researchers intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking to launch further attacks.",
     "cveIds": [],
     "severity": "critical"
   },
@@ -207,6 +264,19 @@
     "category": "news",
     "pubDate": "2026-08-03T12:34:06.000Z",
     "summary": "The N‑central vulnerability CVE-2026-18577 has been exploited in the wild after threat actors found a patch bypass.\nThe post N‑able Patches Vulnerability Exploited to Hack N-central Servers appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-18577"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "dd8d41da7130fdc5",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-03T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-18577 N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability\nTh",
     "cveIds": [
       "CVE-2026-18577"
     ],
@@ -1229,15 +1299,26 @@
     "severity": "normal"
   },
   {
-    "id": "4e741d796bd3c379",
-    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-06",
+    "id": "2e276ef7b440f9ba",
+    "title": "MZ Automation GmbH libiec61850",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-30T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of NASA Core Flight System (cFS) Health & Safety (HS) Application are affected:\nCore Flig",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the device.\nThe following versions of MZ Automation GmbH libiec61850 are affected:\nlibiec61850 <1.6.2 (CVE-",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "bf4b29c951c9216d",
+    "title": "Open Source Software: Security Principles and Practices",
+    "link": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Principles and Practices guidance helps agencies securely use, evaluate, and",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "9fad9afc6cab3025",
@@ -1260,17 +1341,6 @@
     "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its IGSS Definition module for the IGSS (Interactive Graphical SCADA System) product. The [IGSS](https://igss.schneider-electric.com/) product is a state-of-the-art SCADA s",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "bf4b29c951c9216d",
-    "title": "Open Source Software: Security Principles and Practices",
-    "link": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-30T12:00:00.000Z",
-    "summary": "Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Principles and Practices guidance helps agencies securely use, evaluate, and",
-    "cveIds": [],
-    "severity": "critical"
   },
   {
     "id": "eb761ef7ccd11eb8",
@@ -1328,13 +1398,13 @@
     "severity": "normal"
   },
   {
-    "id": "2e276ef7b440f9ba",
-    "title": "MZ Automation GmbH libiec61850",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10",
+    "id": "ba1d0f85fc525d77",
+    "title": "Rockwell Automation CompactLogix 5380 ControlLogix 5580 / 1756-EN4TR Communications Module",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-05",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-30T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the device.\nThe following versions of MZ Automation GmbH libiec61850 are affected:\nlibiec61850 <1.6.2 (CVE-",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation CompactLogix 5380 ControlLogix 5580 / 1756-EN4TR Communications Mo",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1353,13 +1423,13 @@
     "severity": "cve"
   },
   {
-    "id": "ba1d0f85fc525d77",
-    "title": "Rockwell Automation CompactLogix 5380 ControlLogix 5580 / 1756-EN4TR Communications Module",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-05",
+    "id": "4e741d796bd3c379",
+    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-06",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-30T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation CompactLogix 5380 ControlLogix 5580 / 1756-EN4TR Communications Mo",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of NASA Core Flight System (cFS) Health & Safety (HS) Application are affected:\nCore Flig",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1953,19 +2023,6 @@
     "severity": "normal"
   },
   {
-    "id": "06f94c065a4ac5c8",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-29T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-20316 Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability\nThis type",
-    "cveIds": [
-      "CVE-2026-20316"
-    ],
-    "severity": "cve"
-  },
-  {
     "id": "98188d77c26a4d3e",
     "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
     "link": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
@@ -2443,6 +2500,28 @@
     "severity": "normal"
   },
   {
+    "id": "90bc57782902ef72",
+    "title": "MikroTik RouterOS and Cloud Hosted Router",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to rapidly guess passwords and gain unauthorized system access.\nThe following versions of MikroTik RouterOS and Cloud Hosted Router are affected:\nRouterOS",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bcbdcff595af536f",
+    "title": "igloohome Smart Lock Mobile Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-28T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an unauthorized actor to access functions or backend services.\nThe following versions of igloohome Smart Lock Mobile Application are affected:\nSmart Lock Mobile App",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "8615f50bea44fc48",
     "title": "CI Fortify – Advice for isolating vital systems",
     "link": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
@@ -2472,28 +2551,6 @@
     "category": "advisory",
     "pubDate": "2026-07-28T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nOpenSSL has published a stack based buffer overflow vulnerability that allows a remote attacker to cause a denial of service (DoS) or potentially allow for remote code execution. Siemens has released new versions for sever",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bcbdcff595af536f",
-    "title": "igloohome Smart Lock Mobile Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an unauthorized actor to access functions or backend services.\nThe following versions of igloohome Smart Lock Mobile Application are affected:\nSmart Lock Mobile App",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "90bc57782902ef72",
-    "title": "MikroTik RouterOS and Cloud Hosted Router",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to rapidly guess passwords and gain unauthorized system access.\nThe following versions of MikroTik RouterOS and Cloud Hosted Router are affected:\nRouterOS",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2775,72 +2832,6 @@
     "category": "news",
     "pubDate": "2026-07-27T22:49:44.000Z",
     "summary": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f5265b90696520c1",
-    "title": "Agentic Browsers Rewind Web Security by 20 Years",
-    "link": "https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-27T21:39:09.000Z",
-    "summary": "PleaseFix class of flaws makes it easy to socially engineer agentic browsers and highlights weaknesses in how they handle cross-origin requests.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "16ac7903dd7c9e2a",
-    "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
-    "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-27T21:08:15.000Z",
-    "summary": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks and traffic relay operations. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9225e457d46e6a3f",
-    "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
-    "link": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-27T21:00:25.000Z",
-    "summary": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7b64233b8acac4db",
-    "title": "'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure",
-    "link": "https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-27T20:57:26.000Z",
-    "summary": "This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b4f2b2b28ef63063",
-    "title": "Outdated VPNs should be purged from federal agencies, senator says",
-    "link": "https://therecord.media/federal-purge-outdated-vpns-wyden-letter",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-27T20:45:00.000Z",
-    "summary": "Intelligence Committee member Ron Wyden wants CISA, OMB and NIST to lead a federal effort to rout out obsolete VPNs from the U.S. government.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "92a27008ca321f3f",
-    "title": "FBI: Breaking Affiliate Trust Sped Along LockBit's Takedown",
-    "link": "https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-27T20:33:29.000Z",
-    "summary": "An FBI agent explains how the mulitnational law-enforcement Operation Cronos was successful in disrupting the largest ransomware group of its time.",
     "cveIds": [],
     "severity": "critical"
   }
