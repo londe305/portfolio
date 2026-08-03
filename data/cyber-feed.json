@@ -1,7 +1,97 @@
 [
   {
+    "id": "d7fcd6cb55a2884d",
+    "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-03T17:00:56.000Z",
+    "summary": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]",
+    "cveIds": [
+      "CVE-2026-18577"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "be0a8086d93f41e1",
+    "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
+    "link": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-03T16:24:47.000Z",
+    "summary": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen.\n\nUnit 42 detailed three attack paths against Chr",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "49e56fbc932a31b0",
+    "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
+    "link": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-03T16:15:13.000Z",
+    "summary": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.\n\nIn a report published over the weekend, Resecurity",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "02f5170987f47c95",
+    "title": "[Webinar] Tales from the Frontlines: An exclusive briefing on Q2 incidents",
+    "link": "https://blog.talosintelligence.com/webinar-tales-from-the-frontlines-an-exclusive-briefing-on-q2-incidents/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-08-03T16:00:12.000Z",
+    "summary": "Register for an exclusive, unrecorded 30-minute webinar to review the most high-impact incidents Talos IR faced in Q2.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a421f30d516d9354",
+    "title": "Chinese Actor Weaponizes DeepSeek AI Agent to Attack Security Firm",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-03T15:56:28.000Z",
+    "summary": "Researchers intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking to launch further attacks.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6c6ba43ca66850e4",
+    "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 1)",
+    "link": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-1/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-03T15:50:00.000Z",
+    "summary": "Many companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas.\nThe post Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "924f2de363983f9a",
+    "title": "Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion",
+    "link": "https://www.securityweek.com/visa-to-acquire-fraud-intelligence-firm-biocatch-for-2-4-billion/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-03T15:32:05.000Z",
+    "summary": "The payments giant says BioCatch’s behavioral and device intelligence will help financial institutions combat account takeovers, scams and other forms of digital fraud.\nThe post Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Bill",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a6d8fbac159d2268",
+    "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
+    "link": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-03T15:04:39.000Z",
+    "summary": "A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and other criminal justice professionals. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "c7ef67bd59caf161",
-    "title": "Inside the Underground Business of BTMOB RAT",
+    "title": "Inside the Underground Business of the Android BTMOB RAT malware",
     "link": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
     "source": "BleepingComputer",
     "category": "news",
@@ -118,7 +208,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-08-03T10:49:06.000Z",
-    "summary": "An unknown Chinese-threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.\n\nAttack surface management platform Censys said it identified the threat ",
+    "summary": "An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.\n\nAttack surface management platform Censys said it identified th",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2786,60 +2876,5 @@
     "summary": "Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-device relays after a March law-enforcement operation against JackSkid infrastructure. The researchers sa",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "bfd854806ca81e5c",
-    "title": "Rethinking security for the age of AI",
-    "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-27T16:40:00.000Z",
-    "summary": "The physics of cybersecurity are changing. Introducing security's new cyber stack: Project Perception.\nThe post Rethinking security for the age of AI appeared first on Microsoft Security Blog.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "48b56323aa380e19",
-    "title": "Enhancing AI security through global AI red teaming",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-27T16:25:00.000Z",
-    "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI r",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a18ae72d1ac1ee93",
-    "title": "Telegram phishing campaign targeted exiled Belarusian activist, Russians and Kazakhstanis",
-    "link": "https://therecord.media/telegram-belarus-activist-russia-cyberattack",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-27T16:00:00.000Z",
-    "summary": "Researchers have uncovered a highly personalized phishing campaign that used Telegram to try to hijack the account of an exiled Belarusian activist, as well as users in Russia and Kazakhstan.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "253e5c9215b540be",
-    "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
-    "link": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-27T15:39:51.000Z",
-    "summary": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "fd07d6d7a654776e",
-    "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
-    "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-27T15:12:27.000Z",
-    "summary": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
