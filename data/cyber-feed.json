@@ -1,12 +1,78 @@
 [
   {
+    "id": "2153cef9b25cf50f",
+    "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 2)",
+    "link": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-2/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-04T16:49:39.000Z",
+    "summary": "Many companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas.\nThe post Black Hat USA 2026 – Summary of Vendor Announcements (Part 2) appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d10773f8a0e981a1",
+    "title": "Britain’s next war won’t be an away game: Q&A with former head of Defence Intelligence",
+    "link": "https://therecord.media/interview-jim-hockenhull-uk-defence-intelligence-russia-ukraine",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-04T16:19:00.000Z",
+    "summary": "As Chief of Defence Intelligence, General Sir Jim Hockenhull decided to declassify and publish what London knew of Russia’s plans to invade Ukraine, down to a map of the routes its forces would take.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "55f1d2321714a048",
+    "title": "Rethinking AI Security: Why CASB and DLP Need an Interaction-Aware Layer",
+    "link": "https://www.securityweek.com/rethinking-ai-security-why-casb-and-dlp-need-an-interaction-aware-layer/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-04T16:15:00.000Z",
+    "summary": "Build your strategy around answering these questions to ensure employees use AI productively while keeping sensitive data, IP, and agent behavior within the boundaries set for safe AI use.\nThe post Rethinking AI Security: Why CASB and DLP N",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6076c99f4e6aa8d8",
+    "title": "Polish convenience store chain Żabka hacked through third-party account",
+    "link": "https://therecord.media/poland-convenience-store-chain-zabka-cyberattack",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-04T15:55:00.000Z",
+    "summary": "Reports said intruders appeared to gain access to the Jira environment and other sensitive data of the Żabka retail chain. The company confirmed an intrusion occurred in late July.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6c704edf522f3eaf",
+    "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
+    "link": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-04T15:24:35.000Z",
+    "summary": "Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "653f36182fad7f95",
+    "title": "Oligo Raises $60 Million for Runtime Security",
+    "link": "https://www.securityweek.com/oligo-raises-60-million-for-runtime-security/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-04T15:00:00.000Z",
+    "summary": "The company will use the investment to accelerate product innovation and expand go-to-market operations.\nThe post Oligo Raises $60 Million for Runtime Security appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "68f9f3ebf57b5ff7",
-    "title": "CISO Conversation: Russ Kirby – Passion Is the Antidote to Burnout",
+    "title": "CISO Conversations: Russ Kirby – Passion Is the Antidote to Burnout",
     "link": "https://www.securityweek.com/ciso-conversation-russ-kirby-passion-is-the-antidote-to-burnout/",
     "source": "SecurityWeek",
     "category": "news",
     "pubDate": "2026-08-04T14:30:00.000Z",
-    "summary": "Russ Kirby, CISO at Ping Identity, shares how passion, courage, and “good enough” thinking shaped his path from HP to the C-suite—and what keeps him up at night.\nThe post CISO Conversation: Russ Kirby – Passion Is the Antidote to Burnout ap",
+    "summary": "Russ Kirby, CISO at Ping Identity, shares how passion, courage, and “good enough” thinking shaped his path from HP to the C-suite—and what keeps him up at night.\nThe post CISO Conversations: Russ Kirby – Passion Is the Antidote to Burnout a",
     "cveIds": [],
     "severity": "normal"
   },
@@ -161,6 +227,28 @@
     "category": "news",
     "pubDate": "2026-08-04T12:00:00.000Z",
     "summary": "Obsidian Security has developed a platform for governing AI agents across third-party applications.\nThe post Obsidian Security Raises $85 Million at $1.1 Billion Valuation appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ef14363453a33dae",
+    "title": "Thermo Fisher Applied Biosystems Genetic Analyzers",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-04T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to modify .fsa/.hid output files, tampering with DNA data and resulting in inaccurate test results.\nThe following versions of Thermo Fisher Applied Bios",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "32d48c3918c63539",
+    "title": "Acrisure KARR BT and DR-100",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-04T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to perform unauthorized vehicle control operations.\nThe following versions of Acrisure KARR BT and DR-100 are affected:\nKARR BT firmware <July_20_2026\nD",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1629,26 +1717,15 @@
     "severity": "normal"
   },
   {
-    "id": "2e276ef7b440f9ba",
-    "title": "MZ Automation GmbH libiec61850",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10",
+    "id": "4e741d796bd3c379",
+    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-06",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-30T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the device.\nThe following versions of MZ Automation GmbH libiec61850 are affected:\nlibiec61850 <1.6.2 (CVE-",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of NASA Core Flight System (cFS) Health & Safety (HS) Application are affected:\nCore Flig",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "bf4b29c951c9216d",
-    "title": "Open Source Software: Security Principles and Practices",
-    "link": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-30T12:00:00.000Z",
-    "summary": "Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Principles and Practices guidance helps agencies securely use, evaluate, and",
-    "cveIds": [],
-    "severity": "critical"
   },
   {
     "id": "9fad9afc6cab3025",
@@ -1728,6 +1805,17 @@
     "severity": "normal"
   },
   {
+    "id": "2e276ef7b440f9ba",
+    "title": "MZ Automation GmbH libiec61850",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the device.\nThe following versions of MZ Automation GmbH libiec61850 are affected:\nlibiec61850 <1.6.2 (CVE-",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ba1d0f85fc525d77",
     "title": "Rockwell Automation CompactLogix 5380 ControlLogix 5580 / 1756-EN4TR Communications Module",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-05",
@@ -1737,6 +1825,28 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of Rockwell Automation CompactLogix 5380 ControlLogix 5580 / 1756-EN4TR Communications Mo",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "1b9b8501f02a7f3b",
+    "title": "o6 Automation open62541",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-08",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, cause a denial of service, or potentially execute arbitrary code.\nThe following versions of o6 Automation open6254",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bf4b29c951c9216d",
+    "title": "Open Source Software: Security Principles and Practices",
+    "link": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Principles and Practices guidance helps agencies securely use, evaluate, and",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "19d71e68d370a1ec",
@@ -1751,28 +1861,6 @@
       "CVE-2026-63033"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "4e741d796bd3c379",
-    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-30T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of NASA Core Flight System (cFS) Health & Safety (HS) Application are affected:\nCore Flig",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1b9b8501f02a7f3b",
-    "title": "o6 Automation open62541",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-08",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-30T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, cause a denial of service, or potentially execute arbitrary code.\nThe following versions of o6 Automation open6254",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "50504694f9f0ca80",
@@ -2749,60 +2837,5 @@
     "summary": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "aac17526ecbd3c36",
-    "title": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-28T16:38:48.000Z",
-    "summary": "Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "444f0bed861e7401",
-    "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
-    "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-28T15:01:33.000Z",
-    "summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process.\n\nIf that happens, Tengu's other persistence mechanisms get another chance to relaunch i",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "bbdcacd07822e8d5",
-    "title": "Cyera Acquiring Oasis Security in $1 Billion Deal",
-    "link": "https://www.securityweek.com/cyera-acquiring-oasis-security-in-1-billion-deal/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-28T14:55:30.000Z",
-    "summary": "Oasis Security recently raised $120 million in Series B funding for its agentic access management platform.\nThe post Cyera Acquiring Oasis Security in $1 Billion Deal appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "592c25b94f0339a7",
-    "title": "India’s Bank of Baroda confirms cyber incident after hackers claim data theft",
-    "link": "https://therecord.media/india-bank-of-baroda-reports-cybersecurity-incident",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-28T14:45:57.000Z",
-    "summary": "An employee's email account had been compromised, allowing unauthorized access to \"certain data,\" Bank of Baroda reported.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7942bdf3bfc6aabf",
-    "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
-    "link": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-28T14:41:36.000Z",
-    "summary": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet.\n\nOf the 36",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
