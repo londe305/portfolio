@@ -1,5 +1,49 @@
 [
   {
+    "id": "f1732010ba0b10b0",
+    "title": "150,000 Impacted by Madera Community Hospital Data Breach",
+    "link": "https://www.securityweek.com/150000-impacted-by-madera-community-hospital-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-04T08:33:45.000Z",
+    "summary": "An extortion group stole personal, financial, and medical information from the hospital’s network.\nThe post 150,000 Impacted by Madera Community Hospital Data Breach appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1e0d7d276c3330ac",
+    "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
+    "link": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-04T07:00:13.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following reports of active exploitation in the w",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bf3d901ce37bf445",
+    "title": "Device Code Phishing Up 1,500% in 2026; Vishing Doubles",
+    "link": "https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-04T07:00:00.000Z",
+    "summary": "Newer social engineering techniques help attackers ignore entrenched security controls and limit the evidence they leave behind.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1489a28fbf625603",
+    "title": "Microsoft Bug Bounty Program: $20 Million Paid to 500 Researchers",
+    "link": "https://www.securityweek.com/microsoft-bug-bounty-program-20-million-paid-to-500-researchers/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-04T05:18:34.000Z",
+    "summary": "The biggest single reward paid out by Microsoft between July 1, 2025, and June 30, 2026, was $200,000.\nThe post Microsoft Bug Bounty Program: $20 Million Paid to 500 Researchers appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e940325331cacddc",
     "title": "ISC Stormcast For Tuesday, August 4th, 2026 https://isc.sans.edu/podcastdetail/10036, (Tue, Aug 4th)",
     "link": "https://isc.sans.edu/diary/rss/33212",
@@ -2696,110 +2740,5 @@
     "summary": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "c0ae87bc7164afc7",
-    "title": "Google Adopts New Threat Actor Naming System",
-    "link": "https://www.securityweek.com/google-adopts-new-threat-actor-naming-system/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-28T08:42:52.000Z",
-    "summary": "The new two-word naming convention uses a memorable term utilized in public reporting and a cluster-categorization word.\nThe post Google Adopts New Threat Actor Naming System appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "258d732292b4c5a9",
-    "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
-    "link": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-28T08:11:22.000Z",
-    "summary": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution.\n\nThe vulnerability, assigned CVE-2026-63077",
-    "cveIds": [
-      "CVE-2026-63077"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "80107a728f69e9cd",
-    "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
-    "link": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-28T08:04:44.000Z",
-    "summary": "STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264 (CVSS score: 7.8), is a use-after-free race in the kernel's network tra",
-    "cveIds": [
-      "CVE-2026-53264"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "a82ac1eafa4cae07",
-    "title": "AutoIT Payload Injector , (Tue, Jul 28th)",
-    "link": "https://isc.sans.edu/diary/rss/33192",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-28T07:42:27.000Z",
-    "summary": "For a long time, AutoIT[1] has been pretty common in the malware ecosystem. Threat actors still use it because it's easy to write and powerful. Indeed, it can perform all the required actions to inject a payload into a remote process as you",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "acf64765746b2c48",
-    "title": "Unpatched Fastjson Vulnerability Exploited in Attacks",
-    "link": "https://www.securityweek.com/unpatched-fastjson-vulnerability-exploited-in-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-28T07:27:55.000Z",
-    "summary": "The critical remote code execution bug can be exploited without authentication, under the library’s stock default configurations.\nThe post Unpatched Fastjson Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d22a4b180e841011",
-    "title": "Critical Arista VeloCloud Orchestrator Vulnerability Exploited as Zero-Day",
-    "link": "https://www.securityweek.com/critical-arista-velocloud-orchestrator-vulnerability-exploited-as-zero-day/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-28T06:40:36.000Z",
-    "summary": "Impacting on-premises deployments, the OS command injection allows attackers to access privileged internal functionality.\nThe post Critical Arista VeloCloud Orchestrator Vulnerability Exploited as Zero-Day appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0ede672f8e44d10b",
-    "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
-    "link": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-28T06:07:22.000Z",
-    "summary": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness.\n\nThe company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It al",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "825ca8ce1b25d177",
-    "title": "Origin Energy Data Breach Affects 900,000 Australians",
-    "link": "https://www.securityweek.com/origin-energy-data-breach-affects-900000-australians/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-28T05:01:05.000Z",
-    "summary": "The hacker claimed to have stolen the information of 2 million Origin Energy customers after breaching its systems.\nThe post Origin Energy Data Breach Affects 900,000 Australians appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7a7f6fa6d7cd4770",
-    "title": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
-    "link": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-28T04:43:53.000Z",
-    "summary": "A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-16812 (CVSS score: 10.0), is a case of operating ",
-    "cveIds": [
-      "CVE-2026-16812"
-    ],
-    "severity": "cve"
   }
 ]
