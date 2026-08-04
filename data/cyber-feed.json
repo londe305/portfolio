@@ -1,5 +1,60 @@
 [
   {
+    "id": "9e72799180eba1b8",
+    "title": "Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering",
+    "link": "https://www.securityweek.com/gemini-agent-to-agent-attack-exposed-secrets-enabled-pull-request-tampering/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-04T10:54:30.000Z",
+    "summary": "A crafted prompt to a low-privilege Google ADK agent could be used to pass a malicious hand-off comment to a privileged agent.\nThe post Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering appeared first on Se",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "44826172d1b3e641",
+    "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
+    "link": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-04T10:36:27.000Z",
+    "summary": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a tar",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "50840b42d55f5c85",
+    "title": "“Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI",
+    "link": "https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-08-04T10:00:11.000Z",
+    "summary": "Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7053e1ab018dd12b",
+    "title": "Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks",
+    "link": "https://www.securityweek.com/decades-old-bmc-vulnerability-exposes-thousands-of-data-centers-to-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-04T09:56:06.000Z",
+    "summary": "Over 24,000 internet-accessible server-management interfaces disclose authentication hashes before login.\nThe post Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "924fdf83fdeb41e1",
+    "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
+    "link": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-04T09:03:23.000Z",
+    "summary": "A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a previously undocumented remote access t",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f1732010ba0b10b0",
     "title": "150,000 Impacted by Madera Community Hospital Data Breach",
     "link": "https://www.securityweek.com/150000-impacted-by-madera-community-hospital-data-breach/",
@@ -2674,71 +2729,5 @@
     "summary": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, ",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "57ba38253412154c",
-    "title": "Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model",
-    "link": "https://www.securityweek.com/microsoft-unveils-mai-cyber-1-flash-its-first-cybersecurity-ai-model/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-28T11:11:48.000Z",
-    "summary": "The company claims MAI-Cyber-1-Flash tops Anthropic’s Mythos and OpenAI’s GPT-5.6 Sol in CyberGym testing.\nThe post Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model  appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fd7b9cce4a51bcfc",
-    "title": "Hacker Conversations: Tal Kollander’s Journey From Black Hat to Hack Blocker",
-    "link": "https://www.securityweek.com/hacker-conversations-tal-kollanders-journey-from-black-hat-to-hack-blocker/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-28T11:00:00.000Z",
-    "summary": "Tal Kollander’s history divides neatly into two halves: first as an active hacker and then as the block that stops hacks.\nThe post Hacker Conversations: Tal Kollander’s Journey From Black Hat to Hack Blocker appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e3787e788baecfb2",
-    "title": "Act Security Emerges from Stealth to Fight the Patch Problem",
-    "link": "https://www.securityweek.com/act-security-emerges-from-stealth-to-fight-the-patch-problem/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-28T11:00:00.000Z",
-    "summary": "Act Security tackles the spiraling patch problem caused by AI’s ability to find new vulnerabilities in existing cloud environments. \nThe post Act Security Emerges from Stealth to Fight the Patch Problem appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "613c41e555a3303d",
-    "title": "Hush Security Raises $30 Million for AI Agent Governance",
-    "link": "https://www.securityweek.com/hush-security-raises-30-million-for-ai-agent-governance/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-28T10:17:27.000Z",
-    "summary": "The startup will invest in expanding engineering and sales teams, accelerating ecosystem support, and expanding corporate partnerships.\nThe post Hush Security Raises $30 Million for AI Agent Governance appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "03fe9294fdaca6c9",
-    "title": "IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains",
-    "link": "https://blog.talosintelligence.com/ir-trends-q2-2026/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-07-28T10:00:01.000Z",
-    "summary": "Talos IR's Q2 report highlights a significant surge in phishing-based initial access and the weaponization of legitimate remote management tools. Learn how to sharpen your defenses.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b05aca282570c3a8",
-    "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
-    "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-28T09:10:03.000Z",
-    "summary": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
