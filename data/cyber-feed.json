@@ -1,5 +1,192 @@
 [
   {
+    "id": "68f9f3ebf57b5ff7",
+    "title": "CISO Conversation: Russ Kirby – Passion Is the Antidote to Burnout",
+    "link": "https://www.securityweek.com/ciso-conversation-russ-kirby-passion-is-the-antidote-to-burnout/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-04T14:30:00.000Z",
+    "summary": "Russ Kirby, CISO at Ping Identity, shares how passion, courage, and “good enough” thinking shaped his path from HP to the C-suite—and what keeps him up at night.\nThe post CISO Conversation: Russ Kirby – Passion Is the Antidote to Burnout ap",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f59ffebbe65a735c",
+    "title": "Russian businesses erase Durov-linked products after 'terrorist' designation",
+    "link": "https://therecord.media/russian-businesses-erase-durov-linked-products-terrorist-designation",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-04T14:11:00.000Z",
+    "summary": "The designation, announced last week, came a day after Russia's Federal Security Service (FSB) charged Durov with aiding terrorist activity and said it would seek to place him on an international wanted list. The agency accused Telegram of ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "184bbc3aff700261",
+    "title": "Varonis Agent IBAC keeps AI agents within their intended boundaries",
+    "link": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-04T14:00:10.000Z",
+    "summary": "AI agents need broad access to be useful, but traditional access controls cannot determine whether an action aligns with a user's intent. Varonis explains how Agent IBAC detects intent drift and enforces real-time guardrails to keep agents ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "713e893dd3fcab5a",
+    "title": "Weaponized Email AI Assistants Could Help Attackers Hijack Accounts",
+    "link": "https://www.securityweek.com/weaponized-email-ai-assistants-could-help-attackers-hijack-accounts/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-04T13:54:13.000Z",
+    "summary": "Researchers demonstrate how attackers could abuse built-in email chatbots to evade detection, impersonate trusted employees, compromise executive accounts, and facilitate financial fraud.\nThe post Weaponized Email AI Assistants Could Help A",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "701d5fdc553eb166",
+    "title": "Zenity Raises $125 Million in Series C Funding",
+    "link": "https://www.securityweek.com/zenity-raises-125-million-in-series-c-funding/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-04T13:40:42.000Z",
+    "summary": "The AI security company will invest in product innovation, global expansion, and customer experience.\nThe post Zenity Raises $125 Million in Series C Funding appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "91a26fc306199b71",
+    "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
+    "link": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-04T13:30:23.000Z",
+    "summary": "A credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026.\n\nSafeDep verified 353 poisoned versions across 79 pa",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "258e1b05b28753dd",
+    "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
+    "link": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-04T13:11:22.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthil",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f9a30f2c11599228",
+    "title": "The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software",
+    "link": "https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-08-04T13:00:11.000Z",
+    "summary": "Frontier AI is reshaping vulnerability discovery. Learn how our NOVA system found 14,000+ unknown vulnerabilities across the open-source software supply chain.\nThe post The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Da",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9f21cdae8e840545",
+    "title": "AI Notetaker Lets Hackers Spy on Government, Corporate Video Calls",
+    "link": "https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-04T13:00:00.000Z",
+    "summary": "A Google Firebase misconfiguration lets users of tl;dv, an AI meeting tool, query any other users' meeting information and potentially join calls.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7f774d58226e40a2",
+    "title": "Apple launches new legal challenge against UK over iCloud access",
+    "link": "https://therecord.media/apple-uk-tcn-icloud-new-legal-challenge",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-04T13:00:00.000Z",
+    "summary": "Seeking to protect users' iCloud accounts, Apple is reportedly mounting a new challenge to British legal demands for ways around the company's Advanced Data Protection feature.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "800faf7bfeca5c5a",
+    "title": "Almost Half of Malware Samples Communicate Direct to IP",
+    "link": "https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-08-04T12:50:53.000Z",
+    "summary": "Nearly half of C2 malware bypasses DNS by connecting directly to IP addresses. Zero trust IP enforcement secures networks against these threats.\nThe post Almost Half of Malware Samples Communicate Direct to IP appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d8604fbc4f65184f",
+    "title": "Botnet Hunting for Vulnerabilities in Diagnostic Tools, (Tue, Aug 4th)",
+    "link": "https://isc.sans.edu/diary/rss/33214",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-04T12:46:19.000Z",
+    "summary": "This morning, I noticed specific sources \"hunting\" for vulnerabilities in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to be associated with diagnostic tools:",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3305fd13b7fc0efd",
+    "title": "Swiss IT agency hacked, 200 accounts compromised, SharePoint vulns suspected",
+    "link": "https://therecord.media/swiss-bit-foitt-hacked-possibly-sharepoint-vulnerabilities",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-04T12:45:00.000Z",
+    "summary": "The Federal Office for Information Technology and Communications (BIT) said specialists detected anomalies in on-premises Microsoft servers. The Swiss agency could not confirm exactly how the hackers got in.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f8ab12acae8deb06",
+    "title": "TP-Link Omada ZTP Vulnerabilities Chain Into Full Network Takeover",
+    "link": "https://www.securityweek.com/tp-link-omada-ztp-vulnerabilities-chain-into-full-network-takeover/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-04T12:00:00.000Z",
+    "summary": "Forescout researchers have found 15 new vulnerabilities in the TP-Link Omada networking ecosystem.\nThe post TP-Link Omada ZTP Vulnerabilities Chain Into Full Network Takeover appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a236c603f38a6bc7",
+    "title": "Obsidian Security Raises $85 Million at $1.1 Billion Valuation",
+    "link": "https://www.securityweek.com/obsidian-security-raises-85-million-at-1-1-billion-valuation/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-04T12:00:00.000Z",
+    "summary": "Obsidian Security has developed a platform for governing AI agents across third-party applications.\nThe post Obsidian Security Raises $85 Million at $1.1 Billion Valuation appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "42f0b3d008c8c058",
+    "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
+    "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-04T11:30:00.000Z",
+    "summary": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.\n\nThat assumption is starting to break.\n\nSecurity teams have long estimated risk by ranking attacker sophistication. Nation-stat",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cc5bc3e2ac389329",
+    "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
+    "link": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-04T11:16:23.000Z",
+    "summary": "Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged code-fixing agent.\n\nThe researche",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "9e72799180eba1b8",
     "title": "Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering",
     "link": "https://www.securityweek.com/gemini-agent-to-agent-attack-exposed-secrets-enabled-pull-request-tampering/",
@@ -1821,6 +2008,50 @@
     "severity": "normal"
   },
   {
+    "id": "fbcfbcb456e1da85",
+    "title": "Vulnérabilité dans CPython (30 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0944/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-30T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9b67ff2c37ce5a01",
+    "title": "Multiples vulnérabilités dans Google Chrome (30 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0945/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-30T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e8aa71eb37688e07",
+    "title": "Multiples vulnérabilités dans GitLab (30 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0946/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-30T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une injection de code indirecte à di",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a9b540d362e796ce",
+    "title": "Multiples vulnérabilités dans Node.js (30 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0947/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-30T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Node.js. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des donn",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "27893276e7264935",
     "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
     "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
@@ -2388,6 +2619,28 @@
     "severity": "normal"
   },
   {
+    "id": "2fe89eebed796c4b",
+    "title": "Multiples vulnérabilités dans Xen (29 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0942/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-29T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "56c8bce663c3454d",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (29 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0943/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-07-29T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "91f38358065d166e",
     "title": "Senate confirms Clayton as intel chief after delays",
     "link": "https://therecord.media/jay-clayton-confirmed-dni-senate",
@@ -2549,184 +2802,6 @@
     "category": "news",
     "pubDate": "2026-07-28T14:41:36.000Z",
     "summary": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet.\n\nOf the 36",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b8403050b17c6858",
-    "title": "Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe",
-    "link": "https://www.securityweek.com/apple-patches-87-vulnerabilities-in-ios-155-in-macos-tahoe/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-28T14:19:31.000Z",
-    "summary": "Apple announced that dozens of vulnerabilities have been patched in each of its operating systems.\nThe post Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "02342417641774ac",
-    "title": "Is Your SSO Protected Against Modern Credential Attacks?",
-    "link": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-28T14:00:10.000Z",
-    "summary": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d22d44038d4f0fe5",
-    "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
-    "link": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-28T13:33:47.000Z",
-    "summary": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment.\n\nArtifactory is JFrog's software repository manager. OpenAI says the models",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ce3caecb8122b3b4",
-    "title": "OT Security Startup Frenos Raises $1.52 Million",
-    "link": "https://www.securityweek.com/ot-security-startup-frenos-raises-1-52-million/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-28T13:05:25.000Z",
-    "summary": "The company will use the fresh investment to grow its customer success and AI R&D teams.\nThe post OT Security Startup Frenos Raises $1.52 Million appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fd5f744f3ab65af5",
-    "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
-    "link": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-28T12:56:14.000Z",
-    "summary": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default.\n\nThe critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in ",
-    "cveIds": [
-      "CVE-2026-53921"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "c608e9a3f951148f",
-    "title": "Former Citigroup CISO Blauner on What Makes A Great Security Leader",
-    "link": "https://www.darkreading.com/cybersecurity-operations/former-citigroup-ciso-blauner-great-security-leader",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-28T12:30:00.000Z",
-    "summary": "The cybersecurity pioneer discusses the evolution of the CISO role, AI's impact on careers, and why operational resilience is the profession's next frontier.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a2ecc15302d67fac",
-    "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-28T12:10:23.000Z",
-    "summary": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dffbaa85df90905e",
-    "title": "ABB KNX Update Tool",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nABB has been contacted by a researcher who identified a vulnerability in one of its products. ABB has been contacted by a researcher who identified a vulnerability in one of its products. The vulnerability report has been ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "90bc57782902ef72",
-    "title": "MikroTik RouterOS and Cloud Hosted Router",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to rapidly guess passwords and gain unauthorized system access.\nThe following versions of MikroTik RouterOS and Cloud Hosted Router are affected:\nRouterOS",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bcbdcff595af536f",
-    "title": "igloohome Smart Lock Mobile Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an unauthorized actor to access functions or backend services.\nThe following versions of igloohome Smart Lock Mobile Application are affected:\nSmart Lock Mobile App",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8615f50bea44fc48",
-    "title": "CI Fortify – Advice for isolating vital systems",
-    "link": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "CI Fortify – Advice for isolating vital systems\nCI Fortify – Advice for isolating vital systems (PDF)\nCISA and the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), in collaboration with the Federal Bureau of I",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "45cc039019a0a9b8",
-    "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nMultiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.6 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fix versions a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "706afe4efe72a798",
-    "title": "Siemens Desigo CC",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nOpenSSL has published a stack based buffer overflow vulnerability that allows a remote attacker to cause a denial of service (DoS) or potentially allow for remote code execution. Siemens has released new versions for sever",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8e68635fd7b2e587",
-    "title": "Siemens SIMATIC S7-PLCSIM Advanced",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSIMATIC S7-PLCSIM Advanced contains a vulnerability that could allow an attacker to cause a denial of service condition. Siemens is preparing fix versions and recommends specific countermeasures for products where fixes ar",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9085f44b92b7dee1",
-    "title": "Siemens Mendix Runtime",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-28T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nMendix documentation for access rules does not adequately describe the special behavior of the System.User entity, leaving developers without sufficient guidance to configure access rules securely. This documentation gap m",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e2225af3b0449f38",
-    "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
-    "link": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-28T11:55:20.000Z",
-    "summary": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, ",
     "cveIds": [],
     "severity": "normal"
   }
