@@ -1,5 +1,60 @@
 [
   {
+    "id": "84d7b818f5386725",
+    "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
+    "link": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-04T19:03:09.000Z",
+    "summary": "A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2d351b1e6d917f56",
+    "title": "77 Open VSX extensions found harvesting developer info",
+    "link": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-04T18:50:55.000Z",
+    "summary": "77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development environments where they were installed. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9f654a6905d543ea",
+    "title": "Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-04T18:37:35.000Z",
+    "summary": "The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "984e0151bb2cbfd3",
+    "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-08-04T17:54:04.000Z",
+    "summary": "Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread.\nThe post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8a2b5a5d083e921b",
+    "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
+    "link": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-04T17:27:39.000Z",
+    "summary": "The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses the legitimate OAuth 2.0 Device Authorizati",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "2153cef9b25cf50f",
     "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 2)",
     "link": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-2/",
@@ -251,6 +306,20 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to perform unauthorized vehicle control operations.\nThe following versions of Acrisure KARR BT and DR-100 are affected:\nKARR BT firmware <July_20_2026\nD",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "64bf885106e57105",
+    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-04T12:00:00.000Z",
+    "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-9198 IBM Langflow Code Injection Vulnerability\nCVE-2026-18556 N-able N-central Authenticatio",
+    "cveIds": [
+      "CVE-2026-9198",
+      "CVE-2026-18556"
+    ],
+    "severity": "cve"
   },
   {
     "id": "42f0b3d008c8c058",
@@ -1717,13 +1786,13 @@
     "severity": "normal"
   },
   {
-    "id": "4e741d796bd3c379",
-    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-06",
+    "id": "2e276ef7b440f9ba",
+    "title": "MZ Automation GmbH libiec61850",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-07-30T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of NASA Core Flight System (cFS) Health & Safety (HS) Application are affected:\nCore Flig",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the device.\nThe following versions of MZ Automation GmbH libiec61850 are affected:\nlibiec61850 <1.6.2 (CVE-",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1794,6 +1863,17 @@
     "severity": "critical"
   },
   {
+    "id": "bf4b29c951c9216d",
+    "title": "Open Source Software: Security Principles and Practices",
+    "link": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Principles and Practices guidance helps agencies securely use, evaluate, and",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "132ed02d3902c921",
     "title": "Johnson Controls OpenBlue Employee",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-02",
@@ -1801,17 +1881,6 @@
     "category": "advisory",
     "pubDate": "2026-07-30T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to upload malicious files, execute stored cross-site scripting attacks, or inject arbitrary HTML content.\nThe following versions of Johnson Controls ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2e276ef7b440f9ba",
-    "title": "MZ Automation GmbH libiec61850",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-30T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the device.\nThe following versions of MZ Automation GmbH libiec61850 are affected:\nlibiec61850 <1.6.2 (CVE-",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1827,6 +1896,17 @@
     "severity": "normal"
   },
   {
+    "id": "4e741d796bd3c379",
+    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.\nThe following versions of NASA Core Flight System (cFS) Health & Safety (HS) Application are affected:\nCore Flig",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "1b9b8501f02a7f3b",
     "title": "o6 Automation open62541",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-08",
@@ -1836,17 +1916,6 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, cause a denial of service, or potentially execute arbitrary code.\nThe following versions of o6 Automation open6254",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "bf4b29c951c9216d",
-    "title": "Open Source Software: Security Principles and Practices",
-    "link": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-30T12:00:00.000Z",
-    "summary": "Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Principles and Practices guidance helps agencies securely use, evaluate, and",
-    "cveIds": [],
-    "severity": "critical"
   },
   {
     "id": "19d71e68d370a1ec",
@@ -2804,38 +2873,5 @@
     "summary": "Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "fa7c4b6dddc2a99a",
-    "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
-    "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-28T18:59:07.000Z",
-    "summary": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128.\n\nThe HAWK attack exploits a previously unused symmetry in the lattice",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "76bd11dc1fb33c2b",
-    "title": "CISA shares advice on isolating vital systems during cyberattacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-28T18:41:04.000Z",
-    "summary": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or other major disruptions. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "282e58443f9213e0",
-    "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
-    "link": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-28T18:08:50.000Z",
-    "summary": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
