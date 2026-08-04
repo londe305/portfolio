@@ -1,5 +1,27 @@
 [
   {
+    "id": "aeca02cb50c5d201",
+    "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-04T21:45:36.000Z",
+    "summary": "The Greatness phishing-as-a-service (PhaaS) platform has expanded from credential phishing to adversary-in-the-middle attacks and device-code phishing targeting Microsoft 365 accounts. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "77314ba4d5036705",
+    "title": "OpenAI: Cambodian scam centers used ChatGPT to lure Indian nationals, conduct investment fraud",
+    "link": "https://therecord.media/openai-chatgpt-cambodia-scam-centers-disruption",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-04T20:15:00.000Z",
+    "summary": "A tip from WhatsApp led OpenAI to ban multiple accounts associated with investment scams and human trafficking operations based in Cambodian scam centers.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "84d7b818f5386725",
     "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
     "link": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
@@ -31,6 +53,17 @@
     "summary": "The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "f32996ec2e751895",
+    "title": "Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-08-04T18:30:00.000Z",
+    "summary": "Microsoft expands its Zero Trust for AI strategy to enhance security for AI and DevSecOps environments with new tools and guidance.\nThe post Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps appeared first ",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "984e0151bb2cbfd3",
@@ -2805,72 +2838,6 @@
     "category": "news",
     "pubDate": "2026-07-28T23:18:00.000Z",
     "summary": "A party-line vote in the Senate installed Jay Clayton as director of national intelligence, a job that has drawn increasing scrutiny during Donald Trump's second term as president.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "24feb41701cc347e",
-    "title": "Ghost Credentials Expose Cloud Systems to Hidden Identity Risks",
-    "link": "https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-28T21:33:23.000Z",
-    "summary": "Dormant nonhuman identities can create security blind spots, says security researcher Aleksandr Krasnov, who plans to release an open source tool next week at Black Hat USA 2026 that sniffs out trust paths.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "284191530b9da705",
-    "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
-    "link": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-28T21:17:39.000Z",
-    "summary": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking attack. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "24452eaf45677879",
-    "title": "Thousands of Data Center Controllers Open to Takeover",
-    "link": "https://www.darkreading.com/cyber-risk/flaw-exposes-data-centers-server-takeover",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-28T21:07:55.000Z",
-    "summary": "A host of Internet-exposed remote hardware management processors are subject to offline password-cracking attacks — and adversaries have taken note.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ce7558c86819f76e",
-    "title": "OpenAI models used Artifactory zero-days to escape to the internet",
-    "link": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-28T20:37:06.000Z",
-    "summary": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attacking Hugging Face. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "356fa6cba449b887",
-    "title": "When AI Agents Escape Sandboxes, Old Security Rules Apply",
-    "link": "https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-28T20:27:36.000Z",
-    "summary": "OpenAI's recent AI agent sandbox escape proves traditional security principles matter more than ever: limit access, isolate execution, log everything.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ec3ac98d3e2e36db",
-    "title": "Stronger AI Safety Requires Peeking Inside the 'Black Box'",
-    "link": "https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-28T20:05:32.000Z",
-    "summary": "Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
     "cveIds": [],
     "severity": "normal"
   }
