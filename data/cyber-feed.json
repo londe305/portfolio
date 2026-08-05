@@ -1,5 +1,60 @@
 [
   {
+    "id": "decfc0f6d367e2e9",
+    "title": "Cybersecurity Alliance Drafts SAFE Guidelines for Sharing AI Incident Data",
+    "link": "https://www.securityweek.com/cybersecurity-alliance-drafts-safe-guidelines-for-sharing-ai-incident-data/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-05T11:11:29.000Z",
+    "summary": "The guidelines are the work of the recently launched Open Secure AI Alliance, which now includes 120 organizations.\nThe post Cybersecurity Alliance Drafts SAFE Guidelines for Sharing AI Incident Data  appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "aea693a71cf4ea2a",
+    "title": "AI Security Institute Reports Anthropic and OpenAI Models Going Rogue Against Organizations",
+    "link": "https://www.securityweek.com/ai-security-institute-reports-anthropic-and-openai-models-going-rogue-against-organizations/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-05T10:33:41.000Z",
+    "summary": "In one instance, an unsanctioned model attempted to inject malicious code into an open source repository.\nThe post AI Security Institute Reports Anthropic and OpenAI Models Going Rogue Against Organizations appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f83f5edb8287fbbd",
+    "title": "CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities",
+    "link": "https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-05T09:44:50.000Z",
+    "summary": "The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass.\nThe post CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e0afa93f491ddcfb",
+    "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
+    "link": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-05T09:23:03.000Z",
+    "summary": "A cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting information about the systems and development environments on which they were installed.\n\nThe \"evil twin\" ext",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4d2ab3e366d00dc0",
+    "title": "Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack",
+    "link": "https://www.securityweek.com/over-400-npm-packages-infected-in-chaindrop-supply-chain-attack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-05T08:56:58.000Z",
+    "summary": "The malware was designed to steal and exfiltrate secrets, and to propagate itself via stolen NPM and GitHub credentials.\nThe post Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6a0611e5b7451b58",
     "title": "Angola's Largest Telco Breached Hours Before IPO",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo",
@@ -396,28 +451,6 @@
     "severity": "critical"
   },
   {
-    "id": "f8ab12acae8deb06",
-    "title": "TP-Link Omada ZTP Vulnerabilities Chain Into Full Network Takeover",
-    "link": "https://www.securityweek.com/tp-link-omada-ztp-vulnerabilities-chain-into-full-network-takeover/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-04T12:00:00.000Z",
-    "summary": "Forescout researchers have found 15 new vulnerabilities in the TP-Link Omada networking ecosystem.\nThe post TP-Link Omada ZTP Vulnerabilities Chain Into Full Network Takeover appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a236c603f38a6bc7",
-    "title": "Obsidian Security Raises $85 Million at $1.1 Billion Valuation",
-    "link": "https://www.securityweek.com/obsidian-security-raises-85-million-at-1-1-billion-valuation/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-04T12:00:00.000Z",
-    "summary": "Obsidian Security has developed a platform for governing AI agents across third-party applications.\nThe post Obsidian Security Raises $85 Million at $1.1 Billion Valuation appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "ef14363453a33dae",
     "title": "Thermo Fisher Applied Biosystems Genetic Analyzers",
     "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01",
@@ -452,6 +485,28 @@
       "CVE-2026-18556"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "f8ab12acae8deb06",
+    "title": "TP-Link Omada ZTP Vulnerabilities Chain Into Full Network Takeover",
+    "link": "https://www.securityweek.com/tp-link-omada-ztp-vulnerabilities-chain-into-full-network-takeover/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-04T12:00:00.000Z",
+    "summary": "Forescout researchers have found 15 new vulnerabilities in the TP-Link Omada networking ecosystem.\nThe post TP-Link Omada ZTP Vulnerabilities Chain Into Full Network Takeover appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a236c603f38a6bc7",
+    "title": "Obsidian Security Raises $85 Million at $1.1 Billion Valuation",
+    "link": "https://www.securityweek.com/obsidian-security-raises-85-million-at-1-1-billion-valuation/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-04T12:00:00.000Z",
+    "summary": "Obsidian Security has developed a platform for governing AI agents across third-party applications.\nThe post Obsidian Security Raises $85 Million at $1.1 Billion Valuation appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "42f0b3d008c8c058",
@@ -2706,94 +2761,6 @@
     "category": "news",
     "pubDate": "2026-07-29T11:42:38.000Z",
     "summary": "A total of five vulnerabilities have been patched in VMware ESXi, vCenter, Workstation, and Fusion.\nThe post Critical VM Escape Vulnerability Patched in VMware ESXi appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "36963e13e8b37ff3",
-    "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
-    "link": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-29T11:13:10.000Z",
-    "summary": "Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lack the coordination, visibility, and executive alignment needed to withstand a serious cyberattack.\n\n",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bf3ec0a23adc9f92",
-    "title": "These near-mint ASUS Chromebook refurbs are only $145",
-    "link": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-29T11:12:19.000Z",
-    "summary": "Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-quality refurbished tech. This ASUS Chromebook CM30 refurb is in near-mint condition with a grade \"A\"",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3dbd8191e990c835",
-    "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
-    "link": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-29T11:00:00.000Z",
-    "summary": "The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibited information in violation of Russian ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "65f6d8dcd84b5e0e",
-    "title": "US, Australia Release OT Isolation Guidance for Critical Infrastructure",
-    "link": "https://www.securityweek.com/us-australia-release-ot-isolation-guidance-for-critical-infrastructure/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-29T10:58:44.000Z",
-    "summary": "The guidance details steps organizations can take to isolate vital OT and supporting systems, and operate in isolation for an extended period.\nThe post US, Australia Release OT Isolation Guidance for Critical Infrastructure  appeared first ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "59af053afcece3be",
-    "title": "OpenAI’s Rogue AI Ventured Beyond Hugging Face",
-    "link": "https://www.securityweek.com/openais-rogue-ai-ventured-beyond-hugging-face/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-29T10:10:09.000Z",
-    "summary": "Hugging Face has published an anatomy of the attack and OpenAI has shared additional information from its investigation.\nThe post OpenAI’s Rogue AI Ventured Beyond Hugging Face appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "32e8f7dd3ae16701",
-    "title": "Spur Raises $200 Million for IP Intelligence Platform",
-    "link": "https://www.securityweek.com/spur-raises-200-million-for-ip-intelligence-platform/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-29T09:12:19.000Z",
-    "summary": "The IP intelligence company will use the fresh investment to accelerate and scale its operations.\nThe post Spur Raises $200 Million for IP Intelligence Platform appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4eaf5eb02f1e21a4",
-    "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
-    "link": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-29T08:58:27.000Z",
-    "summary": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "cdeb07dcf67b7ad3",
-    "title": "JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack",
-    "link": "https://www.securityweek.com/jfrog-zero-days-exploited-in-openai-hugging-face-hack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-29T08:46:30.000Z",
-    "summary": "The OpenAI models targeted services beyond Hugging Face as they attempted to solve the tasks they were given.\nThe post JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
   }
