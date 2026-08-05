@@ -1,5 +1,49 @@
 [
   {
+    "id": "b1350c49bec32a84",
+    "title": "ISC Stormcast For Wednesday, August 5th, 2026 https://isc.sans.edu/podcastdetail/10038, (Wed, Aug 5th)",
+    "link": "https://isc.sans.edu/diary/rss/33216",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-05T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dc35ef6385522fb4",
+    "title": "ChainDrop supply chain compromise: Anatomy of a self-propagating worm",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-08-04T23:46:41.000Z",
+    "summary": "A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guid",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "32cad76b012240b7",
+    "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-04T23:39:59.000Z",
+    "summary": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and social engineering attacks against people out",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bbf146e29fd8d2ea",
+    "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
+    "link": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-04T22:18:20.000Z",
+    "summary": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "aeca02cb50c5d201",
     "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts",
     "link": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
@@ -2774,71 +2818,5 @@
     "summary": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.\n\nThe list of affected packages is as follows -\n\n\n  @joyfill/lay",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "5e142d7bf836f368",
-    "title": "ISC Stormcast For Wednesday, July 29th, 2026 https://isc.sans.edu/podcastdetail/10028, (Wed, Jul 29th)",
-    "link": "https://isc.sans.edu/diary/rss/33194",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-29T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "92f73fc2fa91b17f",
-    "title": "Vulnérabilité dans Apache Tomcat (29 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0940/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-29T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Apache Tomcat. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3d7722149202b935",
-    "title": "Multiples vulnérabilités dans Citrix XenServer (29 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0941/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-29T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Citrix XenServer. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un problème de sécurité non ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2fe89eebed796c4b",
-    "title": "Multiples vulnérabilités dans Xen (29 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0942/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-29T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "56c8bce663c3454d",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (29 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0943/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-07-29T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données et un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "91f38358065d166e",
-    "title": "Senate confirms Clayton as intel chief after delays",
-    "link": "https://therecord.media/jay-clayton-confirmed-dni-senate",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-28T23:18:00.000Z",
-    "summary": "A party-line vote in the Senate installed Jay Clayton as director of national intelligence, a job that has drawn increasing scrutiny during Donald Trump's second term as president.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
