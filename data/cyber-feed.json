@@ -1,5 +1,38 @@
 [
   {
+    "id": "821a45807852de0d",
+    "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-05T21:53:26.000Z",
+    "summary": "A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of dollars from victims. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8d128f4085ee251c",
+    "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-05T19:55:25.000Z",
+    "summary": "Hackers exploited a SQL injection vulnerability to install a post-exploitation toolkit directly inside an Oracle database that was used to breach a corporate network. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "000d4eb3a8845bb9",
+    "title": "CSS: The Hidden Threat Lurking in Your Inbox",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/css-hidden-threat-lurking-inbox",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-05T19:47:55.000Z",
+    "summary": "CSS was once just about design. Now researchers warn it's powerful enough to exfiltrate data from webmail — and some vendors aren't prepared.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "525dd54eba4e4a0e",
     "title": "How a $50,000 Exploit Chain Turned Bixby Against Samsung Phones",
     "link": "https://www.securityweek.com/how-a-50000-exploit-chain-turned-bixby-against-samsung-phones/",
@@ -53,6 +86,17 @@
     "summary": "Google has fixed the issues, which exploited a trust boundary between two AI agents with different privilege levels to trigger automation that could compromise the supply chain.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "d619a4ed122c5df9",
+    "title": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
+    "link": "https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-05T17:57:15.000Z",
+    "summary": "Organized crime is convincingly scamming at scale, making billions thanks to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona management, and automated translation.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "d233e46c2fe333f3",
@@ -2755,63 +2799,6 @@
     "category": "news",
     "pubDate": "2026-07-29T23:26:46.000Z",
     "summary": "Since 2006, Dark Reading has been at the forefront of covering cybersecurity. The more things change, the more they stay the same.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b373298601a4a243",
-    "title": "Anthropic confirms Claude is down worldwide",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-29T21:39:29.000Z",
-    "summary": "Claude is down for some users, with Anthropic confirming elevated errors across multiple AI models. The disruption is causing requests to fail with a \"529 Overloaded\" message, including in Claude and tools that rely on its API. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5b47dfb06d8e2d02",
-    "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-29T21:35:40.000Z",
-    "summary": "Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively exploited in zero-day attacks to gain unauthorized access to vulnerable devices. [...]",
-    "cveIds": [
-      "CVE-2026-20316"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "43b8dc250f0be504",
-    "title": "FTC sues Hims & Hers for allegedly sharing patient information with third-party platforms",
-    "link": "https://therecord.media/hims-hers-privacy-lawsuit-ftc",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-29T21:00:00.000Z",
-    "summary": "Popular telehealth provider Hims & Hers \"shared consumers’ sensitive health information with third-party advertising platforms such as Meta and Snap despite promising to protect patient privacy,\" the federal government alleges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "73584dea6687fd60",
-    "title": "OpenAI's Rogue Model Claims More Victims Beyond Hugging Face",
-    "link": "https://www.darkreading.com/application-security/openai-rogue-model-claims-more-victims-beyond-hugging-face",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-29T19:48:12.000Z",
-    "summary": "OpenAI's goal-seeking agent compromised a Modal customer environment and others during its sandbox escape.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b360cf1cb99c2d95",
-    "title": "Red Agents vs. Blue Agents: How to Make AI Better at Defense",
-    "link": "https://www.darkreading.com/cybersecurity-operations/red-agents-vs-blue-agents-make-ai-better-defense",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-29T19:46:20.000Z",
-    "summary": "The agentic AI playing field was heavily tilted toward offense, so researchers began using red team agents to help teach their blue counterparts.",
     "cveIds": [],
     "severity": "normal"
   }
