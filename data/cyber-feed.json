@@ -1,5 +1,82 @@
 [
   {
+    "id": "d72619e3dc9d4078",
+    "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-05T15:51:33.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "31bfabb3c49655b9",
+    "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
+    "link": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-05T15:36:03.000Z",
+    "summary": "Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platforms.\n\nOne such service, Poison Claude, c",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cdc527a84c98af79",
+    "title": "Dutch retailer De Bijenkorf warns customer data may be exposed after cyber incident",
+    "link": "https://therecord.media/de-bijenkorf-luxury-retailer-third-party-cyber-incident",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-05T15:36:00.000Z",
+    "summary": "Amsterdam-based luxury goods chain De Bijenkorf is the latest retailer to announce a cyber incident involving a third-party logistics provider.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5f687d839cd05a1a",
+    "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
+    "link": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-05T15:14:05.000Z",
+    "summary": "Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "88bb633b131c5ad2",
+    "title": "Google Blogger locks hundreds of blogs in malware false positive",
+    "link": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-05T14:59:29.000Z",
+    "summary": "Google has locked hundreds of Blogger websites after a false positive claimed they violated its \"Malware and Similar Malicious Content\" policy, with some sites deleted from the platform. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2ae4690693814a5d",
+    "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 3)",
+    "link": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-3/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-05T14:36:29.000Z",
+    "summary": "Many companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas.\nThe post Black Hat USA 2026 – Summary of Vendor Announcements (Part 3) appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e19289d8a0d137a9",
+    "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
+    "link": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-05T14:27:30.000Z",
+    "summary": "HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django.\n\nThe three most serious:\n\n\n  An unauthenticated flaw in Veeam's console that hands",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "679dadb59fc2d4de",
     "title": "How AI-powered phishing killed blocklists for good",
     "link": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
@@ -18,6 +95,17 @@
     "category": "news",
     "pubDate": "2026-08-05T14:00:00.000Z",
     "summary": "Water utilities in at least 12 states have reported cyberattacks on their operational technology, as the scope of a campaign allegedly linked to Iranian hackers continues to grow.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "760ccf61f3a47c6c",
+    "title": "Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain",
+    "link": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-05T13:41:27.000Z",
+    "summary": "Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer.\n",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2693,83 +2781,6 @@
     "category": "news",
     "pubDate": "2026-07-29T17:06:52.000Z",
     "summary": "New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2cedc8aa80f4a308",
-    "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
-    "link": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-29T16:04:59.000Z",
-    "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other o",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8a9815b898fff147",
-    "title": "​​Better security starts with better questions",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/29/better-security-starts-with-better-questions/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-29T16:00:00.000Z",
-    "summary": "Learn how better questions, trusted AI, and human judgment help security leaders make confident decisions and build resilient systems.\nThe post ​​Better security starts with better questions appeared first on Microsoft Security Blog.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3e57e4f822db077b",
-    "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
-    "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-29T15:39:30.000Z",
-    "summary": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.\n\nThe vulnerability, ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dc28e084be7f301f",
-    "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
-    "link": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-29T15:31:15.000Z",
-    "summary": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.\n\nThe first of the three critical-rated flaws is C",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "65abd9d4a633f693",
-    "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-29T14:55:57.000Z",
-    "summary": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated cyberattack.\" [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "772f6427178ec9ed",
-    "title": "Laundry Bear’s webmail hackers had more in store after February, report says",
-    "link": "https://therecord.media/russia-hackers-outlook-webmail-malware",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-29T14:45:00.000Z",
-    "summary": "Researchers say the Russian state-linked hacking group tracked as Laundry Bear recently began exploiting a bug in Microsoft Outlook Web Access.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9d2b9cf55f9ed8e0",
-    "title": "Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms",
-    "link": "https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-29T14:40:33.000Z",
-    "summary": "The vulnerability in the AI hosting platform Ruflo allows an unauthenticated attacker to take over the system and corrupt memory, so bad behavior can persist after patching.",
     "cveIds": [],
     "severity": "normal"
   }
