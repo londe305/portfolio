@@ -1,5 +1,93 @@
 [
   {
+    "id": "525dd54eba4e4a0e",
+    "title": "How a $50,000 Exploit Chain Turned Bixby Against Samsung Phones",
+    "link": "https://www.securityweek.com/how-a-50000-exploit-chain-turned-bixby-against-samsung-phones/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-05T19:40:00.000Z",
+    "summary": "The chain involved the exploitation of several vulnerabilities in the Samsung Members and Samsung Account applications.\nThe post How a $50,000 Exploit Chain Turned Bixby Against Samsung Phones  appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5039d34973c80277",
+    "title": "15 TP-Link Bugs Expose Risks in Zero-Trust Provisioning",
+    "link": "https://www.darkreading.com/endpoint-security/15-tp-link-bugs-risks-zero-trust-provisioning",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-05T19:08:36.000Z",
+    "summary": "Researchers are calling attention to the risks inherent in automated network device provisioning, using a world-leading device manufacturer as a case study.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "98c630944da44a64",
+    "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+    "link": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-05T18:44:31.000Z",
+    "summary": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on infrastructure it had been watching for wee",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "de9eee5a46bd175c",
+    "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
+    "link": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-05T18:33:47.000Z",
+    "summary": "OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes.\n\nTo that ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e7039519b4d24c2c",
+    "title": "Flaws in Google APK for Python Unlock Agent-to-Agent Attack",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/flaws-google-apk-python-agent-to-agent-attack",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-05T18:03:31.000Z",
+    "summary": "Google has fixed the issues, which exploited a trust boundary between two AI agents with different privilege levels to trigger automation that could compromise the supply chain.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d233e46c2fe333f3",
+    "title": "Don't Revoke That Token Yet: Inside the keyv/cacheable npm Worm, (Wed, Aug 5th)",
+    "link": "https://isc.sans.edu/diary/rss/33218",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-05T17:56:15.000Z",
+    "summary": "When you learn that a compromised package executed on one of your build hosts, muscle memory takes over: revoke the npm token, rotate the GitHub PAT, cycle the cloud keys. That reflex has been correct in almost every supply-chain incident I",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c54f42a860e1215c",
+    "title": "COLDCARD security audit phishing attack installs remote access tool",
+    "link": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-05T17:49:41.000Z",
+    "summary": "A phishing campaign is exploiting fears surrounding the recently disclosed COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin theft to trick users into installing ScreenConnect remote access software. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5504102610e28afb",
+    "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-08-05T16:30:00.000Z",
+    "summary": "Learn why KuppingerCole named Microsoft a Leader in its Leadership Compass: Cloud Native Application Protection Platforms report.\nThe post ​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Prote",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "d72619e3dc9d4078",
     "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
     "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
@@ -9,6 +97,17 @@
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "dd6669599fbfa455",
+    "title": "From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-08-05T15:48:39.000Z",
+    "summary": "A macOS ClickFix campaign shifted tactics from openly serving infostealer lures to hiding them behind a browser-fingerprinting gate. The change makes malicious infrastructure harder to detect while giving defenders new hunting opportunities",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "31bfabb3c49655b9",
@@ -141,6 +240,19 @@
     "summary": "Palo Alto Networks researchers have demonstrated attacks against Google’s synced passkey implementation.\nThe post New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "310016bb0e1c81da",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-05T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-63077 JetBrains TeamCity Deserialization of Untrusted Data Vulnerability\nThis type of vulnerabil",
+    "cveIds": [
+      "CVE-2026-63077"
+    ],
+    "severity": "cve"
   },
   {
     "id": "a304d2d6fb13f83d",
@@ -1136,19 +1248,6 @@
     "category": "news",
     "pubDate": "2026-08-03T12:34:06.000Z",
     "summary": "The N‑central vulnerability CVE-2026-18577 has been exploited in the wild after threat actors found a patch bypass.\nThe post N‑able Patches Vulnerability Exploited to Hack N-central Servers appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-18577"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "dd8d41da7130fdc5",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-03T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-18577 N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability\nTh",
     "cveIds": [
       "CVE-2026-18577"
     ],
@@ -2259,17 +2358,6 @@
     "severity": "critical"
   },
   {
-    "id": "bf4b29c951c9216d",
-    "title": "Open Source Software: Security Principles and Practices",
-    "link": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-07-30T12:00:00.000Z",
-    "summary": "Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Principles and Practices guidance helps agencies securely use, evaluate, and",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
     "id": "132ed02d3902c921",
     "title": "Johnson Controls OpenBlue Employee",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-02",
@@ -2326,6 +2414,17 @@
       "CVE-2026-63033"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "bf4b29c951c9216d",
+    "title": "Open Source Software: Security Principles and Practices",
+    "link": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-07-30T12:00:00.000Z",
+    "summary": "Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Principles and Practices guidance helps agencies securely use, evaluate, and",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "50504694f9f0ca80",
@@ -2713,74 +2812,6 @@
     "category": "news",
     "pubDate": "2026-07-29T19:46:20.000Z",
     "summary": "The agentic AI playing field was heavily tilted toward offense, so researchers began using red team agents to help teach their blue counterparts.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3c95f7725d7b9936",
-    "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
-    "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-29T18:10:00.000Z",
-    "summary": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.\n\nTracked as CVE-2026-66066 (CVSS score: 9.5),",
-    "cveIds": [
-      "CVE-2026-66066"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "23895b49fa11a67f",
-    "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
-    "link": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-29T17:54:05.000Z",
-    "summary": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHunters. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "903d4bd49440bce2",
-    "title": "Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-29T17:43:38.000Z",
-    "summary": "Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what CISOs should be aware of.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "28745ba13180b0d0",
-    "title": "Hugging Face Hack: Lessons for Cyber Defenders",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/hugging-face-hack-lessons-cyber-defenders",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-29T17:35:23.000Z",
-    "summary": "Dark Reading Confidential Episode 20: Expert Rich Mogull reflects on lessons cyber teams should pull from the OpenAI agent's attack on Hugging Face.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3b0835ce574fab02",
-    "title": "OpenAI says rogue agent behind Hugging Face hack broke into additional services",
-    "link": "https://therecord.media/openai-says-rogue-agent-behind-hugging-face-hack-broke-into-additional-services",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-29T17:22:00.000Z",
-    "summary": "The four additional targeted organizations weren’t named. OpenAI said they were not affected as severely as Hugging Face.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "19e39e3f5a476688",
-    "title": "When AppSec Scanners Become a Supply Chain Attack Vector",
-    "link": "https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-29T17:06:52.000Z",
-    "summary": "New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.",
     "cveIds": [],
     "severity": "normal"
   }
