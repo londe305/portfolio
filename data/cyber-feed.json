@@ -1,5 +1,71 @@
 [
   {
+    "id": "34ad108866765435",
+    "title": "Critical Paperclip Flaw Allowed Admin Access, Code Execution",
+    "link": "https://www.securityweek.com/critical-paperclip-flaw-allowed-admin-access-code-execution/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-06T11:09:11.000Z",
+    "summary": "An attacker could self-register, sign in for board-level API access, and import a new company for code execution.\nThe post Critical Paperclip Flaw Allowed Admin Access, Code Execution appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "38edde478125fe94",
+    "title": "Token Jacking: Cybercriminals Could Be Stealing Your AI Resources",
+    "link": "https://unit42.paloaltonetworks.com/ai-token-jacking/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-08-06T10:00:49.000Z",
+    "summary": "Discover how attackers hijack AI tokens to fuel gray market transfer stations by stealing developer API keys.\nThe post Token Jacking: Cybercriminals Could Be Stealing Your AI Resources appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f2068c4fa70ec99b",
+    "title": "Meta AI Hacked External Systems During Cybersecurity Testing",
+    "link": "https://www.securityweek.com/meta-ai-hacked-external-systems-during-cybersecurity-testing/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-06T09:56:26.000Z",
+    "summary": "The incident involved a testing environment set up by Irregular, similar to what Anthropic reported last week.\nThe post Meta AI Hacked External Systems During Cybersecurity Testing appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b1602af0fe6908eb",
+    "title": "Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison",
+    "link": "https://www.securityweek.com/belarusian-ransom-cartel-mastermind-gets-16-years-in-prison/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-06T09:30:30.000Z",
+    "summary": "Maksim Silnikau was the creator and administrator of the ransomware group and involved in Angler EK’s distribution.\nThe post Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "256394431bc005d8",
+    "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
+    "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-06T09:19:23.000Z",
+    "summary": "Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to disk. They fed Java source code to the datab",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1187001a84e89aca",
+    "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
+    "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-06T08:57:30.000Z",
+    "summary": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them.\n\nIn several of the attack paths, the ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "de6605d2c4d4350c",
     "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
     "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
@@ -2649,82 +2715,5 @@
     "summary": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built controls around a r",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "fc8c7100b8aa28be",
-    "title": "Semiconductor Firm Analog Devices Discloses Data Breach",
-    "link": "https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-30T11:16:23.000Z",
-    "summary": "Hackers were detected on Analog Devices systems in June, and an investigation found that they stole files.\nThe post Semiconductor Firm Analog Devices Discloses Data Breach appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2e1a8c8f354e9ad2",
-    "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
-    "link": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-30T10:33:15.000Z",
-    "summary": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect target",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "adca9452f28ed3e0",
-    "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
-    "link": "https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-30T10:32:59.000Z",
-    "summary": "The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5a8fd33cd11f1d85",
-    "title": "Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks",
-    "link": "https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-07-30T10:00:52.000Z",
-    "summary": "Unit 42 details a Chinese speaking threat actor combining autonomous AI scanning across seven vulnerabilities with manual exploitation. Read more.\nThe post Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks appear",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "10d17a3df9f51192",
-    "title": "Black Hat special: Rewind and revisit",
-    "link": "https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-07-30T10:00:08.000Z",
-    "summary": "Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "20e8ffb0709e60b6",
-    "title": "Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms",
-    "link": "https://www.securityweek.com/critical-ruflo-flaw-lets-attackers-spawn-rogue-ai-swarms/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-30T09:56:10.000Z",
-    "summary": "Unauthenticated attackers could send HTTP requests to an exposed endpoint to execute commands inside the MCP bridge container.\nThe post Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms  appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f60917f9f56b0be7",
-    "title": "1 in 5 Data Center Assets Are Within Easy Reach of Attackers",
-    "link": "https://www.securityweek.com/1-in-5-data-center-assets-are-within-easy-reach-of-attackers/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-30T09:28:37.000Z",
-    "summary": "Claroty has analyzed 750,000 cyber-physical systems across some of the world’s largest data center facilities.\nThe post 1 in 5 Data Center Assets Are Within Easy Reach of Attackers appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
