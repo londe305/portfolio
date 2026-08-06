@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-08-05T22:15:57.617Z",
-  "totalItems": 253,
+  "lastRun": "2026-08-06T03:18:40.747Z",
+  "totalItems": 247,
   "sources": [
     {
       "name": "The Hacker News",
@@ -76,9 +76,9 @@
     },
     {
       "name": "The Record",
-      "ok": false,
-      "itemCount": 0,
-      "error": "Status code 520"
+      "ok": true,
+      "itemCount": 5,
+      "error": null
     }
   ]
 }
