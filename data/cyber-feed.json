@@ -1,5 +1,75 @@
 [
   {
+    "id": "de6605d2c4d4350c",
+    "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
+    "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-06T08:05:22.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink.\n\nAccording to a new report from VulnCheck, the implant appears in all 21 firmware images currently",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "70138951034fd3d8",
+    "title": "Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities",
+    "link": "https://www.securityweek.com/cisco-patches-critical-sd-wan-ios-xe-fmc-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-06T07:20:20.000Z",
+    "summary": "Patches were rolled out for two dozen vulnerabilities, including one with public proof-of-concept (PoC) code.\nThe post Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e0232f32abe20727",
+    "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
+    "link": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-06T07:19:54.000Z",
+    "summary": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021.\n\nBetween 2021 and 2023, Ransom Cartel co",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "473bd021b509a542",
+    "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
+    "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-06T06:51:43.000Z",
+    "summary": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA).\n\nThe vulnerability in question ",
+    "cveIds": [
+      "CVE-2026-63077"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "1047943d4da8fbf4",
+    "title": "Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability",
+    "link": "https://www.securityweek.com/hackers-start-exploiting-recent-jetbrains-teamcity-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-06T06:37:44.000Z",
+    "summary": "Tracked as CVE-2026-63077, the critical bug can be exploited without authentication for remote code execution.\nThe post Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-63077"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "76f47175588a77d4",
+    "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
+    "link": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-06T06:04:30.000Z",
+    "summary": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts.\n\nThe intrusions reached at lea",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "57d4c4ecd0e7989d",
     "title": "ISC Stormcast For Thursday, August 6th, 2026 https://isc.sans.edu/podcastdetail/10040, (Thu, Aug 6th)",
     "link": "https://isc.sans.edu/diary/rss/33222",
@@ -2656,84 +2726,5 @@
     "summary": "Claroty has analyzed 750,000 cyber-physical systems across some of the world’s largest data center facilities.\nThe post 1 in 5 Data Center Assets Are Within Easy Reach of Attackers appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "0ecf09d3c90c6cb1",
-    "title": "US and Allies Update SBOM Guidance",
-    "link": "https://www.securityweek.com/us-and-allies-update-sbom-guidance/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-30T08:21:19.000Z",
-    "summary": "Five years after the initial release, the refresh introduces new elements, removes others, and updates terminology.\nThe post US and Allies Update SBOM Guidance appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6f137cc5fc80c2c4",
-    "title": "Chrome 151 Patches 370 Vulnerabilities",
-    "link": "https://www.securityweek.com/chrome-151-patches-370-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-30T07:51:24.000Z",
-    "summary": "The major browser update resolves roughly 80 critical- and high-severity security defects.\nThe post Chrome 151 Patches 370 Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ebce89e1123f0f0e",
-    "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
-    "link": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-30T07:40:48.000Z",
-    "summary": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European governm",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "611dba78bb562316",
-    "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
-    "link": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-30T07:28:43.000Z",
-    "summary": "The Federal Communications Commission (FCC) added foreign-produced mobile robots and networked power inverters to its Covered List on July 28. The move generally prevents new models from receiving the equipment authorization required for im",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2b847ae73b348423",
-    "title": "Cisco Secure FMC Zero-Day Exploited in the Wild",
-    "link": "https://www.securityweek.com/cisco-secure-fmc-zero-day-exploited-in-the-wild/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-30T06:31:31.000Z",
-    "summary": "The vulnerability tracked as CVE-2026-20316 can be exploited by a remote, unauthenticated attacker to log into affected devices. \nThe post Cisco Secure FMC Zero-Day Exploited in the Wild appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-20316"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "1ed076cb4516d900",
-    "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
-    "link": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-30T06:05:17.000Z",
-    "summary": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining s",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5963fb94e583a2fb",
-    "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
-    "link": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-30T05:08:39.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, follo",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
