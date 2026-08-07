@@ -1,5 +1,38 @@
 [
   {
+    "id": "2479490ca7ec5a13",
+    "title": "Linux Shell Forensic: Let&#x3f;s Dive Into Atuin&#x21;, (Fri, Aug 7th)",
+    "link": "https://isc.sans.edu/diary/rss/33226",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-07T07:22:28.000Z",
+    "summary": "UNIX systems (including Linux) are well-known to record a lot of activities in many different locations. But there is one domain where they definitely lack of \"modern\" logging: shells. Most shells provide an historization of the typed comma",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a38645ed85136c24",
+    "title": "3.8 Million Impacted by Unlimited Technology Systems Data Breach",
+    "link": "https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-07T07:22:05.000Z",
+    "summary": "Hackers stole personal, medical, and health insurance information from a company’s data center.\nThe post 3.8 Million Impacted by Unlimited Technology Systems Data Breach appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "eb4fa24928c68e5f",
+    "title": "Critical Vulnerabilities Patched With Chrome 151 Update",
+    "link": "https://www.securityweek.com/critical-vulnerabilities-patched-with-chrome-151-update/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-07T06:56:56.000Z",
+    "summary": "The browser refresh eliminates over two dozen memory safety bugs, including critical use-after-free flaws.\nThe post Critical Vulnerabilities Patched With Chrome 151 Update appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "4e441e1be1074a1d",
     "title": "ISC Stormcast For Friday, August 7th, 2026 https://isc.sans.edu/podcastdetail/10042, (Fri, Aug 7th)",
     "link": "https://isc.sans.edu/diary/rss/33224",
@@ -2488,30 +2521,6 @@
     "category": "news",
     "pubDate": "2026-07-31T07:51:43.000Z",
     "summary": "In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment.\nThe post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9177bc296244e6ca",
-    "title": "Critical Code Execution Vulnerability Patched in TeamCity",
-    "link": "https://www.securityweek.com/critical-code-execution-vulnerability-patched-in-teamcity/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-31T06:50:30.000Z",
-    "summary": "Tracked as CVE-2026-63077, the security defect can be exploited without authentication via the agent polling protocol.\nThe post Critical Code Execution Vulnerability Patched in TeamCity  appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-63077"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "1327568e61ad15f1",
-    "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
-    "link": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-31T06:41:44.000Z",
-    "summary": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecuri",
     "cveIds": [],
     "severity": "critical"
   }
