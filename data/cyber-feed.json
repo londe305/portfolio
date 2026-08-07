@@ -1,5 +1,49 @@
 [
   {
+    "id": "93320912573d2fe3",
+    "title": "US cyber ambassador nominee Cassady confirmed in Senate",
+    "link": "https://therecord.media/adam-cassady-confirmed-senate-cyber-ambassador",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-07T18:14:00.000Z",
+    "summary": "NTIA official Adam Cassady becomes the second person confirmed to be the State Department's ambassador-at-large for cyber policy.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "15cbdd13d94cda20",
+    "title": "New Mexico judge orders Meta to pay $567 million in kids online safety case",
+    "link": "https://therecord.media/new-mexico-judge-orders-meta-567-million-kids-safety",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-07T16:58:00.000Z",
+    "summary": "The money will be used to create a fund to mitigate social media harms, including by carving out $420 million for treatment for New Mexico youth who have been hurt on the platforms.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "92076282f4a5b15b",
+    "title": "Military device manufacturer discloses cyber incident to SEC",
+    "link": "https://therecord.media/military-device-manufacturer-discloses-cyber-incident",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-07T16:52:00.000Z",
+    "summary": "IEH Corporation — which produces specialized products used in military satellites, missiles and fighter jets — said it discovered a cyberattack on Tuesday and immediately tried to contain it.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a89bc40ccabfd1f2",
+    "title": "AI-Generated Patches Fail Half the Time",
+    "link": "https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-07T16:47:43.000Z",
+    "summary": "A study of more than 6,000 patches found that even working patches can introduce new bugs, break something else, or are open to bypass.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "7b956f5cbc6782b0",
     "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
     "link": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
@@ -75,6 +119,19 @@
     "summary": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on t",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "c4f45e1735fe49d0",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/08/07/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-07T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-8037 Progress LoadMaster Command Injection Vulnerability\nThis type of vulnerability is a frequen",
+    "cveIds": [
+      "CVE-2026-8037"
+    ],
+    "severity": "cve"
   },
   {
     "id": "1527fc9a7c67cc8f",
@@ -1113,19 +1170,6 @@
     "summary": "Palo Alto Networks researchers have demonstrated attacks against Google’s synced passkey implementation.\nThe post New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "310016bb0e1c81da",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-05T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-63077 JetBrains TeamCity Deserialization of Untrusted Data Vulnerability\nThis type of vulnerabil",
-    "cveIds": [
-      "CVE-2026-63077"
-    ],
-    "severity": "cve"
   },
   {
     "id": "a304d2d6fb13f83d",
@@ -2532,94 +2576,6 @@
     "category": "vendor",
     "pubDate": "2026-07-31T21:01:37.000Z",
     "summary": "Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and stea",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9987c9f75fe523f1",
-    "title": "OpenAI says its new GPT 5.6 models are becoming more cost-efficient",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-31T18:52:44.000Z",
-    "summary": "OpenAI says it has reduced the price of two GPT-5.6 models, cutting Luna's API price by 80% and Terra's by 20% as it works to make its models more efficient. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "140aba46cc8d9075",
-    "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
-    "link": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-31T18:52:04.000Z",
-    "summary": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cdc25be6bc388193",
-    "title": "CISA Issues Fresh SBOM Guidance. Did They Get It Right?",
-    "link": "https://www.darkreading.com/cybersecurity-operations/cisa-issues-fresh-sbom-guidance",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-31T18:13:11.000Z",
-    "summary": "A couple dozen changes to SBOM fields will make them more comprehensive, but some argue that the framework lacks real risk-management improvements.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f77c233a4adb1bab",
-    "title": "CISA warns of spike in attacks on water systems as Minnesota incidents probed",
-    "link": "https://therecord.media/cisa-warns-of-spike-in-water-system-attacks",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-31T17:47:00.000Z",
-    "summary": "The Cybersecurity and Infrastructure Security Agency said in a public alert on Thursday that facilities should “remove publicly exposed PLCs and other operational technology (OT) from the internet as soon as possible.\"",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "033ed9b4f5e67b4d",
-    "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
-    "link": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-31T17:35:35.000Z",
-    "summary": "A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e604f8e3a3f8e492",
-    "title": "Cyber Command plans Silicon Valley office to drive innovation",
-    "link": "https://therecord.media/cyber-command-plans-silicon-valley-office-to-drive-innovation",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-31T17:35:00.000Z",
-    "summary": "The outpost will have its own director, though no one has yet been named for the post, and support the command’s nascent Cyber Warfare Innovation Center (CIWC).",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3317601b1fe56999",
-    "title": "CISA warns of cyberattacks disrupting U.S. water utilities",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-31T16:49:49.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmable logic controllers (PLCs) in the water and wastewater systems sector. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c5b4ee777bae8202",
-    "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
-    "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-31T16:39:31.000Z",
-    "summary": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka.\n\nAccording to Blackpoint Cyber, the intrusion sequence begins with a ",
     "cveIds": [],
     "severity": "normal"
   }
