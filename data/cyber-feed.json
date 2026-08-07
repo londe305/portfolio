@@ -1,5 +1,71 @@
 [
   {
+    "id": "1d3756e39e5e8d99",
+    "title": "Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix",
+    "link": "https://www.securityweek.com/truck-brake-controllers-safety-recall-doubled-as-hidden-security-fix/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-07T10:00:00.000Z",
+    "summary": "NMFTA research shows a Bendix EC80 brake controller safety recall also patched remote code execution and DoS vulnerabilities.\nThe post Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "760ff1dcacea960f",
+    "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+    "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-07T09:32:57.000Z",
+    "summary": "Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT t",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9f10ba701b7e2987",
+    "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 4)",
+    "link": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-4/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-07T09:24:22.000Z",
+    "summary": "Companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas.\nThe post Black Hat USA 2026 – Summary of Vendor Announcements (Part 4) appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6005ee1079051381",
+    "title": "Microsoft, Apple Release Fresh Security Updates",
+    "link": "https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-07T09:09:54.000Z",
+    "summary": "Microsoft fixed critical vulnerabilities across Azure, Entra, and SharePoint, while Apple patched a high-severity authentication bypass.\nThe post Microsoft, Apple Release Fresh Security Updates appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d2ca685e7bfeaff2",
+    "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
+    "link": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-07T08:52:11.000Z",
+    "summary": "Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, disclose victim IP addresses and mappe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fd83bd5c8340ca86",
+    "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+    "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-07T08:18:35.000Z",
+    "summary": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run.\n\nNovee Se",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "2479490ca7ec5a13",
     "title": "Linux Shell Forensic: Let&#x3f;s Dive Into Atuin&#x21;, (Fri, Aug 7th)",
     "link": "https://isc.sans.edu/diary/rss/33226",
@@ -31,6 +97,17 @@
     "summary": "The browser refresh eliminates over two dozen memory safety bugs, including critical use-after-free flaws.\nThe post Critical Vulnerabilities Patched With Chrome 151 Update appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "894cedf65f625313",
+    "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
+    "link": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-07T06:50:05.000Z",
+    "summary": "A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sig",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "4e441e1be1074a1d",
@@ -177,7 +254,7 @@
   },
   {
     "id": "015901e2186d9af4",
-    "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
+    "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs",
     "link": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
     "source": "The Hacker News",
     "category": "news",
@@ -2457,71 +2534,5 @@
     "summary": "The internet giant has built an agent harness to find vulnerabilities across Chrome’s codebase.\nThe post Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "176f32034f124582",
-    "title": "The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version",
-    "link": "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-07-31T10:00:18.000Z",
-    "summary": "Analysis of XCSSET v40 reveals a macOS malware targeting developers via Xcode. Unit 42 used advanced pattern matching and AI to decode its logic.\nThe post The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version appeared first",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c81043d927db4671",
-    "title": "EU to Crack Down on AI Deepfakes, Illicit Imagery and Hacking With New Team in Brussels",
-    "link": "https://www.securityweek.com/eu-to-crack-down-on-ai-deepfakes-illicit-imagery-and-hacking-with-new-team-in-brussels/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-31T10:00:00.000Z",
-    "summary": "When the AI Act comes into force, AI companies will be required to make clear to consumers with labels or digital watermarks that chatbots or imagery are generated with AI.\nThe post EU to Crack Down on AI Deepfakes, Illicit Imagery and Hack",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6bcfc28edbfb96fb",
-    "title": "Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations",
-    "link": "https://www.securityweek.com/after-openai-disclosure-anthropic-finds-its-own-models-hacked-3-organizations/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-31T09:39:57.000Z",
-    "summary": "A security company’s systems were hacked after it installed a malicious Python package deployed by Claude. \nThe post Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "093d2a24f930b292",
-    "title": "zipdump.py: Metadata Encoding, (Fri, Jul 31st)",
-    "link": "https://isc.sans.edu/diary/rss/33202",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-31T09:22:19.000Z",
-    "summary": "I was asked for help with a problem similar to the following.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "651b1c0bf485de66",
-    "title": "Critical Flaw Allowed to Azure Cosmos DB Pwnage",
-    "link": "https://www.securityweek.com/critical-flaw-led-to-azure-cosmos-db-pwnage/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-31T09:04:02.000Z",
-    "summary": "Named CosmosEscape, the vulnerability exposed the primary key for Cosmos DB accounts, granting full read and write access.\nThe post Critical Flaw Allowed to Azure Cosmos DB Pwnage appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7174c93487a7f1e2",
-    "title": "CareCloud Data Breach Impacts Over 350,000",
-    "link": "https://www.securityweek.com/carecloud-data-breach-impacts-over-350000/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-31T07:51:43.000Z",
-    "summary": "In March 2026, hackers stole personal, financial, and medical information from the company’s AWS environment.\nThe post CareCloud Data Breach Impacts Over 350,000 appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
