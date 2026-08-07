@@ -1,5 +1,71 @@
 [
   {
+    "id": "85f2ec6e2d332584",
+    "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-07T20:14:46.000Z",
+    "summary": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "557f61f032367f8d",
+    "title": "Unlimited Technology Systems breach impacts 3.8 million people",
+    "link": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-07T19:30:41.000Z",
+    "summary": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5c33b3ba9e669ee1",
+    "title": "Water utilities group partners with DEF CON offshoot for Water Watch Center",
+    "link": "https://therecord.media/water-watch-center-utilities-def-con-franklin-nrwa",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-07T18:55:00.000Z",
+    "summary": "The National Rural Water Association and a group of cybersecurity experts have formed a program to help cash-strapped utilities face the increase in threats to their systems.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "da919a79098b7d03",
+    "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+    "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-07T18:48:17.000Z",
+    "summary": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.\n\n\"These packages appear to use AI slop squatte",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0e3a028652add14d",
+    "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+    "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-07T18:29:08.000Z",
+    "summary": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.\n\nThe macOS-focused infection chain is de",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "547060d28e7488d5",
+    "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
+    "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-07T18:16:13.000Z",
+    "summary": "A recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion group known as UNC6671.\n\n\"UNC6671 continues to rely on voice phishing (vishing) to target enterprise em",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "93320912573d2fe3",
     "title": "US cyber ambassador nominee Cassady confirmed in Senate",
     "link": "https://therecord.media/adam-cassady-confirmed-senate-cyber-ambassador",
@@ -132,6 +198,17 @@
       "CVE-2026-8037"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "8f7f32d30ea9b09c",
+    "title": "CPDLC over ATN-B1 Vulnerabilities",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-219-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-07T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nATN-B1 CPDLC relies on legacy clear text unauthenticated radio frequency links. Research demonstrates that these characteristics allow unauthorized message injection, denial-of-service conditions, and forced session resets",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "1527fc9a7c67cc8f",
@@ -585,6 +662,17 @@
     "severity": "normal"
   },
   {
+    "id": "1bc663ba8d754759",
+    "title": "ABB Ability Zenon",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-06T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to bypass security, crash systems, execute unauthorized actions, or compromise data.\nThe following versions of ABB Ability Zenon are affected:\nIIoT ser",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "9b308c80de18bfa6",
     "title": "Medixant RadiAnt DICOM",
     "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-218-01",
@@ -605,17 +693,6 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to access sensitive information on the device.\nThe following versions of Johnson Controls Inc. TL280 are affected:\nTL280 <5.63 \nCVSS\nVendor\nEquipment\nVu",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "1bc663ba8d754759",
-    "title": "ABB Ability Zenon",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-06T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to bypass security, crash systems, execute unauthorized actions, or compromise data.\nThe following versions of ABB Ability Zenon are affected:\nIIoT ser",
-    "cveIds": [],
-    "severity": "critical"
   },
   {
     "id": "e1852196bec252ea",
@@ -1689,17 +1766,6 @@
     "severity": "normal"
   },
   {
-    "id": "32d48c3918c63539",
-    "title": "Acrisure KARR BT and DR-100",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-04T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to perform unauthorized vehicle control operations.\nThe following versions of Acrisure KARR BT and DR-100 are affected:\nKARR BT firmware <July_20_2026\nD",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "64bf885106e57105",
     "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog",
@@ -1712,6 +1778,17 @@
       "CVE-2026-18556"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "32d48c3918c63539",
+    "title": "Acrisure KARR BT and DR-100",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-04T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to perform unauthorized vehicle control operations.\nThe following versions of Acrisure KARR BT and DR-100 are affected:\nKARR BT firmware <July_20_2026\nD",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "f8ab12acae8deb06",
@@ -2545,38 +2622,5 @@
     "summary": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "4b4c01933a40913e",
-    "title": "Arch Linux disables AUR package adoption to stop malware flood",
-    "link": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-31T21:38:08.000Z",
-    "summary": "The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packages. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "58970b535e19de28",
-    "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
-    "link": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-31T21:09:25.000Z",
-    "summary": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controlled by an attacker. [",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e32d7079a1eb6b8b",
-    "title": "CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-07-31T21:01:37.000Z",
-    "summary": "Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and stea",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
