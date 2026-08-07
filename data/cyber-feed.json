@@ -1,5 +1,82 @@
 [
   {
+    "id": "7b956f5cbc6782b0",
+    "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-07T15:48:20.000Z",
+    "summary": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on their machines. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "92756350fc4e49a3",
+    "title": "Irregular, firm behind AI hacking incidents, won't say if there were more",
+    "link": "https://therecord.media/irregular-ai-security-company-incidents",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-07T15:00:00.000Z",
+    "summary": "A spokesperson said Irregular’s investigation into what happened with Anthropic, OpenAI and Meta's AI models was ongoing and that they could not “go into further details.”",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2615fb26ee916ad2",
+    "title": "In Other News: AI Slop Limits Apple Bounties, North Carolina Port Attacks, Hackers Target Wall Street",
+    "link": "https://www.securityweek.com/in-other-news-ai-slop-limits-apple-bounties-north-carolina-port-attacks-hackers-target-wall-street/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-07T14:26:42.000Z",
+    "summary": "Noteworthy stories that might have slipped under the radar: ban on Chinese data center tech, QuickFox VPN supply chain attack, IEH Corporation mailbox breached via phishing.\nThe post In Other News: AI Slop Limits Apple Bounties, North Carol",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1faea6d610f82601",
+    "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
+    "link": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-07T14:00:10.000Z",
+    "summary": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacking to redirect cryptocurrency payments. [..",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a542785d4b35fe85",
+    "title": "Levi Strauss says hackers breached employee computers, accessed corporate data",
+    "link": "https://therecord.media/levis-data-breach-social-engineering",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-07T13:35:00.000Z",
+    "summary": "Intruders exfiltrated certain corporate information after gaining access to three company-issued computers through a social engineering attack, Levi Strauss reported.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "13e5a320829d93e5",
+    "title": "North Carolina Ports confirms cyberattack disrupting operations",
+    "link": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-07T13:34:40.000Z",
+    "summary": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d4fa171fab39b8bd",
+    "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
+    "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-07T12:56:23.000Z",
+    "summary": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on t",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "1527fc9a7c67cc8f",
     "title": "French rugby club Stade Français restores systems after cyberattack, probes data leak",
     "link": "https://therecord.media/french-rugby-club-restores-systems-after-cyberattack",
@@ -227,6 +304,17 @@
     "category": "news",
     "pubDate": "2026-08-06T21:42:50.000Z",
     "summary": "The fight against cybercrime continues because threat actors have adapted their strategies to avoid deterrents, but law enforcement still operates in silos.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8e0f76e10d1c5704",
+    "title": "Déjà Vu? Meta's AI Escapes Testing Lab in Hacking Joyride",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-06T20:39:30.000Z",
+    "summary": "In the span of three weeks, OpenAI, Anthropic, and Meta have all disclosed AI agent sandbox escape events affecting real organizations.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1758,6 +1846,61 @@
     "severity": "critical"
   },
   {
+    "id": "1564923df5c7be2e",
+    "title": "Multiples vulnérabilités dans les produits Tenable (04 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0962/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à l'intégrité des données et une injection S",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4b95d01b66999a16",
+    "title": "Multiples vulnérabilités dans Google Android (04 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0963/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Android. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ea0a163ca53316bc",
+    "title": "Multiples vulnérabilités dans Traefik (04 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0964/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "94ba6be9d30c9f9b",
+    "title": "Vulnérabilité dans les produits Check Point (04 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0965/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Check Point. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "80580530ef9dd582",
+    "title": "Multiples vulnérabilités dans LibreNMS (04 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0966/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans LibreNMS. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une falsification de requêtes côté serveur (SSRF) et une injection de code indirecte à ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "8b474d4236de0d70",
     "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
     "link": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
@@ -2184,6 +2327,39 @@
     "severity": "normal"
   },
   {
+    "id": "53eab6ed4375f5c5",
+    "title": "Multiples vulnérabilités dans Papercut (03 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0959/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-03T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Papercut. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "350ecf8b406fa3bf",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (03 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0960/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-03T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e9187ad93af4d992",
+    "title": "Vulnérabilité dans Microsoft Office (03 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0961/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-03T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "108095480ed81b43",
     "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
@@ -2444,83 +2620,6 @@
     "category": "news",
     "pubDate": "2026-07-31T16:39:31.000Z",
     "summary": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka.\n\nAccording to Blackpoint Cyber, the intrusion sequence begins with a ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ddfbc3229b935add",
-    "title": "In Other News: OpenAI Open Source Tool, AWS Links Hacks to North Korea, Mythos Crypto Research",
-    "link": "https://www.securityweek.com/in-other-news-openai-open-source-tool-aws-links-hacks-to-north-korea-mythos-crypto-research/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-31T15:47:02.000Z",
-    "summary": "Noteworthy stories that might have slipped under the radar: parcel delivery company OnTrac hacked, Adobe patches, UK Department for Education loses 607,000 records.\nThe post In Other News: OpenAI Open Source Tool, AWS Links Hacks to North K",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f8d403c850df2483",
-    "title": "Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers",
-    "link": "https://www.securityweek.com/cyberattacks-on-minnesota-water-systems-investigated-as-officials-warn-about-iranian-hackers/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-07-31T15:17:41.000Z",
-    "summary": "Iran has the “geopolitical motivations” and a recent history of targeting water systems, experts pointed out.\nThe post Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers appeared first on SecurityWe",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "79881b4024d3123e",
-    "title": "Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies",
-    "link": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-07-31T14:45:01.000Z",
-    "summary": "Bitsight says some cheap Android TV boxes have shipped with apps that rewrite their hardware identity to mimic Samsung, Huawei, Xiaomi, or Vivo phones, then click ads on websites run by the same operators.\n\nResearchers named the operation F",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fc02c7e08aa73165",
-    "title": "ESET tracks rise in malicious AI skills and adaptable malware",
-    "link": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-31T14:01:11.000Z",
-    "summary": "Attackers are adapting established techniques to AI platforms, emerging technologies, and changing user behavior. ESET's new threat report examines the rise of malicious AI skills, AI-assisted malware, ClickFix attacks, record quishing acti",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8e5deb56c12de2e8",
-    "title": "The Morning After We Pull a Root of Trust, Nobody Owns It",
-    "link": "https://www.darkreading.com/cyber-risk/morning-after-we-pull-root-of-trust-nobody-owns-it",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-31T14:00:00.000Z",
-    "summary": "The most valuable move any security team can make is building a certificate and key inventory.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e102c017935729ac",
-    "title": "Interpol Leverages Global System to Curtail Fraud Payments",
-    "link": "https://www.darkreading.com/cybersecurity-operations/interpol-leverages-global-system-curtail-fraud-payments",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-31T13:30:00.000Z",
-    "summary": "When a fraudulent transaction occurs, law enforcement agencies must work quickly to halt payments before cybercriminals cash out.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9d5306398d16f3f3",
-    "title": "DROP Platform Lets Californians Reduce Digital Footprint",
-    "link": "https://www.darkreading.com/data-privacy/drop-platform-lets-californians-ditch-their-data",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-07-31T13:19:36.000Z",
-    "summary": "Hundreds of thousands of California residents have already registered for the Delete Request and Opt-out Platform (DROP), which launches Aug. 1. Other states could follow if the process goes smoothly.",
     "cveIds": [],
     "severity": "normal"
   }
