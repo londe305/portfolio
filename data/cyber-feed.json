@@ -1,5 +1,16 @@
 [
   {
+    "id": "4e441e1be1074a1d",
+    "title": "ISC Stormcast For Friday, August 7th, 2026 https://isc.sans.edu/podcastdetail/10042, (Fri, Aug 7th)",
+    "link": "https://isc.sans.edu/diary/rss/33224",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-07T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e0d783f4ac3971c5",
     "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
@@ -2501,39 +2512,6 @@
     "category": "news",
     "pubDate": "2026-07-31T06:41:44.000Z",
     "summary": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organizations during cybersecuri",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "eec3752b0602b83f",
-    "title": "Finland to disconnect fiber-optic link to Russia as lease expires",
-    "link": "https://therecord.media/finland-russia-fiber-optic-disconnection",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-07-31T04:00:00.000Z",
-    "summary": "Finland stopped power transmissions with Russia at the start of the war in Ukraine, and two related telecom connections will stop at the end of this year, authorities said.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "40b7e7065e035099",
-    "title": "ISC Stormcast For Friday, July 31st, 2026 https://isc.sans.edu/podcastdetail/10032, (Fri, Jul 31st)",
-    "link": "https://isc.sans.edu/diary/rss/33204",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-07-31T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "097a56e763550504",
-    "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
-    "link": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-31T00:57:25.000Z",
-    "summary": "One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecti",
     "cveIds": [],
     "severity": "critical"
   }
