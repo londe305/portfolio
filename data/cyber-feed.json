@@ -72,7 +72,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-08-07T18:16:13.000Z",
-    "summary": "A recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion group known as UNC6671.\n\n\"UNC6671 continues to rely on voice phishing (vishing) to target enterprise em",
+    "summary": "A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671.\n\n\"UNC6671 continues to rely on voice phishing (vishing) to target enterpr",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2609,17 +2609,6 @@
     "category": "news",
     "pubDate": "2026-08-01T07:12:42.000Z",
     "summary": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution.\n\nThe vulnerability, tracked as C",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a23c1dcb63a4492f",
-    "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
-    "link": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-01T06:29:05.000Z",
-    "summary": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report.\n\nResearchers trac",
     "cveIds": [],
     "severity": "normal"
   }
