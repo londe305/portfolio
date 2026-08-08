@@ -1,5 +1,16 @@
 [
   {
+    "id": "a2c3a7b7dbd91a46",
+    "title": "Inside the Modern SOC: The Identity Front Door",
+    "link": "https://unit42.paloaltonetworks.com/soc-identity-front-door/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-08-07T23:00:01.000Z",
+    "summary": "Identity-based attacks drive 90% of incidents. Learn how modern attackers exploit identities and what SOC leaders can do to respond.\nThe post Inside the Modern SOC: The Identity Front Door appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "85f2ec6e2d332584",
     "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
     "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
@@ -2611,16 +2622,5 @@
     "summary": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report.\n\nResearchers trac",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "1e197764be800c26",
-    "title": "Amgen says cloud data breach exposed patient health, proprietary info",
-    "link": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-07-31T22:16:42.000Z",
-    "summary": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
