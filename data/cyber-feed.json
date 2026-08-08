@@ -1,5 +1,60 @@
 [
   {
+    "id": "209a413a79b1731e",
+    "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
+    "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-08T08:54:50.000Z",
+    "summary": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different rou",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f57597fba6eebeb6",
+    "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
+    "link": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-08T08:03:57.000Z",
+    "summary": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface.\n\nAcross attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bb61cbf6cb78eb68",
+    "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
+    "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-08T06:58:31.000Z",
+    "summary": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.\n\nThe vulnerability (CVSS score: 10.0), which does not carry ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5dcfe0f4cb8f4408",
+    "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
+    "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-08T06:57:43.000Z",
+    "summary": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product.\n\n\"We are proactively expanding p",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "de3bf366e368da68",
+    "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+    "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-08T06:52:16.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploita",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "a2c3a7b7dbd91a46",
     "title": "Inside the Modern SOC: The Identity Front Door",
     "link": "https://unit42.paloaltonetworks.com/soc-identity-front-door/",
@@ -2578,38 +2633,5 @@
     "summary": "The flaw can be exploited by unauthenticated attackers to read arbitrary files and potentially achieve remote code execution (RCE).\nThe post Ruby on Rails Patches Critical Vulnerability appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "a2387078b1d649b4",
-    "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
-    "link": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-01T09:03:07.000Z",
-    "summary": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses.\n\nAdform detected the incident on July 27, 2026, removed the malicious c",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5788eeab53ffce78",
-    "title": "Phishing Campaigns Targeting AI Solutions Providers, (Sat, Aug 1st)",
-    "link": "https://isc.sans.edu/diary/rss/33206",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-01T07:22:32.000Z",
-    "summary": "Most phishing campaigns rely on the fact that the victim is afraid to loose \"something\": money, access to information, ... Many brands have been impersonated by campaigns but I spotted some phishing emails that focus on AI services like Cha",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b94013c6f502307a",
-    "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
-    "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-01T07:12:42.000Z",
-    "summary": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution.\n\nThe vulnerability, tracked as C",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
