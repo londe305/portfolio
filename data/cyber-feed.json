@@ -1,5 +1,16 @@
 [
   {
+    "id": "30fdcde0d2c68acc",
+    "title": "Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data",
+    "link": "https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-08T11:30:00.000Z",
+    "summary": "The RovoBlast attack method identified by Varonis researchers could have been exploited to steal Confluence, Jira and SharePoint data.\nThe post Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data appeared first o",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "209a413a79b1731e",
     "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
     "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
@@ -717,17 +728,6 @@
     "severity": "normal"
   },
   {
-    "id": "4612abd7cde8af5b",
-    "title": "Podcast: Compliance Won’t Save You: The Future of Cyber Risk with Edna Conway",
-    "link": "https://www.securityweek.com/podcast-compliance-wont-save-you-the-future-of-cyber-risk-with-edna-conway/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-06T12:00:00.000Z",
-    "summary": "(Video) In this podcast, we share insights from Edna Conway, a recognized leader in cybersecurity and supply chain resilience with over 40 years of experience in the field. \nThe post Podcast: Compliance Won’t Save You: The Future of Cyber R",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "1bc663ba8d754759",
     "title": "ABB Ability Zenon",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
@@ -757,6 +757,17 @@
     "category": "advisory",
     "pubDate": "2026-08-06T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to access sensitive information on the device.\nThe following versions of Johnson Controls Inc. TL280 are affected:\nTL280 <5.63 \nCVSS\nVendor\nEquipment\nVu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4612abd7cde8af5b",
+    "title": "Podcast: Compliance Won’t Save You: The Future of Cyber Risk with Edna Conway",
+    "link": "https://www.securityweek.com/podcast-compliance-wont-save-you-the-future-of-cyber-risk-with-edna-conway/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-06T12:00:00.000Z",
+    "summary": "(Video) In this podcast, we share insights from Edna Conway, a recognized leader in cybersecurity and supply chain resilience with over 40 years of experience in the field. \nThe post Podcast: Compliance Won’t Save You: The Future of Cyber R",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2609,28 +2620,6 @@
     "category": "news",
     "pubDate": "2026-08-01T14:20:30.000Z",
     "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "daed7d1838bb9067",
-    "title": "Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments",
-    "link": "https://www.securityweek.com/balance-theory-raises-19-million-to-help-enterprises-manage-cybersecurity-investments/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-01T12:30:00.000Z",
-    "summary": "The funding round was led by SYN Ventures, with participation from existing investors DataTribe and TEDCO. \nThe post Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0c050cb209f7eba3",
-    "title": "Ruby on Rails Patches Critical Vulnerability",
-    "link": "https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-01T11:15:00.000Z",
-    "summary": "The flaw can be exploited by unauthenticated attackers to read arbitrary files and potentially achieve remote code execution (RCE).\nThe post Ruby on Rails Patches Critical Vulnerability appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
   }
