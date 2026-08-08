@@ -2611,16 +2611,5 @@
     "summary": "Introduction",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "6e179e2105e4cc57",
-    "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
-    "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-01T17:17:22.000Z",
-    "summary": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet m",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
