@@ -2600,16 +2600,5 @@
     "summary": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "396aff28f311b806",
-    "title": "Atomic MacOS (AMOS) stealer infection, (Sun, Aug 2nd)",
-    "link": "https://isc.sans.edu/diary/rss/33208",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-02T04:05:08.000Z",
-    "summary": "Introduction",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
