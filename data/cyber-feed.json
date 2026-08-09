@@ -2589,16 +2589,5 @@
     "summary": "A vulnerability in COLDCARD hardware wallet firmware allowed attackers to steal an estimated $88.6 million in Bitcoin from thousands of wallets whose seeds were generated using a flawed random number generator. [...]",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "aca1354564cadfd9",
-    "title": "Google Chrome may soon block New Tab hijacker extensions by default",
-    "link": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-02T14:17:16.000Z",
-    "summary": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
