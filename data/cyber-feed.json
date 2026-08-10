@@ -1,5 +1,60 @@
 [
   {
+    "id": "cd5be3ae4b359141",
+    "title": "Novel Private APN Pivot Let Hackers Sabotage Second Polish Energy Facility",
+    "link": "https://www.securityweek.com/novel-private-apn-pivot-let-hackers-sabotage-second-polish-energy-facility/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-10T10:01:52.000Z",
+    "summary": "CERT.PL said this appears to be the first instance of a private APN being used as an attack vector.\nThe post Novel Private APN Pivot Let Hackers Sabotage Second Polish Energy Facility appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a6a1bdb92fb65027",
+    "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-10T09:49:37.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8d9633b74189ac10",
+    "title": "CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability",
+    "link": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-10T09:31:51.000Z",
+    "summary": "The critical-severity flaw allows unauthenticated, remote attackers to execute arbitrary commands.\nThe post CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e60a313474668eee",
+    "title": "Corporate Data Stolen in Levi Strauss Cyberattack",
+    "link": "https://www.securityweek.com/corporate-data-stolen-in-levi-strauss-cyberattack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-10T08:55:44.000Z",
+    "summary": "Using social engineering, a threat actor accessed the computers of three employees and exfiltrated data from them.\nThe post Corporate Data Stolen in Levi Strauss Cyberattack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "815f439bac1670b5",
+    "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
+    "link": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-10T07:38:23.000Z",
+    "summary": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and credential stealer.\n\nThe names of the extensions ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "9efa5f9a2a79c4f6",
     "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
     "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
@@ -2477,60 +2532,5 @@
     "summary": "The INC Ransomware gang has been targeting vulnerable SMA1000 appliances for root access and lateral movement.\nThe post Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "d95d9c83241ab5e4",
-    "title": "Pass the Passkey: A Novel Attack Surface in Passwordless Authentication",
-    "link": "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-08-03T10:00:35.000Z",
-    "summary": "Explore how passkey implementation gaps undermine security when relying parties fail to validate the User Verified flag, reducing MFA to a single factor.\nThe post Pass the Passkey: A Novel Attack Surface in Passwordless Authentication appea",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6e24c80f60ed3016",
-    "title": "Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking",
-    "link": "https://www.securityweek.com/russian-state-apt-linked-to-recent-public-wi-fi-gateway-hacking/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-03T09:17:37.000Z",
-    "summary": "Midnight Blizzard has been stealing Microsoft account credentials via compromised Wi-Fi networks at hospitality organizations.\nThe post Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "243af5bf3695abed",
-    "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
-    "link": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-03T09:13:56.000Z",
-    "summary": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web.\n\nThe data included names, organisations and work email addresses belonging to po",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "02f11597b2d3ddec",
-    "title": "US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States",
-    "link": "https://www.securityweek.com/us-water-cyberattacks-extend-beyond-minnesota-to-at-least-6-other-states/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-03T08:48:02.000Z",
-    "summary": "Michigan, South Dakota, and Georgia are reportedly on the list of states whose water systems have been targeted by Iran-linked hackers.\nThe post US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States appeared first on Secu",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ce34e236d6b7688a",
-    "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
-    "link": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-03T08:05:30.000Z",
-    "summary": "Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them.\n\nThe vendor's July 31 security bulletin says nearly undete",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
