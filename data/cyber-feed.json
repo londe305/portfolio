@@ -1,5 +1,115 @@
 [
   {
+    "id": "82ef6216335d4227",
+    "title": "Poland uncovers second heat plant cyberattack that went hidden for months",
+    "link": "https://therecord.media/poland-uncovers-critical-infrastructure-attack-hidden",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-10T15:52:00.000Z",
+    "summary": "The incident occurred on the same day as coordinated cyberattacks struck more than 30 other renewable energy installations and a larger heat plant, as Poland publicly disclosed in January.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "00cc4b3a167dadf9",
+    "title": "Senate Democrats introduce bill to distribute $300 million annually to shore up water system cybersecurity",
+    "link": "https://therecord.media/senate-water-cybersecurity-legislation",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-10T15:45:00.000Z",
+    "summary": "Two Democratic senators introduced legislation that would allocate $300 million each year to fund cybersecurity improvements for the water and wastewater sector.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1403177c1497d1e0",
+    "title": "Russian military hackers pose as recruiters to target Ukrainian IT workers",
+    "link": "https://therecord.media/russian-military-hackers-pose-as-recruiters-ukraine-it-workers",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-10T15:21:00.000Z",
+    "summary": "Ukraine’s computer emergency response team, CERT-UA, said Saturday that the campaign has been running since at least May and is linked to Sandworm, the notorious hacking unit associated with Russia’s GRU military intelligence agency.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "48207154ca724e88",
+    "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-10T14:34:32.000Z",
+    "summary": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1a2824b8388c0b1a",
+    "title": "OpenAI’s Upcoming Astra Model Raises Autonomous Cyberattack Concerns",
+    "link": "https://www.securityweek.com/openais-upcoming-astra-model-raises-autonomous-cyberattack-concerns/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-10T14:33:36.000Z",
+    "summary": "The current GPT-5.6-Sol has been assigned a ‘high’ cybersecurity threshold, but Astra could reach the maximum ‘critical’ threshold. \nThe post OpenAI’s Upcoming Astra Model Raises Autonomous Cyberattack Concerns appeared first on SecurityWee",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9a845c13a5071288",
+    "title": "Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds",
+    "link": "https://www.securityweek.com/stealthium-targets-security-blind-spots-in-ai-accelerators-and-neo-clouds/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-10T14:19:36.000Z",
+    "summary": "The startup analyzes subtle telemetry signals to detect attacks that traditional security tools cannot see inside accelerator-powered AI infrastructure.\nThe post Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds appe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4667b5ec04d2bffc",
+    "title": "Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC",
+    "link": "https://www.securityweek.com/cisco-warns-of-high-severity-clamav-vulnerabilities-with-public-poc/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-10T14:07:48.000Z",
+    "summary": "Remote, unauthenticated attackers could exploit the bugs to cause a denial-of-service (DoS) condition.\nThe post Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a845e07c6587050e",
+    "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
+    "link": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-10T14:01:11.000Z",
+    "summary": "AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP reputation, and geolocation become easier to bypass. Specops explains why organizations ar",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "077cfa7466c56958",
+    "title": "British ‘Com’ member who abused more than 100 girls worldwide jailed for two years",
+    "link": "https://therecord.media/british-com-member-abuse-jailed-two-years",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-10T13:46:00.000Z",
+    "summary": "Justin Swaddle, of Leeds in northern England, targeted 117 female victims aged 13 to 17, according to the National Crime Agency.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "89638ec2f321064b",
+    "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
+    "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-10T13:19:58.000Z",
+    "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools t",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a66a1bbfddfe7f56",
     "title": "China-linked hackers turning popular cybersecurity tool into ransomware launchpad, Microsoft warns",
     "link": "https://therecord.media/china-hackers-ransomware-microsoft",
@@ -64,6 +174,17 @@
     "summary": "LexisNexis took its Diligence, Metabase API, and Newsdesk services offline as part of its response to unusual activity on servers hosted and managed by an unnamed third-party vendor. [...]",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "47a4afa265302f6a",
+    "title": "#StopRansomware: Gunra Ransomware",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-10T12:00:00.000Z",
+    "summary": "Advisory at a Glance\nTitle\n#StopRansomware: Gunra Ransomware\n\n\nOriginal Publication\nAugust 10, 2026\n\n\nExecutive Summary\nGunra is a ransomware-as-a-service (RaaS) used by affiliates to target government, critical infrastructure, and other or",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "e677f280c959f503",
@@ -948,15 +1069,15 @@
     "severity": "normal"
   },
   {
-    "id": "1bc663ba8d754759",
-    "title": "ABB Ability Zenon",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
+    "id": "9e641030124e4685",
+    "title": "Johnson Controls Inc. TL280",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-06T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to bypass security, crash systems, execute unauthorized actions, or compromise data.\nThe following versions of ABB Ability Zenon are affected:\nIIoT ser",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to access sensitive information on the device.\nThe following versions of Johnson Controls Inc. TL280 are affected:\nTL280 <5.63 \nCVSS\nVendor\nEquipment\nVu",
     "cveIds": [],
-    "severity": "critical"
+    "severity": "normal"
   },
   {
     "id": "9b308c80de18bfa6",
@@ -970,15 +1091,15 @@
     "severity": "normal"
   },
   {
-    "id": "9e641030124e4685",
-    "title": "Johnson Controls Inc. TL280",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02",
+    "id": "1bc663ba8d754759",
+    "title": "ABB Ability Zenon",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-06T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to access sensitive information on the device.\nThe following versions of Johnson Controls Inc. TL280 are affected:\nTL280 <5.63 \nCVSS\nVendor\nEquipment\nVu",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to bypass security, crash systems, execute unauthorized actions, or compromise data.\nThe following versions of ABB Ability Zenon are affected:\nIIoT ser",
     "cveIds": [],
-    "severity": "normal"
+    "severity": "critical"
   },
   {
     "id": "4612abd7cde8af5b",
@@ -2519,104 +2640,5 @@
     "summary": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.\n\nIn a report published over the weekend, Resecurity",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "02f5170987f47c95",
-    "title": "[Webinar] Tales from the Frontlines: An exclusive briefing on Q2 incidents",
-    "link": "https://blog.talosintelligence.com/webinar-tales-from-the-frontlines-an-exclusive-briefing-on-q2-incidents/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-08-03T16:00:12.000Z",
-    "summary": "Register for an exclusive, unrecorded 30-minute webinar to review the most high-impact incidents Talos IR faced in Q2.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6c6ba43ca66850e4",
-    "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 1)",
-    "link": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-1/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-03T15:50:00.000Z",
-    "summary": "Many companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas.\nThe post Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a421f30d516d9354",
-    "title": "Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-03T15:42:18.000Z",
-    "summary": "Researchers intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking to launch further attacks.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "924f2de363983f9a",
-    "title": "Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion",
-    "link": "https://www.securityweek.com/visa-to-acquire-fraud-intelligence-firm-biocatch-for-2-4-billion/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-03T15:32:05.000Z",
-    "summary": "The payments giant says BioCatch’s behavioral and device intelligence will help financial institutions combat account takeovers, scams and other forms of digital fraud.\nThe post Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Bill",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6a9351dd3f4b64ca",
-    "title": "Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations",
-    "link": "https://www.securityweek.com/cyberattack-hits-liechtensteins-register-of-people-behind-companies-and-foundations/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-03T15:15:00.000Z",
-    "summary": "The list of people behind companies, foundations and trusteeships is part of efforts to combat money laundering and terror financing.\nThe post Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations appeared fir",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a6d8fbac159d2268",
-    "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
-    "link": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-03T15:04:39.000Z",
-    "summary": "A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and other criminal justice professionals. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c7ef67bd59caf161",
-    "title": "Inside the Underground Business of the Android BTMOB RAT malware",
-    "link": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-03T14:45:55.000Z",
-    "summary": "Flare researchers analyzed thousands of underground posts to examine how the BTMOB Android malware operation evolved into a fragmented ecosystem of resellers, source-code vendors, custom versions, and competing sales channels. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ce374e6ae6e80097",
-    "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-03T14:03:11.000Z",
-    "summary": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended.\n\nSome o",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "93f2060e0c8e1ca3",
-    "title": "Is There Really a Fix for CISO Fatigue?",
-    "link": "https://www.darkreading.com/cybersecurity-operations/fix-for-ciso-fatigue",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-03T14:00:00.000Z",
-    "summary": "Accountability without any real authority is driving CISO burnout, and organizations need to take notice.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
