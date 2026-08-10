@@ -1,5 +1,126 @@
 [
   {
+    "id": "a66a1bbfddfe7f56",
+    "title": "China-linked hackers turning popular cybersecurity tool into ransomware launchpad, Microsoft warns",
+    "link": "https://therecord.media/china-hackers-ransomware-microsoft",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-10T13:15:00.000Z",
+    "summary": "A China-linked threat actor is believed to be exploiting a critical vulnerability affecting cybersecurity software from the company N-able.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "53a64ea3e1dd1e1e",
+    "title": "‘Ghostjacking’ Attack Uses Poisoned Logs to Turn AI Agents Bad",
+    "link": "https://www.securityweek.com/ghostjacking-attack-uses-poisoned-logs-to-turn-ai-agents-bad/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-10T12:59:34.000Z",
+    "summary": "An AI agent executes instructions that an attacker has planted in the log or alert that records a blocked request word for word.\nThe post ‘Ghostjacking’ Attack Uses Poisoned Logs to Turn AI Agents Bad appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2fd078deb057b14a",
+    "title": "Member of The Com sent to prison for blackmail, sextortion",
+    "link": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-10T12:56:28.000Z",
+    "summary": "A member of \"The Com,\" a loose-knit online cybercrime collective that targets children and teenagers, has been sentenced to two years in prison for blackmail and sextortion offenses against nearly 120 victims worldwide. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f70bcb29a8670878",
+    "title": "New Zealand sanctions Russian hackers, propaganda groups over Ukraine war",
+    "link": "https://therecord.media/new-zealand-russian-hackers-sanctions",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-10T12:30:00.000Z",
+    "summary": "New Zealand announced new sanctions on Russian hackers, technology companies and Kremlin-linked organizations over their roles in supporting Moscow’s war against Ukraine.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "17c77518d547c13e",
+    "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
+    "link": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-10T12:25:04.000Z",
+    "summary": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on.\n\nPasskeys are designed to replace reusable passwords and resist phishing. The attacks instead reused s",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bd26c9a21f8bac72",
+    "title": "LexisNexis shuts down services after suspicious activity on servers",
+    "link": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-10T12:11:52.000Z",
+    "summary": "LexisNexis took its Diligence, Metabase API, and Newsdesk services offline as part of its response to unusual activity on servers hosted and managed by an unnamed third-party vendor. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e677f280c959f503",
+    "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
+    "link": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-10T11:52:16.000Z",
+    "summary": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.\n\nWhen software output jumps 10 to 50 times, ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c248b78414e52c74",
+    "title": "Valve notifies Steam hardware customers of a data breach",
+    "link": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-10T11:47:55.000Z",
+    "summary": "Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "17b90e8f1b839269",
+    "title": "New Jersey, Alabama Join States Targeted in Water Cyberattacks",
+    "link": "https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-10T11:44:26.000Z",
+    "summary": "Hackers linked to Iran targeted industrial control systems (ICS) at water facilities in at least a dozen US states.\nThe post New Jersey, Alabama Join States Targeted in Water Cyberattacks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3a32554f705c7f58",
+    "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+    "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-10T11:33:41.000Z",
+    "summary": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software deve",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "be742035d112abaf",
+    "title": "Metabase Patches Vulnerability Exploited as Zero-Day",
+    "link": "https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-10T11:03:55.000Z",
+    "summary": "The security defect allows unauthenticated, remote attackers to gain administrative access to Metabase instances.\nThe post Metabase Patches Vulnerability Exploited as Zero-Day appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "cd5be3ae4b359141",
     "title": "Novel Private APN Pivot Let Hackers Sabotage Second Polish Energy Facility",
     "link": "https://www.securityweek.com/novel-private-apn-pivot-let-hackers-sabotage-second-polish-energy-facility/",
@@ -1084,6 +1205,17 @@
     "severity": "critical"
   },
   {
+    "id": "7657868e91ea758b",
+    "title": "Vulnérabilité dans Sonicwall SonicOS (06 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0972/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-06T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Sonicwall SonicOS. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "d619a4ed122c5df9",
     "title": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
     "link": "https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana",
@@ -1597,6 +1729,50 @@
     "category": "advisory",
     "pubDate": "2026-08-05T02:00:02.000Z",
     "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cb57542aebb2acde",
+    "title": "Multiples vulnérabilités dans les produits Veeam (05 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0968/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-05T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distanc",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e4e3eda3d4a9eb4b",
+    "title": "Multiples vulnérabilités dans HPE Aruba Networking EdgeConnect SD-WAN Orchestrator (05 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0969/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-05T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans HPE Aruba Networking EdgeConnect SD-WAN Orchestrator. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "32ebdcd7d4fc2387",
+    "title": "Multiples vulnérabilités dans Google Pixel (05 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0970/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-05T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Pixel. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ccd18bb5ca699167",
+    "title": "Vulnérabilité dans Mozilla Firefox pour Android (05 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0971/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-05T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Mozilla Firefox pour Android. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2198,6 +2374,17 @@
     "severity": "normal"
   },
   {
+    "id": "9ab881cb33c9a8cc",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (04 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0967/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "8b474d4236de0d70",
     "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
     "link": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
@@ -2431,106 +2618,5 @@
     "summary": "Accountability without any real authority is driving CISO burnout, and organizations need to take notice.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "38a36cda1a4490b0",
-    "title": "River Bank Says Hackers Deleted Data Stolen in Ransomware Attack",
-    "link": "https://www.securityweek.com/river-bank-says-hackers-deleted-data-stolen-in-ransomware-attack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-03T13:02:06.000Z",
-    "summary": "The bank holding company was hacked in June, but the investigation into the incident continues.\nThe post River Bank Says Hackers Deleted Data Stolen in Ransomware Attack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0735b229b0ad8b32",
-    "title": "Horizon3 Raises $250 Million to Fund Continuing Growth",
-    "link": "https://www.securityweek.com/horizon3-raises-250-million-to-fund-continuing-growth/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-03T13:00:00.000Z",
-    "summary": "Venture financing has become an essential factor in growing new business in today’s fast moving economy. Horizon3’s latest funding explains how and why.\nThe post Horizon3 Raises $250 Million to Fund Continuing Growth appeared first on Secur",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "949ff9872c00888a",
-    "title": "Biotech giant Amgen says patient data stolen from third-party cloud systems",
-    "link": "https://therecord.media/amgen-hackers-cyberattack-sec",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-03T12:45:00.000Z",
-    "summary": "The biotech giant Amgen informed regulators that patient information and proprietary company data were accessed through a breach of third-party cloud systems.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4a3913f21d1fc514",
-    "title": "N‑able Patches Vulnerability Exploited to Hack N-central Servers",
-    "link": "https://www.securityweek.com/n-able-patches-vulnerability-exploited-to-hack-n-central-servers/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-03T12:34:06.000Z",
-    "summary": "The N‑central vulnerability CVE-2026-18577 has been exploited in the wild after threat actors found a patch bypass.\nThe post N‑able Patches Vulnerability Exploited to Hack N-central Servers appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-18577"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "3def4624fa49174a",
-    "title": "Russian hackers hijack hotel Wi-Fi networks to spy on travelers, Microsoft says",
-    "link": "https://therecord.media/russian-wifi-hackers-hotels",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-03T12:00:00.000Z",
-    "summary": "Russian state-sponsored hackers have been compromising hotel Wi-Fi networks around the world to steal travelers' login credentials and infect devices with espionage malware, Microsoft said.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5f200d8c465abf7d",
-    "title": "Brinks Home Discloses Data Breach as Hackers Leak Files",
-    "link": "https://www.securityweek.com/brinks-home-discloses-data-breach-as-hackers-leak-files/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-03T11:45:14.000Z",
-    "summary": "The physical security firm says its alarm monitoring and system functionality have not been affected.\nThe post Brinks Home Discloses Data Breach as Hackers Leak Files appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "448ad9e0bb0ce3d8",
-    "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
-    "link": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-03T11:30:00.000Z",
-    "summary": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up.\n\nAI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize incidents, and automa",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "42e8945eed9587df",
-    "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
-    "link": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-03T10:49:06.000Z",
-    "summary": "An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.\n\nAttack surface management platform Censys said it identified th",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "80a6a73d1b600a8d",
-    "title": "Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks",
-    "link": "https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-03T10:39:41.000Z",
-    "summary": "The INC Ransomware gang has been targeting vulnerable SMA1000 appliances for root access and lateral movement.\nThe post Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
