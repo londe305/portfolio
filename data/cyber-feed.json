@@ -1,5 +1,104 @@
 [
   {
+    "id": "1d8c0ed544860660",
+    "title": "The Patch Gap: Why Defenders Need to Think in Chains, Not Checklists",
+    "link": "https://www.darkreading.com/cybersecurity-operations/patch-gap-defenders-chains-not-checklists",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-10T17:56:34.000Z",
+    "summary": "It's time to turn from CVSS-backed patching to choke-point patching focused on breaking chains to critical assets.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0562299a085a5844",
+    "title": "New StormEncryptor ransomware used by former Medusa affiliate",
+    "link": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-10T17:42:00.000Z",
+    "summary": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e677f280c959f503",
+    "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
+    "link": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-10T17:29:17.000Z",
+    "summary": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.\n\nWhen software output jumps 10 to 50 times, ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d7bf29c746a1fae3",
+    "title": "Coruna, DarkSword iOS Exploits Proliferate Globally",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/coruna-darksword-ios-exploits-proliferate-globally",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-10T17:09:20.000Z",
+    "summary": "Sophisticated iPhone exploit chains previously limited to nation-states are spreading far and wide to organized cybercrime groups.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "76122533065e47a6",
+    "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+    "link": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-10T16:38:37.000Z",
+    "summary": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.\n\nThe use of StormEncryptor marks a shift from the adversary's pre",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8f4fbda2acc6f53a",
+    "title": "Outdated Cybercrime Laws Put Security Researchers at Risk",
+    "link": "https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-10T16:25:22.000Z",
+    "summary": "A public policy expert mapped global cybercrime laws to develop a five-point framework for protecting ethical hackers and good-faith security research.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "45ac1c36be954214",
+    "title": "Scans for Solana (Surfpool&#x3f;) Endpoints, (Mon, Aug 10th)",
+    "link": "https://isc.sans.edu/diary/rss/33230",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-10T16:24:45.000Z",
+    "summary": "Solana is a crypto platform known for speed. Developers like it to develop distributed applications or to implement crypto payments. To interact with the blockchain, APIs are provided for developers. These APIs will either \"speak\" JSON or g",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8b695c4b727d9a24",
+    "title": "Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-08-10T16:00:00.000Z",
+    "summary": "Microsoft is named a Leader in the 2026 IDC MarketScape for MDR services. Discover how Microsoft Defender Experts MDR combines AI, threat intelligence, and human expertise.\nThe post Microsoft named a Leader in the 2026 IDC MarketScape for M",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6483bb8ec2cf8b59",
+    "title": "Sherlock Holmes was the “OG” Social Engineer",
+    "link": "https://www.darkreading.com/cyber-risk/sherlock-holmes-was-the-og-social-engineer",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-10T15:59:27.000Z",
+    "summary": "The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today’s ethical- and nonethical-hat hackers.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "82ef6216335d4227",
     "title": "Poland uncovers second heat plant cyberattack that went hidden for months",
     "link": "https://therecord.media/poland-uncovers-critical-infrastructure-attack-hidden",
@@ -31,6 +130,28 @@
     "summary": "Ukraine’s computer emergency response team, CERT-UA, said Saturday that the campaign has been running since at least May and is linked to Sandworm, the notorious hacking unit associated with Russia’s GRU military intelligence agency.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "a80328a901605196",
+    "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
+    "link": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-10T15:00:29.000Z",
+    "summary": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default.\n\nThat pretty much covers the mood this week. Old bugs are back, supply chain",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a049010a09c5031a",
+    "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-08-10T15:00:00.000Z",
+    "summary": "Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongs",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "48207154ca724e88",
@@ -185,17 +306,6 @@
     "summary": "Advisory at a Glance\nTitle\n#StopRansomware: Gunra Ransomware\n\n\nOriginal Publication\nAugust 10, 2026\n\n\nExecutive Summary\nGunra is a ransomware-as-a-service (RaaS) used by affiliates to target government, critical infrastructure, and other or",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "e677f280c959f503",
-    "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
-    "link": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-10T11:52:16.000Z",
-    "summary": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.\n\nWhen software output jumps 10 to 50 times, ",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "c248b78414e52c74",
@@ -2583,62 +2693,5 @@
     "summary": "Fake Xeno Executor installers are infecting unsuspecting Roblox players with malware that provides remote access and steals sensitive information. [...]",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "9aa3c87b13bfbde2",
-    "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
-    "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-03T18:43:53.000Z",
-    "summary": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack ta",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f13ef28a052f3291",
-    "title": "Hackers steal 31,000 records identifying people behind Liechtenstein companies, foundations",
-    "link": "https://therecord.media/hackers-steal-records-liechtenstein-companies-foundations",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-03T17:36:00.000Z",
-    "summary": "A cyberattack compromised tens of thousands of records related to companies, foundations and trusts in Liechtenstein, prompting the government to to form a “crisis unit” to address the breach.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d7fcd6cb55a2884d",
-    "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-03T17:00:56.000Z",
-    "summary": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]",
-    "cveIds": [
-      "CVE-2026-18577"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "be0a8086d93f41e1",
-    "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
-    "link": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-03T16:24:47.000Z",
-    "summary": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen.\n\nUnit 42 detailed three attack paths against Chr",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "49e56fbc932a31b0",
-    "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
-    "link": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-03T16:15:13.000Z",
-    "summary": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.\n\nIn a report published over the weekend, Resecurity",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
