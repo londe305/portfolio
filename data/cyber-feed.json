@@ -1,5 +1,115 @@
 [
   {
+    "id": "bd2583b3fb452b6b",
+    "title": "August 2026 Patch Tuesday: Microsoft Fixes 421 CVEs, One Exploited Zero-Day",
+    "link": "https://www.securityweek.com/august-2026-patch-tuesday-microsoft-fixes-421-cves-one-exploited-zero-day/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-11T18:46:07.000Z",
+    "summary": "A use-after-free in the afd.sys Windows kernel-mode driver has been exploited to gain SYSTEM privileges.\nThe post August 2026 Patch Tuesday: Microsoft Fixes 421 CVEs, One Exploited Zero-Day appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0a778419f468205e",
+    "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
+    "link": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-11T18:36:47.000Z",
+    "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to tri",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "866bdf3c06eeab39",
+    "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
+    "link": "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-11T18:34:23.000Z",
+    "summary": "Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers who had attended the DEF CON hacker convention. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6e649e7a1661a8e7",
+    "title": "Microsoft releases Windows 10 KB5120249 extended security update",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-11T18:26:03.000Z",
+    "summary": "Microsoft has released Windows 10 KB5120249 Extended Security Updates for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d04cab83c4a079c4",
+    "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-11T18:08:50.000Z",
+    "summary": "Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "228012bfffa086b5",
+    "title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
+    "link": "https://isc.sans.edu/diary/rss/33236",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-11T17:54:49.000Z",
+    "summary": "This month we got patches for 418 vulnerabilities. Of these, 62 are critical, 1 is being exploited in the wild, and 2 were publicly disclosed as zero-days. Notable fixes include Windows privilege escalation, container tampering, and critica",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "fefa707ad42d700c",
+    "title": "Windows 11 KB5121003 & KB5120240 cumulative updates released",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-11T17:38:42.000Z",
+    "summary": "Microsoft has released Windows 11 KB5121003 and KB5120240 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "914bfb12515192a7",
+    "title": "Adobe Urges Immediate Patching of Critical ColdFusion, Campaign Classic Flaws",
+    "link": "https://www.securityweek.com/adobe-urges-immediate-patching-of-critical-coldfusion-campaign-classic-flaws/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-11T16:50:19.000Z",
+    "summary": "The security defects could be exploited for arbitrary code execution and denial-of-service.\nThe post Adobe Urges Immediate Patching of Critical ColdFusion, Campaign Classic Flaws appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "03a1855d6d526967",
+    "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-11T16:47:44.000Z",
+    "summary": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.\n\nThe flaw, tracked as CVE-2026",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cfe1a7d09642297c",
+    "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
+    "link": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-11T16:35:27.000Z",
+    "summary": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience.\n\n\"Its recovery ecosystem combines the Sessi",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "53251fb42f4a2bad",
     "title": "Wesco confirms security incident after ExfilSquad claims data theft",
     "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
@@ -172,6 +282,39 @@
     "category": "news",
     "pubDate": "2026-08-11T12:01:46.000Z",
     "summary": "Corma emerged from stealth with seed funding from Sequoia Capital, Khosla Ventures, and Coatue.\nThe post Corma Raises $60 Million for Defensive Cybersecurity AI Model appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e7b61edb1ce2bc44",
+    "title": "Johnson Controls C-CURE 9000 and Victor application server (Update A)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-11T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker with network access to achieve remote code execution.\nThe following versions of Johnson Controls C-CURE 9000 and Victor application server (Update A)",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3658812414641bb0",
+    "title": "Mira Hormone Monitor, Mira Android App",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-11T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access unauthorized health profile information, make changes to health information, cause a denial-of-service condition, disclose session token in",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f35136fdfa004c43",
+    "title": "Pulsetto Vagus Nerve Stimulator",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-11T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to use hidden commands to disable electrical safety mechanisms or modify other stimulation output settings.\nThe following versions of Pulsetto Vagus Ner",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2543,105 +2686,6 @@
     "category": "news",
     "pubDate": "2026-08-04T20:15:00.000Z",
     "summary": "A tip from WhatsApp led OpenAI to ban multiple accounts associated with investment scams and human trafficking operations based in Cambodian scam centers.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "84d7b818f5386725",
-    "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
-    "link": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-04T19:03:09.000Z",
-    "summary": "A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2d351b1e6d917f56",
-    "title": "77 Open VSX extensions found harvesting developer info",
-    "link": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-04T18:50:55.000Z",
-    "summary": "77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development environments where they were installed. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9f654a6905d543ea",
-    "title": "Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-04T18:37:35.000Z",
-    "summary": "The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f32996ec2e751895",
-    "title": "Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-08-04T18:30:00.000Z",
-    "summary": "Microsoft expands its Zero Trust for AI strategy to enhance security for AI and DevSecOps environments with new tools and guidance.\nThe post Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps appeared first ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "984e0151bb2cbfd3",
-    "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-08-04T17:54:04.000Z",
-    "summary": "Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread.\nThe post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8a2b5a5d083e921b",
-    "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
-    "link": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-04T17:27:39.000Z",
-    "summary": "The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses the legitimate OAuth 2.0 Device Authorizati",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2153cef9b25cf50f",
-    "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 2)",
-    "link": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-2/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-04T16:49:39.000Z",
-    "summary": "Many companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas.\nThe post Black Hat USA 2026 – Summary of Vendor Announcements (Part 2) appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d10773f8a0e981a1",
-    "title": "Britain’s next war won’t be an away game: Q&A with former head of Defence Intelligence",
-    "link": "https://therecord.media/interview-jim-hockenhull-uk-defence-intelligence-russia-ukraine",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-04T16:19:00.000Z",
-    "summary": "As Chief of Defence Intelligence, General Sir Jim Hockenhull decided to declassify and publish what London knew of Russia’s plans to invade Ukraine, down to a map of the routes its forces would take.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "55f1d2321714a048",
-    "title": "Rethinking AI Security: Why CASB and DLP Need an Interaction-Aware Layer",
-    "link": "https://www.securityweek.com/rethinking-ai-security-why-casb-and-dlp-need-an-interaction-aware-layer/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-04T16:15:00.000Z",
-    "summary": "Build your strategy around answering these questions to ensure employees use AI productively while keeping sensitive data, IP, and agent behavior within the boundaries set for safe AI use.\nThe post Rethinking AI Security: Why CASB and DLP N",
     "cveIds": [],
     "severity": "normal"
   }
