@@ -1,5 +1,60 @@
 [
   {
+    "id": "823c86260c812c72",
+    "title": "Kimwolf v7: An Evolution of the Kimwolf Botnet",
+    "link": "https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-08-11T10:00:16.000Z",
+    "summary": "Discover how Kimwolf v7 targets Android IoT devices with HTTP/2 DDoS fingerprinting, Ethereum ENS C2 resolution and Tor backup routing.\nThe post Kimwolf v7: An Evolution of the Kimwolf Botnet appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d31522b675fd39b8",
+    "title": "Hacker Conversations: Marcus Hutchins and the Journey From the Gray Zone to Redemption",
+    "link": "https://www.securityweek.com/hacker-conversations-marcus-hutchins/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-11T10:00:00.000Z",
+    "summary": "Marcus Hutchins doesn’t personally consider himself a hacker – but he accepts the epithet because it’s a widely used term for what he once did.\nThe post Hacker Conversations: Marcus Hutchins and the Journey From the Gray Zone to Redemption ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "27fe0be52fa4dccf",
+    "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
+    "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-11T09:47:06.000Z",
+    "summary": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2228d392be7cd223",
+    "title": "OpenAI Unveils New Cybersecurity Model GPT-5.6-Cyber",
+    "link": "https://www.securityweek.com/openai-unveils-new-cybersecurity-model-gpt-5-6-cyber/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-11T09:45:05.000Z",
+    "summary": "OpenAI has also announced the expansion of its Daybreak platform to give more organizations access to its AI.\nThe post OpenAI Unveils New Cybersecurity Model GPT-5.6-Cyber appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "66ce18499c5654e5",
+    "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
+    "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-11T06:55:45.000Z",
+    "summary": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment.\n\nThe plant supplies ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "07fa0fcf1a16ebcd",
     "title": "Mozilla Issues New Firefox GPG Key Following Exposure",
     "link": "https://www.securityweek.com/mozilla-issues-new-firefox-gpg-key-following-exposure/",
@@ -2557,50 +2612,6 @@
     "category": "news",
     "pubDate": "2026-08-04T10:36:27.000Z",
     "summary": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a tar",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "50840b42d55f5c85",
-    "title": "“Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI",
-    "link": "https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-08-04T10:00:11.000Z",
-    "summary": "Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7053e1ab018dd12b",
-    "title": "Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks",
-    "link": "https://www.securityweek.com/decades-old-bmc-vulnerability-exposes-thousands-of-data-centers-to-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-04T09:56:06.000Z",
-    "summary": "Over 24,000 internet-accessible server-management interfaces disclose authentication hashes before login.\nThe post Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "924fdf83fdeb41e1",
-    "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
-    "link": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-04T09:03:23.000Z",
-    "summary": "A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a previously undocumented remote access t",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f1732010ba0b10b0",
-    "title": "150,000 Impacted by Madera Community Hospital Data Breach",
-    "link": "https://www.securityweek.com/150000-impacted-by-madera-community-hospital-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-04T08:33:45.000Z",
-    "summary": "An extortion group stole personal, financial, and medical information from the hospital’s network.\nThe post 150,000 Impacted by Madera Community Hospital Data Breach appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
   }
