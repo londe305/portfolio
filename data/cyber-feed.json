@@ -1,5 +1,82 @@
 [
   {
+    "id": "53251fb42f4a2bad",
+    "title": "Wesco confirms security incident after ExfilSquad claims data theft",
+    "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-11T15:59:35.000Z",
+    "summary": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3ba9697baeccb2e2",
+    "title": "Zoom Patches Zero-Click Code Execution Vulnerability",
+    "link": "https://www.securityweek.com/zoom-patches-zero-click-code-execution-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-11T15:49:53.000Z",
+    "summary": "Impacting Zoom annotation, the bug could be exploited by a meeting participant to execute code on another participant’s machine.\nThe post Zoom Patches Zero-Click Code Execution Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "24663ea84d2eb4fd",
+    "title": "Cyberattack on logistics giant Ceva hits retailers and Steam customers across Europe",
+    "link": "https://therecord.media/ceva-logistics-cyberattack-bol-steam-debijenkorf-ace-tate",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-11T15:43:45.000Z",
+    "summary": "Operations at eight European warehouses belonging to France's CEVA Logistics have reportedly been disrupted by a cyberattack, and several other companies are feeling the effects.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "90fa5cad6a42ef1f",
+    "title": "The AI Governance Gap Is a Leadership Problem: Waiting Won’t Close It",
+    "link": "https://www.securityweek.com/the-ai-governance-gap-is-a-leadership-problem-waiting-wont-close-it/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-11T15:00:00.000Z",
+    "summary": "Organizations are rushing to implement AI without fully grasping where its legal protections begin and end.\nThe post The AI Governance Gap Is a Leadership Problem: Waiting Won’t Close It appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2e6865f8fa1132b6",
+    "title": "SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities",
+    "link": "https://www.securityweek.com/sap-patches-critical-code-injection-memory-corruption-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-11T14:14:32.000Z",
+    "summary": "SAP released 28 new and two updated security notes, including four notes dealing with critical-severity bugs.\nThe post SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e502cd237869b4bb",
+    "title": "US Water Systems Get Cyber Boost From New Senate Bill and ‘Water Watch Center’",
+    "link": "https://www.securityweek.com/us-water-systems-get-cyber-boost-from-new-senate-bill-and-water-watch-center/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-11T14:03:32.000Z",
+    "summary": "The Water Watch Center launched at DEF CON aims to help under-resourced utilities protect their systems against hackers.\nThe post US Water Systems Get Cyber Boost From New Senate Bill and ‘Water Watch Center’ appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "673089d0ff1baafc",
+    "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
+    "link": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-11T13:20:28.000Z",
+    "summary": "Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e06149ee0ff05ee1",
     "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
     "link": "https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/",
@@ -7,6 +84,17 @@
     "category": "news",
     "pubDate": "2026-08-11T13:15:24.000Z",
     "summary": "AI agents can improvise beyond the intended scope of a task when they are given broad access to enterprise systems and data. Token Security explains why organizations need to define agent intent and continuously enforce permissions around w",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "997e9df47ee3c608",
+    "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+    "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-11T13:11:23.000Z",
+    "summary": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response.\n\n\"Built on GPT‑5.6 Sol, it is trained to improve capabilities on",
     "cveIds": [],
     "severity": "normal"
   },
@@ -419,12 +507,12 @@
   },
   {
     "id": "6483bb8ec2cf8b59",
-    "title": "Sherlock Holmes was the “OG” Social Engineer",
+    "title": "Sherlock Holmes Was the 'OG' Social Engineer",
     "link": "https://www.darkreading.com/cyber-risk/sherlock-holmes-was-the-og-social-engineer",
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-08-10T15:59:27.000Z",
-    "summary": "The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today’s ethical- and nonethical-hat hackers.",
+    "summary": "The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today's ethical- and unethical hackers.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1256,6 +1344,28 @@
     "severity": "normal"
   },
   {
+    "id": "bcb4f9eda770d7fa",
+    "title": "Multiples vulnérabilités dans Progress Telerik (07 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0977/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-07T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Progress Telerik. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidenti",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f5bf97c2ff3dc851",
+    "title": "Multiples vulnérabilités dans Google Chrome (07 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0978/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-07T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e0d783f4ac3971c5",
     "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
@@ -1773,6 +1883,50 @@
     "category": "advisory",
     "pubDate": "2026-08-06T00:00:00.000Z",
     "summary": "Une vulnérabilité a été découverte dans Sonicwall SonicOS. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d2c288e05914dad4",
+    "title": "Multiples vulnérabilités dans les produits Nextcloud (06 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0973/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-06T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Nextcloud. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8082fbba8166c432",
+    "title": "Multiples vulnérabilités dans les produits Wallix (06 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0974/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-06T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Wallix. Elles permettent à un attaquant de provoquer une élévation de privilèges et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "251391c1ed2126eb",
+    "title": "Multiples vulnérabilités dans les produits Cisco (06 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0975/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-06T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confiden",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "96d44d09476a0de7",
+    "title": "Multiples vulnérabilités dans KeyCloak (06 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0976/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-06T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans KeyCloak. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2488,105 +2642,6 @@
     "category": "news",
     "pubDate": "2026-08-04T16:15:00.000Z",
     "summary": "Build your strategy around answering these questions to ensure employees use AI productively while keeping sensitive data, IP, and agent behavior within the boundaries set for safe AI use.\nThe post Rethinking AI Security: Why CASB and DLP N",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6076c99f4e6aa8d8",
-    "title": "Polish convenience store chain Żabka hacked through third-party account",
-    "link": "https://therecord.media/poland-convenience-store-chain-zabka-cyberattack",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-04T15:55:00.000Z",
-    "summary": "Reports said intruders appeared to gain access to the Jira environment and other sensitive data of the Żabka retail chain. The company confirmed an intrusion occurred in late July.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6c704edf522f3eaf",
-    "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
-    "link": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-04T15:24:35.000Z",
-    "summary": "Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "653f36182fad7f95",
-    "title": "Oligo Raises $60 Million for Runtime Security",
-    "link": "https://www.securityweek.com/oligo-raises-60-million-for-runtime-security/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-04T15:00:00.000Z",
-    "summary": "The company will use the investment to accelerate product innovation and expand go-to-market operations.\nThe post Oligo Raises $60 Million for Runtime Security appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "68f9f3ebf57b5ff7",
-    "title": "CISO Conversations: Russ Kirby – Passion Is the Antidote to Burnout",
-    "link": "https://www.securityweek.com/ciso-conversation-russ-kirby-passion-is-the-antidote-to-burnout/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-04T14:30:00.000Z",
-    "summary": "Russ Kirby, CISO at Ping Identity, shares how passion, courage, and “good enough” thinking shaped his path from HP to the C-suite—and what keeps him up at night.\nThe post CISO Conversations: Russ Kirby – Passion Is the Antidote to Burnout a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f59ffebbe65a735c",
-    "title": "Russian businesses erase Durov-linked products after 'terrorist' designation",
-    "link": "https://therecord.media/russian-businesses-erase-durov-linked-products-terrorist-designation",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-04T14:11:00.000Z",
-    "summary": "The designation, announced last week, came a day after Russia's Federal Security Service (FSB) charged Durov with aiding terrorist activity and said it would seek to place him on an international wanted list. The agency accused Telegram of ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "184bbc3aff700261",
-    "title": "Varonis Agent IBAC keeps AI agents within their intended boundaries",
-    "link": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-04T14:00:10.000Z",
-    "summary": "AI agents need broad access to be useful, but traditional access controls cannot determine whether an action aligns with a user's intent. Varonis explains how Agent IBAC detects intent drift and enforces real-time guardrails to keep agents ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "713e893dd3fcab5a",
-    "title": "Weaponized Email AI Assistants Could Help Attackers Hijack Accounts",
-    "link": "https://www.securityweek.com/weaponized-email-ai-assistants-could-help-attackers-hijack-accounts/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-04T13:54:13.000Z",
-    "summary": "Researchers demonstrate how attackers could abuse built-in email chatbots to evade detection, impersonate trusted employees, compromise executive accounts, and facilitate financial fraud.\nThe post Weaponized Email AI Assistants Could Help A",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "701d5fdc553eb166",
-    "title": "Zenity Raises $125 Million in Series C Funding",
-    "link": "https://www.securityweek.com/zenity-raises-125-million-in-series-c-funding/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-04T13:40:42.000Z",
-    "summary": "The AI security company will invest in product innovation, global expansion, and customer experience.\nThe post Zenity Raises $125 Million in Series C Funding appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "91a26fc306199b71",
-    "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
-    "link": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-04T13:30:23.000Z",
-    "summary": "A credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026.\n\nSafeDep verified 353 poisoned versions across 79 pa",
     "cveIds": [],
     "severity": "normal"
   }
