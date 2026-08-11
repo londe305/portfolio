@@ -1,5 +1,104 @@
 [
   {
+    "id": "cff573d711d08326",
+    "title": "Microsoft Plugs Nearly 400 Security Holes",
+    "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-08-11T21:28:35.000Z",
+    "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly deta",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bc022a3d07f66c1c",
+    "title": "Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-11T21:16:25.000Z",
+    "summary": "The ransomware-as-a-service operation is finding success against critical infrastructure targets with leaked Conti code and old flaws in firewalls and VPN appliances.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3078c8afecfd717b",
+    "title": "Sandworm hackers target IT pros with trojanized WireGuard VPN client",
+    "link": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-11T21:07:24.000Z",
+    "summary": "Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job offers since at least May. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7830079a971826a2",
+    "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+    "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-11T20:10:55.000Z",
+    "summary": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks.\n\nThe bug sits in a core Windows kernel driver that handles network socket operations. An attacker with code already",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "703cfda12dff1da7",
+    "title": "NSA installs DHS lawyer as new general counsel",
+    "link": "https://therecord.media/kerianne-tobitsch-new-nsa-general-counsel",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-11T20:00:09.000Z",
+    "summary": "Kerianne Tobitsch, who most recently served as a senior lawyer at the Homeland Security Department, is the NSA's new general counsel, sources told Recorded Future News.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "253c5d4635378c8b",
+    "title": "Cisco warns of ASA and FTD VPN flaw exploited to crash devices",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-11T19:45:31.000Z",
+    "summary": "Cisco is warning that a high-severity denial-of-service vulnerability in Secure Firewall ASA and Threat Defense (FTD) software is being actively exploited in attacks to remotely crash affected devices. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4efbef3681b13683",
+    "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+    "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-11T19:36:37.000Z",
+    "summary": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-servi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d620027b980af956",
+    "title": "Ransomware group hijacks hospital system’s Facebook page amid ongoing cyberattack fallout",
+    "link": "https://therecord.media/ransomware-group-hijacks-hospital-facebook-amid-cyberattack-response",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-11T19:15:00.000Z",
+    "summary": "The hackers claimed to have exfiltrated 6 terabytes of data, including highly sensitive health information like records related to sexual assault, mental health, abortions and sexual harassment incidents.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5e72aecf08c3d259",
+    "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
+    "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-11T19:08:47.000Z",
+    "summary": "Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's.\n\nThe flaw sat in the annotation tool, the feature that lets participants draw an",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "bd2583b3fb452b6b",
     "title": "August 2026 Patch Tuesday: Microsoft Fixes 421 CVEs, One Exploited Zero-Day",
     "link": "https://www.securityweek.com/august-2026-patch-tuesday-microsoft-fixes-421-cves-one-exploited-zero-day/",
@@ -297,17 +396,6 @@
     "severity": "normal"
   },
   {
-    "id": "3658812414641bb0",
-    "title": "Mira Hormone Monitor, Mira Android App",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-11T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access unauthorized health profile information, make changes to health information, cause a denial-of-service condition, disclose session token in",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "f35136fdfa004c43",
     "title": "Pulsetto Vagus Nerve Stimulator",
     "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-02",
@@ -315,6 +403,30 @@
     "category": "advisory",
     "pubDate": "2026-08-11T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to use hidden commands to disable electrical safety mechanisms or modify other stimulation output settings.\nThe following versions of Pulsetto Vagus Ner",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9ddeac63f2bb9380",
+    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-11T12:00:00.000Z",
+    "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-20349 Cisco Secure Firewall Adaptive Security Appliance (ASA) and Firewall Threat Defense (F",
+    "cveIds": [
+      "CVE-2026-20349"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "3658812414641bb0",
+    "title": "Mira Hormone Monitor, Mira Android App",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-11T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access unauthorized health profile information, make changes to health information, cause a denial-of-service condition, disclose session token in",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1276,6 +1388,17 @@
     "severity": "normal"
   },
   {
+    "id": "8f7f32d30ea9b09c",
+    "title": "CPDLC over ATN-B1 Vulnerabilities",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-219-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-07T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nATN-B1 CPDLC relies on legacy clear text unauthenticated radio frequency links. Research demonstrates that these characteristics allow unauthorized message injection, denial-of-service conditions, and forced session resets",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "c4f45e1735fe49d0",
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/08/07/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -1287,17 +1410,6 @@
       "CVE-2026-8037"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "8f7f32d30ea9b09c",
-    "title": "CPDLC over ATN-B1 Vulnerabilities",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-219-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-07T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nATN-B1 CPDLC relies on legacy clear text unauthenticated radio frequency links. Research demonstrates that these characteristics allow unauthorized message injection, denial-of-service conditions, and forced session resets",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "1527fc9a7c67cc8f",
@@ -1762,15 +1874,28 @@
     "severity": "normal"
   },
   {
+    "id": "1bc663ba8d754759",
+    "title": "ABB Ability Zenon",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-06T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to bypass security, crash systems, execute unauthorized actions, or compromise data.\nThe following versions of ABB Ability Zenon are affected:\nIIoT ser",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "9e641030124e4685",
     "title": "Johnson Controls Inc. TL280",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-06T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to access sensitive information on the device.\nThe following versions of Johnson Controls Inc. TL280 are affected:\nTL280 <5.63 \nCVSS\nVendor\nEquipment\nVu",
-    "cveIds": [],
-    "severity": "normal"
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to access sensitive information on the device.\nThe following versions of Johnson Controls Inc. TL280 are affected:\nTL280 <5.63 (CVE-2026-27871)\nCVSS\nVen",
+    "cveIds": [
+      "CVE-2026-27871"
+    ],
+    "severity": "cve"
   },
   {
     "id": "9b308c80de18bfa6",
@@ -1782,17 +1907,6 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause the application to crash if a maliciously crafted DICOM file is opened.\nThe following versions of Medixant RadiAnt DICOM are affected:\nRadiAnt ",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "1bc663ba8d754759",
-    "title": "ABB Ability Zenon",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-06T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to bypass security, crash systems, execute unauthorized actions, or compromise data.\nThe following versions of ABB Ability Zenon are affected:\nIIoT ser",
-    "cveIds": [],
-    "severity": "critical"
   },
   {
     "id": "4612abd7cde8af5b",
@@ -2666,27 +2780,5 @@
     "summary": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "aeca02cb50c5d201",
-    "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-04T21:45:36.000Z",
-    "summary": "The Greatness phishing-as-a-service (PhaaS) platform has expanded from credential phishing to adversary-in-the-middle attacks and device-code phishing targeting Microsoft 365 accounts. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "77314ba4d5036705",
-    "title": "OpenAI: Cambodian scam centers used ChatGPT to lure Indian nationals, conduct investment fraud",
-    "link": "https://therecord.media/openai-chatgpt-cambodia-scam-centers-disruption",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-04T20:15:00.000Z",
-    "summary": "A tip from WhatsApp led OpenAI to ban multiple accounts associated with investment scams and human trafficking operations based in Cambodian scam centers.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
