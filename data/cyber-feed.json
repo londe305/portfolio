@@ -1,5 +1,60 @@
 [
   {
+    "id": "83490caa49a63b9a",
+    "title": "ISC Stormcast For Tuesday, August 11th, 2026 https://isc.sans.edu/podcastdetail/10046, (Tue, Aug 11th)",
+    "link": "https://isc.sans.edu/diary/rss/33232",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-11T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5d69890205dedd20",
+    "title": "Hackers breached a small Polish energy plant via private APN last year",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-10T23:07:21.000Z",
+    "summary": "Hackers breached a heat-and-power plant facility in Poland, which supplies heat to about 50,000 residents, using a private APN (Access Point Name) to access an OT (Operational Technology) network. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b3b76b3e62180303",
+    "title": "The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications",
+    "link": "https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-08-10T22:00:02.000Z",
+    "summary": "Analysis of the Aeternum botnet loader, a threat leveraging Polygon blockchain smart contracts for decentralized C2 infrastructure and payload execution.\nThe post The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6d69ff602279134e",
+    "title": "'GhostJacking' Exposes Identity Governance Gaps in AI Agents",
+    "link": "https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-10T21:54:22.000Z",
+    "summary": "New research shows how attackers can use security alerts and blocked events to manipulate and hijack AI agents.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c00c185b40983c7d",
+    "title": "Multistate Water System Attacks Widen, Iran Suspected",
+    "link": "https://www.darkreading.com/ics-ot-security/multistate-water-system-attacks-widen-iran-suspected",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-10T21:34:38.000Z",
+    "summary": "Attacks targeting water systems just keep flowing across a dozen states, against ill-secured, Internet-exposed PLCs.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a0037dc633b11f9c",
     "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
     "link": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
@@ -2559,115 +2614,5 @@
     "summary": "The biggest single reward paid out by Microsoft between July 1, 2025, and June 30, 2026, was $200,000.\nThe post Microsoft Bug Bounty Program: $20 Million Paid to 500 Researchers appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "e940325331cacddc",
-    "title": "ISC Stormcast For Tuesday, August 4th, 2026 https://isc.sans.edu/podcastdetail/10036, (Tue, Aug 4th)",
-    "link": "https://isc.sans.edu/diary/rss/33212",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-04T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9dea20082d851799",
-    "title": "New York Awards $9 Million to Strengthen Cybersecurity at 153 Water Systems",
-    "link": "https://www.securityweek.com/new-york-awards-9-million-to-strengthen-cybersecurity-at-153-water-systems/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-04T01:54:00.000Z",
-    "summary": "The grants will help local governments assess and improve cyber defenses amid a multistate campaign targeting water and wastewater infrastructure.\nThe post New York Awards $9 Million to Strengthen Cybersecurity at 153 Water Systems appeared",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "90dbcee1d2cbfc23",
-    "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-04T00:17:15.000Z",
-    "summary": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1564923df5c7be2e",
-    "title": "Multiples vulnérabilités dans les produits Tenable (04 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0962/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à l'intégrité des données et une injection S",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4b95d01b66999a16",
-    "title": "Multiples vulnérabilités dans Google Android (04 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0963/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Android. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ea0a163ca53316bc",
-    "title": "Multiples vulnérabilités dans Traefik (04 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0964/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "94ba6be9d30c9f9b",
-    "title": "Vulnérabilité dans les produits Check Point (04 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0965/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-04T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Check Point. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "80580530ef9dd582",
-    "title": "Multiples vulnérabilités dans LibreNMS (04 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0966/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans LibreNMS. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une falsification de requêtes côté serveur (SSRF) et une injection de code indirecte à ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9ab881cb33c9a8cc",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (04 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0967/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8b474d4236de0d70",
-    "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
-    "link": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-03T23:58:01.000Z",
-    "summary": "Security researchers have discovered three attacks that allow malware on already-compromised Windows devices to abuse Google Password Manager's synced passkeys to take over accounts, bypass user verification, and extract passkey private key",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
