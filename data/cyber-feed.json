@@ -1,5 +1,148 @@
 [
   {
+    "id": "e06149ee0ff05ee1",
+    "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
+    "link": "https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-11T13:15:24.000Z",
+    "summary": "AI agents can improvise beyond the intended scope of a task when they are given broad access to enterprise systems and data. Token Security explains why organizations need to define agent intent and continuously enforce permissions around w",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8656901f82c1640c",
+    "title": "DDoS attacks over 1 Tbps surged fivefold in the second quarter",
+    "link": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-11T13:00:00.000Z",
+    "summary": "Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the year. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eee6199fe8029350",
+    "title": "Local governments in four states dealing with cyberattacks that have shut down services",
+    "link": "https://therecord.media/cyberattacks-ransomware-local-governments",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-11T13:00:00.000Z",
+    "summary": "Municipalities in California, Oklahoma, Wisconsin and Texas are all recovering from disruptive cyberattacks that have affected government operations.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0b389ea25a889438",
+    "title": "Kids’ online safety bill faces dim prospects of passage this session despite progress",
+    "link": "https://therecord.media/kids-online-safety-act-congress",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-11T12:15:00.000Z",
+    "summary": "Proponents of the Kids Online Safety Act are cheering recent progress but acknowledge a long road ahead for legislation that, despite mounting political pressure, may be difficult to pass this session.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "49f74c46b3ff8614",
+    "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-11T12:12:16.000Z",
+    "summary": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been flagged as actively exploited since early July. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "69257022c470a348",
+    "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
+    "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-11T12:05:03.000Z",
+    "summary": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics units, that is enough to take the whole de",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b3306e60b5cebc95",
+    "title": "Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo",
+    "link": "https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-11T12:04:51.000Z",
+    "summary": "Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed by mistake to one of the company's own private code repositories.\n\nThat key is how a user, or a Linu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e17b212f9760a4e1",
+    "title": "Corma Raises $60 Million for Defensive Cybersecurity AI Model",
+    "link": "https://www.securityweek.com/corma-raises-60-million-for-defensive-cybersecurity-ai-model/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-11T12:01:46.000Z",
+    "summary": "Corma emerged from stealth with seed funding from Sequoia Capital, Khosla Ventures, and Coatue.\nThe post Corma Raises $60 Million for Defensive Cybersecurity AI Model appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c5e2acb56602b69c",
+    "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
+    "link": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-11T11:35:03.000Z",
+    "summary": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording.\n\nThe onboarding paperwork is the pa",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e170508d62a59d30",
+    "title": "Extension Banned for Stealing AI Chats Returns to Chrome Store, Resumes Malicious Activities",
+    "link": "https://www.securityweek.com/extension-banned-for-stealing-ai-chats-returns-to-chrome-store-resumes-malicious-activities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-11T11:15:15.000Z",
+    "summary": "The extension amassed over 300,000 installs and a 4.6 rating before Google removed it for stealing data.\nThe post Extension Banned for Stealing AI Chats Returns to Chrome Store, Resumes Malicious Activities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "70ff24acb6a046b3",
+    "title": "Cisco warns of high-severity ClamAV flaws with public exploits",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-11T11:03:01.000Z",
+    "summary": "Cisco warned of two high-severity vulnerabilities affecting the Secure Endpoint Connector that allow threat actors to crash the ClamAV scanning process in denial-of-service (DoS) attacks. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8446412b3947b6a9",
+    "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
+    "link": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-11T10:48:26.000Z",
+    "summary": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machine.\n\nThe same PnP pat",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cc575547c63bb0d8",
+    "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
+    "link": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-11T10:24:00.000Z",
+    "summary": "A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instruction.\n\nThe trick can work even after a blu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "823c86260c812c72",
     "title": "Kimwolf v7: An Evolution of the Kimwolf Botnet",
     "link": "https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/",
@@ -42,6 +185,17 @@
     "summary": "OpenAI has also announced the expansion of its Daybreak platform to give more organizations access to its AI.\nThe post OpenAI Unveils New Cybersecurity Model GPT-5.6-Cyber appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "f13cf8c4cf50bced",
+    "title": "Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks",
+    "link": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-11T09:16:24.000Z",
+    "summary": "Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world.\n\nTargets of these attacks include healthcare and public h",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "66ce18499c5654e5",
@@ -2435,184 +2589,5 @@
     "summary": "A credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026.\n\nSafeDep verified 353 poisoned versions across 79 pa",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "258e1b05b28753dd",
-    "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
-    "link": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-04T13:11:22.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthil",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f9a30f2c11599228",
-    "title": "The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software",
-    "link": "https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-08-04T13:00:11.000Z",
-    "summary": "Frontier AI is reshaping vulnerability discovery. Learn how our NOVA system found 14,000+ unknown vulnerabilities across the open-source software supply chain.\nThe post The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Da",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9f21cdae8e840545",
-    "title": "AI Notetaker Lets Hackers Spy on Government, Corporate Video Calls",
-    "link": "https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-04T13:00:00.000Z",
-    "summary": "A Google Firebase misconfiguration lets users of tl;dv, an AI meeting tool, query any other users' meeting information and potentially join calls.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7f774d58226e40a2",
-    "title": "Apple launches new legal challenge against UK over iCloud access",
-    "link": "https://therecord.media/apple-uk-tcn-icloud-new-legal-challenge",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-04T13:00:00.000Z",
-    "summary": "Seeking to protect users' iCloud accounts, Apple is reportedly mounting a new challenge to British legal demands for ways around the company's Advanced Data Protection feature.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "800faf7bfeca5c5a",
-    "title": "Almost Half of Malware Samples Communicate Direct to IP",
-    "link": "https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-08-04T12:50:53.000Z",
-    "summary": "Nearly half of C2 malware bypasses DNS by connecting directly to IP addresses. Zero trust IP enforcement secures networks against these threats.\nThe post Almost Half of Malware Samples Communicate Direct to IP appeared first on Unit 42.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d8604fbc4f65184f",
-    "title": "Botnet Hunting for Vulnerabilities in Diagnostic Tools, (Tue, Aug 4th)",
-    "link": "https://isc.sans.edu/diary/rss/33214",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-04T12:46:19.000Z",
-    "summary": "This morning, I noticed specific sources \"hunting\" for vulnerabilities in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to be associated with diagnostic tools:",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3305fd13b7fc0efd",
-    "title": "Swiss IT agency hacked, 200 accounts compromised, SharePoint vulns suspected",
-    "link": "https://therecord.media/swiss-bit-foitt-hacked-possibly-sharepoint-vulnerabilities",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-04T12:45:00.000Z",
-    "summary": "The Federal Office for Information Technology and Communications (BIT) said specialists detected anomalies in on-premises Microsoft servers. The Swiss agency could not confirm exactly how the hackers got in.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ef14363453a33dae",
-    "title": "Thermo Fisher Applied Biosystems Genetic Analyzers",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-04T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to modify .fsa/.hid output files, tampering with DNA data and resulting in inaccurate test results.\nThe following versions of Thermo Fisher Applied Bios",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "64bf885106e57105",
-    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-04T12:00:00.000Z",
-    "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-9198 IBM Langflow Code Injection Vulnerability\nCVE-2026-18556 N-able N-central Authenticatio",
-    "cveIds": [
-      "CVE-2026-9198",
-      "CVE-2026-18556"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "32d48c3918c63539",
-    "title": "Acrisure KARR BT and DR-100",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-04T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to perform unauthorized vehicle control operations.\nThe following versions of Acrisure KARR BT and DR-100 are affected:\nKARR BT firmware <July_20_2026\nD",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f8ab12acae8deb06",
-    "title": "TP-Link Omada ZTP Vulnerabilities Chain Into Full Network Takeover",
-    "link": "https://www.securityweek.com/tp-link-omada-ztp-vulnerabilities-chain-into-full-network-takeover/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-04T12:00:00.000Z",
-    "summary": "Forescout researchers have found 15 new vulnerabilities in the TP-Link Omada networking ecosystem.\nThe post TP-Link Omada ZTP Vulnerabilities Chain Into Full Network Takeover appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a236c603f38a6bc7",
-    "title": "Obsidian Security Raises $85 Million at $1.1 Billion Valuation",
-    "link": "https://www.securityweek.com/obsidian-security-raises-85-million-at-1-1-billion-valuation/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-04T12:00:00.000Z",
-    "summary": "Obsidian Security has developed a platform for governing AI agents across third-party applications.\nThe post Obsidian Security Raises $85 Million at $1.1 Billion Valuation appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "42f0b3d008c8c058",
-    "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
-    "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-04T11:30:00.000Z",
-    "summary": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.\n\nThat assumption is starting to break.\n\nSecurity teams have long estimated risk by ranking attacker sophistication. Nation-stat",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cc5bc3e2ac389329",
-    "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
-    "link": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-04T11:16:23.000Z",
-    "summary": "Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged code-fixing agent.\n\nThe researche",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9e72799180eba1b8",
-    "title": "Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering",
-    "link": "https://www.securityweek.com/gemini-agent-to-agent-attack-exposed-secrets-enabled-pull-request-tampering/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-04T10:54:30.000Z",
-    "summary": "A crafted prompt to a low-privilege Google ADK agent could be used to pass a malicious hand-off comment to a privileged agent.\nThe post Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering appeared first on Se",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "44826172d1b3e641",
-    "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
-    "link": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-04T10:36:27.000Z",
-    "summary": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a tar",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
