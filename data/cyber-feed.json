@@ -1,5 +1,64 @@
 [
   {
+    "id": "718e364ee9605b97",
+    "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+    "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-12T07:31:40.000Z",
+    "summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution.\n\nThe vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on",
+    "cveIds": [
+      "CVE-2026-58231"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "7dc8e1d0ed6d768a",
+    "title": "SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform",
+    "link": "https://www.securityweek.com/sonicwall-patches-critical-vulnerabilities-in-discontinued-gms-platform/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-12T07:31:11.000Z",
+    "summary": "The security defects could allow unauthenticated attackers to execute arbitrary code remotely and read sensitive data.\nThe post SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a94072d6a3a80c03",
+    "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+    "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-12T06:41:38.000Z",
+    "summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak.\n\nThe vulnerability, rooted in Micr",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4e10981a01113da6",
+    "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+    "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-12T06:15:58.000Z",
+    "summary": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild.\n\nThe high-severity flaw, tracked as CVE-2026-20",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "625b474fe305d1c3",
+    "title": "Cisco Patches Firewall Zero-Day Exploited for DoS Attacks",
+    "link": "https://www.securityweek.com/cisco-patches-firewall-zero-day-exploited-for-dos-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-12T05:10:47.000Z",
+    "summary": "CVE-2026-20349 can be exploited remotely without authentication against Secure Firewall ASA and FTD devices.\nThe post Cisco Patches Firewall Zero-Day Exploited for DoS Attacks appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-20349"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "9c3d235be24db601",
     "title": "ISC Stormcast For Wednesday, August 12th, 2026 https://isc.sans.edu/podcastdetail/10048, (Wed, Aug 12th)",
     "link": "https://isc.sans.edu/diary/rss/33238",
@@ -2712,39 +2771,6 @@
     "category": "news",
     "pubDate": "2026-08-05T07:53:50.000Z",
     "summary": "An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute.\n\nWhen a bystander publicly warned that the code ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cadf3defd1a854ec",
-    "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
-    "link": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-05T07:40:39.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.\n\nThe list of vulnerabilities is",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b747b06af86d9da3",
-    "title": "Water Sector Cyberattacks Reportedly Hit at Least 12 States",
-    "link": "https://www.securityweek.com/water-sector-cyberattacks-reportedly-hit-at-least-12-states/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-05T07:24:52.000Z",
-    "summary": "Georgia has been confirmed as one of the attacked states after Clayton County reported a pump station disruption.\nThe post Water Sector Cyberattacks Reportedly Hit at Least 12 States appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "361feaf14309fe82",
-    "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
-    "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-05T05:47:19.000Z",
-    "summary": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users.\n\nAccording to Fortinet",
     "cveIds": [],
     "severity": "normal"
   }
