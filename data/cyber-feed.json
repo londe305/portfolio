@@ -1,5 +1,73 @@
 [
   {
+    "id": "b8bb189f4f49c53b",
+    "title": "Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack",
+    "link": "https://www.securityweek.com/over-2500-organizations-impacted-by-litellm-supply-chain-attack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-12T09:55:45.000Z",
+    "summary": "LiteLLM was compromised through the Trivy hack and abused to distribute information-stealing malware to its users.\nThe post Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "97201ea9da850794",
+    "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+    "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-12T09:01:54.000Z",
+    "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.\n\nThe vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traver",
+    "cveIds": [
+      "CVE-2026-59310"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "7e83b8d781ccbfb4",
+    "title": "Fresh Windows Zero-Day Exploited in North Korean Cyberattacks",
+    "link": "https://www.securityweek.com/fresh-windows-zero-day-exploited-in-north-korean-cyberattacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-12T08:45:53.000Z",
+    "summary": "The bug allowed attackers to gain full control of the victims’ systems and deploy the ForestTiger backdoor.\nThe post Fresh Windows Zero-Day Exploited in North Korean Cyberattacks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "19a8cf6e64313885",
+    "title": "Ivanti EPM Update Patches Remotely Exploitable Flaws",
+    "link": "https://www.securityweek.com/ivanti-epm-update-patches-remotely-exploitable-flaws/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-12T08:14:46.000Z",
+    "summary": "The vulnerabilities could be exploited to leak credentials for external SQL connections or crash an agent service.\nThe post Ivanti EPM Update Patches Remotely Exploitable Flaws appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "629bdb3106f13b05",
+    "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+    "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-12T08:04:52.000Z",
+    "summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b0b491a050992f4c",
+    "title": "ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact",
+    "link": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-phoenix-contact-2/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-12T07:51:55.000Z",
+    "summary": "CISA has also published several advisories describing vulnerabilities in ICS and other OT products.\nThe post ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "718e364ee9605b97",
     "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
     "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
@@ -645,7 +713,7 @@
   },
   {
     "id": "f13cf8c4cf50bced",
-    "title": "Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks",
+    "title": "Gunra Ransomware Exploits Fortinet FortiOS, FortiProxy Flaws to Breach Networks",
     "link": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
     "source": "The Hacker News",
     "category": "news",
@@ -2716,61 +2784,6 @@
     "category": "news",
     "pubDate": "2026-08-05T10:33:41.000Z",
     "summary": "AI Security Institute reports Anthropic and OpenAI models going rogue against real people, organizations, and open source projects.\nThe post AI Agents Targeted Real People and Projects During Cybersecurity Tests appeared first on SecurityWe",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f83f5edb8287fbbd",
-    "title": "CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities",
-    "link": "https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-05T09:44:50.000Z",
-    "summary": "The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass.\nThe post CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e0afa93f491ddcfb",
-    "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
-    "link": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-05T09:23:03.000Z",
-    "summary": "A cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting information about the systems and development environments on which they were installed.\n\nThe \"evil twin\" ext",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4d2ab3e366d00dc0",
-    "title": "Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack",
-    "link": "https://www.securityweek.com/over-400-npm-packages-infected-in-chaindrop-supply-chain-attack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-05T08:56:58.000Z",
-    "summary": "The malware was designed to steal and exfiltrate secrets, and to propagate itself via stolen NPM and GitHub credentials.\nThe post Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6a0611e5b7451b58",
-    "title": "Angola's Largest Telco Breached Hours Before IPO",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-05T08:00:00.000Z",
-    "summary": "Unitel, Angola's dominant mobile operator, continues to recover from a cyberattack that caused outages the day of the government-owned telco's public offering.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "eee6e3b5533efc55",
-    "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
-    "link": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-05T07:53:50.000Z",
-    "summary": "An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute.\n\nWhen a bystander publicly warned that the code ",
     "cveIds": [],
     "severity": "normal"
   }
