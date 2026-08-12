@@ -1,5 +1,60 @@
 [
   {
+    "id": "9c3d235be24db601",
+    "title": "ISC Stormcast For Wednesday, August 12th, 2026 https://isc.sans.edu/podcastdetail/10048, (Wed, Aug 12th)",
+    "link": "https://isc.sans.edu/diary/rss/33238",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-12T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6add8807f2afe607",
+    "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
+    "link": "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-12T01:15:55.000Z",
+    "summary": "Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eb002a693cb4334c",
+    "title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+    "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-08-11T22:21:02.000Z",
+    "summary": "Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as \"critical.\"",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "97ba2e277c754083",
+    "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
+    "link": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-11T22:15:22.000Z",
+    "summary": "The DeadLock ransomware operation is using a decentralized infrastructure that relies on blockchain-backed services to protect its communication with victims and data-leak activity. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ff92e9f79f1adc84",
+    "title": "Microsoft's Patch Tuesday Deluge Continues With August Updates",
+    "link": "https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-11T21:42:34.000Z",
+    "summary": "Security experts say prioritization should be the main focus for the August updates, not the massive CVE volume.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "cff573d711d08326",
     "title": "Microsoft Plugs Nearly 400 Security Holes",
     "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
@@ -2692,93 +2747,5 @@
     "summary": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users.\n\nAccording to Fortinet",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "b1350c49bec32a84",
-    "title": "ISC Stormcast For Wednesday, August 5th, 2026 https://isc.sans.edu/podcastdetail/10038, (Wed, Aug 5th)",
-    "link": "https://isc.sans.edu/diary/rss/33216",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-05T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cb57542aebb2acde",
-    "title": "Multiples vulnérabilités dans les produits Veeam (05 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0968/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-05T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distanc",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e4e3eda3d4a9eb4b",
-    "title": "Multiples vulnérabilités dans HPE Aruba Networking EdgeConnect SD-WAN Orchestrator (05 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0969/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-05T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans HPE Aruba Networking EdgeConnect SD-WAN Orchestrator. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "32ebdcd7d4fc2387",
-    "title": "Multiples vulnérabilités dans Google Pixel (05 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0970/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-05T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Pixel. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ccd18bb5ca699167",
-    "title": "Vulnérabilité dans Mozilla Firefox pour Android (05 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0971/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-05T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Mozilla Firefox pour Android. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dc35ef6385522fb4",
-    "title": "ChainDrop supply chain compromise: Anatomy of a self-propagating worm",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-08-04T23:46:41.000Z",
-    "summary": "A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guid",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "32cad76b012240b7",
-    "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
-    "link": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-04T23:39:59.000Z",
-    "summary": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and social engineering attacks against people out",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "bbf146e29fd8d2ea",
-    "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
-    "link": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-04T22:18:20.000Z",
-    "summary": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
