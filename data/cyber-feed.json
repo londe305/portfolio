@@ -1,5 +1,60 @@
 [
   {
+    "id": "440dfd827f2ef56e",
+    "title": "WordPress 7.0.4 Patches Remote Code Execution Vulnerability",
+    "link": "https://www.securityweek.com/wordpress-7-0-4-patches-remote-code-execution-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-13T12:53:56.000Z",
+    "summary": "Attackers with Author-level user or higher permissions could exploit the flaw via malicious Postscript files.\nThe post WordPress 7.0.4 Patches Remote Code Execution Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "786763b73b6972d2",
+    "title": "Germany moves to give spy agencies hacking and sabotage powers",
+    "link": "https://therecord.media/germany-spy-agency-powers",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-13T12:45:00.000Z",
+    "summary": "Germany’s cabinet approved legislation that would let its intelligence agencies hack foreign systems, sabotage adversaries’ supply chains and feed false information to extremists inside Germany, in the biggest overhaul of the country’s spy ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5d02b675f3d7a7e6",
+    "title": "WhatsApp rolls out new feature that flags potential scam messages",
+    "link": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-13T11:50:22.000Z",
+    "summary": "WhatsApp has begun rolling out a new optional \"Scam Alert\" feature, which uses a local machine learning model to warn users when scammers are targeting them. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ea228a5714b8c53d",
+    "title": "Venture Firm Team8 Secures Additional $365 Million",
+    "link": "https://www.securityweek.com/venture-firm-team8-secures-additional-365-million/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-13T11:42:48.000Z",
+    "summary": "The Israeli company has nearly $2 billion in total assets under management since 2014.\nThe post Venture Firm Team8 Secures Additional $365 Million appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6d488932864b8d86",
+    "title": "Fortinet Patches Authentication Flaws in FortiWeb and FortiManager",
+    "link": "https://www.securityweek.com/fortinet-patches-authentication-flaws-in-fortiweb-and-fortimanager/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-13T10:40:57.000Z",
+    "summary": "The vulnerabilities could allow attackers to log in with random usernames and passwords or impersonate any FortiGate appliance.\nThe post Fortinet Patches Authentication Flaws in FortiWeb and FortiManager appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "cde076ac673cda7d",
     "title": "Dissecting the JWR phishing framework",
     "link": "https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/",
@@ -181,12 +236,12 @@
   },
   {
     "id": "306a4594ca50321f",
-    "title": "Walmart's &quot;Trusted Agent&quot; Approach to Purple Teaming",
+    "title": "Walmart Takes a 'Trusted Agent' Approach to Purple Teaming",
     "link": "https://www.darkreading.com/cybersecurity-operations/walmart-trusted-agent-approach-purple-teaming",
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-08-12T16:28:04.000Z",
-    "summary": "Walmart co-locates red and blue teams to build trust and improve security through collaborative purple teaming exercises",
+    "summary": "Walmart colocates red and blue teams to build trust and improve security through collaborative purple teaming exercises",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2597,129 +2652,6 @@
     "category": "news",
     "pubDate": "2026-08-06T14:02:12.000Z",
     "summary": "AI did not create a new browser security problem. It exposed one that enterprises have long been able to ignore. Skyhigh Security explains why browsers have become a critical control point for governing data movement, AI interactions, and m",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a705dc9714c3a37b",
-    "title": "Belarusian cybercriminal behind Ransom Cartel gets 16-year prison sentence",
-    "link": "https://therecord.media/belarus-hacker-ransomware-sentenced",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-06T13:15:00.000Z",
-    "summary": "A Belarusian national active in the cybercriminal world for decades was sentenced to 16 years in U.S. prison for running the Ransom Cartel ransomware operation.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "539c75a0cf5425a9",
-    "title": "Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts",
-    "link": "https://www.securityweek.com/zero-click-ai-browser-hacking-claude-and-chatgpt-atlas-hijacked-via-emails-x-posts/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-06T12:54:09.000Z",
-    "summary": "Zenity researchers reported the findings to Anthropic and OpenAI in late 2025 and early 2026, but they remain unpatched.\nThe post Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts appeared first on Securit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fc8edfb24358abbc",
-    "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
-    "link": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-06T12:16:58.000Z",
-    "summary": "Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network.\n\nIts August 3 scan counted 4,407 exposed",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1bc663ba8d754759",
-    "title": "ABB Ability Zenon",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-06T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to bypass security, crash systems, execute unauthorized actions, or compromise data.\nThe following versions of ABB Ability Zenon are affected:\nIIoT ser",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9e641030124e4685",
-    "title": "Johnson Controls Inc. TL280",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-06T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to access sensitive information on the device.\nThe following versions of Johnson Controls Inc. TL280 are affected:\nTL280 <5.63 (CVE-2026-27871)\nCVSS\nVen",
-    "cveIds": [
-      "CVE-2026-27871"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "9b308c80de18bfa6",
-    "title": "Medixant RadiAnt DICOM",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-218-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-06T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to cause the application to crash if a maliciously crafted DICOM file is opened.\nThe following versions of Medixant RadiAnt DICOM are affected:\nRadiAnt ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4612abd7cde8af5b",
-    "title": "Podcast: Compliance Won’t Save You: The Future of Cyber Risk with Edna Conway",
-    "link": "https://www.securityweek.com/podcast-compliance-wont-save-you-the-future-of-cyber-risk-with-edna-conway/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-06T12:00:00.000Z",
-    "summary": "(Video) In this podcast, we share insights from Edna Conway, a recognized leader in cybersecurity and supply chain resilience with over 40 years of experience in the field. \nThe post Podcast: Compliance Won’t Save You: The Future of Cyber R",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e1852196bec252ea",
-    "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
-    "link": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-06T11:49:48.000Z",
-    "summary": "Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random number generator behind the Ill Bloom wallet drains.\n\nIntroduced in the JavaScript cryptography library 12 years ago, the function supplied weak entropy that affect",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c34793f7c92673be",
-    "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-    "link": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-06T11:33:08.000Z",
-    "summary": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address.\n\nIntroduced with iOS 15, iCloud Private Relay employs a dual-hop architecture to ensure users' privac",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "df4b3ff5163068a2",
-    "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-    "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-06T11:30:00.000Z",
-    "summary": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every major AI assistant: pre-filled deep links.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "34ad108866765435",
-    "title": "Critical Paperclip Flaw Allowed Admin Access, Code Execution",
-    "link": "https://www.securityweek.com/critical-paperclip-flaw-allowed-admin-access-code-execution/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-06T11:09:11.000Z",
-    "summary": "An attacker could self-register, sign in for board-level API access, and import a new company for code execution.\nThe post Critical Paperclip Flaw Allowed Admin Access, Code Execution appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
   }
