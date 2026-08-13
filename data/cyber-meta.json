@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-08-13T13:25:50.421Z",
-  "totalItems": 240,
+  "lastRun": "2026-08-13T22:03:05.382Z",
+  "totalItems": 263,
   "sources": [
     {
       "name": "The Hacker News",
@@ -70,9 +70,9 @@
     },
     {
       "name": "SANS ISC",
-      "ok": true,
-      "itemCount": 10,
-      "error": null
+      "ok": false,
+      "itemCount": 0,
+      "error": "Invalid character entity\nLine: 16\nColumn: 50\nChar: ;"
     },
     {
       "name": "The Record",
