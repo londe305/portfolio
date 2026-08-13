@@ -1,5 +1,29 @@
 [
   {
+    "id": "556d5b385151f0c9",
+    "title": "Belgium's eID Authentication Opens Citizen Accounts to RCE",
+    "link": "https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-13T07:00:00.000Z",
+    "summary": "The trust framework underlying Belgium's electronic ID system was fully compromised by severe vulnerabilities in a key browser extension, showcasing bigger problems with extensions in general.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "194c32e5aaf78b99",
+    "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+    "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-13T06:09:48.000Z",
+    "summary": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code.\n\nThe vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical ",
+    "cveIds": [
+      "CVE-2026-55040"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "280b7fad4781cd76",
     "title": "ISC Stormcast For Thursday, August 13th, 2026 https://isc.sans.edu/podcastdetail/10050, (Thu, Aug 13th)",
     "link": "https://isc.sans.edu/diary/rss/33244",
@@ -2709,64 +2733,5 @@
     "summary": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink.\n\nAccording to a new report from VulnCheck, the implant appears in all 21 firmware images currently",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "70138951034fd3d8",
-    "title": "Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities",
-    "link": "https://www.securityweek.com/cisco-patches-critical-sd-wan-ios-xe-fmc-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-06T07:20:20.000Z",
-    "summary": "Patches were rolled out for two dozen vulnerabilities, including one with public proof-of-concept (PoC) code.\nThe post Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e0232f32abe20727",
-    "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
-    "link": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-06T07:19:54.000Z",
-    "summary": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021.\n\nBetween 2021 and 2023, Ransom Cartel co",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "473bd021b509a542",
-    "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
-    "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-06T06:51:43.000Z",
-    "summary": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA).\n\nThe vulnerability in question ",
-    "cveIds": [
-      "CVE-2026-63077"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "1047943d4da8fbf4",
-    "title": "Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability",
-    "link": "https://www.securityweek.com/hackers-start-exploiting-recent-jetbrains-teamcity-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-06T06:37:44.000Z",
-    "summary": "Tracked as CVE-2026-63077, the critical bug can be exploited without authentication for remote code execution.\nThe post Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-63077"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "76f47175588a77d4",
-    "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-    "link": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-06T06:04:30.000Z",
-    "summary": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts.\n\nThe intrusions reached at lea",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
