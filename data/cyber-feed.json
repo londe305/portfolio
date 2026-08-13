@@ -1,5 +1,60 @@
 [
   {
+    "id": "cde076ac673cda7d",
+    "title": "Dissecting the JWR phishing framework",
+    "link": "https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-08-13T10:00:35.000Z",
+    "summary": "Cisco Talos recently identified an undocumented phishing framework, internally branded \"JWR\" by its developer, built to convincingly impersonate checkout and login pages across major payment and shopping platforms.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "95fa21c9df76f4c3",
+    "title": "'Jewelbug' APT Balances State Espionage &amp; Cryptocurrency Theft",
+    "link": "https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-13T10:00:00.000Z",
+    "summary": "Researchers discovered hackers-for-hire performing cyber espionage and financially motivated heists from the same Web panel.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "16a6aca419fec876",
+    "title": "White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs",
+    "link": "https://www.securityweek.com/white-house-mobilizes-security-firms-for-operations-against-foreign-cybercrime-gangs/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-13T09:53:04.000Z",
+    "summary": "Contracts may require a $1 million bond, which will be forfeited if a company fails to comply with operational requirements.\nThe post White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs appeared first on Sec",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "973369b1fd2759de",
+    "title": "Critical VMware vCenter Vulnerability in Attackers’ Crosshairs",
+    "link": "https://www.securityweek.com/critical-vmware-vcenter-vulnerability-in-attackers-crosshairs/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-13T09:06:40.000Z",
+    "summary": "Tracked as CVE-2026–59310, the directory traversal bug allows remote attackers to execute arbitrary code.\nThe post Critical VMware vCenter Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f7a0c6962ff04bc4",
+    "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’",
+    "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-shieldbreak/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-13T08:38:03.000Z",
+    "summary": "Dropped on Patch Tuesday, the exploit allows any user to spawn a shell with System privileges.\nThe post Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "556d5b385151f0c9",
     "title": "Belgium's eID Authentication Opens Citizen Accounts to RCE",
     "link": "https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce",
@@ -2667,71 +2722,5 @@
     "summary": "An attacker could self-register, sign in for board-level API access, and import a new company for code execution.\nThe post Critical Paperclip Flaw Allowed Admin Access, Code Execution appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "38edde478125fe94",
-    "title": "Token Jacking: Cybercriminals Could Be Stealing Your AI Resources",
-    "link": "https://unit42.paloaltonetworks.com/ai-token-jacking/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-08-06T10:00:49.000Z",
-    "summary": "Discover how attackers hijack AI tokens to fuel gray market transfer stations by stealing developer API keys.\nThe post Token Jacking: Cybercriminals Could Be Stealing Your AI Resources appeared first on Unit 42.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f2068c4fa70ec99b",
-    "title": "Meta AI Hacked External Systems During Cybersecurity Testing",
-    "link": "https://www.securityweek.com/meta-ai-hacked-external-systems-during-cybersecurity-testing/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-06T09:56:26.000Z",
-    "summary": "The incident involved a testing environment set up by Irregular, similar to what Anthropic reported last week.\nThe post Meta AI Hacked External Systems During Cybersecurity Testing appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b1602af0fe6908eb",
-    "title": "Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison",
-    "link": "https://www.securityweek.com/belarusian-ransom-cartel-mastermind-gets-16-years-in-prison/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-06T09:30:30.000Z",
-    "summary": "Maksim Silnikau was the creator and administrator of the ransomware group and involved in Angler EK’s distribution.\nThe post Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "256394431bc005d8",
-    "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
-    "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-06T09:19:23.000Z",
-    "summary": "Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to disk. They fed Java source code to the datab",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1187001a84e89aca",
-    "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
-    "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-06T08:57:30.000Z",
-    "summary": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them.\n\nIn several of the attack paths, the ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "de6605d2c4d4350c",
-    "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
-    "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-06T08:05:22.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink.\n\nAccording to a new report from VulnCheck, the implant appears in all 21 firmware images currently",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
