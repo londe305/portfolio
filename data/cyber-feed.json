@@ -1,5 +1,49 @@
 [
   {
+    "id": "280b7fad4781cd76",
+    "title": "ISC Stormcast For Thursday, August 13th, 2026 https://isc.sans.edu/podcastdetail/10050, (Thu, Aug 13th)",
+    "link": "https://isc.sans.edu/diary/rss/33244",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-13T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6177326ff35f62a6",
+    "title": "Using Gemma4 with Ollama - Testing File Hash Analysis and Recommendations with AI, (Wed, Aug 12th)",
+    "link": "https://isc.sans.edu/diary/rss/33242",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-13T01:26:53.000Z",
+    "summary": "In the past few weeks, I have been using Gemma4 as a Large Language Model (LLM) to see how useful it can be to analyze some of the malware hashes uploaded to the DShield sensor over the past 30 days and figure out how its recommendation can",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "64474771ebc7e1d7",
+    "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
+    "link": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-12T23:07:23.000Z",
+    "summary": "An ongoing data theft campaign uses custom tools to steal data exposed to anonymous users through Salesforce Experience Cloud and ServiceNow customer portals. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1a69a42429a1a462",
+    "title": "Android malware combo takes out loans and relays victims' credit cards",
+    "link": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-12T22:22:57.000Z",
+    "summary": "A new Android NFC relay malware called WindRelay is being used alongside the SpyNote remote administration tool (RAT) to steal live card data and send it to attackers in real time. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "b3b0bd88426cafea",
     "title": "Long-running Data Theft Campaign Targeting Salesforce, ServiceNow",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/long-running-data-theft-campaign-salesforce-servicenow",
@@ -2744,127 +2788,6 @@
     "category": "news",
     "pubDate": "2026-08-06T04:00:00.000Z",
     "summary": "Georgia's State Security Service is investigating whether foreign entities were behind the spread of fabricated stories claiming that Georgians were mistreating Russian tourists.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "57d4c4ecd0e7989d",
-    "title": "ISC Stormcast For Thursday, August 6th, 2026 https://isc.sans.edu/podcastdetail/10040, (Thu, Aug 6th)",
-    "link": "https://isc.sans.edu/diary/rss/33222",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-06T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "589ff703537fb74f",
-    "title": "22 Seconds to Compromise: How Automated SSH Actors Move From Login to Persistence Before You Can Blink &#x5b;Guest Diary&#x5d;, (Thu, Aug 6th)",
-    "link": "https://isc.sans.edu/diary/rss/33220",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-06T00:15:40.000Z",
-    "summary": "[This is a Guest Diary by Daryl Jiminez, an ISC intern as part of the SANS.edu BACS program]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d2c288e05914dad4",
-    "title": "Multiples vulnérabilités dans les produits Nextcloud (06 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0973/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-06T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Nextcloud. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8082fbba8166c432",
-    "title": "Multiples vulnérabilités dans les produits Wallix (06 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0974/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-06T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Wallix. Elles permettent à un attaquant de provoquer une élévation de privilèges et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "251391c1ed2126eb",
-    "title": "Multiples vulnérabilités dans les produits Cisco (06 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0975/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-06T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confiden",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "96d44d09476a0de7",
-    "title": "Multiples vulnérabilités dans KeyCloak (06 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0976/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-06T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans KeyCloak. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7657868e91ea758b",
-    "title": "Vulnérabilité dans Sonicwall SonicOS (06 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0972/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-06T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Sonicwall SonicOS. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d619a4ed122c5df9",
-    "title": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
-    "link": "https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-05T23:35:28.000Z",
-    "summary": "Organized crime is convincingly scamming at scale, making billions thanks to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona management, and automated translation.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5e78289da6d42039",
-    "title": "AI Browsers Vulnerable to 'PleaseFix' Zero-Click Agent Hijacking",
-    "link": "https://www.darkreading.com/cyber-risk/ai-browsers-zero-click-agent-hijacking",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-05T23:30:00.000Z",
-    "summary": "Attackers can take control of agents through malicious instructions hidden in content supplied to AI browsers, and there's no simple fix for the threat.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "490c8f3e3a7f02dd",
-    "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-05T23:00:50.000Z",
-    "summary": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldwide. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e3050c9d66b00e4d",
-    "title": "No Perfect Fix for AI Browser Prompt Injection Flaws",
-    "link": "https://www.darkreading.com/application-security/no-perfect-fix-ai-browser-prompt-injection-flaws",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-05T22:18:25.000Z",
-    "summary": "AI browsers from top vendors remain vulnerable to prompt injection attacks despite multiple security guardrails, according to new research.",
     "cveIds": [],
     "severity": "normal"
   }
