@@ -2768,27 +2768,5 @@
     "summary": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts.\n\nThe intrusions reached at lea",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "7d38ad0a1bc75510",
-    "title": "State Department says Trump raised cyber scam compound issue with Xi",
-    "link": "https://therecord.media/trump-xi-southeast-asia-cyber-scam-compounds",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-06T04:00:00.000Z",
-    "summary": "President Donald Trump has talked with Chinese President Xi Jinping about Southeast Asian scam compounds, a State Department official told senators at a hearing on the transnational issue.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2dcecb18235342f0",
-    "title": "Republic of Georgia alleges foreign disinfo campaign sought to scare off Russian tourists",
-    "link": "https://therecord.media/georgia-alleges-foreign-disinformation-scare-russian-tourists",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-06T04:00:00.000Z",
-    "summary": "Georgia's State Security Service is investigating whether foreign entities were behind the spread of fabricated stories claiming that Georgians were mistreating Russian tourists.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
