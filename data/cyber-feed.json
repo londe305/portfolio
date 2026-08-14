@@ -1,5 +1,49 @@
 [
   {
+    "id": "ba7cd94f9c657fbc",
+    "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-14T14:59:55.000Z",
+    "summary": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability after public exploit code emerged. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "638024f252b9d3ef",
+    "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
+    "link": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-14T14:00:10.000Z",
+    "summary": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need defenses that cover the entire Workspace at",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "562e4956d00f3eda",
+    "title": "What Boards Need to Know About Tech Risk",
+    "link": "https://www.darkreading.com/cyber-risk/what-boards-must-know-tech-risk",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-14T14:00:00.000Z",
+    "summary": "Why do so many boards underestimate technology risk until it becomes a crisis?",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4e306dc1fca9219b",
+    "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-14T13:45:18.000Z",
+    "summary": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ec3ad20a2a26f488",
     "title": "France investigates tax authority breach after hacker claims 600,000 victims",
     "link": "https://therecord.media/french-tax-authority-dgfip-confirms-data-breach",
@@ -677,6 +721,28 @@
     "severity": "normal"
   },
   {
+    "id": "1122b497cb31f3a7",
+    "title": "Multiples vulnérabilités dans Progress MOVEit WAF (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1011/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Progress MOVEit WAF. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la poli",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "71e95d5700839964",
+    "title": "Multiples vulnérabilités dans Wireshark (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1012/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer un déni de service.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "64474771ebc7e1d7",
     "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
     "link": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
@@ -1180,6 +1246,140 @@
     "summary": "Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [...]",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "dc91c0485ba333f0",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0999/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fd7556feec64aa29",
+    "title": "Multiples vulnérabilités dans Microsoft Office (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1000/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Office. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidential",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "03cd7d9677f608a8",
+    "title": "Multiples vulnérabilités dans Microsoft Windows (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1001/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "235cf28159ae4753",
+    "title": "Multiples vulnérabilités dans Microsoft .Net (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1002/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft .Net. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5da7ecd837ba9c24",
+    "title": "Multiples vulnérabilités dans Microsoft Azure (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1003/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c3081e2320d743ef",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1004/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dis",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bffe7cc0b9873f74",
+    "title": "Multiples vulnérabilités dans les produits Intel (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1005/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Intel. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5271ed447edf0689",
+    "title": "Multiples vulnérabilités dans les produits SonicWall (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1006/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SonicWall. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confid",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f567d5a52f394e4f",
+    "title": "Multiples vulnérabilités dans les produits Ivanti (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1007/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Ivanti. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégr",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "21827b9d83d650d4",
+    "title": "Multiples vulnérabilités dans Google Chrome (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1008/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "34c3d6c850d632b3",
+    "title": "Multiples vulnérabilités dans les produits Siemens (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1009/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique de sécuri",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "81eb7d26ea1e7e2a",
+    "title": "Vulnérabilité dans les produits Cisco (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1010/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un déni de service à distance. Cisco indique que la vulnérabilité CVE-2026-20349 est activement exploitée.",
+    "cveIds": [
+      "CVE-2026-20349"
+    ],
+    "severity": "cve"
   },
   {
     "id": "eb002a693cb4334c",
@@ -1802,6 +2002,28 @@
     "severity": "normal"
   },
   {
+    "id": "cc1b2b8613763a31",
+    "title": "Multiples vulnérabilités dans OpenSSH (11 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0997/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-11T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSH. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d23a51c92e740edd",
+    "title": "Multiples vulnérabilités dans les produits SAP (11 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0998/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-11T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidential",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "fc12f1511e6da31a",
     "title": "Multiples vulnérabilités dans Postfix (11 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0993/",
@@ -1842,28 +2064,6 @@
     "category": "advisory",
     "pubDate": "2026-08-11T00:00:00.000Z",
     "summary": "Une vulnérabilité a été découverte dans Docker. Elle permet à un attaquant de provoquer une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cc1b2b8613763a31",
-    "title": "Multiples vulnérabilités dans OpenSSH (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0997/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSH. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d23a51c92e740edd",
-    "title": "Multiples vulnérabilités dans les produits SAP (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0998/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidential",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2656,72 +2856,6 @@
     "category": "news",
     "pubDate": "2026-08-07T16:47:43.000Z",
     "summary": "A study of more than 6,000 patches found that even working patches can introduce new bugs, break something else, or are open to bypass.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7b956f5cbc6782b0",
-    "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-07T15:48:20.000Z",
-    "summary": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on their machines. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "92756350fc4e49a3",
-    "title": "Irregular, firm behind AI hacking incidents, won't say if there were more",
-    "link": "https://therecord.media/irregular-ai-security-company-incidents",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-07T15:00:00.000Z",
-    "summary": "A spokesperson said Irregular’s investigation into what happened with Anthropic, OpenAI and Meta's AI models was ongoing and that they could not “go into further details.”",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2615fb26ee916ad2",
-    "title": "In Other News: AI Slop Limits Apple Bounties, North Carolina Port Attacks, Hackers Target Wall Street",
-    "link": "https://www.securityweek.com/in-other-news-ai-slop-limits-apple-bounties-north-carolina-port-attacks-hackers-target-wall-street/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-07T14:26:42.000Z",
-    "summary": "Noteworthy stories that might have slipped under the radar: ban on Chinese data center tech, QuickFox VPN supply chain attack, IEH Corporation mailbox breached via phishing.\nThe post In Other News: AI Slop Limits Apple Bounties, North Carol",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1faea6d610f82601",
-    "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
-    "link": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-07T14:00:10.000Z",
-    "summary": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacking to redirect cryptocurrency payments. [..",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a542785d4b35fe85",
-    "title": "Levi Strauss says hackers breached employee computers, accessed corporate data",
-    "link": "https://therecord.media/levis-data-breach-social-engineering",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-07T13:35:00.000Z",
-    "summary": "Intruders exfiltrated certain corporate information after gaining access to three company-issued computers through a social engineering attack, Levi Strauss reported.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "13e5a320829d93e5",
-    "title": "North Carolina Ports confirms cyberattack disrupting operations",
-    "link": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-07T13:34:40.000Z",
-    "summary": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]",
     "cveIds": [],
     "severity": "normal"
   }
