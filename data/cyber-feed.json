@@ -1,5 +1,27 @@
 [
   {
+    "id": "01e49f958f4f9723",
+    "title": "ISC Stormcast For Friday, August 14th, 2026 https://isc.sans.edu/podcastdetail/10052, (Fri, Aug 14th)",
+    "link": "https://isc.sans.edu/diary/rss/33246",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-14T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9fcca2d8a800d6a6",
+    "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
+    "link": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-14T01:19:12.000Z",
+    "summary": "You're not alone if you just received an \"Apple Threat Notification\" saying it detected a \"mercenary spyware attack targeted at your iPhone.\" [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "3fea42c1368b684f",
     "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
     "link": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
@@ -2757,160 +2779,6 @@
     "category": "news",
     "pubDate": "2026-08-07T06:50:05.000Z",
     "summary": "A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sig",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4e441e1be1074a1d",
-    "title": "ISC Stormcast For Friday, August 7th, 2026 https://isc.sans.edu/podcastdetail/10042, (Fri, Aug 7th)",
-    "link": "https://isc.sans.edu/diary/rss/33224",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-07T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d090bd327a1ca91c",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0982/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0e9cfff9df625041",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0983/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4166b5a9f4b88939",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0984/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "94406f437a0cfe80",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0985/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un problème de sécuri",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "553a21cdf862ca44",
-    "title": "Multiples vulnérabilités dans les produits IBM (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0986/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "280002936503b589",
-    "title": "Multiples vulnérabilités dans WordPress (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0979/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bcb4f9eda770d7fa",
-    "title": "Multiples vulnérabilités dans Progress Telerik (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0977/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Progress Telerik. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidenti",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f5bf97c2ff3dc851",
-    "title": "Multiples vulnérabilités dans Google Chrome (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0978/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a1c821d74dfd9152",
-    "title": "Vulnérabilité dans Apple macOS (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0980/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-07T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Apple macOS. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a592c9fb4199c6eb",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0981/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à l'intégrité des données et un déni de service.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e0d783f4ac3971c5",
-    "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-06T22:48:22.000Z",
-    "summary": "OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e30e6e02092bcba6",
-    "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-06T22:37:17.000Z",
-    "summary": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4b063fd38f8e19ec",
-    "title": "ChainDrop: Inside a Self-Propagating npm Worm",
-    "link": "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-08-06T22:26:39.000Z",
-    "summary": "Analysis of ChainDrop, an npm supply chain worm extracting GitHub Actions runner secrets and using Ethereum smart contracts for C2 routing.\nThe post ChainDrop: Inside a Self-Propagating npm Worm appeared first on Unit 42.",
     "cveIds": [],
     "severity": "normal"
   }
