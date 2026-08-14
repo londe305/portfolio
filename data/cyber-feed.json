@@ -1,5 +1,38 @@
 [
   {
+    "id": "3b00799477ef9cf2",
+    "title": "Over 1,000 Charities Hit by Beacon CRM Data Breach",
+    "link": "https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-14T09:20:28.000Z",
+    "summary": "The root cause of the incident is believed to be a compromised AWS access key that was exposed in publicly available JavaScript build artifacts.\nThe post Over 1,000 Charities Hit by Beacon CRM Data Breach appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5b34f38de8db2e08",
+    "title": "Data analyst sent to prison for stealing data, extorting employer",
+    "link": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-14T08:27:18.000Z",
+    "summary": "A former data analyst contractor for Brightly Software has been sentenced to two years in prison for targeting his employer in a $2.5 million extortion scheme. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "650ba6df7571dd64",
+    "title": "14,000 Trezor Customers Impacted by Data Breach at ShipMonk",
+    "link": "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-14T08:16:00.000Z",
+    "summary": "Hackers stole the customers’ shipping information, including names, addresses, email addresses, and phone numbers.\nThe post 14,000 Trezor Customers Impacted by Data Breach at ShipMonk appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "a8548046cd090fd9",
     "title": "Hackers Exploiting Unpatched GeoServer Zero-Day",
     "link": "https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/",
@@ -2691,72 +2724,6 @@
     "category": "news",
     "pubDate": "2026-08-07T10:38:27.000Z",
     "summary": "Cybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to identify key personnel ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "57be033d94d6b88c",
-    "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
-    "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-07T10:09:54.000Z",
-    "summary": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors.\n\nPortSwigger said ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1d3756e39e5e8d99",
-    "title": "Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix",
-    "link": "https://www.securityweek.com/truck-brake-controllers-safety-recall-doubled-as-hidden-security-fix/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-07T10:00:00.000Z",
-    "summary": "NMFTA research shows a Bendix EC80 brake controller safety recall also patched remote code execution and DoS vulnerabilities.\nThe post Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9f10ba701b7e2987",
-    "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 4)",
-    "link": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-4/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-07T09:24:22.000Z",
-    "summary": "Companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas.\nThe post Black Hat USA 2026 – Summary of Vendor Announcements (Part 4) appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6005ee1079051381",
-    "title": "Microsoft, Apple Release Fresh Security Updates",
-    "link": "https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-07T09:09:54.000Z",
-    "summary": "Microsoft fixed critical vulnerabilities across Azure, Entra, and SharePoint, while Apple patched a high-severity authentication bypass.\nThe post Microsoft, Apple Release Fresh Security Updates appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d2ca685e7bfeaff2",
-    "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
-    "link": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-07T08:52:11.000Z",
-    "summary": "Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID.\n\nThe attacker can then establi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fd83bd5c8340ca86",
-    "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
-    "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-07T08:18:35.000Z",
-    "summary": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run.\n\nNovee Se",
     "cveIds": [],
     "severity": "normal"
   }
