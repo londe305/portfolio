@@ -1,5 +1,104 @@
 [
   {
+    "id": "ec3ad20a2a26f488",
+    "title": "France investigates tax authority breach after hacker claims 600,000 victims",
+    "link": "https://therecord.media/french-tax-authority-dgfip-confirms-data-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-14T13:14:15.000Z",
+    "summary": "French authorities confirmed that someone gained unauthorized access to systems at the Directorate General of Public Finances in late June after stealing or misusing someone’s identity.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9d1825a48e1d4b0b",
+    "title": "Cyera's Oasis Security Buy is All About AI Agent Control",
+    "link": "https://www.darkreading.com/identity-access-management-security/cyera-oasis-security-acquisition-ai-agent-control",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-14T12:17:21.000Z",
+    "summary": "The $1 billion deal aims to converge data security and identity into a single control plane for agents, with privileged access redefined around business context rather than static roles.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ddab218624ff5847",
+    "title": "In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities",
+    "link": "https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-14T11:57:51.000Z",
+    "summary": "Noteworthy stories that might have slipped under the radar: government AI platform deal sparks outrage, North Korean IT worker breaches federal agency, DEF CON attendee blamed for Delta flight disruption.\nThe post In Other News: Rapid7 Layo",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ff7114bf5180c2d0",
+    "title": "Shell investigates 'potential incident' after Clop data theft claims",
+    "link": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-14T11:55:45.000Z",
+    "summary": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9bf71929bc6484de",
+    "title": "Trivy, Not LiteLLM Behind the 2,500 Org Compromise",
+    "link": "https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-14T11:35:23.000Z",
+    "summary": "Over 95% of the affected companies were exposed before the malicious LiteLLM packages were published.\nThe post Trivy, Not LiteLLM Behind the 2,500 Org Compromise appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d878e0c4e97714ff",
+    "title": "Who’s Tracking You? Use This New Service to Find Out",
+    "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-08-14T11:24:35.000Z",
+    "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditional",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fcf6a7f2548ff7aa",
+    "title": "Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal",
+    "link": "https://www.securityweek.com/google-cloud-sets-out-post-quantum-roadmap-with-2029-readiness-goal/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-14T11:00:00.000Z",
+    "summary": "Google Cloud outlines its roadmap to full post-quantum cryptography readiness, with key milestones targeted for 2027 and 2028.\nThe post Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c10edf4192c53c23",
+    "title": "RingCentral data breach exposed info of 1.6 million accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-14T10:52:05.000Z",
+    "summary": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0afb22f1f75409d9",
+    "title": "1.6 Million Likely Impacted by RingCentral Data Breach",
+    "link": "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-14T10:24:03.000Z",
+    "summary": "The hackers published the allegedly stolen information, including names, addresses, email addresses, and phone numbers.\nThe post 1.6 Million Likely Impacted by RingCentral Data Breach appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "3b00799477ef9cf2",
     "title": "Over 1,000 Charities Hit by Beacon CRM Data Breach",
     "link": "https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach/",
@@ -2623,107 +2722,6 @@
     "category": "news",
     "pubDate": "2026-08-07T13:34:40.000Z",
     "summary": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d4fa171fab39b8bd",
-    "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
-    "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-07T12:56:23.000Z",
-    "summary": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on t",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8f7f32d30ea9b09c",
-    "title": "CPDLC over ATN-B1 Vulnerabilities",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-219-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-07T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nATN-B1 CPDLC relies on legacy clear text unauthenticated radio frequency links. Research demonstrates that these characteristics allow unauthorized message injection, denial-of-service conditions, and forced session resets",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c4f45e1735fe49d0",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/08/07/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-07T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-8037 Progress LoadMaster Command Injection Vulnerability\nThis type of vulnerability is a frequen",
-    "cveIds": [
-      "CVE-2026-8037"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "1527fc9a7c67cc8f",
-    "title": "French rugby club Stade Français restores systems after cyberattack, probes data leak",
-    "link": "https://therecord.media/french-rugby-club-restores-systems-after-cyberattack",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-07T12:00:00.000Z",
-    "summary": "The club said Thursday that it had already restored its IT environment from clean backups, allowing operations to continue normally. It added that its ticketing platform and online store were not affected and remain fully operational.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "896e1ff858297335",
-    "title": "Growing Up The Hard Way",
-    "link": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-07T11:55:26.000Z",
-    "summary": "Open Source had a great childhood.\n\nFor two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from an",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6b27df557fcf4af8",
-    "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
-    "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-07T11:10:33.000Z",
-    "summary": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath.\n\nThe flaw has existed since 2008. The fix already ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1a71d2febebf5e74",
-    "title": "Vishing Extortion Group UNC6671 Rebrands After Making Millions",
-    "link": "https://www.securityweek.com/vishing-extortion-group-unc6671-rebrands-after-making-millions/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-07T11:06:01.000Z",
-    "summary": "Initially calling itself BlackFile, the group has expanded operations to the Redact, Pink, Helix, and Falcon brands.\nThe post Vishing Extortion Group UNC6671 Rebrands After Making Millions appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "760ff1dcacea960f",
-    "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
-    "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-07T10:58:38.000Z",
-    "summary": "Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT t",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3193878ce9c75f53",
-    "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
-    "link": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-07T10:38:27.000Z",
-    "summary": "Cybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to identify key personnel ",
     "cveIds": [],
     "severity": "normal"
   }
