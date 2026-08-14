@@ -1,5 +1,38 @@
 [
   {
+    "id": "2be96fadaf5a369a",
+    "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-14T18:04:26.000Z",
+    "summary": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Commerzbank customers' bank accounts. [...",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b40a403bc88ea1eb",
+    "title": "Amid AI-Driven Bug Tsunami, NIST Looks to…AI",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-14T17:32:46.000Z",
+    "summary": "Driven by AI-augmented research and scanning, vulnerability volumes continue to surge, driving the National Institute of Standards and Technology to ask whether AI could be the answer.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ed9b12b8544657ff",
+    "title": "Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-14T15:58:50.000Z",
+    "summary": "One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "ba7cd94f9c657fbc",
     "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
@@ -56,7 +89,7 @@
   },
   {
     "id": "9d1825a48e1d4b0b",
-    "title": "Cyera's Oasis Security Buy is All About AI Agent Control",
+    "title": "Cyera's Oasis Security Buy Is All About AI Agent Control",
     "link": "https://www.darkreading.com/identity-access-management-security/cyera-oasis-security-acquisition-ai-agent-control",
     "source": "Dark Reading",
     "category": "news",
@@ -2770,93 +2803,5 @@
     "summary": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "5c33b3ba9e669ee1",
-    "title": "Water utilities group partners with DEF CON offshoot for Water Watch Center",
-    "link": "https://therecord.media/water-watch-center-utilities-def-con-franklin-nrwa",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-07T18:55:00.000Z",
-    "summary": "The National Rural Water Association and a group of cybersecurity experts have formed a program to help cash-strapped utilities face the increase in threats to their systems.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "da919a79098b7d03",
-    "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
-    "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-07T18:48:17.000Z",
-    "summary": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.\n\n\"These packages appear to use AI slop squatte",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0e3a028652add14d",
-    "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
-    "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-07T18:29:08.000Z",
-    "summary": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.\n\nThe macOS-focused infection chain is de",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "547060d28e7488d5",
-    "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
-    "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-07T18:16:13.000Z",
-    "summary": "A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671.\n\n\"UNC6671 continues to rely on voice phishing (vishing) to target enterpr",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "93320912573d2fe3",
-    "title": "US cyber ambassador nominee Cassady confirmed in Senate",
-    "link": "https://therecord.media/adam-cassady-confirmed-senate-cyber-ambassador",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-07T18:14:00.000Z",
-    "summary": "NTIA official Adam Cassady becomes the second person confirmed to be the State Department's ambassador-at-large for cyber policy.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "15cbdd13d94cda20",
-    "title": "New Mexico judge orders Meta to pay $567 million in kids online safety case",
-    "link": "https://therecord.media/new-mexico-judge-orders-meta-567-million-kids-safety",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-07T16:58:00.000Z",
-    "summary": "The money will be used to create a fund to mitigate social media harms, including by carving out $420 million for treatment for New Mexico youth who have been hurt on the platforms.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "92076282f4a5b15b",
-    "title": "Military device manufacturer discloses cyber incident to SEC",
-    "link": "https://therecord.media/military-device-manufacturer-discloses-cyber-incident",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-07T16:52:00.000Z",
-    "summary": "IEH Corporation — which produces specialized products used in military satellites, missiles and fighter jets — said it discovered a cyberattack on Tuesday and immediately tried to contain it.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a89bc40ccabfd1f2",
-    "title": "AI-Generated Patches Fail Half the Time",
-    "link": "https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-07T16:47:43.000Z",
-    "summary": "A study of more than 6,000 patches found that even working patches can introduce new bugs, break something else, or are open to bypass.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
