@@ -1,5 +1,27 @@
 [
   {
+    "id": "a74fc2ba02335263",
+    "title": "Investigation of banking hack leads to arrests in Germany, Brazil",
+    "link": "https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-14T20:31:00.000Z",
+    "summary": "Germany’s federal police agency, the BKA, said three suspects were picked up in Europe and charged with fraud, and Brazil’s federal police said four others were arrested on similar charges.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d0e00699976df0b1",
+    "title": "Mission-Driven Security: Inside a Global Bank's Defense",
+    "link": "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-14T19:24:18.000Z",
+    "summary": "In this video interview, Standard Chartered's group CISO shares insights on transitioning from technical roles to strategic leadership, the importance of business-savvy security executives, and how AI is reshaping both defensive capabilitie",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "2be96fadaf5a369a",
     "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
@@ -12,7 +34,7 @@
   },
   {
     "id": "b40a403bc88ea1eb",
-    "title": "Amid AI-Driven Bug Tsunami, NIST Looks to…AI",
+    "title": "Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI",
     "link": "https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai",
     "source": "Dark Reading",
     "category": "news",
@@ -2781,27 +2803,5 @@
     "summary": "Identity-based attacks drive 90% of incidents. Learn how modern attackers exploit identities and what SOC leaders can do to respond.\nThe post Inside the Modern SOC: The Identity Front Door appeared first on Unit 42.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "85f2ec6e2d332584",
-    "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-07T20:14:46.000Z",
-    "summary": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "557f61f032367f8d",
-    "title": "Unlimited Technology Systems breach impacts 3.8 million people",
-    "link": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-07T19:30:41.000Z",
-    "summary": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
