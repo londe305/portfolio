@@ -12,7 +12,7 @@
   },
   {
     "id": "a74fc2ba02335263",
-    "title": "Investigation of banking hack leads to arrests in Germany, Brazil",
+    "title": "Investigation of banking hack leads to arrests in Europe, Brazil",
     "link": "https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil",
     "source": "The Record",
     "category": "news",
@@ -2735,17 +2735,6 @@
     "category": "news",
     "pubDate": "2026-08-08T14:16:23.000Z",
     "summary": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "30fdcde0d2c68acc",
-    "title": "Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data",
-    "link": "https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-08T11:30:00.000Z",
-    "summary": "The RovoBlast attack method identified by Varonis researchers could have been exploited to steal Confluence, Jira and SharePoint data.\nThe post Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data appeared first o",
     "cveIds": [],
     "severity": "critical"
   }
