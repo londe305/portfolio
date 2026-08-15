@@ -1,5 +1,16 @@
 [
   {
+    "id": "d0cd08b3ec2e6f76",
+    "title": "How Anthropic plans to watermark Claude's AI-generated text",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-14T23:24:17.000Z",
+    "summary": "It could soon become easier to identify AI-generated content, even if it's not the usual \"It's Not X, it's Y\" type of post you'd come across on LinkedIn and other socials. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a74fc2ba02335263",
     "title": "Investigation of banking hack leads to arrests in Germany, Brazil",
     "link": "https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil",
@@ -2792,16 +2803,5 @@
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploita",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "a2c3a7b7dbd91a46",
-    "title": "Inside the Modern SOC: The Identity Front Door",
-    "link": "https://unit42.paloaltonetworks.com/soc-identity-front-door/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-08-07T23:00:01.000Z",
-    "summary": "Identity-based attacks drive 90% of incidents. Learn how modern attackers exploit identities and what SOC leaders can do to respond.\nThe post Inside the Modern SOC: The Identity Front Door appeared first on Unit 42.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
