@@ -1,5 +1,16 @@
 [
   {
+    "id": "7a29c0d0658d0a0a",
+    "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
+    "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-16T15:07:44.000Z",
+    "summary": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web browser. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f93e1161a92d3c8f",
     "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
     "link": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
