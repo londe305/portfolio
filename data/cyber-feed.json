@@ -1,5 +1,16 @@
 [
   {
+    "id": "badb24194b2c869c",
+    "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
+    "link": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-16T17:29:52.000Z",
+    "summary": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disruptions to communications. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "7a29c0d0658d0a0a",
     "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
     "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
