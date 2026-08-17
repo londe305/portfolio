@@ -1,5 +1,104 @@
 [
   {
+    "id": "0ef249a9b6484edd",
+    "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
+    "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-17T21:03:04.000Z",
+    "summary": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauthenticated attacker to remotely modify or",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1dc8b158cf0889ae",
+    "title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
+    "link": "https://isc.sans.edu/diary/rss/33254",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-17T20:26:39.000Z",
+    "summary": "Apple today released updates for iOS/iPadOS (26 and 18) and macOS 26. This update fixes 108 vulnerabilities and comes about two weeks after the much smaller macOS update that addressed the single screen-sharing vulnerability. This vulnerabi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "41493ac9d071f4df",
+    "title": "Nearly 750k had financial info, SSNs leaked in South Carolina loan company breach",
+    "link": "https://therecord.media/financial-info-leak-debt-consolidator",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-17T20:05:00.000Z",
+    "summary": "The breach affected anyone who received a loan through the company or inquired about a loan product through a third party.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c695003d3d9399f3",
+    "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
+    "link": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-17T19:35:01.000Z",
+    "summary": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies after gaining access using compromised credentials. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c177a42e47ce97bf",
+    "title": "Adam Shostack Talks Hugging Face &amp; PHANTOM-B",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-17T19:22:56.000Z",
+    "summary": "World-class threat modeler Adam Shostack shared he was \"blown away\" by OpenAI's revelations about the Hugging Face attack, and explains why his new threat model for LLMs is both \"lightweight yet still usable.\"",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3d84a5f112310ef4",
+    "title": "Pokémon Center data breach exposes customer info, cancels some orders",
+    "link": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-17T19:12:39.000Z",
+    "summary": "Pokémon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party logistics provider CEVA Logistics. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a2eff4e1129397e1",
+    "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+    "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-17T18:44:17.000Z",
+    "summary": "Cybersecurity researchers at Wiz have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public snowflakedb/snowflake-connector-net repository that it said could be exploited through a crafted GitHub issue to exe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bb6165d0f263ac04",
+    "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+    "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-17T18:22:09.000Z",
+    "summary": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites.\n\nThe vulnerability, tracked a",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4e3fe1bfc797b864",
+    "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+    "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-17T17:41:06.000Z",
+    "summary": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in Israel.\n\nRussian cybersecurity company Kaspers",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "518d72514828ce50",
     "title": "SafePal latest crypto hardware wallet maker affected by breach, with nearly 40,000 impacted",
     "link": "https://therecord.media/safepal-crypto-hardware-breach",
@@ -2747,50 +2846,6 @@
     "category": "news",
     "pubDate": "2026-08-10T21:34:38.000Z",
     "summary": "Attacks targeting water systems just keep flowing across a dozen states, against ill-secured, Internet-exposed PLCs.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a0037dc633b11f9c",
-    "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
-    "link": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-10T21:12:10.000Z",
-    "summary": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to create rogue admin accounts. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a477ab012688c89f",
-    "title": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-10T21:02:23.000Z",
-    "summary": "The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3e13102a18963222",
-    "title": "FBI, South Korea warn of Gunra ransomware gang targeting critical infrastructure",
-    "link": "https://therecord.media/ransomware-south-korea-fbi-gunra",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-10T19:30:00.000Z",
-    "summary": "The Gunra ransomware gang is breaching critical infrastructure organizations through vulnerabilities in popular brands of firewalls, the FBI and South Korea’s government warned.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0136347805c07f61",
-    "title": "OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users",
-    "link": "https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-10T19:24:40.000Z",
-    "summary": "OpenAI has developed a new model called \"GPT 5.6 Cyber,\" designed for vulnerability research, penetration testing, incident response, and remediation. [...]",
     "cveIds": [],
     "severity": "normal"
   }
