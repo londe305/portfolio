@@ -1,5 +1,53 @@
 [
   {
+    "id": "a2ed8f8279e7c753",
+    "title": "40,000 Impacted by SafePal Data Breach",
+    "link": "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-17T09:37:06.000Z",
+    "summary": "Hackers exploited a vulnerability in the order-tracking function of a plugin to access SafePal customer information.\nThe post 40,000 Impacted by SafePal Data Breach appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b779388583634728",
+    "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-17T09:05:33.000Z",
+    "summary": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare Eclipse\" and now tracked as CVE-2026-69414. [...]",
+    "cveIds": [
+      "CVE-2026-69414"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "9cdd553f6eba2c52",
+    "title": "Recent macOS Screen Sharing Vulnerability Exploited in Attacks",
+    "link": "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-17T08:47:38.000Z",
+    "summary": "Threat actors gained root access to the vulnerable systems and deployed a Monero miner.\nThe post Recent macOS Screen Sharing Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ba44143ddf144aa2",
+    "title": "Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure",
+    "link": "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-17T08:13:07.000Z",
+    "summary": "The vulnerability tracked as CVE-2026-58231 can be exploited to execute arbitrary code and compromise internal components.\nThe post Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-58231"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "ca98cc1bd9370f34",
     "title": "Fortune 500 Companies Hit in Azure Data Theft Campaign",
     "link": "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/",
@@ -2669,50 +2717,6 @@
     "category": "news",
     "pubDate": "2026-08-10T10:01:52.000Z",
     "summary": "CERT.PL said this appears to be the first instance of a private APN being used as an attack vector.\nThe post Novel Private APN Pivot Let Hackers Sabotage Second Polish Energy Facility appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a6a1bdb92fb65027",
-    "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-10T09:49:37.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8d9633b74189ac10",
-    "title": "CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability",
-    "link": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-10T09:31:51.000Z",
-    "summary": "The critical-severity flaw allows unauthenticated, remote attackers to execute arbitrary commands.\nThe post CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e60a313474668eee",
-    "title": "Corporate Data Stolen in Levi Strauss Cyberattack",
-    "link": "https://www.securityweek.com/corporate-data-stolen-in-levi-strauss-cyberattack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-10T08:55:44.000Z",
-    "summary": "Using social engineering, a threat actor accessed the computers of three employees and exfiltrated data from them.\nThe post Corporate Data Stolen in Levi Strauss Cyberattack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "815f439bac1670b5",
-    "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
-    "link": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-10T07:38:23.000Z",
-    "summary": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and credential stealer.\n\nThe names of the extensions ",
     "cveIds": [],
     "severity": "normal"
   }
