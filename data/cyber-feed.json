@@ -1,5 +1,62 @@
 [
   {
+    "id": "5f4906e98d31b6e9",
+    "title": "Microsoft confirms GitHub is down worldwide",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-17T14:47:08.000Z",
+    "summary": "GitHub is down for some users as a widespread outage is causing errors across the website, API, Actions, Pull Requests, and several other services. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1173189d3b78f182",
+    "title": "Apple Screen Sharing Security, (Mon, Aug 17th)",
+    "link": "https://isc.sans.edu/diary/rss/33252",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-17T14:33:58.000Z",
+    "summary": "About 20 years ago, with macOS 10.5 (Leopard), Apple introduced screen sharing. Apple did not invent a new protocol for screen sharing. Instead, it used the established VNC protocol. VNC is a pretty simple, unencrypted protocol using TCP po",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bf8fe6904730bf9b",
+    "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+    "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-17T14:00:10.000Z",
+    "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastructure it has always ",
+    "cveIds": [
+      "CVE-2026-54121"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "548d7014677235eb",
+    "title": "680,000 Impacted by French Tax Authority Data Breach",
+    "link": "https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-17T13:53:55.000Z",
+    "summary": "Hackers used compromised credentials to access enterprise and personal tax-related data.\nThe post 680,000 Impacted by French Tax Authority Data Breach appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d1deb81ec267f653",
+    "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+    "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-17T13:23:51.000Z",
+    "summary": "The expensive attacks are not always the clever ones.\n\nThis week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the origin",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "3cf9057a29524d69",
     "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
     "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
@@ -1235,6 +1292,39 @@
     "severity": "normal"
   },
   {
+    "id": "efeec7da3200a17d",
+    "title": "Multiples vulnérabilités dans GitLab (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1013/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1f9dc60862e924c1",
+    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1014/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de serv",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8d37808d9679939b",
+    "title": "Multiples vulnérabilités dans les produits Fortinet (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1015/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Fortinet. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dist",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "64474771ebc7e1d7",
     "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
     "link": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
@@ -1740,17 +1830,6 @@
     "severity": "normal"
   },
   {
-    "id": "dc91c0485ba333f0",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0999/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-12T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "fd7556feec64aa29",
     "title": "Multiples vulnérabilités dans Microsoft Office (12 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1000/",
@@ -1872,6 +1951,17 @@
       "CVE-2026-20349"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "dc91c0485ba333f0",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0999/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "eb002a693cb4334c",
@@ -2765,149 +2855,6 @@
     "category": "news",
     "pubDate": "2026-08-10T15:45:00.000Z",
     "summary": "Two Democratic senators introduced legislation that would allocate $300 million each year to fund cybersecurity improvements for the water and wastewater sector.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1403177c1497d1e0",
-    "title": "Russian military hackers pose as recruiters to target Ukrainian IT workers",
-    "link": "https://therecord.media/russian-military-hackers-pose-as-recruiters-ukraine-it-workers",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-10T15:21:00.000Z",
-    "summary": "Ukraine’s computer emergency response team, CERT-UA, said Saturday that the campaign has been running since at least May and is linked to Sandworm, the notorious hacking unit associated with Russia’s GRU military intelligence agency.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a80328a901605196",
-    "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-10T15:00:29.000Z",
-    "summary": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default.\n\nThat pretty much covers the mood this week. Old bugs are back, supply chain",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a049010a09c5031a",
-    "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-08-10T15:00:00.000Z",
-    "summary": "Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongs",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "48207154ca724e88",
-    "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-10T14:34:32.000Z",
-    "summary": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1a2824b8388c0b1a",
-    "title": "OpenAI’s Upcoming Astra Model Raises Autonomous Cyberattack Concerns",
-    "link": "https://www.securityweek.com/openais-upcoming-astra-model-raises-autonomous-cyberattack-concerns/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-10T14:33:36.000Z",
-    "summary": "The current GPT-5.6-Sol has been assigned a ‘high’ cybersecurity threshold, but Astra could reach the maximum ‘critical’ threshold. \nThe post OpenAI’s Upcoming Astra Model Raises Autonomous Cyberattack Concerns appeared first on SecurityWee",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9a845c13a5071288",
-    "title": "Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds",
-    "link": "https://www.securityweek.com/stealthium-targets-security-blind-spots-in-ai-accelerators-and-neo-clouds/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-10T14:19:36.000Z",
-    "summary": "The startup analyzes subtle telemetry signals to detect attacks that traditional security tools cannot see inside accelerator-powered AI infrastructure.\nThe post Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds appe",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4667b5ec04d2bffc",
-    "title": "Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC",
-    "link": "https://www.securityweek.com/cisco-warns-of-high-severity-clamav-vulnerabilities-with-public-poc/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-10T14:07:48.000Z",
-    "summary": "Remote, unauthenticated attackers could exploit the bugs to cause a denial-of-service (DoS) condition.\nThe post Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a845e07c6587050e",
-    "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
-    "link": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-10T14:01:11.000Z",
-    "summary": "AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP reputation, and geolocation become easier to bypass. Specops explains why organizations ar",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "077cfa7466c56958",
-    "title": "British ‘Com’ member who abused more than 100 girls worldwide jailed for two years",
-    "link": "https://therecord.media/british-com-member-abuse-jailed-two-years",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-10T13:46:00.000Z",
-    "summary": "Justin Swaddle, of Leeds in northern England, targeted 117 female victims aged 13 to 17, according to the National Crime Agency.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "89638ec2f321064b",
-    "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
-    "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-10T13:19:58.000Z",
-    "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools t",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a66a1bbfddfe7f56",
-    "title": "China-linked hackers turning popular cybersecurity tool into ransomware launchpad, Microsoft warns",
-    "link": "https://therecord.media/china-hackers-ransomware-microsoft",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-10T13:15:00.000Z",
-    "summary": "A China-linked threat actor is believed to be exploiting a critical vulnerability affecting cybersecurity software from the company N-able.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "53a64ea3e1dd1e1e",
-    "title": "‘Ghostjacking’ Attack Uses Poisoned Logs to Turn AI Agents Bad",
-    "link": "https://www.securityweek.com/ghostjacking-attack-uses-poisoned-logs-to-turn-ai-agents-bad/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-10T12:59:34.000Z",
-    "summary": "An AI agent executes instructions that an attacker has planted in the log or alert that records a blocked request word for word.\nThe post ‘Ghostjacking’ Attack Uses Poisoned Logs to Turn AI Agents Bad appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2fd078deb057b14a",
-    "title": "Member of The Com sent to prison for blackmail, sextortion",
-    "link": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-10T12:56:28.000Z",
-    "summary": "A member of \"The Com,\" a loose-knit online cybercrime collective that targets children and teenagers, has been sentenced to two years in prison for blackmail and sextortion offenses against nearly 120 victims worldwide. [...]",
     "cveIds": [],
     "severity": "normal"
   }
