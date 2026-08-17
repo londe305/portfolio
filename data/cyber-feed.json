@@ -1,5 +1,16 @@
 [
   {
+    "id": "f9f55f95b123149d",
+    "title": "ISC Stormcast For Monday, August 17th, 2026 https://isc.sans.edu/podcastdetail/10054, (Mon, Aug 17th)",
+    "link": "https://isc.sans.edu/diary/rss/33250",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-17T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6d2a3faa2b1e8355",
     "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
     "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
@@ -2715,16 +2726,5 @@
     "summary": "The vulnerabilities affected software used by eight of Belgium’s ten largest banks and over 60 government agencies.\nThe post Critical Flaws Discovered in Belgian eID Software Used by 2 Million People appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "ffacb044ae330bd5",
-    "title": "ISC Stormcast For Monday, August 10th, 2026 https://isc.sans.edu/podcastdetail/10044, (Mon, Aug 10th)",
-    "link": "https://isc.sans.edu/diary/rss/33228",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-10T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
