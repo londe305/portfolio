@@ -1,5 +1,16 @@
 [
   {
+    "id": "ca98cc1bd9370f34",
+    "title": "Fortune 500 Companies Hit in Azure Data Theft Campaign",
+    "link": "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-17T06:51:08.000Z",
+    "summary": "A threat actor is claiming the exfiltration of millions of records from McDonald’s, TCS, Vodafone, and other large organizations.\nThe post Fortune 500 Companies Hit in Azure Data Theft Campaign appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f9f55f95b123149d",
     "title": "ISC Stormcast For Monday, August 17th, 2026 https://isc.sans.edu/podcastdetail/10054, (Mon, Aug 17th)",
     "link": "https://isc.sans.edu/diary/rss/33250",
@@ -2704,27 +2715,5 @@
     "summary": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and credential stealer.\n\nThe names of the extensions ",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "9efa5f9a2a79c4f6",
-    "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
-    "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-10T05:50:03.000Z",
-    "summary": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity.\n\n",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1680dc42f2a712f1",
-    "title": "Critical Flaws Discovered in Belgian eID Software Used by 2 Million People",
-    "link": "https://www.securityweek.com/critical-flaws-discovered-in-belgian-eid-software-used-by-2-million-people/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-10T04:44:32.000Z",
-    "summary": "The vulnerabilities affected software used by eight of Belgium’s ten largest banks and over 60 government agencies.\nThe post Critical Flaws Discovered in Belgian eID Software Used by 2 Million People appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
