@@ -1,5 +1,60 @@
 [
   {
+    "id": "86fc693b08520a75",
+    "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-18T09:24:49.000Z",
+    "summary": "Microsoft says some users are experiencing issues searching in Microsoft 365 apps, including Outlook on the web, Outlook desktop, SharePoint Online, and OneDrive. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "78929486b80dcbe2",
+    "title": "Heights Finance Data Breach Impacts at Least 1.2 Million Individuals",
+    "link": "https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-18T09:18:34.000Z",
+    "summary": "Hackers stole names, addresses, phone numbers, Social Security numbers, and financial information from a third-party platform.\nThe post Heights Finance Data Breach Impacts at Least 1.2 Million Individuals appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d1ee06455126e6d9",
+    "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
+    "link": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-18T09:10:45.000Z",
+    "summary": "SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone numbers, and purchase details of approximately 39,798 customers.\n\nThe hardware wallet maker said all",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a32841c99fcc3cfe",
+    "title": "GitLab Patches Critical Code Injection Vulnerability",
+    "link": "https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-18T08:51:07.000Z",
+    "summary": "The security defect allows unauthenticated attackers to modify or delete user data and public projects.\nThe post GitLab Patches Critical Code Injection Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "afefe377419bfd4b",
+    "title": "Microsoft starts removing WMIC tool used by cybercriminals",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-18T08:12:08.000Z",
+    "summary": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ec8e1e9e2edecc40",
     "title": "Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates",
     "link": "https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates/",
@@ -9,6 +64,17 @@
     "summary": "The bugs could be exploited to crash Safari, corrupt memory, leak sensitive data, escape the sandbox, and exfiltrate data.\nThe post Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates appeared first on SecurityWe",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "c4c16b212f43f7e3",
+    "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
+    "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-18T06:34:20.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nRay is an open-source, Python-nati",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "74138c1d808333a4",
@@ -2727,27 +2793,5 @@
     "summary": "OpenAI has also announced the expansion of its Daybreak platform to give more organizations access to its AI.\nThe post OpenAI Unveils New Cybersecurity Model GPT-5.6-Cyber appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "f13cf8c4cf50bced",
-    "title": "Gunra Ransomware Exploits Fortinet FortiOS, FortiProxy Flaws to Breach Networks",
-    "link": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-11T09:16:24.000Z",
-    "summary": "Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world.\n\nTargets of these attacks include healthcare and public h",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "66ce18499c5654e5",
-    "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
-    "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-11T06:55:45.000Z",
-    "summary": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment.\n\nThe plant supplies ",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
