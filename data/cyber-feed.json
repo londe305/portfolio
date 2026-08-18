@@ -1,5 +1,84 @@
 [
   {
+    "id": "48c236344d6a737c",
+    "title": "Xpander Raises $7.5 Million for AI Management and Governance",
+    "link": "https://www.securityweek.com/xpander-raises-7-5-million-for-ai-management-and-governance/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-18T12:29:08.000Z",
+    "summary": "Xpander’s platform uses a universal agent harness that executes AI agents as portable workloads and securely renders interfaces on demand.\nThe post Xpander Raises $7.5 Million for AI Management and Governance appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fb9428185a441c60",
+    "title": "Fortinet Acquires AI Security Company Virtue AI",
+    "link": "https://www.securityweek.com/fortinet-acquires-ai-security-company-virtue-ai/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-18T12:06:21.000Z",
+    "summary": "Fortinet will use Virtue AI technology to enhance its AI security portfolio, including for AI models, applications, and agentic systems.\nThe post Fortinet Acquires AI Security Company Virtue AI appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2547a3051bcfbbb7",
+    "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+    "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-18T11:40:06.000Z",
+    "summary": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer.\n\nOpenSourceMalware, which discovered the activity on August 15, 2026, is tracking the threat under the mo",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "16a757717c9ad382",
+    "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
+    "link": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-18T11:30:00.000Z",
+    "summary": "A single piece of infrastructure has been pulling records out of Salesforce and ServiceNow customer portals across multiple industries for more than a year, according to research published this week by agent security platform Reco.\n\nThe act",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bb1b3018a663dd3c",
+    "title": "Microsoft tests faster Windows File Explorer, new context menu",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-18T11:14:28.000Z",
+    "summary": "Microsoft has started testing a faster File Explorer and a less cluttered and more customizable context menu in Windows 11 preview builds rolling out to Insiders this week. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ff94a65c1a9409a2",
+    "title": "300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw",
+    "link": "https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-18T10:48:23.000Z",
+    "summary": "Tracked as CVE-2026-15748, the arbitrary file upload bug allows unauthenticated attackers to upload executable files.\nThe post 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-15748"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "6aecf7dfacac9778",
+    "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-18T10:32:16.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "86fc693b08520a75",
     "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
@@ -88,6 +167,17 @@
     "severity": "normal"
   },
   {
+    "id": "65fd9e6a66138ec4",
+    "title": "Ukrainian software developer faces 12 years in Swiss ransomware trial",
+    "link": "https://therecord.media/ukrainian-software-developer-court-switzerland",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-17T23:00:00.000Z",
+    "summary": "The unnamed 52-year-old is accused of attacking Swiss train manufacturer Stadler Rail alongside other enterprises as part of an international ransomware operation.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "08fe7105526807e9",
     "title": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
     "link": "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems",
@@ -155,14 +245,14 @@
   },
   {
     "id": "c177a42e47ce97bf",
-    "title": "Adam Shostack Talks Hugging Face &amp; PHANTOM-B",
+    "title": "Adam Shostack Talks Hugging Face Breach &amp; PHANTOM-B",
     "link": "https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b",
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-08-17T19:22:56.000Z",
-    "summary": "World-class threat modeler Adam Shostack shared he was \"blown away\" by OpenAI's revelations about the Hugging Face attack, and explains why his new threat model for LLMs is both \"lightweight yet still usable.\"",
+    "summary": "The security expert talks with the Dark Reading News Desk about why he \"blown away\" by OpenAI's revelations regarding the Hugging Face attack, and also discussed his new threat model for LLMs.",
     "cveIds": [],
-    "severity": "normal"
+    "severity": "critical"
   },
   {
     "id": "3d84a5f112310ef4",
@@ -969,6 +1059,28 @@
     "severity": "normal"
   },
   {
+    "id": "b0cf96edc71bed4a",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1019/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7ee04ae177559325",
+    "title": "Multiples vulnérabilités dans Elastic Kibana (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1020/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Elastic Kibana. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "3fea42c1368b684f",
     "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
     "link": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
@@ -1591,6 +1703,39 @@
     "severity": "normal"
   },
   {
+    "id": "c422ead4c4f04fdd",
+    "title": "Vulnérabilité dans les produits Foxit (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1016/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Foxit. Elle permet à un attaquant de provoquer une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7174b7084b5808ab",
+    "title": "Multiples vulnérabilités dans les produits Adobe (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1017/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Adobe. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distanc",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0b7bf14c505c2a73",
+    "title": "Vulnérabilité dans WordPress (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1018/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-13T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans WordPress. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "64474771ebc7e1d7",
     "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
     "link": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
@@ -2096,6 +2241,63 @@
     "severity": "normal"
   },
   {
+    "id": "5271ed447edf0689",
+    "title": "Multiples vulnérabilités dans les produits SonicWall (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1006/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SonicWall. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confid",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f567d5a52f394e4f",
+    "title": "Multiples vulnérabilités dans les produits Ivanti (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1007/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Ivanti. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégr",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "21827b9d83d650d4",
+    "title": "Multiples vulnérabilités dans Google Chrome (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1008/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "34c3d6c850d632b3",
+    "title": "Multiples vulnérabilités dans les produits Siemens (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1009/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique de sécuri",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "81eb7d26ea1e7e2a",
+    "title": "Vulnérabilité dans les produits Cisco (12 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1010/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-12T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un déni de service à distance. Cisco indique que la vulnérabilité CVE-2026-20349 est activement exploitée.",
+    "cveIds": [
+      "CVE-2026-20349"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "fd7556feec64aa29",
     "title": "Multiples vulnérabilités dans Microsoft Office (12 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1000/",
@@ -2160,63 +2362,6 @@
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Intel. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "5271ed447edf0689",
-    "title": "Multiples vulnérabilités dans les produits SonicWall (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1006/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-12T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SonicWall. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confid",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f567d5a52f394e4f",
-    "title": "Multiples vulnérabilités dans les produits Ivanti (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1007/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-12T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Ivanti. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégr",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "21827b9d83d650d4",
-    "title": "Multiples vulnérabilités dans Google Chrome (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1008/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-12T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "34c3d6c850d632b3",
-    "title": "Multiples vulnérabilités dans les produits Siemens (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1009/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-12T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique de sécuri",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "81eb7d26ea1e7e2a",
-    "title": "Vulnérabilité dans les produits Cisco (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1010/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-12T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un déni de service à distance. Cisco indique que la vulnérabilité CVE-2026-20349 est activement exploitée.",
-    "cveIds": [
-      "CVE-2026-20349"
-    ],
-    "severity": "cve"
   },
   {
     "id": "dc91c0485ba333f0",
@@ -2591,206 +2736,6 @@
     "category": "news",
     "pubDate": "2026-08-11T13:00:00.000Z",
     "summary": "Municipalities in California, Oklahoma, Wisconsin and Texas are all recovering from disruptive cyberattacks that have affected government operations.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0b389ea25a889438",
-    "title": "Kids’ online safety bill faces dim prospects of passage this session despite progress",
-    "link": "https://therecord.media/kids-online-safety-act-congress",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-11T12:15:00.000Z",
-    "summary": "Proponents of the Kids Online Safety Act are cheering recent progress but acknowledge a long road ahead for legislation that, despite mounting political pressure, may be difficult to pass this session.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "49f74c46b3ff8614",
-    "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-11T12:12:16.000Z",
-    "summary": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been flagged as actively exploited since early July. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "69257022c470a348",
-    "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
-    "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-11T12:05:03.000Z",
-    "summary": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics units, that is enough to take the whole de",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b3306e60b5cebc95",
-    "title": "Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo",
-    "link": "https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-11T12:04:51.000Z",
-    "summary": "Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed by mistake to one of the company's own private code repositories.\n\nThat key is how a user, or a Linu",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e17b212f9760a4e1",
-    "title": "Corma Raises $60 Million for Defensive Cybersecurity AI Model",
-    "link": "https://www.securityweek.com/corma-raises-60-million-for-defensive-cybersecurity-ai-model/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-11T12:01:46.000Z",
-    "summary": "Corma emerged from stealth with seed funding from Sequoia Capital, Khosla Ventures, and Coatue.\nThe post Corma Raises $60 Million for Defensive Cybersecurity AI Model appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3658812414641bb0",
-    "title": "Mira Hormone Monitor, Mira Android App",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-11T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access unauthorized health profile information, make changes to health information, cause a denial-of-service condition, disclose session token in",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e7b61edb1ce2bc44",
-    "title": "Johnson Controls C-CURE 9000 and Victor application server (Update A)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-11T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker with network access to achieve remote code execution.\nThe following versions of Johnson Controls C-CURE 9000 and Victor application server (Update A)",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9ddeac63f2bb9380",
-    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-11T12:00:00.000Z",
-    "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-20349 Cisco Secure Firewall Adaptive Security Appliance (ASA) and Firewall Threat Defense (F",
-    "cveIds": [
-      "CVE-2026-20349"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "f35136fdfa004c43",
-    "title": "Pulsetto Vagus Nerve Stimulator",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-11T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to use hidden commands to disable electrical safety mechanisms or modify other stimulation output settings.\nThe following versions of Pulsetto Vagus Ner",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c5e2acb56602b69c",
-    "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
-    "link": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-11T11:35:03.000Z",
-    "summary": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording.\n\nThe onboarding paperwork is the pa",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e170508d62a59d30",
-    "title": "Extension Banned for Stealing AI Chats Returns to Chrome Store, Resumes Malicious Activities",
-    "link": "https://www.securityweek.com/extension-banned-for-stealing-ai-chats-returns-to-chrome-store-resumes-malicious-activities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-11T11:15:15.000Z",
-    "summary": "The extension amassed over 300,000 installs and a 4.6 rating before Google removed it for stealing data.\nThe post Extension Banned for Stealing AI Chats Returns to Chrome Store, Resumes Malicious Activities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "70ff24acb6a046b3",
-    "title": "Cisco warns of high-severity ClamAV flaws with public exploits",
-    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-11T11:03:01.000Z",
-    "summary": "Cisco warned of two high-severity vulnerabilities affecting the Secure Endpoint Connector that allow threat actors to crash the ClamAV scanning process in denial-of-service (DoS) attacks. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8446412b3947b6a9",
-    "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
-    "link": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-11T10:48:26.000Z",
-    "summary": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machine.\n\nThe same PnP pat",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cc575547c63bb0d8",
-    "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
-    "link": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-11T10:24:00.000Z",
-    "summary": "A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instruction.\n\nThe trick can work even after a blu",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "823c86260c812c72",
-    "title": "Kimwolf v7: An Evolution of the Kimwolf Botnet",
-    "link": "https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-08-11T10:00:16.000Z",
-    "summary": "Discover how Kimwolf v7 targets Android IoT devices with HTTP/2 DDoS fingerprinting, Ethereum ENS C2 resolution and Tor backup routing.\nThe post Kimwolf v7: An Evolution of the Kimwolf Botnet appeared first on Unit 42.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d31522b675fd39b8",
-    "title": "Hacker Conversations: Marcus Hutchins and the Journey From the Gray Zone to Redemption",
-    "link": "https://www.securityweek.com/hacker-conversations-marcus-hutchins/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-11T10:00:00.000Z",
-    "summary": "Marcus Hutchins doesn’t personally consider himself a hacker – but he accepts the epithet because it’s a widely used term for what he once did.\nThe post Hacker Conversations: Marcus Hutchins and the Journey From the Gray Zone to Redemption ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "27fe0be52fa4dccf",
-    "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
-    "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-11T09:47:06.000Z",
-    "summary": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2228d392be7cd223",
-    "title": "OpenAI Unveils New Cybersecurity Model GPT-5.6-Cyber",
-    "link": "https://www.securityweek.com/openai-unveils-new-cybersecurity-model-gpt-5-6-cyber/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-11T09:45:05.000Z",
-    "summary": "OpenAI has also announced the expansion of its Daybreak platform to give more organizations access to its AI.\nThe post OpenAI Unveils New Cybersecurity Model GPT-5.6-Cyber appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   }
