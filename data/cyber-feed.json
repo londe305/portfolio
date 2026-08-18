@@ -1,5 +1,16 @@
 [
   {
+    "id": "74138c1d808333a4",
+    "title": "ISC Stormcast For Tuesday, August 18th, 2026 https://isc.sans.edu/podcastdetail/10056, (Tue, Aug 18th)",
+    "link": "https://isc.sans.edu/diary/rss/33256",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-18T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "08fe7105526807e9",
     "title": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
     "link": "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems",
@@ -2749,16 +2760,5 @@
     "summary": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads.\n\n\"Unlike tradition",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "83490caa49a63b9a",
-    "title": "ISC Stormcast For Tuesday, August 11th, 2026 https://isc.sans.edu/podcastdetail/10046, (Tue, Aug 11th)",
-    "link": "https://isc.sans.edu/diary/rss/33232",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-11T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
