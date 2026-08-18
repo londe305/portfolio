@@ -1,5 +1,16 @@
 [
   {
+    "id": "ec8e1e9e2edecc40",
+    "title": "Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates",
+    "link": "https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-18T06:46:22.000Z",
+    "summary": "The bugs could be exploited to crash Safari, corrupt memory, leak sensitive data, escape the sandbox, and exfiltrate data.\nThe post Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates appeared first on SecurityWe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "74138c1d808333a4",
     "title": "ISC Stormcast For Tuesday, August 18th, 2026 https://isc.sans.edu/podcastdetail/10056, (Tue, Aug 18th)",
     "link": "https://isc.sans.edu/diary/rss/33256",
@@ -2736,28 +2747,6 @@
     "category": "news",
     "pubDate": "2026-08-11T06:55:45.000Z",
     "summary": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment.\n\nThe plant supplies ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "07fa0fcf1a16ebcd",
-    "title": "Mozilla Issues New Firefox GPG Key Following Exposure",
-    "link": "https://www.securityweek.com/mozilla-issues-new-firefox-gpg-key-following-exposure/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-11T06:16:01.000Z",
-    "summary": "The previous GPG signing subkey was inadvertently added to a GitHub repository and Mozilla decided to revoke it.\nThe post Mozilla Issues New Firefox GPG Key Following Exposure appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d8778e688813765a",
-    "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
-    "link": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-11T05:48:44.000Z",
-    "summary": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads.\n\n\"Unlike tradition",
     "cveIds": [],
     "severity": "critical"
   }
