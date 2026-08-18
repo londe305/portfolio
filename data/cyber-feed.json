@@ -1,5 +1,104 @@
 [
   {
+    "id": "672f60be8419dd6b",
+    "title": "Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks",
+    "link": "https://www.securityweek.com/webinar-today-rethinking-cyber-defense-for-ai-speed-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-18T15:03:30.000Z",
+    "summary": "Join the live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default.\nThe post Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks appeared",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6afb6b3a8897f419",
+    "title": "Hackers target Ukrainian agency managing assets seized from sanctioned Russians",
+    "link": "https://therecord.media/hackers-target-ukraine-agency-sanctioned-russians",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-18T14:45:00.000Z",
+    "summary": "The agency said the latest attack came amid preparations to select a manager for seized corporate rights in IDS Ukraine, one of the country’s largest producers of bottled mineral water and beverages.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "49d34ee560fc35ab",
+    "title": "CISO Conversations: Nico Waisman – From Self-Taught Hacker to AI-Driven Offensive Security at XBOW",
+    "link": "https://www.securityweek.com/ciso-conversations-nico-waisman-from-self-taught-hacker-to-ai-driven-offensive-security-at-xbow/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-18T14:30:00.000Z",
+    "summary": "With no formal training and no career plan, Waisman built a path from Argentina's early hacking scene to leading security at an AI-powered offensive security firm.\nThe post CISO Conversations: Nico Waisman – From Self-Taught Hacker to AI-Dr",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "48e9269d532d1a2d",
+    "title": "Your Controls Block Known Attacks. What About the Behavior?",
+    "link": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-18T14:01:11.000Z",
+    "summary": "Security controls can block a familiar attack method while missing quieter ways to achieve the same objective. Picus Security's Blue Report 2026 shows how prevention rates can vary dramatically by technique and why behavioral testing is nee",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7ade35be7696c5d2",
+    "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-18T13:00:00.000Z",
+    "summary": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7c4a746151ce76b0",
+    "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
+    "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-18T13:00:00.000Z",
+    "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0b0bd99b9d254ce6",
+    "title": "AI-Driven Vulnerability Surge Breaks the Traditional Patching Model",
+    "link": "https://www.securityweek.com/ai-driven-vulnerability-surge-breaks-the-traditional-patching-model/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-18T13:00:00.000Z",
+    "summary": "Rapid7 warns that traditional patch cycles cannot keep pace with soaring vulnerability disclosures and faster exploitation, forcing defenders to prioritize exposure over severity scores.\nThe post AI-Driven Vulnerability Surge Breaks the Tra",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dfcb257fb7bbea58",
+    "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
+    "link": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-18T12:38:36.000Z",
+    "summary": "Security researchers at Anthropic and Switzerland's EPFL have demonstrated that self-propagating payloads can spread from one artificial intelligence (AI) agent to the next through the editable system prompt files that autonomous agent harn",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a6e25e6364a9bccc",
+    "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
+    "link": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-18T12:38:20.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT.\n\n\"TWINLOOT is a modular, PyArmor-hardened Python implant designed to operate its entire command-and-control infrastructu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "48c236344d6a737c",
     "title": "Xpander Raises $7.5 Million for AI Management and Governance",
     "link": "https://www.securityweek.com/xpander-raises-7-5-million-for-ai-management-and-governance/",
@@ -22,17 +121,6 @@
     "severity": "normal"
   },
   {
-    "id": "2547a3051bcfbbb7",
-    "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
-    "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-18T11:40:06.000Z",
-    "summary": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer.\n\nOpenSourceMalware, which discovered the activity on August 15, 2026, is tracking the threat under the mo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "16a757717c9ad382",
     "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
     "link": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
@@ -40,6 +128,17 @@
     "category": "news",
     "pubDate": "2026-08-18T11:30:00.000Z",
     "summary": "A single piece of infrastructure has been pulling records out of Salesforce and ServiceNow customer portals across multiple industries for more than a year, according to research published this week by agent security platform Reco.\n\nThe act",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2547a3051bcfbbb7",
+    "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+    "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-18T11:20:00.000Z",
+    "summary": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer.\n\nOpenSourceMalware, which discovered the activity on August 15, 2026, is tracking the threat under the mo",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2648,94 +2747,6 @@
     "category": "news",
     "pubDate": "2026-08-11T15:43:45.000Z",
     "summary": "Operations at eight European warehouses belonging to France's CEVA Logistics have reportedly been disrupted by a cyberattack, and several other companies are feeling the effects.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "90fa5cad6a42ef1f",
-    "title": "The AI Governance Gap Is a Leadership Problem: Waiting Won’t Close It",
-    "link": "https://www.securityweek.com/the-ai-governance-gap-is-a-leadership-problem-waiting-wont-close-it/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-11T15:00:00.000Z",
-    "summary": "Organizations are rushing to implement AI without fully grasping where its legal protections begin and end.\nThe post The AI Governance Gap Is a Leadership Problem: Waiting Won’t Close It appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2e6865f8fa1132b6",
-    "title": "SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities",
-    "link": "https://www.securityweek.com/sap-patches-critical-code-injection-memory-corruption-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-11T14:14:32.000Z",
-    "summary": "SAP released 28 new and two updated security notes, including four notes dealing with critical-severity bugs.\nThe post SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e502cd237869b4bb",
-    "title": "US Water Systems Get Cyber Boost From New Senate Bill and ‘Water Watch Center’",
-    "link": "https://www.securityweek.com/us-water-systems-get-cyber-boost-from-new-senate-bill-and-water-watch-center/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-11T14:03:32.000Z",
-    "summary": "The Water Watch Center launched at DEF CON aims to help under-resourced utilities protect their systems against hackers.\nThe post US Water Systems Get Cyber Boost From New Senate Bill and ‘Water Watch Center’ appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "673089d0ff1baafc",
-    "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
-    "link": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-11T13:20:28.000Z",
-    "summary": "Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e06149ee0ff05ee1",
-    "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
-    "link": "https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-11T13:15:24.000Z",
-    "summary": "AI agents can improvise beyond the intended scope of a task when they are given broad access to enterprise systems and data. Token Security explains why organizations need to define agent intent and continuously enforce permissions around w",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "997e9df47ee3c608",
-    "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
-    "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-11T13:11:23.000Z",
-    "summary": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response.\n\n\"Built on GPT‑5.6 Sol, it is trained to improve capabilities on",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8656901f82c1640c",
-    "title": "DDoS attacks over 1 Tbps surged fivefold in the second quarter",
-    "link": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-11T13:00:00.000Z",
-    "summary": "Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the year. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "eee6199fe8029350",
-    "title": "Local governments in four states dealing with cyberattacks that have shut down services",
-    "link": "https://therecord.media/cyberattacks-ransomware-local-governments",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-11T13:00:00.000Z",
-    "summary": "Municipalities in California, Oklahoma, Wisconsin and Texas are all recovering from disruptive cyberattacks that have affected government operations.",
     "cveIds": [],
     "severity": "normal"
   }
