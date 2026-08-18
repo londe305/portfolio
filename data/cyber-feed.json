@@ -1,5 +1,16 @@
 [
   {
+    "id": "08fe7105526807e9",
+    "title": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
+    "link": "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-17T21:37:23.000Z",
+    "summary": "Researchers found that by combining two vulnerabilities, they could take over an Android device by delivering a payload and getting the victim to answer their phone.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "0ef249a9b6484edd",
     "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
     "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
@@ -18,6 +29,17 @@
     "category": "advisory",
     "pubDate": "2026-08-17T20:26:39.000Z",
     "summary": "Apple today released updates for iOS/iPadOS (26 and 18) and macOS 26. This update fixes 108 vulnerabilities and comes about two weeks after the much smaller macOS update that addressed the single screen-sharing vulnerability. This vulnerabi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3809ccb614f7fab9",
+    "title": "'Turf War' Between Claude Agents Leads to Self-Replicating Malware",
+    "link": "https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-17T20:26:34.000Z",
+    "summary": "Three testing models with the same goal but different directives engaged in \"increasingly aggressive\" territorial attacks on one another, according to Anthropic.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2736,116 +2758,6 @@
     "category": "advisory",
     "pubDate": "2026-08-11T02:00:03.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cc1b2b8613763a31",
-    "title": "Multiples vulnérabilités dans OpenSSH (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0997/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSH. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d23a51c92e740edd",
-    "title": "Multiples vulnérabilités dans les produits SAP (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0998/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidential",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fc12f1511e6da31a",
-    "title": "Multiples vulnérabilités dans Postfix (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0993/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Postfix. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, un contournement de la politique de sécurité et un problème de sécurité non spécifié",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1e62bc0495bf7d1c",
-    "title": "Vulnérabilité dans CPython (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0994/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-11T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1ee1934b54b1aa95",
-    "title": "Multiples vulnérabilités dans SPIP (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0995/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et une falsification de requêtes côté serveur (S",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a09498bcab771a55",
-    "title": "Vulnérabilité dans Docker (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0996/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-11T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Docker. Elle permet à un attaquant de provoquer une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5d69890205dedd20",
-    "title": "Hackers breached a small Polish energy plant via private APN last year",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-10T23:07:21.000Z",
-    "summary": "Hackers breached a heat-and-power plant facility in Poland, which supplies heat to about 50,000 residents, using a private APN (Access Point Name) to access an OT (Operational Technology) network. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b3b76b3e62180303",
-    "title": "The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications",
-    "link": "https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-08-10T22:00:02.000Z",
-    "summary": "Analysis of the Aeternum botnet loader, a threat leveraging Polygon blockchain smart contracts for decentralized C2 infrastructure and payload execution.\nThe post The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6d69ff602279134e",
-    "title": "'GhostJacking' Exposes Identity Governance Gaps in AI Agents",
-    "link": "https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-10T21:54:22.000Z",
-    "summary": "New research shows how attackers can use security alerts and blocked events to manipulate and hijack AI agents.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c00c185b40983c7d",
-    "title": "Multistate Water System Attacks Widen, Iran Suspected",
-    "link": "https://www.darkreading.com/ics-ot-security/multistate-water-system-attacks-widen-iran-suspected",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-10T21:34:38.000Z",
-    "summary": "Attacks targeting water systems just keep flowing across a dozen states, against ill-secured, Internet-exposed PLCs.",
     "cveIds": [],
     "severity": "normal"
   }
