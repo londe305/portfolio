@@ -2483,40 +2483,5 @@
     "summary": "The security defects could allow unauthenticated attackers to execute arbitrary code remotely and read sensitive data.\nThe post SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "a94072d6a3a80c03",
-    "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
-    "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-12T06:41:38.000Z",
-    "summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak.\n\nThe vulnerability, rooted in Micr",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4e10981a01113da6",
-    "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
-    "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-12T06:15:58.000Z",
-    "summary": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild.\n\nThe high-severity flaw, tracked as CVE-2026-20",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "625b474fe305d1c3",
-    "title": "Cisco Patches Firewall Zero-Day Exploited for DoS Attacks",
-    "link": "https://www.securityweek.com/cisco-patches-firewall-zero-day-exploited-for-dos-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-12T05:10:47.000Z",
-    "summary": "CVE-2026-20349 can be exploited remotely without authentication against Secure Firewall ASA and FTD devices.\nThe post Cisco Patches Firewall Zero-Day Exploited for DoS Attacks appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-20349"
-    ],
-    "severity": "critical"
   }
 ]

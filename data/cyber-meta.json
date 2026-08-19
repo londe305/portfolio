@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-08-19T03:51:17.100Z",
-  "totalItems": 226,
+  "lastRun": "2026-08-19T06:54:41.062Z",
+  "totalItems": 223,
   "sources": [
     {
       "name": "The Hacker News",
@@ -34,9 +34,9 @@
     },
     {
       "name": "CISA",
-      "ok": false,
-      "itemCount": 0,
-      "error": "Status code 403"
+      "ok": true,
+      "itemCount": 20,
+      "error": null
     },
     {
       "name": "CERT-FR (avis)",
