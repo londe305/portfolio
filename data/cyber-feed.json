@@ -1,5 +1,16 @@
 [
   {
+    "id": "ebbff53f464498aa",
+    "title": "China-Linked Hacker Shows AI Capabilities in APAC Attack",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-19T01:00:00.000Z",
+    "summary": "In the first purported \"near-autonomous\" attack on a nation-state, a Chinese-language operator used a complex AI framework to target and compromise government agencies, likely in Taiwan.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "afbde52d2ee3efbb",
     "title": "Critical GitLab Zero-Click Flaw Poses Mitigation Challenges",
     "link": "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
@@ -2505,17 +2516,6 @@
     "category": "advisory",
     "pubDate": "2026-08-12T02:00:03.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6add8807f2afe607",
-    "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
-    "link": "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-12T01:15:55.000Z",
-    "summary": "Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [...]",
     "cveIds": [],
     "severity": "normal"
   }
