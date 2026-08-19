@@ -1,5 +1,82 @@
 [
   {
+    "id": "cc51d02fd6afc827",
+    "title": "943 Patches Rolled Out With Oracle’s August 2026 Security Update",
+    "link": "https://www.securityweek.com/943-patches-rolled-out-with-oracles-august-2026-security-update/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-19T09:14:51.000Z",
+    "summary": "The fixes resolve over 1,000 vulnerabilities across two dozen products, including over 460 remotely exploitable bugs.\nThe post 943 Patches Rolled Out With Oracle’s August 2026 Security Update appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cc9367240fb418e9",
+    "title": "Windows 11 24H2 Home and Pro reach end of support in 2 months",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-19T09:10:20.000Z",
+    "summary": "Microsoft has reminded customers that systems running Home and Pro editions of Windows 11 24H2 will stop receiving updates in two months. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "012cbc4b7057c2d7",
+    "title": "Chrome, Firefox Updates Patch Dozens of Vulnerabilities",
+    "link": "https://www.securityweek.com/chrome-firefox-updates-patch-dozens-of-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-19T08:19:09.000Z",
+    "summary": "The bugs could lead to code execution, privilege escalation, sandbox escape, and information disclosure.\nThe post Chrome, Firefox Updates Patch Dozens of Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "09e81bbc46f974bf",
+    "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-19T08:00:48.000Z",
+    "summary": "The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "24ee2c7346dd0c33",
+    "title": "CareCloud Data Breach Impact Grows to 3.7 Million Individuals",
+    "link": "https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-19T06:56:43.000Z",
+    "summary": "The data breach was initially believed to affect roughly 350,000 people, but the HHS breach tracker shows a far bigger impact.\nThe post CareCloud Data Breach Impact Grows to 3.7 Million Individuals appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f5e637719fb3a558",
+    "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
+    "link": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-19T06:01:53.000Z",
+    "summary": "Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infrastructure, tracing the malware from pay",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bef5200712ab8f6d",
+    "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
+    "link": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-19T05:39:25.000Z",
+    "summary": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) software, according to ne",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "14701b61925dc0a9",
     "title": "ISC Stormcast For Wednesday, August 19th, 2026 https://isc.sans.edu/podcastdetail/10058, (Wed, Aug 19th)",
     "link": "https://isc.sans.edu/diary/rss/33258",
@@ -2400,87 +2477,6 @@
     "category": "news",
     "pubDate": "2026-08-12T09:55:45.000Z",
     "summary": "LiteLLM was compromised through the Trivy hack and abused to distribute information-stealing malware to its users.\nThe post Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "97201ea9da850794",
-    "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
-    "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-12T09:01:54.000Z",
-    "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.\n\nThe vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traver",
-    "cveIds": [
-      "CVE-2026-59310"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "7e83b8d781ccbfb4",
-    "title": "Fresh Windows Zero-Day Exploited in North Korean Cyberattacks",
-    "link": "https://www.securityweek.com/fresh-windows-zero-day-exploited-in-north-korean-cyberattacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-12T08:45:53.000Z",
-    "summary": "The bug allowed attackers to gain full control of the victims’ systems and deploy the ForestTiger backdoor.\nThe post Fresh Windows Zero-Day Exploited in North Korean Cyberattacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "19a8cf6e64313885",
-    "title": "Ivanti EPM Update Patches Remotely Exploitable Flaws",
-    "link": "https://www.securityweek.com/ivanti-epm-update-patches-remotely-exploitable-flaws/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-12T08:14:46.000Z",
-    "summary": "The vulnerabilities could be exploited to leak credentials for external SQL connections or crash an agent service.\nThe post Ivanti EPM Update Patches Remotely Exploitable Flaws appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "629bdb3106f13b05",
-    "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
-    "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-12T08:04:52.000Z",
-    "summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b0b491a050992f4c",
-    "title": "ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact",
-    "link": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-phoenix-contact-2/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-12T07:51:55.000Z",
-    "summary": "CISA has also published several advisories describing vulnerabilities in ICS and other OT products.\nThe post ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "718e364ee9605b97",
-    "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
-    "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-12T07:31:40.000Z",
-    "summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution.\n\nThe vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on",
-    "cveIds": [
-      "CVE-2026-58231"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "7dc8e1d0ed6d768a",
-    "title": "SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform",
-    "link": "https://www.securityweek.com/sonicwall-patches-critical-vulnerabilities-in-discontinued-gms-platform/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-12T07:31:11.000Z",
-    "summary": "The security defects could allow unauthenticated attackers to execute arbitrary code remotely and read sensitive data.\nThe post SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
   }
