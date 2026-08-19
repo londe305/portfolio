@@ -1,5 +1,71 @@
 [
   {
+    "id": "5eac2d9b05f2ea54",
+    "title": "Electronic health record company CareCloud says 3.7 million people affected by breach",
+    "link": "https://therecord.media/electronic-health-record-company-carecloud-data-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-19T18:10:00.000Z",
+    "summary": "Healthcare software firm CareCloud filed documents with the Department of Health and Human Services confirming that 3,756,469 people had information leaked after a hacker spent eight hours in one of the company’s electronic health record en",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7393be14c0de0293",
+    "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-19T18:09:13.000Z",
+    "summary": "In a large-scale campaign that researchers dubbed CameraSwarm, hackers compromised more than 14,500 Dahua IP cameras mostly in Ukraine and Russia. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f7737db559be460b",
+    "title": "NSA, FBI warns of hackers using AI-generated tools in attacks on critical infrastructure technology",
+    "link": "https://therecord.media/nsa-fbi-warns-of-hackers-using-ai-generated-tools-critical-infrastructure",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-19T17:58:00.000Z",
+    "summary": "The National Security Agency (NSA), FBI and other federal agencies said the campaign is targeting Siemens S7 Series PLCs and was being fueled by “AI-assisted development” alongside exploitation of known vulnerabilities.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4a602404524f5d89",
+    "title": "US warns of AI-powered attacks on Siemens PLCs in critical infrastructure",
+    "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-19T17:50:01.000Z",
+    "summary": "U.S. cybersecurity agencies warn that threat actors are using AI-generated scripts to exploit Siemens S7 Series programmable logic controllers (PLCs) in U.S. critical infrastructure. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ee0ab120fa62a274",
+    "title": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
+    "link": "https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-19T16:58:23.000Z",
+    "summary": "A spear-phishing campaign by a Chinese-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by China's APTs.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e705e0afdf533cf2",
+    "title": "US charges Iranian hackers over $3.4 billion intellectual property theft",
+    "link": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-19T15:56:09.000Z",
+    "summary": "The U.S. has charged 17 Iranians, alleged members of a hacking-for-hire company called Mabna Institute, involved in years-long operations that stole data from American organizations. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "0b33e58bf2f4cb5d",
     "title": "Simple Scans for Cloud Metadata Service, (Wed, Aug 19th)",
     "link": "https://isc.sans.edu/diary/rss/33260",
@@ -75,6 +141,19 @@
     "summary": "The previously bootstrapped company helps organizations securely and reliably operate AI agents at scale.\nThe post Prevalent AI Raises $22 Million to Expand Data Fabric Platform appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "a346145f99bb984e",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-19T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-64849 MLflow Server-Side Request Forgery Vulnerability\nThis type of vulnerability is a frequent ",
+    "cveIds": [
+      "CVE-2026-64849"
+    ],
+    "severity": "cve"
   },
   {
     "id": "23556cf89857745f",
@@ -311,7 +390,7 @@
   },
   {
     "id": "4131ceb8828abb83",
-    "title": "'CoSnitch' Attack Tricked Copilot into Mapping Out Architecture",
+    "title": "'CoSnitch' Attack Tricked Copilot Into Mapping Out Architecture",
     "link": "https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture",
     "source": "Dark Reading",
     "category": "news",
@@ -1007,19 +1086,6 @@
     "summary": "The AI security testing firm has shared information on a recently disclosed incident involving Anthropic AI models.\nThe post Irregular Details How a Naming Error Let AI Models Attack a Real Company  appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "85edd8ddb14485c5",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-17T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2025-62593 Ray-Project Ray Code Injection Vulnerability\nThis type of vulnerability is a frequent atta",
-    "cveIds": [
-      "CVE-2025-62593"
-    ],
-    "severity": "cve"
   },
   {
     "id": "6ccd7a15a7ac096e",
@@ -2532,62 +2598,5 @@
     "summary": "More than 737 browser extensions published on the Chrome Web Store impersonated well-known VPN and proxy services while routing users' traffic through SOCKS5 proxies operated by a single provider. [...]",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "ddcb40f48b819c1a",
-    "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
-    "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-12T17:39:27.000Z",
-    "summary": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace compa",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9f6a96e02405d502",
-    "title": "FBI: Hackers using social engineering to breach accounts and steal explicit content",
-    "link": "https://therecord.media/social-engineering-hackers-explicit-photos-fbi-alert",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-12T17:28:00.000Z",
-    "summary": "Leaked passwords, social engineering and spoofed social media sites are among the tools hackers are using to gather individuals' private content and sell it online, the FBI said.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "306a4594ca50321f",
-    "title": "Walmart Takes a 'Trusted Agent' Approach to Purple Teaming",
-    "link": "https://www.darkreading.com/cybersecurity-operations/walmart-trusted-agent-approach-purple-teaming",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-12T16:28:04.000Z",
-    "summary": "Walmart colocates red and blue teams to build trust and improve security through collaborative purple teaming exercises",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "be064df1e8a6611c",
-    "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
-    "link": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-12T16:05:12.000Z",
-    "summary": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM privileges. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8def55c8a9734029",
-    "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
-    "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-12T15:38:08.000Z",
-    "summary": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream Job campaign. [...]",
-    "cveIds": [
-      "CVE-2026-68820"
-    ],
-    "severity": "critical"
   }
 ]
