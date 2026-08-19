@@ -1,5 +1,60 @@
 [
   {
+    "id": "0b33e58bf2f4cb5d",
+    "title": "Simple Scans for Cloud Metadata Service, (Wed, Aug 19th)",
+    "link": "https://isc.sans.edu/diary/rss/33260",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-19T14:24:58.000Z",
+    "summary": "Cloud providers typically expose a REST API at 169.254.169.254 that allows code running on virtual machines to retrieve machine-specific data. Some of the data is more or less harmless, such as the region the machine is running in or its MA",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ca5aedcee544950d",
+    "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
+    "link": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-19T14:00:10.000Z",
+    "summary": "Huntress observed a 155x increase in password spraying attacks in H1 2026, including a campaign that generated more than 81 million login attempts in two weeks. The attacks exploited legacy authentication and gaps in MFA policies that left ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "904a232d1fd2bb43",
+    "title": "Latvian officials resign after cyberattack exposes data on 1.2 million people",
+    "link": "https://therecord.media/latvia-cyberattack-vehicle-data",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-19T13:45:00.000Z",
+    "summary": "Latvia’s road traffic agency confirmed that hackers stole data connected to about two-thirds of the country’s population in a major cyberattack that has prompted calls for senior officials to resign.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5047ae247f753e11",
+    "title": "Virtual Event Today: CodeSecCon – Secure Your Code and Applications",
+    "link": "https://www.securityweek.com/virtual-event-today-codeseccon-secure-your-code-and-applications/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-19T13:36:17.000Z",
+    "summary": "CodeSecCon is the premier virtual event bringing together developers and cybersecurity professionals to revolutionize the way applications are built, secured, and maintained.\nThe post Virtual Event Today: CodeSecCon – Secure Your Code and A",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a5bd7d34d6d98f30",
+    "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
+    "link": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-19T13:12:17.000Z",
+    "summary": "A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia.\n\nThe intrusion set makes use of seven remote access tool (RAT) families, five of which have never been prev",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "b72c371b4059fe04",
     "title": "US charges Iranians for sprawling hacking campaign on government agencies, universities",
     "link": "https://therecord.media/iran-cyberattacks-us-doj",
@@ -22,6 +77,28 @@
     "severity": "normal"
   },
   {
+    "id": "23556cf89857745f",
+    "title": "Defending Against an Active Threat to Siemens S7 Series PLCs",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-19T12:00:00.000Z",
+    "summary": "Executive summary\nNote: This advisory relates to an active threat to Siemens S7 Series programmable logic controllers (PLCs). However, ongoing PLC targeting activity is broader than Siemens PLCs. All PLC owners and operators should apply re",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5d27f7e0412ef417",
+    "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
+    "link": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-19T11:34:28.000Z",
+    "summary": "Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-p",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "e54678f646905c1d",
     "title": "US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them",
     "link": "https://www.securityweek.com/us-charges-17-iranian-hackers-offers-10-million-rewards-for-5-of-them/",
@@ -29,6 +106,17 @@
     "category": "news",
     "pubDate": "2026-08-19T11:30:33.000Z",
     "summary": "The 17 members of the Mabna Institute targeted hundreds of universities and organizations in the US and abroad.\nThe post US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c7b0a419d67b62b2",
+    "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
+    "link": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-19T11:30:00.000Z",
+    "summary": "Most email defenses still do the job they did a decade ago. Scan the message, look for something malicious, block it. That worked when the danger sat in the payload, a bad link or an attachment. It stopped working when the danger moved into",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1083,6 +1171,39 @@
     "severity": "normal"
   },
   {
+    "id": "12eb1d6788cc2dd9",
+    "title": "Vulnérabilité dans SPIP (17 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1033/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-17T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans SPIP. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a9aaa2562b122bca",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (17 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1034/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f0b6c3f1445e6039",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (17 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1035/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6d2a3faa2b1e8355",
     "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
     "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
@@ -1547,6 +1668,138 @@
     "severity": "normal"
   },
   {
+    "id": "d46ffe7338b82a1d",
+    "title": "Multiples vulnérabilités dans Stormshield Network Security (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1021/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Stormshield Network Security. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à l",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2380ed42456b73b7",
+    "title": "Multiples vulnérabilités dans les produits Netgate (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1022/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Netgate. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atte",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "69c4cdf234513402",
+    "title": "Multiples vulnérabilités dans Tenable Security Center (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1023/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Security Center. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une injection SQL (SQLi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "44dd6ff54efe8b99",
+    "title": "Multiples vulnérabilités dans PostgreSQL (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1024/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans PostgreSQL. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "146aa38f3189b94d",
+    "title": "Vulnérabilité dans les produits Sophos (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1025/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Sophos. Elle permet à un attaquant de provoquer une élévation de privilèges.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7cd7eaacb0308f97",
+    "title": "Vulnérabilité dans OpenSSL (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1026/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans OpenSSL. Elle permet à un attaquant de provoquer un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2f257e9dd9610c99",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1027/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et un problème de sécurité non spécifié ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c95c5a9b19e7d1a8",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1028/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "db4911897249d79b",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1029/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "30185dc5f8b8124f",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1030/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b97641971640ef77",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1031/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de servi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8582106842c81e68",
+    "title": "Multiples vulnérabilités dans les produits IBM (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1032/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "b0cf96edc71bed4a",
     "title": "Multiples vulnérabilités dans les produits Mattermost (14 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1019/",
@@ -1826,13 +2079,13 @@
     "severity": "normal"
   },
   {
-    "id": "75e3f42a4d49dfc8",
-    "title": "Siemens Parasolid",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-10",
+    "id": "f90166f6c2c6ce59",
+    "title": "Siemens Solid Edge",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-13T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nParasolid is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens ",
+    "summary": "View CSAF\nSummary\nSolid Edge is affected by multiple file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR, PSM or DFT format. This could allow an attacker to crash the application or",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1925,13 +2178,13 @@
     "severity": "normal"
   },
   {
-    "id": "f90166f6c2c6ce59",
-    "title": "Siemens Solid Edge",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12",
+    "id": "2c277a0f82d7ea17",
+    "title": "Siemens Simcenter Femap",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-11",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-13T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSolid Edge is affected by multiple file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR, PSM or DFT format. This could allow an attacker to crash the application or",
+    "summary": "View CSAF\nSummary\nSimcenter Femap contains two file parsing vulnerabilities that could be triggered when the application reads files in BMP file format. If a user is tricked to open a malicious file with the affected application, this could",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1969,13 +2222,13 @@
     "severity": "normal"
   },
   {
-    "id": "2c277a0f82d7ea17",
-    "title": "Siemens Simcenter Femap",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-11",
+    "id": "75e3f42a4d49dfc8",
+    "title": "Siemens Parasolid",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-10",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-13T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSimcenter Femap contains two file parsing vulnerabilities that could be triggered when the application reads files in BMP file format. If a user is tricked to open a malicious file with the affected application, this could",
+    "summary": "View CSAF\nSummary\nParasolid is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens ",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2335,116 +2588,6 @@
     "cveIds": [
       "CVE-2026-68820"
     ],
-    "severity": "critical"
-  },
-  {
-    "id": "e5b114b7f82f5a21",
-    "title": "SharePoint Vulnerability Exploited Shortly After PoC Release",
-    "link": "https://www.securityweek.com/sharepoint-vulnerability-exploited-shortly-after-poc-release/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-12T14:47:01.000Z",
-    "summary": "The vulnerability was patched by Microsoft in July and CISA warned that it could end up being exploited in the wild.\nThe post SharePoint Vulnerability Exploited Shortly After PoC Release appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "63f3823bc8c79d0b",
-    "title": "Linux Kernel Process Accounting, (Wed, Aug 12th)",
-    "link": "https://isc.sans.edu/diary/rss/33240",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-12T14:21:10.000Z",
-    "summary": "A couple of days ago, Xavier posted about Atuin to gain more insight into the command history. Atuin does a great job of better organizing what is usually handled by \"bash&#;x26;#;x5f;history\"&#;x26;#;xc2;&#;x26;#;xa0;and collecting meaning",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0e84abacbaf58343",
-    "title": "FBI: Hackers target online accounts to steal nude photos",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-12T14:15:09.000Z",
-    "summary": "The FBI warns that cybercriminals are targeting adults' and children's social media and other online accounts to steal sexually explicit images or videos. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fcf50245a56e0325",
-    "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
-    "link": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-12T14:09:50.000Z",
-    "summary": "A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traffic and route them through a proxy infrastructure.\n\nThe exten",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8c885a0dce17a58b",
-    "title": "The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In",
-    "link": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-12T14:01:11.000Z",
-    "summary": "Fake remote workers can exploit gaps between hiring checks, device delivery, and account access to enter organizations under false identities. Specops Software explains how document verification and biometric liveness checks can help organi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7ae575a22edb8b3c",
-    "title": "Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-12T14:00:00.000Z",
-    "summary": "Attackers continue to target critical infrastructure and government-linked organizations in the country, mirroring the increased activity across Latin America.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f636ebfecd0f32cd",
-    "title": "Mindgard Raises $30 Million to Protect AI Systems",
-    "link": "https://www.securityweek.com/mindgard-raises-30-million-to-protect-ai-systems/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-12T13:24:00.000Z",
-    "summary": "The cybersecurity startup will use the fresh investment to scale its product, engineering, sales, and marketing teams.\nThe post Mindgard Raises $30 Million to Protect AI Systems appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6ba82ff561b74977",
-    "title": "WhatsApp Unveils New Scam Alert Feature",
-    "link": "https://www.securityweek.com/whatsapp-unveils-new-scam-alert-feature/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-12T13:00:00.000Z",
-    "summary": "Signal has also made a security announcement: an automatic key verification feature to complement its safety number system.\nThe post WhatsApp Unveils New Scam Alert Feature appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1d19bd60d8807f33",
-    "title": "Stealthy ‘City-Forum’ Attacks Target Salesforce and ServiceNow With Custom Toolset",
-    "link": "https://www.securityweek.com/stealthy-city-forum-attacks-target-salesforce-and-servicenow-with-custom-toolset/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-12T13:00:00.000Z",
-    "summary": "Researchers observed the novel campaign exploiting unauthenticated guest access to quietly enumerate and exfiltrate exposed data from both platforms.\nThe post Stealthy ‘City-Forum’ Attacks Target Salesforce and ServiceNow With Custom Toolse",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b7a07731982e0376",
-    "title": "Three intrusions at UK criminal records office went undetected for two years",
-    "link": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-12T13:00:00.000Z",
-    "summary": "Unread antivirus alerts and an unpatched content management system exposed Britain's ACRO to three separate data breaches, according to a reprimand notice.",
-    "cveIds": [],
     "severity": "critical"
   }
 ]
