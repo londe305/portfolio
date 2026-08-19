@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-19T01:41:12.404Z",
+  "lastRun": "2026-08-19T03:51:17.100Z",
   "totalItems": 226,
   "sources": [
     {
@@ -34,9 +34,9 @@
     },
     {
       "name": "CISA",
-      "ok": true,
-      "itemCount": 20,
-      "error": null
+      "ok": false,
+      "itemCount": 0,
+      "error": "Status code 403"
     },
     {
       "name": "CERT-FR (avis)",

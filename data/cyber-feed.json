@@ -1,5 +1,16 @@
 [
   {
+    "id": "14701b61925dc0a9",
+    "title": "ISC Stormcast For Wednesday, August 19th, 2026 https://isc.sans.edu/podcastdetail/10058, (Wed, Aug 19th)",
+    "link": "https://isc.sans.edu/diary/rss/33258",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-19T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ebbff53f464498aa",
     "title": "China-Linked Hacker Shows AI Capabilities in APAC Attack",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack",
@@ -200,17 +211,6 @@
     "severity": "normal"
   },
   {
-    "id": "7c4a746151ce76b0",
-    "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
-    "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-18T13:00:00.000Z",
-    "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "7ade35be7696c5d2",
     "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
@@ -220,6 +220,17 @@
     "summary": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "7c4a746151ce76b0",
+    "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
+    "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-18T13:00:00.000Z",
+    "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "0b0bd99b9d254ce6",
@@ -2507,16 +2518,5 @@
       "CVE-2026-20349"
     ],
     "severity": "critical"
-  },
-  {
-    "id": "9c3d235be24db601",
-    "title": "ISC Stormcast For Wednesday, August 12th, 2026 https://isc.sans.edu/podcastdetail/10048, (Wed, Aug 12th)",
-    "link": "https://isc.sans.edu/diary/rss/33238",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-12T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
