@@ -1,5 +1,130 @@
 [
   {
+    "id": "a35d939fdb946ae7",
+    "title": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-20T14:59:22.000Z",
+    "summary": "A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1ad6bb0e244abb9f",
+    "title": "Hackers Target Zimbra Servers in Active Exploitation Campaign",
+    "link": "https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-20T14:50:49.000Z",
+    "summary": "Exploitation of the Zimbra Collaboration vulnerability CVE-2026-73570 has been observed by Poland’s CERT Polska.\nThe post Hackers Target Zimbra Servers in Active Exploitation Campaign appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-73570"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "23f8e4d3db5cf954",
+    "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-20T14:39:48.000Z",
+    "summary": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6d1b884c61d1bd4e",
+    "title": "Surveillance – Everything You Wanted to Know, But Were Afraid to Ask",
+    "link": "https://www.securityweek.com/surveillance-everything-you-wanted-to-know-but-were-afraid-to-ask/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-20T14:30:00.000Z",
+    "summary": "We all know they’re watching us. But we don’t know who they are, nor why nor how they are doing it.\nThe post Surveillance – Everything You Wanted to Know, But Were Afraid to Ask appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "54c56c6aaa3f463f",
+    "title": "How MSPs can catch phishing attacks email filters miss",
+    "link": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-20T14:01:11.000Z",
+    "summary": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attacks that make it past ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b1f443e72dd66d7c",
+    "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
+    "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-20T13:48:24.000Z",
+    "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environmen",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "26e5a7b44c2edaf6",
+    "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
+    "link": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-20T13:35:13.000Z",
+    "summary": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability.\n\nAccording to the cloud computing and virtualization tec",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7a3b2e842840d577",
+    "title": "'Grandoreiro' Malware Resurfaces With Mexico Campaign",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-20T13:30:00.000Z",
+    "summary": "The banking Trojan, post-law enforcement takedown, is sprucing itself up with features that make detection and analysis harder.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9e6bf7ac9b2e9cad",
+    "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
+    "link": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-20T13:24:28.000Z",
+    "summary": "A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska).\n\nThe vulnerability in question is CVE-2026-73570 (CVSS ",
+    "cveIds": [
+      "CVE-2026-73570"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "738c20fbccfb3c91",
+    "title": "Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia",
+    "link": "https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-20T13:16:35.000Z",
+    "summary": "Operation CameraSwarm targeted Dahua cameras across multiple countries, focusing on Russian and CIS telecom netblocks.\nThe post Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c2d330c65fc8dbf2",
+    "title": "Using Microsoft Graph and Powershell - Risk Detection Commands, (Thu, Aug 20th)",
+    "link": "https://isc.sans.edu/diary/rss/33266",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-20T13:09:50.000Z",
+    "summary": "Building on the last diary on Using MS Graph and Powershell, let&#;x26;#;39;s look at \"Risky\" logins.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "b34a5e308b80ef56",
     "title": "Using Microsoft Graph and Powershell to Mine for Information - Stale Accounts and Licenses, (Thu, Aug 20th)",
     "link": "https://isc.sans.edu/diary/rss/33264",
@@ -44,6 +169,17 @@
     "severity": "critical"
   },
   {
+    "id": "8bfad57d255664df",
+    "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
+    "link": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-20T12:01:24.000Z",
+    "summary": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a point-of-sale (POS) terminal reads over nea",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "537a6d2865a5a7eb",
     "title": "Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities",
     "link": "https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/",
@@ -53,6 +189,39 @@
     "summary": "The flaws could lead to remote code execution, authentication bypasses, and path traversal attacks.\nThe post Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "2a078159b7a86b6d",
+    "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
+    "link": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-20T11:45:00.000Z",
+    "summary": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it. \n\nThe incident began when a Meta employee posted a technical questi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1fda38121ab7ac04",
+    "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
+    "link": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-20T11:39:35.000Z",
+    "summary": "Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-ba",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9159738c996ee32f",
+    "title": "Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices",
+    "link": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-20T11:26:08.000Z",
+    "summary": "A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial institutions, global fintech and cryptocurren",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "d19f7286f2713e32",
@@ -488,17 +657,6 @@
     "severity": "critical"
   },
   {
-    "id": "b7031ef7d7af4692",
-    "title": "Prevalent AI Raises $22 Million to Expand Data Fabric Platform",
-    "link": "https://www.securityweek.com/prevalent-ai-raises-22-million-to-expand-data-fabric-platform/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-19T12:00:00.000Z",
-    "summary": "The previously bootstrapped company helps organizations securely and reliably operate AI agents at scale.\nThe post Prevalent AI Raises $22 Million to Expand Data Fabric Platform appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "a346145f99bb984e",
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -519,6 +677,17 @@
     "category": "advisory",
     "pubDate": "2026-08-19T12:00:00.000Z",
     "summary": "Executive summary\nNote: This advisory relates to an active threat to Siemens S7 Series programmable logic controllers (PLCs). However, ongoing PLC targeting activity is broader than Siemens PLCs. All PLC owners and operators should apply re",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b7031ef7d7af4692",
+    "title": "Prevalent AI Raises $22 Million to Expand Data Fabric Platform",
+    "link": "https://www.securityweek.com/prevalent-ai-raises-22-million-to-expand-data-fabric-platform/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-19T12:00:00.000Z",
+    "summary": "The previously bootstrapped company helps organizations securely and reliably operate AI agents at scale.\nThe post Prevalent AI Raises $22 Million to Expand Data Fabric Platform appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1185,6 +1354,61 @@
     "category": "advisory",
     "pubDate": "2026-08-18T02:00:03.000Z",
     "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "73fe8f382348b6db",
+    "title": "Multiples vulnérabilités dans Typo3 (18 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1036/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Typo3. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "384d369059e772f3",
+    "title": "Multiples vulnérabilités dans GitLab (18 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1037/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données et une injection de requêtes illégitimes par rebond (CSRF).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "99011c978f7c22fe",
+    "title": "Multiples vulnérabilités dans Zabbix (18 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1039/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Zabbix. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des donné",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dba2cda6ba5d08d9",
+    "title": "Multiples vulnérabilités dans Mattermost Desktop App (18 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1040/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Desktop App. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1b6be190be0b7d8e",
+    "title": "Multiples vulnérabilités dans les produits Apple (18 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1038/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2101,17 +2325,6 @@
     "severity": "normal"
   },
   {
-    "id": "d46ffe7338b82a1d",
-    "title": "Multiples vulnérabilités dans Stormshield Network Security (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1021/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Stormshield Network Security. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à l",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "2380ed42456b73b7",
     "title": "Multiples vulnérabilités dans les produits Netgate (14 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1022/",
@@ -2229,6 +2442,17 @@
     "category": "advisory",
     "pubDate": "2026-08-14T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d46ffe7338b82a1d",
+    "title": "Multiples vulnérabilités dans Stormshield Network Security (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1021/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Stormshield Network Security. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à l",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2385,107 +2609,6 @@
     "category": "news",
     "pubDate": "2026-08-13T15:52:00.000Z",
     "summary": "Beyond Mirai’s usual functions, the new code features include encrypted communications with command-and-control servers and a “sniffer” that looks for default access credentials.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "792f7bfb0b3be304",
-    "title": "Trezor discloses data breach affecting nearly 14,000 customers",
-    "link": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-13T15:13:19.000Z",
-    "summary": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "90b7b793e07662cb",
-    "title": "New PATCHCORD Backdoor Targets Afghan Telecom and Indian Critical Infrastructure",
-    "link": "https://thehackernews.com/2026/08/new-patchcord-backdoor-targets-afghan.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-13T15:00:29.000Z",
-    "summary": "Afghan telecom providers and South Asian critical infrastructure organizations have emerged as the target of a new ongoing campaign that delivers a previously undocumented backdoor called PATCHCORD.\n\nAccording to Acronis Threat Research Uni",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0bf73553b3de6c92",
-    "title": "Cybersecurity M&A Roundup: 21 Deals Announced in July 2026",
-    "link": "https://www.securityweek.com/cybersecurity-ma-roundup-21-deals-announced-in-july-2026/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-13T14:41:44.000Z",
-    "summary": "Significant cybersecurity M&A deals announced by Barracuda, CrowdStrike, Cyera, Okta, Palo Alto Networks, and Qualcomm.\nThe post Cybersecurity M&A Roundup: 21 Deals Announced in July 2026 appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e1fd95175a9815eb",
-    "title": "Adobe Commerce Bug Targeted Immediately After Disclosure",
-    "link": "https://www.securityweek.com/adobe-commerce-bug-targeted-immediately-after-disclosure/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-13T14:17:44.000Z",
-    "summary": "The first exploitation attempts targeting CVE-2026-71362 were observed shortly after Adobe released patches.\nThe post Adobe Commerce Bug Targeted Immediately After Disclosure appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-71362"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "13905ed8d2dd6135",
-    "title": "Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion",
-    "link": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-13T14:00:10.000Z",
-    "summary": "AI coding tools can introduce unvetted or hallucinated open source dependencies faster than traditional security reviews can keep pace. ActiveState explains why organizations should govern packages at the point of selection, before they ent",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ecaa9c9f8dce8080",
-    "title": "AmnesiaStealer Hijacks Chromium Sessions to Give Attackers Live Browser Control on macOS",
-    "link": "https://thehackernews.com/2026/08/amnesiastealer-hijacks-chromium.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-13T13:43:14.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a new macOS-oriented, Rust-based information stealer called AmnesiaStealer that's capable of hijacking Chromium web browsers to steal session data.\n\nThe multi-stage stealer is spread via a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "593ef44ef9bf1050",
-    "title": "Brazil orders Discord to suspend livestreaming after teen suicide",
-    "link": "https://therecord.media/discord-brazil-orders-suspension-livestreaming",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-13T13:37:32.000Z",
-    "summary": "Discord's Go Live feature contributed to a 13-year-old girl's death by suicide, according to Brazilian regulators, who told the company to  suspend the streaming technology.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "edbf322fd1ba498d",
-    "title": "White House taps security firms for offensive hack-back operations",
-    "link": "https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-13T13:30:53.000Z",
-    "summary": "A new White House memo signed by U.S. President Donald Trump instructs the National Coordination Center (NCC) to establish a program that would allow private security companies to apply for approval to hack foreign cybercrime organizations.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4cd4329ab7167fef",
-    "title": "Trump taps cyber firms to go on offensive against criminals",
-    "link": "https://therecord.media/trump-cyber-crime-offensive",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-13T13:30:00.000Z",
-    "summary": "The Trump administration will allow private companies to launch attacks on cybercrime organizations, the White House announced.",
     "cveIds": [],
     "severity": "normal"
   }
