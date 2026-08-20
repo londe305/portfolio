@@ -1,5 +1,16 @@
 [
   {
+    "id": "18d19487decca160",
+    "title": "ISC Stormcast For Thursday, August 20th, 2026 https://isc.sans.edu/podcastdetail/10060, (Thu, Aug 20th)",
+    "link": "https://isc.sans.edu/diary/rss/33262",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-20T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "21ce2a289f391926",
     "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
@@ -2541,16 +2552,5 @@
       "CVE-2026-55040"
     ],
     "severity": "critical"
-  },
-  {
-    "id": "280b7fad4781cd76",
-    "title": "ISC Stormcast For Thursday, August 13th, 2026 https://isc.sans.edu/podcastdetail/10050, (Thu, Aug 13th)",
-    "link": "https://isc.sans.edu/diary/rss/33244",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-13T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
