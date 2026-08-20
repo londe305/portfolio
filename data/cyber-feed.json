@@ -1,5 +1,60 @@
 [
   {
+    "id": "d9fe2aa04481b2a6",
+    "title": "Calling on Cyber Pros to Help Defend City Hall",
+    "link": "https://www.darkreading.com/cyber-risk/calling-on-cyber-pros-to-help-city-hall",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-21T14:00:00.000Z",
+    "summary": "Government agencies with smaller budgets need support — and here's how you can help.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e99f5fb47c6fef7b",
+    "title": "New CUSTODY Framework Constrains AI Agents Inside the Network",
+    "link": "https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-20T20:42:18.000Z",
+    "summary": "Enterprise cybersecurity expert Jake Williams joins the Dark Reading News Desk to explain why he decided to release his new agentic AI framework in the wake of the OpenAI attacks on Hugging Face.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3c650cb216c56d62",
+    "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+    "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-20T19:59:19.000Z",
+    "summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe,",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cb8a68db8c15a51c",
+    "title": "China’s ‘SilkParasite’ espionage operation targeting Central Asia with AI-assisted malware",
+    "link": "https://therecord.media/china-cyber-espionage-central-asia",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-20T19:30:00.000Z",
+    "summary": "Suspected military-grade hackers based in China used artificial intelligence to develop malware in a campaign to penetrate Central Asian governments.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f181a83c3fc1e5e8",
+    "title": "What We Missed: Delta Flight Disrupted With Wi-Fi Hack",
+    "link": "https://www.darkreading.com/cyber-risk/delta-flight-disrupted-wi-fi-hack",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-20T19:11:15.000Z",
+    "summary": "In this video, Dark Reading editors discuss some of the news they didn't get a chance to cover, including some scary airplane security risks and the US government's newest \"hack back\" strategy.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "775bcfda13f40acd",
     "title": "Is Cyber missing the Marque?",
     "link": "https://blog.talosintelligence.com/is-cyber-missing-the-marque/",
@@ -1213,17 +1268,6 @@
     "severity": "normal"
   },
   {
-    "id": "7ade35be7696c5d2",
-    "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-18T13:00:00.000Z",
-    "summary": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
     "id": "7c4a746151ce76b0",
     "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
     "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
@@ -1233,6 +1277,17 @@
     "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "7ade35be7696c5d2",
+    "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-18T13:00:00.000Z",
+    "summary": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "0b0bd99b9d254ce6",
@@ -2589,38 +2644,5 @@
     "summary": "De multiples vulnérabilités ont été découvertes dans Elastic Kibana. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "3fea42c1368b684f",
-    "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
-    "link": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-13T21:12:47.000Z",
-    "summary": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d8c43e4f1c0d78e7",
-    "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-    "link": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-13T20:47:02.000Z",
-    "summary": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "da2761c8cc040faf",
-    "title": "Global Threat Campaign Hits Critical VMware vCenter Flaw",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-13T20:45:17.000Z",
-    "summary": "Exploitation against CVE-2026–59310 began earlier this month, and patching the vulnerability may not be enough to fully mitigate the threat.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
