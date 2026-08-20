@@ -1,5 +1,82 @@
 [
   {
+    "id": "775bcfda13f40acd",
+    "title": "Is Cyber missing the Marque?",
+    "link": "https://blog.talosintelligence.com/is-cyber-missing-the-marque/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-08-20T18:00:18.000Z",
+    "summary": "In this week's newsletter, new author Mick Baccio introduces himself and explores the operational and security implications of the new White House memorandum regarding private sector participation in government-authorized offensive cyber op",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1425c2e090028995",
+    "title": "Hackers poison arrayref Rust crate to push infostealer malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-20T17:53:52.000Z",
+    "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6fc01e18a245b0ee",
+    "title": "N-able Bug Exposes Password Vault Master Keys",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/n-able-bug-password-vault-master-keys",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-20T17:39:24.000Z",
+    "summary": "The popular \"Passportal\" password manager, favored by MSPs and SMBs, remains risky even after its patch, thanks to its cloud-based design. Should these products stay away from the cloud entirely?",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "90ccc0b8897bacea",
+    "title": "Senators press TikTok over withholding of safety features for some users",
+    "link": "https://therecord.media/senators-press-tiktok-over-withholding-safety-features",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-20T17:33:00.000Z",
+    "summary": "In a letter on Wednesday, Sens. Marsha Blackburn (R-TN) and Richard Blumenthal (D-CT) criticized the company for having “knowingly withheld a critical safety measure for millions of American users.\"",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a110dfe5fd8705ac",
+    "title": "Money and Mindset: The Two Biggest Roadblocks to Cyber Policing",
+    "link": "https://www.darkreading.com/cybersecurity-operations/money-and-mindset-the-two-biggest-roadblocks-to-cyber-policing",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-20T17:32:51.000Z",
+    "summary": "Law enforcement training is not keeping pace with the volume and rapid evolution of cybercrimes, though officers really only need to learn the basics, but focus and budgets hinder progress.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "929751afa5738c30",
+    "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
+    "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-20T17:23:48.000Z",
+    "summary": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.\n\nSigned drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Else",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fd31c58ac3a771fb",
+    "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+    "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-20T16:59:44.000Z",
+    "summary": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts.\n\nThe activity is targeting Siemens S7 SeriesProgramma",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "a35d939fdb946ae7",
     "title": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks",
@@ -33,6 +110,17 @@
     "summary": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "329280ed717e1eee",
+    "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
+    "link": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-20T14:36:27.000Z",
+    "summary": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the ",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "6d1b884c61d1bd4e",
@@ -176,6 +264,30 @@
     "category": "news",
     "pubDate": "2026-08-20T12:01:24.000Z",
     "summary": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a point-of-sale (POS) terminal reads over nea",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3a973d9720c51714",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-20T12:00:00.000Z",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-72529 TrueConf Server Missing Authentication for Critical Function Vulnerability  \nCVE-2026-72",
+    "cveIds": [
+      "CVE-2026-72529"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "9d475a174f5acca7",
+    "title": "Johnson Controls Simplex Incident Manager",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-20T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker with low privileges to extract user credentials (passwords and authentication tokens) from system memory, potentially leading to unauthorized acces",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2510,106 +2622,5 @@
     "summary": "Exploitation against CVE-2026–59310 began earlier this month, and patching the vulnerability may not be enough to fully mitigate the threat.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "02cfaa99b31024c4",
-    "title": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE",
-    "link": "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-13T18:45:12.000Z",
-    "summary": "A newly disclosed zero-day flaw in GeoServer is seeing active exploitation efforts, per watchTowr.\n\nThe vulnerability, which has yet to be assigned a CVE identifier, is an SQL injection vulnerability in the open-source platform that can lea",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "705cb6a9be72feb7",
-    "title": "ThreatsDay: GhostJacking AI Attacks, EtherHiding ClickFix, Cursor CLI Flaw + 17 More Stories",
-    "link": "https://thehackernews.com/2026/08/threatsday-ghostjacking-ai-attacks.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-13T18:17:10.000Z",
-    "summary": "Some weeks have one big security story. Others bring many smaller updates that are easy to miss but still matter. This week has plenty of them, covering cloud services, AI tools, malware, data breaches, scams, and new attack methods.\n\nThe l",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6f94f88dc4c42c1d",
-    "title": "Hackers breach govt webmail while running parallel crypto fraud",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-13T18:15:19.000Z",
-    "summary": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "003bcccd448239bc",
-    "title": "Curiouser and Curiouser",
-    "link": "https://blog.talosintelligence.com/curiouser-and-curiouser/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-08-13T18:00:18.000Z",
-    "summary": "In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "47b8f7f073332949",
-    "title": "Microsoft patches LegacyHive Windows zero-day vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-13T17:46:20.000Z",
-    "summary": "Microsoft has released security patches to address a Windows zero-day vulnerability known as \"LegacyHive,\" disclosed after the July 2026 Patch Tuesday. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b72be879af84a8e5",
-    "title": "AI 'watermark removers' flood the web. Almost none can prove they work.",
-    "link": "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-13T17:33:28.000Z",
-    "summary": "Multiple 'watermark removers' have surfaced days after Anthropic began watermarking text generated by Claude, including an open source project with over 4,500 GitHub stars and paid AI detection evasion services. None of the tools' claims ab",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "521dbfb9e3456b42",
-    "title": "Flock tightens privacy controls amid scandals over officer abuse",
-    "link": "https://therecord.media/flock-safety-audit-assistance-police-departments",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-13T16:47:00.000Z",
-    "summary": "All Flock Safety customers will be required to adopt its \"Audit Assistance\" feature for tracking abnormal uses, and the company says it will hold license plate data for only seven days in most cases.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7989ce167c10743a",
-    "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-13T16:40:23.000Z",
-    "summary": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...]",
-    "cveIds": [
-      "CVE-2026-59310"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "7e8dbe1261746a71",
-    "title": "New Mirai variant adds stealth capabilities to notorious botnet code",
-    "link": "https://therecord.media/new-mirai-variant-adds-stealth-to-botnet-code",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-13T15:52:00.000Z",
-    "summary": "Beyond Mirai’s usual functions, the new code features include encrypted communications with command-and-control servers and a “sniffer” that looks for default access credentials.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
