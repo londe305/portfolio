@@ -1,5 +1,40 @@
 [
   {
+    "id": "ce25dc26d09004e9",
+    "title": "Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler",
+    "link": "https://www.securityweek.com/exploitation-expected-for-critical-authentication-bypass-patched-in-citrix-netscaler/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-20T08:33:25.000Z",
+    "summary": "Remote, unauthenticated attackers could exploit the critical-severity flaw without user interaction.\nThe post Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9f434a3bfa0e66af",
+    "title": "Critical GitLab Flaw Exploited Shortly After Disclosure",
+    "link": "https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-20T07:48:24.000Z",
+    "summary": "CVE-2026-19478 can be exploited without authentication to modify or delete public projects and user data.\nThe post Critical GitLab Flaw Exploited Shortly After Disclosure appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-19478"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "70d259d086e1c7c4",
+    "title": "Hackers Using AI to Target Siemens PLCs in Critical US Sectors",
+    "link": "https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-20T07:02:02.000Z",
+    "summary": "A cybersecurity advisory with technical details and recommendations has been written by the NSA, CISA and other agencies.\nThe post Hackers Using AI to Target Siemens PLCs in Critical US Sectors appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "714e2e03d094d1be",
     "title": "Microsoft says August Windows updates may cause gaming issues",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-may-cause-gaming-issues-reboots/",
@@ -2530,38 +2565,5 @@
     "summary": "Contracts may require a $1 million bond, which will be forfeited if a company fails to comply with operational requirements.\nThe post White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs appeared first on Sec",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "973369b1fd2759de",
-    "title": "Critical VMware vCenter Vulnerability in Attackers’ Crosshairs",
-    "link": "https://www.securityweek.com/critical-vmware-vcenter-vulnerability-in-attackers-crosshairs/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-13T09:06:40.000Z",
-    "summary": "Tracked as CVE-2026–59310, the directory traversal bug allows remote attackers to execute arbitrary code.\nThe post Critical VMware vCenter Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f7a0c6962ff04bc4",
-    "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’",
-    "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-shieldbreak/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-13T08:38:03.000Z",
-    "summary": "Dropped on Patch Tuesday, the exploit allows any user to spawn a shell with System privileges.\nThe post Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "556d5b385151f0c9",
-    "title": "Belgium's eID Authentication Opens Citizen Accounts to RCE",
-    "link": "https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-13T07:00:00.000Z",
-    "summary": "The trust framework underlying Belgium's electronic ID system was fully compromised by severe vulnerabilities in a key browser extension, showcasing bigger problems with extensions in general.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
