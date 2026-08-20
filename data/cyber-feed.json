@@ -1,5 +1,29 @@
 [
   {
+    "id": "714e2e03d094d1be",
+    "title": "Microsoft says August Windows updates may cause gaming issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-may-cause-gaming-issues-reboots/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-20T06:51:03.000Z",
+    "summary": "Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eb1eddbec7764cde",
+    "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
+    "link": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-20T06:04:34.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution.\n\nThe vulnerability, tracked as CVE-2026-32475, carries a CVSS sc",
+    "cveIds": [
+      "CVE-2026-32475"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "18d19487decca160",
     "title": "ISC Stormcast For Thursday, August 20th, 2026 https://isc.sans.edu/podcastdetail/10060, (Thu, Aug 20th)",
     "link": "https://isc.sans.edu/diary/rss/33262",
@@ -686,17 +710,6 @@
     "severity": "normal"
   },
   {
-    "id": "7c4a746151ce76b0",
-    "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
-    "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-18T13:00:00.000Z",
-    "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "7ade35be7696c5d2",
     "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
@@ -706,6 +719,17 @@
     "summary": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "7c4a746151ce76b0",
+    "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
+    "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-18T13:00:00.000Z",
+    "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "0b0bd99b9d254ce6",
@@ -2538,19 +2562,6 @@
     "pubDate": "2026-08-13T07:00:00.000Z",
     "summary": "The trust framework underlying Belgium's electronic ID system was fully compromised by severe vulnerabilities in a key browser extension, showcasing bigger problems with extensions in general.",
     "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "194c32e5aaf78b99",
-    "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
-    "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-13T06:09:48.000Z",
-    "summary": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code.\n\nThe vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical ",
-    "cveIds": [
-      "CVE-2026-55040"
-    ],
     "severity": "critical"
   }
 ]
