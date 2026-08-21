@@ -11,6 +11,19 @@
     "severity": "normal"
   },
   {
+    "id": "58f66a40c663c669",
+    "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+    "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-21T06:06:11.000Z",
+    "summary": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required.\n\nThe vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a ",
+    "cveIds": [
+      "CVE-2026-69836"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "71733a0355c0ddf7",
     "title": "Who Got Missed in the MFA Rollout&#x3f; More Powershell &#x2b; Graph &#x2b; Entra scripting&#x21;, (Fri, Aug 21st)",
     "link": "https://isc.sans.edu/diary/rss/33272",
@@ -155,7 +168,7 @@
   },
   {
     "id": "929751afa5738c30",
-    "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
+    "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
     "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
     "source": "The Hacker News",
     "category": "news",
@@ -2501,16 +2514,5 @@
     "summary": "The security defect is described as an SQL injection that could allow attackers to achieve remote code execution.\nThe post Hackers Exploiting Unpatched GeoServer Zero-Day appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "e4b7edd296165994",
-    "title": "AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions",
-    "link": "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-14T06:41:43.000Z",
-    "summary": "The Rust-based macOS infostealer harvests users’ passwords, keychain information, Chromium-based browser data, and Safari cookies.\nThe post AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
