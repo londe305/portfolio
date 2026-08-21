@@ -1,12 +1,111 @@
 [
   {
-    "id": "d9fe2aa04481b2a6",
+    "id": "5290610c9d16692b",
+    "title": "In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug",
+    "link": "https://www.securityweek.com/in-other-news-zombie-card-attack-t-mobile-cut-cable-to-stop-hackers-github-denies-ai-caused-bug/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-21T15:11:16.000Z",
+    "summary": "Other noteworthy stories that might have slipped under the radar: Threema DDoS attack, Evooo1Bot Linux botnet, Crypto4A secures top-tier NIST certification.\nThe post In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, Git",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "be9ebd83e6106fce",
+    "title": "Canada’s Hospital for Sick Children attacked by cybercriminals again as employee data stolen",
+    "link": "https://therecord.media/canada-hospital-for-sick-children-attacked-again-employee-data",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-21T15:00:00.000Z",
+    "summary": "The Hospital for Sick Children — which was hit in a ransomware incident in 2022 that disabled some of its systems — released a statement on Thursday warning of a data theft incident they believe is tied to a third-party software application",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b542606959ef4d89",
+    "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-21T14:54:49.000Z",
+    "summary": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by peripherals with RGB lighting. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e76c86c5e85ff8a4",
+    "title": "Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini",
+    "link": "https://www.securityweek.com/encrypted-prompts-bypass-ai-safety-guardrails-in-grok-and-gemini/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-21T14:34:05.000Z",
+    "summary": "Researchers say the new ‘Cryptographic Context Injection’ technique conceals malicious instructions until they are decrypted inside a trusted execution environment.\nThe post Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c2ebf1d469d3a13a",
+    "title": "New Phishing Toolkit Uses Passkeys to Maintain Access After Password Resets",
+    "link": "https://www.securityweek.com/new-phishing-toolkit-uses-passkeys-to-maintain-access-after-password-resets/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-21T14:22:06.000Z",
+    "summary": "Researchers say iAuthFlow V2 can register an attacker-controlled passkey, enabling persistent access even after passwords are changed and active sessions revoked.\nThe post New Phishing Toolkit Uses Passkeys to Maintain Access After Password",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f58a42ec6ad46bc9",
+    "title": "Is Online Privacy Possible? How Digital Identities Can Help",
+    "link": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-21T14:00:10.000Z",
+    "summary": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital personas can reduce correlation and limit the imp",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4caefbb14a5b6f7f",
     "title": "Calling on Cyber Pros to Help Defend City Hall",
-    "link": "https://www.darkreading.com/cyber-risk/calling-on-cyber-pros-to-help-city-hall",
+    "link": "https://www.darkreading.com/cyber-risk/cyber-pros-help-city-hall",
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-08-21T14:00:00.000Z",
     "summary": "Government agencies with smaller budgets need support — and here's how you can help.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ff6e29311e9492d4",
+    "title": "Russian network monitoring firm confirms cyberattack claimed by pro-Ukraine hackers",
+    "link": "https://therecord.media/russian-network-monitoring-firm-confirms-cyberattack-claimed-by-pro-ukraine-group",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-21T13:55:00.000Z",
+    "summary": "The statement came a day after a hacking group calling itself Black Spark claimed it had spent more than a month inside Microolap’s network and gained access to its internal systems, including EtherSensor, the company's network traffic anal",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "452d538a8e922c8d",
+    "title": "Microsoft rolls out Classic Outlook theme for New Outlook users",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-21T13:39:35.000Z",
+    "summary": "Microsoft has started rolling out a Classic Outlook theme for users of Outlook on the web and the New Outlook for Windows. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0a40df8b21e0c3da",
+    "title": "OpenAI Adds Controls That Should've Been There Already",
+    "link": "https://www.darkreading.com/application-security/openai-adds-controls-already",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-21T13:30:00.000Z",
+    "summary": "The new AI security controls follow the Hugging Face incident last month, though many of these additions perhaps should have been in place prior to the frontier models escaping.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1259,6 +1358,160 @@
     "severity": "critical"
   },
   {
+    "id": "dc04926164633c59",
+    "title": "Multiples vulnérabilités dans Synacor Zimbra Collaboration (19 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1041/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Synacor Zimbra Collaboration. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une falsification de requêtes côté serveur (SSRF)",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "05ef54d68fd238b6",
+    "title": "Multiples vulnérabilités dans les produits Axis (19 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1042/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Axis. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ae4b219a1053af9a",
+    "title": "Vulnérabilité dans Apereo CAS (19 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1043/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Apereo CAS. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "acbe39f02b3c7a0b",
+    "title": "Multiples vulnérabilités dans Python (19 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1044/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Python. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique de sécurité et un problème de sécurité non spécifié pa",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "35acea2015d8157c",
+    "title": "Multiples vulnérabilités dans Google Chrome (19 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1045/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d27918db87a2ad1b",
+    "title": "Multiples vulnérabilités dans Joomla! (19 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1046/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Joomla!. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à l'intégrité des données et une injection de code indire",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1ac30e756bf96a2f",
+    "title": "Multiples vulnérabilités dans Oracle Database Server (19 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1047/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Database Server. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la conf",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "51813c810259e9b0",
+    "title": "Multiples vulnérabilités dans Oracle Java SE (19 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1048/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidential",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4654a1e45dcd4fe0",
+    "title": "Multiples vulnérabilités dans Oracle MySQL (19 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1049/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle MySQL. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e8b279dce99e6275",
+    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (19 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1050/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un déni de service.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d796658f9582ce9a",
+    "title": "Multiples vulnérabilités dans Oracle Systems (19 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1051/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Systems. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ddbf3abfcf368dd8",
+    "title": "Multiples vulnérabilités dans Oracle Virtualization (19 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1052/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f29ad1e4aac227ed",
+    "title": "Multiples vulnérabilités dans Oracle Weblogic (19 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1053/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "760bc1c8632a09f8",
+    "title": "Multiples vulnérabilités dans les produits Mozilla (19 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1054/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-19T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des do",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "afbde52d2ee3efbb",
     "title": "Critical GitLab Zero-Click Flaw Poses Mitigation Challenges",
     "link": "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
@@ -2395,71 +2648,5 @@
     "summary": "One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "ba7cd94f9c657fbc",
-    "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-14T14:59:55.000Z",
-    "summary": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability after public exploit code emerged. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "638024f252b9d3ef",
-    "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
-    "link": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-14T14:00:10.000Z",
-    "summary": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need defenses that cover the entire Workspace at",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "562e4956d00f3eda",
-    "title": "What Boards Need to Know About Tech Risk",
-    "link": "https://www.darkreading.com/cyber-risk/what-boards-must-know-tech-risk",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-14T14:00:00.000Z",
-    "summary": "Why do so many boards underestimate technology risk until it becomes a crisis?",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4e306dc1fca9219b",
-    "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-14T13:45:18.000Z",
-    "summary": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ec3ad20a2a26f488",
-    "title": "France investigates tax authority breach after hacker claims 600,000 victims",
-    "link": "https://therecord.media/french-tax-authority-dgfip-confirms-data-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-14T13:14:15.000Z",
-    "summary": "French authorities confirmed that someone gained unauthorized access to systems at the Directorate General of Public Finances in late June after stealing or misusing someone’s identity.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "95d769fae876ff46",
-    "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
-    "link": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-14T13:08:56.000Z",
-    "summary": "The threat actor known as HoneyMyte (aka Mustang Panda) has been observed deploying an updated version of the CoolClient backdoor with a signed Windows kernel-mode rootkit that can hide and protect malicious processes, files, registry objec",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
