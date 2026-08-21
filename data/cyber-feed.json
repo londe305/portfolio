@@ -22,6 +22,17 @@
     "severity": "normal"
   },
   {
+    "id": "716a3dbc59c82a88",
+    "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+    "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-20T20:22:35.000Z",
+    "summary": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remo",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "3c650cb216c56d62",
     "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
     "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
@@ -2477,171 +2488,6 @@
     "category": "advisory",
     "pubDate": "2026-08-14T02:00:03.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9fcca2d8a800d6a6",
-    "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
-    "link": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-14T01:19:12.000Z",
-    "summary": "You're not alone if you just received an \"Apple Threat Notification\" saying it detected a \"mercenary spyware attack targeted at your iPhone.\" [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2380ed42456b73b7",
-    "title": "Multiples vulnérabilités dans les produits Netgate (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1022/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Netgate. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atte",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "69c4cdf234513402",
-    "title": "Multiples vulnérabilités dans Tenable Security Center (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1023/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Security Center. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une injection SQL (SQLi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "44dd6ff54efe8b99",
-    "title": "Multiples vulnérabilités dans PostgreSQL (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1024/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans PostgreSQL. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "146aa38f3189b94d",
-    "title": "Vulnérabilité dans les produits Sophos (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1025/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Sophos. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7cd7eaacb0308f97",
-    "title": "Vulnérabilité dans OpenSSL (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1026/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans OpenSSL. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2f257e9dd9610c99",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1027/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et un problème de sécurité non spécifié ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c95c5a9b19e7d1a8",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1028/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "db4911897249d79b",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1029/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "30185dc5f8b8124f",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1030/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b97641971640ef77",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1031/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de servi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8582106842c81e68",
-    "title": "Multiples vulnérabilités dans les produits IBM (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1032/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d46ffe7338b82a1d",
-    "title": "Multiples vulnérabilités dans Stormshield Network Security (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1021/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Stormshield Network Security. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à l",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b0cf96edc71bed4a",
-    "title": "Multiples vulnérabilités dans les produits Mattermost (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1019/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7ee04ae177559325",
-    "title": "Multiples vulnérabilités dans Elastic Kibana (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1020/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Elastic Kibana. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
     "cveIds": [],
     "severity": "normal"
   }
