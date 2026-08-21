@@ -1,5 +1,82 @@
 [
   {
+    "id": "14e3d4daa51721e3",
+    "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
+    "link": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-21T18:01:30.000Z",
+    "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e90548507da8d818",
+    "title": "OWASP Flags Top AI Skill Risks in New Security Blueprint",
+    "link": "https://www.darkreading.com/application-security/owasp-flags-top-ai-skill-risks-security-blueprint",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-21T17:36:53.000Z",
+    "summary": "The Open Worldwide Application Security Project has a brand-new top 10 security list tailored for the modern era, and it debuts a Universal Skill Format to add consistency and security to the AI add-ons.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5f8cc8a91a11ffd3",
+    "title": "Former NSA Director Paul Nakasone Launches National Security Advisory Firm",
+    "link": "https://www.securityweek.com/former-nsa-director-paul-nakasone-launches-national-security-advisory-firm/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-21T16:27:52.000Z",
+    "summary": "The newly-formed Nakasone Group will counsel government leaders, corporations, prominent families, and other private clients confronting cybersecurity, geopolitical, and personal security risks.\nThe post Former NSA Director Paul Nakasone La",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ca382dbf522adc75",
+    "title": "U.S. Bank says breach claims related to fourth-party incident",
+    "link": "https://therecord.media/us-bank-says-breach-claims-related-to-fourth-party-incident",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-21T16:16:00.000Z",
+    "summary": "The bank said there is no evidence that its own systems, networks or data repositories were compromised.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "be4539b3050de86f",
+    "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-21T15:55:15.000Z",
+    "summary": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "be963213629f7e8f",
+    "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
+    "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-21T15:52:10.000Z",
+    "summary": "Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Windows systems ranging from Windows 7 thro",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "35026df78e76d16e",
+    "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
+    "link": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-21T15:41:44.000Z",
+    "summary": "Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun.\n\nKaspersky, which discovered the threat in June 2026, said the end goal of the m",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "5290610c9d16692b",
     "title": "In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug",
     "link": "https://www.securityweek.com/in-other-news-zombie-card-attack-t-mobile-cut-cable-to-stop-hackers-github-denies-ai-caused-bug/",
@@ -132,6 +209,19 @@
     "severity": "critical"
   },
   {
+    "id": "a1ad39fd9383ef8a",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-21T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-73570 Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability\nThis type of vulnerabi",
+    "cveIds": [
+      "CVE-2026-73570"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "d5bcf1fd07be0fb3",
     "title": "Wazuh and AI For Enhanced SOC Workflows",
     "link": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
@@ -245,16 +335,14 @@
   },
   {
     "id": "58f66a40c663c669",
-    "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+    "title": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
     "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-08-21T06:06:11.000Z",
-    "summary": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required.\n\nThe vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a ",
-    "cveIds": [
-      "CVE-2026-69836"
-    ],
-    "severity": "cve"
+    "summary": "Update: The story was updated after publication to note that the vulnerability has not been exploited.\n\nAlthough the security bulletin originally marked the \"Exploited\" field under the Exploitability Assessment table as \"Yes,\" on August 21,",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "71733a0355c0ddf7",
@@ -613,6 +701,17 @@
     "severity": "normal"
   },
   {
+    "id": "9d475a174f5acca7",
+    "title": "Johnson Controls Simplex Incident Manager",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-20T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker with low privileges to extract user credentials (passwords and authentication tokens) from system memory, potentially leading to unauthorized acces",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "3a973d9720c51714",
     "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
@@ -624,17 +723,6 @@
       "CVE-2026-72529"
     ],
     "severity": "critical"
-  },
-  {
-    "id": "9d475a174f5acca7",
-    "title": "Johnson Controls Simplex Incident Manager",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-20T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker with low privileges to extract user credentials (passwords and authentication tokens) from system memory, potentially leading to unauthorized acces",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "537a6d2865a5a7eb",
@@ -1112,19 +1200,6 @@
     "summary": "The Justice Department accused 17 alleged hackers with ties to the Iranian government of breaching email accounts at U.S. government agencies and stealing intellectual property from dozens of universities.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "a346145f99bb984e",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-19T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-64849 MLflow Server-Side Request Forgery Vulnerability\nThis type of vulnerability is a frequent ",
-    "cveIds": [
-      "CVE-2026-64849"
-    ],
-    "severity": "cve"
   },
   {
     "id": "23556cf89857745f",
@@ -1789,17 +1864,6 @@
     "severity": "normal"
   },
   {
-    "id": "5594a32e425f1472",
-    "title": "Siemens Simcenter Nastran",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-18T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSimcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked to run one of the impacted application bina",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "0be240c15c31581d",
     "title": "CISA Malcolm",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01",
@@ -1807,6 +1871,17 @@
     "category": "advisory",
     "pubDate": "2026-08-18T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition or execute arbitrary code.\nThe following versions of CISA Malcolm are affected:\nMalcolm <26.06.1 (CVE-2026-556",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5594a32e425f1472",
+    "title": "Siemens Simcenter Nastran",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-18T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSimcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked to run one of the impacted application bina",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2604,49 +2679,5 @@
     "summary": "Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large scale.\n\nDNS threat intelligence firm Infoblox has given the name dropcatch domains to those that get a",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "2be96fadaf5a369a",
-    "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-14T18:04:26.000Z",
-    "summary": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Commerzbank customers' bank accounts. [...",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b40a403bc88ea1eb",
-    "title": "Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-14T17:32:46.000Z",
-    "summary": "Driven by AI-augmented research and scanning, vulnerability volumes continue to surge, driving the National Institute of Standards and Technology to ask whether AI could be the answer.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "255a2ece5ca97dee",
-    "title": "IAM Compliance Requirements and Best Practices",
-    "link": "https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-14T17:19:49.000Z",
-    "summary": "IAM compliance is the practice of demonstrating that identity and access controls are not only documented but actually enforced across users, applications, infrastructure, and non-human identities. This guide explains what IAM compliance re",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ed9b12b8544657ff",
-    "title": "Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-14T15:58:50.000Z",
-    "summary": "One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
