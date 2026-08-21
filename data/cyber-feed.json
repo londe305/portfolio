@@ -1,5 +1,27 @@
 [
   {
+    "id": "6a6adf4925eef6b8",
+    "title": "Lawmakers call for investigation into impact of CISA staffing cuts",
+    "link": "https://therecord.media/lawmakers-call-for-investigation-into-impact-of-cisa-cuts",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-21T19:56:00.000Z",
+    "summary": "Lawmakers say little is known about how recent cuts have impacted CISA and how the knowledge that was lost has been replaced.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2a42acdf4b3844a7",
+    "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+    "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-21T18:53:00.000Z",
+    "summary": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence (AI)-powered Linux implant dubbed RedC2 ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "14e3d4daa51721e3",
     "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
     "link": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
@@ -483,7 +505,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-08-20T17:32:51.000Z",
-    "summary": "Law enforcement training is not keeping pace with the volume and rapid evolution of cybercrimes, though officers really only need to learn the basics, but focus and budgets hinder progress.",
+    "summary": "Law enforcement training is falling behind the volume and rapid evolution of cybercrimes. Officers really only need to learn the basics, but lack of focus and budget hinder progress.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2644,39 +2666,6 @@
     "category": "news",
     "pubDate": "2026-08-14T23:24:17.000Z",
     "summary": "It could soon become easier to identify AI-generated content, even if it's not the usual \"It's Not X, it's Y\" type of post you'd come across on LinkedIn and other socials. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a74fc2ba02335263",
-    "title": "Investigation of banking hack leads to arrests in Europe, Brazil",
-    "link": "https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-14T20:31:00.000Z",
-    "summary": "Germany’s federal police agency, the BKA, said three suspects were picked up in Europe and charged with fraud, and Brazil’s federal police said four others were arrested on similar charges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d0e00699976df0b1",
-    "title": "Mission-Driven Security: Inside a Global Bank's Defense",
-    "link": "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-14T19:24:18.000Z",
-    "summary": "In this video interview, Standard Chartered's group CISO shares insights on transitioning from technical roles to strategic leadership, the importance of business-savvy security executives, and how AI is reshaping both defensive capabilitie",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bc41d94d2cc2e3ac",
-    "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
-    "link": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-14T18:48:46.000Z",
-    "summary": "Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large scale.\n\nDNS threat intelligence firm Infoblox has given the name dropcatch domains to those that get a",
     "cveIds": [],
     "severity": "normal"
   }
