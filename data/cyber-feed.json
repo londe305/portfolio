@@ -11,6 +11,83 @@
     "severity": "normal"
   },
   {
+    "id": "7eae6756abb23552",
+    "title": "Critical Isolated-vm Vulnerability Leads to RCE on Host",
+    "link": "https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-21T12:26:07.000Z",
+    "summary": "The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process.\nThe post Critical Isolated-vm Vulnerability Leads to RCE on Host appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ca42ce4091ca69ac",
+    "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-21T12:25:33.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d5bcf1fd07be0fb3",
+    "title": "Wazuh and AI For Enhanced SOC Workflows",
+    "link": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-21T11:21:39.000Z",
+    "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden with",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "33142ba025a43bbb",
+    "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-21T11:04:10.000Z",
+    "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d4f91c44f91afc8b",
+    "title": "Hackers abuse FTP server banners to deliver new Windows malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-21T11:00:00.000Z",
+    "summary": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0fa6cf437ce4fcdd",
+    "title": "SickKids data breach exposes employee and job applicant info",
+    "link": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-21T10:10:42.000Z",
+    "summary": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software. Clinical systems and patie",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "592ff884b9bf06cd",
+    "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
+    "link": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-21T10:03:11.000Z",
+    "summary": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review.\n\nFour of the security vulnerabilities affect Crosswork Data Gateway, C",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "154abb53a0714719",
     "title": "Rust Supply Chain Attack Linked to North Korean Hackers",
     "link": "https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/",
@@ -34,12 +111,12 @@
   },
   {
     "id": "292f4bce0db232bd",
-    "title": "Microsoft Rolls Out 22 Fresh Security Patches",
+    "title": "Microsoft Patches Exploited Entra ID Vulnerability",
     "link": "https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/",
     "source": "SecurityWeek",
     "category": "news",
     "pubDate": "2026-08-21T08:12:19.000Z",
-    "summary": "Most of the fixes resolve code execution, privilege escalation, and information disclosure vulnerabilities.\nThe post Microsoft Rolls Out 22 Fresh Security Patches appeared first on SecurityWeek.",
+    "summary": "A total of 22 patches were releaased, a majority for code execution, privilege escalation, and information disclosure vulnerabilities.\nThe post Microsoft Patches Exploited Entra ID Vulnerability appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2384,126 +2461,5 @@
     "summary": "The threat actor known as HoneyMyte (aka Mustang Panda) has been observed deploying an updated version of the CoolClient backdoor with a signed Windows kernel-mode rootkit that can hide and protect malicious processes, files, registry objec",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "9d1825a48e1d4b0b",
-    "title": "Cyera's Oasis Security Buy Is All About AI Agent Control",
-    "link": "https://www.darkreading.com/identity-access-management-security/cyera-oasis-security-acquisition-ai-agent-control",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-14T12:17:21.000Z",
-    "summary": "The $1 billion deal aims to converge data security and identity into a single control plane for agents, with privileged access redefined around business context rather than static roles.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ddab218624ff5847",
-    "title": "In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities",
-    "link": "https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-14T11:57:51.000Z",
-    "summary": "Noteworthy stories that might have slipped under the radar: government AI platform deal sparks outrage, North Korean IT worker breaches federal agency, DEF CON attendee blamed for Delta flight disruption.\nThe post In Other News: Rapid7 Layo",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ff7114bf5180c2d0",
-    "title": "Shell investigates 'potential incident' after Clop data theft claims",
-    "link": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-14T11:55:45.000Z",
-    "summary": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9bf71929bc6484de",
-    "title": "Trivy, Not LiteLLM Behind the 2,500 Org Compromise",
-    "link": "https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-14T11:35:23.000Z",
-    "summary": "Over 95% of the affected companies were exposed before the malicious LiteLLM packages were published.\nThe post Trivy, Not LiteLLM Behind the 2,500 Org Compromise appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d878e0c4e97714ff",
-    "title": "Who’s Tracking You? Use This New Service to Find Out",
-    "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-08-14T11:24:35.000Z",
-    "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditional",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "63415498b054abbb",
-    "title": "Chrome DevTools Technique Enables Authenticated Session Hijacking in Live Windows Browsers",
-    "link": "https://thehackernews.com/2026/08/chrome-devtools-technique-enables.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-14T11:07:45.000Z",
-    "summary": "Cybersecurity researchers have detailed a post-exploitation technique that enables the Chrome DevTools Protocol (CDP) inside a running Google Chrome or Microsoft Edge process on Windows, allowing an operator to access cookies, saved data, a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fcf6a7f2548ff7aa",
-    "title": "Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal",
-    "link": "https://www.securityweek.com/google-cloud-sets-out-post-quantum-roadmap-with-2029-readiness-goal/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-14T11:00:00.000Z",
-    "summary": "Google Cloud outlines its roadmap to full post-quantum cryptography readiness, with key milestones targeted for 2027 and 2028.\nThe post Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "751a60953d868f36",
-    "title": "CTM360 Uncovers Over 3,000 Recruitment Phishing URLs Using Browser-in-the-Browser (BitB) Credential Traps",
-    "link": "https://thehackernews.com/2026/08/ctm360-uncovers-over-3000-recruitment.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-14T10:57:00.000Z",
-    "summary": "Cybersecurity researchers have uncovered a large-scale, global recruitment-themed phishing campaign that uses fake interview scheduling pages and Browser-in-the-Browser (BitB) windows to steal Google and Facebook credentials and, in more ad",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c10edf4192c53c23",
-    "title": "RingCentral data breach exposed info of 1.6 million accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-14T10:52:05.000Z",
-    "summary": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5f1a9967924154bb",
-    "title": "Apple Warns Users in 110 Countries They May Be Targets of Mercenary Spyware",
-    "link": "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-14T10:44:34.000Z",
-    "summary": "Apple on Thursday sent a fresh batch of notifications to customers whom it suspects may have been targeted by mercenary spyware attacks.\n\nIn a statement shared with TechCrunch, the iPhone maker said it alerted an unspecified number of users",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0afb22f1f75409d9",
-    "title": "1.6 Million Likely Impacted by RingCentral Data Breach",
-    "link": "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-14T10:24:03.000Z",
-    "summary": "The hackers published the allegedly stolen information, including names, addresses, email addresses, and phone numbers.\nThe post 1.6 Million Likely Impacted by RingCentral Data Breach appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
