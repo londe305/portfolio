@@ -1,5 +1,16 @@
 [
   {
+    "id": "3e7689a604490bb8",
+    "title": "Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight",
+    "link": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-22T08:30:00.000Z",
+    "summary": "The spyware-equipped Manic, a persistent Grandoreiro campaign in Latin America and Europe, and an expanded ToxicPanda 2.0 malware.\nThe post Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "aeb85eeb59175303",
     "title": "Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain",
     "link": "https://unit42.paloaltonetworks.com/sdlc-supply-chain/",
@@ -267,7 +278,7 @@
   },
   {
     "id": "33142ba025a43bbb",
-    "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+    "title": "Microsoft patches max severity code execution, privilege escalation flaws",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
     "source": "BleepingComputer",
     "category": "news",
@@ -2642,30 +2653,6 @@
     "category": "news",
     "pubDate": "2026-08-15T14:14:38.000Z",
     "summary": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4f4cd64898c60056",
-    "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
-    "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-15T08:38:46.000Z",
-    "summary": "A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts.\n\nThe vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It relates to an instance of insuffic",
-    "cveIds": [
-      "CVE-2026-58231"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "25bf3d07d4391be9",
-    "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
-    "link": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-15T07:24:04.000Z",
-    "summary": "A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC-NL) has warned.\n\nThe vulnerability in question is CVE-2026",
     "cveIds": [],
     "severity": "normal"
   }
