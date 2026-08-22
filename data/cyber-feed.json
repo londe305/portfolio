@@ -1,5 +1,38 @@
 [
   {
+    "id": "b55737a91db09810",
+    "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
+    "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-22T14:32:41.000Z",
+    "summary": "The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country.\n\nAs part of the settlement, the social ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4f4f34bb8b748823",
+    "title": "Hackers infect Android car head units with proxy botnet malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-22T14:14:24.000Z",
+    "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4a582085c44636e5",
+    "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
+    "link": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-22T13:00:09.000Z",
+    "summary": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict input validation, an",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "3e7689a604490bb8",
     "title": "Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight",
     "link": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/",
@@ -2642,17 +2675,6 @@
     "category": "news",
     "pubDate": "2026-08-16T15:07:44.000Z",
     "summary": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web browser. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f93e1161a92d3c8f",
-    "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
-    "link": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-15T14:14:38.000Z",
-    "summary": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
     "cveIds": [],
     "severity": "normal"
   }
