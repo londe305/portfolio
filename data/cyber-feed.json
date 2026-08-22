@@ -1,5 +1,16 @@
 [
   {
+    "id": "aeb85eeb59175303",
+    "title": "Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain",
+    "link": "https://unit42.paloaltonetworks.com/sdlc-supply-chain/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-08-21T23:00:21.000Z",
+    "summary": "Attackers are targeting CI/CD pipelines and developer tools instead of application code, requiring total SDLC visibility and strict security controls\nThe post Connecting the Dots: Securing the Overlooked Corners of the Software Development ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6a6adf4925eef6b8",
     "title": "Lawmakers call for investigation into impact of CISA staffing cuts",
     "link": "https://therecord.media/lawmakers-call-for-investigation-into-impact-of-cisa-cuts",
@@ -2655,17 +2666,6 @@
     "category": "news",
     "pubDate": "2026-08-15T07:24:04.000Z",
     "summary": "A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC-NL) has warned.\n\nThe vulnerability in question is CVE-2026",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d0cd08b3ec2e6f76",
-    "title": "How Anthropic plans to watermark Claude's AI-generated text",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-14T23:24:17.000Z",
-    "summary": "It could soon become easier to identify AI-generated content, even if it's not the usual \"It's Not X, it's Y\" type of post you'd come across on LinkedIn and other socials. [...]",
     "cveIds": [],
     "severity": "normal"
   }
