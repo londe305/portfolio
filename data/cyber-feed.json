@@ -55,6 +55,17 @@
     "severity": "normal"
   },
   {
+    "id": "5c9215ebb70ab81b",
+    "title": "How an Emerging Industrial Protocol Family Could Put OT at Risk",
+    "link": "https://www.darkreading.com/ics-ot-security/how-emerging-industrial-protocol-family-put-ot-at-risk",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-21T20:24:42.000Z",
+    "summary": "New research shows how attacks against some unprotected TSN protocols could allow attackers to disrupt or manipulate physical processes",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6a6adf4925eef6b8",
     "title": "Lawmakers call for investigation into impact of CISA staffing cuts",
     "link": "https://therecord.media/lawmakers-call-for-investigation-into-impact-of-cisa-cuts",
@@ -260,6 +271,17 @@
     "category": "news",
     "pubDate": "2026-08-21T13:30:00.000Z",
     "summary": "The new AI security controls follow the Hugging Face incident last month, though many of these additions perhaps should have been in place prior to the frontier models escaping.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "057e553d24f782bc",
+    "title": "Hardware Makers Implement Post-Quantum Cryptography as Security Threats Near",
+    "link": "https://www.darkreading.com/cyber-risk/hardware-makers-implement-post-quantum-cryptography",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-21T13:10:33.000Z",
+    "summary": "The coming threat of super-powerful computers capable of cracking today’s algorithms requires upgrading encryption now. Tech companies have begun building defenses.",
     "cveIds": [],
     "severity": "normal"
   },
