@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-23T12:52:28.466Z",
+  "lastRun": "2026-08-23T15:28:24.595Z",
   "totalItems": 243,
   "sources": [
     {
@@ -52,9 +52,9 @@
     },
     {
       "name": "Microsoft Security Blog",
-      "ok": false,
-      "itemCount": 0,
-      "error": "Status code 403"
+      "ok": true,
+      "itemCount": 10,
+      "error": null
     },
     {
       "name": "Palo Alto Unit 42",

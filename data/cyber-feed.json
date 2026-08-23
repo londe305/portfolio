@@ -1,5 +1,16 @@
 [
   {
+    "id": "75d7e61073577e67",
+    "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
+    "link": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-23T14:23:46.000Z",
+    "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "b55737a91db09810",
     "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
     "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
@@ -2686,17 +2697,6 @@
     "category": "news",
     "pubDate": "2026-08-16T17:29:52.000Z",
     "summary": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disruptions to communications. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7a29c0d0658d0a0a",
-    "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
-    "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-16T15:07:44.000Z",
-    "summary": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web browser. [...]",
     "cveIds": [],
     "severity": "normal"
   }
