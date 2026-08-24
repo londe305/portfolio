@@ -1,5 +1,60 @@
 [
   {
+    "id": "cab325b830beaec6",
+    "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+    "link": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-24T15:17:16.000Z",
+    "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b7b289962c8fd616",
+    "title": "ToxicPanda Banking Trojan Matures into Enterprise Threat",
+    "link": "https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-24T14:34:59.000Z",
+    "summary": "The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f754abfe5ecb42e3",
+    "title": "Microsoft Teams now lets admins block external bots from meetings",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-24T14:00:19.000Z",
+    "summary": "Microsoft is rolling out a new Teams meeting protection policy that allows administrators to automatically block all identified external bots from joining Teams meetings. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "54842e03d28cccad",
+    "title": "South Korean startup platform breach exposes key management failures",
+    "link": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-24T14:00:10.000Z",
+    "summary": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Security explains why encryption keys must be securely managed and kept separate from the dat",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "cddffd85fda0f749",
+    "title": "Hired for One Job, Judged on Another: The CISO’s Real Problem",
+    "link": "https://www.securityweek.com/hired-for-one-job-judged-on-another-the-cisos-real-problem/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-24T14:00:00.000Z",
+    "summary": "The skills that get a CISO hired are rarely the skills they are judged on later. Most security leaders are stuck in that gap. Closing it is the real job.\nThe post Hired for One Job, Judged on Another: The CISO’s Real Problem appeared first ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "976473287a98e9b0",
     "title": "Uber Fined Nearly $1 Billion by Dutch Regulators Over Automated Suspensions of Driver Accounts",
     "link": "https://www.securityweek.com/uber-fined-nearly-1-billion-by-dutch-regulators-over-automated-suspensions-of-driver-accounts/",
@@ -20,6 +75,17 @@
     "summary": "Microsoft has confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. [...]",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "ed974b7e9a642d07",
+    "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
+    "link": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-24T12:35:36.000Z",
+    "summary": "Cybersecurity researchers have flagged two new malware families called  WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups.\n\nAccording to findings from Gen Digital, WordlistL",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "d2f1bc574daaa087",
@@ -501,7 +567,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-08-21T13:10:33.000Z",
-    "summary": "The coming threat of super-powerful computers capable of cracking today’s algorithms requires upgrading encryption now. Tech companies have begun building defenses.",
+    "summary": "The coming threat of super-powerful computers capable of cracking today's algorithms requires upgrading encryption now. Tech companies have begun building defenses.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2601,74 +2667,6 @@
     "category": "news",
     "pubDate": "2026-08-17T16:01:00.000Z",
     "summary": "MyDr, a privately-owned Polish company that supplies software to doctors, clinics and other healthcare providers, said on Friday that it had identified and removed the cause of the incident and introduced additional security measures.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9e3581dd2b3c6da9",
-    "title": "Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS",
-    "link": "https://www.darkreading.com/cyber-risk/linux-botnet-evooo1bot-mirai-capabilities-beyond-ddos",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-17T15:44:34.000Z",
-    "summary": "The botnet adds exploitation modules, credential theft, and reverse SOCKS relays to turn compromised devices into persistent attacker infrastructure.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5f4906e98d31b6e9",
-    "title": "Microsoft confirms GitHub is down worldwide",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-17T14:47:08.000Z",
-    "summary": "GitHub is down for some users as a widespread outage is causing errors across the website, API, Actions, Pull Requests, and several other services. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1173189d3b78f182",
-    "title": "Apple Screen Sharing Security, (Mon, Aug 17th)",
-    "link": "https://isc.sans.edu/diary/rss/33252",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-17T14:33:58.000Z",
-    "summary": "About 20 years ago, with macOS 10.5 (Leopard), Apple introduced screen sharing. Apple did not invent a new protocol for screen sharing. Instead, it used the established VNC protocol. VNC is a pretty simple, unencrypted protocol using TCP po",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bf8fe6904730bf9b",
-    "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
-    "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-17T14:00:10.000Z",
-    "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastructure it has always ",
-    "cveIds": [
-      "CVE-2026-54121"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "548d7014677235eb",
-    "title": "680,000 Impacted by French Tax Authority Data Breach",
-    "link": "https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-17T13:53:55.000Z",
-    "summary": "Hackers used compromised credentials to access enterprise and personal tax-related data.\nThe post 680,000 Impacted by French Tax Authority Data Breach appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d1deb81ec267f653",
-    "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-17T13:23:51.000Z",
-    "summary": "The expensive attacks are not always the clever ones.\n\nThis week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the origin",
     "cveIds": [],
     "severity": "critical"
   }
