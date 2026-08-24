@@ -1,5 +1,71 @@
 [
   {
+    "id": "2b12cda37b789b3f",
+    "title": "Microsoft shares temporary fix for Windows 11 gaming issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-24T09:42:05.000Z",
+    "summary": "Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c35d52e0aea11079",
+    "title": "Iran-Linked Hackers Shut Down UK Power Plant for Four Days",
+    "link": "https://www.securityweek.com/iran-linked-hackers-shut-down-uk-power-plant-for-four-days/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-24T09:22:09.000Z",
+    "summary": "The attack caused real-world operational disruption and raised concerns about the resilience of Britain’s distributed energy infrastructure and the potential for repeatable attacks.\nThe post Iran-Linked Hackers Shut Down UK Power Plant for ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "802d37b1b43edad8",
+    "title": "TikTok Reaches $400 Million Settlement With US Justice Department Over Children’s Privacy",
+    "link": "https://www.securityweek.com/tiktok-reaches-400-million-settlement-with-us-justice-department-over-childrens-privacy/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-24T09:11:11.000Z",
+    "summary": "TikTok will pay $300 million immediately and another $100 million after an order vacates an earlier consent decree against its predecessor company, Musical.ly.\nThe post TikTok Reaches $400 Million Settlement With US Justice Department Over ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "55c3f66451ed5e0a",
+    "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+    "link": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-24T08:08:31.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors.\n\nThe vast majority",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dc0e6dc1e9916034",
+    "title": "DOUBLECUP's PNG Payload, (Mon, Aug 24th)",
+    "link": "https://isc.sans.edu/diary/rss/33274",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-24T07:23:16.000Z",
+    "summary": "New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up. It doesn&#;x26;#;39;t use real steganography:",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "da8717ca70ea5641",
+    "title": "Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund",
+    "link": "https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-24T07:18:58.000Z",
+    "summary": "Claude Security, currently in public beta for Claude Enterprise customers, now runs codebase scans on Mythos 5.\nThe post Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "1fb5740f788c32a6",
     "title": "ISC Stormcast For Monday, August 24th, 2026 https://isc.sans.edu/podcastdetail/10064, (Mon, Aug 24th)",
     "link": "https://isc.sans.edu/diary/rss/33276",
@@ -2538,78 +2604,6 @@
     "pubDate": "2026-08-17T10:09:48.000Z",
     "summary": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]",
     "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a2ed8f8279e7c753",
-    "title": "40,000 Impacted by SafePal Data Breach",
-    "link": "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-17T09:37:06.000Z",
-    "summary": "Hackers exploited a vulnerability in the order-tracking function of a plugin to access SafePal customer information.\nThe post 40,000 Impacted by SafePal Data Breach appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "94401e3a9e83ec11",
-    "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
-    "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-17T09:29:55.000Z",
-    "summary": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices into SOCKS proxies.\n",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b779388583634728",
-    "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-17T09:05:33.000Z",
-    "summary": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare Eclipse\" and now tracked as CVE-2026-69414. [...]",
-    "cveIds": [
-      "CVE-2026-69414"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "9cdd553f6eba2c52",
-    "title": "Recent macOS Screen Sharing Vulnerability Exploited in Attacks",
-    "link": "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-17T08:47:38.000Z",
-    "summary": "Threat actors gained root access to the vulnerable systems and deployed a Monero miner.\nThe post Recent macOS Screen Sharing Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ba44143ddf144aa2",
-    "title": "Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure",
-    "link": "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-17T08:13:07.000Z",
-    "summary": "The vulnerability tracked as CVE-2026-58231 can be exploited to execute arbitrary code and compromise internal components.\nThe post Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-58231"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "18a680d8e524db66",
-    "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
-    "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-17T07:36:19.000Z",
-    "summary": "Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT).\n\nThe attacks involve the exploitation of CVE-2026-59310 (CVS",
-    "cveIds": [
-      "CVE-2026-59310"
-    ],
     "severity": "critical"
   }
 ]
