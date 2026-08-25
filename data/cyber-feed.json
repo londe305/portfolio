@@ -1,5 +1,38 @@
 [
   {
+    "id": "58dcd11572ec3d20",
+    "title": "Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation",
+    "link": "https://www.securityweek.com/linux-foundation-to-govern-trace-an-open-standard-for-ai-runtime-attestation/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-25T16:23:45.000Z",
+    "summary": "TRACE was developed by AMD, Intel, Microsoft, OPAQUE, and TII and contributed to the Linux Foundation.\nThe post Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dbcd442006ccb8ed",
+    "title": "The patch window is collapsing: Why security needs a new control plane",
+    "link": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-08-25T16:00:00.000Z",
+    "summary": "Organizations need protection that operates in the gap between discovery and remediation.\nThe post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Security Blog.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9e180ed52911d3cb",
+    "title": "Massive DDoS attack disrupts Norway’s government digital services",
+    "link": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-25T15:52:36.000Z",
+    "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "2ce1b7b6ba55ed3f",
     "title": "Obfuscating IP Addresses as Hostnames, (Tue, Aug 25th)",
     "link": "https://isc.sans.edu/diary/rss/33280",
@@ -190,6 +223,19 @@
     "severity": "normal"
   },
   {
+    "id": "7fff329c98e31a3a",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/08/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-60004 Gitea Code Injection Vulnerability\nThis type of vulnerability is a frequent attack vector ",
+    "cveIds": [
+      "CVE-2026-60004"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "02168dcbba55cff4",
     "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
     "link": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
@@ -374,7 +420,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-08-24T21:46:55.000Z",
-    "summary": "CISA has issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.",
+    "summary": "CISA issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.",
     "cveIds": [
       "CVE-2026-73570"
     ],
@@ -610,19 +656,6 @@
     "summary": "A new strain of malware is being used to infect Android-based car systems, turning the devices into part of a botnet.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "ea24647d8f68f3c8",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-24T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-21962 Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulner",
-    "cveIds": [
-      "CVE-2026-21962"
-    ],
-    "severity": "cve"
   },
   {
     "id": "3abe54a5d9ec56c7",
@@ -2571,105 +2604,6 @@
     "category": "vendor",
     "pubDate": "2026-08-18T19:05:33.000Z",
     "summary": "In August 2026, the actor TheHatman claimed to have stolen large volume of credentials from organizations' Microsoft Entra tenants. We provide guidance on mitigating large-scale credential attacks. \nThe post Threat Brief: Mitigating Large-S",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8b6ece1785fdc4ca",
-    "title": "CISOs Break Their Silence in 'Declassified' Docuseries",
-    "link": "https://www.darkreading.com/cyber-risk/cisos-break-their-silence-in-declassified-docuseries",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-18T18:32:01.000Z",
-    "summary": "Million-dollar heists, divorce, and career-ending burnout are all stories told in the latest docuseries revealing a behind-the-scenes look at the cybersecurity community.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3082dadc5c29c73a",
-    "title": "More than 200 victims of Medusa ransomware identified over the last year, CISA says",
-    "link": "https://therecord.media/more-than-200-medusa-ransomware-victims-in-last-year-cisa",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-18T18:05:00.000Z",
-    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) and FBI updated an advisory on the group initially released in March 2025 — writing that as of April 2026, Medusa actors have hit more than 500 victims. CISA previously said 300 vi",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ceafc26e50f3688c",
-    "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
-    "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-18T17:47:22.000Z",
-    "summary": "Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to the victim's Copilo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a4bd0e1b72a3e261",
-    "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
-    "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-18T17:44:05.000Z",
-    "summary": "Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) and industrial automation, are witnessing ma",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "064201ca0b8e788d",
-    "title": "Clop created custom web shell for Windchill data theft attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-18T17:29:51.000Z",
-    "summary": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repositories, and steal files. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ab4d6224cc67faff",
-    "title": "Hunting MacSync Stealer infrastructure through behavioral pivots",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/18/hunting-macsync-stealer-infrastructure-through-behavioral-pivots/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-08-18T17:08:28.000Z",
-    "summary": "MacSync Stealer rapidly rotates domains to evade detection, but its behavior remains consistent. Learn how Microsoft uncovered 30+ related domains using durable hunting pivots.\nThe post Hunting MacSync Stealer infrastructure through behavio",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "26d68c1585ab47b1",
-    "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
-    "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-18T16:58:16.000Z",
-    "summary": "A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange for a fee ranging from $20,000 to $60,000.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6eefb168defb3829",
-    "title": "Berlin cuts two state ministries off government network after security breach",
-    "link": "https://therecord.media/berlin-cuts-two-state-ministries-off-government-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-18T16:40:00.000Z",
-    "summary": "The affected ministries — one responsible for urban development, construction and housing, and the other for mobility, transport, climate protection and the environment — have been isolated from government networks since Friday as a precaut",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e6dac73c6ff495f5",
-    "title": "University of Texas forced to take systems offline in San Antonio after cyberattack",
-    "link": "https://therecord.media/university-of-texas-forced-to-take-systems-offline-cyberattack-san-antonio",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-18T16:20:00.000Z",
-    "summary": "The University of Texas at San Antonio, which serves 40,000 students across six campuses, said its IT team identified threat activity on its academic campus over the weekend and took some systems, including phones, offline in response.",
     "cveIds": [],
     "severity": "normal"
   }
