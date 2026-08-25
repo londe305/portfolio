@@ -1,5 +1,71 @@
 [
   {
+    "id": "7e2fb50731bba40c",
+    "title": "Hidden Prompts Trick AI Into False Email Summaries",
+    "link": "https://www.darkreading.com/cyber-risk/hidden-prompts-trick-ai-false-email-summaries",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-25T21:08:55.000Z",
+    "summary": "With some simple HTML that's invisible to users, attackers can manipulate AI-powered email summarizers into producing malicious information.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d3dcf320b6d0b0f3",
+    "title": "58 arrested in international cybercrime crackdown",
+    "link": "https://therecord.media/58-arrested-international-cybercrime-crackdown-interpol",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-25T20:33:00.000Z",
+    "summary": "Interpol officials said it uncovered a crime-as-a-service network in Argentina run by 196 people that provided website domains and money laundering support to West African organized crime groups like Black Axe.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9e6549a31581fc20",
+    "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
+    "link": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-25T20:25:26.000Z",
+    "summary": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple devices and disable the Activation Lock feature. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0929fa6d9bafd725",
+    "title": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
+    "link": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-25T19:50:16.000Z",
+    "summary": "Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "166f8a2fecb89830",
+    "title": "Employee benefits platform Paylogix says hackers stole financial and health data",
+    "link": "https://therecord.media/paylogix-cyberattack-akira-ransomware",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-25T18:45:00.000Z",
+    "summary": "The benefits management firm Paylogix told regulators that hackers stole sensitive information on tens of thousands of people from its systems.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c503fa13531c361a",
+    "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+    "link": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-25T18:17:17.000Z",
+    "summary": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and its enablers.\n\n\"We are launching an econom",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "58dcd11572ec3d20",
     "title": "Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation",
     "link": "https://www.securityweek.com/linux-foundation-to-govern-trace-an-open-standard-for-ai-runtime-attestation/",
@@ -212,6 +278,17 @@
     "severity": "critical"
   },
   {
+    "id": "4abcea04a3187264",
+    "title": "Ebyte NE2-D11",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain unauthorized administrative access, disclose sensitive information, modify device configuration, hijack authenticated sessions, and disrupt d",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "737cfb55d033cccf",
     "title": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
@@ -219,6 +296,17 @@
     "category": "advisory",
     "pubDate": "2026-08-25T12:00:00.000Z",
     "summary": "Advisory at a Glance\nTitle\nA Tale of Two SOCs: Insights From Two Red Team Assessments\n\n\nOriginal Publication \nAugust 25, 2026\n\n\nExecutive Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) conducted simultaneous red team a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "71182d82f67c93c5",
+    "title": "Rently Smart Home",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to access sensitive information and override user permissions.\nThe following versions of Rently Smart Home are affected:\nSmart Home <=20.1.0\nCVSS\nVendor",
     "cveIds": [],
     "severity": "normal"
   },
@@ -234,6 +322,61 @@
       "CVE-2026-60004"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "bbb2155112aae204",
+    "title": "PayRange API",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote, authenticated or unauthenticated attacker to disclose sensitive information, arbitrarily modify the device to cause a denial of service, or alter a device",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a96804b2286c913a",
+    "title": "Zoneminder",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in full Remote Code Execution (RCE) as the web server user.\nThe following versions of Zoneminder are affected:\nZoneminder 1.37.48|1.38.3 \nCVSS\nVendor\nEquipment\nVul",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d7fe95f839eedfc9",
+    "title": "Siemens SIMATIC IoT2050 Advanced",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSIMATIC IoT2050 Advanced devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create mal",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d759d95109c39f32",
+    "title": "FURUNO FA-50 Class B AIS Transponder",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to alter device settings.\nThe following versions of FURUNO FA-50 Class B AIS Transponder are affected:\nFURUNO FA-50 Class B AIS Transponder vers:all/",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "613cd5d5a41e341a",
+    "title": "Bendix EC80 Brake ECU",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause the loss of ABS functions, steering assist, speedometer, shifting capabilities, or disable automatic traction control.\nThe following version",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "02168dcbba55cff4",
@@ -1621,6 +1764,17 @@
     "severity": "normal"
   },
   {
+    "id": "9d475a174f5acca7",
+    "title": "Johnson Controls Simplex Incident Manager",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-20T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker with low privileges to extract user credentials (passwords and authentication tokens) from system memory, potentially leading to unauthorized acces",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "3a973d9720c51714",
     "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
@@ -1632,17 +1786,6 @@
       "CVE-2026-72529"
     ],
     "severity": "critical"
-  },
-  {
-    "id": "9d475a174f5acca7",
-    "title": "Johnson Controls Simplex Incident Manager",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-20T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker with low privileges to extract user credentials (passwords and authentication tokens) from system memory, potentially leading to unauthorized acces",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "537a6d2865a5a7eb",
@@ -2547,63 +2690,6 @@
     "category": "advisory",
     "pubDate": "2026-08-19T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Synacor Zimbra Collaboration. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une falsification de requêtes côté serveur (SSRF)",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "afbde52d2ee3efbb",
-    "title": "Critical GitLab Zero-Click Flaw Poses Mitigation Challenges",
-    "link": "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-18T21:25:58.000Z",
-    "summary": "A lack of technical details could make it hard for organizations running self-managed GitLab versions to detect potential exploitation of CVE-2026-19478.",
-    "cveIds": [
-      "CVE-2026-19478"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "4131ceb8828abb83",
-    "title": "'CoSnitch' Attack Tricked Copilot Into Mapping Out Architecture",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-18T20:17:24.000Z",
-    "summary": "Researchers discovered a \"meta-hacking\" technique that can manipulate the AI service into revealing its own security weaknesses.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "42793aabfe08ab34",
-    "title": "Comcast turns your Xfinity WiFi into a home motion detector",
-    "link": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-18T20:14:58.000Z",
-    "summary": "Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices to detect people moving through a home without cameras or motion sensors. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5e6ef98a361e26cc",
-    "title": "The 'Industrial Accidents' Behind Rogue AI Agent Attacks — and the Sandbox Failures Exposed",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/industrial-accidents-rogue-ai-agent-attacks-sandbox-failures",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-18T19:09:51.000Z",
-    "summary": "Rich Mogull, chief analyst with the Cloud Security Alliance, joins the Dark Reading News Desk with what defenders need to take away from AI agents escaping their environments to launch attacks.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "596af1394bdaac29",
-    "title": "Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18)",
-    "link": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-08-18T19:05:33.000Z",
-    "summary": "In August 2026, the actor TheHatman claimed to have stolen large volume of credentials from organizations' Microsoft Entra tenants. We provide guidance on mitigating large-scale credential attacks. \nThe post Threat Brief: Mitigating Large-S",
     "cveIds": [],
     "severity": "normal"
   }

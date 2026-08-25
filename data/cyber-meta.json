@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-08-25T18:48:07.042Z",
-  "totalItems": 235,
+  "lastRun": "2026-08-25T21:34:35.025Z",
+  "totalItems": 243,
   "sources": [
     {
       "name": "The Hacker News",
@@ -70,9 +70,9 @@
     },
     {
       "name": "SANS ISC",
-      "ok": false,
-      "itemCount": 0,
-      "error": "Status code 503"
+      "ok": true,
+      "itemCount": 10,
+      "error": null
     },
     {
       "name": "The Record",
