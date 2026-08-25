@@ -1,5 +1,29 @@
 [
   {
+    "id": "7450c9bbee707633",
+    "title": "US sanctions Iranian cyber actors as UK discloses power plant attack",
+    "link": "https://therecord.media/iran-cyberattacks-us-uk",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-24T23:00:00.000Z",
+    "summary": "The U.S. sanctioned several Iranian nationals for cyberattacks on critical infrastructure just days after reports emerged of a cyber intrusion on a small power plant in the United Kingdom.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "dd4860af26d52076",
+    "title": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-24T21:46:55.000Z",
+    "summary": "CISA has issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.",
+    "cveIds": [
+      "CVE-2026-73570"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "1f0fa9fb926a462f",
     "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
     "link": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
@@ -62,6 +86,28 @@
     "category": "news",
     "pubDate": "2026-08-24T17:56:24.000Z",
     "summary": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that they violated the Children's Online Privacy Protection Act (COPPA). [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9d8d702478cf0587",
+    "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
+    "link": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-24T17:41:30.000Z",
+    "summary": "If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work.\n\nThe harder part is what comes after. AI can also introduce open-source packages a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e1c256aed320d930",
+    "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
+    "link": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-24T17:41:11.000Z",
+    "summary": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients.\n\nMcAfee Labs said it detected and blocked more than 6,300 attempts",
     "cveIds": [],
     "severity": "normal"
   },
@@ -229,17 +275,6 @@
     "category": "news",
     "pubDate": "2026-08-24T11:58:28.000Z",
     "summary": "More than 200 vulnerabilities have been patched to date this year, compared to only 16 in 2025 and 22 in 2024. \nThe post 91 Vulnerabilities Patched in Spring Application Framework appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9d8d702478cf0587",
-    "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
-    "link": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-24T11:58:00.000Z",
-    "summary": "If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work.\n\nThe harder part is what comes after. AI can also introduce open-source packages a",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2557,83 +2592,6 @@
     "category": "advisory",
     "pubDate": "2026-08-18T02:00:03.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1b6be190be0b7d8e",
-    "title": "Multiples vulnérabilités dans les produits Apple (18 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1038/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "73fe8f382348b6db",
-    "title": "Multiples vulnérabilités dans Typo3 (18 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1036/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Typo3. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "384d369059e772f3",
-    "title": "Multiples vulnérabilités dans GitLab (18 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1037/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données et une injection de requêtes illégitimes par rebond (CSRF).",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "99011c978f7c22fe",
-    "title": "Multiples vulnérabilités dans Zabbix (18 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1039/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Zabbix. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des donné",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dba2cda6ba5d08d9",
-    "title": "Multiples vulnérabilités dans Mattermost Desktop App (18 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1040/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Desktop App. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "65fd9e6a66138ec4",
-    "title": "Ukrainian software developer faces 12 years in Swiss ransomware trial",
-    "link": "https://therecord.media/ukrainian-software-developer-court-switzerland",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-17T23:00:00.000Z",
-    "summary": "The unnamed 52-year-old is accused of attacking Swiss train manufacturer Stadler Rail alongside other enterprises as part of an international ransomware operation.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "08fe7105526807e9",
-    "title": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
-    "link": "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-17T21:37:23.000Z",
-    "summary": "Researchers found that by combining two vulnerabilities, they could take over an Android device by delivering a payload and getting the victim to answer their phone.",
     "cveIds": [],
     "severity": "normal"
   }
