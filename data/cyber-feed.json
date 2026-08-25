@@ -1,5 +1,40 @@
 [
   {
+    "id": "aefc8810292db5cb",
+    "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+    "link": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-25T08:34:07.000Z",
+    "summary": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as any WordPress user, including administrato",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "02a70ec358ed54d1",
+    "title": "Taiwan Charges 9 Over Illegal AI Server Exports to China, Including Nvidia and Super Micro Staff",
+    "link": "https://www.securityweek.com/taiwan-charges-9-over-illegal-ai-server-exports-to-china-including-nvidia-and-super-micro-staff/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-25T08:30:00.000Z",
+    "summary": "AI infrastructure, including advanced semiconductors mostly made in Taiwan, has become a key point of competition between the U.S. and China.\nThe post Taiwan Charges 9 Over Illegal AI Server Exports to China, Including Nvidia and Super Micr",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e4aeece8a36e42aa",
+    "title": "CISA Warns of Exploited Oracle WebLogic Vulnerability",
+    "link": "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-25T07:46:34.000Z",
+    "summary": "The vulnerability is tracked as CVE-2026-21962 and it has been widely exploited by threat actors against WebLogic servers.\nThe post CISA Warns of Exploited Oracle WebLogic Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-21962"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "032a23e858ec8362",
     "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
     "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
@@ -2528,60 +2563,5 @@
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "86fc693b08520a75",
-    "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-18T09:24:49.000Z",
-    "summary": "Microsoft says some users are experiencing issues searching in Microsoft 365 apps, including Outlook on the web, Outlook desktop, SharePoint Online, and OneDrive. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "78929486b80dcbe2",
-    "title": "Heights Finance Data Breach Impacts at Least 1.2 Million Individuals",
-    "link": "https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-18T09:18:34.000Z",
-    "summary": "Hackers stole names, addresses, phone numbers, Social Security numbers, and financial information from a third-party platform.\nThe post Heights Finance Data Breach Impacts at Least 1.2 Million Individuals appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d1ee06455126e6d9",
-    "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
-    "link": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-18T09:10:45.000Z",
-    "summary": "SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone numbers, and purchase details of approximately 39,798 customers.\n\nThe hardware wallet maker said all",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a32841c99fcc3cfe",
-    "title": "GitLab Patches Critical Code Injection Vulnerability",
-    "link": "https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-18T08:51:07.000Z",
-    "summary": "The security defect allows unauthenticated attackers to modify or delete user data and public projects.\nThe post GitLab Patches Critical Code Injection Vulnerability appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "afefe377419bfd4b",
-    "title": "Microsoft starts removing WMIC tool used by cybercriminals",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-18T08:12:08.000Z",
-    "summary": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
