@@ -1,5 +1,16 @@
 [
   {
+    "id": "71b90a3f2d04ff4a",
+    "title": "ISC Stormcast For Wednesday, August 26th, 2026 https://isc.sans.edu/podcastdetail/10068, (Wed, Aug 26th)",
+    "link": "https://isc.sans.edu/diary/rss/33282",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-26T02:40:13.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "76252466e432cd31",
     "title": "LACMA data breach last year exposed social security and medical data",
     "link": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
@@ -2527,16 +2538,5 @@
     "summary": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) software, according to ne",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "14701b61925dc0a9",
-    "title": "ISC Stormcast For Wednesday, August 19th, 2026 https://isc.sans.edu/podcastdetail/10058, (Wed, Aug 19th)",
-    "link": "https://isc.sans.edu/diary/rss/33258",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-19T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
