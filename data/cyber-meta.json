@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-08-26T13:04:21.674Z",
-  "totalItems": 236,
+  "lastRun": "2026-08-26T16:23:00.774Z",
+  "totalItems": 242,
   "sources": [
     {
       "name": "The Hacker News",
@@ -52,9 +52,9 @@
     },
     {
       "name": "Microsoft Security Blog",
-      "ok": false,
-      "itemCount": 0,
-      "error": "Status code 403"
+      "ok": true,
+      "itemCount": 10,
+      "error": null
     },
     {
       "name": "Palo Alto Unit 42",
@@ -70,9 +70,9 @@
     },
     {
       "name": "SANS ISC",
-      "ok": false,
-      "itemCount": 0,
-      "error": "Invalid character entity\nLine: 16\nColumn: 50\nChar: ;"
+      "ok": true,
+      "itemCount": 10,
+      "error": null
     },
     {
       "name": "The Record",

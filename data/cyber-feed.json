@@ -1,5 +1,115 @@
 [
   {
+    "id": "94dac3c44124a696",
+    "title": "Who Has Admin Rights in your Entra ID Directory&#x3f;, (Wed, Aug 26th)",
+    "link": "https://isc.sans.edu/diary/rss/33284",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-26T15:58:15.000Z",
+    "summary": "A common thing that folks should \"worry\" about in Entra (or any platform really) is \"who has rights to administer\"&#;x26;#;x3f;&#;x26;#;xc2;&#;x26;#;xa0; Who can delete or change key things, or modify them in ways that might not be obvious ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9a98aa77861e21a3",
+    "title": "Iran-linked hackers expand infrastructure across Europe and Middle East, report says",
+    "link": "https://therecord.media/iran-linked-hackers-expand-infrastructure-europe-middle-east",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-26T15:45:00.000Z",
+    "summary": "Researchers said they identified servers and domains associated with several countries in Europe and the Middle East, potentially pointing to a broader targeting profile for an Iranian hacking group.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "06364703aa39b685",
+    "title": "AI Speeds Up Malware Development, Not Its Success Rate: Analysis",
+    "link": "https://www.securityweek.com/ai-speeds-up-malware-development-not-its-success-rate-analysis/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-26T15:23:45.000Z",
+    "summary": "Palo Alto Networks Unit 42 analyzed 405 AI-linked malware samples and found only 12 reached production endpoints.\nThe post AI Speeds Up Malware Development, Not Its Success Rate: Analysis appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1eb6f14f69bab33c",
+    "title": "Boston Scientific says cyberattack disrupted operations globally",
+    "link": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-26T15:19:21.000Z",
+    "summary": "Medical technology company Boston Scientific has been targeted in a cyberattack that disrupted some of its IT systems, causing operational disruptions globally. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8facafab923523d4",
+    "title": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-26T14:47:51.000Z",
+    "summary": "Attackers are now targeting a chain of two Microsoft SharePoint vulnerabilities that can allow them to execute arbitrary code on unpatched servers, according to threat intelligence company Defused. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1e95a2162d74fe6c",
+    "title": "FBI disrupts proxy network enabling Chinese espionage operations",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-26T14:17:59.000Z",
+    "summary": "The FBI has disrupted infrastructure associated with a technical \"quartermaster\" that provided reconnaissance, proxy management, and operational routing capabilities for Chinese cyber espionage activities. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1c632c8984a6c385",
+    "title": "Snowflake ends service-account passwords. Now comes the hard part",
+    "link": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-26T14:01:11.000Z",
+    "summary": "Snowflake is ending password authentication for legacy service accounts, forcing organizations to migrate them to passwordless methods. Token Security explains why the harder challenge is identifying what uses each account, who owns it, and",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a631e8a45ed3af92",
+    "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+    "link": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-26T13:44:31.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a new adversary-in-the-middle (AitM) phishing toolkit called NovaCookies that's used as a proxy to redirect Microsoft 365 sign-ins, while capturing authenticated sessions in the process.\n\n",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bddf4867030e32ad",
+    "title": "Ubiquiti patches three max severity security vulnerabilities",
+    "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-26T13:17:54.000Z",
+    "summary": "Ubiquiti has released security patches for three new maximum-severity vulnerabilities that threat actors can exploit remotely without privileges. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "16737fe3c131bea3",
+    "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
+    "link": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-26T13:07:02.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published the results of two red team assessments it conducted simultaneously against two critical infrastructure organizations, using what it described as similar tradecr",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "255d30a53dec2be1",
     "title": "Adobe and Nvidia Patch Dozens of Vulnerabilities",
     "link": "https://www.securityweek.com/adobe-and-nvidia-patch-dozens-of-vulnerabilities/",
@@ -22,6 +132,17 @@
     "severity": "normal"
   },
   {
+    "id": "56a54f909732eebb",
+    "title": "CISA Vulnerability Review",
+    "link": "https://www.cisa.gov/resources-tools/resources/cisa-vulnerability-review",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-26T12:00:00.000Z",
+    "summary": "Most compromises do not rely on advanced techniques or cutting-edge tools. Cyber threat actors scan the internet looking for exposed, well-known software vulnerabilities to exploit. Basic security failures enable most compromises and organi",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "e5c89987e8ab702f",
     "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
     "link": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
@@ -40,6 +161,17 @@
     "category": "news",
     "pubDate": "2026-08-26T11:36:49.000Z",
     "summary": "The SOC we've always known was built around a model that guarantees most of the alert queue will never receive analyst review. There's never time. In a traditional SOC, the typical progression follows a well-known pattern: an alert arrives;",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eebee853f148d298",
+    "title": "'NovaCookies' Kit Steals Microsoft 365 Sessions for $320 a Month",
+    "link": "https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-26T11:33:40.000Z",
+    "summary": "The adversary-in-the-middle (AitM) phishing service lowers the barrier to entry for actors to create attacks and steal more than just user credentials.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -497,7 +629,7 @@
     "source": "The Record",
     "category": "news",
     "pubDate": "2026-08-25T12:45:00.000Z",
-    "summary": "The British government is seeking new powers to ban certain technology vendors from supplying companies working in the country’s critical sectors — potentially doing so in secret.",
+    "summary": "The British government is seeking new powers to ban certain technology vendors from supplying companies working in the country’s critical sectors — and to potentially do so in secret.",
     "cveIds": [],
     "severity": "critical"
   },
@@ -524,13 +656,13 @@
     "severity": "critical"
   },
   {
-    "id": "4abcea04a3187264",
-    "title": "Ebyte NE2-D11",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06",
+    "id": "bbb2155112aae204",
+    "title": "PayRange API",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain unauthorized administrative access, disclose sensitive information, modify device configuration, hijack authenticated sessions, and disrupt d",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote, authenticated or unauthenticated attacker to disclose sensitive information, arbitrarily modify the device to cause a denial of service, or alter a device",
     "cveIds": [],
     "severity": "normal"
   },
@@ -568,17 +700,6 @@
       "CVE-2026-60004"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "bbb2155112aae204",
-    "title": "PayRange API",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote, authenticated or unauthenticated attacker to disclose sensitive information, arbitrarily modify the device to cause a denial of service, or alter a device",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "a96804b2286c913a",
@@ -621,6 +742,17 @@
     "category": "advisory",
     "pubDate": "2026-08-25T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause the loss of ABS functions, steering assist, speedometer, shifting capabilities, or disable automatic traction control.\nThe following version",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4abcea04a3187264",
+    "title": "Ebyte NE2-D11",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain unauthorized administrative access, disclose sensitive information, modify device configuration, hijack authenticated sessions, and disrupt d",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2551,72 +2683,6 @@
     "category": "news",
     "pubDate": "2026-08-19T16:58:23.000Z",
     "summary": "A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e705e0afdf533cf2",
-    "title": "US charges Iranian hackers over $3.4 billion intellectual property theft",
-    "link": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-19T15:56:09.000Z",
-    "summary": "The U.S. has charged 17 Iranians, alleged members of a hacking-for-hire company called Mabna Institute, involved in years-long operations that stole data from American organizations. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0b33e58bf2f4cb5d",
-    "title": "Simple Scans for Cloud Metadata Service, (Wed, Aug 19th)",
-    "link": "https://isc.sans.edu/diary/rss/33260",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-19T14:24:58.000Z",
-    "summary": "Cloud providers typically expose a REST API at 169.254.169.254 that allows code running on virtual machines to retrieve machine-specific data. Some of the data is more or less harmless, such as the region the machine is running in or its MA",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ca5aedcee544950d",
-    "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
-    "link": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-19T14:00:10.000Z",
-    "summary": "Huntress observed a 155x increase in password spraying attacks in H1 2026, including a campaign that generated more than 81 million login attempts in two weeks. The attacks exploited legacy authentication and gaps in MFA policies that left ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "904a232d1fd2bb43",
-    "title": "Latvian officials resign after cyberattack exposes data on 1.2 million people",
-    "link": "https://therecord.media/latvia-cyberattack-vehicle-data",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-19T13:45:00.000Z",
-    "summary": "Latvia’s road traffic agency confirmed that hackers stole data connected to about two-thirds of the country’s population in a major cyberattack that has prompted calls for senior officials to resign.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5047ae247f753e11",
-    "title": "Virtual Event Today: CodeSecCon – Secure Your Code and Applications",
-    "link": "https://www.securityweek.com/virtual-event-today-codeseccon-secure-your-code-and-applications/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-19T13:36:17.000Z",
-    "summary": "CodeSecCon is the premier virtual event bringing together developers and cybersecurity professionals to revolutionize the way applications are built, secured, and maintained.\nThe post Virtual Event Today: CodeSecCon – Secure Your Code and A",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a5bd7d34d6d98f30",
-    "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
-    "link": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-19T13:12:17.000Z",
-    "summary": "A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia.\n\nThe intrusion set makes use of seven remote access tool (RAT) families, five of which have never been prev",
     "cveIds": [],
     "severity": "normal"
   }
