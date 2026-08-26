@@ -1,5 +1,84 @@
 [
   {
+    "id": "ccdd25e73dd30714",
+    "title": "Interpol's Jackal IV Disrupts West African Crime Infrastructure",
+    "link": "https://www.darkreading.com/threat-intelligence/interpols-jackal-iv-west-african-crime-infrastructure",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-26T08:30:00.000Z",
+    "summary": "The international law enforcement operation focused on disrupting crime-as-a-service networks and supporting infrastructure behind groups like Black Axe.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5441a158c15b3d76",
+    "title": "Nigeria Looks to Sovereign Cloud for Cyber, National Security",
+    "link": "https://www.darkreading.com/cybersecurity-operations/nigeria-sovereign-cloud-cyber-national-security",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-26T08:00:00.000Z",
+    "summary": "The West African nation launched financing, procurement, and infrastructure policies to boost its sovereign cloud initiative and increase domestic technical knowledge.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5a7779b46815d3bd",
+    "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
+    "link": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-26T07:54:12.000Z",
+    "summary": "An eight-month INTERPOL operation targeting West African organized crime groups has led to arrests of 58 people and the identification of 263 suspects.\n\n\"The operation, which brought together 22 countries from six continents, is a response ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4caf32d0a443645c",
+    "title": "Sensitive Information Exposed in Nutex Health Data Breach",
+    "link": "https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-26T07:41:50.000Z",
+    "summary": "Nutex Health has informed the SEC that it recently detected unauthorized access and data exfiltration.\nThe post Sensitive Information Exposed in Nutex Health Data Breach appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2f41fa9d9b744abc",
+    "title": "Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
+    "link": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-26T07:12:55.000Z",
+    "summary": "An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically crafted network packet reaches the machine and then runs commands written in a 23",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "85869282d537c6f4",
+    "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
+    "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-26T06:27:07.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea.\n\nThe vulnerability in question is CVE-2026-60004 (CVSS sc",
+    "cveIds": [
+      "CVE-2026-60004"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "16ed421380f42b5d",
+    "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
+    "link": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-26T05:47:28.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft victims posing as Apple Support and ask fo",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6975220416ff1dad",
     "title": "CISA Warns of Exploited Gitea Vulnerability",
     "link": "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/",
@@ -2474,49 +2553,5 @@
     "summary": "Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "cc51d02fd6afc827",
-    "title": "943 Patches Rolled Out With Oracle’s August 2026 Security Update",
-    "link": "https://www.securityweek.com/943-patches-rolled-out-with-oracles-august-2026-security-update/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-19T09:14:51.000Z",
-    "summary": "The fixes resolve over 1,000 vulnerabilities across two dozen products, including over 460 remotely exploitable bugs.\nThe post 943 Patches Rolled Out With Oracle’s August 2026 Security Update appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cc9367240fb418e9",
-    "title": "Windows 11 24H2 Home and Pro reach end of support in 2 months",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-19T09:10:20.000Z",
-    "summary": "Microsoft has reminded customers that systems running Home and Pro editions of Windows 11 24H2 will stop receiving updates in two months. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "012cbc4b7057c2d7",
-    "title": "Chrome, Firefox Updates Patch Dozens of Vulnerabilities",
-    "link": "https://www.securityweek.com/chrome-firefox-updates-patch-dozens-of-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-19T08:19:09.000Z",
-    "summary": "The bugs could lead to code execution, privilege escalation, sandbox escape, and information disclosure.\nThe post Chrome, Firefox Updates Patch Dozens of Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "09e81bbc46f974bf",
-    "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-19T08:00:48.000Z",
-    "summary": "The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
