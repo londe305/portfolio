@@ -1,5 +1,49 @@
 [
   {
+    "id": "e266701766fa93ea",
+    "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-26T21:33:20.000Z",
+    "summary": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "29d4e1a8dd1a66ec",
+    "title": "Dark Caracal Adds New Malware to Cyber Espionage Arsenal",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/dark-caracal-adds-new-malware-cyber-espionage-arsenal",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-26T21:33:06.000Z",
+    "summary": "GoCaracal is a new modular malware framework that broadens Dark Caracal's capabilities to steal data and maintain access to victims.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "49b7acb0044aef23",
+    "title": "Exclusive: NSA to host a hacker reunion in bid to rebuild secretive unit",
+    "link": "https://therecord.media/nsa-to-host-hacker-reunion-in-bid-to-rebuild-secretive-unit",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-26T20:53:00.000Z",
+    "summary": "The National Security Agency will welcome back to campus potentially hundreds of former members of the elite group known as Tailored Access Operations (TAO) to celebrate the division’s recent rebranding.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d7dae364ce250d82",
+    "title": "Red Flags That Expose Fake North Korean IT Workers",
+    "link": "https://www.darkreading.com/insider-threats/red-flags-expose-fake-north-korean-it-workers",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-26T19:21:24.000Z",
+    "summary": "North Korean operatives posing as IT workers are improving their tactics, but researchers say there are still ways to spot them before they do damage.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a464a049b843a86a",
     "title": "Medical device firm Boston Scientific says cyberattack has disrupted shipment processes",
     "link": "https://therecord.media/boston-scientific-cyberattack-disrupts-shipment-processes",
@@ -2578,126 +2622,5 @@
     "summary": "",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "21ce2a289f391926",
-    "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-20T00:20:55.000Z",
-    "summary": "ChatGPT is experiencing a major outage, and users are unable to sign in, create accounts, or load chats, including previous conversations. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "781f7ca7a38c1a7f",
-    "title": "Multiples vulnérabilités dans les produits Splunk (20 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1056/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confident",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "43dc37380966d0bf",
-    "title": "Multiples vulnérabilités dans Ceph (20 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1057/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Ceph. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ed5efd5b813fda54",
-    "title": "Multiples vulnérabilités dans les produits Cisco (20 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1058/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidenti",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "72cee72342a312af",
-    "title": "Multiples vulnérabilités dans les produits Citrix (20 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1059/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Elles permettent à un attaquant de provoquer un déni de service à distance, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9f7340a68ba7da5c",
-    "title": "Multiples vulnérabilités dans Microsoft Windows (20 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1060/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-20T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Elles permettent à un attaquant de provoquer une élévation de privilèges et une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "47ed01d1365e69fb",
-    "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
-    "link": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-19T20:59:58.000Z",
-    "summary": "A suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become public and claiming to be able to provide decryption keys and delete stolen data for a fee",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8f233e5c587a804a",
-    "title": "Rogue ransomware affiliate poses as data recovery firm to steal payments",
-    "link": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-data-recovery-firm/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-19T20:59:58.000Z",
-    "summary": "A suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become public and claiming to be able to provide decryption keys and delete stolen data for a fee",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "68a8467501d60f78",
-    "title": "Sakura Internet hack exposes data of up to 1.36 million accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-19T20:53:38.000Z",
-    "summary": "Japanese cloud and data center service provider Sakura Internet disclosed that hackers accessed its sales management system, where customer contract and membership information is stored. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "337c6947b430a07c",
-    "title": "No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns",
-    "link": "https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-19T20:32:09.000Z",
-    "summary": "The AI company officially forbids illicit use, while offering guardrail-free social engineering, offensive cybercrime, and OSINT scanning to anyone with a bit of cryptocurrency.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3262c97d3ef20daa",
-    "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
-    "link": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-19T20:07:12.000Z",
-    "summary": "U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
