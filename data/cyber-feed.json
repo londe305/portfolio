@@ -1,5 +1,359 @@
 [
   {
+    "id": "cf0f2a0c453ea3b6",
+    "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
+    "link": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-27T14:00:10.000Z",
+    "summary": "Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and response. ESET explains how combining threat intelligence, continuous monitoring, and human expertise can h",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "450a2aa94aabef40",
+    "title": "Android 17 adds ECH support to make web browsing harder to track",
+    "link": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-27T14:00:00.000Z",
+    "summary": "Google is introducing new network security protections in Android 17 to strengthen connection privacy, address cellular vulnerabilities, and protect the privacy of users' home networks. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e28bfb5510126232",
+    "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-27T13:31:13.000Z",
+    "summary": "Australian authorities have arrested and charged two young men accused of belonging to TeamPCP, a hacking group linked to a string of far-reaching developer supply chain attacks. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "47f6318449a2f12f",
+    "title": "Cyberattack on Manchester Airports Group exposes data of 8.7 million customers",
+    "link": "https://therecord.media/cyberattack-on-manchester-airports-group-exposes-millions-customer-info",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-27T13:15:00.000Z",
+    "summary": "A spokesperson told The Yorkshire Post that roughly 8.7 million people were impacted, although they did not provide a date range. They added that in the “vast majority” of cases, the only information accessed was an email address.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "de196ccbe3872ebd",
+    "title": "Australia charges two men for TeamPCP supply-chain hacking spree",
+    "link": "https://therecord.media/australia-teampcp-hackers-arrested",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-27T13:00:00.000Z",
+    "summary": "Two men in Australia were charged Wednesday over their alleged membership in TeamPCP, the cybercrime group blamed for one of the most damaging hacking campaigns of the past year.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dde3fd5d44a40ba4",
+    "title": "Australia Arrests 2 Alleged TeamPCP Hackers",
+    "link": "https://www.securityweek.com/australia-arrests-2-alleged-teampcp-hackers/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-27T12:48:03.000Z",
+    "summary": "Australian and US authorities collaborated to identify and charge the alleged cybercriminals, who face many years in prison.\nThe post Australia Arrests 2 Alleged TeamPCP Hackers appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1c99fb058a1b2ffe",
+    "title": "Microsoft rolls out fix for Windows 11 crashes, gaming issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-windows-11-crashes-gaming-issues/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-27T12:16:32.000Z",
+    "summary": "Microsoft has started rolling out a permanent fix for a known issue that causes system crashes and gaming issues on Windows 11 devices. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4ac76ea1ee4005bd",
+    "title": "Webinar: How Google Workspace breaches happen and what to do next",
+    "link": "https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-27T12:16:24.000Z",
+    "summary": "Google Workspace breaches can begin with social engineering or forgotten third-party integrations rather than sophisticated exploits. This webinar examines real-world breaches, what happens during the critical first hours, and the security ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0c8de13fdffa264c",
+    "title": "DOJ firearms agency says hackers breached system containing investigation targets",
+    "link": "https://therecord.media/doj-atf-cyberattack-qilin-ransomware",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-27T12:15:00.000Z",
+    "summary": "The Bureau of Alcohol, Tobacco, Firearms and Explosives confirmed it experienced a cyberattack on a system containing investigation information, as a prolific ransomware gang claimed to have carried out the breach.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7f345859c3f51b43",
+    "title": "OpenAI Agents Coordinated via Makeshift Message Board Ahead of Hugging Face Hack",
+    "link": "https://www.securityweek.com/openai-agents-coordinated-via-makeshift-message-board-ahead-of-hugging-face-hack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-27T11:58:01.000Z",
+    "summary": "New training environments will teach AI models to distrust instructions arriving from other agents outside sanctioned channels.\nThe post OpenAI Agents Coordinated via Makeshift Message Board Ahead of Hugging Face Hack appeared first on Secu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5a570ea1e7c28b60",
+    "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
+    "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-27T11:56:30.000Z",
+    "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4ff42a628cb4ee60",
+    "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
+    "link": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-27T11:56:26.000Z",
+    "summary": "The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in TeamPCP, the cybercrime group behind the March 2026 compromise of the open-source security scanners T",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4397ae0968f0709c",
+    "title": "Okta Shares Surge on Strong Earnings, Growing Demand for AI Identity Security",
+    "link": "https://www.securityweek.com/okta-shares-surge-on-strong-earnings-growing-demand-for-ai-identity-security/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-27T11:53:10.000Z",
+    "summary": "The identity security company beat quarterly expectations and raised its outlook as enterprises face growing pressure to secure AI agents and other non-human identities.\nThe post Okta Shares Surge on Strong Earnings, Growing Demand for AI I",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bf9d2d640f0d2310",
+    "title": "What the Data Says About AI in Security Operations in 2026",
+    "link": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-27T11:30:00.000Z",
+    "summary": "AI is officially mainstream in security operations. According to Prophet Security's State of AI in Security Operations 2026 report (produced from ViB’s survey of 250+ cybersecurity pros), 40% of security teams now use AI daily. Another 56% ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4bb322634d8900d3",
+    "title": "Russian Hackers Phish EU Officials Over Messaging Apps",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-phish-eu-officials-messaging-apps",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-27T11:16:01.000Z",
+    "summary": "EU governments are trying to move away from popular messaging apps as nation-state threat groups shift their focus from email to Signal and WhatsApp.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "715d2727a504127a",
+    "title": "CISO Conversations: Chris Wheeler – Trust Is the Job, From the Navy to the C-Suite",
+    "link": "https://www.securityweek.com/ciso-conversations-chris-wheeler-trust-is-the-job-from-the-navy-to-the-c-suite/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-27T11:15:00.000Z",
+    "summary": "SecurityWeek talks to Chris Wheeler, CISO at Resilience, about his journey from the Navy to becoming a cybersecurity leader.\nThe post CISO Conversations: Chris Wheeler – Trust Is the Job, From the Navy to the C-Suite appeared first on Secur",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c4345d23c48c988e",
+    "title": "Carhartt data breach exposes information of 12.9 million accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-27T11:10:04.000Z",
+    "summary": "The ShinyHunters extortion group has published sensitive data from nearly 13 million accounts stolen from clothing retailer giant Carhartt earlier this month, according to data breach notification service Have I Been Pwned. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "861f4dd4c580966a",
+    "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
+    "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-08-27T11:04:15.000Z",
+    "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\r\n\r\nIn a statement rele",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7604fc96e6831e7e",
+    "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
+    "link": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-27T11:00:57.000Z",
+    "summary": "Individuals and organizations in Cambodia have emerged as the target of a new campaign that delivers an open-source remote access trojan (RAT) called Spark RAT.\n\n\"The samples employ diverse lure themes, suggesting an effort to appeal to a b",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c78a2b9ec0936d7f",
+    "title": "Cyberattack Causes Global Disruption at Boston Scientific",
+    "link": "https://www.securityweek.com/cyberattack-causes-global-disruption-at-boston-scientific/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-27T10:18:27.000Z",
+    "summary": "The cybersecurity incident has disrupted Boston Scientific’s ability to process and ship customer orders.\nThe post Cyberattack Causes Global Disruption at Boston Scientific appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ffbd571518d7b71d",
+    "title": "JavaScript obfuscation: From party trick to phishing kit",
+    "link": "https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-08-27T10:00:27.000Z",
+    "summary": "Learn the basics of what obfuscation is, why a researcher would try to reverse it, and several ways to approach the problem.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4ddab072c3b71a30",
+    "title": "The Future of AI-Driven Security Depends on Complete Data",
+    "link": "https://www.securityweek.com/the-future-of-ai-driven-security-depends-on-complete-data/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-27T10:00:00.000Z",
+    "summary": "For twenty-five years, \"data\" in security meant logs and events. But logs are a lossy representation of reality. \nThe post The Future of AI-Driven Security Depends on Complete Data appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b1b4909ffa7b5ddb",
+    "title": "A polymorphic phishing page (that occasionally breaks itself), (Thu, Aug 27th)",
+    "link": "https://isc.sans.edu/diary/rss/33290",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-27T09:57:28.000Z",
+    "summary": "As I've mentioned before in some of my diaries, from time to time, I like to go over phishing messages that get caught in my various spam traps or sent to us here at the Internet Storm Center.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "30da300bbde5614d",
+    "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
+    "link": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-27T09:33:38.000Z",
+    "summary": "Threat actors linked by Arctic Wolf to Dark Caracal with medium confidence deployed a previously undocumented Go-based malware framework, GoCaracal, during a June 2026 intrusion at an unnamed communications organization in Venezuela.\n\nGoCar",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "71a636a83a48c50b",
+    "title": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-27T09:16:50.000Z",
+    "summary": "CISA has ordered U.S. government agencies to patch their Citrix NetScaler appliances against an actively exploited remote code execution vulnerability by Saturday. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c702ea5bb583745e",
+    "title": "US Disrupts Chinese Hacking Platform Used in Military and Critical Infrastructure Attacks",
+    "link": "https://www.securityweek.com/us-disrupts-chinese-hacking-platform-used-in-military-and-critical-infrastructure-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-27T09:01:06.000Z",
+    "summary": "The operation focused on a group named QTFY, which offers hacking services to the Chinese government and others.\nThe post US Disrupts Chinese Hacking Platform Used in Military and Critical Infrastructure Attacks appeared first on SecurityWe",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b89e97eb0d7e195b",
+    "title": "ATF confirms “major incident” after recent Qilin breach claims",
+    "link": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-27T08:13:50.000Z",
+    "summary": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "01d373d985123580",
+    "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
+    "link": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-27T08:13:11.000Z",
+    "summary": "Academic researchers have disclosed a Rowhammer attack impacting NVIDIA workstation GPUs with GDDR6 memory that defeats error correction codes (ECC), the mitigation NVIDIA recommends against GPU Rowhammer, and enables denial-of-service (DoS",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "efabff6f477c7446",
+    "title": "Pro-Russian Hackers Claim Responsibility for Major Cyberattack on Norway’s Public Digital Services",
+    "link": "https://www.securityweek.com/pro-russian-hackers-claim-responsibility-for-major-cyberattack-on-norways-public-digital-services/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-27T08:00:00.000Z",
+    "summary": "The pro-Russian hacker group Server Killers claimed responsibility for the attack.\nThe post Pro-Russian Hackers Claim Responsibility for Major Cyberattack on Norway’s Public Digital Services appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "69ad97f943246df4",
+    "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
+    "link": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-27T07:05:28.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added six flaws to its Known Exploited Vulnerabilities (KEV) catalog, including a high-severity security vulnerability impacting Citrix NetScaler ADC and NetScale",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cdb87e3bfd1934e0",
+    "title": "Recent Citrix NetScaler Vulnerability Exploited in the Wild",
+    "link": "https://www.securityweek.com/recent-citrix-netscaler-vulnerability-exploited-in-the-wild/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-27T04:39:19.000Z",
+    "summary": "CISA is urging government agencies to immediately patch the Citrix NetScaler vulnerability tracked as CVE-2026-8452.\nThe post Recent Citrix NetScaler Vulnerability Exploited in the Wild appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-8452"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "81356f6031077987",
+    "title": "ISC Stormcast For Thursday, August 27th, 2026 https://isc.sans.edu/podcastdetail/10070, (Thu, Aug 27th)",
+    "link": "https://isc.sans.edu/diary/rss/33286",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-27T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e266701766fa93ea",
     "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
     "link": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
@@ -29,6 +383,17 @@
     "category": "news",
     "pubDate": "2026-08-26T20:53:00.000Z",
     "summary": "The National Security Agency will welcome back to campus potentially hundreds of former members of the elite group known as Tailored Access Operations (TAO) to celebrate the division’s recent rebranding.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cab07e1494747f93",
+    "title": "'HTTP Terminator' Hunts for Novel Desync Attacks",
+    "link": "https://www.darkreading.com/application-security/http-terminator-hunts-novel-desync-attacks",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-26T19:54:34.000Z",
+    "summary": "James Kettle of PortSwigger talks with the Dark Reading News Desk about his AI-powered open source tool, which found new HTTP request-smuggling techniques.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2042,6 +2407,28 @@
     "severity": "normal"
   },
   {
+    "id": "c50de325b82e68af",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1068/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f79aab77ce619f8a",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1069/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e99f5fb47c6fef7b",
     "title": "New CUSTODY Framework Constrains AI Agents Inside the Network",
     "link": "https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network",
@@ -2227,399 +2614,6 @@
     "category": "news",
     "pubDate": "2026-08-20T14:30:00.000Z",
     "summary": "We all know they’re watching us. But we don’t know who they are, nor why nor how they are doing it.\nThe post Surveillance – Everything You Wanted to Know, But Were Afraid to Ask appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "54c56c6aaa3f463f",
-    "title": "How MSPs can catch phishing attacks email filters miss",
-    "link": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-20T14:01:11.000Z",
-    "summary": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attacks that make it past ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b1f443e72dd66d7c",
-    "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
-    "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T13:48:24.000Z",
-    "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environmen",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "26e5a7b44c2edaf6",
-    "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
-    "link": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T13:35:13.000Z",
-    "summary": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability.\n\nAccording to the cloud computing and virtualization tec",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7a3b2e842840d577",
-    "title": "'Grandoreiro' Malware Resurfaces With Mexico Campaign",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-20T13:30:00.000Z",
-    "summary": "The banking Trojan, post-law enforcement takedown, is sprucing itself up with features that make detection and analysis harder.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9e6bf7ac9b2e9cad",
-    "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
-    "link": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T13:24:28.000Z",
-    "summary": "A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska).\n\nThe vulnerability in question is CVE-2026-73570 (CVSS ",
-    "cveIds": [
-      "CVE-2026-73570"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "738c20fbccfb3c91",
-    "title": "Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia",
-    "link": "https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-20T13:16:35.000Z",
-    "summary": "Operation CameraSwarm targeted Dahua cameras across multiple countries, focusing on Russian and CIS telecom netblocks.\nThe post Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c2d330c65fc8dbf2",
-    "title": "Using Microsoft Graph and Powershell - Risk Detection Commands, (Thu, Aug 20th)",
-    "link": "https://isc.sans.edu/diary/rss/33266",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-20T13:09:50.000Z",
-    "summary": "Building on the last diary on Using MS Graph and Powershell, let&#;x26;#;39;s look at \"Risky\" logins.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b34a5e308b80ef56",
-    "title": "Using Microsoft Graph and Powershell to Mine for Information - Stale Accounts and Licenses, (Thu, Aug 20th)",
-    "link": "https://isc.sans.edu/diary/rss/33264",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-20T12:45:32.000Z",
-    "summary": "Microsoft Graph is a newer API that is meant to replace several others.&#;x26;#;xc2;&#;x26;#;xa0; OK, it&#;x26;#;39;s at version 2.3.9, so it&#;x26;#;39;s not all that new, but it&#;x26;#;39;s new enough that lots of folks (and commercial t",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2ea5ad68ba34f917",
-    "title": "Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities",
-    "link": "https://www.securityweek.com/atlassian-splunk-patch-dozens-of-critical-high-severity-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-20T12:24:53.000Z",
-    "summary": "The flaws could be exploited to execute arbitrary code, access sensitive information, and elevate privileges.\nThe post Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6a46470fc07cc7d1",
-    "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
-    "link": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-20T12:14:38.000Z",
-    "summary": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "22da2bf5aa899fa0",
-    "title": "MLflow Vulnerability Exploited for Cloud Credential Theft",
-    "link": "https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-20T12:05:55.000Z",
-    "summary": "The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information.\nThe post MLflow Vulnerability Exploited for Cloud Credential Theft appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8bfad57d255664df",
-    "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
-    "link": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T12:01:24.000Z",
-    "summary": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a point-of-sale (POS) terminal reads over nea",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9d475a174f5acca7",
-    "title": "Johnson Controls Simplex Incident Manager",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-20T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker with low privileges to extract user credentials (passwords and authentication tokens) from system memory, potentially leading to unauthorized acces",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3a973d9720c51714",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-20T12:00:00.000Z",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-72529 TrueConf Server Missing Authentication for Critical Function Vulnerability  \nCVE-2026-72",
-    "cveIds": [
-      "CVE-2026-72529"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "537a6d2865a5a7eb",
-    "title": "Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities",
-    "link": "https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-20T11:46:04.000Z",
-    "summary": "The flaws could lead to remote code execution, authentication bypasses, and path traversal attacks.\nThe post Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2a078159b7a86b6d",
-    "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
-    "link": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T11:45:00.000Z",
-    "summary": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it. \n\nThe incident began when a Meta employee posted a technical questi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1fda38121ab7ac04",
-    "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
-    "link": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T11:39:35.000Z",
-    "summary": "Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-ba",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9159738c996ee32f",
-    "title": "Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices",
-    "link": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T11:26:08.000Z",
-    "summary": "A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial institutions, global fintech and cryptocurren",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d19f7286f2713e32",
-    "title": "AI-Assisted Tool Helped Secure Satellite Communication System After 2022 Russian Hacking",
-    "link": "https://www.securityweek.com/ai-assisted-tool-helped-secure-satellite-communication-system-after-2022-russian-hacking/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-20T11:08:00.000Z",
-    "summary": "Atalanta's Argo product is now being used to prove the resilience of Viasat’s satellite communications network.\nThe post AI-Assisted Tool Helped Secure Satellite Communication System After 2022 Russian Hacking appeared first on SecurityWeek",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a171b28d7f39862c",
-    "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-20T11:06:14.000Z",
-    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0589ec4a2811b1c2",
-    "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
-    "link": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T11:05:11.000Z",
-    "summary": "Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacker to issue arbitrary commands to the sof",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b7b0923385747c0a",
-    "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
-    "link": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T10:38:28.000Z",
-    "summary": "Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with \"significant enhancements,\" including a set of 167 remote commands and expands its targeting footprint globally.\n\nZimperium zLabs, i",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "853044a8b8b5b436",
-    "title": "OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses",
-    "link": "https://www.securityweek.com/openai-overhauls-model-security-with-sandboxing-30-minute-alerts-and-training-pauses/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-20T10:36:14.000Z",
-    "summary": "The action taken by OpenAI comes in light of the Hugging Face incident and the discovery of the Astra model’s advanced capabilities. \nThe post OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses appeared f",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1bc0cee300a9c771",
-    "title": "New Manic Android malware can exfiltrate data through nearby devices",
-    "link": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-20T10:02:02.000Z",
-    "summary": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d0248c70a1841a8b",
-    "title": "UAT-10147 deploys SPECTRE: A cross-platform implant with Linux rootkit and BYOVD capabilities",
-    "link": "https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-08-20T10:00:50.000Z",
-    "summary": "The newly identified SPECTRE implant represents an evolution in commodity intrusion tooling, integrating cross-platform C2 operations, process injection, credential theft, anti-analysis protections, and kernel-level endpoint detection and r",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "35f917df0f8b77c5",
-    "title": "UAT-10147: Chinese-speaking adversary integrates agentic AI into post-compromise operations",
-    "link": "https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-08-20T10:00:32.000Z",
-    "summary": "Cisco Talos discovered a Chinese-speaking cybercrime group, tracked as UAT-10147, that targets a wide range of vulnerable web servers. This is an overview of the campaign, examining the countries affected, potential impact of BadIIS infecti",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6fd21cf6da44a334",
-    "title": "Identity Abuse Through Trusted Communication Channels",
-    "link": "https://unit42.paloaltonetworks.com/communication-channel-identity-risks/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-08-20T10:00:25.000Z",
-    "summary": "Unit 42 details how attackers exploit enterprise collaboration tools for identity phishing and credential theft. Discover key defense strategies.\nThe post Identity Abuse Through Trusted Communication Channels appeared first on Unit 42.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dd237c53148419ab",
-    "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-20T09:46:54.000Z",
-    "summary": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ec521d0cf1efe505",
-    "title": "40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets",
-    "link": "https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T08:42:03.000Z",
-    "summary": "A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products.\n\nAccording to the Socket Threat Research team, the extensions are part o",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ce25dc26d09004e9",
-    "title": "Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler",
-    "link": "https://www.securityweek.com/exploitation-expected-for-critical-authentication-bypass-patched-in-citrix-netscaler/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-20T08:33:25.000Z",
-    "summary": "Remote, unauthenticated attackers could exploit the critical-severity flaw without user interaction.\nThe post Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9f434a3bfa0e66af",
-    "title": "Critical GitLab Flaw Exploited Shortly After Disclosure",
-    "link": "https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-20T07:48:24.000Z",
-    "summary": "CVE-2026-19478 can be exploited without authentication to modify or delete public projects and user data.\nThe post Critical GitLab Flaw Exploited Shortly After Disclosure appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-19478"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "70d259d086e1c7c4",
-    "title": "Hackers Using AI to Target Siemens PLCs in Critical US Sectors",
-    "link": "https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-20T07:02:02.000Z",
-    "summary": "A cybersecurity advisory with technical details and recommendations has been written by the NSA, CISA and other agencies.\nThe post Hackers Using AI to Target Siemens PLCs in Critical US Sectors appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "714e2e03d094d1be",
-    "title": "Microsoft says August Windows updates may cause gaming issues",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-may-cause-gaming-issues-reboots/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-20T06:51:03.000Z",
-    "summary": "Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "eb1eddbec7764cde",
-    "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
-    "link": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T06:04:34.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution.\n\nThe vulnerability, tracked as CVE-2026-32475, carries a CVSS sc",
-    "cveIds": [
-      "CVE-2026-32475"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "18d19487decca160",
-    "title": "ISC Stormcast For Thursday, August 20th, 2026 https://isc.sans.edu/podcastdetail/10060, (Thu, Aug 20th)",
-    "link": "https://isc.sans.edu/diary/rss/33262",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-20T02:00:03.000Z",
-    "summary": "",
     "cveIds": [],
     "severity": "normal"
   }
