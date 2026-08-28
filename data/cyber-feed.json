@@ -1,5 +1,159 @@
 [
   {
+    "id": "0321378bd0429a68",
+    "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
+    "link": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-27T21:38:53.000Z",
+    "summary": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e47acede74ba548d",
+    "title": "White House bans foreign-made equipment for power generation over cyber backdoor concerns",
+    "link": "https://therecord.media/trump-cyber-electricity-parts",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-27T19:45:00.000Z",
+    "summary": "The Trump administration is banning the acquisition of foreign-made components used to manage electricity and power, alleging that “certain foreign actors are increasingly creating and exploiting vulnerabilities” in the technology.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f816cb558b5ca568",
+    "title": "Chinese Routers Sold Worldwide Contain Backdoors",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/chinese-routers-sold-worldwide-backdoors",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-27T19:31:45.000Z",
+    "summary": "An untold number of ZBT routers sold around the world as white-label products come with several implants built by the manufacturer.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e4222c90706c64ea",
+    "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
+    "link": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-27T18:36:19.000Z",
+    "summary": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May.\n\nThe incident, the",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "abe89bad8f2b9142",
+    "title": "“Sorry, I can’t help with that”: How your guardrails might become the attacker’s best friend",
+    "link": "https://blog.talosintelligence.com/sorry-i-cant-help-with-that-how-your-guardrails-might-become-the-attackers-best-friend/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-08-27T18:00:24.000Z",
+    "summary": "In his first Threat Source newsletter, David Bianco explores the critical need for operational sovereignty in customizing AI guardrails to maintain the defender’s advantage.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "383c70ba8dc8577d",
+    "title": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
+    "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-27T17:25:09.000Z",
+    "summary": "This installment of the Reporters' Notebook video series discusses the topics that dominated the cybersecurity conference, such as AI's effects on vulnerability reporting and security research.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0906ffdf2a5cf412",
+    "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-27T16:31:53.000Z",
+    "summary": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4bd54ac55ac37e04",
+    "title": "Manchester Airports Group says hackers stole travelers' data",
+    "link": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-27T16:12:26.000Z",
+    "summary": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "380d08882c090792",
+    "title": "​​​​​​What’s new in Microsoft Security: August 2026",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/27/whats-new-in-microsoft-security-august-2026/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-08-27T16:00:00.000Z",
+    "summary": "This month’s updates provide new capabilities to help organizations gain insights into agent activity, expand security coverage across supported environments, and enhance security management across their environments.\nThe post ​​​​​​What’s ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a88714b68d5a6f3d",
+    "title": "Finland appeals court revives case against Eagle S Officers over cable breaks",
+    "link": "https://therecord.media/finland-appeals-court-revives-case-against-eagle-s",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-27T15:30:00.000Z",
+    "summary": "The appeals court sent the case back to the Helsinki District Court to be heard on its merits, although the three men, who had previously been detained in Finland, have since left the country.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8dcdb0fd292766b9",
+    "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-27T15:13:00.000Z",
+    "summary": "Credit: Hacktron\nVercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a198de3c1af796a8",
+    "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
+    "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-27T15:12:16.000Z",
+    "summary": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine.\n\nThe rest of the week gets stranger: botnets borrowing AI, command traffic hiding in publi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3a629e0bf2c5b2ab",
+    "title": "Chinese and Russian spies stepping up cyberattacks, German companies report",
+    "link": "https://therecord.media/germany-cyberattacks-china-russia",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-08-27T14:45:00.000Z",
+    "summary": "Foreign intelligence services, particularly those from China and Russia, are increasingly behind cyberattacks on German companies, according to a new survey of the country’s private sector.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "87e6080edec09db4",
+    "title": "Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear",
+    "link": "https://www.securityweek.com/trump-order-aims-to-block-foreign-backdoors-in-us-power-grid-gear/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-27T14:17:26.000Z",
+    "summary": "The White House’s new executive order 14420 widens scrutiny of industrial control systems over cyber sabotage concerns.\nThe post Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "cf0f2a0c453ea3b6",
     "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
     "link": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
@@ -22,13 +176,24 @@
     "severity": "normal"
   },
   {
+    "id": "595b1b185d721be6",
+    "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
+    "link": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-27T13:39:56.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate data exfiltration via prompt injection and ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e28bfb5510126232",
     "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
     "link": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
     "source": "BleepingComputer",
     "category": "news",
     "pubDate": "2026-08-27T13:31:13.000Z",
-    "summary": "Australian authorities have arrested and charged two young men accused of belonging to TeamPCP, a hacking group linked to a string of far-reaching developer supply chain attacks. [...]",
+    "summary": "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...]",
     "cveIds": [],
     "severity": "normal"
   },
@@ -97,6 +262,103 @@
     "summary": "The Bureau of Alcohol, Tobacco, Firearms and Explosives confirmed it experienced a cyberattack on a system containing investigation information, as a prolific ransomware gang claimed to have carried out the breach.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "e0c439334ba4d131",
+    "title": "Rockwell Automation OTTO Fleet Manager",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-27T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could reduce the computational cost required for an attacker to perform offline brute-force attacks against stored password hashes.\nThe following versions of Rockwell Automatio",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "253491c8e9dd7437",
+    "title": "Xiiaozet LK100W",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-27T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to take control over the device.\nThe following versions of Xiiaozet LK100W are affected:\nLK100W <2.1.240 (CVE-2026-78037, CVE-2026-78239, CVE-2026-76",
+    "cveIds": [
+      "CVE-2026-78037",
+      "CVE-2026-78239"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "33428947f23e1036",
+    "title": "Mitsubishi Electric CNC Series (Update A)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-27T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service condition in the affected products.\nThe following versions of Mitsubishi Electric",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6603984d9e2e2875",
+    "title": "Mitsubishi Electric Multiple FA Products (Update D)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-128-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-27T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition, a timeout error, or a communication delay by sending a specially crafted UDP packet to the product.\n",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3ab51a0cc84b1aef",
+    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-27T12:00:00.000Z",
+    "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2023-49105 ownCloud Improper Authentication Vulnerability\nCVE-2026-53362 Linux Kernel Unspecified V",
+    "cveIds": [
+      "CVE-2023-49105",
+      "CVE-2026-53362"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "807d37d3ce4a7f93",
+    "title": "Ebyte NA111-M",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-27T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to fully compromise the device.\nThe following versions of Ebyte NA111-M are affected:\nNA111-M Firmware 9013-2-17 (CVE-2026-73125, CVE-2026-76179, CVE",
+    "cveIds": [
+      "CVE-2026-73125",
+      "CVE-2026-76179"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "afcc4f0622a5faf0",
+    "title": "All-Line Equipment Company Fuel-Boss",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-27T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to execute arbitrary commands or code remotely on affected systems.\nThe following versions of All-Line Equipment Company Fuel-Boss are affected:\nFuel-B",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "20f42ef69c355296",
+    "title": "Applied Systems Engineering ASE2000 V2 Communications Test Set",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-27T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to read or write arbitrary local files, cause the application to issue outbound network requests, or intercept the connection to impersonate the trus",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "7f345859c3f51b43",
@@ -640,17 +902,6 @@
     "severity": "normal"
   },
   {
-    "id": "56a54f909732eebb",
-    "title": "CISA Vulnerability Review",
-    "link": "https://www.cisa.gov/resources-tools/resources/cisa-vulnerability-review",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-26T12:00:00.000Z",
-    "summary": "Most compromises do not rely on advanced techniques or cutting-edge tools. Cyber threat actors scan the internet looking for exposed, well-known software vulnerabilities to exploit. Basic security failures enable most compromises and organi",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
     "id": "3e5dc6e28c212d9d",
     "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
@@ -663,6 +914,17 @@
       "CVE-2015-5287"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "56a54f909732eebb",
+    "title": "CISA Vulnerability Review",
+    "link": "https://www.cisa.gov/resources-tools/resources/cisa-vulnerability-review",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-26T12:00:00.000Z",
+    "summary": "Most compromises do not rely on advanced techniques or cutting-edge tools. Cyber threat actors scan the internet looking for exposed, well-known software vulnerabilities to exploit. Basic security failures enable most compromises and organi",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "e5c89987e8ab702f",
@@ -1178,35 +1440,13 @@
     "severity": "critical"
   },
   {
-    "id": "bbb2155112aae204",
-    "title": "PayRange API",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04",
+    "id": "d7fe95f839eedfc9",
+    "title": "Siemens SIMATIC IoT2050 Advanced",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-03",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote, authenticated or unauthenticated attacker to disclose sensitive information, arbitrarily modify the device to cause a denial of service, or alter a device",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "71182d82f67c93c5",
-    "title": "Rently Smart Home",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to access sensitive information and override user permissions.\nThe following versions of Rently Smart Home are affected:\nSmart Home <=20.1.0\nCVSS\nVendor",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "737cfb55d033cccf",
-    "title": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
-    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "Advisory at a Glance\nTitle\nA Tale of Two SOCs: Insights From Two Red Team Assessments\n\n\nOriginal Publication \nAugust 25, 2026\n\n\nExecutive Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) conducted simultaneous red team a",
+    "summary": "View CSAF\nSummary\nSIMATIC IoT2050 Advanced devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create mal",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1224,35 +1464,35 @@
     "severity": "cve"
   },
   {
-    "id": "a96804b2286c913a",
-    "title": "Zoneminder",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-02",
+    "id": "bbb2155112aae204",
+    "title": "PayRange API",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in full Remote Code Execution (RCE) as the web server user.\nThe following versions of Zoneminder are affected:\nZoneminder 1.37.48|1.38.3 \nCVSS\nVendor\nEquipment\nVul",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote, authenticated or unauthenticated attacker to disclose sensitive information, arbitrarily modify the device to cause a denial of service, or alter a device",
     "cveIds": [],
     "severity": "normal"
   },
   {
-    "id": "d7fe95f839eedfc9",
-    "title": "Siemens SIMATIC IoT2050 Advanced",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-03",
+    "id": "737cfb55d033cccf",
+    "title": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSIMATIC IoT2050 Advanced devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create mal",
+    "summary": "Advisory at a Glance\nTitle\nA Tale of Two SOCs: Insights From Two Red Team Assessments\n\n\nOriginal Publication \nAugust 25, 2026\n\n\nExecutive Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) conducted simultaneous red team a",
     "cveIds": [],
     "severity": "normal"
   },
   {
-    "id": "d759d95109c39f32",
-    "title": "FURUNO FA-50 Class B AIS Transponder",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-07",
+    "id": "4abcea04a3187264",
+    "title": "Ebyte NE2-D11",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to alter device settings.\nThe following versions of FURUNO FA-50 Class B AIS Transponder are affected:\nFURUNO FA-50 Class B AIS Transponder vers:all/",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain unauthorized administrative access, disclose sensitive information, modify device configuration, hijack authenticated sessions, and disrupt d",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1268,13 +1508,35 @@
     "severity": "normal"
   },
   {
-    "id": "4abcea04a3187264",
-    "title": "Ebyte NE2-D11",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06",
+    "id": "d759d95109c39f32",
+    "title": "FURUNO FA-50 Class B AIS Transponder",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-07",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain unauthorized administrative access, disclose sensitive information, modify device configuration, hijack authenticated sessions, and disrupt d",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to alter device settings.\nThe following versions of FURUNO FA-50 Class B AIS Transponder are affected:\nFURUNO FA-50 Class B AIS Transponder vers:all/",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "71182d82f67c93c5",
+    "title": "Rently Smart Home",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to access sensitive information and override user permissions.\nThe following versions of Rently Smart Home are affected:\nSmart Home <=20.1.0\nCVSS\nVendor",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a96804b2286c913a",
+    "title": "Zoneminder",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-25T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in full Remote Code Execution (RCE) as the web server user.\nThe following versions of Zoneminder are affected:\nZoneminder 1.37.48|1.38.3 \nCVSS\nVendor\nEquipment\nVul",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2337,283 +2599,6 @@
     "category": "advisory",
     "pubDate": "2026-08-21T01:49:18.000Z",
     "summary": "One thing that folks never seem to do after \"going to the CLOOOOUUUUD\" is to look at their logs, logs that they would have checked daily when things were on premise.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4da7c8f346fe202b",
-    "title": "Multiples vulnérabilités dans Google Chrome (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1061/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "59def71f3d75bd0d",
-    "title": "Vulnérabilité dans Python (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1062/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-21T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Python. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2dd92e9238cada6b",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1064/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'intég",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "aeead9b5c6a89b7b",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1065/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "23aaa8565fa75ccd",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1066/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'inté",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9d077de109e6262e",
-    "title": "Multiples vulnérabilités dans les produits IBM (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1067/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c50de325b82e68af",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1068/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f79aab77ce619f8a",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1069/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e99f5fb47c6fef7b",
-    "title": "New CUSTODY Framework Constrains AI Agents Inside the Network",
-    "link": "https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-20T20:42:18.000Z",
-    "summary": "Enterprise cybersecurity expert Jake Williams joins the Dark Reading News Desk to explain why he decided to release his new agentic AI framework in the wake of the OpenAI attacks on Hugging Face.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "716a3dbc59c82a88",
-    "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
-    "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T20:22:35.000Z",
-    "summary": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remo",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3c650cb216c56d62",
-    "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
-    "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T19:59:19.000Z",
-    "summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe,",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cb8a68db8c15a51c",
-    "title": "China’s ‘SilkParasite’ espionage operation targeting Central Asia with AI-assisted malware",
-    "link": "https://therecord.media/china-cyber-espionage-central-asia",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-20T19:30:00.000Z",
-    "summary": "Suspected military-grade hackers based in China used artificial intelligence to develop malware in a campaign to penetrate Central Asian governments.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f181a83c3fc1e5e8",
-    "title": "What We Missed: Delta Flight Disrupted With Wi-Fi Hack",
-    "link": "https://www.darkreading.com/cyber-risk/delta-flight-disrupted-wi-fi-hack",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-20T19:11:15.000Z",
-    "summary": "In this video, Dark Reading editors discuss some of the news they didn't get a chance to cover, including some scary airplane security risks and the US government's newest \"hack back\" strategy.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "775bcfda13f40acd",
-    "title": "Is Cyber missing the Marque?",
-    "link": "https://blog.talosintelligence.com/is-cyber-missing-the-marque/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-08-20T18:00:18.000Z",
-    "summary": "In this week's newsletter, new author Mick Baccio introduces himself and explores the operational and security implications of the new White House memorandum regarding private sector participation in government-authorized offensive cyber op",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1425c2e090028995",
-    "title": "Hackers poison arrayref Rust crate to push infostealer malware",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-20T17:53:52.000Z",
-    "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6fc01e18a245b0ee",
-    "title": "N-able Bug Exposes Password Vault Master Keys",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/n-able-bug-password-vault-master-keys",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-20T17:39:24.000Z",
-    "summary": "The popular \"Passportal\" password manager, favored by MSPs and SMBs, remains risky even after its patch, thanks to its cloud-based design. Should these products stay away from the cloud entirely?",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "90ccc0b8897bacea",
-    "title": "Senators press TikTok over withholding of safety features for some users",
-    "link": "https://therecord.media/senators-press-tiktok-over-withholding-safety-features",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-20T17:33:00.000Z",
-    "summary": "In a letter on Wednesday, Sens. Marsha Blackburn (R-TN) and Richard Blumenthal (D-CT) criticized the company for having “knowingly withheld a critical safety measure for millions of American users.\"",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a110dfe5fd8705ac",
-    "title": "Money and Mindset: The Two Biggest Roadblocks to Cyber Policing",
-    "link": "https://www.darkreading.com/cybersecurity-operations/money-and-mindset-the-two-biggest-roadblocks-to-cyber-policing",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-20T17:32:51.000Z",
-    "summary": "Law enforcement training is falling behind the volume and rapid evolution of cybercrimes. Officers really only need to learn the basics, but lack of focus and budget hinder progress.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "929751afa5738c30",
-    "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
-    "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T17:23:48.000Z",
-    "summary": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.\n\nSigned drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Else",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fd31c58ac3a771fb",
-    "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
-    "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T16:59:44.000Z",
-    "summary": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts.\n\nThe activity is targeting Siemens S7 SeriesProgramma",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a35d939fdb946ae7",
-    "title": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-20T14:59:22.000Z",
-    "summary": "A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1ad6bb0e244abb9f",
-    "title": "Hackers Target Zimbra Servers in Active Exploitation Campaign",
-    "link": "https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-20T14:50:49.000Z",
-    "summary": "Exploitation of the Zimbra Collaboration vulnerability CVE-2026-73570 has been observed by Poland’s CERT Polska.\nThe post Hackers Target Zimbra Servers in Active Exploitation Campaign appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-73570"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "23f8e4d3db5cf954",
-    "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-20T14:39:48.000Z",
-    "summary": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "329280ed717e1eee",
-    "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
-    "link": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-20T14:36:27.000Z",
-    "summary": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6d1b884c61d1bd4e",
-    "title": "Surveillance – Everything You Wanted to Know, But Were Afraid to Ask",
-    "link": "https://www.securityweek.com/surveillance-everything-you-wanted-to-know-but-were-afraid-to-ask/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-20T14:30:00.000Z",
-    "summary": "We all know they’re watching us. But we don’t know who they are, nor why nor how they are doing it.\nThe post Surveillance – Everything You Wanted to Know, But Were Afraid to Ask appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   }
