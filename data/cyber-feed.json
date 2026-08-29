@@ -22,6 +22,17 @@
     "severity": "normal"
   },
   {
+    "id": "21af16ed243c81db",
+    "title": "TerminalFix campaign deploys a reverse tunnel through multistage intrusion",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-08-29T03:43:27.000Z",
+    "summary": "Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance.\nThe post TerminalFix campaign deploys a reverse tunnel throu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e4e796c6e8ad0d1d",
     "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
     "link": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
@@ -2610,17 +2621,6 @@
     "category": "news",
     "pubDate": "2026-08-22T13:00:09.000Z",
     "summary": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict input validation, an",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3e7689a604490bb8",
-    "title": "Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight",
-    "link": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-22T08:30:00.000Z",
-    "summary": "The spyware-equipped Manic, a persistent Grandoreiro campaign in Latin America and Europe, and an expanded ToxicPanda 2.0 malware.\nThe post Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   }
