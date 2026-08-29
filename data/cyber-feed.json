@@ -22,6 +22,17 @@
     "severity": "normal"
   },
   {
+    "id": "df044a4bbe03a77b",
+    "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+    "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-29T16:25:03.000Z",
+    "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code exec",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "ba8afe93cbccd2a2",
     "title": "Brave browser adds email aliases to help users evade tracking",
     "link": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
