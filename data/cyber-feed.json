@@ -22,6 +22,28 @@
     "severity": "normal"
   },
   {
+    "id": "ba8afe93cbccd2a2",
+    "title": "Brave browser adds email aliases to help users evade tracking",
+    "link": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-29T14:19:23.000Z",
+    "summary": "The latest version of the Brave browser, 1.94, introduces a feature called 'Email Aliases' that allows users to generate disposable email addresses when signing up to a new service. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8111e10b733bc606",
+    "title": "Hasbro Data Breach Exposed Employee Personal Information",
+    "link": "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-08-29T11:55:00.000Z",
+    "summary": "A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach.\nThe post Hasbro Data Breach Exposed Employee Personal Information appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "21af16ed243c81db",
     "title": "TerminalFix campaign deploys a reverse tunnel through multistage intrusion",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/",
@@ -2588,39 +2610,6 @@
     "category": "news",
     "pubDate": "2026-08-23T14:23:46.000Z",
     "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b55737a91db09810",
-    "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
-    "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-22T14:32:41.000Z",
-    "summary": "The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country.\n\nAs part of the settlement, the social ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4f4f34bb8b748823",
-    "title": "Hackers infect Android car head units with proxy botnet malware",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-22T14:14:24.000Z",
-    "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4a582085c44636e5",
-    "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
-    "link": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-22T13:00:09.000Z",
-    "summary": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict input validation, an",
     "cveIds": [],
     "severity": "normal"
   }
