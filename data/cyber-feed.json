@@ -22,6 +22,28 @@
     "severity": "normal"
   },
   {
+    "id": "53af0197de88cefd",
+    "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
+    "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-08-30T07:36:33.000Z",
+    "summary": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell.\n\n\"While traditional ClickFix campaigns direct victims to the Windows",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3ec45cafb15e35dc",
+    "title": "YARA-X 1.20.0 Release, (Sun, Aug 30th)",
+    "link": "https://isc.sans.edu/diary/rss/33288",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-08-30T07:14:49.000Z",
+    "summary": "YARA-X&#;x26;#;39;s 1.20.0 release brings 14 improvements and 13 bugfixes.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "864f8deb3fbb3631",
     "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
