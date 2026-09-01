@@ -22,6 +22,28 @@
     "severity": "normal"
   },
   {
+    "id": "0d81af760d8bb669",
+    "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-31T21:08:46.000Z",
+    "summary": "A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c26333d8a67f8dfd",
+    "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
+    "link": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-08-31T20:47:54.000Z",
+    "summary": "The Cronos blockchain network has resumed trading activity after a price-manipulation attack on the Tectonic cryptocurrency lending platform allowed an attacker to borrow $74 million. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ef0616fbc5a1ee14",
     "title": "Five plead guilty in latest federal ATM jackpotting case",
     "link": "https://therecord.media/kansas-atm-jackpotting-guilty-pleas",
@@ -2669,63 +2691,6 @@
     "category": "advisory",
     "pubDate": "2026-08-25T02:00:03.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "721f1b25c78497eb",
-    "title": "Multiples vulnérabilités dans Cisco IOS XE (25 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1077/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-25T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Cisco IOS XE. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7450c9bbee707633",
-    "title": "US sanctions Iranian cyber actors as UK discloses power plant attack",
-    "link": "https://therecord.media/iran-cyberattacks-us-uk",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-24T23:00:00.000Z",
-    "summary": "The U.S. sanctioned several Iranian nationals for cyberattacks on critical infrastructure just days after reports emerged of a cyber intrusion on a small power plant in the United Kingdom.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "dd4860af26d52076",
-    "title": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-24T21:46:55.000Z",
-    "summary": "CISA issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.",
-    "cveIds": [
-      "CVE-2026-73570"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "1f0fa9fb926a462f",
-    "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
-    "link": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-24T21:14:30.000Z",
-    "summary": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that can expose local network devices to the publi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "644b5f34c63861c4",
-    "title": "Foul Language: WordlistLoader Disguises Malware as Ordinary Text",
-    "link": "https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-24T20:51:27.000Z",
-    "summary": "ClickFix-style threat campaigns are using a new trick to evade detection and deliver Amatera, an increasingly prevalent infostealer.",
     "cveIds": [],
     "severity": "normal"
   }
