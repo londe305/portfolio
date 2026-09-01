@@ -22,6 +22,109 @@
     "severity": "normal"
   },
   {
+    "id": "55201139313a580a",
+    "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-01T17:54:22.000Z",
+    "summary": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, and keys. [...]",
+    "cveIds": [
+      "CVE-2026-0768"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "79a539446b8e43b7",
+    "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-01T17:53:11.000Z",
+    "summary": "Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr.\n\nThe vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of authe",
+    "cveIds": [
+      "CVE-2026-82329"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "56154d829c83d60c",
+    "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
+    "link": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-01T17:19:24.000Z",
+    "summary": "Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024.\n\nGoogle Threat Intelligence Group (GTIG) and Mandiant teams",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d0f7c2e63b1d8c60",
+    "title": "Healthcare facilities operator Nutex says patient, employee data stolen in August incident",
+    "link": "https://therecord.media/nutex-health-data-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-01T15:31:00.000Z",
+    "summary": "Cybercriminals breached company data and made an extortion attempt with it, Houston-based Nutex Health said in a filing with federal regulators.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2a070fc640529238",
+    "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-01T14:45:06.000Z",
+    "summary": "Hackers delivered malicious updates to the Virtualizor VPS management software after hijacking BGP routing for its update infrastructure and redirecting update requests to malicious servers. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1b46f6fcf5dc7afb",
+    "title": "Novocure data breach affects more than 1,400 cancer patients",
+    "link": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-01T14:28:40.000Z",
+    "summary": "Healthtech company Novocure says the data of an undisclosed number of employees and more than 1,400 U.S. cancer patients has been exposed in a mid-August cyberattack. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "42489679bde871c1",
+    "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
+    "link": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-01T14:07:20.000Z",
+    "summary": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deploy",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9b4a9cd6844013da",
+    "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
+    "link": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-01T14:01:11.000Z",
+    "summary": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing edge security controls. Spur explains how session enrichment adds data points that help organizations ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e544e8b85ba453f7",
+    "title": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
+    "link": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-01T13:56:42.000Z",
+    "summary": "The campaign uses EtherHiding to dynamically update its command-and-control server, abusing the blockchain as an attacker-controlled address book.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "c6c20774e562d311",
     "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
     "link": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
@@ -88,6 +191,78 @@
       "CVE-2026-0768"
     ],
     "severity": "critical"
+  },
+  {
+    "id": "731e0a65cfd32dce",
+    "title": "Rockwell Automation RSLinx Classic",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the affected product.\nThe following versions of Rockwell Automation RSLinx Classic are affected:\nRSLinx Cla",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "976e05a3b6556a79",
+    "title": "Rockwell Automation Historian ME",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed; an out-of-bounds write condition may allow remote code execution.\nThe following versions of Rockwell Automation Historian ME are affec",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ed6a5dd66cbc18f6",
+    "title": "Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix are affected:\nControlLogix 5580 <34.015, <35.014, <36.013, <37.011 (CVE-2021-42260, CVE-2021-42260",
+    "cveIds": [
+      "CVE-2021-42260"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "930f9904e1f6da34",
+    "title": "Rockwell Automation Logix Platform",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation Logix Platform are affected:\nControlLogix 5580 <=V33, V34.011-V34.014, V35.011-V35.013, V36.011-V36.012 (CVE-2026-9637, CVE-2026-9637, CVE-2026-9637, CVE-2026-9637)\nCompactLogi",
+    "cveIds": [
+      "CVE-2026-9637"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "8480ca778f6040b9",
+    "title": "Rockwell Automation Redundancy Module Configuration Tool",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow for an attacker to escalate and execute processes with administrator privileges.\nThe following versions of Rockwell Automation Redundancy Module Configuration To",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "66e9e04fb96ed801",
+    "title": "Rockwell Automation FactoryTalk Activation Manager",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation FactoryTalk Activation Manager are affected:\nFactoryTalk Activation Manager V5.02_and_below (CVE-2026-16675)\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.8\nRockwell Automatio",
+    "cveIds": [
+      "CVE-2026-16675"
+    ],
+    "severity": "cve"
   },
   {
     "id": "74926d30facaf133",
@@ -1491,24 +1666,13 @@
     "severity": "critical"
   },
   {
-    "id": "20f42ef69c355296",
-    "title": "Applied Systems Engineering ASE2000 V2 Communications Test Set",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-04",
+    "id": "33428947f23e1036",
+    "title": "Mitsubishi Electric CNC Series (Update A)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-27T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to read or write arbitrary local files, cause the application to issue outbound network requests, or intercept the connection to impersonate the trus",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "afcc4f0622a5faf0",
-    "title": "All-Line Equipment Company Fuel-Boss",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-27T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to execute arbitrary commands or code remotely on affected systems.\nThe following versions of All-Line Equipment Company Fuel-Boss are affected:\nFuel-B",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service condition in the affected products.\nThe following versions of Mitsubishi Electric",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1552,13 +1716,27 @@
     "severity": "cve"
   },
   {
-    "id": "33428947f23e1036",
-    "title": "Mitsubishi Electric CNC Series (Update A)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05",
+    "id": "3ab51a0cc84b1aef",
+    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-27T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service condition in the affected products.\nThe following versions of Mitsubishi Electric",
+    "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2023-49105 ownCloud Improper Authentication Vulnerability\nCVE-2026-53362 Linux Kernel Unspecified V",
+    "cveIds": [
+      "CVE-2023-49105",
+      "CVE-2026-53362"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "20f42ef69c355296",
+    "title": "Applied Systems Engineering ASE2000 V2 Communications Test Set",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-27T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to read or write arbitrary local files, cause the application to issue outbound network requests, or intercept the connection to impersonate the trus",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1574,18 +1752,15 @@
     "severity": "normal"
   },
   {
-    "id": "3ab51a0cc84b1aef",
-    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "id": "afcc4f0622a5faf0",
+    "title": "All-Line Equipment Company Fuel-Boss",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-02",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-08-27T12:00:00.000Z",
-    "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2023-49105 ownCloud Improper Authentication Vulnerability\nCVE-2026-53362 Linux Kernel Unspecified V",
-    "cveIds": [
-      "CVE-2023-49105",
-      "CVE-2026-53362"
-    ],
-    "severity": "cve"
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to execute arbitrary commands or code remotely on affected systems.\nThe following versions of All-Line Equipment Company Fuel-Boss are affected:\nFuel-B",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "7f345859c3f51b43",
@@ -2129,17 +2304,6 @@
     "severity": "normal"
   },
   {
-    "id": "56a54f909732eebb",
-    "title": "CISA Vulnerability Review",
-    "link": "https://www.cisa.gov/resources-tools/resources/cisa-vulnerability-review",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-26T12:00:00.000Z",
-    "summary": "Most compromises do not rely on advanced techniques or cutting-edge tools. Cyber threat actors scan the internet looking for exposed, well-known software vulnerabilities to exploit. Basic security failures enable most compromises and organi",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
     "id": "3e5dc6e28c212d9d",
     "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog",
@@ -2152,6 +2316,17 @@
       "CVE-2015-5287"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "56a54f909732eebb",
+    "title": "CISA Vulnerability Review",
+    "link": "https://www.cisa.gov/resources-tools/resources/cisa-vulnerability-review",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-26T12:00:00.000Z",
+    "summary": "Most compromises do not rely on advanced techniques or cutting-edge tools. Cyber threat actors scan the internet looking for exposed, well-known software vulnerabilities to exploit. Basic security failures enable most compromises and organi",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "e5c89987e8ab702f",
@@ -2484,105 +2659,6 @@
     "category": "news",
     "pubDate": "2026-08-25T18:45:00.000Z",
     "summary": "The benefits management firm Paylogix told regulators that hackers stole sensitive information on tens of thousands of people from its systems.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c503fa13531c361a",
-    "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
-    "link": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-25T18:17:17.000Z",
-    "summary": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and its enablers.\n\n\"We are launching an econom",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "58dcd11572ec3d20",
-    "title": "Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation",
-    "link": "https://www.securityweek.com/linux-foundation-to-govern-trace-an-open-standard-for-ai-runtime-attestation/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-25T16:23:45.000Z",
-    "summary": "TRACE was developed by AMD, Intel, Microsoft, OPAQUE, and TII and contributed to the Linux Foundation.\nThe post Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dbcd442006ccb8ed",
-    "title": "The patch window is collapsing: Why security needs a new control plane",
-    "link": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-08-25T16:00:00.000Z",
-    "summary": "Organizations need protection that operates in the gap between discovery and remediation.\nThe post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Security Blog.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9e180ed52911d3cb",
-    "title": "Massive DDoS attack disrupts Norway’s government digital services",
-    "link": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-25T15:52:36.000Z",
-    "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2ce1b7b6ba55ed3f",
-    "title": "Obfuscating IP Addresses as Hostnames, (Tue, Aug 25th)",
-    "link": "https://isc.sans.edu/diary/rss/33280",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-25T15:03:33.000Z",
-    "summary": "It is pretty obvious that hostnames can replace IP addresses. Pretty much any software accepting an IP address will also accept a hostname as an argument. Last week, I wrote about scans for the cloud metadata service listening at 169.254.16",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "02a5bcbc8d2ca3f0",
-    "title": "Is Cyber Facing an Affordability Crisis?",
-    "link": "https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-25T14:53:13.000Z",
-    "summary": "As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "35fed1d331657bd2",
-    "title": "Hospital operator Nutex Health says data stolen in cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-25T14:44:16.000Z",
-    "summary": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information from company servers. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "13a4e2d537aa26b9",
-    "title": "Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails",
-    "link": "https://www.securityweek.com/alice-raises-140m-to-expand-ai-model-defenses-and-enterprise-guardrails/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-25T14:11:59.000Z",
-    "summary": "The company, previously known as ActiveFence, has raised a total of $280 million from investors.\nThe post Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "37c4f0f211f15f3f",
-    "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
-    "link": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-25T14:07:37.000Z",
-    "summary": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside the model itself.\n\nT",
     "cveIds": [],
     "severity": "normal"
   }
