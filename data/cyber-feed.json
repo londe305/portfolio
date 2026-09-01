@@ -22,6 +22,66 @@
     "severity": "normal"
   },
   {
+    "id": "f55794ea195bce2c",
+    "title": "Recently patched PaperCut zero-days used in data theft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-01T07:48:24.000Z",
+    "summary": "Two security vulnerabilities in the PaperCut NG and MF print management software, patched last week after being exploited as zero-days, are now being abused in data theft attacks. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "104a134ec97483c7",
+    "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-01T07:22:30.000Z",
+    "summary": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.\n\nThe vulnerabilities in question are listed below -\n\n\n  CVE-2026-0768 (CVSS score: 9.8) - A lack of proper valid",
+    "cveIds": [
+      "CVE-2026-0768"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "eabc4afa81074e48",
+    "title": "PaperCut Exploitation Escalates to Active Intrusions",
+    "link": "https://www.securityweek.com/papercut-exploitation-escalates-to-active-intrusions/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-01T05:27:18.000Z",
+    "summary": "CISA has added the vulnerabilities tracked as CVE-2026-82078 and CVE-2026-81578 to its KEV catalog.\nThe post PaperCut Exploitation Escalates to Active Intrusions appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-82078",
+      "CVE-2026-81578"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "c2b3c032d4bf1dc3",
+    "title": "ISC Stormcast For Tuesday, September 1st, 2026 https://isc.sans.edu/podcastdetail/10076, (Tue, Sep 1st)",
+    "link": "https://isc.sans.edu/diary/rss/33302",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-01T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d005256a4e537026",
+    "title": "Guildma (Astaroth) malware infection from Brazilian Portuguese email, (Tue, Sep 1st)",
+    "link": "https://isc.sans.edu/diary/rss/33300",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-01T00:33:21.000Z",
+    "summary": "Introduction",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "0d81af760d8bb669",
     "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
@@ -122,7 +182,7 @@
   },
   {
     "id": "4af41ba5e87335a5",
-    "title": "Microsoft Exchange Online outage causes email failures, auth issues",
+    "title": "Massive Microsoft 365 outage causes auth issues, service failures",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
     "source": "BleepingComputer",
     "category": "news",
@@ -2645,52 +2705,6 @@
     "category": "news",
     "pubDate": "2026-08-25T08:34:07.000Z",
     "summary": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as any WordPress user, including administrato",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "02a70ec358ed54d1",
-    "title": "Taiwan Charges 9 Over Illegal AI Server Exports to China, Including Nvidia and Super Micro Staff",
-    "link": "https://www.securityweek.com/taiwan-charges-9-over-illegal-ai-server-exports-to-china-including-nvidia-and-super-micro-staff/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-25T08:30:00.000Z",
-    "summary": "AI infrastructure, including advanced semiconductors mostly made in Taiwan, has become a key point of competition between the U.S. and China.\nThe post Taiwan Charges 9 Over Illegal AI Server Exports to China, Including Nvidia and Super Micr",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e4aeece8a36e42aa",
-    "title": "CISA Warns of Exploited Oracle WebLogic Vulnerability",
-    "link": "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-25T07:46:34.000Z",
-    "summary": "The vulnerability is tracked as CVE-2026-21962 and it has been widely exploited by threat actors against WebLogic servers.\nThe post CISA Warns of Exploited Oracle WebLogic Vulnerability appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-21962"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "032a23e858ec8362",
-    "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
-    "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-25T06:12:35.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d1854456d90570cf",
-    "title": "ISC Stormcast For Tuesday, August 25th, 2026 https://isc.sans.edu/podcastdetail/10066, (Tue, Aug 25th)",
-    "link": "https://isc.sans.edu/diary/rss/33278",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-25T02:00:03.000Z",
-    "summary": "",
     "cveIds": [],
     "severity": "normal"
   }
