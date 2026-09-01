@@ -22,6 +22,175 @@
     "severity": "normal"
   },
   {
+    "id": "c6c20774e562d311",
+    "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
+    "link": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-01T13:08:58.000Z",
+    "summary": "The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued evolution of its toolset and likely expand its targeting footprint to infect Linux and Apple macOS s",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fb80f08d7cd24214",
+    "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-01T12:38:35.000Z",
+    "summary": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "90aa5957280f52a5",
+    "title": "Experiment: Porting a PLC Exploit With AI Takes Hours and Hundreds of Dollars",
+    "link": "https://www.securityweek.com/experiment-porting-a-plc-exploit-with-ai-takes-hours-and-hundreds-of-dollars/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-01T12:37:15.000Z",
+    "summary": "Forescout researchers used Claude AI to port a remote code execution exploit between WAGO PLC models.\nThe post Experiment: Porting a PLC Exploit With AI Takes Hours and Hundreds of Dollars appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "38784237bce7f8ff",
+    "title": "Iranian cyber spies target aviation, fintech developers with new malware",
+    "link": "https://therecord.media/iranian-cyber-spies-target-aviation-fintech-new-malware",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-01T12:33:00.000Z",
+    "summary": "In a report published Tuesday, Kaspersky said it first discovered NodeRabbit on a system in Afghanistan and later identified variants on systems in Egypt and Ethiopia.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "82d23ec0e00f2ddb",
+    "title": "Cyber risk from frontier AI poses ‘most immediate concern’ to global financial system, watchdog warns",
+    "link": "https://therecord.media/cyber-risk-from-frontier-ai-most-immediate-concern-to-global-finance",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-01T12:28:00.000Z",
+    "summary": "Andrew Bailey, chair of the Financial Stability Board, called on financial institutions and technology providers to “prepare for more severe scenarios involving simultaneous disruption across multiple firms or shared technology dependencies",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8284ce7f7a011cf3",
+    "title": "Hackers Start Exploiting Critical Langflow Vulnerability",
+    "link": "https://www.securityweek.com/hackers-start-exploiting-critical-langflow-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-01T12:07:54.000Z",
+    "summary": "Tracked as CVE-2026-0768, the security defect allows unauthenticated attackers to execute arbitrary Python code remotely.\nThe post Hackers Start Exploiting Critical Langflow Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-0768"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "74926d30facaf133",
+    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
+    "link": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-01T11:30:00.000Z",
+    "summary": "The most common way into a company last year was to ask.\n\nA web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboard. Then it talks them through opening a ter",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b116a133ae39399e",
+    "title": "Five Venezuelans Plead Guilty in US Court to ATM Jackpotting",
+    "link": "https://www.securityweek.com/five-venezuelans-plead-guilty-in-us-court-to-atm-jackpotting/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-01T11:24:25.000Z",
+    "summary": "The defendants unsuccessfully attempted to physically install malware on ATMs to force them to dispense cash.\nThe post Five Venezuelans Plead Guilty in US Court to ATM Jackpotting appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8600caa558ea32b7",
+    "title": "Ransomware Gang Claims Nutex Health Data Breach",
+    "link": "https://www.securityweek.com/ransomware-gang-claims-nutex-health-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-01T10:47:47.000Z",
+    "summary": "The company has notified the SEC that hackers accessed patient, employee, provider, business, and financial information.\nThe post Ransomware Gang Claims Nutex Health Data Breach appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7ce43dc77f71d4d3",
+    "title": "Critical JFrog Artifactory Vulnerability Reportedly Exploited in the Wild",
+    "link": "https://www.securityweek.com/critical-jfrog-artifactory-vulnerability-reportedly-exploited-in-the-wild/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-01T09:59:44.000Z",
+    "summary": "Exploitation of the authentication bypass vulnerability CVE-2026-82329 started just days after its public disclosure.\nThe post Critical JFrog Artifactory Vulnerability Reportedly Exploited in the Wild appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-82329"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "53e4c2c06a7d2af1",
+    "title": "Five Venezuelans plead guilty to ATM jackpotting attacks in US",
+    "link": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-01T09:15:07.000Z",
+    "summary": "Five Venezuelan nationals pleaded guilty to attempting to empty automated teller machines (ATMs) using malware in a series of ATM jackpotting attacks. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a016a903593986ab",
+    "title": "9.5 Million Impacted by Aesto Health Data Breach",
+    "link": "https://www.securityweek.com/9-5-million-impacted-by-aesto-health-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-01T09:09:34.000Z",
+    "summary": "Hackers stole personal and health information from the healthcare technology company’s AWS infrastructure.\nThe post 9.5 Million Impacted by Aesto Health Data Breach appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f8ce7e84fa0778f3",
+    "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+    "link": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-01T09:05:30.000Z",
+    "summary": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-horizon, agentic tasks, disclosed that it su",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "649a74be5a9d2705",
+    "title": "WatchGuard Patches Critical Vulnerabilities",
+    "link": "https://www.securityweek.com/watchguard-patches-critical-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-01T08:50:04.000Z",
+    "summary": "Three critical issues in the Fireware OS iked process could allow unauthenticated attackers to execute arbitrary code remotely.\nThe post WatchGuard Patches Critical Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3b50be74e8b46ec7",
+    "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
+    "link": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-01T08:26:24.000Z",
+    "summary": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interfere with artificial intelligence (AI)-as",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f55794ea195bce2c",
     "title": "Recently patched PaperCut zero-days used in data theft attacks",
     "link": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/",
@@ -124,6 +293,17 @@
     "summary": "The ClickFix-style campaign features a sophisticated, multistage attack chain that includes reverse tunnels into victim organizations' networks.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "7a58a7bd5abc9496",
+    "title": "The Guardrails Debate: Security Researcher Changes His Mind",
+    "link": "https://www.darkreading.com/cyber-risk/the-guardrails-debate-security-researcher-changes-his-mind",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-08-31T20:09:24.000Z",
+    "summary": "While guardrails are critical, as evidenced by recent high-profile incidents, defenders need help staying ahead of attackers who do not play by the rules.",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "011df36f07243d68",
@@ -2187,6 +2367,50 @@
     "severity": "normal"
   },
   {
+    "id": "f9478d3508532c1d",
+    "title": "Multiples vulnérabilités dans OpenSSL (26 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1079/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-26T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dc982fa79e80eab6",
+    "title": "Multiples vulnérabilités dans les produits Veeam (26 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1080/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-26T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b9c24e52e3f974ce",
+    "title": "Multiples vulnérabilités dans Google Chrome (26 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1081/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-26T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "acdba0c4132d2d7e",
+    "title": "Vulnérabilité dans Apereo CAS (26 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1082/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-26T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Apereo CAS. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "76252466e432cd31",
     "title": "LACMA data breach last year exposed social security and medical data",
     "link": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
@@ -2359,352 +2583,6 @@
     "category": "news",
     "pubDate": "2026-08-25T14:07:37.000Z",
     "summary": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside the model itself.\n\nT",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "91a0b481cd9dc4cb",
-    "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
-    "link": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-25T14:01:11.000Z",
-    "summary": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organizations prevent fake workers and social engi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5e8c650e44660b7d",
-    "title": "Ukraine to give Britain access to battlefield data to train AI",
-    "link": "https://therecord.media/ukraine-uk-ai-drone-data",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-25T14:00:00.000Z",
-    "summary": "Ukraine will give Britain access to a vast trove of battlefield data collected during the war with Russia, allowing U.K. companies and researchers to use it to train and test artificial intelligence systems.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "69d038a353f87955",
-    "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-25T13:51:58.000Z",
-    "summary": "Microsoft updated its Windows PowerToys toolset with a new utility dubbed \"Window Hopper\" that lets users switch between an app's windows more quickly. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d8991a661401c516",
-    "title": "WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities",
-    "link": "https://www.securityweek.com/wordpress-websites-targeted-via-miniorange-plugin-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-25T13:33:12.000Z",
-    "summary": "CVE-2026-61979 and CVE-2026-15981 are authentication bypass vulnerabilities affecting the MiniOrange SAML 2.0 SSO plugin.\nThe post WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-61979",
-      "CVE-2026-15981"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "cac9bef4e461e0d6",
-    "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
-    "link": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-25T13:19:41.000Z",
-    "summary": "Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accounts using the phishing-resistant method.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "55ed7299960a19c1",
-    "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
-    "link": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-25T13:00:00.000Z",
-    "summary": "WhatsApp has started rolling out several new account security features, including support for multiple passkeys and stronger two-step verification. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "238098843b28369b",
-    "title": "WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update",
-    "link": "https://www.securityweek.com/whatsapp-adds-multiple-passkeys-and-stronger-2sv-in-account-security-update/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-25T13:00:00.000Z",
-    "summary": "When Android users get a call from a non-contact, they will see more information about the caller, including their country.\nThe post WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "67d64bf44f240a08",
-    "title": "Hands-On Cyber-Physical Systems Training Returns to ICS Cybersecurity Conference",
-    "link": "https://www.securityweek.com/hands-on-cyber-physical-systems-training-returns-to-ics-cybersecurity-conference/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-25T12:57:59.000Z",
-    "summary": "Hands-on Cyber Attack Methods course returns to SecurityWeek’s ICS Cybersecurity Conference, October 6–8 at the W Nashville.\nThe post Hands-On Cyber-Physical Systems Training Returns to ICS Cybersecurity Conference appeared first on Securit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7b265086e8c967e8",
-    "title": "UK government seeks powers to secretly block risky tech suppliers",
-    "link": "https://therecord.media/uk-technology-national-security",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-25T12:45:00.000Z",
-    "summary": "The British government is seeking new powers to ban certain technology vendors from supplying companies working in the country’s critical sectors — and to potentially do so in secret.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6bcf831998050f12",
-    "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
-    "link": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-25T12:43:51.000Z",
-    "summary": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted notebook, according to VulnCheck's CVE Numberin",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d82506262b4f761d",
-    "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-25T12:04:02.000Z",
-    "summary": "Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "737cfb55d033cccf",
-    "title": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
-    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "Advisory at a Glance\nTitle\nA Tale of Two SOCs: Insights From Two Red Team Assessments\n\n\nOriginal Publication \nAugust 25, 2026\n\n\nExecutive Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) conducted simultaneous red team a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a96804b2286c913a",
-    "title": "Zoneminder",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in full Remote Code Execution (RCE) as the web server user.\nThe following versions of Zoneminder are affected:\nZoneminder 1.37.48|1.38.3 \nCVSS\nVendor\nEquipment\nVul",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bbb2155112aae204",
-    "title": "PayRange API",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote, authenticated or unauthenticated attacker to disclose sensitive information, arbitrarily modify the device to cause a denial of service, or alter a device",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d759d95109c39f32",
-    "title": "FURUNO FA-50 Class B AIS Transponder",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to alter device settings.\nThe following versions of FURUNO FA-50 Class B AIS Transponder are affected:\nFURUNO FA-50 Class B AIS Transponder vers:all/",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d7fe95f839eedfc9",
-    "title": "Siemens SIMATIC IoT2050 Advanced",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSIMATIC IoT2050 Advanced devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create mal",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7fff329c98e31a3a",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/08/25/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-60004 Gitea Code Injection Vulnerability\nThis type of vulnerability is a frequent attack vector ",
-    "cveIds": [
-      "CVE-2026-60004"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "4abcea04a3187264",
-    "title": "Ebyte NE2-D11",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain unauthorized administrative access, disclose sensitive information, modify device configuration, hijack authenticated sessions, and disrupt d",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "613cd5d5a41e341a",
-    "title": "Bendix EC80 Brake ECU",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause the loss of ABS functions, steering assist, speedometer, shifting capabilities, or disable automatic traction control.\nThe following version",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "71182d82f67c93c5",
-    "title": "Rently Smart Home",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-25T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to access sensitive information and override user permissions.\nThe following versions of Rently Smart Home are affected:\nSmart Home <=20.1.0\nCVSS\nVendor",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "02168dcbba55cff4",
-    "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
-    "link": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-25T11:56:15.000Z",
-    "summary": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and bypassing two-factor authentication.\n\nA",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e7c2149d23bc6913",
-    "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
-    "link": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-25T11:52:43.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages.\n\n\"While the malware is simply a single HTML page",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5df166f7b31a0366",
-    "title": "Large DDoS attack knocks Norwegian public services offline",
-    "link": "https://therecord.media/norway-cyberattack-ddos-government",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-25T11:45:00.000Z",
-    "summary": "The Norwegian Digitalisation Agency said it was working with its IT partner to stabilize systems affected by a distributed denial-of-service attack, with some services gradually coming back online.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "69f67164eb34eeea",
-    "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
-    "link": "https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-25T11:33:44.000Z",
-    "summary": "Cybersecurity researchers are calling attention to a new campaign that employs FTP banners as dead drop resolvers (DDRs) to deliver two previously unreported remote access trojans (RATs) tracked as E4del and PINHOLE.\n\nWhile threat actors ar",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "44fb28ec534c151b",
-    "title": "First Malware Built Specifically for Car Head Units Fuels Botnet",
-    "link": "https://www.securityweek.com/first-malware-built-specifically-for-car-head-units-fuels-botnet/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-25T11:18:22.000Z",
-    "summary": "Kaspersky researchers have linked the malware to the BadBox botnet, which has ensnared millions of devices.\nThe post First Malware Built Specifically for Car Head Units Fuels Botnet appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5bf5cb26986e8f54",
-    "title": "Frontier AI: Vulnerability Management's Systemic Revolution",
-    "link": "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-25T11:14:07.000Z",
-    "summary": "Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also existed for that time and has gone through ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "aee4ee1d7ffabdab",
-    "title": "Police arrests dozens of suspects in global cybercrime crackdown",
-    "link": "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-25T10:53:20.000Z",
-    "summary": "Law enforcement agencies from 22 countries helped identify 263 suspects and arrested 58 individuals linked to cybercrime networks coordinated by African crime groups. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d86b26a2d2ba2d22",
-    "title": "The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution",
-    "link": "https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-08-25T10:00:57.000Z",
-    "summary": "Explore Unit 42 research on AI-enabled malware. Learn how existing behavioral detection and endpoint analytics stop AI-authored code before execution.\nThe post The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Executi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cb32782f3bd1ed48",
-    "title": "The safety penalty: Reclaiming operational sovereignty in the age of AI",
-    "link": "https://blog.talosintelligence.com/the-safety-penalty-reclaiming-operational-sovereignty-in-the-age-of-ai/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-08-25T10:00:22.000Z",
-    "summary": "As frontier AI models become increasingly restrictive, security teams are facing a \"safety penalty\" that hampers real-time incident response. Discover how organizations can move toward operational sovereignty to ensure their defensive AI ke",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e68ef2f1a203a2af",
-    "title": "Silent Patches Don’t Stop Attackers – They Blind Defenders",
-    "link": "https://www.securityweek.com/silent-patches-dont-stop-attackers-they-blind-defenders/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-25T10:00:00.000Z",
-    "summary": "Silent patches can become exploit intelligence for attackers while leaving defenders without the context needed to prioritize risk.\nThe post Silent Patches Don’t Stop Attackers – They Blind Defenders appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "aefc8810292db5cb",
-    "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
-    "link": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-25T08:34:07.000Z",
-    "summary": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as any WordPress user, including administrato",
     "cveIds": [],
     "severity": "normal"
   }
