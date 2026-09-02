@@ -22,6 +22,176 @@
     "severity": "normal"
   },
   {
+    "id": "348588b41dbd5ea1",
+    "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-02T10:53:49.000Z",
+    "summary": "SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks.\n\nThe vulnerabilities, discovered internally by SonicWall",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5f98ca43ef8f767f",
+    "title": "OpenAI’s Astra Becomes First Model to Cross Critical Cybersecurity Threshold",
+    "link": "https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-02T10:38:13.000Z",
+    "summary": "The designation applies when a model can independently find and exploit zero-day vulnerabilities across many well-defended systems.\nThe post OpenAI’s Astra Becomes First Model to Cross Critical Cybersecurity Threshold appeared first on Secu",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a4b0ba36a64193f2",
+    "title": "Microsoft Defender flags legitimate Google search links as malicious",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-02T10:29:39.000Z",
+    "summary": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "de365fb63a0d4e88",
+    "title": "An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation",
+    "link": "https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-09-02T10:00:46.000Z",
+    "summary": "Using autonomous AI agents, an attacker breached an enterprise network in a matter of hours. Understand how to address and defend against agentic attacks.\nThe post An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation appeared first o",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a7a11a80814190ea",
+    "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
+    "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-02T09:18:02.000Z",
+    "summary": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geoportals.\n\nThe project shipped fixes in v",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "afb4d7615daf164a",
+    "title": "Chrome and Firefox Updates Patch Dozens of Vulnerabilities",
+    "link": "https://www.securityweek.com/chrome-and-firefox-updates-patch-dozens-of-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-02T09:12:29.000Z",
+    "summary": "The browser refreshes fix multiple use-after-free, sandbox escape, and privilege escalation bugs.\nThe post Chrome and Firefox Updates Patch Dozens of Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5fa2181f18ac6571",
+    "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
+    "link": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-02T09:10:23.000Z",
+    "summary": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments to about 80,000 of its users in 2",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d321a44740756c3f",
+    "title": "US charges Russian for infecting 80,000 freelancers with malware",
+    "link": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-02T09:06:48.000Z",
+    "summary": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f332196e370e4259",
+    "title": "23-Year-Old Sality P2P Botnet Disrupted",
+    "link": "https://www.securityweek.com/23-year-old-sality-p2p-botnet-disrupted/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-02T08:38:00.000Z",
+    "summary": "The shutdown operation involved peer list manipulation and Sality payload URL takedown.\nThe post 23-Year-Old Sality P2P Botnet Disrupted appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "71e1868cd19f1a71",
+    "title": "Sality botnet infrastructure dismantled in joint global takedown",
+    "link": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-02T08:00:43.000Z",
+    "summary": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "152b1ab15895238b",
+    "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+    "link": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-02T07:47:13.000Z",
+    "summary": "Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, executing attacker-supplied ARM shellcod",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "123b90c7eeb9f8ad",
+    "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-02T07:08:50.000Z",
+    "summary": "Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution.\n\nThe vulnerability in question is CVE-2026-9586 (CVSS score: 9.3), a cri",
+    "cveIds": [
+      "CVE-2026-9586"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "e1b0fe399ce03338",
+    "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
+    "link": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-02T06:56:30.000Z",
+    "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part of a coordinated law enforcement operation.\n\nThe effort was undertaken on August 31, 2026, by author",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "56a0387e84a97012",
+    "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-02T06:39:29.000Z",
+    "summary": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d4ba7a1db8b31767",
+    "title": "SonicWall Warns of Two SMA1000 Zero-Days Exploited in Attacks",
+    "link": "https://www.securityweek.com/sonicwall-warns-of-two-sma1000-zero-days-exploited-in-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-02T05:04:52.000Z",
+    "summary": "The vulnerabilities CVE-2026-83549 and CVE-2026-83548 can be chained for unauthenticated remote code execution.\nThe post SonicWall Warns of Two SMA1000 Zero-Days Exploited in Attacks appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-83549",
+      "CVE-2026-83548"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "584edc89e528826e",
     "title": "ISC Stormcast For Wednesday, September 2nd, 2026 https://isc.sans.edu/podcastdetail/10078, (Wed, Sep 2nd)",
     "link": "https://isc.sans.edu/diary/rss/33304",
@@ -2551,152 +2721,5 @@
     "summary": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "63d96c7701a0d791",
-    "title": "The MFA Identity Trap: When Authentication Creates a False Sense of Security",
-    "link": "https://www.securityweek.com/the-mfa-identity-trap-when-authentication-creates-a-false-sense-of-security/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-26T11:00:00.000Z",
-    "summary": "Organizations must distinguish identity verification, authentication and threat detection, or risk successfully authenticating the attackers they are trying to stop.\nThe post The MFA Identity Trap: When Authentication Creates a False Sense ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a16adaff464fa924",
-    "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
-    "link": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-26T10:27:23.000Z",
-    "summary": "Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Opus 4.6, running on the OpenClaw agent harness, exploited a client-side-only booking restriction in 9",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "db4c2e5e07d30c5d",
-    "title": "Choose your fighter: Balancing competing requirements to select models for your AI SOC",
-    "link": "https://blog.talosintelligence.com/choose-your-fighter-balancing-competing-requirements-to-select-models-for-your-ai-soc/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-08-26T10:00:05.000Z",
-    "summary": "Selecting a model for your security operations center (SOC) and digital forensics and incident response (DFIR) tasks is important, but selecting the best one is more involved than you might think. Here's how to choose.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b82f82b0be8d81fe",
-    "title": "Chrome 152 Patches Over 300 Vulnerabilities",
-    "link": "https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-26T09:50:34.000Z",
-    "summary": "Most of the flaws were discovered by Google using AI, but researchers are still discovering high-value Chrome vulnerabilities.\nThe post Chrome 152 Patches Over 300 Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d573d89949f8296d",
-    "title": "OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation",
-    "link": "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-26T09:38:45.000Z",
-    "summary": "OpenAI on Tuesday said it banned a cluster of Russian ChatGPT accounts that used VPNs to bypass access restrictions and run an influence operation, which relied on its artificial intelligence (AI) tool to generate social media posts and com",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ccdd25e73dd30714",
-    "title": "Interpol's Jackal IV Disrupts West African Crime Infrastructure",
-    "link": "https://www.darkreading.com/threat-intelligence/interpols-jackal-iv-west-african-crime-infrastructure",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-26T08:30:00.000Z",
-    "summary": "The international law enforcement operation focused on disrupting crime-as-a-service networks and infrastructure behind groups like Black Axe.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5441a158c15b3d76",
-    "title": "Nigeria Looks to Sovereign Cloud for Cyber, National Security",
-    "link": "https://www.darkreading.com/cybersecurity-operations/nigeria-sovereign-cloud-cyber-national-security",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-26T08:00:00.000Z",
-    "summary": "The West African nation launched financing, procurement, and infrastructure policies to boost its sovereign cloud initiative and increase domestic technical knowledge.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5a7779b46815d3bd",
-    "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
-    "link": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-26T07:54:12.000Z",
-    "summary": "An eight-month INTERPOL operation targeting West African organized crime groups has led to arrests of 58 people and the identification of 263 suspects.\n\n\"The operation, which brought together 22 countries from six continents, is a response ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4caf32d0a443645c",
-    "title": "Sensitive Information Exposed in Nutex Health Data Breach",
-    "link": "https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-26T07:41:50.000Z",
-    "summary": "Nutex Health has informed the SEC that it recently detected unauthorized access and data exfiltration.\nThe post Sensitive Information Exposed in Nutex Health Data Breach appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2f41fa9d9b744abc",
-    "title": "New SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
-    "link": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-26T07:12:55.000Z",
-    "summary": "An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically crafted network packet reaches the machine and then runs commands written in a 23",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "85869282d537c6f4",
-    "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
-    "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-26T06:27:07.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea.\n\nThe vulnerability in question is CVE-2026-60004 (CVSS sc",
-    "cveIds": [
-      "CVE-2026-60004"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "16ed421380f42b5d",
-    "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
-    "link": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-26T05:47:28.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft victims posing as Apple Support and ask fo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6975220416ff1dad",
-    "title": "CISA Warns of Exploited Gitea Vulnerability",
-    "link": "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-26T05:17:28.000Z",
-    "summary": "CVE-2026-60004 is a remote code execution vulnerability patched by Gitea developers in late July with the release of version 1.27.1.\nThe post CISA Warns of Exploited Gitea Vulnerability appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-60004"
-    ],
-    "severity": "cve"
   }
 ]
