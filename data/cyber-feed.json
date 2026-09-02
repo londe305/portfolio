@@ -22,6 +22,94 @@
     "severity": "normal"
   },
   {
+    "id": "8f6b611d74390218",
+    "title": "AI Gives Cybercriminals a Dangerous Time Advantage",
+    "link": "https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-02T19:46:31.000Z",
+    "summary": "Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bf7a424fd078dd32",
+    "title": "OpenLeash Adds a Human Check to Risky AI Agent Actions",
+    "link": "https://www.securityweek.com/openleash-adds-a-human-check-to-risky-ai-agent-actions/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-02T19:30:00.000Z",
+    "summary": "The security tool intercepts potentially dangerous agent actions, blocking clear threats and requesting human approval when intent is uncertain.\nThe post OpenLeash Adds a Human Check to Risky AI Agent Actions appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a7432d5aff499b42",
+    "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-02T19:28:46.000Z",
+    "summary": "An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress could allow unauthenticated attackers to execute remote code and take control of affected websites. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4f8b07a5c4cc81eb",
+    "title": "Russian national facing 20 years for malware campaign that infected 80,000 freelancers",
+    "link": "https://therecord.media/russian-national-facing-20-years-malware-campaign",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-02T18:43:00.000Z",
+    "summary": "Searzhudin Tamirlanovich Aktulaev appeared in a San Francisco federal court on Monday after being arrested in Cyprus in May 2025 and extradited to the U.S. last week.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3eb6b7527a29e667",
+    "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+    "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-02T18:27:49.000Z",
+    "summary": "Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new initiative called the Fairwind Program.\n\n\"The Fairwind Progr",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "db2501765b1f711a",
+    "title": "Health data of more than 9.5 million people leaked from Aesto record system",
+    "link": "https://therecord.media/health-data-aesto-cyberattack-leak",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-02T17:15:00.000Z",
+    "summary": "The healthcare data company Aesto informed federal regulators this week that more than 9.5 million people had sensitive information leaked during a cyberattack last December.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "551e76fd7c2746d7",
+    "title": "Threat Gang 'Springs' Vishing Attacks on Microsoft Teams Users",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/threat-gang-springs-vishing-attacks-microsoft-teams-users",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-02T16:51:21.000Z",
+    "summary": "The \"Spring Ring\" operation aims to compromise users of the collaboration suite to remotely access their sessions, spread malware, and even take over infrastructure.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3b410cf359cf851d",
+    "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
+    "link": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-02T16:41:06.000Z",
+    "summary": "An active malware campaign is using bogus software-download websites to impersonate trusted vendors and distribute malicious installers.\n\n\"The campaign has targeted users looking to download popular software and has resulted in compromises ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "1e441479c7a0ef16",
     "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
@@ -176,6 +264,20 @@
     "summary": "Developed by CISA, the Federal Bureau of Investigation, and international partners, this guidance describes how organizations can plan and execute clear, timely, accurate, and audience-appropriate communications during IT and operational te",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "7b167633ddb9aacf",
+    "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-02T12:00:00.000Z",
+    "summary": "CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-9586 Sangoma Switchvox SQL Injection Vulnerability \nCVE-2026-48710 Kludex Starlette HTTP Req",
+    "cveIds": [
+      "CVE-2026-9586",
+      "CVE-2026-48710"
+    ],
+    "severity": "cve"
   },
   {
     "id": "962cd05d968ae9e8",
@@ -2269,17 +2371,6 @@
     "severity": "normal"
   },
   {
-    "id": "afcc4f0622a5faf0",
-    "title": "All-Line Equipment Company Fuel-Boss",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-27T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to execute arbitrary commands or code remotely on affected systems.\nThe following versions of All-Line Equipment Company Fuel-Boss are affected:\nFuel-B",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "e0c439334ba4d131",
     "title": "Rockwell Automation OTTO Fleet Manager",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-03",
@@ -2287,6 +2378,17 @@
     "category": "advisory",
     "pubDate": "2026-08-27T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could reduce the computational cost required for an attacker to perform offline brute-force attacks against stored password hashes.\nThe following versions of Rockwell Automatio",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "afcc4f0622a5faf0",
+    "title": "All-Line Equipment Company Fuel-Boss",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-08-27T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to execute arbitrary commands or code remotely on affected systems.\nThe following versions of All-Line Equipment Company Fuel-Boss are affected:\nFuel-B",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2586,127 +2688,6 @@
     "category": "news",
     "pubDate": "2026-08-26T21:33:06.000Z",
     "summary": "GoCaracal is a new modular malware framework that broadens Dark Caracal's capabilities to steal data and maintain access to victims.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "49b7acb0044aef23",
-    "title": "Exclusive: NSA to host a hacker reunion in bid to rebuild secretive unit",
-    "link": "https://therecord.media/nsa-to-host-hacker-reunion-in-bid-to-rebuild-secretive-unit",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-26T20:53:00.000Z",
-    "summary": "The National Security Agency will welcome back to campus potentially hundreds of former members of the elite group known as Tailored Access Operations (TAO) to celebrate the division’s recent rebranding.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cab07e1494747f93",
-    "title": "'HTTP Terminator' Hunts for Novel Desync Attacks",
-    "link": "https://www.darkreading.com/application-security/http-terminator-hunts-novel-desync-attacks",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-26T19:54:34.000Z",
-    "summary": "James Kettle of PortSwigger talks with the Dark Reading News Desk about his AI-powered open source tool, which found new HTTP request-smuggling techniques.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d7dae364ce250d82",
-    "title": "Red Flags That Expose Fake North Korean IT Workers",
-    "link": "https://www.darkreading.com/insider-threats/red-flags-expose-fake-north-korean-it-workers",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-26T19:21:24.000Z",
-    "summary": "North Korean operatives posing as IT workers are improving their tactics, but researchers say there are still ways to spot them before they do damage.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a464a049b843a86a",
-    "title": "Medical device firm Boston Scientific says cyberattack has disrupted shipment processes",
-    "link": "https://therecord.media/boston-scientific-cyberattack-disrupts-shipment-processes",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-26T19:10:00.000Z",
-    "summary": "The company released a statement and filed documents with the Securities and Exchange Commission (SEC) saying a cybersecurity incident was discovered on Tuesday.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d3c327f20e9b3cfd",
-    "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
-    "link": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-26T18:48:24.000Z",
-    "summary": "A newly disclosed Rowhammer attack called GPUThor can bypass error-correcting code (ECC) protections on NVIDIA GPUs, enabling denial-of-service (DoS) and root-level privilege escalation. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6f2d41407e349596",
-    "title": "Meta pledges to overhaul kids’ safety protections, pay $17 billion to settle social media case",
-    "link": "https://therecord.media/meta-settlement-children-online-safety-social-media",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-26T18:35:00.000Z",
-    "summary": "A multibillion-dollar settlement with attorneys general from nearly every U.S. state and territory will mean new privacy and safety protections in Meta products.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "890c622edfd02b70",
-    "title": "Android Malware Hijacks Update System for Car Head Units",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/android-malware-hijacks-update-system-car-head-units",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-26T17:33:45.000Z",
-    "summary": "Threat actors behind a notorious click-fraud botnet have set their sights on vehicle infotainment modules and are abusing legitimate functionality to spread infections.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4887e1ba2f00766a",
-    "title": "When AI infrastructure becomes the target: Securing gateways and control points",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/26/when-ai-infrastructure-becomes-target-securing-gateways-control-points/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-08-26T16:43:53.000Z",
-    "summary": "Microsoft Threat Intelligence examines attacks on exposed AI workloads, including LiteLLM gateway exploitation, credential harvesting, persistence, and cryptomining activity.\nThe post When AI infrastructure becomes the target: Securing gate",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a96b7528b8382c4c",
-    "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
-    "link": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-26T16:42:03.000Z",
-    "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced the disruption of two hacking platforms named QScan and QTRouter operated by Chinese threat actors to target critical infrastructure and other sensitive networks in the country.\n\nT",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "03cc892ee675d39c",
-    "title": "Meta agrees to $18 billion settlement over teen social media harms",
-    "link": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-26T16:41:05.000Z",
-    "summary": "Meta has reached a proposed settlement worth up to approximately $18 billion with a bipartisan coalition of 52 attorneys generals over allegations that Facebook and Instagram were deliberately designed to encourage compulsive use by childre",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f8778dd46b0fbdd5",
-    "title": "US takes down alleged Chinese hacking tools used against Federal Reserve, DOJ and Senate",
-    "link": "https://therecord.media/qscan-qtrouter-us-takedown-alleged-china-hacking-tools",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-26T16:25:00.000Z",
-    "summary": "The DOJ said it disrupted Chinese state-backed tools used to scan, infect and exploit IoT devices for attacks on federal agencies and multiple industries.",
     "cveIds": [],
     "severity": "normal"
   }
