@@ -22,6 +22,41 @@
     "severity": "normal"
   },
   {
+    "id": "0d0f16f9402fc089",
+    "title": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
+    "link": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-02T21:14:06.000Z",
+    "summary": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b11a003c4656b55c",
+    "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-02T21:00:13.000Z",
+    "summary": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution. [...]",
+    "cveIds": [
+      "CVE-2026-9586"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "a2c5bbd99058646b",
+    "title": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-02T20:43:59.000Z",
+    "summary": "The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor's edge devices.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "8f6b611d74390218",
     "title": "AI Gives Cybercriminals a Dangerous Time Advantage",
     "link": "https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage",
@@ -2666,28 +2701,6 @@
     "category": "advisory",
     "pubDate": "2026-08-27T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e266701766fa93ea",
-    "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-26T21:33:20.000Z",
-    "summary": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "29d4e1a8dd1a66ec",
-    "title": "Dark Caracal Adds New Malware to Cyber Espionage Arsenal",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/dark-caracal-adds-new-malware-cyber-espionage-arsenal",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-26T21:33:06.000Z",
-    "summary": "GoCaracal is a new modular malware framework that broadens Dark Caracal's capabilities to steal data and maintain access to victims.",
     "cveIds": [],
     "severity": "normal"
   }
