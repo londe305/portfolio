@@ -22,6 +22,96 @@
     "severity": "normal"
   },
   {
+    "id": "e2c94c64016dbf0f",
+    "title": "153 Million Driver License Images Offered on Dark Web",
+    "link": "https://www.securityweek.com/153-million-driver-license-images-offered-on-dark-web/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-03T10:54:18.000Z",
+    "summary": "Cybercriminals are offering digital scans of US and Canadian driver’s licenses, likely stolen from IDScan.net.\nThe post 153 Million Driver License Images Offered on Dark Web appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5cba2d58833b7038",
+    "title": "Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability",
+    "link": "https://www.securityweek.com/over-3-million-wordpress-sites-affected-by-migration-plugin-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-03T10:40:00.000Z",
+    "summary": "The high-severity SQL injection flaw (CVE-2026-19949) could allow unauthenticated attackers to achieve remote code execution.\nThe post Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-19949"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "e309059673330211",
+    "title": "Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities",
+    "link": "https://www.securityweek.com/cisco-warns-of-unpatched-secure-email-flaws-patches-critical-switch-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-03T10:30:00.000Z",
+    "summary": "Publicly disclosed S/MIME flaws could expose encrypted email content, while critical IOS XR and Nexus bugs could enable remote code execution and authentication bypass.\nThe post Cisco Warns of Unpatched Secure Email Flaws, Patches Critical ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "62f727b9ef19525c",
+    "title": "Attackers Expose Ongoing AI Tool Use Targeting Organizations in Latin America",
+    "link": "https://unit42.paloaltonetworks.com/ai-tool-use-targeting-latam-orgs/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-09-03T10:00:58.000Z",
+    "summary": "Explore how attackers targeting Latin American entities use AI for data exfiltration and how basic OpSec errors allow defenders to disrupt operations.\nThe post Attackers Expose Ongoing AI Tool Use Targeting Organizations in Latin America ap",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4ea6883b0514b798",
+    "title": "Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outlook-fail-to-launch-on-arm-based-windows-pcs/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-03T08:55:25.000Z",
+    "summary": "Microsoft is working to fix a known issue that causes crashes and launch failures for Microsoft Teams and New Outlook users after installing updates released since the August 2026 Patch Tuesday. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1f8967190e9aa51b",
+    "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
+    "link": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-03T08:43:17.000Z",
+    "summary": "The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware, according to new findings from the Citizen Lab in collaboration with the SHARE Foundation.\n\n\"Our analysis confirmed that an",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "aa3ea3b26ec7f3d2",
+    "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
+    "link": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-03T06:26:59.000Z",
+    "summary": "The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dubbed FalconFlank, a privilege escalation flaw impacting Crowdstrike Falcon.\n\n\"FalconFlank is a 0day p",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1cc3e73ad951f11a",
+    "title": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
+    "link": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-03T05:19:04.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilities (KEV) catalog after they landed in attackers' crosshairs.\n\nThe vulnerabilities are as follows -\n",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "1fa23c3492c69dbc",
     "title": "Honeypot-Omaha and batch.py &#x5b;Guest Diary&#x5d;, (Wed, Sep 2nd)",
     "link": "https://isc.sans.edu/diary/rss/33306",
@@ -2569,139 +2659,5 @@
     "summary": "Individuals and organizations in Cambodia have emerged as the target of a new campaign that delivers an open-source remote access trojan (RAT) called Spark RAT.\n\n\"The samples employ diverse lure themes, suggesting an effort to appeal to a b",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "c78a2b9ec0936d7f",
-    "title": "Cyberattack Causes Global Disruption at Boston Scientific",
-    "link": "https://www.securityweek.com/cyberattack-causes-global-disruption-at-boston-scientific/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-27T10:18:27.000Z",
-    "summary": "The cybersecurity incident has disrupted Boston Scientific’s ability to process and ship customer orders.\nThe post Cyberattack Causes Global Disruption at Boston Scientific appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ffbd571518d7b71d",
-    "title": "JavaScript obfuscation: From party trick to phishing kit",
-    "link": "https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-08-27T10:00:27.000Z",
-    "summary": "Learn the basics of what obfuscation is, why a researcher would try to reverse it, and several ways to approach the problem.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4ddab072c3b71a30",
-    "title": "The Future of AI-Driven Security Depends on Complete Data",
-    "link": "https://www.securityweek.com/the-future-of-ai-driven-security-depends-on-complete-data/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-27T10:00:00.000Z",
-    "summary": "For twenty-five years, \"data\" in security meant logs and events. But logs are a lossy representation of reality. \nThe post The Future of AI-Driven Security Depends on Complete Data appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b1b4909ffa7b5ddb",
-    "title": "A polymorphic phishing page (that occasionally breaks itself), (Thu, Aug 27th)",
-    "link": "https://isc.sans.edu/diary/rss/33290",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-27T09:57:28.000Z",
-    "summary": "As I've mentioned before in some of my diaries, from time to time, I like to go over phishing messages that get caught in my various spam traps or sent to us here at the Internet Storm Center.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "30da300bbde5614d",
-    "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
-    "link": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-27T09:33:38.000Z",
-    "summary": "Threat actors linked by Arctic Wolf to Dark Caracal with medium confidence deployed a previously undocumented Go-based malware framework, GoCaracal, during a June 2026 intrusion at an unnamed communications organization in Venezuela.\n\nGoCar",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "71a636a83a48c50b",
-    "title": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-27T09:16:50.000Z",
-    "summary": "CISA has ordered U.S. government agencies to patch their Citrix NetScaler appliances against an actively exploited remote code execution vulnerability by Saturday. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c702ea5bb583745e",
-    "title": "US Disrupts Chinese Hacking Platform Used in Military and Critical Infrastructure Attacks",
-    "link": "https://www.securityweek.com/us-disrupts-chinese-hacking-platform-used-in-military-and-critical-infrastructure-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-27T09:01:06.000Z",
-    "summary": "The operation focused on a group named QTFY, which offers hacking services to the Chinese government and others.\nThe post US Disrupts Chinese Hacking Platform Used in Military and Critical Infrastructure Attacks appeared first on SecurityWe",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b89e97eb0d7e195b",
-    "title": "ATF confirms “major incident” after recent Qilin breach claims",
-    "link": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-27T08:13:50.000Z",
-    "summary": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "01d373d985123580",
-    "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
-    "link": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-27T08:13:11.000Z",
-    "summary": "Academic researchers have disclosed a Rowhammer attack impacting NVIDIA workstation GPUs with GDDR6 memory that defeats error correction codes (ECC), the mitigation NVIDIA recommends against GPU Rowhammer, and enables denial-of-service (DoS",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "efabff6f477c7446",
-    "title": "Pro-Russian Hackers Claim Responsibility for Major Cyberattack on Norway’s Public Digital Services",
-    "link": "https://www.securityweek.com/pro-russian-hackers-claim-responsibility-for-major-cyberattack-on-norways-public-digital-services/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-27T08:00:00.000Z",
-    "summary": "The pro-Russian hacker group Server Killers claimed responsibility for the attack.\nThe post Pro-Russian Hackers Claim Responsibility for Major Cyberattack on Norway’s Public Digital Services appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "69ad97f943246df4",
-    "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
-    "link": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-27T07:05:28.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added six flaws to its Known Exploited Vulnerabilities (KEV) catalog, including a high-severity security vulnerability impacting Citrix NetScaler ADC and NetScale",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cdb87e3bfd1934e0",
-    "title": "Recent Citrix NetScaler Vulnerability Exploited in the Wild",
-    "link": "https://www.securityweek.com/recent-citrix-netscaler-vulnerability-exploited-in-the-wild/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-27T04:39:19.000Z",
-    "summary": "CISA is urging government agencies to immediately patch the Citrix NetScaler vulnerability tracked as CVE-2026-8452.\nThe post Recent Citrix NetScaler Vulnerability Exploited in the Wild appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-8452"
-    ],
-    "severity": "cve"
   }
 ]
