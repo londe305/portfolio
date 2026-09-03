@@ -22,6 +22,184 @@
     "severity": "normal"
   },
   {
+    "id": "d25fd9c62f7c4c24",
+    "title": "Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal",
+    "link": "https://www.securityweek.com/manchester-airports-group-data-on-8-8-million-people-leaked-after-ransom-refusal/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-03T15:35:19.000Z",
+    "summary": "Hacker group published roughly 550GB of data after MAG reportedly refused to pay a ransom demand; the group says it gained access via exposed admin keys.\nThe post Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "55fde73889a1b4aa",
+    "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-03T15:22:33.000Z",
+    "summary": "Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11 systems. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c148cdbe12935a1d",
+    "title": "Capsule Security Launches ‘AI Circuit Breaker’ to Stop Rogue Agents",
+    "link": "https://www.securityweek.com/capsule-security-launches-ai-circuit-breaker-to-stop-rogue-agents/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-03T15:15:00.000Z",
+    "summary": "New models, trained using NVIDIA Nemotron 3 Ultra, aim to catch rogue agent behavior before it executes, without the latency of large-model review.\nThe post Capsule Security Launches ‘AI Circuit Breaker’ to Stop Rogue Agents appeared first ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "52b5a014f17360c0",
+    "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-03T15:13:29.000Z",
+    "summary": "ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bb28fb72da337c30",
+    "title": "Anthropic confirms Claude is down, multiple models affected",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-03T15:02:52.000Z",
+    "summary": "Claude is experiencing an outage, with users encountering elevated errors when sending requests to multiple Anthropic AI models. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7e67bf78de99a0fd",
+    "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-03T14:52:20.000Z",
+    "summary": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on the server. [...]",
+    "cveIds": [
+      "CVE-2026-32475"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "39884b3361bd85e8",
+    "title": "AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-machine-speed-2-week-attack-10-hours",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-03T14:38:49.000Z",
+    "summary": "The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "59bf02626879bd30",
+    "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
+    "link": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-03T13:50:59.000Z",
+    "summary": "Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defenders can prioritize compromised identities, determine whether stolen access is still usable, and re",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "63ec905cd4e8dc2f",
+    "title": "HiddenLayer Raises $100 Million for AI Runtime Security",
+    "link": "https://www.securityweek.com/hiddenlayer-raises-100-million-for-ai-runtime-security/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-03T12:17:30.000Z",
+    "summary": "The Austin-based company will invest in agentic runtime security capabilities to secure AI coding agents.\nThe post HiddenLayer Raises $100 Million for AI Runtime Security appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a8a1bc5d28ff7a22",
+    "title": "Microsoft says KB5120998 Windows update resets desktop settings",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-03T12:16:32.000Z",
+    "summary": "Microsoft has confirmed that desktop settings are lost or reset on some Windows devices after installing the KB5120998 August 2026 preview update. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "868b93039e496fe8",
+    "title": "'Breeze Comet' Tears Into Brazilian &amp; Global Financial Systems",
+    "link": "https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "Brazil's most sophisticated threat group is making light work of the country's financial systems, putting money directly into its own pocket.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9ca49df1f9834655",
+    "title": "AI Agent Firewall Startup AIR Security Emerges From Stealth With $50 Million",
+    "link": "https://www.securityweek.com/ai-agent-firewall-startup-air-security-emerges-from-stealth-with-50-million/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "The startup’s firewall evaluates AI skills, plugins and MCP servers for malicious instructions, excessive permissions and software supply chain risks.\nThe post AI Agent Firewall Startup AIR Security Emerges From Stealth With $50 Million app",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0bfb04557cea525f",
+    "title": "Preparing for the Post-Quantum Era: A Call to Action",
+    "link": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "CISA and the Group of Seven (G7) Cyber Security Working Group released Preparing for the Post-Quantum Era: A Call to Action highlighting the urgent need for organizations and governments to begin transitioning to post-quantum cryptography (",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ab298f911d3cc1b5",
+    "title": "US and Canadian court data exposed in Thomson Reuters breach",
+    "link": "https://therecord.media/thomson-reuters-cyberattack-data",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "Sealed court information and sensitive personal data were exposed in a breach of a Thomson Reuters records platform affecting courts in at least 12 U.S. states, the U.S. Virgin Islands and Canada.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "40a4e36b4ae1f007",
+    "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
+    "link": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-03T11:58:00.000Z",
+    "summary": "An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has turned out to be part of a broader campaign spanning 46 countries.\n\nAround 45% of observed activity w",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "94df04e0615091c7",
+    "title": "Plex warns users to patch security vulnerabilities immediately",
+    "link": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-03T11:02:22.000Z",
+    "summary": "Plex urged users this week to update their desktop clients and media servers immediately to patch multiple security vulnerabilities. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e2c94c64016dbf0f",
     "title": "153 Million Driver License Images Offered on Dark Web",
     "link": "https://www.securityweek.com/153-million-driver-license-images-offered-on-dark-web/",
@@ -29,6 +207,17 @@
     "category": "news",
     "pubDate": "2026-09-03T10:54:18.000Z",
     "summary": "Cybercriminals are offering digital scans of US and Canadian driver’s licenses, likely stolen from IDScan.net.\nThe post 153 Million Driver License Images Offered on Dark Web appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c637fcbfa4b6896f",
+    "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
+    "link": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-03T10:43:01.000Z",
+    "summary": "Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads.\n\nAccording to a new report published by the Symantec Threat Hunter Team today, the attack method has been p",
     "cveIds": [],
     "severity": "normal"
   },
@@ -44,6 +233,17 @@
       "CVE-2026-19949"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "9fc8e83d3864c47c",
+    "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
+    "link": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-03T10:36:39.000Z",
+    "summary": "In early August, GitGuardian researchers found that a recent Shai-Hulud infostealer worm variant had evolved to scan for credentials across 469 locations across developer environments, Continuous Integration/Continuous Deployment (CI/CD) to",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "e309059673330211",
@@ -413,17 +613,6 @@
     "severity": "normal"
   },
   {
-    "id": "3dc89167a299b941",
-    "title": "Communicating Under Pressure: Best Practices for Service Providers",
-    "link": "https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-02T12:00:00.000Z",
-    "summary": "Developed by CISA, the Federal Bureau of Investigation, and international partners, this guidance describes how organizations can plan and execute clear, timely, accurate, and audience-appropriate communications during IT and operational te",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "7b167633ddb9aacf",
     "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
@@ -436,6 +625,17 @@
       "CVE-2026-48710"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "3dc89167a299b941",
+    "title": "Communicating Under Pressure: Best Practices for Service Providers",
+    "link": "https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-02T12:00:00.000Z",
+    "summary": "Developed by CISA, the Federal Bureau of Investigation, and international partners, this guidance describes how organizations can plan and execute clear, timely, accurate, and audience-appropriate communications during IT and operational te",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "962cd05d968ae9e8",
@@ -2190,6 +2390,39 @@
     "severity": "normal"
   },
   {
+    "id": "faa97f0887c279de",
+    "title": "Multiples vulnérabilités dans Tenable Enclave Security (28 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1089/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-28T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Enclave Security. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1a152e16b1c80343",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (28 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1090/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-28T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "38a3af13eab55117",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (28 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1091/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-08-28T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contourn",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "0321378bd0429a68",
     "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
     "link": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
@@ -2265,399 +2498,5 @@
     "summary": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "4bd54ac55ac37e04",
-    "title": "Manchester Airports Group says hackers stole travelers' data",
-    "link": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-27T16:12:26.000Z",
-    "summary": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "380d08882c090792",
-    "title": "​​​​​​What’s new in Microsoft Security: August 2026",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/27/whats-new-in-microsoft-security-august-2026/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-08-27T16:00:00.000Z",
-    "summary": "This month’s updates provide new capabilities to help organizations gain insights into agent activity, expand security coverage across supported environments, and enhance security management across their environments.\nThe post ​​​​​​What’s ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a88714b68d5a6f3d",
-    "title": "Finland appeals court revives case against Eagle S Officers over cable breaks",
-    "link": "https://therecord.media/finland-appeals-court-revives-case-against-eagle-s",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-27T15:30:00.000Z",
-    "summary": "The appeals court sent the case back to the Helsinki District Court to be heard on its merits, although the three men, who had previously been detained in Finland, have since left the country.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8dcdb0fd292766b9",
-    "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
-    "link": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-27T15:13:00.000Z",
-    "summary": "Credit: Hacktron\nVercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a198de3c1af796a8",
-    "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
-    "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-27T15:12:16.000Z",
-    "summary": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine.\n\nThe rest of the week gets stranger: botnets borrowing AI, command traffic hiding in publi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3a629e0bf2c5b2ab",
-    "title": "Chinese and Russian spies stepping up cyberattacks, German companies report",
-    "link": "https://therecord.media/germany-cyberattacks-china-russia",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-27T14:45:00.000Z",
-    "summary": "Foreign intelligence services, particularly those from China and Russia, are increasingly behind cyberattacks on German companies, according to a new survey of the country’s private sector.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "87e6080edec09db4",
-    "title": "Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear",
-    "link": "https://www.securityweek.com/trump-order-aims-to-block-foreign-backdoors-in-us-power-grid-gear/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-27T14:17:26.000Z",
-    "summary": "The White House’s new executive order 14420 widens scrutiny of industrial control systems over cyber sabotage concerns.\nThe post Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cf0f2a0c453ea3b6",
-    "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
-    "link": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-27T14:00:10.000Z",
-    "summary": "Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and response. ESET explains how combining threat intelligence, continuous monitoring, and human expertise can h",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "450a2aa94aabef40",
-    "title": "Android 17 adds ECH support to make web browsing harder to track",
-    "link": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-27T14:00:00.000Z",
-    "summary": "Google is introducing new network security protections in Android 17 to strengthen connection privacy, address cellular vulnerabilities, and protect the privacy of users' home networks. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "595b1b185d721be6",
-    "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
-    "link": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-27T13:39:56.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate data exfiltration via prompt injection and ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e28bfb5510126232",
-    "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-27T13:31:13.000Z",
-    "summary": "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "47f6318449a2f12f",
-    "title": "Cyberattack on Manchester Airports Group exposes data of 8.7 million customers",
-    "link": "https://therecord.media/cyberattack-on-manchester-airports-group-exposes-millions-customer-info",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-27T13:15:00.000Z",
-    "summary": "A spokesperson told The Yorkshire Post that roughly 8.7 million people were impacted, although they did not provide a date range. They added that in the “vast majority” of cases, the only information accessed was an email address.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "de196ccbe3872ebd",
-    "title": "Australia charges two men for TeamPCP supply-chain hacking spree",
-    "link": "https://therecord.media/australia-teampcp-hackers-arrested",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-27T13:00:00.000Z",
-    "summary": "Two men in Australia were charged Wednesday over their alleged membership in TeamPCP, the cybercrime group blamed for one of the most damaging hacking campaigns of the past year.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dde3fd5d44a40ba4",
-    "title": "Australia Arrests 2 Alleged TeamPCP Hackers",
-    "link": "https://www.securityweek.com/australia-arrests-2-alleged-teampcp-hackers/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-27T12:48:03.000Z",
-    "summary": "Australian and US authorities collaborated to identify and charge the alleged cybercriminals, who face many years in prison.\nThe post Australia Arrests 2 Alleged TeamPCP Hackers appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1c99fb058a1b2ffe",
-    "title": "Microsoft rolls out fix for Windows 11 crashes, gaming issues",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-windows-11-crashes-gaming-issues/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-27T12:16:32.000Z",
-    "summary": "Microsoft has started rolling out a permanent fix for a known issue that causes system crashes and gaming issues on Windows 11 devices. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4ac76ea1ee4005bd",
-    "title": "Webinar: How Google Workspace breaches happen and what to do next",
-    "link": "https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-27T12:16:24.000Z",
-    "summary": "Google Workspace breaches can begin with social engineering or forgotten third-party integrations rather than sophisticated exploits. This webinar examines real-world breaches, what happens during the critical first hours, and the security ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0c8de13fdffa264c",
-    "title": "DOJ firearms agency says hackers breached system containing investigation targets",
-    "link": "https://therecord.media/doj-atf-cyberattack-qilin-ransomware",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-27T12:15:00.000Z",
-    "summary": "The Bureau of Alcohol, Tobacco, Firearms and Explosives confirmed it experienced a cyberattack on a system containing investigation information, as a prolific ransomware gang claimed to have carried out the breach.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "33428947f23e1036",
-    "title": "Mitsubishi Electric CNC Series (Update A)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-27T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service condition in the affected products.\nThe following versions of Mitsubishi Electric",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "807d37d3ce4a7f93",
-    "title": "Ebyte NA111-M",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-27T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to fully compromise the device.\nThe following versions of Ebyte NA111-M are affected:\nNA111-M Firmware 9013-2-17 (CVE-2026-73125, CVE-2026-76179, CVE",
-    "cveIds": [
-      "CVE-2026-73125",
-      "CVE-2026-76179"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "6603984d9e2e2875",
-    "title": "Mitsubishi Electric Multiple FA Products (Update D)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-128-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-27T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition, a timeout error, or a communication delay by sending a specially crafted UDP packet to the product.\n",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "253491c8e9dd7437",
-    "title": "Xiiaozet LK100W",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-27T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to take control over the device.\nThe following versions of Xiiaozet LK100W are affected:\nLK100W <2.1.240 (CVE-2026-78037, CVE-2026-78239, CVE-2026-76",
-    "cveIds": [
-      "CVE-2026-78037",
-      "CVE-2026-78239"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "3ab51a0cc84b1aef",
-    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-27T12:00:00.000Z",
-    "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2023-49105 ownCloud Improper Authentication Vulnerability\nCVE-2026-53362 Linux Kernel Unspecified V",
-    "cveIds": [
-      "CVE-2023-49105",
-      "CVE-2026-53362"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "20f42ef69c355296",
-    "title": "Applied Systems Engineering ASE2000 V2 Communications Test Set",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-27T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to read or write arbitrary local files, cause the application to issue outbound network requests, or intercept the connection to impersonate the trus",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e0c439334ba4d131",
-    "title": "Rockwell Automation OTTO Fleet Manager",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-27T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could reduce the computational cost required for an attacker to perform offline brute-force attacks against stored password hashes.\nThe following versions of Rockwell Automatio",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "afcc4f0622a5faf0",
-    "title": "All-Line Equipment Company Fuel-Boss",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-27T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to execute arbitrary commands or code remotely on affected systems.\nThe following versions of All-Line Equipment Company Fuel-Boss are affected:\nFuel-B",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7f345859c3f51b43",
-    "title": "OpenAI Agents Coordinated via Makeshift Message Board Ahead of Hugging Face Hack",
-    "link": "https://www.securityweek.com/openai-agents-coordinated-via-makeshift-message-board-ahead-of-hugging-face-hack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-27T11:58:01.000Z",
-    "summary": "New training environments will teach AI models to distrust instructions arriving from other agents outside sanctioned channels.\nThe post OpenAI Agents Coordinated via Makeshift Message Board Ahead of Hugging Face Hack appeared first on Secu",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5a570ea1e7c28b60",
-    "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
-    "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-27T11:56:30.000Z",
-    "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4ff42a628cb4ee60",
-    "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
-    "link": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-27T11:56:26.000Z",
-    "summary": "The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in TeamPCP, the cybercrime group behind the March 2026 compromise of the open-source security scanners T",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4397ae0968f0709c",
-    "title": "Okta Shares Surge on Strong Earnings, Growing Demand for AI Identity Security",
-    "link": "https://www.securityweek.com/okta-shares-surge-on-strong-earnings-growing-demand-for-ai-identity-security/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-27T11:53:10.000Z",
-    "summary": "The identity security company beat quarterly expectations and raised its outlook as enterprises face growing pressure to secure AI agents and other non-human identities.\nThe post Okta Shares Surge on Strong Earnings, Growing Demand for AI I",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bf9d2d640f0d2310",
-    "title": "What the Data Says About AI in Security Operations in 2026",
-    "link": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-27T11:30:00.000Z",
-    "summary": "AI is officially mainstream in security operations. According to Prophet Security's State of AI in Security Operations 2026 report (produced from ViB’s survey of 250+ cybersecurity pros), 40% of security teams now use AI daily. Another 56% ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4bb322634d8900d3",
-    "title": "Russian Hackers Phish EU Officials Over Messaging Apps",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-phish-eu-officials-messaging-apps",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-27T11:16:01.000Z",
-    "summary": "EU governments are trying to move away from popular messaging apps as nation-state threat groups shift their focus from email to Signal and WhatsApp.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "715d2727a504127a",
-    "title": "CISO Conversations: Chris Wheeler – Trust Is the Job, From the Navy to the C-Suite",
-    "link": "https://www.securityweek.com/ciso-conversations-chris-wheeler-trust-is-the-job-from-the-navy-to-the-c-suite/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-27T11:15:00.000Z",
-    "summary": "SecurityWeek talks to Chris Wheeler, CISO at Resilience, about his journey from the Navy to becoming a cybersecurity leader.\nThe post CISO Conversations: Chris Wheeler – Trust Is the Job, From the Navy to the C-Suite appeared first on Secur",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c4345d23c48c988e",
-    "title": "Carhartt data breach exposes information of 12.9 million accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-27T11:10:04.000Z",
-    "summary": "The ShinyHunters extortion group has published sensitive data from nearly 13 million accounts stolen from clothing retailer giant Carhartt earlier this month, according to data breach notification service Have I Been Pwned. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "861f4dd4c580966a",
-    "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
-    "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-08-27T11:04:15.000Z",
-    "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\r\n\r\nIn a statement rele",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7604fc96e6831e7e",
-    "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
-    "link": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-27T11:00:57.000Z",
-    "summary": "Individuals and organizations in Cambodia have emerged as the target of a new campaign that delivers an open-source remote access trojan (RAT) called Spark RAT.\n\n\"The samples employ diverse lure themes, suggesting an effort to appeal to a b",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
