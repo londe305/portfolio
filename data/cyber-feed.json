@@ -22,6 +22,105 @@
     "severity": "normal"
   },
   {
+    "id": "7ff01f204a1c10e3",
+    "title": "Large Enterprises Targeted in Fake Merger &amp; Acquisition Scams",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-03T20:18:14.000Z",
+    "summary": "Threat actors behind the \"Phantom Deal\" campaign are studying companies in extreme detail, aiming to dupe midlevel employees into initiating large financial transfers.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4db1e04afe52a2e8",
+    "title": "Coder's registry infrastructure compromised to push malicious modules",
+    "link": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-03T20:04:24.000Z",
+    "summary": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "87ab989dac4268a4",
+    "title": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
+    "link": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-03T19:42:39.000Z",
+    "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the latest antics of ShinyHunters to new research about the prevalence (or lack thereof) of AI-generated malware.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "214d012c4c2e724f",
+    "title": "Large group of Serbian opposition, activist figures targeted with spyware",
+    "link": "https://therecord.media/serbia-spyware-pegasus-europe",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-03T19:30:41.000Z",
+    "summary": "At least 14 Serbians have been targeted with advanced spyware since December, with victims including a member of Parliament, a local opposition politician and student protesters, according to digital forensic researchers.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ea175bcaebd9cebb",
+    "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-03T18:28:12.000Z",
+    "summary": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execution. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "517c6272dbd33f48",
+    "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
+    "link": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-03T18:02:47.000Z",
+    "summary": "The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door?\n\nThat idea runs through this edition. Attackers use real tools,",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d17bf98bc28b868f",
+    "title": "The story behind the intelligence",
+    "link": "https://blog.talosintelligence.com/the-story-behind-the-intelligence/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-09-03T18:00:13.000Z",
+    "summary": "From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cbff196d0861f19f",
+    "title": "ASCII smuggling crosses over from AI prompt injection to phishing evasion",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-09-03T16:00:00.000Z",
+    "summary": "Invisible Unicode characters popularized for hiding instructions from AI models are now being used to obfuscate words before email filters parse them.\nThe post ASCII smuggling crosses over from AI prompt injection to phishing evasion appear",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "45aa1b520d92885b",
+    "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
+    "link": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-03T15:52:07.000Z",
+    "summary": "Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root, alongside an IOS XR hardening release bundling 7",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "d25fd9c62f7c4c24",
     "title": "Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal",
     "link": "https://www.securityweek.com/manchester-airports-group-data-on-8-8-million-people-leaked-after-ransom-refusal/",
@@ -31,6 +130,17 @@
     "summary": "Hacker group published roughly 550GB of data after MAG reportedly refused to pay a ransom demand; the group says it gained access via exposed admin keys.\nThe post Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refu",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "78a351450324c00b",
+    "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
+    "link": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-03T15:26:47.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised hosts.\n\n\"Unlike the standard infostealer ",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "55fde73889a1b4aa",
@@ -87,6 +197,17 @@
     "cveIds": [
       "CVE-2026-32475"
     ],
+    "severity": "critical"
+  },
+  {
+    "id": "77c79351428de70f",
+    "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
+    "link": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-03T14:39:05.000Z",
+    "summary": "Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track, the court case management platform sold by its West Publishing Corporation unit, in March 2026, affecting courts in 11 U.S. states, the U.S. Virg",
+    "cveIds": [],
     "severity": "critical"
   },
   {
@@ -156,6 +277,107 @@
     "severity": "normal"
   },
   {
+    "id": "6327c8c7ea296882",
+    "title": "Rockwell Automation 1756-ENBT Module",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could crash the module. The device requires a restart to recover.\nThe following versions of Rockwell Automation 1756-ENBT Module are affected:\n1756-ENBT module vers:all/* (CVE-",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2fd6b47b8951056e",
+    "title": "Tycon Systems TPDIN-Monitor-WEB2 (Update A)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipment, which could present a physical safety r",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1c3cf8ccc7d8cc14",
+    "title": "Inductive Automation Ignition",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow any authenticated user to create projects.\nThe following versions of Inductive Automation Ignition are affected:\nIgnition <=8.1.53 (CVE-2026-77393)\nCVSS\nVendor\nEqui",
+    "cveIds": [
+      "CVE-2026-77393"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "bee7ac6c39982e35",
+    "title": "OPCFoundation OPC UA LocalDiscoveryServer (LDS)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to take control of a high-privilege terminal during installation and run arbitrary commands.\nThe following versions of OPCFoundation OPC UA LocalDiscove",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "00b4df3b52609961",
+    "title": "Tycon Systems TPDIN-Monitor-WEB3",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-08",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow for an attacker to perform a man-in-the-middle (MitM) attack, cause a factory reset, wipe credentials, or retrieve sensitive information.\nThe following versions ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cae65a43ab8369d9",
+    "title": "Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products (Update A)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in the following products: The Easergy C5 is a scalable and interoperable bay controller, protection and merging unit for large and critical infrastructure electrical distribu",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "58185ad723b3c46c",
+    "title": "Rockwell Automation ControlFLASH",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could give an attacker the ability to run any commands or code of the attacker's choice on a target machine at the logged-in user's permission level.\nThe following versions of ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c6c1fcf650dba911",
+    "title": "Rockwell Automation ArmorStart LT",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in a loss of webserver availability or allow an attacker to inject malicious scripts that will be executed when other users access the affected page.\nThe follow",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c75af9f1334ae370",
+    "title": "IXON VPN Client",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to perform remote code execution on the computer running the client with elevated privileges.\nThe following versions of IXON VPN Client are affected:\nVP",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "0bfb04557cea525f",
     "title": "Preparing for the Post-Quantum Era: A Call to Action",
     "link": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
@@ -165,6 +387,17 @@
     "summary": "CISA and the Group of Seven (G7) Cyber Security Working Group released Preparing for the Post-Quantum Era: A Call to Action highlighting the urgent need for organizations and governments to begin transitioning to post-quantum cryptography (",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "f8b25b1fd98c9b96",
+    "title": "Pyramid Solutions NetStaX EtherNet/IP Stack",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in memory corruption, a device crash, or a potential remote attack vector without the originating device receiving a CIP error indicating that the request could no",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "ab298f911d3cc1b5",
@@ -346,7 +579,7 @@
   },
   {
     "id": "0d0f16f9402fc089",
-    "title": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
+    "title": "AI's Vulnerability Surge May Be More Manageable Than First Feared",
     "link": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
     "source": "Dark Reading",
     "category": "news",
@@ -1192,17 +1425,6 @@
     "severity": "critical"
   },
   {
-    "id": "731e0a65cfd32dce",
-    "title": "Rockwell Automation RSLinx Classic",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the affected product.\nThe following versions of Rockwell Automation RSLinx Classic are affected:\nRSLinx Cla",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "976e05a3b6556a79",
     "title": "Rockwell Automation Historian ME",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-06",
@@ -1212,6 +1434,19 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed; an out-of-bounds write condition may allow remote code execution.\nThe following versions of Rockwell Automation Historian ME are affec",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "66e9e04fb96ed801",
+    "title": "Rockwell Automation FactoryTalk Activation Manager",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation FactoryTalk Activation Manager are affected:\nFactoryTalk Activation Manager V5.02_and_below (CVE-2026-16675)\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.8\nRockwell Automatio",
+    "cveIds": [
+      "CVE-2026-16675"
+    ],
+    "severity": "cve"
   },
   {
     "id": "ed6a5dd66cbc18f6",
@@ -1227,19 +1462,6 @@
     "severity": "cve"
   },
   {
-    "id": "930f9904e1f6da34",
-    "title": "Rockwell Automation Logix Platform",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation Logix Platform are affected:\nControlLogix 5580 <=V33, V34.011-V34.014, V35.011-V35.013, V36.011-V36.012 (CVE-2026-9637, CVE-2026-9637, CVE-2026-9637, CVE-2026-9637)\nCompactLogi",
-    "cveIds": [
-      "CVE-2026-9637"
-    ],
-    "severity": "cve"
-  },
-  {
     "id": "8480ca778f6040b9",
     "title": "Rockwell Automation Redundancy Module Configuration Tool",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02",
@@ -1251,15 +1473,26 @@
     "severity": "normal"
   },
   {
-    "id": "66e9e04fb96ed801",
-    "title": "Rockwell Automation FactoryTalk Activation Manager",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04",
+    "id": "731e0a65cfd32dce",
+    "title": "Rockwell Automation RSLinx Classic",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation FactoryTalk Activation Manager are affected:\nFactoryTalk Activation Manager V5.02_and_below (CVE-2026-16675)\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.8\nRockwell Automatio",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the affected product.\nThe following versions of Rockwell Automation RSLinx Classic are affected:\nRSLinx Cla",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "930f9904e1f6da34",
+    "title": "Rockwell Automation Logix Platform",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation Logix Platform are affected:\nControlLogix 5580 <=V33, V34.011-V34.014, V35.011-V35.013, V36.011-V36.012 (CVE-2026-9637, CVE-2026-9637, CVE-2026-9637, CVE-2026-9637)\nCompactLogi",
     "cveIds": [
-      "CVE-2026-16675"
+      "CVE-2026-9637"
     ],
     "severity": "cve"
   },
@@ -2430,72 +2663,6 @@
     "category": "news",
     "pubDate": "2026-08-27T21:38:53.000Z",
     "summary": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e47acede74ba548d",
-    "title": "White House bans foreign-made equipment for power generation over cyber backdoor concerns",
-    "link": "https://therecord.media/trump-cyber-electricity-parts",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-27T19:45:00.000Z",
-    "summary": "The Trump administration is banning the acquisition of foreign-made components used to manage electricity and power, alleging that “certain foreign actors are increasingly creating and exploiting vulnerabilities” in the technology.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f816cb558b5ca568",
-    "title": "Chinese Routers Sold Worldwide Contain Backdoors",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/chinese-routers-sold-worldwide-backdoors",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-27T19:31:45.000Z",
-    "summary": "An untold number of ZBT routers sold around the world as white-label products come with several implants built by the manufacturer.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e4222c90706c64ea",
-    "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
-    "link": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-27T18:36:19.000Z",
-    "summary": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May.\n\nThe incident, the",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "abe89bad8f2b9142",
-    "title": "“Sorry, I can’t help with that”: How your guardrails might become the attacker’s best friend",
-    "link": "https://blog.talosintelligence.com/sorry-i-cant-help-with-that-how-your-guardrails-might-become-the-attackers-best-friend/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-08-27T18:00:24.000Z",
-    "summary": "In his first Threat Source newsletter, David Bianco explores the critical need for operational sovereignty in customizing AI guardrails to maintain the defender’s advantage.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "383c70ba8dc8577d",
-    "title": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
-    "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-27T17:25:09.000Z",
-    "summary": "This installment of the Reporters' Notebook video series discusses the topics that dominated the cybersecurity conference, such as AI's effects on vulnerability reporting and security research.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0906ffdf2a5cf412",
-    "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-27T16:31:53.000Z",
-    "summary": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
     "cveIds": [],
     "severity": "critical"
   }
