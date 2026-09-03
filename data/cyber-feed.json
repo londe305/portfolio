@@ -22,6 +22,39 @@
     "severity": "normal"
   },
   {
+    "id": "1fa23c3492c69dbc",
+    "title": "Honeypot-Omaha and batch.py &#x5b;Guest Diary&#x5d;, (Wed, Sep 2nd)",
+    "link": "https://isc.sans.edu/diary/rss/33306",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-03T02:02:56.000Z",
+    "summary": "[This is a Guest Diary by Frank Igbokwe, an ISC intern as part of the SANS.edu BACS program]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1f69a4d609054609",
+    "title": "ISC Stormcast For Thursday, September 3rd, 2026 https://isc.sans.edu/podcastdetail/10080, (Thu, Sep 3rd)",
+    "link": "https://isc.sans.edu/diary/rss/33308",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-03T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "249fba19e7d86c92",
+    "title": "Impersonating IT support: how threat actors turn a remote session into enterprise-wide access",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-09-02T22:51:18.000Z",
+    "summary": "Microsoft Threat Intelligence observed a human-operated intrusion campaign that abuses Microsoft Teams external collaboration to impersonate IT support, gain remote access, and deploy a Node.js-based implant. Learn how attackers move from s",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "0d0f16f9402fc089",
     "title": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
     "link": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
@@ -2670,38 +2703,5 @@
       "CVE-2026-8452"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "81356f6031077987",
-    "title": "ISC Stormcast For Thursday, August 27th, 2026 https://isc.sans.edu/podcastdetail/10070, (Thu, Aug 27th)",
-    "link": "https://isc.sans.edu/diary/rss/33286",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-08-27T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8b38a29f7cba28e2",
-    "title": "Vulnérabilité dans CPython (27 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1087/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-27T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9f3672f2fe06c3d3",
-    "title": "Multiples vulnérabilités dans Traefik (27 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1088/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-08-27T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
