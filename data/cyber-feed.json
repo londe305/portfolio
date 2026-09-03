@@ -22,6 +22,17 @@
     "severity": "normal"
   },
   {
+    "id": "a955036c82a10e9c",
+    "title": "French hospital fined €500,000 after breach exposes data of 727,000",
+    "link": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-03T22:01:37.000Z",
+    "summary": "France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients' and their relatives' data. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "7ff01f204a1c10e3",
     "title": "Large Enterprises Targeted in Fake Merger &amp; Acquisition Scams",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams",
@@ -2654,16 +2665,5 @@
     "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contourn",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "0321378bd0429a68",
-    "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
-    "link": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-27T21:38:53.000Z",
-    "summary": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
