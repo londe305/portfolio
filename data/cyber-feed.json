@@ -250,6 +250,17 @@
     "severity": "normal"
   },
   {
+    "id": "e70d6fddff964104",
+    "title": "Insurers Search for Answers to Rein in Rogue AI",
+    "link": "https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-04T12:15:03.000Z",
+    "summary": "As incidents of unintended harm caused by rogue AI agents mount, CISOs and insurance firms are figuring out how to handle the fallout.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6e14a296f327a070",
     "title": "12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover",
     "link": "https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover/",
@@ -2679,49 +2690,5 @@
     "summary": "Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance.\nThe post TerminalFix campaign deploys a reverse tunnel throu",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "e4e796c6e8ad0d1d",
-    "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
-    "link": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-28T22:40:17.000Z",
-    "summary": "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it stole 284 million p",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b42a17df415c3014",
-    "title": "Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety",
-    "link": "https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-08-28T22:00:07.000Z",
-    "summary": "New research reveals that AI safety refusal lives in a thin neural layer, highlighting the critical need for external, multi-layered security.\nThe post Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety appeared first on",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "cc7c93e350718ae5",
-    "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
-    "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-28T21:30:52.000Z",
-    "summary": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortionists' demands.\n\nThe same statement disc",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3cb4c952ff5e4b8a",
-    "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
-    "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-28T20:38:47.000Z",
-    "summary": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026.\n\nThe vulnerability, designated GHSA-7g4w-cg88-2cq2, is rat",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
