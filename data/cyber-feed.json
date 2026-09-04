@@ -22,6 +22,52 @@
     "severity": "normal"
   },
   {
+    "id": "1fc4315f397dbfcc",
+    "title": "How to secure edge AI in customer-owned environments",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-09-04T19:10:10.000Z",
+    "summary": "As AI moves into customer-owned environments, organizations need new ways to verify the systems, software, and AI assets they trust before releasing sensitive data, credentials, and models.\nThe post How to secure edge AI in customer-owned e",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "44430bc7419f542d",
+    "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+    "link": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-04T16:56:45.000Z",
+    "summary": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "791e6dd684e01000",
+    "title": "In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation",
+    "link": "https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-04T16:18:30.000Z",
+    "summary": "Noteworthy stories that might have slipped under the radar: Microsoft rolled out patches for cloud services, hackers compromised 5,000 Dropbox accounts, and Guardio is now valued at $1.1 billion. \nThe post In Other News: Microsoft’s Cloud P",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8d9c04095d1f0908",
+    "title": "HPE Patches Critical RCE Vulnerabilities in AOS-CX",
+    "link": "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-04T16:11:06.000Z",
+    "summary": "Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates.\nThe post HPE Patches Critical RCE Vulnerabilities in AOS-CX appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-73749"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "05817c271d8a939f",
     "title": "OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders",
     "link": "https://www.securityweek.com/openai-pledges-1-billion-to-bring-frontier-ai-to-critical-infrastructure-defenders/",
@@ -29,6 +75,17 @@
     "category": "news",
     "pubDate": "2026-09-04T16:07:22.000Z",
     "summary": "The Daybreak initiative will provide subsidized AI cyber capabilities, training and technical assistance, though OpenAI has disclosed few details about costs and eligibility.\nThe post OpenAI Pledges $1 Billion to Bring Frontier AI to Critic",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b80dc834522e75d1",
+    "title": "Companies Have 6 Months to Prepare for Automated Attacks",
+    "link": "https://www.darkreading.com/cybersecurity-operations/companies-six-months-prepare-automated-attacks",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-04T15:57:31.000Z",
+    "summary": "Frontier AI models have already demonstrated they can autonomously — and in some cases, inadvertently — conduct end-to-end compromises, but the situation will become more urgent very soon.",
     "cveIds": [],
     "severity": "critical"
   },
@@ -206,6 +263,19 @@
     "severity": "cve"
   },
   {
+    "id": "7a3278b4ac0a41be",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-04T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-85046 Google Chromium V8 Type Confusion Vulnerability\nThis type of vulnerability is a frequent a",
+    "cveIds": [
+      "CVE-2026-85046"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "7c25bfdb1efc4952",
     "title": "Catch Raises $5 Million for AI Executive Assistant With Guardrails",
     "link": "https://www.securityweek.com/catch-raises-5-million-for-ai-executive-assistant-with-guardrails/",
@@ -309,6 +379,17 @@
     "severity": "critical"
   },
   {
+    "id": "6f18bf3eda6f7abc",
+    "title": "US offers $10 million for info on Iranian allegedly behind cyberattacks on critical infrastructure",
+    "link": "https://therecord.media/us-reward-amir-yaryab-iran-irgc-cyberattacks",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-04T04:00:00.000Z",
+    "summary": "Amir Yaryab is the leader of the IRGC's cyber unit and oversees hacker groups such as the CyberAv3ngers, the State Department said in posting a reward for information about him.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "87c43aa8a2f9c90d",
     "title": "ISC Stormcast For Friday, September 4th, 2026 https://isc.sans.edu/podcastdetail/10082, (Fri, Sep 4th)",
     "link": "https://isc.sans.edu/diary/rss/33310",
@@ -406,6 +487,17 @@
     "summary": "From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "c8043b5ca62452e6",
+    "title": "What the AI Warning Letter Completely Missed",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-warning-letter-missed-people",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-03T17:23:14.000Z",
+    "summary": "The recent AI warning letter is right about the \"window,\" but it omits naming who is coming through it or, critically, who will close it.",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "cbff196d0861f19f",
@@ -575,52 +667,6 @@
     "severity": "normal"
   },
   {
-    "id": "6327c8c7ea296882",
-    "title": "Rockwell Automation 1756-ENBT Module",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-03T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could crash the module. The device requires a restart to recover.\nThe following versions of Rockwell Automation 1756-ENBT Module are affected:\n1756-ENBT module vers:all/* (CVE-",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2fd6b47b8951056e",
-    "title": "Tycon Systems TPDIN-Monitor-WEB2 (Update A)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-03T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipment, which could present a physical safety r",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1c3cf8ccc7d8cc14",
-    "title": "Inductive Automation Ignition",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-03T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow any authenticated user to create projects.\nThe following versions of Inductive Automation Ignition are affected:\nIgnition <=8.1.53 (CVE-2026-77393)\nCVSS\nVendor\nEqui",
-    "cveIds": [
-      "CVE-2026-77393"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "bee7ac6c39982e35",
-    "title": "OPCFoundation OPC UA LocalDiscoveryServer (LDS)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-03T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to take control of a high-privilege terminal during installation and run arbitrary commands.\nThe following versions of OPCFoundation OPC UA LocalDiscove",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "00b4df3b52609961",
     "title": "Tycon Systems TPDIN-Monitor-WEB3",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-08",
@@ -632,35 +678,13 @@
     "severity": "normal"
   },
   {
-    "id": "cae65a43ab8369d9",
-    "title": "Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products (Update A)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
+    "id": "f8b25b1fd98c9b96",
+    "title": "Pyramid Solutions NetStaX EtherNet/IP Stack",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-07",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-03T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in the following products: The Easergy C5 is a scalable and interoperable bay controller, protection and merging unit for large and critical infrastructure electrical distribu",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "58185ad723b3c46c",
-    "title": "Rockwell Automation ControlFLASH",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-03T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could give an attacker the ability to run any commands or code of the attacker's choice on a target machine at the logged-in user's permission level.\nThe following versions of ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c6c1fcf650dba911",
-    "title": "Rockwell Automation ArmorStart LT",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-03T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in a loss of webserver availability or allow an attacker to inject malicious scripts that will be executed when other users access the affected page.\nThe follow",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in memory corruption, a device crash, or a potential remote attack vector without the originating device receiving a CIP error indicating that the request could no",
     "cveIds": [],
     "severity": "normal"
   },
@@ -687,13 +711,81 @@
     "severity": "critical"
   },
   {
-    "id": "f8b25b1fd98c9b96",
-    "title": "Pyramid Solutions NetStaX EtherNet/IP Stack",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-07",
+    "id": "c6c1fcf650dba911",
+    "title": "Rockwell Automation ArmorStart LT",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-04",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-03T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in memory corruption, a device crash, or a potential remote attack vector without the originating device receiving a CIP error indicating that the request could no",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in a loss of webserver availability or allow an attacker to inject malicious scripts that will be executed when other users access the affected page.\nThe follow",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "58185ad723b3c46c",
+    "title": "Rockwell Automation ControlFLASH",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could give an attacker the ability to run any commands or code of the attacker's choice on a target machine at the logged-in user's permission level.\nThe following versions of ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cae65a43ab8369d9",
+    "title": "Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products (Update A)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in the following products: The Easergy C5 is a scalable and interoperable bay controller, protection and merging unit for large and critical infrastructure electrical distribu",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bee7ac6c39982e35",
+    "title": "OPCFoundation OPC UA LocalDiscoveryServer (LDS)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to take control of a high-privilege terminal during installation and run arbitrary commands.\nThe following versions of OPCFoundation OPC UA LocalDiscove",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1c3cf8ccc7d8cc14",
+    "title": "Inductive Automation Ignition",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow any authenticated user to create projects.\nThe following versions of Inductive Automation Ignition are affected:\nIgnition <=8.1.53 (CVE-2026-77393)\nCVSS\nVendor\nEqui",
+    "cveIds": [
+      "CVE-2026-77393"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "2fd6b47b8951056e",
+    "title": "Tycon Systems TPDIN-Monitor-WEB2 (Update A)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipment, which could present a physical safety r",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6327c8c7ea296882",
+    "title": "Rockwell Automation 1756-ENBT Module",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could crash the module. The device requires a restart to recover.\nThe following versions of Rockwell Automation 1756-ENBT Module are affected:\n1756-ENBT module vers:all/* (CVE-",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1155,6 +1247,17 @@
     "severity": "normal"
   },
   {
+    "id": "3dc89167a299b941",
+    "title": "Communicating Under Pressure: Best Practices for Service Providers",
+    "link": "https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-02T12:00:00.000Z",
+    "summary": "Developed by CISA, the Federal Bureau of Investigation, and international partners, this guidance describes how organizations can plan and execute clear, timely, accurate, and audience-appropriate communications during IT and operational te",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "7b167633ddb9aacf",
     "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
@@ -1167,17 +1270,6 @@
       "CVE-2026-48710"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "3dc89167a299b941",
-    "title": "Communicating Under Pressure: Best Practices for Service Providers",
-    "link": "https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-02T12:00:00.000Z",
-    "summary": "Developed by CISA, the Federal Bureau of Investigation, and international partners, this guidance describes how organizations can plan and execute clear, timely, accurate, and audience-appropriate communications during IT and operational te",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "962cd05d968ae9e8",
@@ -2631,93 +2723,5 @@
     "summary": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026.\n\nThe vulnerability, designated GHSA-7g4w-cg88-2cq2, is rat",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "1553c7aa63520a09",
-    "title": "Hundreds of OpenAI Agents Invaded Hugging Face Servers",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-28T20:19:22.000Z",
-    "summary": "The Hugging Face incident was bigger and worse than previously thought, with approximately 700 agents collaborating on a sophisticated, multistage attack.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "45d594bb7416c438",
-    "title": "PaperCut releases second emergency patch for exploited flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-28T19:08:26.000Z",
-    "summary": "PaperCut has released a second emergency security update for two actively exploited vulnerabilities in its PaperCut NG and MF print management software after researchers discovered multiple ways to bypass the initial fixes. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "217f425a16294ed2",
-    "title": "Offensive Security Investments Surge as AI Threats Increase",
-    "link": "https://www.darkreading.com/cybersecurity-operations/offensive-security-investments-surge-ai-threats-increase",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-28T18:25:43.000Z",
-    "summary": "Omdia's Theresa Lanowitz talks with the Dark Reading News Desk about the potential — and risks — of using agentic AI for penetration testing, red teaming, and other practices.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f4499d479eaf9a8e",
-    "title": "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
-    "link": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-28T18:18:55.000Z",
-    "summary": "A maximum-severity vulnerability in the GiveWP plugin for WordPress allows an unauthenticated attacker to execute arbitrary commands on the hosting server. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "46407b68e95c5a24",
-    "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
-    "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-28T17:12:15.000Z",
-    "summary": "Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional hardening.\n\n\"This vulnerability gives an u",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d0fa690ab04f2041",
-    "title": "68-year-old imprisoned after making $1.3 million by pirating IPTV services",
-    "link": "https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-28T16:36:47.000Z",
-    "summary": "A 68-year-old has been sentenced in the U.K. to more than six years in prison for operating an illegal IPTV (Internet Protocol Television) service that generated £980,812 ($1.3 million) over three years. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cca4605ad6acec68",
-    "title": "PaperCut warns of hackers using printer management software flaw in attacks",
-    "link": "https://therecord.media/papercut-warns-of-hackers-using-printer-management-vulnerabilities",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-28T16:30:00.000Z",
-    "summary": "PaperCut released an emergency advisory on Thursday evening saying vulnerabilities in their print management software, PaperCut NG and MF, are under active exploitation.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b3d7007797e98511",
-    "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
-    "link": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-28T16:20:46.000Z",
-    "summary": "Google on Thursday announced new network security protections in Android 17 to bolster connection privacy, address cellular vulnerabilities, and safeguard the privacy of users' home networks.\n\nTopping the list is support for Encrypted Clien",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
