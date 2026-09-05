@@ -22,6 +22,41 @@
     "severity": "normal"
   },
   {
+    "id": "b0588f2d7af5cd84",
+    "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+    "link": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-05T14:29:13.000Z",
+    "summary": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c131a8c620ce99fa",
+    "title": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
+    "link": "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-05T13:00:28.000Z",
+    "summary": "Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions.\nThe post Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites appeared first o",
+    "cveIds": [
+      "CVE-2026-32475"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "99654aef2752f0ba",
+    "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-05T11:11:50.000Z",
+    "summary": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model \"misalignment\" rather than a security ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e2da645b2e416dca",
     "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
     "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
@@ -2688,28 +2723,6 @@
     "category": "news",
     "pubDate": "2026-08-29T16:25:03.000Z",
     "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code exec",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ba8afe93cbccd2a2",
-    "title": "Brave browser adds email aliases to help users evade tracking",
-    "link": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-29T14:19:23.000Z",
-    "summary": "The latest version of the Brave browser, 1.94, introduces a feature called 'Email Aliases' that allows users to generate disposable email addresses when signing up to a new service. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8111e10b733bc606",
-    "title": "Hasbro Data Breach Exposed Employee Personal Information",
-    "link": "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-29T11:55:00.000Z",
-    "summary": "A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach.\nThe post Hasbro Data Breach Exposed Employee Personal Information appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
   }
