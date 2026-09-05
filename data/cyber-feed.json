@@ -22,6 +22,28 @@
     "severity": "normal"
   },
   {
+    "id": "e2da645b2e416dca",
+    "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+    "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-05T07:55:10.000Z",
+    "summary": "A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, using the site as a shared board to pool",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "85374d9698432a43",
+    "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-05T07:31:53.000Z",
+    "summary": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe.\n\nThe Arctic Wolf Adversary Research Team said it observed attackers exploiting ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "7aeb79bfc3e72414",
     "title": "numbat - AI agent observability, (Fri, Sep 4th)",
     "link": "https://isc.sans.edu/diary/rss/33312",
