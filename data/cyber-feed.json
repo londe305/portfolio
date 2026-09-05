@@ -22,6 +22,17 @@
     "severity": "normal"
   },
   {
+    "id": "a6f7e900dd408223",
+    "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+    "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-05T20:14:47.000Z",
+    "summary": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec said in an advisory ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "21ba9ecf17eb79c2",
     "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
     "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
