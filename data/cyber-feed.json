@@ -22,6 +22,28 @@
     "severity": "normal"
   },
   {
+    "id": "21ba9ecf17eb79c2",
+    "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+    "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-05T16:52:33.000Z",
+    "summary": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environm",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ca7ece09a157d6d8",
+    "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+    "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-05T16:05:08.000Z",
+    "summary": "Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions.\n\nThe vulnerability, tracked as CVE-202",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "b0588f2d7af5cd84",
     "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
     "link": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
@@ -29,6 +51,17 @@
     "category": "news",
     "pubDate": "2026-09-05T14:29:13.000Z",
     "summary": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2d965a358adc2b75",
+    "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+    "link": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-05T14:17:02.000Z",
+    "summary": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk.\n\nThe exposed information includes customer names, email addresses, phone n",
     "cveIds": [],
     "severity": "critical"
   },
@@ -2714,16 +2747,5 @@
     "summary": "Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds. [...]",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "df044a4bbe03a77b",
-    "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
-    "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-29T16:25:03.000Z",
-    "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code exec",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
