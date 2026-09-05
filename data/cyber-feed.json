@@ -22,6 +22,17 @@
     "severity": "normal"
   },
   {
+    "id": "7aeb79bfc3e72414",
+    "title": "numbat - AI agent observability, (Fri, Sep 4th)",
+    "link": "https://isc.sans.edu/diary/rss/33312",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-05T03:39:52.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "1fc4315f397dbfcc",
     "title": "How to secure edge AI in customer-owned environments",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/",
@@ -2679,16 +2690,5 @@
     "summary": "A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach.\nThe post Hasbro Data Breach Exposed Employee Personal Information appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "21af16ed243c81db",
-    "title": "TerminalFix campaign deploys a reverse tunnel through multistage intrusion",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-08-29T03:43:27.000Z",
-    "summary": "Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance.\nThe post TerminalFix campaign deploys a reverse tunnel throu",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
