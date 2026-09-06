@@ -2747,16 +2747,5 @@
     "summary": "YARA-X&#;x26;#;39;s 1.20.0 release brings 14 improvements and 13 bugfixes.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "864f8deb3fbb3631",
-    "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-29T23:11:51.000Z",
-    "summary": "Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds. [...]",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
