@@ -22,6 +22,116 @@
     "severity": "normal"
   },
   {
+    "id": "9941d502d7260a19",
+    "title": "OpenAI Agents Hijack Another Victim Website",
+    "link": "https://www.securityweek.com/openai-agents-hijack-another-victim-website/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-07T12:03:04.000Z",
+    "summary": "OpenAI agents made 15,000–18,000 autonomous edits to a German wiki over three months, evading moderation and echoing tactics seen in the Hugging Face breach.\nThe post OpenAI Agents Hijack Another Victim Website appeared first on SecurityWee",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b46bdd384eb524aa",
+    "title": "Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+    "link": "https://www.securityweek.com/adobe-commerce-zero-day-exploited-to-backdoor-online-stores/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-07T11:58:37.000Z",
+    "summary": "The StyleSmuggler zero-day allows attackers to execute code and deploy a stealthy backdoor on Adobe Commerce and Magento stores.\nThe post Adobe Commerce Zero-Day Exploited to Backdoor Online Stores appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "030d69b44fb5ee01",
+    "title": "Berlin investigates new data leak after hackers publish stolen login credentials",
+    "link": "https://therecord.media/germany-berlin-second-data-breach-city-agencies",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-07T11:50:00.000Z",
+    "summary": "Another trove of data from Berlin's government has appeared online, authorities said. Germany's information security agency separately warned about the Rhysida cybercrime group.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "003b6413b57f09b3",
+    "title": "Modified ScreenConnect Clients Used in Worm-Like Campaign",
+    "link": "https://www.securityweek.com/modified-screenconnect-clients-used-in-worm-like-campaign/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-07T11:45:48.000Z",
+    "summary": "The attacks rely on backdoored ScreenConnect instances to transfer and execute payloads to newly connected clients.\nThe post Modified ScreenConnect Clients Used in Worm-Like Campaign appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f1c17c64240f00a1",
+    "title": "ChatGPT can now connect to your personal apps to mimic writing style",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-07T10:36:37.000Z",
+    "summary": "OpenAI appears to be testing a new \"Writing Style\" feature for ChatGPT that can learn how you write by looking at examples from your connected apps. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2760a5535ac2c06c",
+    "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-07T10:32:40.000Z",
+    "summary": "Hackers are exploiting a chain of two recently disclosed vulnerabilities in MikroTik routers to take control of devices with SSH services exposed to the internet. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "58fad11958365976",
+    "title": "ConnectWise warns of new ScreenConnect flaw without patch",
+    "link": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-07T10:06:38.000Z",
+    "summary": "ConnectWise has shared temporary mitigation measures for a new ScreenConnect Remote Access vulnerability that it plans to patch later this week. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "caffc3f256783b66",
+    "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+    "link": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-07T08:31:12.000Z",
+    "summary": "Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its release notes say that is unconfirmed.\n\nN",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "de26b1393ec3571d",
+    "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+    "link": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-07T07:53:04.000Z",
+    "summary": "Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities.\n\n\"The payloads are protected with javascript-obfuscator, u",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b0db9571d690f25f",
+    "title": "N-able patches max severity N-central flaw amid ongoing attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-07T06:17:41.000Z",
+    "summary": "N-able has released an emergency hotfix for a maximum-severity remote code execution (RCE) flaw affecting its N-central remote monitoring and management (RMM) platform. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "9a8c26006c687f3e",
     "title": "ChatGPT Astra is now rolling out to $20 Plus subscription",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
@@ -2543,176 +2653,5 @@
     "summary": "The AI giant is logging customers out of their accounts and removing payment data to prevent unauthorized Claude usage.\nThe post Anthropic Warns Claude Users of Infostealer Malware Infections appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "6b34d2d446307d11",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/08/31/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-08-31T12:00:00.000Z",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-81578 PaperCut NG/MF Missing Authentication for Critical Function Vulnerability \nCVE-2026-8207",
-    "cveIds": [
-      "CVE-2026-81578",
-      "CVE-2026-8207"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "b1b20ef14b5c635f",
-    "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
-    "link": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-31T11:47:24.000Z",
-    "summary": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to findings from CloudSEK and Gambit Securi",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "21bc0fee62010122",
-    "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
-    "link": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-31T11:31:47.000Z",
-    "summary": "Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthropic’s new Compliance API endpoints give security teams their clearest view yet into that activity. T",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "53e55d3ad86109a9",
-    "title": "Critical Ruby on Rails Vulnerability in Attackers’ Crosshairs",
-    "link": "https://www.securityweek.com/critical-ruby-on-rails-vulnerability-in-attackers-crosshairs/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-31T11:24:17.000Z",
-    "summary": "Named KindaRails2Shell, the arbitrary file read flaw allows attackers to extract secrets and execute arbitrary code remotely.\nThe post Critical Ruby on Rails Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b1050de0442e3db1",
-    "title": "Boston Scientific Still Recovering From Cyberattack",
-    "link": "https://www.securityweek.com/boston-scientific-still-recovering-from-cyberattack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-31T10:50:57.000Z",
-    "summary": "The company has called in CrowdStrike and others to investigate the attack that caused global network disruption.\nThe post Boston Scientific Still Recovering From Cyberattack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ce8c1f530dcc796a",
-    "title": "Extortion Group Claims Manchester Airports Group Data Breach",
-    "link": "https://www.securityweek.com/extortion-group-claims-manchester-airports-group-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-31T10:29:10.000Z",
-    "summary": "FulcrumSec says it stole over 80 GB of data from Manchester Airports Group and plans to leak it online.\nThe post Extortion Group Claims Manchester Airports Group Data Breach appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6e1e0ac2fe25b128",
-    "title": "Microsoft says Windows 11 KB5120998 update resets mouse settings",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-31T10:23:46.000Z",
-    "summary": "Microsoft has confirmed that mouse settings are being reverted on Windows 11 systems after installing the KB5120998 August 2026 non-security preview update. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8a40d60c17283603",
-    "title": "Spring Ring: An Inside Look at Voice Phishing Campaigns in Microsoft Teams",
-    "link": "https://unit42.paloaltonetworks.com/spring-ring-voice-phishing-campaigns/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-08-31T10:00:36.000Z",
-    "summary": "Learn how the Spring Ring campaign abuses Microsoft Teams and voice phishing to deploy malware and target enterprise domain controllers.\nThe post Spring Ring: An Inside Look at Voice Phishing Campaigns in Microsoft Teams appeared first on U",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e16f08bf63b5c5b1",
-    "title": "Nigerians extradited to US for sextortion, deaths of two teens",
-    "link": "https://www.bleepingcomputer.com/news/security/nigerians-charged-US-over-sextortion-deaths-of-us-teens/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-31T09:22:47.000Z",
-    "summary": "Two Nigerian men extradited to the U.S. on Thursday have been charged with involvement in sextortion schemes that resulted in the deaths of two minor victims in Mississippi and North Carolina. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "00b27bb7e89b6707",
-    "title": "Judge Says Pentagon’s Measures Against Anthropic Were ‘Illegal and Baseless’",
-    "link": "https://www.securityweek.com/judge-says-pentagons-measures-against-anthropic-were-illegal-and-baseless/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-31T09:07:01.000Z",
-    "summary": "The ruling is part of Anthropic's legal battle against the Pentagon after the government labeled the company as a supply chain risk earlier this year.\nThe post Judge Says Pentagon’s Measures Against Anthropic Were ‘Illegal and Baseless’ app",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "08dcfdc56d8ac354",
-    "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
-    "link": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-31T09:04:55.000Z",
-    "summary": "A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control System (TACACS) servers, and Linux manageme",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b60524e31cc530ca",
-    "title": "Berlin Won’t Pay Extortion Group Claiming Data Theft",
-    "link": "https://www.securityweek.com/berlin-wont-pay-extortion-group-claiming-data-theft/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-31T08:49:36.000Z",
-    "summary": "The Rhysida ransomware group has claimed the exfiltration of over 5TB of data, including personal information and credentials.\nThe post Berlin Won’t Pay Extortion Group Claiming Data Theft appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ff8fdfe3e2ba8417",
-    "title": "Microsoft asks users to ignore 'Antivirus is turned off' errors",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-antivirus-is-turned-off-errors/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-31T08:29:42.000Z",
-    "summary": "Microsoft asked customers this week to ignore alerts that Defender Antivirus has been turned off after installing the latest Defender updates. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5b0f332fc66fdddb",
-    "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
-    "link": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-31T07:56:53.000Z",
-    "summary": "The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now pointing out that they were among those targ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "299bcfebb942fe30",
-    "title": "More Details Emerge on Exploited PaperCut Vulnerabilities",
-    "link": "https://www.securityweek.com/more-details-emerge-on-exploited-papercut-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-31T06:51:31.000Z",
-    "summary": "PaperCut has released a second emergency patch for the exploited vulnerabilities, which are now tracked as CVE-2026-82078 and CVE-2026-81578.\nThe post More Details Emerge on Exploited PaperCut Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-82078",
-      "CVE-2026-81578"
-    ],
-    "severity": "critical"
   }
 ]
