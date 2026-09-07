@@ -22,6 +22,105 @@
     "severity": "normal"
   },
   {
+    "id": "54217c49ff17cf31",
+    "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+    "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-07T18:12:09.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser.\n\n\"Requiring prior administrative or code execution access, its",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b3511a5b62fbb29f",
+    "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
+    "link": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-07T16:50:29.000Z",
+    "summary": "A zero-day vulnerability dubbed \"StyleSmuggler\" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a48cf88b7ef57289",
+    "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
+    "link": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-07T15:51:56.000Z",
+    "summary": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-i",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c34ce1458f4aee8e",
+    "title": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
+    "link": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-07T15:39:51.000Z",
+    "summary": "A phishing-as-a-service framework called BigBear 2.0 has been used to bypass multi-factor authentication at 258 organizations and steal more than 5,000 Microsoft 365 credentials. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "51e0fedb88d7ff34",
+    "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
+    "link": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-07T14:36:07.000Z",
+    "summary": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, but an annoying one if that was a precauti",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3dd0677c1b24ecbb",
+    "title": "Mathspace discloses data breach affecting over 1 million people",
+    "link": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-07T13:05:11.000Z",
+    "summary": "Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting system. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "043bf3ced982844d",
+    "title": "Trezor data breach impact now reaches 81,000 customers",
+    "link": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-07T12:16:32.000Z",
+    "summary": "Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an additional 67,000 U.S. customers. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "14579c1ad70b04c7",
+    "title": "Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits",
+    "link": "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-07T12:15:57.000Z",
+    "summary": "The proof-of-concept (PoC) exploits lead to privilege escalation, spawning a shell with System privileges.\nThe post Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ba7865d2626551ac",
+    "title": "North Korean Hackers Deploy New Linux Espionage Toolkit",
+    "link": "https://www.securityweek.com/north-korean-hackers-deploy-new-linux-espionage-toolkit/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-07T12:12:08.000Z",
+    "summary": "The stealthy toolkit embeds a backdoor in HAProxy and targets automotive and media organizations in South Korea for long-term surveillance.\nThe post North Korean Hackers Deploy New Linux Espionage Toolkit appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "9941d502d7260a19",
     "title": "OpenAI Agents Hijack Another Victim Website",
     "link": "https://www.securityweek.com/openai-agents-hijack-another-victim-website/",
@@ -62,6 +161,39 @@
     "category": "news",
     "pubDate": "2026-09-07T11:45:48.000Z",
     "summary": "The attacks rely on backdoored ScreenConnect instances to transfer and execute payloads to newly connected clients.\nThe post Modified ScreenConnect Clients Used in Worm-Like Campaign appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "07218e5d5c17ae1c",
+    "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
+    "link": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-07T11:45:00.000Z",
+    "summary": "If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration data from 3,000 organizations across AWS, Azure, and Google Cl",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2e8001f9eac02b78",
+    "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+    "link": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-07T11:36:39.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems.\n\nAccording to Huntress, three unrelate",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9918553124190a35",
+    "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+    "link": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-07T11:20:14.000Z",
+    "summary": "A TantoSec proof-of-concept turns an AES-CBC \"padding oracle\" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default configuration, and Progress patched the chain ",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1785,6 +1917,61 @@
     "severity": "normal"
   },
   {
+    "id": "305f0b8990dffe4d",
+    "title": "Multiples vulnérabilités dans les produits SonicWall (02 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1103/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-02T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SonicWall. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une falsification de requêtes côté serveur (SSRF). L'éditeur indique qu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d59d823a79781e62",
+    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (02 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1104/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-02T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de se",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d6f9484c4b521c3a",
+    "title": "Multiples vulnérabilités dans Google Chrome (02 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1105/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-02T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ff42a114985b74c8",
+    "title": "Multiples vulnérabilités dans les produits Mozilla (02 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1106/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-02T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un contournement de la p",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "646ef1ceba7e3b74",
+    "title": "Multiples vulnérabilités dans les produits Elastic (02 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1107/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-02T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confiden",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "671c4726587d78df",
     "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/",
@@ -2380,6 +2567,17 @@
     "severity": "normal"
   },
   {
+    "id": "6ada2f7751a9768c",
+    "title": "Multiples vulnérabilités dans SPIP (01 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1102/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-01T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "0d81af760d8bb669",
     "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
@@ -2453,204 +2651,6 @@
     "category": "news",
     "pubDate": "2026-08-31T19:45:00.000Z",
     "summary": "At least $6 million was stolen from crypto platform Tectonic after an attacker manipulated the price of the Tonic coin over the weekend.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "51df08b6f2c6e51f",
-    "title": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-31T18:51:04.000Z",
-    "summary": "A new ClickFix variant dubbed TerminalFix uses fake Cloudflare CAPTCHA prompts on compromised websites to trick victims into running malicious PowerShell commands in Windows Terminal. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "85eeae56723f6245",
-    "title": "AI Model Rules Are Not Security Controls",
-    "link": "https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-08-31T17:34:26.000Z",
-    "summary": "OpenAI's Hugging Face attack postmortem shows agents don't care about rules — they need strong controls.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8c7e8d2dc348b4e4",
-    "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
-    "link": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-31T17:24:28.000Z",
-    "summary": "Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed seeking job opportunities beyond the information technology (IT) sector, with recent investigations identifying suspected work",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4af41ba5e87335a5",
-    "title": "Massive Microsoft 365 outage causes auth issues, service failures",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-31T16:56:57.000Z",
-    "summary": "Microsoft is investigating a widespread service issue causing authentication issues, email delays and failures, and various other issues for Exchange Online customers. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7afb0195d1bf6a8c",
-    "title": "OpenAI confirms ChatGPT outage as users report errors",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-outage-as-users-report-errors/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-31T16:50:50.000Z",
-    "summary": "ChatGPT Work is experiencing a partial outage, and users across multiple subscription plans may be unable to start or continue tasks. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6bad8b5575275173",
-    "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
-    "link": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-31T14:52:03.000Z",
-    "summary": "The researchers discovered Fire Ant's new tactic after finding an active GRE (Generic Routing Encapsulation) tunnel interface on a Cisco IOS XR router that could not be explained by a running configuration or commit history. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b521ee2528bd20f8",
-    "title": "Berlin says it won’t pay ransom after hackers steal government data",
-    "link": "https://therecord.media/berlin-says-it-wont-pay-ransom-after-hackers-steal-gov-data",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-31T14:45:00.000Z",
-    "summary": "Governing Mayor Kai Wegner said that Berlin had received an extortion demand following the cyberattack, which was discovered in mid-August.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "55679cc093f4d174",
-    "title": "Nightmare Eclipse Drops ‘HardBreacher’ Kaspersky Product Exploit",
-    "link": "https://www.securityweek.com/nightmare-eclipse-drops-hardbreacher-kaspersky-product-exploit/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-31T14:32:34.000Z",
-    "summary": "Kaspersky told SecurityWeek that it patched the vulnerability affecting its Endpoint Security product.\nThe post Nightmare Eclipse Drops ‘HardBreacher’ Kaspersky Product Exploit appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7b99d594ee2be2bc",
-    "title": "File servers are here to stay. Here’s how to manage them securely",
-    "link": "https://www.bleepingcomputer.com/news/security/file-servers-are-here-to-stay-heres-how-to-manage-them-securely/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-31T14:00:10.000Z",
-    "summary": "File servers remain a critical part of many IT environments, but managing access securely can become complex as permissions accumulate. tenfold Software outlines five best practices for simplifying file server administration and maintaining",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "be7267726a434072",
-    "title": "ServiceNow Patches 3 Critical Code Injection Vulnerabilities",
-    "link": "https://www.securityweek.com/servicenow-patches-3-critical-code-injection-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-31T13:59:19.000Z",
-    "summary": "Attackers could exploit the security defects to execute arbitrary code and access or tamper with data.\nThe post ServiceNow Patches 3 Critical Code Injection Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c3381920332f78bf",
-    "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-31T13:50:00.000Z",
-    "summary": "The boring parts caused most of the trouble.\n\nA router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a7087a753b38c73d",
-    "title": "Berlin confirms data theft after Rhysida ransomware attack claims",
-    "link": "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-08-31T13:30:01.000Z",
-    "summary": "Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "814f94ae2267ca92",
-    "title": "McKesson Confirms Data Breach as Attacker Deadline Looms",
-    "link": "https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-31T13:14:46.000Z",
-    "summary": "The ShinyHunters extortion group has claimed the theft of 284 million records from the company’s systems.\nThe post McKesson Confirms Data Breach as Attacker Deadline Looms appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3cf7289ef906c2d8",
-    "title": "Pharmaceutical giant McKesson warns of 'service degradation' following cyberattack",
-    "link": "https://therecord.media/mckesson-cyberattack-ransomware-pharma",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-31T12:45:00.000Z",
-    "summary": "The pharmaceutical and healthcare technology company McKesson informed regulators it is in the early stages of investigating a cybersecurity incident involving an unnamed third-party application.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fe56ac8062ad7ffb",
-    "title": "Slovenian casinos reopen after cyberattack knocked gaming systems offline",
-    "link": "https://therecord.media/slovenia-cyberattack-casinos-reopen",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-08-31T12:30:00.000Z",
-    "summary": "One of Slovenia’s largest gambling and tourism groups has begun reopening its casinos after a cyberattack forced them to shut down for several days.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f0dfd1a577e89012",
-    "title": "What the Hugging Face Incident Teaches Security Leaders About AI Agent Access",
-    "link": "https://www.securityweek.com/what-the-hugging-face-incident-teaches-security-leaders-about-ai-agent-access/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-31T12:15:00.000Z",
-    "summary": "Security teams must treat autonomous agents as highly privileged identities.\nThe post What the Hugging Face Incident Teaches Security Leaders About AI Agent Access appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "62520fb19d8c3210",
-    "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
-    "link": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-08-31T12:14:00.000Z",
-    "summary": "The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past users who add such software to their antiv",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1d36276391d75561",
-    "title": "Anthropic Warns Claude Users of Infostealer Malware Infections",
-    "link": "https://www.securityweek.com/anthropic-warns-claude-users-of-infostealer-malware-infections/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-08-31T12:11:58.000Z",
-    "summary": "The AI giant is logging customers out of their accounts and removing payment data to prevent unauthorized Claude usage.\nThe post Anthropic Warns Claude Users of Infostealer Malware Infections appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   }
