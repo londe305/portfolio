@@ -22,6 +22,96 @@
     "severity": "normal"
   },
   {
+    "id": "dadd0d73ed2b5677",
+    "title": "Mathspace Data Breach Exposes Over 1 Million People",
+    "link": "https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-08T10:47:36.000Z",
+    "summary": "Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance.\nThe post Mathspace Data Breach Exposes Over 1 Million People appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a95be21e658fa852",
+    "title": "N-able Patches Critical Zero-Day in N-central",
+    "link": "https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-08T10:37:58.000Z",
+    "summary": "Administrators are advised to check their deployments for newly created user accounts they don’t recognize.\nThe post N-able Patches Critical Zero-Day in N-central appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "942fd8aac49f2655",
+    "title": "ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager",
+    "link": "https://blog.talosintelligence.com/clearfake-webdav-infection-chain/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-09-08T10:01:07.000Z",
+    "summary": "We assess with moderate confidence that the attacks are not targeted at a particular organization, but are a part of a cryptocurrency and credentials-stealing operation using the Amatera stealer as the primary payload.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f5dd07be5515ca9c",
+    "title": "ClickFix moves into the browser: Cryptocurrency theft with Google-hosted C2",
+    "link": "https://blog.talosintelligence.com/clickfix-moves-into-the-browser/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-09-08T10:00:38.000Z",
+    "summary": "Cisco Talos is tracking a cryptocurrency-stealing campaign that abuses the Google Visualization API for command and control (C2), retrieving obfuscated JavaScript from a publicly published Google Sheets document and injecting it into the vi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a4ca88039821b382",
+    "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
+    "link": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-08T09:13:47.000Z",
+    "summary": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild.\n\nThe vulnerability, now tracked as CVE-2026-75650 (CVSS score",
+    "cveIds": [
+      "CVE-2026-75650"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "4b631344828b39aa",
+    "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
+    "link": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-08T08:43:51.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams.\n\nThe campaign, discovered by the DFIR Report in March 2026",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e19d6880cf5e2877",
+    "title": "220 million traveler records exposed in Vietnam-linked APIS leak",
+    "link": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-08T07:35:50.000Z",
+    "summary": "Exclusive: An exposed Advance Passenger Information System (APIS) database held 220 million passenger and crew records containing names, passport numbers, dates of birth, nationalities, and flight details spanning 2017 to 2026. Researchers ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "67cd47c015e56582",
+    "title": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
+    "link": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-08T07:00:43.000Z",
+    "summary": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with third-parties.\n\nGrindr, which is the largest",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "344299d1751f4478",
     "title": "ISC Stormcast For Tuesday, September 8th, 2026 https://isc.sans.edu/podcastdetail/10084, (Tue, Sep 8th)",
     "link": "https://isc.sans.edu/diary/rss/33316",
@@ -2404,122 +2494,5 @@
     "summary": "The defendants unsuccessfully attempted to physically install malware on ATMs to force them to dispense cash.\nThe post Five Venezuelans Plead Guilty in US Court to ATM Jackpotting appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "8600caa558ea32b7",
-    "title": "Ransomware Gang Claims Nutex Health Data Breach",
-    "link": "https://www.securityweek.com/ransomware-gang-claims-nutex-health-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-01T10:47:47.000Z",
-    "summary": "The company has notified the SEC that hackers accessed patient, employee, provider, business, and financial information.\nThe post Ransomware Gang Claims Nutex Health Data Breach appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7ce43dc77f71d4d3",
-    "title": "Critical JFrog Artifactory Vulnerability Reportedly Exploited in the Wild",
-    "link": "https://www.securityweek.com/critical-jfrog-artifactory-vulnerability-reportedly-exploited-in-the-wild/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-01T09:59:44.000Z",
-    "summary": "Exploitation of the authentication bypass vulnerability CVE-2026-82329 started just days after its public disclosure.\nThe post Critical JFrog Artifactory Vulnerability Reportedly Exploited in the Wild appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-82329"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "53e4c2c06a7d2af1",
-    "title": "Five Venezuelans plead guilty to ATM jackpotting attacks in US",
-    "link": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-01T09:15:07.000Z",
-    "summary": "Five Venezuelan nationals pleaded guilty to attempting to empty automated teller machines (ATMs) using malware in a series of ATM jackpotting attacks. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a016a903593986ab",
-    "title": "9.5 Million Impacted by Aesto Health Data Breach",
-    "link": "https://www.securityweek.com/9-5-million-impacted-by-aesto-health-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-01T09:09:34.000Z",
-    "summary": "Hackers stole personal and health information from the healthcare technology company’s AWS infrastructure.\nThe post 9.5 Million Impacted by Aesto Health Data Breach appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f8ce7e84fa0778f3",
-    "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
-    "link": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-01T09:05:30.000Z",
-    "summary": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-horizon, agentic tasks, disclosed that it su",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "649a74be5a9d2705",
-    "title": "WatchGuard Patches Critical Vulnerabilities",
-    "link": "https://www.securityweek.com/watchguard-patches-critical-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-01T08:50:04.000Z",
-    "summary": "Three critical issues in the Fireware OS iked process could allow unauthenticated attackers to execute arbitrary code remotely.\nThe post WatchGuard Patches Critical Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3b50be74e8b46ec7",
-    "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
-    "link": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-01T08:26:24.000Z",
-    "summary": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to interfere with artificial intelligence (AI)-as",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f55794ea195bce2c",
-    "title": "Recently patched PaperCut zero-days used in data theft attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-01T07:48:24.000Z",
-    "summary": "Two security vulnerabilities in the PaperCut NG and MF print management software, patched last week after being exploited as zero-days, are now being abused in data theft attacks. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "104a134ec97483c7",
-    "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-01T07:22:30.000Z",
-    "summary": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck.\n\nThe vulnerabilities in question are listed below -\n\n\n  CVE-2026-0768 (CVSS score: 9.8) - A lack of proper valid",
-    "cveIds": [
-      "CVE-2026-0768"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "eabc4afa81074e48",
-    "title": "PaperCut Exploitation Escalates to Active Intrusions",
-    "link": "https://www.securityweek.com/papercut-exploitation-escalates-to-active-intrusions/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-01T05:27:18.000Z",
-    "summary": "CISA has added the vulnerabilities tracked as CVE-2026-82078 and CVE-2026-81578 to its KEV catalog.\nThe post PaperCut Exploitation Escalates to Active Intrusions appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-82078",
-      "CVE-2026-81578"
-    ],
-    "severity": "cve"
   }
 ]
