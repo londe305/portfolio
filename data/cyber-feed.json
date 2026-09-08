@@ -22,6 +22,61 @@
     "severity": "normal"
   },
   {
+    "id": "cfbdbb28b2f691b4",
+    "title": "Microsoft posts nearly 1,000 bugs for Patch Tuesday as CISA warns two being exploited",
+    "link": "https://therecord.media/microsoft-patch-tuesday-september-2026",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-08T22:40:00.000Z",
+    "summary": "The new record total for Patch Tuesday is 973 vulnerabilities.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3e2eca92f4abf5aa",
+    "title": "Microsoft Patch Tuesday for September 2026 — Snort rules and prominent vulnerabilities",
+    "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-september-2026/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-09-08T22:16:35.000Z",
+    "summary": "Microsoft has released its monthly security update for September 2026, which includes 973 vulnerabilities affecting a range of products, including 113 that Microsoft marked as \"critical.\"",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c7e7ad60970c4251",
+    "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+    "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-09-08T21:44:22.000Z",
+    "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discove",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7af7024d72f7017e",
+    "title": "Patch Tuesday Sets Another Record With 974 CVEs",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-08T21:26:02.000Z",
+    "summary": "Attackers are actively exploiting two of the vulnerabilities and another 58 are more likely to be exploited, according to Microsoft.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "224e1ddd301df5e8",
+    "title": "Attackers Use Multi-Hop Google Redirects for Phishing Campaign",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-08T21:03:46.000Z",
+    "summary": "Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "4efb8a54b9419a51",
     "title": "Scammer behind $245 million crypto heist pleads guilty to RICO charges",
     "link": "https://therecord.media/scammer-behind-245-million-crypto-heist-pleads-guilty-rico",
@@ -2640,62 +2695,5 @@
     "summary": "De multiples vulnérabilités ont été découvertes dans Curl. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politi",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "671c4726587d78df",
-    "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-09-01T22:48:28.000Z",
-    "summary": "An active campaign is impersonating legitimate software vendors to deliver malware through look-alike download pages and regenerated installer archives. Microsoft Defender Experts shares observed attack techniques, Defender XDR detections, ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a0aed382f4580bb8",
-    "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-    "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-09-01T22:40:28.000Z",
-    "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are availabl",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d005256a4e537026",
-    "title": "Guildma (Astaroth) malware infection from Brazilian Portuguese email, (Tue, Sep 1st)",
-    "link": "https://isc.sans.edu/diary/rss/33300",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-01T21:30:18.000Z",
-    "summary": "Introduction",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fabfffd6359517ed",
-    "title": "Attackers Pounce on Critical Artifactory Bug Following Disclosure",
-    "link": "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-01T21:05:53.000Z",
-    "summary": "CVE-2026-82329 is an authentication bypass flaw in JFrog's repository manager that enables bad actors to gain admin-level access on affected systems.",
-    "cveIds": [
-      "CVE-2026-82329"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "0b3c94682be31ccd",
-    "title": "Stronger Security Drives Ransomware Groups to Recruit From Within",
-    "link": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-01T21:03:19.000Z",
-    "summary": "Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
