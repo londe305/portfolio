@@ -22,6 +22,239 @@
     "severity": "normal"
   },
   {
+    "id": "1aa878aaa434d8d5",
+    "title": "August updates trigger 0xc0000409 errors on Windows Server 2016",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/august-updates-trigger-0xc0000409-errors-on-windows-server-2016/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-08T15:22:33.000Z",
+    "summary": "Microsoft says the August 2026 security update may trigger 0xc0000409 errors on Windows Server 2016 systems where the Compatibility Appraiser diagnostic service is enabled. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d8a3198125da514e",
+    "title": "Cylake Raises $245 Million Ahead of Cybersecurity Platform Beta",
+    "link": "https://www.securityweek.com/cylake-raises-245-million-ahead-of-cybersecurity-platform-beta/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-08T15:21:01.000Z",
+    "summary": "The startup founded by Palo Alto Networks’ Nir Zuk has raised $290 million to build an AI-native security platform for highly regulated organizations that cannot rely on the public cloud.\nThe post Cylake Raises $245 Million Ahead of Cyberse",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bc8e3c9c7c1ac1d2",
+    "title": "SAP warns of maximum severity 'OVERPASS' kernel vulnerability",
+    "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-08T14:55:20.000Z",
+    "summary": "SAP has addressed 20 vulnerabilities across multiple products in its September 2026 security updates, including a maximum-severity memory corruption flaw in the SAP Kernel code. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "318f3e05b6b83c57",
+    "title": "SAP Patches Critical Extended Passport Processing Vulnerability",
+    "link": "https://www.securityweek.com/sap-patches-critical-extended-passport-processing-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-08T14:55:06.000Z",
+    "summary": "Affecting the SAP kernel code, the flaw allows unauthenticated, remote attackers to run arbitrary commands, recover secrets, and modify data.\nThe post SAP Patches Critical Extended Passport Processing Vulnerability appeared first on Securit",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "88af699f2d3b48b2",
+    "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
+    "link": "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-08T14:54:30.000Z",
+    "summary": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6, returned 3,400 of it the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back.\n\nLiquid is a Bitcoin sidechain that holds real bitcoi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6685156bcc788a90",
+    "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-08T14:40:32.000Z",
+    "summary": "OpenAI confirmed that GPT-6 Astra is the first model it has broadly deployed to reach the \"Critical level\" for cybersecurity capabilities. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4a565ed211cb3c2a",
+    "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
+    "link": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-08T14:19:17.000Z",
+    "summary": "Check Point Research said in a report published today that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual.\n\nIn the company's proof of c",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6e2837cb92bb1eb7",
+    "title": "Where the backlash against Flock Safety is having the biggest impact",
+    "link": "https://therecord.media/flock-safety-backlash-places-with-biggest-impact",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-08T14:03:00.000Z",
+    "summary": "Two populous states and two large cities are among the U.S. jurisdictions where leaders have taken direct action to address criticisms of automated license plate readers (ALPRs).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "345980d05c4408a9",
+    "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
+    "link": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-08T13:48:16.000Z",
+    "summary": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential h",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4be459e8bdf71c9b",
+    "title": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
+    "link": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-08T13:34:47.000Z",
+    "summary": "Adobe has released an emergency fix for CVE-2026-75650, an actively exploited max-severity zero-day vulnerability dubbed StyleSmuggler, that impacts multiple versions of Magento and Adobe Commerce. [...]",
+    "cveIds": [
+      "CVE-2026-75650"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "da3c4139627b96cb",
+    "title": "Party’s Over for Crypto Scammers Who Went on a Spending Spree After a $240 Million Bitcoin Theft",
+    "link": "https://www.securityweek.com/partys-over-for-crypto-scammers-who-went-on-a-spending-spree-after-a-240-million-bitcoin-theft/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-08T13:00:00.000Z",
+    "summary": "The scammers purchased fleets of sports cars, flew on private jets, hired security guards and rented mansions in Miami and the Hamptons.\nThe post Party’s Over for Crypto Scammers Who Went on a Spending Spree After a $240 Million Bitcoin The",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "70b3093f41bf073b",
+    "title": "Webinar: The forgotten Google Workspace access that can lead to a breach",
+    "link": "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-08T12:40:48.000Z",
+    "summary": "Third-party applications connected to Google Workspace can retain access long after their original purpose is forgotten. This webinar examines how overly permissive integrations contribute to breaches and which security controls can help fa",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f55c9a8df465f54e",
+    "title": "French prosecutors confirm arrest of suspected ZeroBytes hacker behind tax cyberattack",
+    "link": "https://therecord.media/france-hacker-arrest-zerobytes",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-08T12:30:00.000Z",
+    "summary": "French authorities detained an 18-year-old suspected member of the ZeroBytes hacking group over cyberattacks against the country's tax authority and other organizations.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a393c75dd04da7ab",
+    "title": "Hackers build AI frameworks for widescale credential theft",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-08T12:03:03.000Z",
+    "summary": "Threat actors are increasingly switching from AI-powered coding assistants to multi-agent frameworks that automate every stage of an attack. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6cd8e030437db269",
+    "title": "CareCam Pro IP Cameras",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-08T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to take full control of the device.\nThe following versions of CareCam Pro IP Cameras are affected:\nANJIA AJL33PC0801 Firmware linux_linux_202008261138_s",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "154e5d7f0144448e",
+    "title": "Cyberattack encrypts systems at Bavarian municipal utility",
+    "link": "https://therecord.media/cyberattack-bavaria-germany-utility",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-08T12:00:00.000Z",
+    "summary": "A municipal utility in Bavaria is recovering from a cyberattack that encrypted its internal IT systems but did not affect water and electricity services.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2610462face5170c",
+    "title": "Microsoft: Windows Server 2025 changes causing app crashes",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2025-changes-may-cause-app-crashes/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-08T11:57:51.000Z",
+    "summary": "Microsoft warned customers last week that they may experience application crashes on some Windows Server 2025 due to recent memory management changes. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c3df05a453d7416a",
+    "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
+    "link": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-08T11:54:29.000Z",
+    "summary": "Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and demonstrated it spreading among three test phones.\n\nThe person being called does not have to answer or touch their phone for ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f76ad714e5c053c0",
+    "title": "What It Took to Reach 1 Billion Build Manifests",
+    "link": "https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-08T11:49:02.000Z",
+    "summary": "In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in our catalog. Those are the headline numbe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1ae8c3c527a2da6c",
+    "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
+    "link": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-08T11:22:07.000Z",
+    "summary": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says.\n\nFreeIPA is the system that determines who may log in across a Li",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dae6442ff1dbfbf6",
+    "title": "MikroTik Patches Critical Flaws Chained to Hack Routers",
+    "link": "https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-08T11:15:00.000Z",
+    "summary": "Dubbed MikroTrick, the bugs allow attackers to bypass authentication, overwrite configuration files, and take over devices.\nThe post MikroTik Patches Critical Flaws Chained to Hack Routers appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "dadd0d73ed2b5677",
     "title": "Mathspace Data Breach Exposes Over 1 Million People",
     "link": "https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/",
@@ -922,6 +1155,41 @@
     "severity": "normal"
   },
   {
+    "id": "0d749357bee6bba9",
+    "title": "Multiples vulnérabilités dans Google Chrome (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1112/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur. Google indique que la vulnérabilité CVE-2026-85046 est activement exploitée",
+    "cveIds": [
+      "CVE-2026-85046"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "a32e2c3a97646875",
+    "title": "Multiples vulnérabilités dans Elastic Kibana (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1113/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Elastic Kibana. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "810c4d8c32eab088",
+    "title": "Multiples vulnérabilités dans les produits VMware (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1114/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a955036c82a10e9c",
     "title": "French hospital fined €500,000 after breach exposes data of 727,000",
     "link": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
@@ -1221,13 +1489,13 @@
     "severity": "normal"
   },
   {
-    "id": "0bfb04557cea525f",
-    "title": "Preparing for the Post-Quantum Era: A Call to Action",
-    "link": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
+    "id": "cae65a43ab8369d9",
+    "title": "Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products (Update A)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-03T12:00:00.000Z",
-    "summary": "CISA and the Group of Seven (G7) Cyber Security Working Group released Preparing for the Post-Quantum Era: A Call to Action highlighting the urgent need for organizations and governments to begin transitioning to post-quantum cryptography (",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in the following products: The Easergy C5 is a scalable and interoperable bay controller, protection and merging unit for large and critical infrastructure electrical distribu",
     "cveIds": [],
     "severity": "critical"
   },
@@ -1254,13 +1522,13 @@
     "severity": "normal"
   },
   {
-    "id": "cae65a43ab8369d9",
-    "title": "Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products (Update A)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
+    "id": "0bfb04557cea525f",
+    "title": "Preparing for the Post-Quantum Era: A Call to Action",
+    "link": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-03T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in the following products: The Easergy C5 is a scalable and interoperable bay controller, protection and merging unit for large and critical infrastructure electrical distribu",
+    "summary": "CISA and the Group of Seven (G7) Cyber Security Working Group released Preparing for the Post-Quantum Era: A Call to Action highlighting the urgent need for organizations and governments to begin transitioning to post-quantum cryptography (",
     "cveIds": [],
     "severity": "critical"
   },
@@ -1485,6 +1753,39 @@
     "category": "advisory",
     "pubDate": "2026-09-03T02:00:03.000Z",
     "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "06fa2b93b2890596",
+    "title": "Multiples vulnérabilités dans SPIP (03 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1109/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-03T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "24ce421dbe6d308c",
+    "title": "Multiples vulnérabilités dans les produits Cisco (03 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1110/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-03T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la pol",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6fcc41d85edc0eb8",
+    "title": "Multiples vulnérabilités dans les produits F5 (03 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1111/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-03T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2073,6 +2374,17 @@
     "severity": "normal"
   },
   {
+    "id": "f97f41c69b65ca50",
+    "title": "Multiples vulnérabilités dans Curl (02 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1108/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-02T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Curl. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "671c4726587d78df",
     "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/",
@@ -2264,234 +2576,6 @@
     "category": "news",
     "pubDate": "2026-09-01T17:19:24.000Z",
     "summary": "Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024.\n\nGoogle Threat Intelligence Group (GTIG) and Mandiant teams",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d0f7c2e63b1d8c60",
-    "title": "Healthcare facilities operator Nutex says patient, employee data stolen in August incident",
-    "link": "https://therecord.media/nutex-health-data-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-01T15:31:00.000Z",
-    "summary": "Cybercriminals breached company data and made an extortion attempt with it, Houston-based Nutex Health said in a filing with federal regulators.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2a070fc640529238",
-    "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-01T14:45:06.000Z",
-    "summary": "Hackers delivered malicious updates to the Virtualizor VPS management software after hijacking BGP routing for its update infrastructure and redirecting update requests to malicious servers. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1b46f6fcf5dc7afb",
-    "title": "Novocure data breach affects more than 1,400 cancer patients",
-    "link": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-01T14:28:40.000Z",
-    "summary": "Healthtech company Novocure says the data of an undisclosed number of employees and more than 1,400 U.S. cancer patients has been exposed in a mid-August cyberattack. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "42489679bde871c1",
-    "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
-    "link": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-01T14:07:20.000Z",
-    "summary": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deploy",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9b4a9cd6844013da",
-    "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
-    "link": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-01T14:01:11.000Z",
-    "summary": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing edge security controls. Spur explains how session enrichment adds data points that help organizations ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e544e8b85ba453f7",
-    "title": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
-    "link": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-01T13:56:42.000Z",
-    "summary": "The campaign uses EtherHiding to dynamically update its command-and-control server, abusing the blockchain as an attacker-controlled address book.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c6c20774e562d311",
-    "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
-    "link": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-01T13:08:58.000Z",
-    "summary": "The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued evolution of its toolset and likely expand its targeting footprint to infect Linux and Apple macOS s",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fb80f08d7cd24214",
-    "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-01T12:38:35.000Z",
-    "summary": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "90aa5957280f52a5",
-    "title": "Experiment: Porting a PLC Exploit With AI Takes Hours and Hundreds of Dollars",
-    "link": "https://www.securityweek.com/experiment-porting-a-plc-exploit-with-ai-takes-hours-and-hundreds-of-dollars/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-01T12:37:15.000Z",
-    "summary": "Forescout researchers used Claude AI to port a remote code execution exploit between WAGO PLC models.\nThe post Experiment: Porting a PLC Exploit With AI Takes Hours and Hundreds of Dollars appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "38784237bce7f8ff",
-    "title": "Iranian cyber spies target aviation, fintech developers with new malware",
-    "link": "https://therecord.media/iranian-cyber-spies-target-aviation-fintech-new-malware",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-01T12:33:00.000Z",
-    "summary": "In a report published Tuesday, Kaspersky said it first discovered NodeRabbit on a system in Afghanistan and later identified variants on systems in Egypt and Ethiopia.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "82d23ec0e00f2ddb",
-    "title": "Cyber risk from frontier AI poses ‘most immediate concern’ to global financial system, watchdog warns",
-    "link": "https://therecord.media/cyber-risk-from-frontier-ai-most-immediate-concern-to-global-finance",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-01T12:28:00.000Z",
-    "summary": "Andrew Bailey, chair of the Financial Stability Board, called on financial institutions and technology providers to “prepare for more severe scenarios involving simultaneous disruption across multiple firms or shared technology dependencies",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8284ce7f7a011cf3",
-    "title": "Hackers Start Exploiting Critical Langflow Vulnerability",
-    "link": "https://www.securityweek.com/hackers-start-exploiting-critical-langflow-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-01T12:07:54.000Z",
-    "summary": "Tracked as CVE-2026-0768, the security defect allows unauthenticated attackers to execute arbitrary Python code remotely.\nThe post Hackers Start Exploiting Critical Langflow Vulnerability appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-0768"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "976e05a3b6556a79",
-    "title": "Rockwell Automation Historian ME",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed; an out-of-bounds write condition may allow remote code execution.\nThe following versions of Rockwell Automation Historian ME are affec",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "66e9e04fb96ed801",
-    "title": "Rockwell Automation FactoryTalk Activation Manager",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation FactoryTalk Activation Manager are affected:\nFactoryTalk Activation Manager V5.02_and_below (CVE-2026-16675)\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.8\nRockwell Automatio",
-    "cveIds": [
-      "CVE-2026-16675"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "ed6a5dd66cbc18f6",
-    "title": "Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix are affected:\nControlLogix 5580 <34.015, <35.014, <36.013, <37.011 (CVE-2021-42260, CVE-2021-42260",
-    "cveIds": [
-      "CVE-2021-42260"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "8480ca778f6040b9",
-    "title": "Rockwell Automation Redundancy Module Configuration Tool",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow for an attacker to escalate and execute processes with administrator privileges.\nThe following versions of Rockwell Automation Redundancy Module Configuration To",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "731e0a65cfd32dce",
-    "title": "Rockwell Automation RSLinx Classic",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the affected product.\nThe following versions of Rockwell Automation RSLinx Classic are affected:\nRSLinx Cla",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "930f9904e1f6da34",
-    "title": "Rockwell Automation Logix Platform",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nThe following versions of Rockwell Automation Logix Platform are affected:\nControlLogix 5580 <=V33, V34.011-V34.014, V35.011-V35.013, V36.011-V36.012 (CVE-2026-9637, CVE-2026-9637, CVE-2026-9637, CVE-2026-9637)\nCompactLogi",
-    "cveIds": [
-      "CVE-2026-9637"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "74926d30facaf133",
-    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
-    "link": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-01T11:30:00.000Z",
-    "summary": "The most common way into a company last year was to ask.\n\nA web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboard. Then it talks them through opening a ter",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b116a133ae39399e",
-    "title": "Five Venezuelans Plead Guilty in US Court to ATM Jackpotting",
-    "link": "https://www.securityweek.com/five-venezuelans-plead-guilty-in-us-court-to-atm-jackpotting/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-01T11:24:25.000Z",
-    "summary": "The defendants unsuccessfully attempted to physically install malware on ATMs to force them to dispense cash.\nThe post Five Venezuelans Plead Guilty in US Court to ATM Jackpotting appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   }
