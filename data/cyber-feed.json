@@ -22,6 +22,149 @@
     "severity": "normal"
   },
   {
+    "id": "f41ecd0decf6766e",
+    "title": "US disrupts Xinbi Guarantee marketplace fueling the cyber scam economy",
+    "link": "https://therecord.media/us-disrupts-xinbi-guarantee-marketplace-cybercrime",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-09T19:54:00.000Z",
+    "summary": "The U.S. government also carried out a seizure of $52.8 million from 52 wallets connected to the platform.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "272c95de9836a13e",
+    "title": "US Government Accuses Chinese AI Firms of Distilling Frontier Models",
+    "link": "https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-09T19:47:50.000Z",
+    "summary": "US agencies claim Chinese companies covertly extracted billions of tokens from OpenAI, Anthropic, Google Gemini, and SpaceX's Grok to reduce development costs.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "097219eaecd991ee",
+    "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+    "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-09T18:26:05.000Z",
+    "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including seizing Telegram channels used to run the service, confiscat",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b36bd9c94c9793fe",
+    "title": "Grindr settles privacy lawsuit tied to disclosure of users’ HIV statuses for $35 million",
+    "link": "https://therecord.media/grindr-settles-privacy-lawsuit-hiv-status-35-million",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-09T18:11:00.000Z",
+    "summary": "The settlement concludes a legal fight that dates to April 2024, when UK users sued for the alleged violations of their country’s privacy laws.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "29987adf12fb95bf",
+    "title": "Scans for Proxmox Servers, (Wed, Sep 9th)",
+    "link": "https://isc.sans.edu/diary/rss/33324",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-09T17:46:24.000Z",
+    "summary": "About a week ago, Proxmox published an advisory revealing a vulnerability in older versions of Proxmox VE, its flagship Virtual Environment product. The vulnerability only affects version 7, which has not been supported for a couple of year",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e7045162419c265f",
+    "title": "Passkey-themed social engineering leads to identity and cloud compromise",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-09-09T17:41:18.000Z",
+    "summary": "Passkey-themed social engineering is being used to compromise identities and enable broader cloud attacks. Learn how threat actors establish MFA persistence, abuse Microsoft Graph for reconnaissance, and access SharePoint, OneDrive, and ema",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "567bdbc85ddce982",
+    "title": "HelmGuard Raises $7.3 Million for Agentic GRC and Security",
+    "link": "https://www.securityweek.com/helmguard-raises-7-3-million-for-agentic-grc-and-security/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-09T17:23:58.000Z",
+    "summary": "The company will increase its US market presence and will expand its engineering and go-to-market teams.\nThe post HelmGuard Raises $7.3 Million for Agentic GRC and Security appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "049eb5b9afad3cbe",
+    "title": "Electronic health record company says customer data stolen in breach",
+    "link": "https://therecord.media/electronic-health-record-company-says-customer-data-stolen-in-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-09T17:03:00.000Z",
+    "summary": "Veradigm said access was limited to a specific interface, and did not impact the company’s broader environment such as its networks, servers or databases. The incident did not result in operational disruptions, the company added.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "654204d5c93b2fa9",
+    "title": "AI Is Giving Lesser-Resourced Attackers Nation-State-Level Reach, Google Warns",
+    "link": "https://www.securityweek.com/ai-is-giving-lesser-resourced-attackers-nation-state-level-reach-google-warns/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-09T16:56:25.000Z",
+    "summary": "Criminal and state-sponsored adversaries are increasingly using AI to automate and scale their attacks, according to GTIG.\nThe post AI Is Giving Lesser-Resourced Attackers Nation-State-Level Reach, Google Warns appeared first on SecurityWee",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "daf385fccdd85bfa",
+    "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
+    "link": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-09T16:48:33.000Z",
+    "summary": "U.S. cybersecurity and intelligence agencies say that six Chinese AI companies conducted industrial-scale distillation attacks on American frontier AI models since at least late 2024. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "997230302f394dc2",
+    "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+    "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-09T16:34:05.000Z",
+    "summary": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome.\n\nThe first in-the-wi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a76832846e7842f3",
+    "title": "Android’s September 2026 Updates Patch 180 Vulnerabilities",
+    "link": "https://www.securityweek.com/androids-september-2026-updates-patch-180-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-09T16:30:40.000Z",
+    "summary": "The security updates resolve critical flaws across Android’s Framework, System, and Kernel components.\nThe post Android’s September 2026 Updates Patch 180 Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bc17f35df3d0672c",
+    "title": "Multiple Chinese hacking groups seen using identical Chrome zero-day exploit",
+    "link": "https://therecord.media/china-hackers-chrome-browser-zero-day-multiple-groups",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-09T16:30:00.000Z",
+    "summary": "A Google Chrome bug identified in August was exploited by at least four China-linked cyber-espionage groups, according to researchers.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "ccb65f591486e88f",
     "title": "Chipmaker Patch Tuesday: Nvidia, AMD, Arm Issue Security Advisories",
     "link": "https://www.securityweek.com/chipmaker-patch-tuesday-nvidia-amd-arm-issue-security-advisories/",
@@ -141,6 +284,20 @@
     "summary": "Muse runs on a dedicated, secure virtual machine that houses both the agent and the user’s data.\nThe post Meta Launches Personal AI Agent, Muse, Emphasizes Safety and Privacy appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "4e0c1d21aa5c651d",
+    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-09T12:00:00.000Z",
+    "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2025-25249 Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability\nCVE-2026-19490 Citr",
+    "cveIds": [
+      "CVE-2025-25249",
+      "CVE-2026-19490"
+    ],
+    "severity": "cve"
   },
   {
     "id": "1cdee31ebc7beb45",
@@ -877,19 +1034,6 @@
     "severity": "normal"
   },
   {
-    "id": "1914339fcb09305a",
-    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/08/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-08T12:00:00.000Z",
-    "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  \nCVE-2026-75650 Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Templa",
-    "cveIds": [
-      "CVE-2026-75650"
-    ],
-    "severity": "cve"
-  },
-  {
     "id": "154e5d7f0144448e",
     "title": "Cyberattack encrypts systems at Bavarian municipal utility",
     "link": "https://therecord.media/cyberattack-bavaria-germany-utility",
@@ -1053,6 +1197,28 @@
     "category": "advisory",
     "pubDate": "2026-09-08T02:00:03.000Z",
     "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "886406ecc28660d6",
+    "title": "Multiples vulnérabilités dans Mattermost Server (08 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1128/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-08T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9c0690da90466d9b",
+    "title": "Multiples vulnérabilités dans strongSwan (08 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1129/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-08T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans strongSwan. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique d",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1306,6 +1472,72 @@
     "category": "news",
     "pubDate": "2026-09-07T01:15:43.000Z",
     "summary": "OpenAI is now rolling out ChatGPT Astra, its most powerful model to date, to those with a $20 Plus subscription, but there's no word on when free users will get access.. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "712e9ee2acf8bc4f",
+    "title": "Multiples vulnérabilités dans Roundcube Webmail (07 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1122/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-07T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube Webmail. Certaines d'entre elles permettent à un attaquant de provoquer une falsification de requêtes côté serveur (SSRF), une injection de code indirecte à distance (XSS) et un",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e9a4581a12da63d7",
+    "title": "Multiples vulnérabilités dans MongoDB (07 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1123/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-07T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et une injection de requêtes ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "646497084a6f0448",
+    "title": "Multiples vulnérabilités dans les produits Juniper Networks (07 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1124/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-07T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Juniper Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distanc",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7ac82645c276b38e",
+    "title": "Multiples vulnérabilités dans les produits VMware (07 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1125/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-07T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e6b955b2e47917b5",
+    "title": "Vulnérabilité dans Belden HiOS Switch Platform (07 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1126/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-07T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Belden HiOS Switch Platform. Elle permet à un attaquant de provoquer un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ac9fddfb6ab3d778",
+    "title": "Multiples vulnérabilités dans Traefik (07 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1127/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-07T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1891,6 +2123,83 @@
     "severity": "normal"
   },
   {
+    "id": "e0ccb576159da9b6",
+    "title": "Multiples vulnérabilités dans Sonicwall Network Security Manager (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1115/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Sonicwall Network Security Manager. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contourne",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0cb2040003afc26b",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1116/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5ab986ac5ef4a98c",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1117/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "81b6201e5b234d31",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1118/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7d271af3b61c162f",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1119/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b4ce54c5e3fa190b",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1120/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données, un contournement de la politique de sécurité et un problème de sécurité non sp",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "efb566d6785f5839",
+    "title": "Multiples vulnérabilités dans les produits IBM (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1121/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à l'intégrité d",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a955036c82a10e9c",
     "title": "French hospital fined €500,000 after breach exposes data of 727,000",
     "link": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
@@ -2179,6 +2488,17 @@
     "severity": "normal"
   },
   {
+    "id": "0bfb04557cea525f",
+    "title": "Preparing for the Post-Quantum Era: A Call to Action",
+    "link": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-03T12:00:00.000Z",
+    "summary": "CISA and the Group of Seven (G7) Cyber Security Working Group released Preparing for the Post-Quantum Era: A Call to Action highlighting the urgent need for organizations and governments to begin transitioning to post-quantum cryptography (",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "c75af9f1334ae370",
     "title": "IXON VPN Client",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-02",
@@ -2221,17 +2541,6 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in a loss of webserver availability or allow an attacker to inject malicious scripts that will be executed when other users access the affected page.\nThe follow",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "0bfb04557cea525f",
-    "title": "Preparing for the Post-Quantum Era: A Call to Action",
-    "link": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-03T12:00:00.000Z",
-    "summary": "CISA and the Group of Seven (G7) Cyber Security Working Group released Preparing for the Post-Quantum Era: A Call to Action highlighting the urgent need for organizations and governments to begin transitioning to post-quantum cryptography (",
-    "cveIds": [],
-    "severity": "critical"
   },
   {
     "id": "bee7ac6c39982e35",
@@ -2458,6 +2767,17 @@
     "severity": "normal"
   },
   {
+    "id": "6fcc41d85edc0eb8",
+    "title": "Multiples vulnérabilités dans les produits F5 (03 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1111/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-03T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "06fa2b93b2890596",
     "title": "Multiples vulnérabilités dans SPIP (03 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1109/",
@@ -2476,17 +2796,6 @@
     "category": "advisory",
     "pubDate": "2026-09-03T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la pol",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6fcc41d85edc0eb8",
-    "title": "Multiples vulnérabilités dans les produits F5 (03 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1111/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-03T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2524,104 +2833,5 @@
       "CVE-2026-9586"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "a2c5bbd99058646b",
-    "title": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-02T20:43:59.000Z",
-    "summary": "The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor's edge devices.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8f6b611d74390218",
-    "title": "AI Gives Cybercriminals a Dangerous Time Advantage",
-    "link": "https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-02T19:46:31.000Z",
-    "summary": "Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bf7a424fd078dd32",
-    "title": "OpenLeash Adds a Human Check to Risky AI Agent Actions",
-    "link": "https://www.securityweek.com/openleash-adds-a-human-check-to-risky-ai-agent-actions/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-02T19:30:00.000Z",
-    "summary": "The security tool intercepts potentially dangerous agent actions, blocking clear threats and requesting human approval when intent is uncertain.\nThe post OpenLeash Adds a Human Check to Risky AI Agent Actions appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a7432d5aff499b42",
-    "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-02T19:28:46.000Z",
-    "summary": "An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress could allow unauthenticated attackers to execute remote code and take control of affected websites. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4f8b07a5c4cc81eb",
-    "title": "Russian national facing 20 years for malware campaign that infected 80,000 freelancers",
-    "link": "https://therecord.media/russian-national-facing-20-years-malware-campaign",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-02T18:43:00.000Z",
-    "summary": "Searzhudin Tamirlanovich Aktulaev appeared in a San Francisco federal court on Monday after being arrested in Cyprus in May 2025 and extradited to the U.S. last week.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3eb6b7527a29e667",
-    "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
-    "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-02T18:27:49.000Z",
-    "summary": "Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new initiative called the Fairwind Program.\n\n\"The Fairwind Progr",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "db2501765b1f711a",
-    "title": "Health data of more than 9.5 million people leaked from Aesto record system",
-    "link": "https://therecord.media/health-data-aesto-cyberattack-leak",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-02T17:15:00.000Z",
-    "summary": "The healthcare data company Aesto informed federal regulators this week that more than 9.5 million people had sensitive information leaked during a cyberattack last December.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "551e76fd7c2746d7",
-    "title": "Threat Gang 'Springs' Vishing Attacks on Microsoft Teams Users",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/threat-gang-springs-vishing-attacks-microsoft-teams-users",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-02T16:51:21.000Z",
-    "summary": "The \"Spring Ring\" operation aims to compromise users of the collaboration suite to remotely access their sessions, spread malware, and even take over infrastructure.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3b410cf359cf851d",
-    "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
-    "link": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-02T16:41:06.000Z",
-    "summary": "An active malware campaign is using bogus software-download websites to impersonate trusted vendors and distribute malicious installers.\n\n\"The campaign has targeted users looking to download popular software and has resulted in compromises ",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
