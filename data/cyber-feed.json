@@ -22,6 +22,74 @@
     "severity": "normal"
   },
   {
+    "id": "0174d74ba099dc84",
+    "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-09T21:40:44.000Z",
+    "summary": "Cisco has confirmed that a maximum-severity authentication bypass vulnerability tracked as CVE-2026-20079 in its Secure Firewall Management Center (FMC) software is being actively exploited in attacks. [...]",
+    "cveIds": [
+      "CVE-2026-20079"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "56efd949aedf050d",
+    "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-09T21:30:36.000Z",
+    "summary": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to the ShinyHunters threat group. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "107befd3b229f37b",
+    "title": "Threat Matrix: Mapping threats across cloud web applications",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-09-09T21:30:00.000Z",
+    "summary": "Microsoft introduces the Cloud Web Applications Threat Matrix, a MITRE ATT&CK-aligned framework that helps defenders understand, prioritize, and mitigate threats to cloud-hosted web apps and serverless platforms.\nThe post Threat Matrix: Map",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "95c827d8dca64432",
+    "title": "CISA head says agency must change quickly to prevent the 'worst that could happen'",
+    "link": "https://therecord.media/cisa-hiring-nick-andersen-warning",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-09T21:25:00.000Z",
+    "summary": "CISA's cybersecurity, infrastructure security and emergency communications divisions are among the priorities as the agency fills vacancies created at the beginning of the Trump administration, acting director Nick Andersen says.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b7c0dd10fdf357ac",
+    "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
+    "link": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-09T21:19:55.000Z",
+    "summary": "An analysis of Project Glasswing findings shows only a fraction have reached disclosure, and an even smaller number have been fixed.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2797a83a98a0fef2",
+    "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
+    "link": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-09T21:02:14.000Z",
+    "summary": "The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests from nearby unpaired devices without requiring user interaction. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f41ecd0decf6766e",
     "title": "US disrupts Xinbi Guarantee marketplace fueling the cyber scam economy",
     "link": "https://therecord.media/us-disrupts-xinbi-guarantee-marketplace-cybercrime",
@@ -2798,40 +2866,5 @@
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la pol",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "249fba19e7d86c92",
-    "title": "Impersonating IT support: how threat actors turn a remote session into enterprise-wide access",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-09-02T22:51:18.000Z",
-    "summary": "Microsoft Threat Intelligence observed a human-operated intrusion campaign that abuses Microsoft Teams external collaboration to impersonate IT support, gain remote access, and deploy a Node.js-based implant. Learn how attackers move from s",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0d0f16f9402fc089",
-    "title": "AI's Vulnerability Surge May Be More Manageable Than First Feared",
-    "link": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-02T21:14:06.000Z",
-    "summary": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b11a003c4656b55c",
-    "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-02T21:00:13.000Z",
-    "summary": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution. [...]",
-    "cveIds": [
-      "CVE-2026-9586"
-    ],
-    "severity": "cve"
   }
 ]
