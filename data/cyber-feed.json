@@ -22,6 +22,197 @@
     "severity": "normal"
   },
   {
+    "id": "30d51727c10bebde",
+    "title": "ICS Patch Tuesday: Schneider Electric, Siemens Fix Critical Flaws",
+    "link": "https://www.securityweek.com/ics-patch-tuesday-schneider-electric-siemens-fix-critical-flaws/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-09T10:49:30.000Z",
+    "summary": "AVEVA and Rockwell Automation also released patches for vulnerabilities affecting industrial control system products.\nThe post ICS Patch Tuesday: Schneider Electric, Siemens Fix Critical Flaws appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "19a9241b1c30545d",
+    "title": "Ivanti Patches Critical Flaws Across Enterprise Security Products",
+    "link": "https://www.securityweek.com/ivanti-patches-critical-flaws-across-enterprise-security-products/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-09T10:28:34.000Z",
+    "summary": "Six critical vulnerabilities in Neurons for ITSM could enable remote code execution, while Sentry and EPMM received patches for authentication bypass flaws.\nThe post Ivanti Patches Critical Flaws Across Enterprise Security Products appeared",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "022a3d11858e512b",
+    "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-09T10:11:29.000Z",
+    "summary": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2bf8d15a64be1f35",
+    "title": "Untracked Nightmares: The Threats Hiding Behind Commodity Infrastructure",
+    "link": "https://unit42.paloaltonetworks.com/ppi-network-malware-campaign-analysis/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-09-09T10:00:55.000Z",
+    "summary": "An investigation into how cybercriminals used YouTube gaming lures and SEO poisoning to deliver multi-payload malware to enterprise networks.\nThe post Untracked Nightmares: The Threats Hiding Behind Commodity Infrastructure appeared first o",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c84e3cad8859de09",
+    "title": "This Key Will Self-Destruct: An Open Standard for Revocable API Keys",
+    "link": "https://www.securityweek.com/this-key-will-self-destruct-an-open-standard-for-revocable-api-keys/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-09T10:00:00.000Z",
+    "summary": "Every leaked credential should be dead, or dying, within sixty seconds of being found. Here's a proposal to make that the default.\nThe post This Key Will Self-Destruct: An Open Standard for Revocable API Keys appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eca341d5d908307b",
+    "title": "New Phishing Attack Creates Malicious Pages Inside the Victim’s Browser",
+    "link": "https://www.securityweek.com/new-phishing-attack-creates-malicious-pages-inside-the-victims-browser/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-09T10:00:00.000Z",
+    "summary": "Attackers are using trusted Microsoft services and blob URLs to generate stealthy phishing pages that leave defenders with no static website to detect or block.\nThe post New Phishing Attack Creates Malicious Pages Inside the Victim’s Browse",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ec8830e7e3f778ce",
+    "title": "Chrome 153 Patches Seventh Zero-Day of 2026",
+    "link": "https://www.securityweek.com/chrome-153-patches-seventh-zero-day-of-2026/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-09T09:45:00.000Z",
+    "summary": "The Chrome update includes 230 security fixes, and users are advised to update their browsers as soon as possible.\nThe post Chrome 153 Patches Seventh Zero-Day of 2026 appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "78d2d3e14138c178",
+    "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+    "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-09T09:11:03.000Z",
+    "summary": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), ",
+    "cveIds": [
+      "CVE-2026-87491"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "7b4bbc788a31cbe0",
+    "title": "Man gets 15 years for extorting women with AI-generated porn videos",
+    "link": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-09T08:44:22.000Z",
+    "summary": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using AI-generated sexually explicit content. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "83e148193c81ccf8",
+    "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+    "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-09T08:19:32.000Z",
+    "summary": "cPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files of their choosing on the server through EmailTrack and, fro",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4e5ed3a1dd62da9d",
+    "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
+    "link": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-09T07:36:49.000Z",
+    "summary": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an analysis published on September 7.\n\nWhen Apache loads any of the three appliances' own",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ee705fb9784b2635",
+    "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+    "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-09T07:30:15.000Z",
+    "summary": "An anonymous security researcher known as Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldCrash\" right after Microsoft rolled out its September 2026 Patch Tuesday security updates. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1c575186fad4b472",
+    "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+    "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-09T06:47:27.000Z",
+    "summary": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender.\n\nThe vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score",
+    "cveIds": [
+      "CVE-2026-69414"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "fa10c233fda1e928",
+    "title": "Google warns of new Chrome zero-day bug exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-09T06:25:48.000Z",
+    "summary": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched since the start of the year. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8b6f5de46ffa95f0",
+    "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+    "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-09T06:25:45.000Z",
+    "summary": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and availability of the ap",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0e5d9e729090e7b3",
+    "title": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
+    "link": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-09T04:41:29.000Z",
+    "summary": "Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been actively exploited in the wild.\n\nThese include 723 flaws in W",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "23a085d641863d44",
+    "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-09T04:27:51.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6bb79ba27b66e487",
     "title": "ISC Stormcast For Wednesday, September 9th, 2026 https://isc.sans.edu/podcastdetail/10086, (Wed, Sep 9th)",
     "link": "https://isc.sans.edu/diary/rss/33322",
@@ -2459,175 +2650,5 @@
     "summary": "The debate about whether AI delivers business value is over. The challenge now is implementing it at scale and securely across every function while meeting board-level pressure to move fast. Organizations must focus on adopting AI at busine",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "348588b41dbd5ea1",
-    "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-02T10:53:49.000Z",
-    "summary": "SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks.\n\nThe vulnerabilities, discovered internally by SonicWall",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5f98ca43ef8f767f",
-    "title": "OpenAI’s Astra Crosses ‘Critical’ Cyber Threshold After Finding Zero-Days",
-    "link": "https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-02T10:38:13.000Z",
-    "summary": "The designation applies when a model can independently find and exploit zero-day vulnerabilities across many well-defended systems.\nThe post OpenAI’s Astra Crosses ‘Critical’ Cyber Threshold After Finding Zero-Days appeared first on Securit",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a4b0ba36a64193f2",
-    "title": "Microsoft Defender flags legitimate Google search links as malicious",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-02T10:29:39.000Z",
-    "summary": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "de365fb63a0d4e88",
-    "title": "An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation",
-    "link": "https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-09-02T10:00:46.000Z",
-    "summary": "Using autonomous AI agents, an attacker breached an enterprise network in a matter of hours. Understand how to address and defend against agentic attacks.\nThe post An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation appeared first o",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a7a11a80814190ea",
-    "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
-    "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-02T09:18:02.000Z",
-    "summary": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geoportals.\n\nThe project shipped fixes in v",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "afb4d7615daf164a",
-    "title": "Chrome and Firefox Updates Patch Dozens of Vulnerabilities",
-    "link": "https://www.securityweek.com/chrome-and-firefox-updates-patch-dozens-of-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-02T09:12:29.000Z",
-    "summary": "The browser refreshes fix multiple use-after-free, sandbox escape, and privilege escalation bugs.\nThe post Chrome and Firefox Updates Patch Dozens of Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5fa2181f18ac6571",
-    "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
-    "link": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-02T09:10:23.000Z",
-    "summary": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments to about 80,000 of its users in 2",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d321a44740756c3f",
-    "title": "US charges Russian for infecting 80,000 freelancers with malware",
-    "link": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-02T09:06:48.000Z",
-    "summary": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f332196e370e4259",
-    "title": "23-Year-Old Sality P2P Botnet Disrupted",
-    "link": "https://www.securityweek.com/23-year-old-sality-p2p-botnet-disrupted/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-02T08:38:00.000Z",
-    "summary": "The shutdown operation involved peer list manipulation and Sality payload URL takedown.\nThe post 23-Year-Old Sality P2P Botnet Disrupted appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "71e1868cd19f1a71",
-    "title": "Sality botnet infrastructure dismantled in joint global takedown",
-    "link": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-02T08:00:43.000Z",
-    "summary": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "152b1ab15895238b",
-    "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
-    "link": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-02T07:47:13.000Z",
-    "summary": "Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, executing attacker-supplied ARM shellcod",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "123b90c7eeb9f8ad",
-    "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-02T07:08:50.000Z",
-    "summary": "Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution.\n\nThe vulnerability in question is CVE-2026-9586 (CVSS score: 9.3), a cri",
-    "cveIds": [
-      "CVE-2026-9586"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "e1b0fe399ce03338",
-    "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
-    "link": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-02T06:56:30.000Z",
-    "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part of a coordinated law enforcement operation.\n\nThe effort was undertaken on August 31, 2026, by author",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "56a0387e84a97012",
-    "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-02T06:39:29.000Z",
-    "summary": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d4ba7a1db8b31767",
-    "title": "SonicWall Warns of Two SMA1000 Zero-Days Exploited in Attacks",
-    "link": "https://www.securityweek.com/sonicwall-warns-of-two-sma1000-zero-days-exploited-in-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-02T05:04:52.000Z",
-    "summary": "The vulnerabilities CVE-2026-83549 and CVE-2026-83548 can be chained for unauthenticated remote code execution.\nThe post SonicWall Warns of Two SMA1000 Zero-Days Exploited in Attacks appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-83549",
-      "CVE-2026-83548"
-    ],
-    "severity": "critical"
   }
 ]
