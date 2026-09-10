@@ -22,6 +22,127 @@
     "severity": "normal"
   },
   {
+    "id": "baa648020d535969",
+    "title": "September Windows Server updates break Remote Desktop Services",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/september-windows-server-updates-break-remote-desktop-services/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-10T20:34:37.000Z",
+    "summary": "Windows admins report that the September 2026 security updates are causing Remote Desktop Services (RDS) failures on Windows Server 2019, 2022, and 2025 servers, preventing users from connecting and, in some cases, requiring a hard reset to",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "026c42cbe4c7e62f",
+    "title": "Mandiant Founder Kevin Mandia Joins Amazon Board",
+    "link": "https://www.securityweek.com/mandiant-founder-kevin-mandia-joins-amazon-board/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-10T20:30:44.000Z",
+    "summary": "Mandiant founder and cybersecurity veteran brings more than 30 years of public and private sector experience to Amazon’s board.\nThe post Mandiant Founder Kevin Mandia Joins Amazon Board appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "674bef063e251fb4",
+    "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
+    "link": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-10T19:15:07.000Z",
+    "summary": "Surfshark disclosed that hackers accessed one of its internal test servers after a configuration error exposed it to the internet. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9414623aee522d6b",
+    "title": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-10T19:07:33.000Z",
+    "summary": "Microsoft Excel users report that this week's KB5002914 Office security update is breaking copy-and-paste operations and formula dragging, with affected users saying that removing or rolling back the update restores normal functionality. [.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b847bf7fde4ac7f7",
+    "title": "IDScan confirms breach after hackers offer 153 million driver’s license scans for sale",
+    "link": "https://therecord.media/idscan-data-breach-notice-drivers-licenses",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-10T18:55:00.000Z",
+    "summary": "A notice dated September 4 but not widely shared shows that IDScan acknowledged a data breach but did not specify how many people were affected.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7c120666ffd9308d",
+    "title": "Cyber Command turns to veteran of intelligence agencies for top AI role",
+    "link": "https://therecord.media/cyber-command-ai-leader-ronzelle-green",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-10T18:25:00.000Z",
+    "summary": "Ronzelle Green, most recently a senior official at the National Geospatial-Intelligence Agency, will be U.S. Cyber Command's chief AI officer.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5f8e7dcba8fcada4",
+    "title": "We've got one word for it, and it's usually the wrong one",
+    "link": "https://blog.talosintelligence.com/weve-got-one-word-for-it-and-its-usually-the-wrong-one/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-09-10T18:00:15.000Z",
+    "summary": "In this week's Threat Source newsletter, Joe explores why the word \"burnout\" often fails to capture the true toll of working in the cybersecurity industry and why we need better language to address it.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "96788d5a772f9a8a",
+    "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+    "link": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-10T17:47:38.000Z",
+    "summary": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?”\n\nAn extension asks for access and takes too much. A trusted service becomes part of a phishing chain. An old bug still gets resu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ae96f3d527264bf5",
+    "title": "Protecting organizations from AI-assisted executive impersonation and invoice fraud",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-09-10T17:23:05.000Z",
+    "summary": "Microsoft examines an AI-assisted business email compromise campaign that used executive impersonation and fake invoices to target finance teams with ACH payment fraud.\nThe post Protecting organizations from AI-assisted executive impersonat",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d793ad6955486324",
+    "title": "Cybersecurity M&A Roundup: 33 Deals Announced in August 2026",
+    "link": "https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-august-2026/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-10T16:14:58.000Z",
+    "summary": "Significant cybersecurity M&A deals announced by Brinqa, Cribl, Echo, Fortinet, Kiteworks, Palo Alto Networks, and Visa.\nThe post Cybersecurity M&A Roundup: 33 Deals Announced in August 2026 appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6e6808f3261047ff",
+    "title": "Detect and disrupt AI-themed attacks with Microsoft Defender",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-09-10T16:00:00.000Z",
+    "summary": "See how Microsoft Defender detects and disrupts AI-themed phishing, malware, and multi-stage attacks across the attack chain.\nThe post Detect and disrupt AI-themed attacks with Microsoft Defender appeared first on Microsoft Security Blog.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "99e4f04ee6facc13",
     "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
     "link": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
@@ -45,7 +166,7 @@
   },
   {
     "id": "4ff373cc7d228df4",
-    "title": "Nightmare-Eclipse Strikes Again with 'ShieldCrash' Windows Exploit",
+    "title": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
     "link": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit",
     "source": "Dark Reading",
     "category": "news",
@@ -189,6 +310,20 @@
     "severity": "critical"
   },
   {
+    "id": "95713d4724f24290",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-10T12:00:00.000Z",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-67277 MikroTik RouterOS Missing Authentication for Critical Function Vulnerability\nCVE-2026-8606",
+    "cveIds": [
+      "CVE-2026-67277",
+      "CVE-2026-8606"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "639fe7a96b234a20",
     "title": "Orthanc DICOM Server",
     "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02",
@@ -200,13 +335,13 @@
     "severity": "normal"
   },
   {
-    "id": "96b23cd0ce7320fe",
-    "title": "NextGen Healthcare Mirth Connect",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01",
+    "id": "8c727593e16cb6f9",
+    "title": "AVEVA Pipeline Integrity Monitor",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-10T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to exfiltrate date or cause a denial-of-service condition.\nThe following versions of NextGen Healthcare Mirth Connect are affected:\nMirth Connect <=v",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session.\nThe following versions of AVEVA Pipeline Integrity Monitor a",
     "cveIds": [],
     "severity": "normal"
   },
@@ -222,13 +357,13 @@
     "severity": "normal"
   },
   {
-    "id": "8c727593e16cb6f9",
-    "title": "AVEVA Pipeline Integrity Monitor",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01",
+    "id": "96b23cd0ce7320fe",
+    "title": "NextGen Healthcare Mirth Connect",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-10T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session.\nThe following versions of AVEVA Pipeline Integrity Monitor a",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to exfiltrate date or cause a denial-of-service condition.\nThe following versions of NextGen Healthcare Mirth Connect are affected:\nMirth Connect <=v",
     "cveIds": [],
     "severity": "normal"
   },
@@ -433,6 +568,17 @@
       "CVE-2025-25249"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "39024a406cffb712",
+    "title": "Multiple crypto companies warn customers of phishing emails after alleged provider breach",
+    "link": "https://therecord.media/trezor-bitbox-cointracking-phishing-crypto-holders",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-10T04:00:00.000Z",
+    "summary": "Subscribers to newsletters from Trezor, CoinTracking and BitBox received corrupted messages through an email provider that all three companies use.",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "0174d74ba099dc84",
@@ -1550,17 +1696,6 @@
     "severity": "normal"
   },
   {
-    "id": "6cd8e030437db269",
-    "title": "CareCam Pro IP Cameras",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-08T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to take full control of the device.\nThe following versions of CareCam Pro IP Cameras are affected:\nANJIA AJL33PC0801 Firmware linux_linux_202008261138_s",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "4ac577507d975652",
     "title": "China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies",
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
@@ -1568,6 +1703,17 @@
     "category": "advisory",
     "pubDate": "2026-09-08T12:00:00.000Z",
     "summary": "Executive summary\nChina-based artificial intelligence (AI) companies are conducting systematic extraction of proprietary functionalities and capabilities of U.S. AI companies’ models through industrial-scale knowledge distillation campaigns",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6cd8e030437db269",
+    "title": "CareCam Pro IP Cameras",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-08T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to take full control of the device.\nThe following versions of CareCam Pro IP Cameras are affected:\nANJIA AJL33PC0801 Firmware linux_linux_202008261138_s",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2802,94 +2948,6 @@
     "category": "news",
     "pubDate": "2026-09-03T22:01:37.000Z",
     "summary": "France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients' and their relatives' data. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7ff01f204a1c10e3",
-    "title": "Large Enterprises Targeted in Fake Merger &amp; Acquisition Scams",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-03T20:18:14.000Z",
-    "summary": "Threat actors behind the \"Phantom Deal\" campaign are studying companies in extreme detail, aiming to dupe midlevel employees into initiating large financial transfers.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4db1e04afe52a2e8",
-    "title": "Coder's registry infrastructure compromised to push malicious modules",
-    "link": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-03T20:04:24.000Z",
-    "summary": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "87ab989dac4268a4",
-    "title": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
-    "link": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-03T19:42:39.000Z",
-    "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the latest antics of ShinyHunters to new research about the prevalence (or lack thereof) of AI-generated malware.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "214d012c4c2e724f",
-    "title": "Large group of Serbian opposition, activist figures targeted with spyware",
-    "link": "https://therecord.media/serbia-spyware-pegasus-europe",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-03T19:30:41.000Z",
-    "summary": "At least 14 Serbians have been targeted with advanced spyware since December, with victims including a member of Parliament, a local opposition politician and student protesters, according to digital forensic researchers.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ea175bcaebd9cebb",
-    "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-03T18:28:12.000Z",
-    "summary": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execution. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "517c6272dbd33f48",
-    "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
-    "link": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-03T18:02:47.000Z",
-    "summary": "The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door?\n\nThat idea runs through this edition. Attackers use real tools,",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d17bf98bc28b868f",
-    "title": "The story behind the intelligence",
-    "link": "https://blog.talosintelligence.com/the-story-behind-the-intelligence/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-09-03T18:00:13.000Z",
-    "summary": "From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c8043b5ca62452e6",
-    "title": "What the AI Warning Letter Completely Missed",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-warning-letter-missed-people",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-03T17:23:14.000Z",
-    "summary": "The recent open letter is right about the \"window,\" but it omits naming who is coming through it or, critically, who will close it.",
     "cveIds": [],
     "severity": "critical"
   }
