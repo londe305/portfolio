@@ -22,6 +22,131 @@
     "severity": "normal"
   },
   {
+    "id": "906c10efda1c1f9d",
+    "title": "ISC Stormcast For Thursday, September 10th, 2026 https://isc.sans.edu/podcastdetail/10088, (Thu, Sep 10th)",
+    "link": "https://isc.sans.edu/diary/rss/33328",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-10T10:10:11.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a7f1c1a44a19bcb6",
+    "title": "Organizations Warned of Cisco Secure FMC Exploitation",
+    "link": "https://www.securityweek.com/organizations-warned-of-cisco-secure-fmc-exploitation/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-10T10:06:20.000Z",
+    "summary": "Cisco and CISA have flagged exploitation of CVE-2026-20079, a vulnerability disclosed in March 2026.\nThe post Organizations Warned of Cisco Secure FMC Exploitation appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-20079"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "88b1b3c0bd98be58",
+    "title": "The Machine With Many Faces: Post-Exploitation Identity Misuse in SPIFFE/SPIRE",
+    "link": "https://unit42.paloaltonetworks.com/kubernetes-spiffe-spire-identity-spoofing/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-09-10T10:00:43.000Z",
+    "summary": "Learn how root access on a compromised K8s node allows attackers to utilize SPIFFE/SPIRE metadata to spoof and harvest co-located workload identities.\nThe post The Machine With Many Faces: Post-Exploitation Identity Misuse in SPIFFE/SPIRE a",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bbb939abc19b7757",
+    "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-10T09:10:20.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a critical WatchGuard Firebox firewall vulnerability, which it flagged as actively exploited in December. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bcb8ea4e94e4e1b7",
+    "title": "Microsoft fixes bug that wiped Windows desktop settings",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-10T08:08:16.000Z",
+    "summary": "Microsoft says the September 2026 Patch Tuesday updates fix a known issue causing desktop settings to be lost or reset on some Windows devices. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "640cdf46260638b0",
+    "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+    "link": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-10T07:12:55.000Z",
+    "summary": "Nearly one in ten of the internet-facing LiteLLM servers that Wiz Research scanned in February accepted sk-1234, the example admin key in LiteLLM's own setup guide.\n\nLiteLLM is an open-source AI gateway, the software a company puts between ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e6d88735c46f25f2",
+    "title": "New ‘ShieldCrash’ Zero-Day Exploit Targets Microsoft Defender",
+    "link": "https://www.securityweek.com/new-shieldcrash-zero-day-exploit-targets-microsoft-defender/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-10T07:09:36.000Z",
+    "summary": "The exploit provides full System privileges on Windows machines running the September 2026 patches.\nThe post New ‘ShieldCrash’ Zero-Day Exploit Targets Microsoft Defender appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9bc437ba8d30c4e6",
+    "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+    "link": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-10T07:04:01.000Z",
+    "summary": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the security risks posed b",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b2068d48098011bc",
+    "title": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
+    "link": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-10T07:00:00.000Z",
+    "summary": "Starting Friday, businesses operating in the EU will have just 24 hours to notify the government any time they discover serious product security incidents.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8128cce9e983e415",
+    "title": "Trezor warns users of email provider breach, phishing attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-10T06:56:33.000Z",
+    "summary": "Trezor warned customers on Wednesday that threat actors who breached its third-party email provider are targeting them in phishing attacks. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0487c0f9539ab340",
+    "title": "Fortinet Code Execution Flaw Exploited in PivotC2 RAT Attacks",
+    "link": "https://www.securityweek.com/fortinet-code-execution-flaw-exploited-in-pivotc2-rat-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-10T06:33:36.000Z",
+    "summary": "The high-severity, unauthenticated vulnerability tracked as CVE-2025-25249 was patched in January 2026.\nThe post Fortinet Code Execution Flaw Exploited in PivotC2 RAT Attacks appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2025-25249"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "0174d74ba099dc84",
     "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
@@ -495,7 +620,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-09-09T09:11:03.000Z",
-    "summary": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), ",
+    "summary": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), h",
     "cveIds": [
       "CVE-2026-87491"
     ],
@@ -2686,129 +2811,6 @@
     "category": "news",
     "pubDate": "2026-09-03T11:58:00.000Z",
     "summary": "An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has turned out to be part of a broader campaign spanning 46 countries.\n\nAround 45% of observed activity w",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "94df04e0615091c7",
-    "title": "Plex warns users to patch security vulnerabilities immediately",
-    "link": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-03T11:02:22.000Z",
-    "summary": "Plex urged users this week to update their desktop clients and media servers immediately to patch multiple security vulnerabilities. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e2c94c64016dbf0f",
-    "title": "153 Million Driver License Images Offered on Dark Web",
-    "link": "https://www.securityweek.com/153-million-driver-license-images-offered-on-dark-web/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-03T10:54:18.000Z",
-    "summary": "Cybercriminals are offering digital scans of US and Canadian driver’s licenses, likely stolen from IDScan.net.\nThe post 153 Million Driver License Images Offered on Dark Web appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c637fcbfa4b6896f",
-    "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
-    "link": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-03T10:43:01.000Z",
-    "summary": "Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads.\n\nAccording to a new report published by the Symantec Threat Hunter Team today, the attack method has been p",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5cba2d58833b7038",
-    "title": "Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability",
-    "link": "https://www.securityweek.com/over-3-million-wordpress-sites-affected-by-migration-plugin-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-03T10:40:00.000Z",
-    "summary": "The high-severity SQL injection flaw (CVE-2026-19949) could allow unauthenticated attackers to achieve remote code execution.\nThe post Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-19949"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "9fc8e83d3864c47c",
-    "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
-    "link": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-03T10:36:39.000Z",
-    "summary": "In early August, GitGuardian researchers found that a recent Shai-Hulud infostealer worm variant had evolved to scan for credentials across 469 locations across developer environments, Continuous Integration/Continuous Deployment (CI/CD) to",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e309059673330211",
-    "title": "Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities",
-    "link": "https://www.securityweek.com/cisco-warns-of-unpatched-secure-email-flaws-patches-critical-switch-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-03T10:30:00.000Z",
-    "summary": "Publicly disclosed S/MIME flaws could expose encrypted email content, while critical IOS XR and Nexus bugs could enable remote code execution and authentication bypass.\nThe post Cisco Warns of Unpatched Secure Email Flaws, Patches Critical ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "62f727b9ef19525c",
-    "title": "Attackers Expose Ongoing AI Tool Use Targeting Organizations in Latin America",
-    "link": "https://unit42.paloaltonetworks.com/ai-tool-use-targeting-latam-orgs/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-09-03T10:00:58.000Z",
-    "summary": "Explore how attackers targeting Latin American entities use AI for data exfiltration and how basic OpSec errors allow defenders to disrupt operations.\nThe post Attackers Expose Ongoing AI Tool Use Targeting Organizations in Latin America ap",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4ea6883b0514b798",
-    "title": "Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outlook-fail-to-launch-on-arm-based-windows-pcs/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-03T08:55:25.000Z",
-    "summary": "Microsoft is working to fix a known issue that causes crashes and launch failures for Microsoft Teams and New Outlook users after installing updates released since the August 2026 Patch Tuesday. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1f8967190e9aa51b",
-    "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
-    "link": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-03T08:43:17.000Z",
-    "summary": "The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware, according to new findings from the Citizen Lab in collaboration with the SHARE Foundation.\n\n\"Our analysis confirmed that an",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "aa3ea3b26ec7f3d2",
-    "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
-    "link": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-03T06:26:59.000Z",
-    "summary": "The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dubbed FalconFlank, a proof-of-concept (PoC) for a privilege escalation flaw impacting Crowdstrike Falc",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1cc3e73ad951f11a",
-    "title": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
-    "link": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-03T05:19:04.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilities (KEV) catalog after they landed in attackers' crosshairs.\n\nThe vulnerabilities are as follows -\n",
     "cveIds": [],
     "severity": "normal"
   }
