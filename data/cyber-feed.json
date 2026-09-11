@@ -22,6 +22,151 @@
     "severity": "normal"
   },
   {
+    "id": "c22ddbfe304ee871",
+    "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-11T20:19:09.000Z",
+    "summary": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0ffcbeaed46d9efe",
+    "title": "Florida says motor vehicle data breach tied to credentials stolen from officer’s personal device",
+    "link": "https://therecord.media/florida-shiny-hunters-motor-vehicle",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-11T20:00:00.000Z",
+    "summary": "The Florida Department of Motor Vehicles confirmed a data breach claimed by the cybercrime group ShinyHunters, saying it originated with the theft of credentials stored on a police officer's personal device.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8fa80bf670d987c2",
+    "title": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-11T19:21:08.000Z",
+    "summary": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2d3040feefdbd103",
+    "title": "Florida confirms DMV database breached via stolen police account",
+    "link": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-11T19:00:29.000Z",
+    "summary": "The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) has confirmed that its DAVID driver database suffered a data breach, saying the attackers gained access using credentials belonging to a police department employee. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "64db0bc26970ef81",
+    "title": "CISA Calls for More Guidance, Less Spin, as Cyber Outages Escalate",
+    "link": "https://www.darkreading.com/cyber-risk/cisa-calls-for-more-guidance-less-spin-as-cyber-outages-escalate",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-11T18:44:03.000Z",
+    "summary": "A new joint government advisory signals a regulatory shift, pressing organizations to adopt more transparent breach notification and incident response protocols.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8ca3fb2880f66c00",
+    "title": "Microsoft sees some new wrinkles in invoice-scam emails",
+    "link": "https://therecord.media/invoice-scam-emails-new-features-microsoft-researchers",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-11T18:40:00.000Z",
+    "summary": "Researchers analyzed a flood of fraudulent business emails and found that the threat actors had doubled-up on tactics to make them appear legitimate, including help from AI.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "965fe78ce34f0dc9",
+    "title": "Why AI Is So Good at Scamming Humans",
+    "link": "https://www.darkreading.com/cyber-risk/ai-scamming-humans",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-11T18:14:06.000Z",
+    "summary": "Fred Heiding of Menlo Park Intelligence talks with the Dark Reading News Desk about his research on frontier models, and their ability to influence human behavior and create emotional dependency.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8f5f50198141b88a",
+    "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
+    "link": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-11T17:26:50.000Z",
+    "summary": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from Microsoft 365 servic",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "53a67ba5f82861cf",
+    "title": "Phishing Research Challenges Conventional Security Awareness Testing",
+    "link": "https://www.securityweek.com/phishing-research-challenges-conventional-security-awareness-testing/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-11T17:23:36.000Z",
+    "summary": "Analysis of 2.47 million simulated attacks shows why organizations should measure credential leaks and reporting, not just clicks.\nThe post Phishing Research Challenges Conventional Security Awareness Testing appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "36a0e7fdf4549464",
+    "title": "AI Governance Can't Wait",
+    "link": "https://www.darkreading.com/cyber-risk/ai-governance-cannot-wait",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-11T17:10:56.000Z",
+    "summary": "Adversaries can manipulate AI defensive reasoning to silently compromise target networks.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2a6fb06b18d16fc3",
+    "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+    "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-11T16:30:18.000Z",
+    "summary": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure.\n\nThe vulnerability in question is CVE-2026-85706 (CVSS score",
+    "cveIds": [
+      "CVE-2026-85706"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "3055121a8599caa7",
+    "title": "Artifactory flaws chained in attacks deploying backdoor malware",
+    "link": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-11T16:29:44.000Z",
+    "summary": "Threat actors are exploiting critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication, gain administrative privileges, and deploy a Rust backdoor on vulnerable self-hosted servers. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "394b762a6a3c3b13",
+    "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+    "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-11T16:15:29.000Z",
+    "summary": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax.\n\nKnowledge distillatio",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "009376dbc313fbfa",
     "title": "GitLab Vulnerability Exploited One Day After Disclosure",
     "link": "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/",
@@ -119,6 +264,33 @@
     "summary": "Anthropic detected and disrupted a Russia-linked cyber-espionage group that used its AI tool Claude in a hacking campaign targeting more than 20 government, intelligence, diplomatic and defense organizations.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "62beac1c0708e09a",
+    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-11T12:00:00.000Z",
+    "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-42016 JFrog Artifactory Incorrect Authorization Vulnerability \nCVE-2026-42018 JFrog Artifactor",
+    "cveIds": [
+      "CVE-2026-42016",
+      "CVE-2026-42018"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "765bc9acacf03e92",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-11T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-85706 GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability\nThis type of vu",
+    "cveIds": [
+      "CVE-2026-85706"
+    ],
+    "severity": "cve"
   },
   {
     "id": "aaf6e13c3e8bd994",
@@ -2851,38 +3023,5 @@
     "summary": "",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "1fc4315f397dbfcc",
-    "title": "How to secure edge AI in customer-owned environments",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-09-04T19:10:10.000Z",
-    "summary": "As AI moves into customer-owned environments, organizations need new ways to verify the systems, software, and AI assets they trust before releasing sensitive data, credentials, and models.\nThe post How to secure edge AI in customer-owned e",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "44430bc7419f542d",
-    "title": "IDScan sued over alleged data breach affecting 153 million drivers",
-    "link": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-04T16:56:45.000Z",
-    "summary": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "791e6dd684e01000",
-    "title": "In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation",
-    "link": "https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-04T16:18:30.000Z",
-    "summary": "Noteworthy stories that might have slipped under the radar: Microsoft rolled out patches for cloud services, hackers compromised 5,000 Dropbox accounts, and Guardio is now valued at $1.1 billion. \nThe post In Other News: Microsoft’s Cloud P",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
