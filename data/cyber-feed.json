@@ -22,6 +22,17 @@
     "severity": "normal"
   },
   {
+    "id": "62cd06ab22627973",
+    "title": "Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says",
+    "link": "https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-12T01:50:53.000Z",
+    "summary": "Anthropic said the users did not succeed in “fielding an operational device” but did carry out a failed test of a guided rocket.\nThe post Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says appeared first on",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "c22ddbfe304ee871",
     "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
@@ -1706,13 +1717,13 @@
     "severity": "cve"
   },
   {
-    "id": "5815e8001fb0027a",
-    "title": "Vulnérabilité dans les produits Cisco (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1138/",
+    "id": "9a8b805da572ae28",
+    "title": "Multiples vulnérabilités dans Xen (09 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1136/",
     "source": "CERT-FR (avis)",
     "category": "advisory",
     "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et un contournement de la politique de sécurité.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1728,6 +1739,17 @@
     "severity": "normal"
   },
   {
+    "id": "5815e8001fb0027a",
+    "title": "Vulnérabilité dans les produits Cisco (09 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1138/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-09T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "1d4cdef5a35bfa0e",
     "title": "Multiples vulnérabilités dans les produits Ivanti (09 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1135/",
@@ -1735,17 +1757,6 @@
     "category": "advisory",
     "pubDate": "2026-09-09T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Ivanti. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la poli",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9a8b805da572ae28",
-    "title": "Multiples vulnérabilités dans Xen (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1136/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et un contournement de la politique de sécurité.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -3010,17 +3021,6 @@
     "category": "news",
     "pubDate": "2026-09-05T07:31:53.000Z",
     "summary": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe.\n\nThe Arctic Wolf Adversary Research Team said it observed attackers exploiting ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7aeb79bfc3e72414",
-    "title": "numbat - AI agent observability, (Fri, Sep 4th)",
-    "link": "https://isc.sans.edu/diary/rss/33312",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-05T03:39:52.000Z",
-    "summary": "",
     "cveIds": [],
     "severity": "normal"
   }
