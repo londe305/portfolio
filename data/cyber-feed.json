@@ -22,6 +22,17 @@
     "severity": "normal"
   },
   {
+    "id": "8a8c14f1ab782874",
+    "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+    "link": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-12T09:07:56.000Z",
+    "summary": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx.\n\nOn May 12, Maciej Mensfeld, seni",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "62cd06ab22627973",
     "title": "Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says",
     "link": "https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says/",
@@ -1717,13 +1728,13 @@
     "severity": "cve"
   },
   {
-    "id": "9a8b805da572ae28",
-    "title": "Multiples vulnérabilités dans Xen (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1136/",
+    "id": "5815e8001fb0027a",
+    "title": "Vulnérabilité dans les produits Cisco (09 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1138/",
     "source": "CERT-FR (avis)",
     "category": "advisory",
     "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et un contournement de la politique de sécurité.",
+    "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1739,17 +1750,6 @@
     "severity": "normal"
   },
   {
-    "id": "5815e8001fb0027a",
-    "title": "Vulnérabilité dans les produits Cisco (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1138/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "1d4cdef5a35bfa0e",
     "title": "Multiples vulnérabilités dans les produits Ivanti (09 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1135/",
@@ -1757,6 +1757,17 @@
     "category": "advisory",
     "pubDate": "2026-09-09T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Ivanti. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la poli",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9a8b805da572ae28",
+    "title": "Multiples vulnérabilités dans Xen (09 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1136/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-09T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et un contournement de la politique de sécurité.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2999,28 +3010,6 @@
     "category": "news",
     "pubDate": "2026-09-05T11:11:50.000Z",
     "summary": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model \"misalignment\" rather than a security ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e2da645b2e416dca",
-    "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
-    "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-05T07:55:10.000Z",
-    "summary": "A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, using the site as a shared board to pool",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "85374d9698432a43",
-    "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-05T07:31:53.000Z",
-    "summary": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe.\n\nThe Arctic Wolf Adversary Research Team said it observed attackers exploiting ",
     "cveIds": [],
     "severity": "normal"
   }
