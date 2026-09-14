@@ -1832,13 +1832,13 @@
     "severity": "cve"
   },
   {
-    "id": "5815e8001fb0027a",
-    "title": "Vulnérabilité dans les produits Cisco (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1138/",
+    "id": "9a8b805da572ae28",
+    "title": "Multiples vulnérabilités dans Xen (09 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1136/",
     "source": "CERT-FR (avis)",
     "category": "advisory",
     "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et un contournement de la politique de sécurité.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1854,6 +1854,17 @@
     "severity": "normal"
   },
   {
+    "id": "5815e8001fb0027a",
+    "title": "Vulnérabilité dans les produits Cisco (09 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1138/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-09T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "1d4cdef5a35bfa0e",
     "title": "Multiples vulnérabilités dans les produits Ivanti (09 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1135/",
@@ -1861,17 +1872,6 @@
     "category": "advisory",
     "pubDate": "2026-09-09T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Ivanti. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la poli",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9a8b805da572ae28",
-    "title": "Multiples vulnérabilités dans Xen (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1136/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et un contournement de la politique de sécurité.",
     "cveIds": [],
     "severity": "normal"
   },
