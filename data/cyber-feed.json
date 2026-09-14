@@ -22,6 +22,63 @@
     "severity": "normal"
   },
   {
+    "id": "4aef9173e5815a9e",
+    "title": "ISC Stormcast For Monday, September 14th, 2026 https://isc.sans.edu/podcastdetail/10092, (Mon, Sep 14th)",
+    "link": "https://isc.sans.edu/diary/rss/33334",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-14T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "57da8d07a6e2a2a3",
+    "title": "Thorough reorganization at NSA will create five 'mission centers,' including cyber and AI",
+    "link": "https://therecord.media/nsa-reorganization-five-mission-centers",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-13T21:36:00.000Z",
+    "summary": "The largest electronic spy agency in the world is reorganizing. And fast.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d26b4c1b12e7bb46",
+    "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-13T14:26:32.000Z",
+    "summary": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]",
+    "cveIds": [
+      "CVE-2026-51990"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "39200ce3f8f5c522",
+    "title": "Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up",
+    "link": "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-13T13:27:25.000Z",
+    "summary": "Dario Amodei warned that within six to 12 months AI could be capable of leading a swarm of agents that could take over the entire internet.\nThe post Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8d32a587d798415e",
+    "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+    "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-13T10:11:48.000Z",
+    "summary": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments.\n\n",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "3be9058c0a3e93a1",
     "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
     "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
@@ -2857,127 +2914,6 @@
     "category": "news",
     "pubDate": "2026-09-07T06:17:41.000Z",
     "summary": "N-able has released an emergency hotfix for a maximum-severity remote code execution (RCE) flaw affecting its N-central remote monitoring and management (RMM) platform. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9a8c26006c687f3e",
-    "title": "ChatGPT Astra is now rolling out to $20 Plus subscription",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-07T01:15:43.000Z",
-    "summary": "OpenAI is now rolling out ChatGPT Astra, its most powerful model to date, to those with a $20 Plus subscription, but there's no word on when free users will get access.. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "712e9ee2acf8bc4f",
-    "title": "Multiples vulnérabilités dans Roundcube Webmail (07 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1122/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube Webmail. Certaines d'entre elles permettent à un attaquant de provoquer une falsification de requêtes côté serveur (SSRF), une injection de code indirecte à distance (XSS) et un",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e9a4581a12da63d7",
-    "title": "Multiples vulnérabilités dans MongoDB (07 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1123/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et une injection de requêtes ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "646497084a6f0448",
-    "title": "Multiples vulnérabilités dans les produits Juniper Networks (07 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1124/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Juniper Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distanc",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7ac82645c276b38e",
-    "title": "Multiples vulnérabilités dans les produits VMware (07 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1125/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e6b955b2e47917b5",
-    "title": "Vulnérabilité dans Belden HiOS Switch Platform (07 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1126/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-07T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Belden HiOS Switch Platform. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ac9fddfb6ab3d778",
-    "title": "Multiples vulnérabilités dans Traefik (07 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1127/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f8fc411618cf25f1",
-    "title": "Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)",
-    "link": "https://isc.sans.edu/diary/rss/33314",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-06T21:43:17.000Z",
-    "summary": "Mikrotik released a patch late last week for an already-exploited vulnerability. The vulnerability allows an SSH authentication bypass and is already being exploited. At this point, assume compromise. Attackers have been adding new accounts",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "091e6b1057933e2f",
-    "title": "Attackers conceal phishing lures using invisible Unicode characters",
-    "link": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-06T14:23:46.000Z",
-    "summary": "Threat actors have adopted the ASCII smuggling technique in phishing campaigns, using invisible Unicode characters to evade email security filters. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d49a120f4499bf39",
-    "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
-    "link": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-06T09:32:38.000Z",
-    "summary": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, according to CERT Polska's attack warning, publ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "acd0dfe21913274c",
-    "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
-    "link": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-06T08:34:20.000Z",
-    "summary": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself.\n\nOne of them switches off Win",
     "cveIds": [],
     "severity": "normal"
   }
