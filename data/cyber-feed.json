@@ -22,6 +22,63 @@
     "severity": "normal"
   },
   {
+    "id": "2084a36d335402ea",
+    "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-14T21:37:28.000Z",
+    "summary": "The notorious Russian threat group is spreading an upgraded version of the botnet malware, which the FBI disrupted in 2022.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "681dd1c55acdc8f5",
+    "title": "Microsoft releases emergency Windows updates to fix RDS failures",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-14T20:52:18.000Z",
+    "summary": "Microsoft has released emergency out-of-band Windows updates to fix Remote Desktop Services failures caused by this month's security updates, along with Hyper-V and USB audio problems on some Windows versions. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2c43b76e134c320f",
+    "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records",
+    "link": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-14T20:36:02.000Z",
+    "summary": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of government employees. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5f97d945d337f284",
+    "title": "Maximum Severity GitLab Flaw Puts Supply Chains at Risk",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/maximum-severity-gitlab-flaw-supply-chains-risk",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-14T20:19:22.000Z",
+    "summary": "CVE-2026-85706 is a path traversal vulnerability with a 10 out of 10 CVSS score, affecting both GitLab Community Edition and Enterprise Edition instances.",
+    "cveIds": [
+      "CVE-2026-85706"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "19accb649c47612a",
+    "title": "Homebrew 7.0.0 gets built-in GUI, better security controls",
+    "link": "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-14T19:51:04.000Z",
+    "summary": "Homebrew package manager version 7.0.0 has been released with a built-in vulnerability scanner, stronger security controls, and the full release of its native BrewUI graphical interface. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "135e6844299eec19",
     "title": "Members of ‘Black Axe’ cybercriminal group extradited from South Africa",
     "link": "https://therecord.media/members-of-black-axe-cybercrime-group-extradited-south-africa",
@@ -240,6 +297,19 @@
     "summary": "Attackers can combine social engineering with malicious OAuth applications to gain access to Google Workspace data without relying solely on stolen passwords. This webinar examines two attacks to show how these breaches unfold and which sec",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "377957138129c079",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/14/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-14T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-76461 Cisco Secure Email Gateway SQL Injection Vulnerability\nThis type of vulnerability is a frequ",
+    "cveIds": [
+      "CVE-2026-76461"
+    ],
+    "severity": "cve"
   },
   {
     "id": "6eeff63626051d77",
@@ -776,19 +846,6 @@
     "cveIds": [
       "CVE-2026-42016",
       "CVE-2026-42018"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "765bc9acacf03e92",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-11T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-85706 GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability\nThis type of vu",
-    "cveIds": [
-      "CVE-2026-85706"
     ],
     "severity": "cve"
   },
@@ -2826,17 +2883,6 @@
     "severity": "normal"
   },
   {
-    "id": "090e598c659d964d",
-    "title": "Cybercriminals Hack Brazilian Government Servers to Host Phishing Sites",
-    "link": "https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-08T12:00:00.000Z",
-    "summary": "A Chinese-language group is compromising government and education sites to create a reverse-proxy network with gambling-themed sites.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "4ac577507d975652",
     "title": "China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies",
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
@@ -2855,6 +2901,17 @@
     "category": "advisory",
     "pubDate": "2026-09-08T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to take full control of the device.\nThe following versions of CareCam Pro IP Cameras are affected:\nANJIA AJL33PC0801 Firmware linux_linux_202008261138_s",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "090e598c659d964d",
+    "title": "Cybercriminals Hack Brazilian Government Servers to Host Phishing Sites",
+    "link": "https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-08T12:00:00.000Z",
+    "summary": "A Chinese-language group is compromising government and education sites to create a reverse-proxy network with gambling-themed sites.",
     "cveIds": [],
     "severity": "normal"
   },
