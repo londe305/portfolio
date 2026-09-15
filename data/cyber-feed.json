@@ -22,6 +22,94 @@
     "severity": "normal"
   },
   {
+    "id": "d97cf7bf1f894166",
+    "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
+    "link": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-15T20:34:15.000Z",
+    "summary": "Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor compromised the maintainer's website and pushed updates that created a hidden user account. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e43bafcac31ead8e",
+    "title": "Microsoft Commits to Sweeping AI Privacy Rules for Students. Will Other Tech Giants Follow?",
+    "link": "https://www.securityweek.com/microsoft-commits-to-sweeping-ai-privacy-rules-for-students-will-other-tech-giants-follow/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-15T20:24:51.000Z",
+    "summary": "Microsoft agreed to adopt guardrails and privacy standards for its AI in schools, as negotiated with the American Federation of Teachers.\nThe post Microsoft Commits to Sweeping AI Privacy Rules for Students. Will Other Tech Giants Follow? a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "693dfdf4ac9e52c5",
+    "title": "Microsoft Issues Emergency Fixes After Massive Patch Tuesday",
+    "link": "https://www.darkreading.com/application-security/microsoft-emergency-fixes-patch-tuesday",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-15T20:16:00.000Z",
+    "summary": "You can't make an omelet without breaking a few eggs, and you can't patch nearly 1,000 CVEs without a few glitches.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "45aed98467ec5828",
+    "title": "Norway announces investigations into telecom Telenor’s work with Myanmar junta",
+    "link": "https://therecord.media/norway-investigations-telenor-telecom-myanmar-regime",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-15T20:01:00.000Z",
+    "summary": "Oslo-based Telenor potentially enabled crimes against humanity and violated sanctions in its dealings with the military regime that took over Myanmar in 2021, Norwegian authorities said.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "341d2d73c1d1aef7",
+    "title": "“We Think the Security Control Is Working” Is No Longer Good Enough",
+    "link": "https://www.securityweek.com/we-think-the-security-control-is-working-is-no-longer-good-enough/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-15T19:30:00.000Z",
+    "summary": "Point-in-time audits and sampled assessments offer only snapshots; continuous control monitoring provides evidence that security controls are working today.\nThe post “We Think the Security Control Is Working” Is No Longer Good Enough appear",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3f06b0b072199eaf",
+    "title": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-15T19:27:19.000Z",
+    "summary": "The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI\nAt this Black Hat USA 2026 talk, OpenAI security engineers and researchers will reconstruct the OpenAI-Hugging Face incident and ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "72927b789e325ff3",
+    "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
+    "link": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-15T18:54:14.000Z",
+    "summary": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN.\n\nElastic Security Labs is tracking the activity under the moniker REF9334. Active since at le",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "44d4cd6479cb840a",
+    "title": "VectraRAT Can Hack Windows Enterprises for $250 per Month",
+    "link": "https://www.darkreading.com/endpoint-security/vectrarat-hack-windows-enterprises",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-15T16:45:37.000Z",
+    "summary": "The full-service malware-as-a-service (MaaS) platform offers a Windows implant, command-and-control (C2) infrastructure, and an operator panel for comprehensive remote access.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e6a96bcd49c3726c",
     "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
     "link": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
@@ -31,6 +119,17 @@
     "summary": "CenterPoint Energy disclosed a breach compromising some customers' personal information after an attacker leaked data allegedly stolen from the utility company. [...]",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "b3a741b2d165e115",
+    "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
+    "link": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-15T16:29:51.000Z",
+    "summary": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, and activists around the world.\n\nThe malw",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "19fccc48359ea786",
@@ -2978,206 +3077,6 @@
     "category": "news",
     "pubDate": "2026-09-08T21:26:02.000Z",
     "summary": "Attackers are actively exploiting two of the vulnerabilities, and another 58 are more likely to be exploited, according to Microsoft.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "224e1ddd301df5e8",
-    "title": "Attackers Use Multi-Hop Google Redirects for Phishing Campaign",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-08T21:03:46.000Z",
-    "summary": "Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4efb8a54b9419a51",
-    "title": "Scammer behind $245 million crypto heist pleads guilty to RICO charges",
-    "link": "https://therecord.media/scammer-behind-245-million-crypto-heist-pleads-guilty-rico",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-08T20:52:00.000Z",
-    "summary": "Malone Lam was indicted on scamming charges in September 2024 after drawing law enforcement scrutiny for parlaying stolen crypto into lavish Hamptons vacations, cars and private jets.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bf2dd02ab9ceb3a5",
-    "title": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-08T20:36:15.000Z",
-    "summary": "Researchers and OpenAI disagree on whether an earlier incident involving DseWiki, which the company did not disclose, was a “hack.\"",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0c20ebb12067e937",
-    "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
-    "link": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-08T20:35:14.000Z",
-    "summary": "A massive operation dubbed \"DoppelCart\" uses more than 119,000 domains to run a network of fake e-shops that steal payment card details. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "02ffb96a50023112",
-    "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
-    "link": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-08T20:24:16.000Z",
-    "summary": "The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why knowing exactly what shipped and when vu",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c4daab286910b6cf",
-    "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-08T20:08:55.000Z",
-    "summary": "A Linux rootkit targeting devices in F5 BIG-IP APM environments can intercept PHP file loading and inject a fileless web shell directly into memory, avoiding the need to write malicious code to disk. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e81894146b3ddc5d",
-    "title": "CIA official touts agency’s Cyber Mission Center in capture of Venezuela’s Maduro",
-    "link": "https://therecord.media/cia-cyber-operations-maduro-capture-venezuela",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-08T19:46:00.000Z",
-    "summary": "A \"flawless\" performance by the CIA's Cyber Mission Center contributed to the capture of Venezuelan President Nicolás Maduro in January, agency Deputy Director Michael Ellis says.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6747e06759848e2d",
-    "title": "Russian suspect in bank account takeovers is extradited to US",
-    "link": "https://therecord.media/russian-cybercrime-bank-extradition",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-08T19:37:42.000Z",
-    "summary": "A Russian web developer who played a role in a multimillion-dollar bank account takeover scheme has been extradited to the U.S. to face an indictment.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9e945b93db89e894",
-    "title": "September 2026 Microsoft Patch Tuesday, (Tue, Sep 8th)",
-    "link": "https://isc.sans.edu/diary/rss/33320",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-08T19:20:30.000Z",
-    "summary": "This month, Microsoft released patches for a record-breaking 973 vulnerabilities, including 113 rated critical. It is by far the largest Patch Tuesday to date, well ahead of the previous high of 664 set in July 2026. Two vulnerabilities are",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a1e991ce664d61a9",
-    "title": "Microsoft Patches Record 974 Vulnerabilities, Including Two Exploited Zero-Days",
-    "link": "https://www.securityweek.com/microsoft-patches-record-974-vulnerabilities-including-two-exploited-zero-days/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-08T19:20:06.000Z",
-    "summary": "The record-breaking September security update fixes two exploited privilege-escalation zero-days and 20 potentially wormable vulnerabilities.\nThe post Microsoft Patches Record 974 Vulnerabilities, Including Two Exploited Zero-Days appeared ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c74849e1889f1b86",
-    "title": "Italian tech collective Autistici/Inventati shuts down after US terrorist designation",
-    "link": "https://therecord.media/autistici-inventati-shuts-down-after-us-terrorist-designation",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-08T19:12:00.000Z",
-    "summary": "On August 26, the State Department labeled A/I an “extremist group” operating infrastructure for “far-left militants across the world” and announced that anyone engaging with the group financially risked exposure to sanctions.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5dd5a30a378db15d",
-    "title": "Microsoft releases Windows 10 KB5122878 extended security update",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-08T18:49:19.000Z",
-    "summary": "Microsoft has released the Windows 10 KB5122878 extended security update, which includes this month's record-breaking September 2026 Patch Tuesday fixes, along with a few bug fixes. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ae8be190e98e48b2",
-    "title": "Adobe Patches Over 170 Vulnerabilities, Including Commerce Zero-Day",
-    "link": "https://www.securityweek.com/adobe-patches-over-170-vulnerabilities-including-commerce-zero-day/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-08T18:37:17.000Z",
-    "summary": "Tracked as CVE-2026-75650, the exploited defect allows unauthenticated attackers to execute arbitrary code.\nThe post Adobe Patches Over 170 Vulnerabilities, Including Commerce Zero-Day appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-75650"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "ce167f88d41b0b2a",
-    "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-08T18:18:05.000Z",
-    "summary": "Today is Microsoft's September 2026 Patch Tuesday, with security updates released for a record-breaking 966 flaws, including two actively exploited zero-day vulnerabilities. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0b399e9f7b256128",
-    "title": "Windows 11 cumulative updates KB5124008 & KB5122880 released",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-08T17:57:03.000Z",
-    "summary": "Microsoft has released Windows 11 KB5124008 and KB5122880 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "47727fe2689dc399",
-    "title": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
-    "link": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-08T17:25:37.000Z",
-    "summary": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "bfa5e2459872d749",
-    "title": "The Hidden Instructions That Can Hijack AI Agents",
-    "link": "https://www.securityweek.com/the-hidden-instructions-that-can-hijack-ai-agents/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-08T17:00:00.000Z",
-    "summary": "Malicious prompts concealed in documents, metadata, emails, images and code can manipulate autonomous agents into taking dangerous actions.\nThe post The Hidden Instructions That Can Hijack AI Agents appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "69736f89cad10696",
-    "title": "‘White hat’ hackers take $47 million bounty after $320 million crypto theft",
-    "link": "https://therecord.media/liquid-network-blockstream-crypto-theft-hackers-keep-reward",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-08T17:00:00.000Z",
-    "summary": "Public negotiations between hackers and the operators of the Liquid Network crypto platform ended with the attackers sending back most — but not all — of what they took.",
     "cveIds": [],
     "severity": "normal"
   }
