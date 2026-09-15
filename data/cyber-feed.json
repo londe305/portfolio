@@ -22,6 +22,17 @@
     "severity": "normal"
   },
   {
+    "id": "0c65945d487424c1",
+    "title": "ISC Stormcast For Tuesday, September 15th, 2026 https://isc.sans.edu/podcastdetail/10094, (Tue, Sep 15th)",
+    "link": "https://isc.sans.edu/diary/rss/33338",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-15T02:25:12.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "2084a36d335402ea",
     "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
@@ -3068,96 +3079,6 @@
     "category": "news",
     "pubDate": "2026-09-08T07:00:43.000Z",
     "summary": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with third-parties.\n\nGrindr, which is the largest",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "344299d1751f4478",
-    "title": "ISC Stormcast For Tuesday, September 8th, 2026 https://isc.sans.edu/podcastdetail/10084, (Tue, Sep 8th)",
-    "link": "https://isc.sans.edu/diary/rss/33316",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-08T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "639ca77494bf6318",
-    "title": "Multiples vulnérabilités dans les produits Siemens (08 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1133/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-08T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Elles permettent à un attaquant de provoquer une exécution de code arbitraire et une élévation de privilèges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9ed2fb1bc4239f53",
-    "title": "Multiples vulnérabilités dans les produits SAP (08 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1134/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-08T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "886406ecc28660d6",
-    "title": "Multiples vulnérabilités dans Mattermost Server (08 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1128/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-08T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9c0690da90466d9b",
-    "title": "Multiples vulnérabilités dans strongSwan (08 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1129/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-08T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans strongSwan. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique d",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "361cbea84fbd620b",
-    "title": "Vulnérabilité dans les produits Adobe (08 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1130/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-08T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Adobe. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Adobe indique que la vulnérabilité CVE-2026-75650 est activement exploitée.",
-    "cveIds": [
-      "CVE-2026-75650"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "45cfa5dbe92ea7d6",
-    "title": "Multiples vulnérabilités dans Typo3 (08 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1131/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-08T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Typo3. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b8d9fa165e659e68",
-    "title": "Multiples vulnérabilités dans Schneider Electric EcoStruxure (08 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1132/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-08T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Schneider Electric EcoStruxure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une falsification de requêtes côté serveur (SSRF).",
     "cveIds": [],
     "severity": "normal"
   }
