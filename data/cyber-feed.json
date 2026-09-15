@@ -22,6 +22,120 @@
     "severity": "normal"
   },
   {
+    "id": "0532d7c12e53b181",
+    "title": "Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden Gate 27 Releases",
+    "link": "https://www.securityweek.com/apple-patches-200-vulnerabilities-with-new-ios-27-macos-golden-gate-27-releases/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-15T11:06:11.000Z",
+    "summary": "The updates resolve kernel vulnerabilities that could lead to memory corruption, privilege escalation, system termination, and information leaks.\nThe post Apple Patches 200 Vulnerabilities With New iOS 27, macOS Golden Gate 27 Releases  app",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "82c4d7ab1738ad5d",
+    "title": "Suspected Black Axe gang leaders face cybercrime charges in the US",
+    "link": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-15T09:50:25.000Z",
+    "summary": "Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have been extradited to the United States to face wire fraud and money laundering charges. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7444a0a8e7692c65",
+    "title": "Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints",
+    "link": "https://www.securityweek.com/microsoft-ai-code-of-conduct-sets-cyberattack-boundaries-chain-of-command-safety-constraints/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-15T09:40:25.000Z",
+    "summary": "The Humanist AI Code of Conduct draws a line between defensive cyber research and operational attack capability.\nThe post Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints appeared first on Secur",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1041d1a00ea95547",
+    "title": "Hacked HBO Max Reddit Account Used for Malware Delivery via ClickFix Attack",
+    "link": "https://www.securityweek.com/hacked-hbo-reddit-account-used-for-malware-delivery-via-clickfix-attack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-15T09:09:00.000Z",
+    "summary": "Ads led to a ClickFix page designed to trick macOS and Windows users into installing malware.\nThe post Hacked HBO Max Reddit Account Used for Malware Delivery via ClickFix Attack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "50ab00297ada70c3",
+    "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-15T08:40:20.000Z",
+    "summary": "Microsoft has confirmed that copy and paste may silently fail for some Excel users after installing the September 2026 KB5002914 security update. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9e539e5259e08d15",
+    "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-15T07:31:09.000Z",
+    "summary": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6fecc4da6b6da72e",
+    "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+    "link": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-15T06:52:16.000Z",
+    "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an advisory published on September 14.\n\nOn such servers, many customers' sites ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4a859598d5aa1c23",
+    "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+    "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-15T06:11:11.000Z",
+    "summary": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-76461, carries a CVSS score of 9.8 out of a",
+    "cveIds": [
+      "CVE-2026-76461"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "ed5aa7d726336f69",
+    "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+    "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-15T05:31:05.000Z",
+    "summary": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE.\n\nVolexity, which is tr",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "503d9e83c43a7bb4",
+    "title": "Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation",
+    "link": "https://www.securityweek.com/root-rce-zero-day-in-cisco-secure-email-gateway-under-active-exploitation/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-15T05:18:51.000Z",
+    "summary": "An unauthenticated attacker can exploit CVE-2026-76461 to execute arbitrary commands on the underlying OS with root privileges.\nThe post Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation appeared first on SecurityWee",
+    "cveIds": [
+      "CVE-2026-76461"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "0c65945d487424c1",
     "title": "ISC Stormcast For Tuesday, September 15th, 2026 https://isc.sans.edu/podcastdetail/10094, (Tue, Sep 15th)",
     "link": "https://isc.sans.edu/diary/rss/33338",
@@ -2967,118 +3081,6 @@
     "category": "news",
     "pubDate": "2026-09-08T11:49:02.000Z",
     "summary": "In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in our catalog. Those are the headline numbe",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1ae8c3c527a2da6c",
-    "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-    "link": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-08T11:22:07.000Z",
-    "summary": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says.\n\nFreeIPA is the system that determines who may log in across a Li",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dae6442ff1dbfbf6",
-    "title": "MikroTik Patches Critical Flaws Chained to Hack Routers",
-    "link": "https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-08T11:15:00.000Z",
-    "summary": "Dubbed MikroTrick, the bugs allow attackers to bypass authentication, overwrite configuration files, and take over devices.\nThe post MikroTik Patches Critical Flaws Chained to Hack Routers appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "dadd0d73ed2b5677",
-    "title": "Mathspace Data Breach Exposes Over 1 Million People",
-    "link": "https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-08T10:47:36.000Z",
-    "summary": "Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance.\nThe post Mathspace Data Breach Exposes Over 1 Million People appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a95be21e658fa852",
-    "title": "N-able Patches Critical Zero-Day in N-central",
-    "link": "https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-08T10:37:58.000Z",
-    "summary": "Administrators are advised to check their deployments for newly created user accounts they don’t recognize.\nThe post N-able Patches Critical Zero-Day in N-central appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "942fd8aac49f2655",
-    "title": "ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager",
-    "link": "https://blog.talosintelligence.com/clearfake-webdav-infection-chain/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-09-08T10:01:07.000Z",
-    "summary": "We assess with moderate confidence that the attacks are not targeted at a particular organization, but are a part of a cryptocurrency and credentials-stealing operation using the Amatera stealer as the primary payload.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f5dd07be5515ca9c",
-    "title": "ClickFix moves into the browser: Cryptocurrency theft with Google-hosted C2",
-    "link": "https://blog.talosintelligence.com/clickfix-moves-into-the-browser/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-09-08T10:00:38.000Z",
-    "summary": "Cisco Talos is tracking a cryptocurrency-stealing campaign that abuses the Google Visualization API for command and control (C2), retrieving obfuscated JavaScript from a publicly published Google Sheets document and injecting it into the vi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a4ca88039821b382",
-    "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
-    "link": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-08T09:13:47.000Z",
-    "summary": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild.\n\nThe vulnerability, now tracked as CVE-2026-75650 (CVSS score",
-    "cveIds": [
-      "CVE-2026-75650"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "4b631344828b39aa",
-    "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
-    "link": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-08T08:43:51.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams.\n\nThe campaign, discovered by the DFIR Report in March 2026",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e19d6880cf5e2877",
-    "title": "220 million traveler records exposed in Vietnam-linked APIS leak",
-    "link": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-08T07:35:50.000Z",
-    "summary": "Exclusive: An exposed Advance Passenger Information System (APIS) database held 220 million passenger and crew records containing names, passport numbers, dates of birth, nationalities, and flight details spanning 2017 to 2026. Researchers ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "67cd47c015e56582",
-    "title": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
-    "link": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-08T07:00:43.000Z",
-    "summary": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with third-parties.\n\nGrindr, which is the largest",
     "cveIds": [],
     "severity": "normal"
   }
