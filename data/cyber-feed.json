@@ -22,6 +22,127 @@
     "severity": "normal"
   },
   {
+    "id": "5a488cdb304d33ff",
+    "title": "Windows 11 KB5124008 update breaks domain trust for some users",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-16T20:39:29.000Z",
+    "summary": "Microsoft is investigating reports that the Windows 11 KB5124008 security update is breaking domain trust relationships on some enterprise systems, preventing users from logging in with valid domain credentials. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fdd187455edb9b1d",
+    "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
+    "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-16T20:24:55.000Z",
+    "summary": "Government agencies are warning that Iranian state-linked hackers are using a Windows malware strain named CHOSEN BRICK to target dissidents, activists, and journalists worldwide. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "014df6df825730d2",
+    "title": "Malware bypasses browser checks to force install Chrome, Edge extensions",
+    "link": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-16T18:50:53.000Z",
+    "summary": "A banking malware operation active since mid-2025 has been using a toolkit named KREMLIN to install malicious Chrome and Edge extensions that steal credentials, session tokens, and sensitive data. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "196e7767b2abd743",
+    "title": "Coast Guard, FBI boarded tanker after attack by ‘foreign cyber actors’",
+    "link": "https://therecord.media/oil-tanker-cyberattack-coast-guard-fbi",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-16T18:46:00.000Z",
+    "summary": "U.S. personnel boarded an oil tanker in the Gulf of Mexico to “ensure integrity of the vessel’s operational and information technology systems,\" after an apparent cyberattack, the U.S. Coast Guard said.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "942c41f9fa7ac1ed",
+    "title": "Scans Targeting Hospitality Applications, (Wed, Sep 16th)",
+    "link": "https://isc.sans.edu/diary/rss/33344",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-16T18:44:04.000Z",
+    "summary": "Earlier today, I noted an odd request showing up in our \"First Seen\" report:",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cd6c9e5ac7ead0dd",
+    "title": "House passes bill to equip local law enforcement with scam-fighting tools",
+    "link": "https://therecord.media/house-passes-bill-to-equip-local-law-enforcement-scams",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-16T18:28:00.000Z",
+    "summary": "The Guarding Unprotected Aging Retirees from Deception Act (GUARD) attempts to address a common complaint from the victims of online scams like pig butchering — that such cases typically do not rise to the level of a federal investigation b",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d653533745a68c07",
+    "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+    "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-09-16T18:14:22.000Z",
+    "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alle",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6ed28c0f64643ed9",
+    "title": "Fighting Your Dragons Through Tough Tech Times",
+    "link": "https://www.darkreading.com/cybersecurity-careers/finding-hope-brutal-job-market",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-16T18:00:54.000Z",
+    "summary": "Cybersecurity industry veteran Hal Pomeranz gives a pep talk on career anxiety and self-doubt and shares how to build meaningful connections during historical tech industry downturns.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "07b4c21d1da0fdf6",
+    "title": "Spain's data agency gets first report of AI-powered data breach",
+    "link": "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-16T17:26:41.000Z",
+    "summary": "The Spanish Data Protection Agency (AEPD) was notified of an attack allegedly carried out with an AI agent powered by a known large language model (LLM). [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7c3e7bc9aef5e61f",
+    "title": "BragJack Attack Can Turn a Browser's Agentic AI Against It",
+    "link": "https://www.darkreading.com/endpoint-security/bragjack-browser-agentic-ai",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-16T16:43:37.000Z",
+    "summary": "A new type of attack hijacks the AI assistant built directly into various browsers to access sensitive information, execute malicious actions, and exfiltrate data.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f04df0b7ee63d04d",
+    "title": "First Agentic AI Data Breach Reported to Spanish Regulator",
+    "link": "https://www.securityweek.com/first-agentic-ai-data-breach-reported-to-spanish-regulator/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-16T16:39:19.000Z",
+    "summary": "Spanish regulators say an AI agent chained together a successful login, vulnerability discovery, and access to personal data in a potential milestone for autonomous cyberattacks.\nThe post First Agentic AI Data Breach Reported to Spanish Reg",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "08d899038eeab16d",
     "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
     "link": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
@@ -233,6 +354,19 @@
     "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-58704 Google Pixel Improper Authorization Vulnerability\nThis type of vulnerability is a frequent a",
     "cveIds": [
       "CVE-2026-58704"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "21cfd79f3f9a421e",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-16T12:00:00.000Z",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-76460 Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability\nCVE-2026-878",
+    "cveIds": [
+      "CVE-2026-76460"
     ],
     "severity": "cve"
   },
@@ -545,12 +679,12 @@
   },
   {
     "id": "3f06b0b072199eaf",
-    "title": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
+    "title": "Black Hat USA 2026 | OpenAI's Deep Dive Into Hugging Face Incident",
     "link": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk",
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-09-15T19:27:19.000Z",
-    "summary": "The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI\nAt this Black Hat USA 2026 talk, OpenAI security engineers and researchers will reconstruct the OpenAI-Hugging Face incident and ",
+    "summary": "At Black Hat USA, OpenAI engineers reconstruct the Hugging Face incident and explore lessons learned about AI safeguards and cyber resilience.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -775,79 +909,13 @@
     "severity": "critical"
   },
   {
-    "id": "fb62277685f2e791",
-    "title": "Digital Watchdog VMAX DVR and NVR Product Lineups",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-01",
+    "id": "faf9fc8217fb1f13",
+    "title": "Siemens Reyrolle 7SR5",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-05",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could grant full administrative control of the device, allowing an attacker to view live and recorded surveillance, alter device configurations, and use the device as a netw",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "033d5776f551dce7",
-    "title": "Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers",
-    "link": "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "Developed by the National Institute of Standards and Technology (NIST) and CISA, this interagency report provides federal agencies and cloud service providers with guidelines to protect the identity assertions, access tokens, and cryptograp",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "911d7d42fc6fa0e9",
-    "title": "Schneider Electric SCADAPack x70 Products",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its SCADAPack x70 products. The SCADAPack 47x, SCADAPack 47xi, SCADAPack 47xd, SCADAPack 470R and SCADAPack 57x products are Remote Terminal Units that provide communicatio",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "914b6b30e31112a9",
-    "title": "mySCADA myPRO Manager",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access privileged management functions or send arbitrary SMS messages through the connected GSM modem.\nThe following versions of mySCADA myPRO Man",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4e2b63f9f9b47e7b",
-    "title": "Siemens Teamcenter",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nA reflected cross site scripting vulnerability in the authentication redirect flow (/auth/) of Teamcenter allows an unauthenticated remote attacker to inject JavaScript into an authenticated user's session by crafting a ma",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "931dd45c1926cfc5",
-    "title": "Siemens Mendix SAML",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nMendix SAML module contains a vulnerability that could allow unauthenticated remote attackers to hijack an account in specific SSO configurations. Mendix has provided fix releases for the Mendix SAML module and recommends ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f6713ea22db7066f",
-    "title": "Wärtsilä FOS-Onboard",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to deliver an unauthorized update, execute code, or extract credentials to allow the attacker to impersonate a privileged client.\nThe following versi",
+    "summary": "View CSAF\nSummary\nSiemens Reyrolle 7SR5 Before V2.70 is affected by multiple vulnerabilities. Siemens has released a new version for Reyrolle 7SR5 and recommends to update to the latest version.\nThe following versions of Siemens Reyrolle 7S",
     "cveIds": [],
     "severity": "normal"
   },
@@ -863,13 +931,79 @@
     "severity": "normal"
   },
   {
-    "id": "faf9fc8217fb1f13",
-    "title": "Siemens Reyrolle 7SR5",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-05",
+    "id": "033d5776f551dce7",
+    "title": "Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers",
+    "link": "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSiemens Reyrolle 7SR5 Before V2.70 is affected by multiple vulnerabilities. Siemens has released a new version for Reyrolle 7SR5 and recommends to update to the latest version.\nThe following versions of Siemens Reyrolle 7S",
+    "summary": "Developed by the National Institute of Standards and Technology (NIST) and CISA, this interagency report provides federal agencies and cloud service providers with guidelines to protect the identity assertions, access tokens, and cryptograp",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f6713ea22db7066f",
+    "title": "Wärtsilä FOS-Onboard",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to deliver an unauthorized update, execute code, or extract credentials to allow the attacker to impersonate a privileged client.\nThe following versi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "931dd45c1926cfc5",
+    "title": "Siemens Mendix SAML",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nMendix SAML module contains a vulnerability that could allow unauthenticated remote attackers to hijack an account in specific SSO configurations. Mendix has provided fix releases for the Mendix SAML module and recommends ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4e2b63f9f9b47e7b",
+    "title": "Siemens Teamcenter",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nA reflected cross site scripting vulnerability in the authentication redirect flow (/auth/) of Teamcenter allows an unauthenticated remote attacker to inject JavaScript into an authenticated user's session by crafting a ma",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "914b6b30e31112a9",
+    "title": "mySCADA myPRO Manager",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access privileged management functions or send arbitrary SMS messages through the connected GSM modem.\nThe following versions of mySCADA myPRO Man",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "911d7d42fc6fa0e9",
+    "title": "Schneider Electric SCADAPack x70 Products",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its SCADAPack x70 products. The SCADAPack 47x, SCADAPack 47xi, SCADAPack 47xd, SCADAPack 470R and SCADAPack 57x products are Remote Terminal Units that provide communicatio",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fb62277685f2e791",
+    "title": "Digital Watchdog VMAX DVR and NVR Product Lineups",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could grant full administrative control of the device, allowing an attacker to view live and recorded surveillance, alter device configurations, and use the device as a netw",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2516,17 +2650,6 @@
     "severity": "critical"
   },
   {
-    "id": "639fe7a96b234a20",
-    "title": "Orthanc DICOM Server",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-10T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated remote attacker to write past the end of a heap allocation when Orthanc decodes an attacker-supplied PNG or JPEG image, resulting in a crash of the",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "8c727593e16cb6f9",
     "title": "AVEVA Pipeline Integrity Monitor",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01",
@@ -2538,18 +2661,15 @@
     "severity": "normal"
   },
   {
-    "id": "95713d4724f24290",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "id": "639fe7a96b234a20",
+    "title": "Orthanc DICOM Server",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-10T12:00:00.000Z",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-67277 MikroTik RouterOS Missing Authentication for Critical Function Vulnerability\nCVE-2026-8606",
-    "cveIds": [
-      "CVE-2026-67277",
-      "CVE-2026-8606"
-    ],
-    "severity": "critical"
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated remote attacker to write past the end of a heap allocation when Orthanc decodes an attacker-supplied PNG or JPEG image, resulting in a crash of the",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "ff928827e7082ea8",
@@ -2952,127 +3072,6 @@
     "category": "news",
     "pubDate": "2026-09-09T21:19:55.000Z",
     "summary": "An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2797a83a98a0fef2",
-    "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
-    "link": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-09T21:02:14.000Z",
-    "summary": "The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests from nearby unpaired devices without requiring user interaction. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f41ecd0decf6766e",
-    "title": "US disrupts Xinbi Guarantee marketplace fueling the cyber scam economy",
-    "link": "https://therecord.media/us-disrupts-xinbi-guarantee-marketplace-cybercrime",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-09T19:54:00.000Z",
-    "summary": "The U.S. government also carried out a seizure of $52.8 million from 52 wallets connected to the platform.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "272c95de9836a13e",
-    "title": "US Government Accuses Chinese AI Firms of Distilling Frontier Models",
-    "link": "https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-09T19:47:50.000Z",
-    "summary": "US agencies claim Chinese companies covertly extracted billions of tokens from OpenAI, Anthropic, Google Gemini, and SpaceX's Grok to reduce development costs.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "097219eaecd991ee",
-    "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
-    "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-09T18:26:05.000Z",
-    "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarantee that offered scam services, including seizing Telegram channels used to run the service, confiscat",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b36bd9c94c9793fe",
-    "title": "Grindr settles privacy lawsuit tied to disclosure of users’ HIV statuses for $35 million",
-    "link": "https://therecord.media/grindr-settles-privacy-lawsuit-hiv-status-35-million",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-09T18:11:00.000Z",
-    "summary": "The settlement concludes a legal fight that dates to April 2024, when UK users sued for the alleged violations of their country’s privacy laws.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "29987adf12fb95bf",
-    "title": "Scans for Proxmox Servers, (Wed, Sep 9th)",
-    "link": "https://isc.sans.edu/diary/rss/33324",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-09T17:46:24.000Z",
-    "summary": "About a week ago, Proxmox published an advisory revealing a vulnerability in older versions of Proxmox VE, its flagship Virtual Environment product. The vulnerability only affects version 7, which has not been supported for a couple of year",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e7045162419c265f",
-    "title": "Passkey-themed social engineering leads to identity and cloud compromise",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-09-09T17:41:18.000Z",
-    "summary": "Passkey-themed social engineering is being used to compromise identities and enable broader cloud attacks. Learn how threat actors establish MFA persistence, abuse Microsoft Graph for reconnaissance, and access SharePoint, OneDrive, and ema",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "567bdbc85ddce982",
-    "title": "HelmGuard Raises $7.3 Million for Agentic GRC and Security",
-    "link": "https://www.securityweek.com/helmguard-raises-7-3-million-for-agentic-grc-and-security/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-09T17:23:58.000Z",
-    "summary": "The company will increase its US market presence and will expand its engineering and go-to-market teams.\nThe post HelmGuard Raises $7.3 Million for Agentic GRC and Security appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "049eb5b9afad3cbe",
-    "title": "Electronic health record company says customer data stolen in breach",
-    "link": "https://therecord.media/electronic-health-record-company-says-customer-data-stolen-in-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-09T17:03:00.000Z",
-    "summary": "Veradigm said access was limited to a specific interface, and did not impact the company’s broader environment such as its networks, servers or databases. The incident did not result in operational disruptions, the company added.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "654204d5c93b2fa9",
-    "title": "AI Is Giving Lesser-Resourced Attackers Nation-State-Level Reach, Google Warns",
-    "link": "https://www.securityweek.com/ai-is-giving-lesser-resourced-attackers-nation-state-level-reach-google-warns/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-09T16:56:25.000Z",
-    "summary": "Criminal and state-sponsored adversaries are increasingly using AI to automate and scale their attacks, according to GTIG.\nThe post AI Is Giving Lesser-Resourced Attackers Nation-State-Level Reach, Google Warns appeared first on SecurityWee",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "daf385fccdd85bfa",
-    "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
-    "link": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-09T16:48:33.000Z",
-    "summary": "U.S. cybersecurity and intelligence agencies say that six Chinese AI companies conducted industrial-scale distillation attacks on American frontier AI models since at least late 2024. [...]",
     "cveIds": [],
     "severity": "normal"
   }
