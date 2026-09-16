@@ -22,6 +22,39 @@
     "severity": "normal"
   },
   {
+    "id": "474a6a40144f3405",
+    "title": "ISC Stormcast For Wednesday, September 16th, 2026 https://isc.sans.edu/podcastdetail/10096, (Wed, Sep 16th)",
+    "link": "https://isc.sans.edu/diary/rss/33342",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-16T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eca7935e8d01bb26",
+    "title": "Cyber Op Targets South Korean Media &amp; Automotive Sectors",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-16T01:00:00.000Z",
+    "summary": "A likely North Korean advanced persistent threat (APT) group used a previously undocumented Linux espionage toolkit to compromise load balancers, gain access to communications, and further exploit networks.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f3463d1e16101b1a",
+    "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
+    "link": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-15T21:37:35.000Z",
+    "summary": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk that may be exploited in the wild. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "d97cf7bf1f894166",
     "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
     "link": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
@@ -2844,239 +2877,6 @@
     "category": "news",
     "pubDate": "2026-09-09T04:27:51.000Z",
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6bb79ba27b66e487",
-    "title": "ISC Stormcast For Wednesday, September 9th, 2026 https://isc.sans.edu/podcastdetail/10086, (Wed, Sep 9th)",
-    "link": "https://isc.sans.edu/diary/rss/33322",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-09T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "137c050163098c31",
-    "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-09T01:16:27.000Z",
-    "summary": "Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult without exposing their exact date of birth. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1d4cdef5a35bfa0e",
-    "title": "Multiples vulnérabilités dans les produits Ivanti (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1135/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Ivanti. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la poli",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f968116044427210",
-    "title": "Multiples vulnérabilités dans les produits Adobe (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1140/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Adobe. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distanc",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e2750c680fbea693",
-    "title": "Multiples vulnérabilités dans Postfix (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1141/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Postfix. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8cbabd37e439baec",
-    "title": "Vulnérabilité dans Mozilla Firefox (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1142/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Mozilla Firefox. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a612105bce170120",
-    "title": "Vulnérabilité dans les produits ESET (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1143/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits ESET. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e28085e6b1d3a7e1",
-    "title": "Vulnérabilité dans Microsoft Edge (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1144/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Microsoft Edge. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5ce09e6f653bb6f5",
-    "title": "Multiples vulnérabilités dans Microsoft Office (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1145/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Office. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et un contournement de la politiq",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7013864ab48500ea",
-    "title": "Multiples vulnérabilités dans Microsoft .Net (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1146/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft .Net. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8dc2587d4bfd4229",
-    "title": "Multiples vulnérabilités dans Microsoft Windows (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1147/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cb0a22d06e68afd8",
-    "title": "Multiples vulnérabilités dans Microsoft Azure (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1148/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3be4c65c43a7ddf9",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1149/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dis",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e5e1facac4c9e6a4",
-    "title": "Multiples vulnérabilités dans Google Chrome (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1139/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur. Google indique que la vulnérabilité CVE-2026-87491 est activement exploitée",
-    "cveIds": [
-      "CVE-2026-87491"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "5815e8001fb0027a",
-    "title": "Vulnérabilité dans les produits Cisco (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1138/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9a8b805da572ae28",
-    "title": "Multiples vulnérabilités dans Xen (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1136/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c00339002e971ec9",
-    "title": "Multiples vulnérabilités dans Citrix Workspace app (09 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1137/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Citrix Workspace app. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cfbdbb28b2f691b4",
-    "title": "Microsoft posts nearly 1,000 bugs for Patch Tuesday as CISA warns two being exploited",
-    "link": "https://therecord.media/microsoft-patch-tuesday-september-2026",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-08T22:40:00.000Z",
-    "summary": "The new record total for Patch Tuesday is 973 vulnerabilities.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3e2eca92f4abf5aa",
-    "title": "Microsoft Patch Tuesday for September 2026 — Snort rules and prominent vulnerabilities",
-    "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-september-2026/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-09-08T22:16:35.000Z",
-    "summary": "Microsoft has released its monthly security update for September 2026, which includes 973 vulnerabilities affecting a range of products, including 113 that Microsoft marked as \"critical.\"",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c7e7ad60970c4251",
-    "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-    "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-09-08T21:44:22.000Z",
-    "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discove",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7af7024d72f7017e",
-    "title": "Patch Tuesday Sets Another Record With 974 CVEs",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-08T21:26:02.000Z",
-    "summary": "Attackers are actively exploiting two of the vulnerabilities, and another 58 are more likely to be exploited, according to Microsoft.",
     "cveIds": [],
     "severity": "normal"
   }
