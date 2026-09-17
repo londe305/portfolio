@@ -22,6 +22,295 @@
     "severity": "normal"
   },
   {
+    "id": "e204ddaf3c55b93e",
+    "title": "China’s FamousSparrow hackers target Latin America with new backdoor",
+    "link": "https://therecord.media/china-hackers-latin-america-espionage",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-17T16:30:00.000Z",
+    "summary": "Alleged Chinese hackers are breaking into government agencies across Latin America using a new backdoor that researchers are calling “SparroWocky.”",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1d094d4e270eff86",
+    "title": "OpenAI Says Its Models Searched GitHub for Leaked API Keys During Training",
+    "link": "https://www.securityweek.com/openai-says-its-models-hunted-github-for-leaked-api-keys-during-training/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-17T15:45:29.000Z",
+    "summary": "OpenAI published a framework for disclosing model misalignment alongside six reports describing problematic behavior.\nThe post OpenAI Says Its Models Searched GitHub for Leaked API Keys During Training appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "573f361a7e547265",
+    "title": "LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)",
+    "link": "https://isc.sans.edu/diary/rss/33348",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-17T15:06:44.000Z",
+    "summary": "At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable â€“ it asked the recipient to review some attached requirements and provide a ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2779d67f47a3bef6",
+    "title": "CISA Retires Weekly Vulnerability Bulletin in Risk-Based Pivot",
+    "link": "https://www.securityweek.com/cisa-retires-weekly-vulnerability-bulletin-in-risk-based-pivot/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-17T14:28:00.000Z",
+    "summary": "The decision follows BOD 26-04, which directs federal organizations to prioritize vulnerabilities based on real-world risk.\nThe post CISA Retires Weekly Vulnerability Bulletin in Risk-Based Pivot appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e4a8680135abb9ff",
+    "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
+    "link": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-17T14:01:11.000Z",
+    "summary": "AI is making credential theft faster and easier to scale, giving attackers more opportunities to abuse valid identities. Specops explains why identity security must go beyond successful authentication by verifying that both the user and the",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bf76fe78983b1982",
+    "title": "Revolut Data Breach: 5 Months, 680 High-Profile Accounts, $3M Ransom",
+    "link": "https://www.securityweek.com/revolut-data-breach-5-months-680-high-profile-accounts-3m-ransom/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-17T13:57:41.000Z",
+    "summary": "Revolut allegedly fed customer information to hackers impersonating an Italian government agency for five months.\nThe post Revolut Data Breach: 5 Months, 680 High-Profile Accounts, $3M Ransom appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bcec2451071e8fab",
+    "title": "Hackers claim breach of Russian election systems days before parliamentary vote",
+    "link": "https://therecord.media/russia-election-hackers-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-17T13:45:00.000Z",
+    "summary": "An anonymous hacking group claimed to have broken into computer systems connected to Russia’s election infrastructure just days before the country begins voting for a new parliament.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9d1241139e6da8e5",
+    "title": "Congress eyes new support for Cyber Command after recent suicide deaths",
+    "link": "https://therecord.media/congress-eyes-support-for-cyber-command-suicide-deaths",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-17T13:32:00.000Z",
+    "summary": "Congressional sources say they view the deaths of U.S. Cyber Command personnel as an inflection point, especially as the Pentagon’s appetite for cyber capabilities grows following successful contributions to high-profile missions against Ir",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "78e50d627597b7d8",
+    "title": "Windows 11 24H2 Home and Pro reach end of support in October",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-17T13:09:09.000Z",
+    "summary": "Microsoft reminded customers this week that devices running Windows 11 24H2 Home and Pro editions will stop receiving updates next month. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4767d2d9159e4af5",
+    "title": "Comp AI Raises $34 Million for AI-Native Compliance and Security",
+    "link": "https://www.securityweek.com/comp-ai-raises-34-million-for-ai-native-compliance-and-security/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-17T13:00:00.000Z",
+    "summary": "The company plans to expand into continuous cybersecurity, offering security testing across applications and infrastructure.\nThe post Comp AI Raises $34 Million for AI-Native Compliance and Security appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2526dc9e614ad27a",
+    "title": "ISC Patches 14 Vulnerabilities in BIND 9 Security Update",
+    "link": "https://www.securityweek.com/isc-patches-14-vulnerabilities-in-bind-9-security-update/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-17T12:39:28.000Z",
+    "summary": "Attackers could exploit the flaws to increase resource usage, trigger an unexpected program exit, or terminate the named process.\nThe post ISC Patches 14 Vulnerabilities in BIND 9 Security Update appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "84bff6238c91897e",
+    "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+    "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-17T12:30:00.000Z",
+    "summary": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an advisory on Wednesday.\n\nAn attacker who controls a malicious zone and queries a vulnerable resolv",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3a012cfd86069477",
+    "title": "Ransomware Attacks on Manufacturers Surge as Supply Chain Risk Grows",
+    "link": "https://www.securityweek.com/ransomware-attacks-on-manufacturers-surge-as-supply-chain-risk-grows/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-17T12:29:53.000Z",
+    "summary": "Research shows attacks on manufacturers rose 40% in early 2026, as ransomware groups increasingly exploit the supply-chain disruption caused by operational shutdowns.\nThe post Ransomware Attacks on Manufacturers Surge as Supply Chain Risk G",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "18c49da2c459b11d",
+    "title": "Cisco Fixes Dozens of Flaws Across FMC, ISE and Nexus Dashboard",
+    "link": "https://www.securityweek.com/cisco-fixes-dozens-of-flaws-across-fmc-ise-and-nexus-dashboard/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-17T12:17:40.000Z",
+    "summary": "The vulnerabilities may lead to root access, command execution, bypasses, SQL injection, and remote code execution.  \nThe post Cisco Fixes Dozens of Flaws Across FMC, ISE and Nexus Dashboard appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9091ab0a338cbe0e",
+    "title": "Israeli contractor BlackCore trained Angolan officials in online influence operations",
+    "link": "https://therecord.media/angola-israel-influence-operations-blackcore",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-17T12:15:00.000Z",
+    "summary": "An Israeli influence-for-hire company trained Angolan government officials to run online influence operations, including by creating fake social media personas and media outlets,  researchers found.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "99263027c76943f3",
+    "title": "Schneider Electric PowerChute Serial Shutdown",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enabling graceful system shutdown and energy management capabili",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f77a9af7e80377e1",
+    "title": "Mitsubishi Electric GX Works3 and Motion Control Settings",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affected product and modify part of the executable module in memo",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "785927a16a901465",
+    "title": "ABB Ability Edgenius",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a publicly reported vulnerability. CVE‑2026‑3143",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ef9be23140d71f8b",
+    "title": "Schneider Electric NetBotz 5 750/755",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak, smoke, vibration, ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cbb151dc21ab2b6d",
+    "title": "Schneider Electric Modicon M340 Controller and Communication Modules",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its Modicon M340 https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/, BMXNOR0200H https://www.se.com/us/en/product/BMXNOR0200H/communication-module-modicon-m340-i",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8a3a8a1be8142c39",
+    "title": "Hitachi Energy FACTS Control Platform (FCP)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nHitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerabilities can cause impact on confidentiality, integrity and a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "53f589c9be8cee97",
+    "title": "Bransys ELD",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware.\nThe following versions of Bransys ELD are affected:\nAndroid <11.00.00 (CVE-2026-86520, CVE-2026-86689, CVE-20",
+    "cveIds": [
+      "CVE-2026-86520",
+      "CVE-2026-86689"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "7d7f9cff7d80c2f9",
+    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+    "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-17T11:50:00.000Z",
+    "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is compressing the time between disclosure ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b4632f89e85fdab3",
+    "title": "US takes down NightmareStresser DDoS-for-hire platform",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-17T11:33:35.000Z",
+    "summary": "The U.S. Federal Bureau of Investigation (FBI) seized the domains used by NightmareStresser, one of the world's longest-running distributed denial-of-service (DDoS) platforms. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "788e8401bd88454e",
+    "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
+    "link": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-17T10:50:53.000Z",
+    "summary": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b3052f3adb674fc2",
+    "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
+    "link": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-17T10:05:45.000Z",
+    "summary": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at least August 2025.\n\n\"Spa",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "73645a02bd834719",
     "title": "Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use",
     "link": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/",
@@ -31,6 +320,17 @@
     "summary": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY ",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "a9b1fe27dfaf52a7",
+    "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
+    "link": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-17T09:53:38.000Z",
+    "summary": "OpenAI on Wednesday disclosed six new instances of \"unexpected or concerning model behavior\" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing model misalignment i",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "0c9ce14ba6c6f519",
@@ -51,6 +351,17 @@
     "category": "news",
     "pubDate": "2026-09-17T08:24:48.000Z",
     "summary": "Microsoft shared a temporary fix on Wednesday for a known issue that prevents Windows 11 users from logging in with valid domain credentials after installing the September 2026 security updates. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d2f4589d6516d677",
+    "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
+    "link": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-17T08:00:29.000Z",
+    "summary": "The Internet Systems Consortium (ISC) has released BIND 9.20.29 and 9.21.26 to fix fourteen security flaws it disclosed on 16 September in BIND 9, its open-source DNS server software. One of them affects any BIND server that answers DNS-ove",
     "cveIds": [],
     "severity": "normal"
   },
@@ -77,6 +388,17 @@
     "severity": "normal"
   },
   {
+    "id": "f5f1e8a4109f9384",
+    "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
+    "link": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-17T07:30:01.000Z",
+    "summary": "A security breach at Gyazo, Helpfeel's image-sharing service, exposed about 23.62 million user records, including email addresses and password hashes, the Kyoto-based company said in a notice published Wednesday.\n\nIt also exposed about 490 ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "7238e34645fcb6ee",
     "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
@@ -85,6 +407,19 @@
     "pubDate": "2026-09-17T07:20:54.000Z",
     "summary": "Cisco has released security updates to address a maximum-severity Identity Services Engine vulnerability that attackers are actively exploiting in the wild. [...]",
     "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "fafd9a90272c4ece",
+    "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+    "link": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-17T06:39:40.000Z",
+    "summary": "Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-76460 (CVSS score: 10.0), could allow an unauthenticated, r",
+    "cveIds": [
+      "CVE-2026-76460"
+    ],
     "severity": "critical"
   },
   {
@@ -97,6 +432,17 @@
     "summary": "Remote, unauthenticated attackers can exploit the vulnerability to bypass authentication via crafted requests.\nThe post Active Exploitation Triggers Emergency Patch for Cisco ISE Zero-Day appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "7d690b6e7740159d",
+    "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
+    "link": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-17T05:13:46.000Z",
+    "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the court-authorized seizure of internet domains associated with a distributed denial-of-service (DDoS)-for-hire service known as NightmareStresser.\n\nThe domains in question are: nig",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "9cee8a846d4f43b9",
@@ -733,6 +1079,39 @@
     "severity": "critical"
   },
   {
+    "id": "2adc963ff0823d4a",
+    "title": "Multiples vulnérabilités dans Google Pixel (16 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1176/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Pixel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b934968acc5e37ba",
+    "title": "Multiples vulnérabilités dans Apache Zookeeper (16 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1177/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "13ec251932faddcc",
+    "title": "Multiples vulnérabilités dans Google Chrome (16 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1178/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f3463d1e16101b1a",
     "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
     "link": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
@@ -1030,28 +1409,6 @@
     "severity": "critical"
   },
   {
-    "id": "faf9fc8217fb1f13",
-    "title": "Siemens Reyrolle 7SR5",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSiemens Reyrolle 7SR5 Before V2.70 is affected by multiple vulnerabilities. Siemens has released a new version for Reyrolle 7SR5 and recommends to update to the latest version.\nThe following versions of Siemens Reyrolle 7S",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3e8ebb845c14c3c4",
-    "title": "CareCam CM2507",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-08",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access live video and sensitive device information, enable unauthorized services, execute arbitrary code, modify device operation, and recover sto",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "033d5776f551dce7",
     "title": "Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers",
     "link": "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
@@ -1059,17 +1416,6 @@
     "category": "advisory",
     "pubDate": "2026-09-15T12:00:00.000Z",
     "summary": "Developed by the National Institute of Standards and Technology (NIST) and CISA, this interagency report provides federal agencies and cloud service providers with guidelines to protect the identity assertions, access tokens, and cryptograp",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f6713ea22db7066f",
-    "title": "Wärtsilä FOS-Onboard",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to deliver an unauthorized update, execute code, or extract credentials to allow the attacker to impersonate a privileged client.\nThe following versi",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1085,6 +1431,28 @@
     "severity": "normal"
   },
   {
+    "id": "f6713ea22db7066f",
+    "title": "Wärtsilä FOS-Onboard",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to deliver an unauthorized update, execute code, or extract credentials to allow the attacker to impersonate a privileged client.\nThe following versi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "faf9fc8217fb1f13",
+    "title": "Siemens Reyrolle 7SR5",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSiemens Reyrolle 7SR5 Before V2.70 is affected by multiple vulnerabilities. Siemens has released a new version for Reyrolle 7SR5 and recommends to update to the latest version.\nThe following versions of Siemens Reyrolle 7S",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "4e2b63f9f9b47e7b",
     "title": "Siemens Teamcenter",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-07",
@@ -1092,6 +1460,17 @@
     "category": "advisory",
     "pubDate": "2026-09-15T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nA reflected cross site scripting vulnerability in the authentication redirect flow (/auth/) of Teamcenter allows an unauthenticated remote attacker to inject JavaScript into an authenticated user's session by crafting a ma",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3e8ebb845c14c3c4",
+    "title": "CareCam CM2507",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-08",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access live video and sensitive device information, enable unauthorized services, execute arbitrary code, modify device operation, and recover sto",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1294,6 +1673,50 @@
     "category": "advisory",
     "pubDate": "2026-09-15T02:25:12.000Z",
     "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "70357a538bcb69cf",
+    "title": "Multiples vulnérabilités dans les produits Apple (15 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1172/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distanc",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "060dc512d8d30977",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (15 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1173/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3169a631992eaf82",
+    "title": "Vulnérabilité dans Microsoft Windows (15 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1174/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-15T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Microsoft Windows. Elle permet à un attaquant de provoquer une élévation de privilèges.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f2bceeb18439fdc3",
+    "title": "Multiples vulnérabilités dans les produits Cisco (15 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1175/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une injection SQL (SQLi). ",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2373,28 +2796,6 @@
     "severity": "normal"
   },
   {
-    "id": "eb6d7177757ade83",
-    "title": "Multiples vulnérabilités dans GitLab (11 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1160/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c6668d3599bf4ed2",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (11 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1161/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "ef845f7f2f9bbd15",
     "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (11 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1162/",
@@ -2446,6 +2847,28 @@
     "category": "advisory",
     "pubDate": "2026-09-11T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Fortinet. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dist",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eb6d7177757ade83",
+    "title": "Multiples vulnérabilités dans GitLab (11 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1160/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-11T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c6668d3599bf4ed2",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (11 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1161/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-11T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2580,282 +3003,5 @@
     "summary": "Microsoft examines an AI-assisted business email compromise campaign that used executive impersonation and fake invoices to target finance teams with ACH payment fraud.\nThe post Protecting organizations from AI-assisted executive impersonat",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "d793ad6955486324",
-    "title": "Cybersecurity M&A Roundup: 33 Deals Announced in August 2026",
-    "link": "https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-august-2026/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-10T16:14:58.000Z",
-    "summary": "Significant cybersecurity M&A deals announced by Brinqa, Cribl, Echo, Fortinet, Kiteworks, Palo Alto Networks, and Visa.\nThe post Cybersecurity M&A Roundup: 33 Deals Announced in August 2026 appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6e6808f3261047ff",
-    "title": "Detect and disrupt AI-themed attacks with Microsoft Defender",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-09-10T16:00:00.000Z",
-    "summary": "See how Microsoft Defender detects and disrupts AI-themed phishing, malware, and multi-stage attacks across the attack chain.\nThe post Detect and disrupt AI-themed attacks with Microsoft Defender appeared first on Microsoft Security Blog.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "99e4f04ee6facc13",
-    "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
-    "link": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-10T15:55:56.000Z",
-    "summary": "A threat actor, likely Russian-speaking, used hundreds of AI agents to develop and launch a global exploitation campaign targeting vulnerable PaperCut NG/MF servers. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "72164e67141f310d",
-    "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
-    "link": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-10T15:43:58.000Z",
-    "summary": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-sponsored attacks. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4ff373cc7d228df4",
-    "title": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-10T15:29:12.000Z",
-    "summary": "The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0e50822d736f16ac",
-    "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
-    "link": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-10T14:55:33.000Z",
-    "summary": "Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the company to a massive database containing more than 153 million driver's license scans. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ddda84a60b1b87e4",
-    "title": "Anthropic Researcher Resigns With Warning About the Dangers of AI Development",
-    "link": "https://www.securityweek.com/anthropic-researcher-resigns-with-warning-about-the-dangers-of-ai-development/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-10T14:52:07.000Z",
-    "summary": "Both Anthropic and OpenAI have seen high-profile resignations in recent years that were tied to safety concerns.\nThe post Anthropic Researcher Resigns With Warning About the Dangers of AI Development appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0f9f58c133e97656",
-    "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
-    "link": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-10T14:36:47.000Z",
-    "summary": "Bad actors are misusing Google Play's Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and premium content.\n\nEarly Access apps are apps that haven't been released on the official Android app m",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c218915ddea0c40a",
-    "title": "Hacker Conversations: Vinnie Liu, Performer Turned Ringmaster",
-    "link": "https://www.securityweek.com/hacker-conversations-vinnie-liu-performer-turned-ringmaster/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-10T14:30:00.000Z",
-    "summary": "Vinnie Liu was recruited by the NSA when he was just 17 years old. He is now the CEO of Bishop Fox.\nThe post Hacker Conversations: Vinnie Liu, Performer Turned Ringmaster appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2992f75af085f5d4",
-    "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-10T14:11:34.000Z",
-    "summary": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chrome. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "82870bf6f1bec574",
-    "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
-    "link": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-10T14:00:10.000Z",
-    "summary": "Identity was the target in roughly half of all confirmed malicious activity. Prophet Security breaks down the four main attack patterns seen across customer environments between May and July 2026, and explains why some attacks succeeded whi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6366b6f65331e8c9",
-    "title": "Deceptive Android Apps Exploit Google Play Early Access to Evade Reviews",
-    "link": "https://www.securityweek.com/deceptive-android-apps-exploit-google-play-early-access-to-evade-reviews/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-10T13:39:52.000Z",
-    "summary": "Deceptive apps in Early Access are being used by dishonest developers for their own benefit.\nThe post Deceptive Android Apps Exploit Google Play Early Access to Evade Reviews appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4746557a9cfbad04",
-    "title": "Russian e-commerce giant Wildberries says DDoS attack delayed payments to sellers",
-    "link": "https://therecord.media/russian-e-commerce-giant-wildberries-says-payments-disrupted",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-10T13:31:00.000Z",
-    "summary": "Wildberries told several Russian media outlets earlier this week that payments to some sellers were delayed by security measures introduced after a distributed denial-of-service (DDoS) attack targeted systems used to track and withdraw thei",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7ae3a8c0bf5fc5ac",
-    "title": "Webinar Today: Keep Pace With AI – A New Operating Model for Endpoint Remediation",
-    "link": "https://www.securityweek.com/webinar-today-keep-pace-with-ai-a-new-operating-model-for-endpoint-remediation/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-10T13:30:00.000Z",
-    "summary": "Join the webinar for a focused, 20-minute discussion on Frontier Pace Governance, an approach to balancing automation, policy, and business risk as IT operations accelerate.\nThe post Webinar Today: Keep Pace With AI – A New Operating Model ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b052cd3d0bdf79e8",
-    "title": "Redtail Payload Analysis &#x5b;Guest Diary&#x5d;, (Wed, Sep 9th)",
-    "link": "https://isc.sans.edu/diary/rss/33326",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-10T12:58:10.000Z",
-    "summary": "[This is a Guest Diary by Aaron Ng, an ISC intern as part of the SANS.edu BACS program]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8536d5c493824091",
-    "title": "UK appoints new commander of National Cyber Force",
-    "link": "https://therecord.media/uk-appoints-new-commander-of-national-cyber-force",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-10T12:44:00.000Z",
-    "summary": "The individual has not yet been avowed — the formal process in Britain by which an intelligence or security figure’s identity is publicly acknowledged — as routine security considerations are still being worked through.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b9148ea49ba3fd74",
-    "title": "Critical NetScaler Vulnerability Exploited in Attacks",
-    "link": "https://www.securityweek.com/critical-netscaler-vulnerability-exploited-in-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-10T12:20:21.000Z",
-    "summary": "Tracked as CVE-2026-19490, the authentication bypass flaw has been exploited in the wild since at least September 3.\nThe post Critical NetScaler Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-19490"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "8c727593e16cb6f9",
-    "title": "AVEVA Pipeline Integrity Monitor",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-10T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session.\nThe following versions of AVEVA Pipeline Integrity Monitor a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "639fe7a96b234a20",
-    "title": "Orthanc DICOM Server",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-10T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated remote attacker to write past the end of a heap allocation when Orthanc decodes an attacker-supplied PNG or JPEG image, resulting in a crash of the",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ff928827e7082ea8",
-    "title": "ST Engineering iDirect iQ-Series Terminals (Update A)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-10T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition.\nThe following versions of ST Engineering iDirect iQ-Series ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "96b23cd0ce7320fe",
-    "title": "NextGen Healthcare Mirth Connect",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-10T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to exfiltrate date or cause a denial-of-service condition.\nThe following versions of NextGen Healthcare Mirth Connect are affected:\nMirth Connect <=v",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "03034c7bacb5a76b",
-    "title": "Widened Scan Turns Up Fourth Rogue Claude Cyber Incident",
-    "link": "https://www.securityweek.com/widened-scan-turns-up-fourth-rogue-claude-cyber-incident/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-10T11:52:44.000Z",
-    "summary": "Anthropic is most concerned about Claude Mythos 5’s reckless behavior after recent incidents in which real systems were hacked.\nThe post Widened Scan Turns Up Fourth Rogue Claude Cyber Incident appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1895b8cf0e73bfcc",
-    "title": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
-    "link": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-10T11:45:05.000Z",
-    "summary": "Check Point has patched two critical vulnerabilities in the way its firewall and management products handle VPN certificates. The company says both could allow an unauthenticated remote attacker to run code, but only \"under specific conditi",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d24d93b5027d9946",
-    "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
-    "link": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-10T11:41:53.000Z",
-    "summary": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds of instances.\n\nAccord",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "808a51252c9b1f79",
-    "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
-    "link": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-10T11:33:43.000Z",
-    "summary": "The Gigabud banking trojan now installs a second Android app that creates a work profile on an infected phone and drops a tampered banking app inside it, security firm Group-IB said in a report published on September 9.\n\nA work profile is a",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
