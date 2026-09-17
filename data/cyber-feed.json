@@ -22,6 +22,83 @@
     "severity": "normal"
   },
   {
+    "id": "73645a02bd834719",
+    "title": "Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use",
+    "link": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-09-17T10:00:43.000Z",
+    "summary": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0c9ce14ba6c6f519",
+    "title": "Chinese hackers use SparroWocky malware in govt espionage attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-17T09:00:00.000Z",
+    "summary": "The China-linked espionage group FamousSparrow has been using a new backdoor named SparroWocky in attacks on government organizations in Latin America. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9efac17a7889488f",
+    "title": "Microsoft shares workaround for Windows domain login issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-17T08:24:48.000Z",
+    "summary": "Microsoft shared a temporary fix on Wednesday for a known issue that prevents Windows 11 users from logging in with valid domain credentials after installing the September 2026 security updates. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8ebe7329bde327ff",
+    "title": "CISA Releases Cyber Decoy Guidance to Strengthen Critical Infrastructure Defenses",
+    "link": "https://www.securityweek.com/cisa-releases-guidance-on-deploying-cyber-decoys/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-17T07:53:43.000Z",
+    "summary": "Complementing Zero Trust models, decoys enable organizations to detect, observe, and block malicious activity in their environments.\nThe post CISA Releases Cyber Decoy Guidance to Strengthen Critical Infrastructure Defenses appeared first o",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f117f2c0b475c2ee",
+    "title": "AI Agents Can Retrain Own Models Mid-Task, Leaking Secrets and Erasing Refusals",
+    "link": "https://www.securityweek.com/ai-agents-can-retrain-own-models-mid-task-leaking-secrets-and-erasing-refusals/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-17T07:41:29.000Z",
+    "summary": "New research from Irregular shows AI agents can retrain and redeploy their own underlying models during routine maintenance tasks.\nThe post AI Agents Can Retrain Own Models Mid-Task, Leaking Secrets and Erasing Refusals appeared first on Se",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7238e34645fcb6ee",
+    "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-17T07:20:54.000Z",
+    "summary": "Cisco has released security updates to address a maximum-severity Identity Services Engine vulnerability that attackers are actively exploiting in the wild. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "234fa2f4e13b24f0",
+    "title": "Active Exploitation Triggers Emergency Patch for Cisco ISE Zero-Day",
+    "link": "https://www.securityweek.com/active-exploitation-triggers-emergency-patch-for-cisco-ise-zero-day/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-17T06:19:52.000Z",
+    "summary": "Remote, unauthenticated attackers can exploit the vulnerability to bypass authentication via crafted requests.\nThe post Active Exploitation Triggers Emergency Patch for Cisco ISE Zero-Day appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "9cee8a846d4f43b9",
     "title": "ISC Stormcast For Thursday, September 17th, 2026 https://isc.sans.edu/podcastdetail/10098, (Thu, Sep 17th)",
     "link": "https://isc.sans.edu/diary/rss/33346",
@@ -2780,163 +2857,5 @@
     "summary": "The Gigabud banking trojan now installs a second Android app that creates a work profile on an infected phone and drops a tampered banking app inside it, security firm Group-IB said in a report published on September 9.\n\nA work profile is a",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "0a4bd0c1879c760b",
-    "title": "4.1 Million Impacted by AdaptHealth Data Breach",
-    "link": "https://www.securityweek.com/4-1-million-impacted-by-adapthealth-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-10T11:20:43.000Z",
-    "summary": "In June 2026, hackers stole personal, health, and insurance information from AdaptHealth’s systems.\nThe post 4.1 Million Impacted by AdaptHealth Data Breach appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "99415e2915892778",
-    "title": "Microsoft says September updates fix mouse settings reset issues",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-10T11:14:28.000Z",
-    "summary": "Microsoft has fixed a known issue that wiped mouse settings on some Windows 11 systems after installing the KB5120998 August 2026 preview update. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "11d7a096bf9c05eb",
-    "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
-    "link": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-10T10:36:46.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "906c10efda1c1f9d",
-    "title": "ISC Stormcast For Thursday, September 10th, 2026 https://isc.sans.edu/podcastdetail/10088, (Thu, Sep 10th)",
-    "link": "https://isc.sans.edu/diary/rss/33328",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-10T10:10:11.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a7f1c1a44a19bcb6",
-    "title": "Organizations Warned of Cisco Secure FMC Exploitation",
-    "link": "https://www.securityweek.com/organizations-warned-of-cisco-secure-fmc-exploitation/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-10T10:06:20.000Z",
-    "summary": "Cisco and CISA have flagged exploitation of CVE-2026-20079, a vulnerability disclosed in March 2026.\nThe post Organizations Warned of Cisco Secure FMC Exploitation appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-20079"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "88b1b3c0bd98be58",
-    "title": "The Machine With Many Faces: Post-Exploitation Identity Misuse in SPIFFE/SPIRE",
-    "link": "https://unit42.paloaltonetworks.com/kubernetes-spiffe-spire-identity-spoofing/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-09-10T10:00:43.000Z",
-    "summary": "Learn how root access on a compromised K8s node allows attackers to utilize SPIFFE/SPIRE metadata to spoof and harvest co-located workload identities.\nThe post The Machine With Many Faces: Post-Exploitation Identity Misuse in SPIFFE/SPIRE a",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "bbb939abc19b7757",
-    "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-10T09:10:20.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a critical WatchGuard Firebox firewall vulnerability, which it flagged as actively exploited in December. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "bcb8ea4e94e4e1b7",
-    "title": "Microsoft fixes bug that wiped Windows desktop settings",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-10T08:08:16.000Z",
-    "summary": "Microsoft says the September 2026 Patch Tuesday updates fix a known issue causing desktop settings to be lost or reset on some Windows devices. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "640cdf46260638b0",
-    "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
-    "link": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-10T07:12:55.000Z",
-    "summary": "Nearly one in ten of the internet-facing LiteLLM servers that Wiz Research scanned in February accepted sk-1234, the example admin key in LiteLLM's own setup guide.\n\nLiteLLM is an open-source AI gateway, the software a company puts between ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e6d88735c46f25f2",
-    "title": "New ‘ShieldCrash’ Zero-Day Exploit Targets Microsoft Defender",
-    "link": "https://www.securityweek.com/new-shieldcrash-zero-day-exploit-targets-microsoft-defender/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-10T07:09:36.000Z",
-    "summary": "The exploit provides full System privileges on Windows machines running the September 2026 patches.\nThe post New ‘ShieldCrash’ Zero-Day Exploit Targets Microsoft Defender appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9bc437ba8d30c4e6",
-    "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
-    "link": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-10T07:04:01.000Z",
-    "summary": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the security risks posed b",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b2068d48098011bc",
-    "title": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
-    "link": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-10T07:00:00.000Z",
-    "summary": "Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8128cce9e983e415",
-    "title": "Trezor warns users of email provider breach, phishing attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-10T06:56:33.000Z",
-    "summary": "Trezor warned customers on Wednesday that threat actors who breached its third-party email provider are targeting them in phishing attacks. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0487c0f9539ab340",
-    "title": "Fortinet Code Execution Flaw Exploited in PivotC2 RAT Attacks",
-    "link": "https://www.securityweek.com/fortinet-code-execution-flaw-exploited-in-pivotc2-rat-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-10T06:33:36.000Z",
-    "summary": "The high-severity, unauthenticated vulnerability tracked as CVE-2025-25249 was patched in January 2026.\nThe post Fortinet Code Execution Flaw Exploited in PivotC2 RAT Attacks appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2025-25249"
-    ],
-    "severity": "cve"
   }
 ]
