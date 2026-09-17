@@ -1,5 +1,16 @@
 [
   {
+    "id": "f451f7682a61b9e8",
+    "title": "[Virtual Event] Cybersecurity Outlook 2027",
+    "link": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-12-03T16:00:00.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "380057f0504a39b0",
     "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
     "link": "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026",
@@ -22,6 +33,83 @@
     "severity": "normal"
   },
   {
+    "id": "9595e8c47d81ad2b",
+    "title": "European Commission set to push social media restrictions, safety requirements into law",
+    "link": "https://therecord.media/european-commission-set-to-push-social-media-kids-restrictions-into-law",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-17T20:36:00.000Z",
+    "summary": "The proposal, known as the EU KIDS Act, would block social media platforms from offering accounts to children younger than 13 and establish a bloc-wide minimum age of 15 for account creation.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3ca3c4b181d575b7",
+    "title": "China's FamousSparrow APT Spies on US Politics in Latin America",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-17T19:15:38.000Z",
+    "summary": "Amid the US and China's fight for eco-colonial influence in Latin America, a stealthy backdoor has taken flight.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e7c5247c346312db",
+    "title": "OpenAI details more cases of AI agents taking unauthorized actions",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-17T18:55:12.000Z",
+    "summary": "OpenAI has presented new examples of what they call \"AI model misalignment\" from the past six months, including unauthorized file uploads, following self-generated instructions, hiding mistakes, and leveraging exposed API keys. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "692ee407bfd06c50",
+    "title": "Should you care about an “AI slowdown?”",
+    "link": "https://blog.talosintelligence.com/should-you-care-about-an-ai-slowdown/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-09-17T18:00:23.000Z",
+    "summary": "In this week's Threat Source, David talks about why focusing on your security basics is still your best bet, even in a world with rapid AI advancements.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9e1edda0cb7281f1",
+    "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
+    "link": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-17T17:11:34.000Z",
+    "summary": "Brevo confirmed that attackers stole a Cloudflare API key and used it to inject malicious ClickFix scripts into its websites and JavaScript files embedded on customer sites to distribute malware. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e5735190f53652ca",
+    "title": "Cyberattacks on Two Oil Tankers Prompt Coast Guard, FBI to Board Vessels",
+    "link": "https://www.securityweek.com/cyberattacks-on-two-oil-tankers-prompt-coast-guard-fbi-to-board-vessels/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-17T17:09:40.000Z",
+    "summary": "The Coast Guard confirmed evidence of malicious cyber activity on the VL Prosperity, but has not attributed the attack to Iran.\nThe post Cyberattacks on Two Oil Tankers Prompt Coast Guard, FBI to Board Vessels appeared first on SecurityWeek",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "78e86d0131d2dfeb",
+    "title": "From guidance to action: Security fundamentals that materially reduce risk",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/17/from-guidance-to-action-security-fundamentals-that-materially-reduce-risk/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-09-17T17:00:00.000Z",
+    "summary": "AI has made fundamental changes to the operating environment for cybersecurity. Explore exposure management guidance on recommended controls and take action and stay ahead of cyberthreats.\nThe post From guidance to action: Security fundamen",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e204ddaf3c55b93e",
     "title": "China’s FamousSparrow hackers target Latin America with new backdoor",
     "link": "https://therecord.media/china-hackers-latin-america-espionage",
@@ -29,6 +117,17 @@
     "category": "news",
     "pubDate": "2026-09-17T16:30:00.000Z",
     "summary": "Alleged Chinese hackers are breaking into government agencies across Latin America using a new backdoor that researchers are calling “SparroWocky.”",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "30fba790df20880f",
+    "title": "Improving email security outcomes with real-world Microsoft Defender insights",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/17/improving-email-security-outcomes-with-real-world-microsoft-defender-insights/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-09-17T16:00:00.000Z",
+    "summary": "The latest email security benchmarking reports show strong Microsoft Defender performance across pre-delivery and post-delivery scenarios and reveal where threats and defenses continue to evolve.\nThe post Improving email security outcomes w",
     "cveIds": [],
     "severity": "normal"
   },
@@ -187,13 +286,13 @@
     "severity": "normal"
   },
   {
-    "id": "99263027c76943f3",
-    "title": "Schneider Electric PowerChute Serial Shutdown",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
+    "id": "9fad9afc6cab3025",
+    "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enabling graceful system shutdown and energy management capabili",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected product by sending specially crafted packets under specific ti",
     "cveIds": [],
     "severity": "normal"
   },
@@ -205,39 +304,6 @@
     "category": "advisory",
     "pubDate": "2026-09-17T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affected product and modify part of the executable module in memo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "785927a16a901465",
-    "title": "ABB Ability Edgenius",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a publicly reported vulnerability. CVE‑2026‑3143",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ef9be23140d71f8b",
-    "title": "Schneider Electric NetBotz 5 750/755",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak, smoke, vibration, ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cbb151dc21ab2b6d",
-    "title": "Schneider Electric Modicon M340 Controller and Communication Modules",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its Modicon M340 https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/, BMXNOR0200H https://www.se.com/us/en/product/BMXNOR0200H/communication-module-modicon-m340-i",
     "cveIds": [],
     "severity": "normal"
   },
@@ -265,6 +331,50 @@
       "CVE-2026-86689"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "ef9be23140d71f8b",
+    "title": "Schneider Electric NetBotz 5 750/755",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak, smoke, vibration, ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cbb151dc21ab2b6d",
+    "title": "Schneider Electric Modicon M340 Controller and Communication Modules",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its Modicon M340 https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/, BMXNOR0200H https://www.se.com/us/en/product/BMXNOR0200H/communication-module-modicon-m340-i",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "99263027c76943f3",
+    "title": "Schneider Electric PowerChute Serial Shutdown",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enabling graceful system shutdown and energy management capabili",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "785927a16a901465",
+    "title": "ABB Ability Edgenius",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a publicly reported vulnerability. CVE‑2026‑3143",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "7d7f9cff7d80c2f9",
@@ -825,6 +935,17 @@
     "severity": "cve"
   },
   {
+    "id": "5b2bf053e5482cae",
+    "title": "Using Cyber Decoys to Strengthen Detection and Response",
+    "link": "https://www.cisa.gov/resources-tools/resources/using-cyber-decoys-strengthen-detection-and-response",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-16T12:00:00.000Z",
+    "summary": "CISA developed this guidance to help defensive teams at varying levels of cybersecurity maturity plan and implement cyber decoy strategies that strengthen their detection and response capabilities. Many organizations struggle to detect adve",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "21cfd79f3f9a421e",
     "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
@@ -836,17 +957,6 @@
       "CVE-2026-76460"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "5b2bf053e5482cae",
-    "title": "Using Cyber Decoys to Strengthen Detection and Response",
-    "link": "https://www.cisa.gov/resources-tools/resources/using-cyber-decoys-strengthen-detection-and-response",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-16T12:00:00.000Z",
-    "summary": "CISA developed this guidance to help defensive teams at varying levels of cybersecurity maturity plan and implement cyber decoy strategies that strengthen their detection and response capabilities. Many organizations struggle to detect adve",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "e8602ec2d9a9ebe0",
@@ -1409,50 +1519,6 @@
     "severity": "critical"
   },
   {
-    "id": "033d5776f551dce7",
-    "title": "Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers",
-    "link": "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "Developed by the National Institute of Standards and Technology (NIST) and CISA, this interagency report provides federal agencies and cloud service providers with guidelines to protect the identity assertions, access tokens, and cryptograp",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "931dd45c1926cfc5",
-    "title": "Siemens Mendix SAML",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nMendix SAML module contains a vulnerability that could allow unauthenticated remote attackers to hijack an account in specific SSO configurations. Mendix has provided fix releases for the Mendix SAML module and recommends ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f6713ea22db7066f",
-    "title": "Wärtsilä FOS-Onboard",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to deliver an unauthorized update, execute code, or extract credentials to allow the attacker to impersonate a privileged client.\nThe following versi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "faf9fc8217fb1f13",
-    "title": "Siemens Reyrolle 7SR5",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSiemens Reyrolle 7SR5 Before V2.70 is affected by multiple vulnerabilities. Siemens has released a new version for Reyrolle 7SR5 and recommends to update to the latest version.\nThe following versions of Siemens Reyrolle 7S",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "4e2b63f9f9b47e7b",
     "title": "Siemens Teamcenter",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-07",
@@ -1464,13 +1530,13 @@
     "severity": "normal"
   },
   {
-    "id": "3e8ebb845c14c3c4",
-    "title": "CareCam CM2507",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-08",
+    "id": "faf9fc8217fb1f13",
+    "title": "Siemens Reyrolle 7SR5",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-05",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access live video and sensitive device information, enable unauthorized services, execute arbitrary code, modify device operation, and recover sto",
+    "summary": "View CSAF\nSummary\nSiemens Reyrolle 7SR5 Before V2.70 is affected by multiple vulnerabilities. Siemens has released a new version for Reyrolle 7SR5 and recommends to update to the latest version.\nThe following versions of Siemens Reyrolle 7S",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1493,6 +1559,50 @@
     "category": "advisory",
     "pubDate": "2026-09-15T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its SCADAPack x70 products. The SCADAPack 47x, SCADAPack 47xi, SCADAPack 47xd, SCADAPack 470R and SCADAPack 57x products are Remote Terminal Units that provide communicatio",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "931dd45c1926cfc5",
+    "title": "Siemens Mendix SAML",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nMendix SAML module contains a vulnerability that could allow unauthenticated remote attackers to hijack an account in specific SSO configurations. Mendix has provided fix releases for the Mendix SAML module and recommends ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "033d5776f551dce7",
+    "title": "Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers",
+    "link": "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "Developed by the National Institute of Standards and Technology (NIST) and CISA, this interagency report provides federal agencies and cloud service providers with guidelines to protect the identity assertions, access tokens, and cryptograp",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f6713ea22db7066f",
+    "title": "Wärtsilä FOS-Onboard",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to deliver an unauthorized update, execute code, or extract credentials to allow the attacker to impersonate a privileged client.\nThe following versi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3e8ebb845c14c3c4",
+    "title": "CareCam CM2507",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-08",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access live video and sensitive device information, enable unauthorized services, execute arbitrary code, modify device operation, and recover sto",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2893,115 +3003,5 @@
     "summary": "As the cyber scam industry expands globally, the U.S. government wants banks to share more information about what's happening to their customers.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "b0193944a26cf0dd",
-    "title": "Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data",
-    "link": "https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-10T20:36:03.000Z",
-    "summary": "Threat actors are leveraging Microsoft's Graph API to identify lucrative targets, then passing their access to extortion groups like ShinyHunters.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "baa648020d535969",
-    "title": "September Windows Server updates break Remote Desktop Services",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/september-windows-server-updates-break-remote-desktop-services/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-10T20:34:37.000Z",
-    "summary": "Windows admins report that the September 2026 security updates are causing Remote Desktop Services (RDS) failures on Windows Server 2019, 2022, and 2025 servers, preventing users from connecting and, in some cases, requiring a hard reset to",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "026c42cbe4c7e62f",
-    "title": "Mandiant Founder Kevin Mandia Joins Amazon Board",
-    "link": "https://www.securityweek.com/mandiant-founder-kevin-mandia-joins-amazon-board/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-10T20:30:44.000Z",
-    "summary": "Mandiant founder and cybersecurity veteran brings more than 30 years of public and private sector experience to Amazon’s board.\nThe post Mandiant Founder Kevin Mandia Joins Amazon Board appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "674bef063e251fb4",
-    "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
-    "link": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-10T19:15:07.000Z",
-    "summary": "Surfshark disclosed that hackers accessed one of its internal test servers after a configuration error exposed it to the internet. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9414623aee522d6b",
-    "title": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-10T19:07:33.000Z",
-    "summary": "Microsoft Excel users report that this week's KB5002914 Office security update is breaking copy-and-paste operations and formula dragging, with affected users saying that removing or rolling back the update restores normal functionality. [.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b847bf7fde4ac7f7",
-    "title": "IDScan confirms breach after hackers offer 153 million driver’s license scans for sale",
-    "link": "https://therecord.media/idscan-data-breach-notice-drivers-licenses",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-10T18:55:00.000Z",
-    "summary": "A notice dated September 4 but not widely shared shows that IDScan acknowledged a data breach but did not specify how many people were affected.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7c120666ffd9308d",
-    "title": "Cyber Command turns to veteran of intelligence agencies for top AI role",
-    "link": "https://therecord.media/cyber-command-ai-leader-ronzelle-green",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-10T18:25:00.000Z",
-    "summary": "Ronzelle Green, most recently a senior official at the National Geospatial-Intelligence Agency, will be U.S. Cyber Command's chief AI officer.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5f8e7dcba8fcada4",
-    "title": "We've got one word for it, and it's usually the wrong one",
-    "link": "https://blog.talosintelligence.com/weve-got-one-word-for-it-and-its-usually-the-wrong-one/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-09-10T18:00:15.000Z",
-    "summary": "In this week's Threat Source newsletter, Joe explores why the word \"burnout\" often fails to capture the true toll of working in the cybersecurity industry and why we need better language to address it.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "96788d5a772f9a8a",
-    "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
-    "link": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-10T17:47:38.000Z",
-    "summary": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?”\n\nAn extension asks for access and takes too much. A trusted service becomes part of a phishing chain. An old bug still gets resu",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ae96f3d527264bf5",
-    "title": "Protecting organizations from AI-assisted executive impersonation and invoice fraud",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-09-10T17:23:05.000Z",
-    "summary": "Microsoft examines an AI-assisted business email compromise campaign that used executive impersonation and fake invoices to target finance teams with ACH payment fraud.\nThe post Protecting organizations from AI-assisted executive impersonat",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
