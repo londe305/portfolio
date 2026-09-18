@@ -33,6 +33,162 @@
     "severity": "normal"
   },
   {
+    "id": "cb9d75a33be0c951",
+    "title": "Microsoft Patches 18 Vulnerabilities in AI, Cloud Products",
+    "link": "https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-18T10:57:03.000Z",
+    "summary": "Microsoft fixed vulnerabilities across Azure and AI-branded products, with privilege escalation flaws accounting for the majority.\nThe post Microsoft Patches 18 Vulnerabilities in AI, Cloud Products appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a4aa43a6286bf9e2",
+    "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+    "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-18T10:40:06.000Z",
+    "summary": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit.\n\nThe new malware family, per OpenSourceMalware, exhibits functional",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "66f04d58b0434a72",
+    "title": "NightmareStresser DDoS Service Disrupted in International Operation",
+    "link": "https://www.securityweek.com/nightmarestresser-ddos-service-disrupted-in-international-operation/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-18T10:12:33.000Z",
+    "summary": "Active since at least 2022, NightmareStresser was one of the longest-running DDoS-for-hire services in the world.\nThe post NightmareStresser DDoS Service Disrupted in International Operation appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e153090477bae189",
+    "title": "A Vault with a Heap-View: The Uncomfortable Space Between AgentCore Harness and Identity",
+    "link": "https://unit42.paloaltonetworks.com/securing-aws-agentcore-harness-credentials/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-09-18T10:00:36.000Z",
+    "summary": "Analysis of how default configurations in AWS AgentCore Harness allow prompt injection to exfiltrate credentials, and key steps to secure your agents.\nThe post A Vault with a Heap-View: The Uncomfortable Space Between AgentCore Harness and ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "408ef5d6647039b9",
+    "title": "Brevo Supply Chain Attack Injects Malware Into 100,000 Websites",
+    "link": "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-18T09:46:57.000Z",
+    "summary": "Hackers used a compromised API key to deploy a Cloudflare worker that injected malicious scripts.\nThe post Brevo Supply Chain Attack Injects Malware Into 100,000 Websites appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "46d085b9d44f9e65",
+    "title": "New Check Point flaw lets hackers execute code with root privileges",
+    "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-18T09:34:33.000Z",
+    "summary": "Check Point Software has released security updates to address a critical vulnerability that can let attackers execute code with root privileges on management systems. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9be6eecf6db2844d",
+    "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+    "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-18T09:18:03.000Z",
+    "summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry.\n\n\"The developer likely wrote the malware using a lar",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b9492fd270bac9c4",
+    "title": "Critical Orkes Conductor Vulnerability Exploited in Attacks",
+    "link": "https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-18T08:42:18.000Z",
+    "summary": "CVE-2026-58138 is an unauthenticated remote code execution vulnerability that attackers can exploit via inline workflow definitions.\nThe post Critical Orkes Conductor Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-58138"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "b195acf073742003",
+    "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-18T07:35:31.000Z",
+    "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6ce2b4a277854b1a",
+    "title": "MIND Secures $72 Million for AI-Powered DLP",
+    "link": "https://www.securityweek.com/mind-secures-72-million-for-ai-powered-dlp/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-18T07:25:27.000Z",
+    "summary": "The company will use the funding to accelerate platform development and expand its presence in key enterprise markets.\nThe post MIND Secures $72 Million for AI-Powered DLP appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7a1a9d30597c133b",
+    "title": "Check Point, Kaspersky, Tanium Patch Product Vulnerabilities",
+    "link": "https://www.securityweek.com/check-point-kaspersky-tanium-patch-product-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-18T07:14:04.000Z",
+    "summary": "Check Point Security Management and Log Servers are affected by a critical vulnerability that can allow remote code execution with root privileges.\nThe post Check Point, Kaspersky, Tanium Patch Product Vulnerabilities appeared first on Secu",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "06d4854d19963488",
+    "title": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-18T07:00:00.000Z",
+    "summary": "AI-driven cyberattacks used to be exotic. Soon, it'll be odd if threat actors aren't using agents to do all of their bidding.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "09d722e7770098e0",
+    "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+    "link": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-18T06:17:25.000Z",
+    "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices.\n",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7c704cae3839d0ec",
+    "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
+    "link": "https://isc.sans.edu/diary/rss/33352",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-18T06:05:26.000Z",
+    "summary": "In June 2026 the IETF published RFC 10008[1], defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/2) but it's the first new standard HTTP verb since \"PATCH\" in 2010!",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "680ce1fdf7d20f77",
     "title": "ISC Stormcast For Friday, September 18th, 2026 https://isc.sans.edu/podcastdetail/10100, (Fri, Sep 18th)",
     "link": "https://isc.sans.edu/diary/rss/33350",
@@ -2845,129 +3001,6 @@
     "cveIds": [
       "CVE-2026-85102",
       "CVE-2026-85103"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "32aacccb7ed33cd2",
-    "title": "Kiteworks Acquires Bonfy.AI to Fill the AI Gap in Data Governance",
-    "link": "https://www.securityweek.com/kiteworks-acquires-bonfy-ai-to-fill-the-ai-gap-in-data-governance/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-11T10:56:16.000Z",
-    "summary": "Financials have not been disclosed, but the estimated cost is in the tens of millions of dollars.\nThe post Kiteworks Acquires Bonfy.AI to Fill the AI Gap in Data Governance appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cd0695560dd007cc",
-    "title": "Surfshark Systems Targeted by Hackers",
-    "link": "https://www.securityweek.com/surfshark-systems-targeted-by-hackers/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-11T09:41:03.000Z",
-    "summary": "A misconfigured test server containing engineering material, including internal configurations, was accessed by threat actors.\nThe post Surfshark Systems Targeted by Hackers appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bbf674a022cebfe1",
-    "title": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-11T09:39:37.000Z",
-    "summary": "Microsoft has fixed a bug that prevented Teams and Outlook from launching on ARM-based Windows devices after installing updates released since the August 2026 Patch Tuesday. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cdc88679095f83cd",
-    "title": "Anthropic Says Russian Hackers Used Claude AI to Automate Malware Evasion",
-    "link": "https://www.securityweek.com/anthropic-says-russian-hackers-used-claude-ai-to-automate-malware-evasion/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-11T08:47:07.000Z",
-    "summary": "Anthropic reveals how criminal groups are increasingly targeting AI vendors' own infrastructure, including to steal a pre-release Claude model.\nThe post Anthropic Says Russian Hackers Used Claude AI to Automate Malware Evasion appeared firs",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0691034a65402045",
-    "title": "PaperCut Flaws Exploited in AI-Powered Attacks",
-    "link": "https://www.securityweek.com/papercut-flaws-exploited-in-ai-powered-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-11T08:18:23.000Z",
-    "summary": "A Russian threat actor used AI to build, test, and deploy exploits against hundreds of organizations worldwide.\nThe post PaperCut Flaws Exploited in AI-Powered Attacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8c4dc6c73306390d",
-    "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
-    "link": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-11T07:55:15.000Z",
-    "summary": "Trezor has revealed that phishing attacks against its customers earlier this week targeted 347,000 email addresses and affected 2,500 users who clicked an embedded malicious link. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e86c593f85f71704",
-    "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
-    "link": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-11T07:31:05.000Z",
-    "summary": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security company Wiz said in a report.\n\nWiz saw t",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "795b9e4a829c207d",
-    "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
-    "link": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-11T07:14:09.000Z",
-    "summary": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital said in research publ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4e6e80ec105765cd",
-    "title": "Conti ransomware gang member sentenced to 4 years in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-11T06:48:37.000Z",
-    "summary": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f804c4cab4d2f822",
-    "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
-    "link": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-11T06:46:18.000Z",
-    "summary": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation.\n\nThe software development com",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2c47337c32fb2e80",
-    "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
-    "link": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-11T06:19:59.000Z",
-    "summary": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities.\n\nThe attacks leverage CVE-2026-20079 ",
-    "cveIds": [
-      "CVE-2026-20079"
     ],
     "severity": "critical"
   }
