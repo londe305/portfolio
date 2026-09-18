@@ -33,6 +33,173 @@
     "severity": "normal"
   },
   {
+    "id": "eb7139f191259504",
+    "title": "Gyazo server flaw exploited to steal 23.6 million user records",
+    "link": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-18T16:00:38.000Z",
+    "summary": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to steal 23.6 million user records. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2b499254cae67a24",
+    "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+    "link": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-18T15:24:16.000Z",
+    "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan.\n\nThe attacks, per Zscaler",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3e46b7fa9a5cd039",
+    "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-18T15:19:06.000Z",
+    "summary": "An ongoing malware campaign uses SEO-optimized GitHub repositories to impersonate well-known software firms to push a previously undocumented information stealer called Rapuncel. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9a9a67ee71423a33",
+    "title": "Nations take action on North Korean IT workers after UN report",
+    "link": "https://therecord.media/nations-take-action-on-north-korean-it-worker-schemes",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-18T14:29:00.000Z",
+    "summary": "A report published Wednesday said that as of July, Vietnam, Laos, Pakistan and Argentina took meaningful steps to respond to allegations involving North Korea listed in an October study.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7c0e9b13bb473f44",
+    "title": "In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack, Critical SAP Flaw",
+    "link": "https://www.securityweek.com/in-other-news-ransomware-developer-sentenced-plugin4shell-ai-attack-critical-sap-flaw/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-18T14:25:00.000Z",
+    "summary": "Noteworthy stories that might have slipped under the radar: Mandiant's 2026 AI risk report, PhantomRaven malware used by bug bounty hunter, WordPress plugin bug exploited.\nThe post In Other News: Ransomware Developer Sentenced, Plugin4Shell",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b8c4a0e3cc650597",
+    "title": "Secure enterprise sharing with access reviews for Microsoft 365",
+    "link": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-18T14:00:10.000Z",
+    "summary": "Microsoft 365 makes sharing files easy, but access can remain long after its original purpose has ended, leaving organizations with little visibility into who can still reach sensitive data. tenfold Software explains how centralized access ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a7986970ed653c59",
+    "title": "Microsoft Teams will let admins block custom file extensions",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-18T13:58:40.000Z",
+    "summary": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet their company's security requirements. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ff37aa7064aa096e",
+    "title": "Hacking group ‘NightEagle’ targeting China’s high-tech sector expands operations to Russia",
+    "link": "https://therecord.media/hacking-group-nighteagle-expands-russia-china",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-18T13:24:00.000Z",
+    "summary": "Over the past year, Russian cybersecurity firm Kaspersky said it investigated several incidents involving the group at Russian businesses.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5b3ebf43f1a568ff",
+    "title": "Webinar: Which Google Workspace security controls actually matter?",
+    "link": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-18T13:10:19.000Z",
+    "summary": "Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This webinar examines real-world breaches to explore which security controls matter most, which may be overr",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d12dd718a0ca78aa",
+    "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+    "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-18T12:47:04.000Z",
+    "summary": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required.\n\nThe vulnerability, tracked as CVE-2026-85889, carries a CVSS sco",
+    "cveIds": [
+      "CVE-2026-85889"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "e7c456c35a10b391",
+    "title": "AI-Built Exploit and Sign-In Flaw Opened Path to Internal OpenAI Code",
+    "link": "https://www.securityweek.com/ai-built-exploit-and-sign-in-flaw-opened-path-to-internal-openai-code/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-18T12:45:24.000Z",
+    "summary": "Hacktron researchers earned a bug bounty after demonstrating access to OpenAI employee accounts. \nThe post AI-Built Exploit and Sign-In Flaw Opened Path to Internal OpenAI Code appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b56e8f4dad14c86f",
+    "title": "Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-18T12:16:32.000Z",
+    "summary": "Microsoft has resolved a known issue that causes incorrect alerts warning that Defender Antivirus was turned off after installing recent updates. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d7f28bbb55007259",
+    "title": "23 Million User Records Compromised in Gyazo Data Breach",
+    "link": "https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-18T11:38:40.000Z",
+    "summary": "Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access.\nThe post 23 Million User Records Compromised in Gyazo Data Breach  appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2293bcd53a9679f6",
+    "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
+    "link": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-18T11:01:16.000Z",
+    "summary": "In July 2025, someone registered a domain that used to belong to a content delivery network.  The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thou",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e85403db91bc4b90",
+    "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+    "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-18T11:01:01.000Z",
+    "summary": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm Air",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "cb9d75a33be0c951",
     "title": "Microsoft Patches 18 Vulnerabilities in AI, Cloud Products",
     "link": "https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/",
@@ -1466,6 +1633,94 @@
     "severity": "normal"
   },
   {
+    "id": "da2db5292be5e0f1",
+    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (16 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1179/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de se",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "218f1894a697978e",
+    "title": "Vulnérabilité dans StrongSwan (16 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1180/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans StrongSwan. Elle permet à un attaquant de provoquer un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f0ebcc48a4d39b6e",
+    "title": "Vulnérabilité dans Netgate pfSense (16 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1181/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Netgate pfSense. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d7af4dbf28a1929f",
+    "title": "Multiples vulnérabilités dans Oracle Database Server (16 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1184/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Database Server. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5216cce9d8db3f83",
+    "title": "Multiples vulnérabilités dans Oracle Java SE (16 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1185/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "61bf809f61389a7e",
+    "title": "Multiples vulnérabilités dans Oracle Weblogic (16 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1186/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8e21531c420b0145",
+    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (16 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1187/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4df63b71b3d24402",
+    "title": "Multiples vulnérabilités dans Oracle Virtualization (16 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1188/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f3463d1e16101b1a",
     "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
     "link": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
@@ -2506,28 +2761,6 @@
     "severity": "normal"
   },
   {
-    "id": "74b1db891697c013",
-    "title": "Multiples vulnérabilités dans Squid (14 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1168/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Squid. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et un contournement de la politique de sécurité",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "deb78230f2ea1836",
-    "title": "Multiples vulnérabilités dans MongoDB (14 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1169/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des donn",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "8876d815c8fa464f",
     "title": "Multiples vulnérabilités dans MISP (14 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1170/",
@@ -2557,6 +2790,28 @@
     "category": "advisory",
     "pubDate": "2026-09-14T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Python. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la poli",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "74b1db891697c013",
+    "title": "Multiples vulnérabilités dans Squid (14 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1168/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Squid. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et un contournement de la politique de sécurité",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "deb78230f2ea1836",
+    "title": "Multiples vulnérabilités dans MongoDB (14 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1169/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des donn",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2830,178 +3085,5 @@
     "summary": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax.\n\nKnowledge distillatio",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "009376dbc313fbfa",
-    "title": "GitLab Vulnerability Exploited One Day After Disclosure",
-    "link": "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-11T16:11:08.000Z",
-    "summary": "The critical-severity path traversal flaw allows unauthenticated attackers to read arbitrary files from the GitLab server.\nThe post GitLab Vulnerability Exploited One Day After Disclosure appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "88dd12e21e1357f9",
-    "title": "Papercut AI Swarm Attack Heralds Changes for Cyber Kill Chain",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/papercut-ai-swarm-attack-cyber-kill-chain",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-11T15:48:27.000Z",
-    "summary": "From creating lab environments for staging and testing agentic attacks to reconnaissance to lateral movement and exfiltration, the most innovative attackers are widely incorporating AI.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ff1776cad8bafcdf",
-    "title": "The Self-Expanding Stolen Inference Supply Chain: An AI Agent Harvesting and Re-Serving LLM Access, (Fri, Sep 11th)",
-    "link": "https://isc.sans.edu/diary/rss/33332",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-11T14:40:32.000Z",
-    "summary": "I identified an attacker using a semi-autonomous coding agent to run an offensive operation: finding poorly secured LLM resale gateways, acquiring API access through ordinary web flaws and account farming, validating the resulting inference",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7d9c766ebea8ab09",
-    "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-    "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-11T14:29:47.000Z",
-    "summary": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026.\n\nThe threat actors, which the",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "231dff4f0510038c",
-    "title": "In Other News: InjectEave Attack, SIM Swapper Sentenced, Glasswing Findings Review",
-    "link": "https://www.securityweek.com/in-other-news-injecteave-attack-sim-swapper-sentenced-glasswing-findings-review/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-11T14:19:18.000Z",
-    "summary": "Noteworthy stories that might have slipped under the radar: Invisible Unicode slips past phishing filters, US puts $10 million bounty on Iranian cyber official, military ties of Chinese hacking group QTFY.\nThe post In Other News: InjectEave",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4697000491090f0e",
-    "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-    "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-11T14:10:20.000Z",
-    "summary": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve.\n\nThe operation has been attributed to a ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "297d870d94504c17",
-    "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
-    "link": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-11T14:01:11.000Z",
-    "summary": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponized Claude Artifacts, shared AI conversa",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "44a8108e0c55ecaf",
-    "title": "Trezor Says 347,000 Users Received Phishing Emails After Brevo Hack",
-    "link": "https://www.securityweek.com/trezor-says-347000-users-received-phishing-emails-after-brevo-hack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-11T12:48:04.000Z",
-    "summary": "Hackers compromised the Brevo marketing platform and used that access to send phishing emails to users of Trezor, BitBox, and CoinTracking.\nThe post Trezor Says 347,000 Users Received Phishing Emails After Brevo Hack appeared first on Secur",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "56454511200e2e4b",
-    "title": "Anthropic caught Russia-linked spies using Claude in hacking operations",
-    "link": "https://therecord.media/anthropic-russia-hackers-claude",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-11T12:45:00.000Z",
-    "summary": "Anthropic detected and disrupted a Russia-linked cyber-espionage group that used its AI tool Claude in a hacking campaign targeting more than 20 government, intelligence, diplomatic and defense organizations.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "62beac1c0708e09a",
-    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-11T12:00:00.000Z",
-    "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-42016 JFrog Artifactory Incorrect Authorization Vulnerability \nCVE-2026-42018 JFrog Artifactor",
-    "cveIds": [
-      "CVE-2026-42016",
-      "CVE-2026-42018"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "aaf6e13c3e8bd994",
-    "title": "Ukrainian hacker gets four years in US prison over Conti ransomware attacks",
-    "link": "https://therecord.media/conti-ransomware-ukraine-hacker",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-11T12:00:00.000Z",
-    "summary": "A Ukrainian national was sentenced to four years in a U.S. prison for his role in the notorious Conti ransomware operation, which targeted more than 1,000 victims worldwide before shutting down in 2022.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d46374ed9c116c25",
-    "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
-    "link": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-11T11:30:00.000Z",
-    "summary": "Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually create a path to compromise.\n\nA critical vu",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5e0d3b8da8cc12e5",
-    "title": "Ukrainian Conti Ransomware Developer Sentenced to 4 Years in US Prison",
-    "link": "https://www.securityweek.com/ukrainian-conti-ransomware-developer-sentenced-to-4-years-in-us-prison/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-11T11:29:09.000Z",
-    "summary": "Oleksii Oleksiyovych Lytvynenko has been sentenced to 4 years in prison after he was arrested in Ireland in 2023.\nThe post Ukrainian Conti Ransomware Developer Sentenced to 4 Years in US Prison appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4e654ce0e06f1986",
-    "title": "GitLab urges users to patch max severity path traversal flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-11T11:15:22.000Z",
-    "summary": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...]",
-    "cveIds": [
-      "CVE-2026-85706"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "01e4968da57b3162",
-    "title": "Check Point Patches Critical VPN Vulnerabilities",
-    "link": "https://www.securityweek.com/check-point-patches-critical-vpn-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-11T11:10:02.000Z",
-    "summary": "Tracked as CVE-2026-85102 and CVE-2026-85103, the flaws could be exploited for remote code execution.\nThe post Check Point Patches Critical VPN Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-85102",
-      "CVE-2026-85103"
-    ],
-    "severity": "critical"
   }
 ]
