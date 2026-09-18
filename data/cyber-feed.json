@@ -33,6 +33,50 @@
     "severity": "normal"
   },
   {
+    "id": "680ce1fdf7d20f77",
+    "title": "ISC Stormcast For Friday, September 18th, 2026 https://isc.sans.edu/podcastdetail/10100, (Fri, Sep 18th)",
+    "link": "https://isc.sans.edu/diary/rss/33350",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-18T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c9c87b84069c0472",
+    "title": "Inside the Modern SOC: Defending the Cross-Environment Pivot",
+    "link": "https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-09-17T22:00:33.000Z",
+    "summary": "Cross-environment attacks demand a new approach to security operations. Learn how Unit 42 Managed XSIAM helps SOC teams investigate complete attack paths.\nThe post Inside the Modern SOC: Defending the Cross-Environment Pivot appeared first ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f07e895780858599",
+    "title": "New RatHat Android malware uses AI to automate device control",
+    "link": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-17T21:50:26.000Z",
+    "summary": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c4d1050d54740e68",
+    "title": "CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus",
+    "link": "https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-17T21:23:50.000Z",
+    "summary": "The move is consistent with the agency's advice on the need for organizations to prioritize the vulnerabilities that actually matter.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "9595e8c47d81ad2b",
     "title": "European Commission set to push social media restrictions, safety requirements into law",
     "link": "https://therecord.media/european-commission-set-to-push-social-media-kids-restrictions-into-law",
@@ -66,6 +110,17 @@
     "severity": "normal"
   },
   {
+    "id": "1e55db8feb2f683c",
+    "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+    "link": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-17T18:08:28.000Z",
+    "summary": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network.\n\nThe Security Management Server is the system that contro",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "692ee407bfd06c50",
     "title": "Should you care about an “AI slowdown?”",
     "link": "https://blog.talosintelligence.com/should-you-care-about-an-ai-slowdown/",
@@ -73,6 +128,17 @@
     "category": "vendor",
     "pubDate": "2026-09-17T18:00:23.000Z",
     "summary": "In this week's Threat Source, David talks about why focusing on your security basics is still your best bet, even in a world with rapid AI advancements.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b8d74fa73401e916",
+    "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+    "link": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-17T17:32:22.000Z",
+    "summary": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them.\n\nThis week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attac",
     "cveIds": [],
     "severity": "normal"
   },
@@ -143,6 +209,17 @@
     "severity": "normal"
   },
   {
+    "id": "798545531ef0616a",
+    "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+    "link": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-17T15:37:56.000Z",
+    "summary": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a security announcement on September 15.\n\nThe es",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "573f361a7e547265",
     "title": "LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)",
     "link": "https://isc.sans.edu/diary/rss/33348",
@@ -161,6 +238,17 @@
     "category": "news",
     "pubDate": "2026-09-17T14:28:00.000Z",
     "summary": "The decision follows BOD 26-04, which directs federal organizations to prioritize vulnerabilities based on real-world risk.\nThe post CISA Retires Weekly Vulnerability Bulletin in Risk-Based Pivot appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "16c199c012695b99",
+    "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
+    "link": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-17T14:03:13.000Z",
+    "summary": "The Iran-linked \"hacktivist\" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE.\n\n\"HEAVYGRAM offers builtin commands supporting remot",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2882,126 +2970,5 @@
       "CVE-2026-20079"
     ],
     "severity": "critical"
-  },
-  {
-    "id": "4e12ffa953584157",
-    "title": "ISC Stormcast For Friday, September 11th, 2026 https://isc.sans.edu/podcastdetail/10090, (Fri, Sep 11th)",
-    "link": "https://isc.sans.edu/diary/rss/33330",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-11T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2c66a93007dd1e9c",
-    "title": "Indonesia Hit by Android Banking App-Cloning Campaign",
-    "link": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-11T01:00:00.000Z",
-    "summary": "The GoldFactory threat group exploits the Android Work Profile feature to deliver the Gigabud Trojan, while Mantax Otax spreads separately.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ef845f7f2f9bbd15",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (11 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1162/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à l'intégrité des donnée",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c17254a7f139a927",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (11 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1163/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de servi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "653a098243cda13a",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (11 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1164/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "90a6cc67b11bb0cd",
-    "title": "Multiples vulnérabilités dans les produits IBM (11 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1165/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9300a7e68e00bf8a",
-    "title": "Multiples vulnérabilités dans les produits Fortinet (11 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1166/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Fortinet. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dist",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "eb6d7177757ade83",
-    "title": "Multiples vulnérabilités dans GitLab (11 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1160/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c6668d3599bf4ed2",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (11 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1161/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-11T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fe542af9fcc558fc",
-    "title": "New Android malware encrypts files, steals data, and harasses victims",
-    "link": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-10T21:40:43.000Z",
-    "summary": "A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8ad6b0fa361ca2bc",
-    "title": "Treasury urges banks to file cyber scam reports, noting nearly $13 billion in losses since 2023",
-    "link": "https://therecord.media/treasury-urges-banks-report-cyber-scams",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-10T21:15:00.000Z",
-    "summary": "As the cyber scam industry expands globally, the U.S. government wants banks to share more information about what's happening to their customers.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
