@@ -2998,16 +2998,5 @@
     "summary": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx.\n\nOn May 12, Maciej Mensfeld, seni",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "62cd06ab22627973",
-    "title": "Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says",
-    "link": "https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-12T01:50:53.000Z",
-    "summary": "Anthropic said the users did not succeed in “fielding an operational device” but did carry out a failed test of a guided rocket.\nThe post Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says appeared first on",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
