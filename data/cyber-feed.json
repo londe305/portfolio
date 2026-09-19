@@ -33,6 +33,63 @@
     "severity": "normal"
   },
   {
+    "id": "d36262dc668404e0",
+    "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-19T08:18:54.000Z",
+    "summary": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet.\n\nThe vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates to a case of unauth",
+    "cveIds": [
+      "CVE-2026-58138"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "71746d073e508b6a",
+    "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+    "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-19T07:51:34.000Z",
+    "summary": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal.\n\nThe inc",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bf0f679dfdf491d7",
+    "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+    "link": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-19T07:14:54.000Z",
+    "summary": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec said on September 18.\n\nThe French security company had kept his GitHub access open. CrowdSec says ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9de6b003d2fd18fe",
+    "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-19T06:24:10.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7c704cae3839d0ec",
+    "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
+    "link": "https://isc.sans.edu/diary/rss/33352",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-19T04:51:46.000Z",
+    "summary": "In June 2026 the IETF published RFC 10008[1], defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it's the first new standard HTTP verb since \"PATCH\" in 2010!",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "db8364d968460c74",
     "title": "Vectra AI Launches Ascent to Help Address New Era of AI-Driven Attacks",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/vectra-ai-launches-ascent-new-era-ai-driven-attacks",
@@ -438,17 +495,6 @@
     "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices.\n",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "7c704cae3839d0ec",
-    "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
-    "link": "https://isc.sans.edu/diary/rss/33352",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-18T06:05:26.000Z",
-    "summary": "In June 2026 the IETF published RFC 10008[1], defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/2) but it's the first new standard HTTP verb since \"PATCH\" in 2010!",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "b0608796e0fe9a6f",
@@ -2976,27 +3022,5 @@
     "summary": "Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments.\nThe post BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "07d948111ef17178",
-    "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
-    "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-12T10:24:44.000Z",
-    "summary": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks against AI, but the ordina",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8a8c14f1ab782874",
-    "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
-    "link": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-12T09:07:56.000Z",
-    "summary": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx.\n\nOn May 12, Maciej Mensfeld, seni",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
