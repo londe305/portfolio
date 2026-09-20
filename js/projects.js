@@ -49,13 +49,13 @@ export function renderBlogs() {
   const grid = document.getElementById('blogsGrid');
   if (!grid) return;
   grid.innerHTML = BLOGS.map(b => `
-    <div class="b-card" data-blog-id="${b.id}">
+    <button type="button" class="b-card" data-blog-id="${b.id}">
       <div class="b-emoji">${b.emoji}</div>
       <div class="b-title">${b.title}</div>
       <div class="b-desc">${b.desc}</div>
       <div class="b-tags">${b.tags.map(t => `<span class="b-tag">${t}</span>`).join('')}</div>
       <div class="b-meta">📅 ${b.date} · ⏱️ ${b.time}</div>
-    </div>`).join('');
+    </button>`).join('');
 }
 
 export function openModal(id) {

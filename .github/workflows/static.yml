@@ -37,7 +37,7 @@ jobs:
         run: |
           mkdir -p _site
           shopt -s extglob dotglob
-          cp -r !(scripts|AGENTS.md|.git|.github|.gitignore|.claude|node_modules|package.json|package-lock.json|_site) _site/
+          cp -r !(scripts|AGENTS.md|.git|.github|.gitignore|.claude|node_modules|_site) _site/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

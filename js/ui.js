@@ -70,6 +70,9 @@ export function initLightbox() {
 /* ---- Fond animé : circuit imprimé (PCB) avec pulses électriques (canvas) ---- */
 
 export function initNetworkCanvas(){
+/* Le CSS masque déjà #bg-canvas sous prefers-reduced-motion — inutile de
+   faire tourner la boucle d'animation (et son coût CPU) derrière. */
+if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 /* roundRect polyfill for older Safari */
 if(!CanvasRenderingContext2D.prototype.roundRect){CanvasRenderingContext2D.prototype.roundRect=function(x,y,w,h,r){r=Math.min(r,w/2,h/2);this.moveTo(x+r,y);this.lineTo(x+w-r,y);this.quadraticCurveTo(x+w,y,x+w,y+r);this.lineTo(x+w,y+h-r);this.quadraticCurveTo(x+w,y+h,x+w-r,y+h);this.lineTo(x+r,y+h);this.quadraticCurveTo(x,y+h,x,y+h-r);this.lineTo(x,y+r);this.quadraticCurveTo(x,y,x+r,y);this.closePath();};}
 const cv=document.getElementById('bg-canvas'),c=cv.getContext('2d');
@@ -281,6 +284,11 @@ window.addEventListener('resize',()=>{
     cancelAnimationFrame(raf);
     W=cv.width=newW;H=cv.height=newH;build();loop();
   },150);
+});
+/* Pas de rendu (ni de CPU/GPU) pendant que l'onglet est masqué. */
+document.addEventListener('visibilitychange',()=>{
+  if(document.hidden){ cancelAnimationFrame(raf); }
+  else { computeTextZone(); raf=requestAnimationFrame(loop); }
 });
 init();
 }

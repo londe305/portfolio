@@ -274,9 +274,9 @@ export const translations = {
     /* === CONTACT === */
     "contact.title": "[=== CONTACT ===]",
     "contact.sub": "Disponible pour des questions, collaborations ou opportunités professionnelles.",
-    "contact.nom": "Nom : <strong>Londé Balossa Lotus Espoir</strong>",
-    "contact.email": "Email : <a href=\"mailto:londe305@gmail.com\">londe305@gmail.com</a>",
-    "contact.linkedin": "LinkedIn : <a href=\"https://www.linkedin.com/in/lotus-espoir-lond%C3%A9-balossa-980048383/\" target=\"_blank\" rel=\"noopener\">Mon Profil LinkedIn</a>",
+    "contact.nom": "Londé Balossa Lotus Espoir",
+    "contact.email": "londe305@gmail.com",
+    "contact.linkedin": "Mon Profil LinkedIn",
   },
 
   en: {
@@ -552,9 +552,9 @@ export const translations = {
     /* === CONTACT === */
     "contact.title": "[=== CONTACT ===]",
     "contact.sub": "Available for questions, collaborations or professional opportunities.",
-    "contact.nom": "Name: <strong>Londé Balossa Lotus Espoir</strong>",
-    "contact.email": "Email: <a href=\"mailto:londe305@gmail.com\">londe305@gmail.com</a>",
-    "contact.linkedin": "LinkedIn: <a href=\"https://www.linkedin.com/in/lotus-espoir-lond%C3%A9-balossa-980048383/\" target=\"_blank\" rel=\"noopener\">My LinkedIn Profile</a>",
+    "contact.nom": "Londé Balossa Lotus Espoir",
+    "contact.email": "londe305@gmail.com",
+    "contact.linkedin": "My LinkedIn Profile",
   },
 };
 

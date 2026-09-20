@@ -3,6 +3,7 @@
 ===================================================== */
 
 .b-card{
+  display:block;width:100%;text-align:left;
   background:var(--card);border:1px solid var(--border);
   border-radius:16px;padding:1.25rem;cursor:pointer;
   transition:border-color .25s,transform .25s,box-shadow .25s;

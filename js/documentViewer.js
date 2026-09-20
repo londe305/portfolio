@@ -10,6 +10,12 @@
 
 const PDFJS_VERSION = '3.11.174';
 const PDFJS_BASE = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${PDFJS_VERSION}`;
+/* Intégrité du script principal, vérifiée par le navigateur avant exécution
+   (défense en profondeur si le CDN venait à être compromis). Le worker
+   (pdf.worker.min.js) est chargé via `new Worker(url)` par pdf.js lui-même :
+   l'API Worker ne supporte pas encore l'attribut integrity, donc seul le
+   script principal peut être protégé ainsi. */
+const PDFJS_SRI = 'sha384-/1qUCSGwTur9vjf/z9lmu/eCUYbpOTgSjmpbMQZ1/CtX2v/WcAIKqRv+U1DUCG6e';
 const SWIPE_THRESHOLD = 48;
 
 /* Un document par sous-partie de projet. `file: null` = pas encore
@@ -59,6 +65,8 @@ function loadPdfJs() {
   pdfjsLoadPromise = new Promise((resolve, reject) => {
     const script = document.createElement('script');
     script.src = `${PDFJS_BASE}/pdf.min.js`;
+    script.integrity = PDFJS_SRI;
+    script.crossOrigin = 'anonymous';
     script.onload = () => {
       window.pdfjsLib.GlobalWorkerOptions.workerSrc = `${PDFJS_BASE}/pdf.worker.min.js`;
       resolve(window.pdfjsLib);
