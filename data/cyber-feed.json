@@ -33,6 +33,28 @@
     "severity": "normal"
   },
   {
+    "id": "5abf59fedffa2476",
+    "title": "Malicious npm packages evade install-script defenses at runtime",
+    "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-20T14:11:21.000Z",
+    "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "533b089bb91a7157",
+    "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
+    "link": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-20T12:00:00.000Z",
+    "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "cc2fd48c518b89fd",
     "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
     "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
@@ -3048,30 +3070,6 @@
     "category": "news",
     "pubDate": "2026-09-13T21:36:00.000Z",
     "summary": "The largest electronic spy agency in the world is reorganizing. And fast.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d26b4c1b12e7bb46",
-    "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-13T14:26:32.000Z",
-    "summary": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]",
-    "cveIds": [
-      "CVE-2026-51990"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "39200ce3f8f5c522",
-    "title": "Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up",
-    "link": "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-13T13:27:25.000Z",
-    "summary": "Dario Amodei warned that within six to 12 months AI could be capable of leading a swarm of agents that could take over the entire internet.\nThe post Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up ",
     "cveIds": [],
     "severity": "normal"
   }
