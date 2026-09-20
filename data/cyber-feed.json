@@ -3074,16 +3074,5 @@
     "summary": "Dario Amodei warned that within six to 12 months AI could be capable of leading a swarm of agents that could take over the entire internet.\nThe post Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up ",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "8d32a587d798415e",
-    "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-    "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-13T10:11:48.000Z",
-    "summary": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments.\n\n",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
