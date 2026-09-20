@@ -4,6 +4,13 @@ on:
   schedule:
     - cron: "0 */3 * * *"   # toutes les 3 heures
   workflow_dispatch:         # déclenchement manuel depuis l'onglet Actions
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/cyberveille/**'
+      - '.github/workflows/cyberveille-feed.yml'
+      - 'data/cyber-feed.json'
+      - 'data/cyber-meta.json'
 
 permissions:
   contents: write
@@ -21,6 +28,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -37,12 +46,13 @@ jobs:
 
       - name: Commit et push si data/ a changé
         run: |
-          if [ -n "$(git status --porcelain ../../data)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add ../../data/cyber-feed.json ../../data/cyber-meta.json
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/cyber-feed.json data/cyber-meta.json
+
+          if git diff --cached --quiet -- data/cyber-feed.json data/cyber-meta.json; then
+            echo "Aucun changement à publier."
+          else
             git commit -m "chore(cyberveille): mise à jour automatique du flux RSS"
             git push
-          else
-            echo "Aucun changement à publier."
           fi
