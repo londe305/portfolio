@@ -1,5 +1,93 @@
 [
   {
+    "id": "1d5de0afef18b09f",
+    "title": "Rust Team Members and Popular Crate Owners Targeted via Video Calls",
+    "link": "https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-21T11:57:35.000Z",
+    "summary": "It’s unclear if the attacks are part of previous campaigns against Rust, but the techniques used by the attackers match those used by North Korea.\nThe post Rust Team Members and Popular Crate Owners Targeted via Video Calls appeared first o",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "408c2d26746ffff2",
+    "title": "Microsoft: September updates break File History backup feature",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-21T11:45:54.000Z",
+    "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "235c3bfe61f78d61",
+    "title": "CrowdSec Confirms Source Code Stolen in Supply Chain Attack",
+    "link": "https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-21T10:55:46.000Z",
+    "summary": "The cybersecurity firm believes the data breach was the result of the May 2026 TanStack supply chain attack.\nThe post CrowdSec Confirms Source Code Stolen in Supply Chain Attack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "24ce00a915220f78",
+    "title": "TerminalFix: PNG Steganography, (Mon, Sep 21st)",
+    "link": "https://isc.sans.edu/diary/rss/33318",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-21T10:33:53.000Z",
+    "summary": "Microsoft Security Research published an interesting blog post \"TerminalFix campaign deploys a reverse tunnel through multistage intrusion\" about a malware campaign. The aspect that I want to take a closer look at, is the fact that the thre",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eead72d75bb84bd6",
+    "title": "Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems",
+    "link": "https://www.securityweek.com/colorado-water-utilities-hit-by-cyberattacks-targeting-ot-systems/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-21T10:03:44.000Z",
+    "summary": "The hackers changed equipment settings, disabled remote access and alarms, and altered pumping cycles, officials said. \nThe post Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5e7190318dbce365",
+    "title": "From Exposure to Lockdown: How AWS Neutralizes Compromised IAM Credentials through Managed Policies",
+    "link": "https://unit42.paloaltonetworks.com/detecting-exposed-aws-iam-credentials/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-09-21T10:00:13.000Z",
+    "summary": "We explore how AWS neutralizes exposed IAM credentials using managed policies, detailing GitHub secret scanning and CloudTrail monitoring strategies.\nThe post From Exposure to Lockdown: How AWS Neutralizes Compromised IAM Credentials throug",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "05bda9131044907e",
+    "title": "Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities",
+    "link": "https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-21T09:31:12.000Z",
+    "summary": "Attackers could exploit the flaws to cause denial-of-service conditions, disclose memory, or modify memory.\nThe post Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "466b4f516547fabd",
+    "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+    "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-21T08:39:38.000Z",
+    "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript.\n\n\"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f5aa1e458d2eec0c",
     "title": "Google Confirms Gemini AI Breached Three Firms",
     "link": "https://www.securityweek.com/google-confirms-gemini-ai-breached-three-firms/",
@@ -29,6 +117,17 @@
     "category": "advisory",
     "pubDate": "2026-09-21T05:15:12.000Z",
     "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "54e68042a04d56ec",
+    "title": "Russia reports thousands of cyberattacks on election infrastructure during vote",
+    "link": "https://therecord.media/russia-reports-cyberattacks-during-election",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-20T23:00:00.000Z",
+    "summary": "Claims by officials of cyberattacks against election infrastructure could not be independently verified. Russian officials provided little technical evidence about the attacks or who it claimed who was behind them.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1345,17 +1444,6 @@
     "category": "news",
     "pubDate": "2026-09-14T16:41:10.000Z",
     "summary": "Dario Amodei says it's time to slow the pace of frontier AI improvements so that security and risk prevention efforts can catch up. What does this mean for enterprises?",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a08438a7ab1a57d4",
-    "title": "Unmasking Cloud Identities: From Behavioral Clustering to Automated Detection",
-    "link": "https://unit42.paloaltonetworks.com/behavioral-clustering-map-to-cloud-identities/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-09-14T10:00:01.000Z",
-    "summary": "We designed a behavioral clustering model to map cloud identity roles from audit logs, enabling continuous threat detection using standard SQL queries.\nThe post Unmasking Cloud Identities: From Behavioral Clustering to Automated Detection a",
     "cveIds": [],
     "severity": "normal"
   }
