@@ -58,8 +58,21 @@ function bindEscapeHandler() {
     if (e.key !== 'Escape') return;
     closeBlogModal();
     closeDocViewer();
-    document.getElementById('diff-modal')?.classList.add('hidden');
+    document.dispatchEvent(new Event('portfolio-close-difficulty'));
     closeMenu();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Tab') return;
+    const modal = document.querySelector('.modal.open, #lightbox:not(.hidden)');
+    if (!modal) return;
+    const focusable = [...modal.querySelectorAll('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])')]
+      .filter(el => !el.hidden && el.getClientRects().length);
+    if (!focusable.length) return;
+    const first = focusable[0];
+    const last = focusable.at(-1);
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
   });
 }
 

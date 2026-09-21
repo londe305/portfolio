@@ -26,6 +26,9 @@ body.menu-open,body.modal-open{overflow:hidden}
 a{color:var(--c);text-decoration:none}
 a:hover{text-decoration:underline}
 :focus-visible{outline:2px solid var(--c);outline-offset:2px;border-radius:4px}
+.skip-link{position:fixed;z-index:400;top:.75rem;left:.75rem;transform:translateY(-160%);padding:.65rem .9rem;border-radius:8px;background:var(--c);color:#00110f;font-weight:700;transition:transform .2s}
+.skip-link:focus{transform:translateY(0)}
+.noscript-notice{position:relative;z-index:2;margin:1rem;padding:1rem;border:1px solid var(--border-h);border-radius:10px;background:var(--bg2);color:var(--text)}
 strong{color:#fff}
 ul{padding-left:1.2rem}
 li{margin-bottom:.35rem;line-height:1.75}

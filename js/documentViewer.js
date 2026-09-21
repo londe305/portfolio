@@ -8,6 +8,8 @@
    comme pour data/cyber-feed.json en lecture statique).
 ===================================================== */
 
+import { syncModalBodyState } from './utils.js';
+
 const PDFJS_VERSION = '3.11.174';
 const PDFJS_BASE = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${PDFJS_VERSION}`;
 /* Intégrité du script principal, vérifiée par le navigateur avant exécution
@@ -31,13 +33,16 @@ export const DOCUMENT_SETS = {
 let viewerInitialized = false;
 let pdfjsLoadPromise = null;
 let resizeTimer = null;
+let viewerOpener = null;
 
 const state = {
   pdf: null,
   pageNum: 1,
   pageCount: 0,
   rendering: false,
-  pendingPage: null
+  pendingPage: null,
+  requestId: 0,
+  loadingTask: null
 };
 
 function findDoc(setKey, docId) {
@@ -71,7 +76,10 @@ function loadPdfJs() {
       window.pdfjsLib.GlobalWorkerOptions.workerSrc = `${PDFJS_BASE}/pdf.worker.min.js`;
       resolve(window.pdfjsLib);
     };
-    script.onerror = () => reject(new Error('PDF.js indisponible (CDN injoignable)'));
+    script.onerror = () => {
+      pdfjsLoadPromise = null;
+      reject(new Error('PDF.js indisponible (CDN injoignable)'));
+    };
     document.head.appendChild(script);
   });
   return pdfjsLoadPromise;
@@ -90,14 +98,16 @@ function updateHUD() {
   if (next) next.disabled = state.pageNum >= state.pageCount;
 }
 
-function renderPage(num) {
+function renderPage(num, requestId = state.requestId) {
   const { canvas, canvasWrap } = els();
-  if (!canvas || !state.pdf) return;
+  if (!canvas || !state.pdf || requestId !== state.requestId) return;
   if (state.rendering) { state.pendingPage = num; return; }
+  const pdf = state.pdf;
   state.rendering = true;
   setStatus('…');
 
-  state.pdf.getPage(num).then(page => {
+  pdf.getPage(num).then(page => {
+    if (requestId !== state.requestId || pdf !== state.pdf) return null;
     const ctx = canvas.getContext('2d');
     const baseViewport = page.getViewport({ scale: 1 });
     const targetWidth = (canvasWrap?.clientWidth || baseViewport.width) - 16;
@@ -116,18 +126,20 @@ function renderPage(num) {
       transform: dpr !== 1 ? [dpr, 0, 0, dpr, 0, 0] : undefined
     }).promise;
   }).then(() => {
+    if (requestId !== state.requestId || pdf !== state.pdf) return;
     state.rendering = false;
     setStatus('');
     updateHUD();
     if (state.pendingPage !== null) {
       const next = state.pendingPage;
       state.pendingPage = null;
-      renderPage(next);
+      renderPage(next, requestId);
     }
   }).catch(err => {
+    if (requestId !== state.requestId) return;
     state.rendering = false;
     console.error('[documentViewer] Échec du rendu de page:', err);
-    setStatus('⚠️');
+    setStatus('Impossible de charger ce document. Réessayez plus tard ou téléchargez le PDF.');
   });
 }
 
@@ -143,19 +155,35 @@ function goTo(num) {
 export function closeDocViewer() {
   const { modal } = els();
   if (!modal) return;
+  state.requestId += 1;
+  state.loadingTask?.destroy?.();
+  state.loadingTask = null;
+  state.pdf?.destroy?.();
   modal.classList.remove('open');
-  document.body.classList.remove('modal-open');
+  modal.setAttribute('aria-hidden', 'true');
+  syncModalBodyState();
   state.pdf = null;
   state.pageNum = 1;
   state.pageCount = 0;
+  state.rendering = false;
+  state.pendingPage = null;
+  if (viewerOpener?.isConnected) viewerOpener.focus();
+  viewerOpener = null;
 }
 
-export async function openDocument(setKey, docId, label) {
+export async function openDocument(setKey, docId, label, opener = document.activeElement) {
   const doc = findDoc(setKey, docId);
   if (!doc || !doc.file) return;
 
   const { modal, title, download, canvas } = els();
   if (!modal) return;
+
+  state.requestId += 1;
+  const requestId = state.requestId;
+  state.loadingTask?.destroy?.();
+  state.pdf?.destroy?.();
+  state.pdf = null;
+  viewerOpener = opener;
 
   if (title) title.textContent = label || '';
   if (download) {
@@ -165,18 +193,26 @@ export async function openDocument(setKey, docId, label) {
   if (canvas) canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height);
 
   modal.classList.add('open');
-  document.body.classList.add('modal-open');
+  modal.setAttribute('aria-hidden', 'false');
+  syncModalBodyState();
   setStatus('…');
+  modal.querySelector('[data-action="close-doc"]')?.focus();
 
   try {
     const pdfjsLib = await loadPdfJs();
-    const pdf = await pdfjsLib.getDocument(doc.file).promise;
+    if (requestId !== state.requestId) return;
+    const loadingTask = pdfjsLib.getDocument(doc.file);
+    state.loadingTask = loadingTask;
+    const pdf = await loadingTask.promise;
+    if (requestId !== state.requestId) { pdf.destroy?.(); return; }
+    state.loadingTask = null;
     state.pdf = pdf;
     state.pageCount = pdf.numPages;
     state.pageNum = 1;
     updateHUD();
-    renderPage(1);
+    renderPage(1, requestId);
   } catch (err) {
+    if (requestId !== state.requestId || err?.name === 'AbortException') return;
     console.error('[documentViewer] Échec du chargement du PDF:', err);
     setStatus('⚠️');
   }
@@ -186,7 +222,7 @@ function handleDelegatedClick(e) {
   const opener = e.target.closest('[data-doc-set][data-doc-id]');
   if (opener) {
     const label = opener.querySelector('.doc-item-title');
-    openDocument(opener.dataset.docSet, opener.dataset.docId, label ? label.textContent : '');
+    openDocument(opener.dataset.docSet, opener.dataset.docId, label ? label.textContent : '', opener);
     return;
   }
   if (e.target.closest('[data-action="close-doc"]')) { closeDocViewer(); return; }

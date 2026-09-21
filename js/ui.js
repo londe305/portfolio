@@ -3,7 +3,7 @@
    (circuit imprimé).
 ===================================================== */
 
-import { $, $$ } from './utils.js';
+import { $, $$, syncModalBodyState } from './utils.js';
 
 /* ---- Lightbox visionneuse d'images ---- */
 
@@ -18,6 +18,7 @@ export function initLightbox() {
   if (!lightbox || !galleryImages.length) return;
 
   let currentIndex = 0;
+  let lightboxOpener = null;
 
   function showImg(index) {
     currentIndex = index;
@@ -26,15 +27,20 @@ export function initLightbox() {
   }
 
   function openLightbox(index) {
+    lightboxOpener = document.activeElement;
     showImg(index);
     lightbox.classList.remove('hidden');
     lightbox.setAttribute('aria-hidden', 'false');
+    syncModalBodyState();
     btnClose?.focus();
   }
 
   function closeLightbox() {
     lightbox.classList.add('hidden');
     lightbox.setAttribute('aria-hidden', 'true');
+    syncModalBodyState();
+    if (lightboxOpener?.isConnected) lightboxOpener.focus();
+    lightboxOpener = null;
   }
 
   function nextImg() {
@@ -47,8 +53,18 @@ export function initLightbox() {
     showImg((currentIndex - 1 + galleryImages.length) % galleryImages.length);
   }
 
-  // Clic sur chaque image de la galerie
-  galleryImages.forEach((img, i) => img.addEventListener('click', () => openLightbox(i)));
+  // Une image est un contrôle de zoom accessible à la souris et au clavier.
+  galleryImages.forEach((img, i) => {
+    img.tabIndex = 0;
+    img.setAttribute('role', 'button');
+    img.setAttribute('aria-haspopup', 'dialog');
+    img.addEventListener('click', () => openLightbox(i));
+    img.addEventListener('keydown', e => {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      e.preventDefault();
+      openLightbox(i);
+    });
+  });
 
   // Contrôles lightbox
   btnClose?.addEventListener('click', closeLightbox);
@@ -76,7 +92,7 @@ if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').ma
 /* roundRect polyfill for older Safari */
 if(!CanvasRenderingContext2D.prototype.roundRect){CanvasRenderingContext2D.prototype.roundRect=function(x,y,w,h,r){r=Math.min(r,w/2,h/2);this.moveTo(x+r,y);this.lineTo(x+w-r,y);this.quadraticCurveTo(x+w,y,x+w,y+r);this.lineTo(x+w,y+h-r);this.quadraticCurveTo(x+w,y+h,x+w-r,y+h);this.lineTo(x+r,y+h);this.quadraticCurveTo(x,y+h,x,y+h-r);this.lineTo(x,y+r);this.quadraticCurveTo(x,y,x+r,y);this.closePath();};}
 const cv=document.getElementById('bg-canvas'),c=cv.getContext('2d');
-let W,H,raf,frame=0,nodes=[],edges=[],packets=[],formulas=[],textZone=null;
+let W,H,raf,frame=0,lastPaint=0,nodes=[],edges=[],packets=[],formulas=[],textZone=null;
 const TEAL='#00f5d4',ORG='#ff6b35',PRP='#7b61ff';
 
 /* Repère la zone de texte actuellement à l'écran (colonne de titre du hero)
@@ -203,7 +219,9 @@ function build(){
   }
 }
 
-function loop(){
+function loop(timestamp=0){
+  if(timestamp-lastPaint<33){raf=requestAnimationFrame(loop);return;}
+  lastPaint=timestamp;
   frame++;
   c.fillStyle='#080c14';c.fillRect(0,0,W,H);
   [{x:.15,y:.3,r:.42,col:'rgba(0,245,212,.018)'},{x:.85,y:.65,r:.38,col:'rgba(0,180,216,.014)'}].forEach(o=>{

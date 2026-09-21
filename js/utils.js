@@ -70,3 +70,8 @@ export const safeStorage = {
 
 export const $  = (selector, root = document) => root.querySelector(selector);
 export const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
+
+export function syncModalBodyState() {
+  const hasOpenModal = Boolean(document.querySelector('.modal.open, #diff-modal:not(.hidden), #lightbox:not(.hidden)'));
+  document.body.classList.toggle('modal-open', hasOpenModal);
+}

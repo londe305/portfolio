@@ -9,8 +9,6 @@ on:
     paths:
       - 'scripts/cyberveille/**'
       - '.github/workflows/cyberveille-feed.yml'
-      - 'data/cyber-feed.json'
-      - 'data/cyber-meta.json'
 
 permissions:
   contents: write
@@ -45,6 +43,7 @@ jobs:
         run: node fetch-feed.mjs
 
       - name: Commit et push si data/ a changé
+        working-directory: .
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

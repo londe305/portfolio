@@ -1,3 +1,5 @@
+import { syncModalBodyState } from './utils.js';
+
 /* =====================================================
    projects.js — Project/Crystal/Zero-Trust tab content
    and the Blogs grid + article modal.
@@ -45,6 +47,8 @@ export const BLOGS = [
 <p>Zabbix a détecté plusieurs anomalies : scans réseau depuis le VLAN Users, tentatives SSH non autorisées, et une interface tombée à cause d'un câble mal branché. Alerté en moins de 60 secondes.</p>` }
 ];
 
+let blogOpener = null;
+
 export function renderBlogs() {
   const grid = document.getElementById('blogsGrid');
   if (!grid) return;
@@ -58,7 +62,7 @@ export function renderBlogs() {
     </button>`).join('');
 }
 
-export function openModal(id) {
+export function openModal(id, opener = document.activeElement) {
   const blog = BLOGS.find(x => x.id === id);
   const modal = document.getElementById('blogModal');
   const emojiEl = document.getElementById('mEmoji');
@@ -72,19 +76,27 @@ export function openModal(id) {
   titleEl.textContent = blog.title;
   metaEl.textContent = `${blog.date} · ${blog.time} · ${blog.tags.join(', ')}`;
   bodyEl.innerHTML = blog.body;
+  blogOpener = opener;
   modal.classList.add('open');
-  document.body.classList.add('modal-open');
+  modal.setAttribute('aria-hidden', 'false');
+  syncModalBodyState();
+  modal.querySelector('[data-action="close-modal"]')?.focus();
 }
 
 export function closeModal() {
   const modal = document.getElementById('blogModal');
-  if (modal) modal.classList.remove('open');
-  document.body.classList.remove('modal-open');
+  if (modal) {
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+  }
+  syncModalBodyState();
+  if (blogOpener?.isConnected) blogOpener.focus();
+  blogOpener = null;
 }
 
 function handleDelegatedClick(e) {
   const card = e.target.closest('[data-blog-id]');
-  if (card) { openModal(Number(card.dataset.blogId)); return; }
+  if (card) { openModal(Number(card.dataset.blogId), card); return; }
 
   if (e.target.closest('[data-action="close-modal"]')) { closeModal(); return; }
 

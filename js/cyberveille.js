@@ -24,6 +24,21 @@ const state = {
   criticalOnly: true
 };
 
+function isSafeHttpUrl(value) {
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' || url.protocol === 'http:';
+  } catch {
+    return false;
+  }
+}
+
+function isValidItem(item) {
+  return item && typeof item.title === 'string' && typeof item.source === 'string'
+    && typeof item.summary === 'string' && isSafeHttpUrl(item.link)
+    && Number.isFinite(new Date(item.pubDate).getTime());
+}
+
 /* ---- Utilitaires date ---- */
 
 function dayKey(iso) {
@@ -60,6 +75,7 @@ function getRecent() {
 }
 
 function recordRecent(item) {
+  if (!isSafeHttpUrl(item.link)) return;
   const list = getRecent().filter(r => r.link !== item.link);
   list.unshift({ title: item.title, link: item.link, source: item.source });
   safeStorage.setJSON(RECENT_KEY, list.slice(0, RECENT_MAX));
@@ -76,6 +92,7 @@ function renderRecent() {
   }
   container.innerHTML = '';
   list.forEach(item => {
+    if (!isSafeHttpUrl(item.link)) return;
     const a = document.createElement('a');
     a.className = 'cv-recent-item';
     a.href = item.link;
@@ -94,12 +111,25 @@ function buildCard(item) {
 
   const meta = document.createElement('div');
   meta.className = 'cv-card-meta';
-  meta.innerHTML = `<span class="cv-source">${item.source}</span><span class="cv-date">${new Date(item.pubDate).toLocaleDateString('fr-FR')}</span>`;
+  const source = document.createElement('span');
+  source.className = 'cv-source';
+  source.textContent = item.source;
+  const date = document.createElement('span');
+  date.className = 'cv-date';
+  date.textContent = new Date(item.pubDate).toLocaleDateString('fr-FR');
+  meta.append(source, date);
   if (item.severity === 'critical') {
-    meta.innerHTML += '<span class="cv-badge critical">🚨 CRITIQUE</span>';
+    const badge = document.createElement('span');
+    badge.className = 'cv-badge critical';
+    badge.textContent = '🚨 CRITIQUE';
+    meta.appendChild(badge);
   }
-  (item.cveIds || []).forEach(cve => {
-    meta.innerHTML += `<span class="cv-badge cve">${cve}</span>`;
+  (Array.isArray(item.cveIds) ? item.cveIds : []).forEach(cve => {
+    if (!/^CVE-\d{4}-\d{4,7}$/i.test(cve)) return;
+    const badge = document.createElement('span');
+    badge.className = 'cv-badge cve';
+    badge.textContent = cve;
+    meta.appendChild(badge);
   });
 
   const link = document.createElement('a');
@@ -258,7 +288,12 @@ export async function initCyberveille() {
       return;
     }
 
-    state.items = [...items].sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+    state.items = items.filter(isValidItem).sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+    if (!state.items.length) {
+      renderFallback();
+      renderRecent();
+      return;
+    }
 
     const todayKey = dayKey(new Date().toISOString());
     state.dayFilter = state.items.some(item => dayKey(item.pubDate) === todayKey) ? todayKey : null;

@@ -23,6 +23,7 @@ const FEED_FILE = path.join(DATA_DIR, 'cyber-feed.json');
 const META_FILE = path.join(DATA_DIR, 'cyber-meta.json');
 
 const RETENTION_MS = 7 * 24 * 60 * 60 * 1000; // 7 jours
+const MAX_FUTURE_MS = 24 * 60 * 60 * 1000; // tolère les fuseaux et publications imminentes
 const MAX_ITEMS = 400;
 const FETCH_TIMEOUT_MS = 15000;
 
@@ -67,7 +68,9 @@ async function fetchOneSource(source) {
     const items = (feed.items || []).slice(0, 20).map(item => {
       const title = (item.title || 'Sans titre').trim();
       const link = item.link || item.guid || '';
-      const pubDate = item.isoDate || (item.pubDate ? new Date(item.pubDate).toISOString() : null);
+      const rawDate = item.isoDate || item.pubDate;
+      const timestamp = rawDate ? new Date(rawDate).getTime() : NaN;
+      const pubDate = Number.isFinite(timestamp) ? new Date(timestamp).toISOString() : null;
       const summary = (item.contentSnippet || item.summary || '').trim().slice(0, 240);
       const { cveIds, severity } = detectSeverity(`${title} ${summary}`, source.category);
       return {
@@ -82,7 +85,7 @@ async function fetchOneSource(source) {
         severity,
         titleKey: normalizeTitle(title)
       };
-    }).filter(item => item.link && item.pubDate);
+    }).filter(item => /^https?:\/\//i.test(item.link) && item.pubDate);
     return { name: source.name, ok: true, itemCount: items.length, items };
   } catch (err) {
     return { name: source.name, ok: false, itemCount: 0, items: [], error: err.message };
@@ -127,7 +130,10 @@ async function main() {
   const cutoff = Date.now() - RETENTION_MS;
 
   const merged = dedupe([...fetched, ...existing])
-    .filter(item => item.pubDate && new Date(item.pubDate).getTime() >= cutoff)
+    .filter(item => {
+      const timestamp = new Date(item.pubDate).getTime();
+      return Number.isFinite(timestamp) && timestamp >= cutoff && timestamp <= Date.now() + MAX_FUTURE_MS;
+    })
     .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate))
     .slice(0, MAX_ITEMS)
     .map(({ titleKey, ...rest }) => rest); // titleKey ne sert qu'à la dédup, pas utile en sortie

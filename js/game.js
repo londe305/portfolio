@@ -2,7 +2,7 @@
    game.js — Jeu Dino SIO
 ===================================================== */
 
-import { $, safeStorage } from './utils.js';
+import { $, $$, safeStorage, syncModalBodyState } from './utils.js';
 
 export function initGame() {
   const canvas = $('#dino-canvas');
@@ -16,9 +16,13 @@ export function initGame() {
   const btnRestart = $('.btn-restart');
   const btnDiff    = $('.btn-difficulty');
   const modal      = $('#diff-modal');
-  const btnClose   = $('.btn-close-modal');
+  const btnClose   = $$('.btn-close-modal');
 
-  const levels   = ['CP','CE1','CE2','CM1','CM2','6e','5e','4e','3e','Seconde','Première','Terminale'];
+  const levelSets = {
+    fr: ['CP','CE1','CE2','CM1','CM2','6e','5e','4e','3e','Seconde','Première','Terminale'],
+    en: ['Year 1','Year 2','Year 3','Year 4','Year 5','Year 6','Year 7','Year 8','Year 9','Year 10','Year 11','Year 12']
+  };
+  let levels = levelSets[document.documentElement.lang] || levelSets.fr;
   const GROUND_Y = canvas.height - 30;
   const DINO     = { x: 40, y: GROUND_Y - 30, w: 26, h: 30, vy: 0, onGround: true, eyeBlinkT: 0, scale: 1 };
   const GRAVITY  = 1200, JUMP_VY = -520, OB_MIN_H = 22, OB_MAX_H = 46, OB_W = 22;
@@ -225,19 +229,44 @@ export function initGame() {
 
   // Contrôles clavier
   window.addEventListener('keydown', (e) => {
+    if (document.activeElement !== canvas) return;
     if (e.code === 'Space' || e.code === 'ArrowUp') { e.preventDefault(); jump(); }
   });
 
   // Contrôles tactiles/souris sur le canvas (compatible mobile)
-  canvas.addEventListener('pointerdown', jump);
+  canvas.addEventListener('pointerdown', () => { canvas.focus(); jump(); });
   canvas.addEventListener('touchstart',  (e) => { e.preventDefault(); jump(); }, { passive: false });
 
   // Boutons UI
   btnStart?.addEventListener('click',   ()  => start());
   btnRestart?.addEventListener('click', ()  => { reset(); start(); });
-  btnDiff?.addEventListener('click',    ()  => modal?.classList.remove('hidden'));
-  btnClose?.addEventListener('click',   ()  => modal?.classList.add('hidden'));
-  modal?.addEventListener('click', (e) => { if (e.target === modal) modal.classList.add('hidden'); });
+  function closeDifficultyModal({ restoreFocus = true } = {}) {
+    const wasOpen = Boolean(modal && !modal.classList.contains('hidden'));
+    modal?.classList.add('hidden');
+    modal?.setAttribute('aria-hidden', 'true');
+    syncModalBodyState();
+    if (wasOpen && restoreFocus) btnDiff?.focus();
+  }
+
+  btnDiff?.addEventListener('click', () => {
+    modal?.classList.remove('hidden');
+    modal?.setAttribute('aria-hidden', 'false');
+    syncModalBodyState();
+    modal?.querySelector('.btn-close-modal')?.focus();
+  });
+  btnClose.forEach(button => button.addEventListener('click', () => closeDifficultyModal()));
+  modal?.addEventListener('click', (e) => {
+    if (e.target !== modal) return;
+    closeDifficultyModal();
+  });
+
+  document.addEventListener('portfolio-close-difficulty', () => closeDifficultyModal());
+
+  document.addEventListener('portfolio-language-change', (e) => {
+    levels = levelSets[e.detail.lang] || levelSets.fr;
+    updateHUD();
+    render();
+  });
 
   reset();
   return { resume, pause, reset };

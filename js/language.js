@@ -32,6 +32,16 @@ export const translations = {
     "home.title": "[=== BIENVENUE ===]",
     "home.welcome": "Bienvenue sur le portfolio de <strong>Londé Balossa Lotus Espoir</strong>.",
     "home.instructions": "Utilise le menu en haut pour naviguer.",
+    "hero.skill.network": "Réseaux — VLAN, ACL, routage",
+    "hero.skill.security": "Cybersécurité / Zero Trust",
+    "hero.skill.systems": "Linux / Windows Server",
+    "hero.skill.monitoring": "Zabbix / supervision SNMP",
+    "hero.skill.scripting": "Scripting / IaC",
+    "hero.stat.projects": "Projets",
+    "hero.stat.certs": "Certifs",
+    "hero.stat.languages": "Langues",
+    "hero.term.role": "Londé — Alternant DSI Transdev",
+    "hero.term.skills": "Zero Trust, SD-WAN, Zabbix",
     /* === APROPOS === */
     "apropos.title": "[=== À PROPOS ===]",
     "apropos.sub": "Profil, enjeux des infrastructures &amp; vision future.",
@@ -310,6 +320,16 @@ export const translations = {
     "home.title": "[=== WELCOME ===]",
     "home.welcome": "Welcome to the portfolio of <strong>Londé Balossa Lotus Espoir</strong>.",
     "home.instructions": "Use the top navigation menu to explore the portfolio.",
+    "hero.skill.network": "Networks — VLAN, ACL, routing",
+    "hero.skill.security": "Cybersecurity / Zero Trust",
+    "hero.skill.systems": "Linux / Windows Server",
+    "hero.skill.monitoring": "Zabbix / SNMP monitoring",
+    "hero.skill.scripting": "Scripting / IaC",
+    "hero.stat.projects": "Projects",
+    "hero.stat.certs": "Certs",
+    "hero.stat.languages": "Languages",
+    "hero.term.role": "Londé — Transdev IT apprentice",
+    "hero.term.skills": "Zero Trust, SD-WAN, Zabbix",
     /* === APROPOS === */
     "apropos.title": "[=== ABOUT ===]",
     "apropos.sub": "Profile, network infrastructure challenges &amp; future vision.",
@@ -582,6 +602,7 @@ export function setLanguage(lang){
     const entry = translations[lang][key];
     if (entry !== undefined) el.innerHTML = entry;
   });
+  document.dispatchEvent(new CustomEvent('portfolio-language-change', { detail: { lang } }));
 }
 
 export function initLanguage(){

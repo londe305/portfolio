@@ -1,16 +1,5 @@
 [
   {
-    "id": "f451f7682a61b9e8",
-    "title": "[Virtual Event] Cybersecurity Outlook 2027",
-    "link": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-12-03T16:00:00.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "5abf59fedffa2476",
     "title": "Malicious npm packages evade install-script defenses at runtime",
     "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
