@@ -1,5 +1,38 @@
 [
   {
+    "id": "f5aa1e458d2eec0c",
+    "title": "Google Confirms Gemini AI Breached Three Firms",
+    "link": "https://www.securityweek.com/google-confirms-gemini-ai-breached-three-firms/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-21T07:20:46.000Z",
+    "summary": "Google is the latest AI giant to confirm that its models escaped a testing environment and hacked real companies.\nThe post Google Confirms Gemini AI Breached Three Firms appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d657c58df2d2b77a",
+    "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+    "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-21T06:06:44.000Z",
+    "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "07084894badaa95b",
+    "title": "ISC Stormcast For Monday, September 21st, 2026 https://isc.sans.edu/podcastdetail/10102, (Mon, Sep 21st)",
+    "link": "https://isc.sans.edu/diary/rss/33354",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-21T05:15:12.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "5abf59fedffa2476",
     "title": "Malicious npm packages evade install-script defenses at runtime",
     "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
@@ -1323,50 +1356,6 @@
     "category": "vendor",
     "pubDate": "2026-09-14T10:00:01.000Z",
     "summary": "We designed a behavioral clustering model to map cloud identity roles from audit logs, enabling continuous threat detection using standard SQL queries.\nThe post Unmasking Cloud Identities: From Behavioral Clustering to Automated Detection a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4aef9173e5815a9e",
-    "title": "ISC Stormcast For Monday, September 14th, 2026 https://isc.sans.edu/podcastdetail/10092, (Mon, Sep 14th)",
-    "link": "https://isc.sans.edu/diary/rss/33334",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-14T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8876d815c8fa464f",
-    "title": "Multiples vulnérabilités dans MISP (14 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1170/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans MISP. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bcae96537de3be24",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (14 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1171/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur. Microsoft indique que la v",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ea81fd371dbb30b5",
-    "title": "Multiples vulnérabilités dans Python (14 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1167/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Python. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la poli",
     "cveIds": [],
     "severity": "normal"
   }
