@@ -1,5 +1,49 @@
 [
   {
+    "id": "961e3a5a473dae9e",
+    "title": "How AI Agents Can Trigger Runaway Costs for Enterprises",
+    "link": "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-21T21:39:59.000Z",
+    "summary": "Unbounded consumption is an issue that OWASP currently ranks sixth in its Top 10 for LLM Applications, and it could be an extremely costly one.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1a49f4625fa1204c",
+    "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+    "link": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-21T21:18:49.000Z",
+    "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "26767520db52c222",
+    "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-21T20:12:17.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "556946de78a2cd3d",
+    "title": "ShinyHunters Hacked Clop. Now What About Clop's Victims?",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-21T20:07:56.000Z",
+    "summary": "ShinyHunters defaced Clop's Dark Web site and claims to have stolen victim data, potentially exposing organizations that paid ransoms to renewed extortion attempts.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "8a5e1ae31aff4908",
     "title": "EU data regulator fines Google more than $460 million for location data violations",
     "link": "https://therecord.media/google-europe-location-data-fine",
@@ -251,6 +295,19 @@
     "summary": "The malware relies on AI for real-time device navigation and control, increasing adaptability and evasion.\nThe post RatHat Android Trojan Uses AI for Automation appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "da155613153e64ee",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-21T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-7273 Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability\nThis type of vulnerabi",
+    "cveIds": [
+      "CVE-2026-7273"
+    ],
+    "severity": "cve"
   },
   {
     "id": "1d5de0afef18b09f",
@@ -779,19 +836,6 @@
     "severity": "cve"
   },
   {
-    "id": "9c6cbcf843e4036f",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-18T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2025-39682 Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability\nThis type of",
-    "cveIds": [
-      "CVE-2025-39682"
-    ],
-    "severity": "cve"
-  },
-  {
     "id": "d7f28bbb55007259",
     "title": "23 Million User Records Compromised in Gyazo Data Breach",
     "link": "https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach/",
@@ -1135,72 +1179,6 @@
     "severity": "normal"
   },
   {
-    "id": "785927a16a901465",
-    "title": "ABB Ability Edgenius",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a publicly reported vulnerability. CVE‑2026‑3143",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9fad9afc6cab3025",
-    "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected product by sending specially crafted packets under specific ti",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "99263027c76943f3",
-    "title": "Schneider Electric PowerChute Serial Shutdown",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enabling graceful system shutdown and energy management capabili",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f77a9af7e80377e1",
-    "title": "Mitsubishi Electric GX Works3 and Motion Control Settings",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affected product and modify part of the executable module in memo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8a3a8a1be8142c39",
-    "title": "Hitachi Energy FACTS Control Platform (FCP)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nHitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerabilities can cause impact on confidentiality, integrity and a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ef9be23140d71f8b",
-    "title": "Schneider Electric NetBotz 5 750/755",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak, smoke, vibration, ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "cbb151dc21ab2b6d",
     "title": "Schneider Electric Modicon M340 Controller and Communication Modules",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
@@ -1208,6 +1186,17 @@
     "category": "advisory",
     "pubDate": "2026-09-17T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its Modicon M340 https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/, BMXNOR0200H https://www.se.com/us/en/product/BMXNOR0200H/communication-module-modicon-m340-i",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "785927a16a901465",
+    "title": "ABB Ability Edgenius",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a publicly reported vulnerability. CVE‑2026‑3143",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1224,6 +1213,61 @@
       "CVE-2026-86689"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "99263027c76943f3",
+    "title": "Schneider Electric PowerChute Serial Shutdown",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enabling graceful system shutdown and energy management capabili",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ef9be23140d71f8b",
+    "title": "Schneider Electric NetBotz 5 750/755",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak, smoke, vibration, ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8a3a8a1be8142c39",
+    "title": "Hitachi Energy FACTS Control Platform (FCP)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nHitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerabilities can cause impact on confidentiality, integrity and a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f77a9af7e80377e1",
+    "title": "Mitsubishi Electric GX Works3 and Motion Control Settings",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affected product and modify part of the executable module in memo",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9fad9afc6cab3025",
+    "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected product by sending specially crafted packets under specific ti",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "73645a02bd834719",
@@ -1556,6 +1600,28 @@
     "severity": "normal"
   },
   {
+    "id": "911d7d42fc6fa0e9",
+    "title": "Schneider Electric SCADAPack x70 Products",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its SCADAPack x70 products. The SCADAPack 47x, SCADAPack 47xi, SCADAPack 47xd, SCADAPack 470R and SCADAPack 57x products are Remote Terminal Units that provide communicatio",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3e8ebb845c14c3c4",
+    "title": "CareCam CM2507",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-08",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access live video and sensitive device information, enable unauthorized services, execute arbitrary code, modify device operation, and recover sto",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "faf9fc8217fb1f13",
     "title": "Siemens Reyrolle 7SR5",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-05",
@@ -1574,28 +1640,6 @@
     "category": "advisory",
     "pubDate": "2026-09-15T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access privileged management functions or send arbitrary SMS messages through the connected GSM modem.\nThe following versions of mySCADA myPRO Man",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3e8ebb845c14c3c4",
-    "title": "CareCam CM2507",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-08",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access live video and sensitive device information, enable unauthorized services, execute arbitrary code, modify device operation, and recover sto",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "911d7d42fc6fa0e9",
-    "title": "Schneider Electric SCADAPack x70 Products",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its SCADAPack x70 products. The SCADAPack 47x, SCADAPack 47xi, SCADAPack 47xd, SCADAPack 470R and SCADAPack 57x products are Remote Terminal Units that provide communicatio",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1686,29 +1730,5 @@
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une injection SQL (SQLi). ",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "2084a36d335402ea",
-    "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-14T21:37:28.000Z",
-    "summary": "The notorious Russian threat group is spreading an upgraded version of the botnet malware, which the FBI disrupted in 2022.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5f97d945d337f284",
-    "title": "Maximum Severity GitLab Flaw Puts Supply Chains at Risk",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/maximum-severity-gitlab-flaw-supply-chains-risk",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-14T20:19:22.000Z",
-    "summary": "CVE-2026-85706 is a path traversal vulnerability with a 10 out of 10 CVSS score, affecting both GitLab Community Edition and Enterprise Edition instances.",
-    "cveIds": [
-      "CVE-2026-85706"
-    ],
-    "severity": "cve"
   }
 ]
