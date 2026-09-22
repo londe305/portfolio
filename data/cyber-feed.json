@@ -1,5 +1,126 @@
 [
   {
+    "id": "1be24efe0bef7eb4",
+    "title": "WordPress Patches ‘Click2Shell’ Vulnerability",
+    "link": "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-22T10:22:27.000Z",
+    "summary": "The bug lets attackers automatically install and preview themes and could lead to remote code execution.\nThe post WordPress Patches ‘Click2Shell’ Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4c4cb6380811cfc6",
+    "title": "The Closed Quorum: Inside the first reported autonomous AI C2 implant",
+    "link": "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-09-22T10:00:58.000Z",
+    "summary": "CLOSEDQUORUM, a malware binary discovered through Cisco Talos’ CAIRN project, exhibits fully autonomous command and control (C2). It represents a shift in effort displacement for attackers, in which expanding portions of the attack chain ca",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "851affdd497a2b7c",
+    "title": "Introducing CAIRN: Frontier tracking for AI-integrated malware",
+    "link": "https://blog.talosintelligence.com/introducing-cairn-frontier-tracking-for-ai-integrated-malware/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-09-22T10:00:25.000Z",
+    "summary": "Talos is releasing CAIRN, a research toolkit for hunting, classifying, and tracking emerging AI-integrated malware.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9ec5079fab2a5abd",
+    "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+    "link": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-22T09:55:11.000Z",
+    "summary": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b8f1171f5339eec8",
+    "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+    "link": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-22T09:38:18.000Z",
+    "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent secur",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3ddf58e86effeea4",
+    "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-22T08:53:09.000Z",
+    "summary": "​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a51bfa53bb0a5bd5",
+    "title": "Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme",
+    "link": "https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-22T08:37:06.000Z",
+    "summary": "The US, Japan, Germany and Australia have published a joint report detailing the scope of North Korea’s WaterPlum campaign.\nThe post Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme appeared first on Secu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8ccc97a0b799dc80",
+    "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+    "link": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-22T07:52:03.000Z",
+    "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.\n\n\"SideCopy campaign operations typically initiate through ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "29d5f15551dff7ef",
+    "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+    "link": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-22T06:33:57.000Z",
+    "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a proof-of-concept released on September 21.\n\nIt works by chang",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "55802aa585913013",
+    "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+    "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-22T06:03:14.000Z",
+    "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.\n\nWordPress fixed the flaw, ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "27cf32c8eeb84703",
+    "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+    "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-22T05:31:59.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6de6106c8cb63bf2",
     "title": "ISC Stormcast For Tuesday, September 22nd, 2026 https://isc.sans.edu/podcastdetail/10104, (Tue, Sep 22nd)",
     "link": "https://isc.sans.edu/diary/rss/33356",
