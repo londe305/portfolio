@@ -1,5 +1,27 @@
 [
   {
+    "id": "6de6106c8cb63bf2",
+    "title": "ISC Stormcast For Tuesday, September 22nd, 2026 https://isc.sans.edu/podcastdetail/10104, (Tue, Sep 22nd)",
+    "link": "https://isc.sans.edu/diary/rss/33356",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-22T03:50:10.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "108d12ca4ae942ea",
+    "title": "US Proposes AI Incident Alert System in Talks With China, Bessent Says",
+    "link": "https://www.securityweek.com/us-proposes-ai-incident-alert-system-in-talks-with-china-bessent-says/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-22T02:01:24.000Z",
+    "summary": "Trump has resisted calls to slow down AI development, saying that would help China catch up to U.S. companies.\nThe post US Proposes AI Incident Alert System in Talks With China, Bessent Says appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "961e3a5a473dae9e",
     "title": "How AI Agents Can Trigger Runaway Costs for Enterprises",
     "link": "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs",
@@ -1673,61 +1695,6 @@
     "category": "advisory",
     "pubDate": "2026-09-15T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could grant full administrative control of the device, allowing an attacker to view live and recorded surveillance, alter device configurations, and use the device as a netw",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0c65945d487424c1",
-    "title": "ISC Stormcast For Tuesday, September 15th, 2026 https://isc.sans.edu/podcastdetail/10094, (Tue, Sep 15th)",
-    "link": "https://isc.sans.edu/diary/rss/33338",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-15T02:25:12.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "70357a538bcb69cf",
-    "title": "Multiples vulnérabilités dans les produits Apple (15 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1172/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distanc",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "060dc512d8d30977",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (15 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1173/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3169a631992eaf82",
-    "title": "Vulnérabilité dans Microsoft Windows (15 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1174/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-15T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Microsoft Windows. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f2bceeb18439fdc3",
-    "title": "Multiples vulnérabilités dans les produits Cisco (15 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1175/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une injection SQL (SQLi). ",
     "cveIds": [],
     "severity": "normal"
   }
