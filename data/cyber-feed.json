@@ -1,5 +1,172 @@
 [
   {
+    "id": "6a783479a6e49b7b",
+    "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
+    "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-22T20:35:24.000Z",
+    "summary": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive data from 996 devices and more than 18,500 records stored in backend databases. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "da2613f7ae841eae",
+    "title": "Microsoft Disrupts EvilTokens Device Code Phishing Service",
+    "link": "https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-22T20:02:02.000Z",
+    "summary": "Microsoft seized 50 websites and disabled more than 150 domains as part of a coordinated disruption effort against a phishing-as-a-service platform targeting Microsoft 365 accounts.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0061c7d17c926a5a",
+    "title": "Canadian regulator opens probe of IDScan for allegedly violating data privacy laws",
+    "link": "https://therecord.media/canadian-regulator-opens-probe-of-idscan-following-data-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-22T19:52:00.000Z",
+    "summary": "The investigation, announced Monday, will probe IDScan’s security practices and whether victim notifications were adequate under Canada’s federal private-sector privacy law, the regulator said in a press release.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "69879410fc78a38e",
+    "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-22T19:13:29.000Z",
+    "summary": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "10cc5a04310895e0",
+    "title": "The Truth about GET and HTTP Standards, (Tue, Sep 22nd)",
+    "link": "https://isc.sans.edu/diary/rss/33358",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-22T19:06:15.000Z",
+    "summary": "On Friday, Xavier talked about the newly introduced HTTP Query method. This new method was introduced to allow \"GET\" requests that include a body. The main reason for this was that GET requests typically do not contain a body. But what if t",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "767190fea91564fa",
+    "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+    "link": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-22T18:29:39.000Z",
+    "summary": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said.\n\nThe flaw, CVE-2026-93616, allows an attacker who can access the server's web service t",
+    "cveIds": [
+      "CVE-2026-93616"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "e30c0cffbd325e16",
+    "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
+    "link": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-22T18:04:39.000Z",
+    "summary": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ddea315ed260eaaf",
+    "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
+    "link": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-22T18:03:10.000Z",
+    "summary": "WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders.\n\nOn some servers, that can go further, allowing the attacker to run their own code. T",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4c4975005e97cd7c",
+    "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
+    "link": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-22T17:58:15.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dace937c271171a5",
+    "title": "BigCommerce Data Stolen via Ribon Apps Hack",
+    "link": "https://www.securityweek.com/bigcommerce-data-stolen-via-ribon-apps-hack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-22T17:58:00.000Z",
+    "summary": "The attackers used a compromised BigCommerce application key held by Ribon to access customer data.\nThe post BigCommerce Data Stolen via Ribon Apps Hack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8c4e4ffe7f8c0dfd",
+    "title": "Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-22T17:32:49.000Z",
+    "summary": "Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4e315a001d19e9f6",
+    "title": "Reducing shadow IT visibility gaps with Wazuh",
+    "link": "https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-22T17:17:41.000Z",
+    "summary": "Shadow IT can leave security teams unaware of unmanaged endpoints, unauthorized software, and other assets that fall outside existing monitoring. Wazuh explains how endpoint inventory, agentless monitoring, and centralized analysis can help",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a089dce24e36ecc7",
+    "title": "Amid Ongoing Rogue Incidents, Debate Over AI Safety Gets Real",
+    "link": "https://www.darkreading.com/cyber-risk/rogue-incidents-debate-ai-safety-gets-real",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-22T17:12:26.000Z",
+    "summary": "As more reports of misalignment incidents underscore AI risks, large AI labs, regular businesses, and even nations are searching for better ways to keep control and be secure.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f069687e4a1d7fdb",
+    "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+    "link": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-22T17:03:31.000Z",
+    "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\"\n\nThe action, carried out with authorization from the U.S. Distric",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "375f4910d184ba60",
+    "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+    "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-22T16:41:12.000Z",
+    "summary": "A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request.\n\nThe flaw, tra",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "4bf76d6234439f9d",
     "title": "Check Point warns of Management Server zero-day exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
@@ -7,6 +174,17 @@
     "category": "news",
     "pubDate": "2026-09-22T16:32:47.000Z",
     "summary": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run arbitrary scripts. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d1d540cc10415e57",
+    "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
+    "link": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-22T16:14:04.000Z",
+    "summary": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was published on GitHub on September 19.\n\nThe tool, called BigDiskBuster, has no patch, no CVE",
     "cveIds": [],
     "severity": "critical"
   },
@@ -40,17 +218,6 @@
     "category": "vendor",
     "pubDate": "2026-09-22T15:00:00.000Z",
     "summary": "EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) fa",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "10cc5a04310895e0",
-    "title": "The Truth about GET and HTTP Standards, (Tue, Sep 22nd)",
-    "link": "https://isc.sans.edu/diary/rss/33358",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-22T14:48:38.000Z",
-    "summary": "On Friday, Xavier talked about the newly introduced HTTP Query method. This new method was introduced to allow \"GET\" requests that include a body. The main reason for this was that GET requests typically do not contain a body. But what if t",
     "cveIds": [],
     "severity": "normal"
   },
@@ -200,6 +367,20 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow the attacker to control the programmable logic controller a",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "cb8f3e70f70baa44",
+    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/22/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-22T12:00:00.000Z",
+    "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-85102 Check Point Multiple Products Improper Certificate Validation Vulnerability\nCVE-2026-9361",
+    "cveIds": [
+      "CVE-2026-85102",
+      "CVE-2026-9361"
+    ],
+    "severity": "cve"
   },
   {
     "id": "ad6f750640b1b395",
@@ -513,12 +694,12 @@
   },
   {
     "id": "556946de78a2cd3d",
-    "title": "ShinyHunters Hacked Clop. Now What About Clop's Victims?",
+    "title": "ShinyHunters Hacked Cl0p. Now What About Cl0p's Victims?",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims",
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-09-21T20:07:56.000Z",
-    "summary": "ShinyHunters defaced Clop's Dark Web site and claims to have stolen victim data, potentially exposing organizations that paid ransoms to renewed extortion attempts.",
+    "summary": "ShinyHunters defaced Cl0p's Dark Web site and claims to have stolen victim data, potentially exposing organizations that paid ransoms to renewed extortion attempts.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1658,6 +1839,17 @@
     "severity": "normal"
   },
   {
+    "id": "ef9be23140d71f8b",
+    "title": "Schneider Electric NetBotz 5 750/755",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak, smoke, vibration, ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "53f589c9be8cee97",
     "title": "Bransys ELD",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
@@ -1672,17 +1864,6 @@
     "severity": "cve"
   },
   {
-    "id": "8a3a8a1be8142c39",
-    "title": "Hitachi Energy FACTS Control Platform (FCP)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nHitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerabilities can cause impact on confidentiality, integrity and a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "9fad9afc6cab3025",
     "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
@@ -1694,6 +1875,17 @@
     "severity": "normal"
   },
   {
+    "id": "8a3a8a1be8142c39",
+    "title": "Hitachi Energy FACTS Control Platform (FCP)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nHitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerabilities can cause impact on confidentiality, integrity and a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f77a9af7e80377e1",
     "title": "Mitsubishi Electric GX Works3 and Motion Control Settings",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02",
@@ -1701,17 +1893,6 @@
     "category": "advisory",
     "pubDate": "2026-09-17T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affected product and modify part of the executable module in memo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ef9be23140d71f8b",
-    "title": "Schneider Electric NetBotz 5 750/755",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak, smoke, vibration, ",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2042,39 +2223,6 @@
     "category": "advisory",
     "pubDate": "2026-09-16T00:00:00.000Z",
     "summary": "Une vulnérabilité a été découverte dans F5 NGINX. Elle permet à un attaquant de provoquer un déni de service à distance et une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "693dfdf4ac9e52c5",
-    "title": "Microsoft Issues Emergency Fixes After Massive Patch Tuesday",
-    "link": "https://www.darkreading.com/application-security/microsoft-emergency-fixes-patch-tuesday",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-15T20:16:00.000Z",
-    "summary": "You can't make an omelet without breaking a few eggs, and you can't patch nearly 1,000 CVEs without a few glitches.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3f06b0b072199eaf",
-    "title": "Black Hat USA 2026 | OpenAI's Deep Dive Into Hugging Face Incident",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-15T19:27:19.000Z",
-    "summary": "At Black Hat USA, OpenAI engineers reconstruct the Hugging Face incident and explore lessons learned about AI safeguards and cyber resilience.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "44d4cd6479cb840a",
-    "title": "VectraRAT Can Hack Windows Enterprises for $250 per Month",
-    "link": "https://www.darkreading.com/endpoint-security/vectrarat-hack-windows-enterprises",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-15T16:45:37.000Z",
-    "summary": "The full-service malware-as-a-service (MaaS) platform offers a Windows implant, command-and-control (C2) infrastructure, and an operator panel for comprehensive remote access.",
     "cveIds": [],
     "severity": "normal"
   }
