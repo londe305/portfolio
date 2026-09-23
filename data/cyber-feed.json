@@ -1,5 +1,38 @@
 [
   {
+    "id": "3aebaca07a52969c",
+    "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
+    "link": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-23T16:20:54.000Z",
+    "summary": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,000 credit card records. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "15e725d5ca47d121",
+    "title": "Macfinger ClickFix campaign, (Tue, Sep 22nd)",
+    "link": "https://isc.sans.edu/diary/rss/33360",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-23T16:14:37.000Z",
+    "summary": "Introduction",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4ed7569264881bae",
+    "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+    "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-23T16:06:41.000Z",
+    "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication.\n\nThe chain, which CERT Polska calls MikroTrick, ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "affa11854209f5a5",
     "title": "UAE, Saudi Arabia Face Onslaught of Increasingly Complex Cyberattacks",
     "link": "https://www.darkreading.com/threat-intelligence/uae-saudi-arabia-face-onslaught-of-increasingly-sophisticated-automated-cyberattacks",
@@ -9,6 +42,217 @@
     "summary": "The United Arab Emirates and Kingdom of Saudi Arabia together absorbed 50% of all cyberattacks recorded across the Gulf region in the first half of 2026.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "418eab4b215afd87",
+    "title": "Reimagining the SOC for the agentic era in Microsoft Defender",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-09-23T16:00:00.000Z",
+    "summary": "We are announcing ISOC in Microsoft Defender: a foundation built for agentic security that brings leading solutions for SIEM and threat protection together.\nThe post Reimagining the SOC for the agentic era in Microsoft Defender appeared fir",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3aeaf062dc96b726",
+    "title": "Ryuk ransomware operator gets 2-year sentence after extorting victims for $1.2 million",
+    "link": "https://therecord.media/ransomware-ryuk-sentenced-doj",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-23T15:30:00.000Z",
+    "summary": "An Armenian national and member of the Ryuk ransomware gang was sentenced to two years in federal prison for his role in launching attacks.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7bde49b556ca2cea",
+    "title": "Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign",
+    "link": "https://www.darkreading.com/threat-intelligence/attackers-manipulate-ai-chatbots-mass-disinformation-phishing-campaign",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-23T14:47:09.000Z",
+    "summary": "Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5b292a46fb9b6272",
+    "title": "InfraTrust report warns network management systems under attack",
+    "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-23T14:35:26.000Z",
+    "summary": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3ffb124e86e6996b",
+    "title": "FBI investigating alleged ShinyHunters breach of its jobs site",
+    "link": "https://therecord.media/fbi-investigating-alleged-shinyhunters-job-site-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-23T14:22:00.000Z",
+    "summary": "The ShinyHunters cybercriminal organization on Tuesday replaced agency images on the FBIjobs.gov site with a photo of a Pokemon that has become the group’s defacto mascot.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "19134da9e252acae",
+    "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+    "link": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-23T14:17:58.000Z",
+    "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server, Cisco Talos said on September 22.\n\nThe models can choose to steal Windows credentials, saved browser password",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "aa96d284c9eb1679",
+    "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
+    "link": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-23T14:01:11.000Z",
+    "summary": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explains how this confused deputy problem can ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "44afbf71f877746f",
+    "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+    "link": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-23T13:52:46.000Z",
+    "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d22560ff906e0cdb",
+    "title": "Latvia arrests suspected hacker for electronics repair company breach",
+    "link": "https://therecord.media/latvia-hacker-arrest-cyberattack",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-23T12:45:00.000Z",
+    "summary": "Latvian police arrested a 23-year-old man suspected of hacking at least two companies, stealing personal information and attempting to extort money from the victims.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2b4387de0c033b6c",
+    "title": "Burnham announces plan for new UK center to fight disinformation",
+    "link": "https://therecord.media/uk-disinformation-russia-center",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-23T12:30:00.000Z",
+    "summary": "The United Kingdom will create a new national center \"to detect, attribute and disrupt” hostile state disinformation, Prime Minister Andy Burnham announced at the United Nations General Assembly.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a3577436412272a3",
+    "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
+    "link": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-23T12:29:53.000Z",
+    "summary": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a8bb4d88717bd78b",
+    "title": "Honeywell: OT Security Teams Embrace AI, but Autonomy Still Rare",
+    "link": "https://www.securityweek.com/honeywell-ot-security-teams-embrace-ai-but-autonomy-still-rare/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-23T12:17:28.000Z",
+    "summary": "Only 21% of industrial security leaders report a complete OT asset inventory, even as 88% call their programs mature.\nThe post Honeywell: OT Security Teams Embrace AI, but Autonomy Still Rare appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8e0ee533a3572d57",
+    "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
+    "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-23T12:16:00.000Z",
+    "summary": "A flaw in cPanel's CalDAV and CardDAV service lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22.\n\nA second bug in the WP Toolkit plugin, used to install and ma",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "386828401a722716",
+    "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
+    "link": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-23T11:47:19.000Z",
+    "summary": "Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a list of findings, and n",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3c9fd6ef7413f1c4",
+    "title": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
+    "link": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-23T11:47:13.000Z",
+    "summary": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior.\n\nOpus 5.5, per Anthropic, is a \"major step up ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b72a7a65c773979b",
+    "title": "Adobe Patches Critical Flaws in Connect, AEM Forms",
+    "link": "https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-23T11:40:59.000Z",
+    "summary": "The nine critical security defects could be exploited for arbitrary code execution and privilege escalation.\nThe post Adobe Patches Critical Flaws in Connect, AEM Forms appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "cb696b2894fe9914",
+    "title": "AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft",
+    "link": "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-23T11:23:30.000Z",
+    "summary": "The cybercrime platform leveraged AI at every step of the attack chain, including writing social engineering messages and deciding targets.\nThe post AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft appeared first on SecurityWe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d45632f46d088bc9",
+    "title": "Microsoft: September Windows updates break Always On VPN connections",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-23T11:18:13.000Z",
+    "summary": "Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "969ad1b26f390579",
+    "title": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
+    "link": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-23T11:12:18.000Z",
+    "summary": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published September 22.\n\nThe flaw, tracked as CVE-2026-80521 (CVSS score:",
+    "cveIds": [
+      "CVE-2026-80521"
+    ],
+    "severity": "cve"
   },
   {
     "id": "8135bfc35f38fbb6",
@@ -167,17 +411,6 @@
     "severity": "normal"
   },
   {
-    "id": "15e725d5ca47d121",
-    "title": "Macfinger ClickFix campaign, (Tue, Sep 22nd)",
-    "link": "https://isc.sans.edu/diary/rss/33360",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-23T00:55:11.000Z",
-    "summary": "Introduction",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "e37c24c05934b869",
     "title": "Rogue external MFA providers can steal passwords during logins",
     "link": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
@@ -211,6 +444,17 @@
     "severity": "normal"
   },
   {
+    "id": "dbbc7e7de225cedc",
+    "title": "How the CISO-CMO Alliance Builds Trust Before Crisis Strikes",
+    "link": "https://www.darkreading.com/cybersecurity-operations/how-ciso-cmo-alliance-builds-trust-before-crisis",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-22T20:55:53.000Z",
+    "summary": "Cybersecurity and brand reputation are inextricably linked. Security and marketing leaders who establish regular touchpoints, develop joint crisis communications plans, and translate security risks into their brand impact position their org",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6a783479a6e49b7b",
     "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
     "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
@@ -229,6 +473,17 @@
     "category": "news",
     "pubDate": "2026-09-22T20:02:02.000Z",
     "summary": "Microsoft seized 50 websites and disabled more than 150 domains as part of a coordinated disruption effort against a phishing-as-a-service platform targeting Microsoft 365 accounts.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3a533d2b5ffeb564",
+    "title": "Deception by Design: CISA's Guide to Tricking Cybercriminals",
+    "link": "https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-22T19:59:24.000Z",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) is going old school to help organizations with limited resources set traps for hackers.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -321,17 +576,6 @@
     "summary": "The attackers used a compromised BigCommerce application key held by Ribon to access customer data.\nThe post BigCommerce Data Stolen via Ribon Apps Hack appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "8c4e4ffe7f8c0dfd",
-    "title": "Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-22T17:32:49.000Z",
-    "summary": "Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "4e315a001d19e9f6",
@@ -724,6 +968,17 @@
     "category": "news",
     "pubDate": "2026-09-22T11:17:41.000Z",
     "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to full technical details published today by Viettel Cyber Sec",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8c4e4ffe7f8c0dfd",
+    "title": "Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-22T10:22:37.000Z",
+    "summary": "Threat actors stole the contents of 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1907,6 +2162,28 @@
     "severity": "normal"
   },
   {
+    "id": "6c216b7bf1b8e9ae",
+    "title": "Multiples vulnérabilités dans Google Chrome (18 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1199/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "febfe2bdf456ba18",
+    "title": "Multiples vulnérabilités dans WordPress (18 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1200/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une injection de code indirecte à distance (XSS) et un contournement de la politique",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "c9c87b84069c0472",
     "title": "Inside the Modern SOC: Defending the Cross-Environment Pivot",
     "link": "https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/",
@@ -2152,6 +2429,83 @@
     "severity": "normal"
   },
   {
+    "id": "ffe73fd31a6f5813",
+    "title": "Multiples vulnérabilités dans ISC BIND (17 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1192/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans ISC BIND. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "08c7f936b92b76e7",
+    "title": "Vulnérabilité dans les produits Check Point (17 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1193/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-17T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Check Point. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Checkpoint recommande de rechercher, via la *SmartConsole*, le motif **\"Administrator fai",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e5c76b7d9b508e99",
+    "title": "Vulnérabilité dans NetApp ONTAP 9 (17 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1194/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-17T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans NetApp ONTAP 9. Elle permet à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "221f9743749c17e9",
+    "title": "Vulnérabilité dans KeyCloak (17 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1195/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-17T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans KeyCloak. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "17d8104cae0bd555",
+    "title": "Multiples vulnérabilités dans Drupal (17 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1196/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Drupal. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e89d03d33430f33d",
+    "title": "Multiples vulnérabilités dans les produits Cisco (17 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1197/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distanc",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "001a0dfe4da8334e",
+    "title": "Vulnérabilité dans Nextcloud Server (17 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1198/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-17T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Nextcloud Server. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "2399ff8c39b48230",
     "title": "AI Security Spending Jumps as Fear Outpaces Proof of Value",
     "link": "https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value",
@@ -2203,17 +2557,6 @@
     "category": "news",
     "pubDate": "2026-09-16T16:43:37.000Z",
     "summary": "A new type of attack hijacks the AI assistant built directly into various browsers to access sensitive information, execute malicious actions, and exfiltrate data.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5b2bf053e5482cae",
-    "title": "Using Cyber Decoys to Strengthen Detection and Response",
-    "link": "https://www.cisa.gov/resources-tools/resources/using-cyber-decoys-strengthen-detection-and-response",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-16T12:00:00.000Z",
-    "summary": "CISA developed this guidance to help defensive teams at varying levels of cybersecurity maturity plan and implement cyber decoy strategies that strengthen their detection and response capabilities. Many organizations struggle to detect adve",
     "cveIds": [],
     "severity": "normal"
   }
