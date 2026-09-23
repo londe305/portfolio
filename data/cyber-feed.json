@@ -1,5 +1,119 @@
 [
   {
+    "id": "3b13360f9708b94d",
+    "title": "EDR Evasion Stack Helps Process Injection Slip Past Defenses",
+    "link": "https://www.darkreading.com/endpoint-security/edr-evasion-stack-helps-process-injection-slip-past-defenses",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-23T21:03:01.000Z",
+    "summary": "A process parameter-poisoning technique evades EDR by injecting code into process initialization structures without using the Windows APIs that EDR tools typically watch out for.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3a5e2fec5352e727",
+    "title": "GitLab Email Addresses Can Be Weaponized for Supply Chain Attacks",
+    "link": "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-23T20:53:38.000Z",
+    "summary": "Incoming email addresses automatically assigned to each user on the platform contain highly privileged access tokens that attackers can use.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7ba3a75cd3178ffb",
+    "title": "UK regulator to investigate Pornhub parent company for alleged age verification failings",
+    "link": "https://therecord.media/uk-regulator-to-investigate-pornhub-parent-company-privacy",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-23T20:07:00.000Z",
+    "summary": "In May, Pornhub began using a new age assurance process to verify some users’ ages, according to an Ofcom press release. The new method relies on signals from Apple that suggest under 18s in the UK “may have completed Apple’s age checks,” t",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9dbdfda02b0faa57",
+    "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-23T19:53:54.000Z",
+    "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway product. [...]",
+    "cveIds": [
+      "CVE-2026-85102"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "828d13f4bbf220b7",
+    "title": "IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin",
+    "link": "https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-23T19:32:49.000Z",
+    "summary": "IonQ’s new single processor quantum error decoder minimizes the classical computing overhead in quantum error correction.\nThe post IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin appeared first on Secur",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ab051f2dae771bc5",
+    "title": "No evidence of successful foreign meddling in 2024 election, spy agencies found",
+    "link": "https://therecord.media/trump-harris-election-meddling-russia",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-23T19:30:00.000Z",
+    "summary": "U.S. intelligence officials found no evidence that any foreign adversary successfully interfered in the 2024 presidential election, according to sources familiar with the findings of a classified assessment.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f57d633897e46542",
+    "title": "Hackers start exploiting critical WordPress flaw for code execution",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-23T18:31:22.000Z",
+    "summary": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
+    "cveIds": [
+      "CVE-2026-87902"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "94586560c59617af",
+    "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+    "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-23T18:06:30.000Z",
+    "summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "25dd9c1866ee5e8c",
+    "title": "Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios",
+    "link": "https://www.securityweek.com/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-23T18:05:58.000Z",
+    "summary": "The idea that AI could break away and work toward its own agenda is looking increasingly plausible to researchers and experts.\nThe post Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios appeared first on Securi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "246d3ca38d1b8d59",
+    "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+    "link": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-23T16:53:10.000Z",
+    "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "3aebaca07a52969c",
     "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
     "link": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
@@ -185,6 +299,17 @@
     "summary": "A flaw in cPanel's CalDAV and CardDAV service lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22.\n\nA second bug in the WP Toolkit plugin, used to install and ma",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "36c7298798b7d3ba",
+    "title": "Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators",
+    "link": "https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-23T12:00:00.000Z",
+    "summary": "Introduction\nThe Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA)—hereafter referred to as the “authoring agencies”—have published this fact sheet to highlight considerations for critical inf",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "386828401a722716",
@@ -655,17 +780,6 @@
     "severity": "critical"
   },
   {
-    "id": "bbe00974ebe14bb0",
-    "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-22T15:00:00.000Z",
-    "summary": "The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
     "id": "1bbc2c4488af2f6a",
     "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
@@ -675,6 +789,17 @@
     "summary": "EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) fa",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "bbe00974ebe14bb0",
+    "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-22T15:00:00.000Z",
+    "summary": "The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "580018f70445f133",
@@ -802,17 +927,6 @@
     "severity": "normal"
   },
   {
-    "id": "837cd2515e19719c",
-    "title": "Siemens Industrial Edge Management",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nIndustrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user credentials without completing email verific",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "0bcec5d7f53e5a6c",
     "title": "OpenPLC Runtime v3",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
@@ -867,6 +981,17 @@
     "category": "advisory",
     "pubDate": "2026-09-22T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nMultiple Siemens products are vulnerable to the \"Copy Fail\" vulnerability. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix v",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "837cd2515e19719c",
+    "title": "Siemens Industrial Edge Management",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nIndustrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user credentials without completing email verific",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2316,75 +2441,6 @@
     "severity": "critical"
   },
   {
-    "id": "cbb151dc21ab2b6d",
-    "title": "Schneider Electric Modicon M340 Controller and Communication Modules",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its Modicon M340 https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/, BMXNOR0200H https://www.se.com/us/en/product/BMXNOR0200H/communication-module-modicon-m340-i",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ef9be23140d71f8b",
-    "title": "Schneider Electric NetBotz 5 750/755",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak, smoke, vibration, ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "53f589c9be8cee97",
-    "title": "Bransys ELD",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware.\nThe following versions of Bransys ELD are affected:\nAndroid <11.00.00 (CVE-2026-86520, CVE-2026-86689, CVE-20",
-    "cveIds": [
-      "CVE-2026-86520",
-      "CVE-2026-86689"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "9fad9afc6cab3025",
-    "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected product by sending specially crafted packets under specific ti",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8a3a8a1be8142c39",
-    "title": "Hitachi Energy FACTS Control Platform (FCP)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nHitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerabilities can cause impact on confidentiality, integrity and a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f77a9af7e80377e1",
-    "title": "Mitsubishi Electric GX Works3 and Motion Control Settings",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affected product and modify part of the executable module in memo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "785927a16a901465",
     "title": "ABB Ability Edgenius",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
@@ -2403,6 +2459,75 @@
     "category": "advisory",
     "pubDate": "2026-09-17T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSchneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enabling graceful system shutdown and energy management capabili",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9fad9afc6cab3025",
+    "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected product by sending specially crafted packets under specific ti",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f77a9af7e80377e1",
+    "title": "Mitsubishi Electric GX Works3 and Motion Control Settings",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affected product and modify part of the executable module in memo",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8a3a8a1be8142c39",
+    "title": "Hitachi Energy FACTS Control Platform (FCP)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nHitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerabilities can cause impact on confidentiality, integrity and a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "53f589c9be8cee97",
+    "title": "Bransys ELD",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware.\nThe following versions of Bransys ELD are affected:\nAndroid <11.00.00 (CVE-2026-86520, CVE-2026-86689, CVE-20",
+    "cveIds": [
+      "CVE-2026-86520",
+      "CVE-2026-86689"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "cbb151dc21ab2b6d",
+    "title": "Schneider Electric Modicon M340 Controller and Communication Modules",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its Modicon M340 https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/, BMXNOR0200H https://www.se.com/us/en/product/BMXNOR0200H/communication-module-modicon-m340-i",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ef9be23140d71f8b",
+    "title": "Schneider Electric NetBotz 5 750/755",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSchneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak, smoke, vibration, ",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2513,50 +2638,6 @@
     "category": "news",
     "pubDate": "2026-09-16T21:26:55.000Z",
     "summary": "CISOs are not waiting for AI to prove its cybersecurity value before investing in the technology. Is it the right move?",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "942c41f9fa7ac1ed",
-    "title": "Scans Targeting Hospitality Applications, (Wed, Sep 16th)",
-    "link": "https://isc.sans.edu/diary/rss/33344",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-16T18:44:04.000Z",
-    "summary": "Earlier today, I noted an odd request showing up in our \"First Seen\" report:",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d653533745a68c07",
-    "title": "Data Broker Radaris Loses Domains in Privacy Fight",
-    "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-09-16T18:14:22.000Z",
-    "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alle",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6ed28c0f64643ed9",
-    "title": "Fighting Your Dragons Through Tough Tech Times",
-    "link": "https://www.darkreading.com/cybersecurity-careers/finding-hope-brutal-job-market",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-16T18:00:54.000Z",
-    "summary": "Cybersecurity industry veteran Hal Pomeranz gives a pep talk on career anxiety and self-doubt and shares how to build meaningful connections during historical tech industry downturns.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7c3e7bc9aef5e61f",
-    "title": "BragJack Attack Can Turn a Browser's Agentic AI Against It",
-    "link": "https://www.darkreading.com/endpoint-security/bragjack-browser-agentic-ai",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-16T16:43:37.000Z",
-    "summary": "A new type of attack hijacks the AI assistant built directly into various browsers to access sensitive information, execute malicious actions, and exfiltrate data.",
     "cveIds": [],
     "severity": "normal"
   }
