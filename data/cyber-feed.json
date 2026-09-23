@@ -1,5 +1,161 @@
 [
   {
+    "id": "affa11854209f5a5",
+    "title": "UAE, Saudi Arabia Face Onslaught of Increasingly Complex Cyberattacks",
+    "link": "https://www.darkreading.com/threat-intelligence/uae-saudi-arabia-face-onslaught-of-increasingly-sophisticated-automated-cyberattacks",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-23T16:01:00.000Z",
+    "summary": "The United Arab Emirates and Kingdom of Saudi Arabia together absorbed 50% of all cyberattacks recorded across the Gulf region in the first half of 2026.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8135bfc35f38fbb6",
+    "title": "Chrome 154 Patches 108 Vulnerabilities",
+    "link": "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-23T10:36:07.000Z",
+    "summary": "The browser update resolves several critical-severity memory safety and memory corruption flaws.\nThe post Chrome 154 Patches 108 Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c3ccd899f0d4deb2",
+    "title": "A Look at AI Doomsday Scenarios That Researchers Say Could Put Humanity at Risk",
+    "link": "https://www.securityweek.com/a-look-at-ai-doomsday-scenarios-that-researchers-say-could-put-humanity-at-risk/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-23T10:20:36.000Z",
+    "summary": "Debates over the plausibility of these doomsday scenarios have heated up since several executives endorsed slowing the technology’s development for safety reasons.\nThe post A Look at AI Doomsday Scenarios That Researchers Say Could Put Huma",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c9cb3283c38292db",
+    "title": "Outerlimit Raises $16 Million to Stop Rogue AI Agents From Causing Harm",
+    "link": "https://www.securityweek.com/outerlimit-raises-16-million-to-stop-rogue-ai-agents-from-causing-harm/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-23T10:00:00.000Z",
+    "summary": "Emerging from stealth with $16 million in pre-seed funding, Outerlimit offers a decentralized authorization layer designed to discover, observe, and block harmful autonomous AI actions.\nThe post Outerlimit Raises $16 Million to Stop Rogue A",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4df0ab3a61dea6ed",
+    "title": "Arista Urges Immediate Patching of Exploited VCO Zero-Day",
+    "link": "https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-23T08:33:06.000Z",
+    "summary": "Remote attackers could trigger the critical-severity flaw to access privileged internal functionality.\nThe post Arista Urges Immediate Patching of Exploited VCO Zero-Day appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "03b9753abd7a90e4",
+    "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+    "link": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-23T08:29:48.000Z",
+    "summary": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says.\n\nThe flaw, CVE-2026-94127, affects only systems in which APM serves as an OAuth author",
+    "cveIds": [
+      "CVE-2026-94127"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "19cb6802f53ceccc",
+    "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+    "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-23T08:29:24.000Z",
+    "summary": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites.\n\nThe attacks, detected on September 3 and 4, 2026, involved the c",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "036d28498901e39b",
+    "title": "Ryuk ransomware member sentenced to 24 months in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-23T08:20:05.000Z",
+    "summary": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3918d984a47de812",
+    "title": "Critical F5 BIG-IP Vulnerability Exploited as Zero-Day",
+    "link": "https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-23T07:34:18.000Z",
+    "summary": "Unauthenticated attackers could send malicious traffic to BIG-IP to achieve remote code execution.\nThe post Critical F5 BIG-IP Vulnerability Exploited as Zero-Day appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d14c028c0f089f21",
+    "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-23T07:17:23.000Z",
+    "summary": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5f86a89528e01675",
+    "title": "ShinyHunters Claims FBI Hack, Demands Retraction of Threat Report",
+    "link": "https://www.securityweek.com/shinyhunters-claims-fbi-hack-demands-retraction-of-threat-report/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-23T07:13:49.000Z",
+    "summary": "The cybercrime group is unhappy with its description in an FBI report and threatens to leak stolen information. \nThe post ShinyHunters Claims FBI Hack, Demands Retraction of Threat Report appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "620a8bfcc4af1cd2",
+    "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
+    "link": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-23T07:04:40.000Z",
+    "summary": "A new security vulnerability in Next.js could allow attackers to run code on a server via ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said.\n\nThe risk applies when an app puts values an attack",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ad10d124a881959b",
+    "title": "Check Point Patches Exploited Management Server Zero-Day",
+    "link": "https://www.securityweek.com/check-point-patches-exploited-management-server-zero-day/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-23T06:14:03.000Z",
+    "summary": "The critical-severity flaw could allow unauthenticated attackers to upload and execute arbitrary scripts.\nThe post Check Point Patches Exploited Management Server Zero-Day appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "16cbe675e0929319",
+    "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+    "link": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-23T05:30:09.000Z",
+    "summary": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency.\n\n\"We have compromised the FBI. We hold very",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "eede5cd39333669e",
     "title": "ISC Stormcast For Wednesday, September 23rd, 2026 https://isc.sans.edu/podcastdetail/10106, (Wed, Sep 23rd)",
     "link": "https://isc.sans.edu/diary/rss/33362",
@@ -2058,28 +2214,6 @@
     "category": "advisory",
     "pubDate": "2026-09-16T12:00:00.000Z",
     "summary": "CISA developed this guidance to help defensive teams at varying levels of cybersecurity maturity plan and implement cyber decoy strategies that strengthen their detection and response capabilities. Many organizations struggle to detect adve",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9cbd7faaaa2e8a65",
-    "title": "Securing the unpatchable in an age of AI-driven vulnerabilities",
-    "link": "https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-09-16T10:00:36.000Z",
-    "summary": "Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combina",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9b75cf997b79ba92",
-    "title": "Atomic macOS (AMOS) Stealer Activity",
-    "link": "https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-09-16T10:00:06.000Z",
-    "summary": "Modern macOS malware uses deceptive setup guides to steal credentials and sensitive user data. Learn how to identify and block these threats.\nThe post Atomic macOS (AMOS) Stealer Activity appeared first on Unit 42.",
     "cveIds": [],
     "severity": "normal"
   }
