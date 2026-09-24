@@ -1,5 +1,225 @@
 [
   {
+    "id": "d3a63d20e0c7a536",
+    "title": "Kontext Security Emerges With $4 Million for AI Agent Runtime Controls",
+    "link": "https://www.securityweek.com/kontext-security-emerges-with-4-million-for-ai-agent-runtime-controls/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-24T15:52:00.000Z",
+    "summary": "The startup’s runtime enforcement platform evaluates AI agents in real time to provide visibility and control over their actions.\nThe post Kontext Security Emerges With $4 Million for AI Agent Runtime Controls appeared first on SecurityWeek",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5229719d60e41846",
+    "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
+    "link": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-24T15:27:32.000Z",
+    "summary": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users.\n\n\"third-party[.]com has been a generic documentati",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f6b5e79f4ed97678",
+    "title": "3 Cyber Threats That Defined the Summer of 2026",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/3-cyber-threats-defined-summer-2026",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-24T14:44:12.000Z",
+    "summary": "This installment of the Reporters' Notebook video series discusses the impact of AI agents breaching Hugging Face, Fairlife's ransomware attack, and Iranian-linked threat actors compromising a dozen US water systems. It was a busy summer.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8cb1291af7d17367",
+    "title": "OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data",
+    "link": "https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-24T14:43:13.000Z",
+    "summary": "Australia disclosed that an OpenAI agent gained unauthorized access to non-public government information.\nThe post OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f08eddd0d2c7e58a",
+    "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+    "link": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-24T14:29:06.000Z",
+    "summary": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychede",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "30aaeec28b11b228",
+    "title": "How to Build A SASE Framework for Modern Cybersecurity",
+    "link": "https://www.darkreading.com/cloud-security/how-to-build-sase-framework",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-24T14:02:43.000Z",
+    "summary": "Keeping edge computing safe requires organizations to fundamentally rethink security governance. Here is a path forward: a step-by-step guide to building a SASE framework.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "65df89b28e254788",
+    "title": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
+    "link": "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-24T14:02:12.000Z",
+    "summary": "FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronger evidence requirements. Anecdotes explains why the December 7 deadline is just the beginn",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8e4e4844f4e587c9",
+    "title": "Ghost Service Accounts Enable M365 Data Theft in Chile",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ghost-service-accounts-m365-data-theft-chile",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-24T13:30:00.000Z",
+    "summary": "Even if the organization locks down employee accounts, forgotten and lost service accounts can still undo the organization's entire M365 environment.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "54c1206098baf7ac",
+    "title": "Kyiv internet providers report major outages after Russian attacks damage data centers",
+    "link": "https://therecord.media/kyiv-internet-providers-report-outages-after-russian-strikes",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-24T13:30:00.000Z",
+    "summary": "At least four internet providers serving Kyiv and other parts of Ukraine suffered partial connectivity losses following Wednesday’s drone attack, according to internet monitoring group NetBlocks.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8ae4194eda2b1938",
+    "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-24T13:27:57.000Z",
+    "summary": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "daa2b1340f64ffa6",
+    "title": "Astrana latest healthcare tech firm to report data breach to SEC",
+    "link": "https://therecord.media/astrana-cyberattack-sec-ransomware",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-24T13:15:00.000Z",
+    "summary": "The healthcare firm Astrana warned regulators that hackers accessed confidential information by impersonating company personnel.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ac73c3920c33c3d7",
+    "title": "Prompt-Injection Bug Hits $4B Agentic AI App 'Manus'",
+    "link": "https://www.darkreading.com/application-security/prompt-injection-bug-agentic-ai-app-manus",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-24T13:00:00.000Z",
+    "summary": "AI apps that interpret external data (read: most AI apps) need exceptionally rigorous security filters, or attackers can take advantage.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "007f36e2354e1e9a",
+    "title": "AI-Powered Campaign Targets Hundreds of Online Retailers",
+    "link": "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-24T12:48:14.000Z",
+    "summary": "A threat actor is using three AI harnesses for vulnerability research, exploitation, and attack orchestration.\nThe post AI-Powered Campaign Targets Hundreds of Online Retailers appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f90f2426c7160cbb",
+    "title": "OpenAI agent breached Australian government health website, Albanese says",
+    "link": "https://therecord.media/openai-australia-health-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-24T12:30:00.000Z",
+    "summary": "An OpenAI agent gained “unauthorized access” to “non-public files” from an Australian government health website in June, Prime Minister Anthony Albanese said.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d8033c362483f54c",
+    "title": "Windows 11 KB5124010 update released with 46 changes and fixes",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-24T12:16:32.000Z",
+    "summary": "Microsoft released the KB5124010 September 2026 non-security preview update for Windows 11 24H2 and 25H2, with 46 changes including Bluetooth improvements and the ability to remap the Copilot key. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bfc5c9310cdaa4b4",
+    "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
+    "link": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-24T12:05:27.000Z",
+    "summary": "The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM.\n\nAccording to Have I Been Squatted, the campaign uses fake Google Play pages branded as CEVA and TKW Logist",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4291e98df415b571",
+    "title": "Botslab G980H Dashcams",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-24T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to bypass authentication controls, gain unauthorized access to sensitive data and privileged device functionality, modify device configuration, disru",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9085f44b92b7dee1",
+    "title": "Siemens Mendix Runtime (Update A)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-24T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThis advisory is revoked. Re-investigation confirmed the reported behavior is expected platform configuration and does not expose the protected attribute.\nThe following versions of Siemens Mendix Runtime are affected:\nSiem",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "434d4cc347620160",
+    "title": "Eufy Omni C20, Omni X10 Pro",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-24T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to run system level commands or execute arbitrary code.\nThe following versions of Eufy Omni C20, Omni X10 Pro are affected:\nOmni C20 <1.6.4 (CVE-2026",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ce8801eb63447fa9",
+    "title": "Island Raises $400 Million at $6.4 Billion Valuation",
+    "link": "https://www.securityweek.com/island-raises-400-million-at-6-4-billion-valuation/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-24T11:39:09.000Z",
+    "summary": "The enterprise security firm has raised more than $1 billion since its launch in 2020; Evolution Equity Partners led the latest funding round. \nThe post Island Raises $400 Million at $6.4 Billion Valuation appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "c2326e03014a5540",
     "title": "OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators",
     "link": "https://www.securityweek.com/ot-security-guidance-nist-drafts-updated-guide-cisa-fbi-advise-on-ics-integrators/",
@@ -7,6 +227,17 @@
     "category": "news",
     "pubDate": "2026-09-24T11:05:16.000Z",
     "summary": "Revision 4 of NIST’s operational technology security guide is open for public comments until November 30.\nThe post OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fb9ba04a456ec507",
+    "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
+    "link": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-24T11:00:00.000Z",
+    "summary": "AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report, commits identified as AI-assisted are le",
     "cveIds": [],
     "severity": "normal"
   },
@@ -179,6 +410,17 @@
     "category": "news",
     "pubDate": "2026-09-23T22:46:01.000Z",
     "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples, is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell commands. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f16ecfe7d1620794",
+    "title": "SASE Converges Network &amp; Security Into One Cloud Solution",
+    "link": "https://www.darkreading.com/cloud-security/sase-converges-network-security-one-cloud",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-23T22:29:10.000Z",
+    "summary": "Enterprise computing is moving to the edge. Keeping it secure requires tactics far beyond putting up firewalls.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1121,13 +1363,35 @@
     "severity": "normal"
   },
   {
-    "id": "0bcec5d7f53e5a6c",
-    "title": "OpenPLC Runtime v3",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
+    "id": "1f59f2350e82237f",
+    "title": "Siemens Desigo CC family",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow the attacker to control the programmable logic controller a",
+    "summary": "View CSAF\nSummary\nA Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices through specially crafted graphics documents. This vulnerabili",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "485c3c17f870859d",
+    "title": "Siemens WTV676 and WTV776",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain conditions. This disables remote connectivity functions (Web Access) ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a820d441a418aeed",
+    "title": "lwIP TCP/IP Stack MQTT Client Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to gain full code execution on the device.\nThe following versions of lwIP TCP/IP Stack MQTT Client Application are affected:\nMQTT Client Application >=2",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1146,28 +1410,6 @@
     "severity": "cve"
   },
   {
-    "id": "ad6f750640b1b395",
-    "title": "lwIP (Lightweight IP)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system.\nThe following versions of lwIP (Lightweight IP) are affect",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "485c3c17f870859d",
-    "title": "Siemens WTV676 and WTV776",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nThe products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain conditions. This disables remote connectivity functions (Web Access) ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "031689bd656e7fea",
     "title": "Siemens SIPLUS and SIMATIC Products",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04",
@@ -1175,28 +1417,6 @@
     "category": "advisory",
     "pubDate": "2026-09-22T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nMultiple Siemens products are vulnerable to the \"Copy Fail\" vulnerability. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix v",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "837cd2515e19719c",
-    "title": "Siemens Industrial Edge Management",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nIndustrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user credentials without completing email verific",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1f59f2350e82237f",
-    "title": "Siemens Desigo CC family",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nA Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices through specially crafted graphics documents. This vulnerabili",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1223,13 +1443,35 @@
     "severity": "normal"
   },
   {
-    "id": "a820d441a418aeed",
-    "title": "lwIP TCP/IP Stack MQTT Client Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01",
+    "id": "837cd2515e19719c",
+    "title": "Siemens Industrial Edge Management",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to gain full code execution on the device.\nThe following versions of lwIP TCP/IP Stack MQTT Client Application are affected:\nMQTT Client Application >=2",
+    "summary": "View CSAF\nSummary\nIndustrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user credentials without completing email verific",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ad6f750640b1b395",
+    "title": "lwIP (Lightweight IP)",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system.\nThe following versions of lwIP (Lightweight IP) are affect",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0bcec5d7f53e5a6c",
+    "title": "OpenPLC Runtime v3",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow the attacker to control the programmable logic controller a",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1876,6 +2118,17 @@
     "severity": "normal"
   },
   {
+    "id": "9d346bf28a5a387e",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (21 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1207/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "54e68042a04d56ec",
     "title": "Russia reports thousands of cyberattacks on election infrastructure during vote",
     "link": "https://therecord.media/russia-reports-cyberattacks-during-election",
@@ -2503,6 +2756,72 @@
     "severity": "normal"
   },
   {
+    "id": "9d6fa855893a1ce7",
+    "title": "Vulnérabilité dans Kaspersky Secure Mail Gateway (18 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1201/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-18T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Kaspersky Secure Mail Gateway. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ea010a14889b3486",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (18 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1202/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "08736f1e25354bbb",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (18 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1203/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "abf103ac7d5fb4ec",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (18 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1204/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4bc559cd04da4647",
+    "title": "Vulnérabilité dans les produits Moxa (18 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1205/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-18T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Moxa. Elle permet à un attaquant de provoquer un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c70f42d2cf1653f1",
+    "title": "Multiples vulnérabilités dans les produits IBM (18 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1206/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "c9c87b84069c0472",
     "title": "Inside the Modern SOC: Defending the Cross-Environment Pivot",
     "link": "https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/",
@@ -2598,130 +2917,6 @@
     "category": "vendor",
     "pubDate": "2026-09-17T17:00:00.000Z",
     "summary": "AI has made fundamental changes to the operating environment for cybersecurity. Explore exposure management guidance on recommended controls and take action and stay ahead of cyberthreats.\nThe post From guidance to action: Security fundamen",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e204ddaf3c55b93e",
-    "title": "China’s FamousSparrow hackers target Latin America with new backdoor",
-    "link": "https://therecord.media/china-hackers-latin-america-espionage",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-17T16:30:00.000Z",
-    "summary": "Alleged Chinese hackers are breaking into government agencies across Latin America using a new backdoor that researchers are calling “SparroWocky.”",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "30fba790df20880f",
-    "title": "Improving email security outcomes with real-world Microsoft Defender insights",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/17/improving-email-security-outcomes-with-real-world-microsoft-defender-insights/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-09-17T16:00:00.000Z",
-    "summary": "The latest email security benchmarking reports show strong Microsoft Defender performance across pre-delivery and post-delivery scenarios and reveal where threats and defenses continue to evolve.\nThe post Improving email security outcomes w",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "798545531ef0616a",
-    "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
-    "link": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-17T15:37:56.000Z",
-    "summary": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a security announcement on September 15.\n\nThe es",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "785927a16a901465",
-    "title": "ABB Ability Edgenius",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a publicly reported vulnerability. CVE‑2026‑3143",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "99263027c76943f3",
-    "title": "Schneider Electric PowerChute Serial Shutdown",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enabling graceful system shutdown and energy management capabili",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9fad9afc6cab3025",
-    "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker with access to the same network segment to tamper with communication data in the affected product by sending specially crafted packets under specific ti",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f77a9af7e80377e1",
-    "title": "Mitsubishi Electric GX Works3 and Motion Control Settings",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affected product and modify part of the executable module in memo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8a3a8a1be8142c39",
-    "title": "Hitachi Energy FACTS Control Platform (FCP)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nHitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerabilities can cause impact on confidentiality, integrity and a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "53f589c9be8cee97",
-    "title": "Bransys ELD",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware.\nThe following versions of Bransys ELD are affected:\nAndroid <11.00.00 (CVE-2026-86520, CVE-2026-86689, CVE-20",
-    "cveIds": [
-      "CVE-2026-86520",
-      "CVE-2026-86689"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "cbb151dc21ab2b6d",
-    "title": "Schneider Electric Modicon M340 Controller and Communication Modules",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of a vulnerability in its Modicon M340 https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/, BMXNOR0200H https://www.se.com/us/en/product/BMXNOR0200H/communication-module-modicon-m340-i",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ef9be23140d71f8b",
-    "title": "Schneider Electric NetBotz 5 750/755",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSchneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak, smoke, vibration, ",
     "cveIds": [],
     "severity": "normal"
   }
