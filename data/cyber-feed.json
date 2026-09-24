@@ -1,5 +1,166 @@
 [
   {
+    "id": "c2326e03014a5540",
+    "title": "OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators",
+    "link": "https://www.securityweek.com/ot-security-guidance-nist-drafts-updated-guide-cisa-fbi-advise-on-ics-integrators/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-24T11:05:16.000Z",
+    "summary": "Revision 4 of NIST’s operational technology security guide is open for public comments until November 30.\nThe post OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1b49fc79a3418e98",
+    "title": "Begin at the End: How to Enable Agentic Remediation",
+    "link": "https://www.securityweek.com/begin-at-the-end-how-to-enable-agentic-remediation/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-24T11:00:00.000Z",
+    "summary": "Agentic remediation is not an act of faith. We are talking about fixing known problems, not judgment calls about unfamiliar risk. \nThe post Begin at the End: How to Enable Agentic Remediation appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "849a3d02ea1aace5",
+    "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-24T10:42:37.000Z",
+    "summary": "​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bea1c24da5779df3",
+    "title": "SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted",
+    "link": "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-24T10:40:40.000Z",
+    "summary": "The vulnerabilities, tracked as CVE-2026-28324 and CVE-2026-28325, can be exploited without authentication.\nThe post SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-28324",
+      "CVE-2026-28325"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "14e81785a9689474",
+    "title": "Astrana Health Data Breach Impacts Private, Confidential Information",
+    "link": "https://www.securityweek.com/astrana-health-data-breach-impacts-private-confidential-information/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-24T09:56:04.000Z",
+    "summary": "Hackers impersonated the company’s personnel and contacted its employees to gain access to Astrana Health’s servers.\nThe post Astrana Health Data Breach Impacts Private, Confidential Information appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "94821214578f086e",
+    "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-24T09:38:53.000Z",
+    "summary": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research pr",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1af8eb0d6b919e28",
+    "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
+    "link": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-24T09:14:21.000Z",
+    "summary": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in late 2023 to a subscrip",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "41cdf89b10489d6a",
+    "title": "US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks",
+    "link": "https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-24T08:38:29.000Z",
+    "summary": "Karen Vardanyan has also been ordered to pay over $1.2 million in restitution to victims.\nThe post US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f5fa8ba94bb03880",
+    "title": "Microsoft fixes bug that broke Windows File History backup feature",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-24T08:14:47.000Z",
+    "summary": "Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 security updates. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4c024d390bf8ef31",
+    "title": "Critical WordPress Vulnerability Exploited Immediately After Disclosure",
+    "link": "https://www.securityweek.com/critical-wordpress-vulnerability-exploited-immediately-after-disclosure/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-24T07:12:26.000Z",
+    "summary": "Tracked as CVE-2026-87902, the path traversal flaw allows remote, unauthenticated attackers to execute arbitrary code.\nThe post Critical WordPress Vulnerability Exploited Immediately After Disclosure appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-87902"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "5b6424dfd8f974e4",
+    "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+    "link": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-24T07:07:25.000Z",
+    "summary": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister Anthony Albanese said.\n\nThe portal publishes aggregate figures, such as spending, and is",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5c57edabe6c0ec2e",
+    "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+    "link": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-24T06:32:03.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants.\n\nAccording to Proofpoint, the activity has primarily",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0e4bd9fbb923a7f7",
+    "title": "One URL, Three Different Tricks, (Thu, Sep 24th)",
+    "link": "https://isc.sans.edu/diary/rss/33366",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-24T06:25:06.000Z",
+    "summary": "Yesterday, we received a phishing email with an interesting link. At first sight, it looks like garbage, but every piece of it has been carefully crafted to confuse basic security controls. Here is the defanged link:",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "856645ccb5490fa9",
+    "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-24T05:36:18.000Z",
+    "summary": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.\n\nThe vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtai",
+    "cveIds": [
+      "CVE-2026-87902"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "c4fda9336470ddb9",
     "title": "ISC Stormcast For Thursday, September 24th, 2026 https://isc.sans.edu/podcastdetail/10108, (Thu, Sep 24th)",
     "link": "https://isc.sans.edu/diary/rss/33364",
@@ -80,12 +241,12 @@
   },
   {
     "id": "828d13f4bbf220b7",
-    "title": "IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin",
+    "title": "IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU Decoder",
     "link": "https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/",
     "source": "SecurityWeek",
     "category": "news",
     "pubDate": "2026-09-23T19:32:49.000Z",
-    "summary": "IonQ’s new single processor quantum error decoder minimizes the classical computing overhead in quantum error correction.\nThe post IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin appeared first on Secur",
+    "summary": "IonQ’s new single processor quantum error decoder minimizes the classical computing overhead in quantum error correction.\nThe post IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU Decoder appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2563,16 +2724,5 @@
     "summary": "View CSAF\nSummary\nSchneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak, smoke, vibration, ",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "73645a02bd834719",
-    "title": "Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use",
-    "link": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-09-17T10:00:43.000Z",
-    "summary": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY ",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
