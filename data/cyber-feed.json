@@ -1,5 +1,206 @@
 [
   {
+    "id": "f62c609b724877f9",
+    "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-25T16:00:00.000Z",
+    "summary": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage credits, so more users can give it a try. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "71d67a9d60db37fb",
+    "title": "Crypto CEO accuses North Korea of stealing $387 million from Bitget platform",
+    "link": "https://therecord.media/crypto-ceo-accuses-north-korea-of-387-million-theft",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-25T15:15:00.000Z",
+    "summary": "The CEO said the company has a User Protection Fund that has over $464 million and those funds will be used to cover the losses.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a57837424353223a",
+    "title": "In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure",
+    "link": "https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-25T15:07:31.000Z",
+    "summary": "Noteworthy stories that might have slipped under the radar: BragJack attack against browser AI assistants, TDengine flaw threatens industrial telemetry uptime, Ubuntu update overhaul.\nThe post In Other News: Clop Leak Site Takeover, Docker ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d6bc212bd5b50818",
+    "title": "Cyberattack hits Welsh police force, may have affected staff data",
+    "link": "https://therecord.media/wales-cyberattack-police-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-25T15:00:00.000Z",
+    "summary": "Dyfed-Powys Police in Wales said a cyberattack affecting the force disrupted some non-emergency systems and may have compromised staff information.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c67ba87648f8e4e7",
+    "title": "OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-25T14:54:33.000Z",
+    "summary": "OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling out. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "15ab194c4f559f7b",
+    "title": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
+    "link": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-25T14:51:10.000Z",
+    "summary": "AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token Security explains why SOC 2 needs to adapt to address the security gaps created by agent identities",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "469b9b8e2756a8a0",
+    "title": "Stopping IT Worker Scams Requires Revamped HR Process",
+    "link": "https://www.darkreading.com/cyber-risk/stopping-it-worker-scams-revamped-hr-process",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-25T14:46:13.000Z",
+    "summary": "Training human-resource managers in the latest tactics and warning signs goes a long way toward blunting the threat, but automated analysis can help even more.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dbcb67608f9d2a11",
+    "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
+    "link": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-25T14:44:41.000Z",
+    "summary": "Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign.\n\nThe affected GitHub Actions are liste",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "cd44ee9a1c545b18",
+    "title": "North Korea Suspected in $351 Million Bitget Crypto Heist",
+    "link": "https://www.securityweek.com/north-korea-suspected-in-351-million-bitget-crypto-heist/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-25T14:16:18.000Z",
+    "summary": "Bitget’s security systems caught the unauthorized transfers on September 24, and some wallet addresses linked to the attacker have been frozen.\nThe post North Korea Suspected in $351 Million Bitget Crypto Heist appeared first on SecurityWee",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "221b77e289a2ab9a",
+    "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
+    "link": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-25T13:18:06.000Z",
+    "summary": "Cybersecurity researchers have flagged a new version of PamStealer that ensures that the main payload can only be recovered using a server-side decryption chain.\n\nThe latest artifacts, per Jamf Threat Labs, continue to rely on the same Java",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ae45fbe3008fdd78",
+    "title": "A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)",
+    "link": "https://isc.sans.edu/diary/rss/33368",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-25T12:45:19.000Z",
+    "summary": "Introduction",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4fb8f48ad4de0dca",
+    "title": "Microsoft plans to deprecate Windows Deployment Services",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-25T12:40:59.000Z",
+    "summary": "Microsoft announced it will deprecate the Windows Deployment Services (WDS) server role starting with the next Windows Server release. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8048cf201c51d50c",
+    "title": "CISA Election Security Plan Flags Patching Barriers, Voter Database Attacks",
+    "link": "https://www.securityweek.com/cisa-election-security-plan-flags-patching-barriers-voter-database-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-25T12:39:12.000Z",
+    "summary": "Homeland Security Secretary Markwayne Mullin tasked CISA with developing the plan in July. \nThe post CISA Election Security Plan Flags Patching Barriers, Voter Database Attacks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bc91be77bbea346a",
+    "title": "Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court",
+    "link": "https://www.securityweek.com/kosovar-owner-of-rydox-marketplace-pleads-guilty-in-us-court/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-25T12:16:27.000Z",
+    "summary": "Ardit Kutleshi created and operated Rydox, which allowed miscreants to trade PII and cybercrime tools and services.\nThe post Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f60fa8e7cf689032",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-25T12:00:00.000Z",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-65660 Microsoft SharePoint Code Injection Vulnerability\nCVE-2026-67279 Mikrotik RouterOS Imprope",
+    "cveIds": [
+      "CVE-2026-65660",
+      "CVE-2026-67279"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "d835595787514017",
+    "title": "Doubts grow over claims OpenAI agent hacked Australian Medicare portal",
+    "link": "https://therecord.media/openai-australia-breach-cyber",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-25T12:00:00.000Z",
+    "summary": "Researchers are questioning whether an OpenAI agent needed to hack an Australian government health portal to access it, after a review of the website’s archived code found it explicitly directed visitors to an unauthenticated endpoint.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cca16c24d32949a6",
+    "title": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-25T11:35:14.000Z",
+    "summary": "A Kosovar national has pleaded guilty to operating Rydox, a large illegal online marketplace that sold stolen personal information, login credentials, credit card details, and cybercrime tools. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e170e8fab83d30f2",
+    "title": "The SOC Doesn't Need to Start Over with Every Alert",
+    "link": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-25T11:30:00.000Z",
+    "summary": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry.\n\nThe routine version looks like this. An attacker lan",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ce1b6975107b4801",
     "title": "Windows, Linux, Android File Notification Systems Leak User Activity",
     "link": "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/",
@@ -90,17 +291,6 @@
       "CVE-2026-48842"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "ae45fbe3008fdd78",
-    "title": "A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)",
-    "link": "https://isc.sans.edu/diary/rss/33368",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-25T06:45:47.000Z",
-    "summary": "Introduction",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "a80caea957f6b5ac",
@@ -346,12 +536,12 @@
   },
   {
     "id": "30aaeec28b11b228",
-    "title": "How to Build A SASE Framework for Modern Cybersecurity",
+    "title": "How to Build a SASE Framework for Modern Cybersecurity",
     "link": "https://www.darkreading.com/cloud-security/how-to-build-sase-framework",
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-09-24T14:02:43.000Z",
-    "summary": "Keeping edge computing safe requires organizations to fundamentally rethink security governance. Here is a path forward: a step-by-step guide to building a SASE framework.",
+    "summary": "Securing edge computing requires organizations to fundamentally rethink security governance. This step-by-step guide to building a SASE framework provides the path forward.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -497,20 +687,6 @@
     "summary": "View CSAF\nSummary\nThis advisory is revoked. Re-investigation confirmed the reported behavior is expected platform configuration and does not expose the protected attribute.\nThe following versions of Siemens Mendix Runtime are affected:\nSiem",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "990dd977630b789b",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-24T12:00:00.000Z",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-5430 WSO2 Multiple Products Path Traversal Vulnerability\nCVE-2026-71362 Adobe Commerce and Magen",
-    "cveIds": [
-      "CVE-2026-5430",
-      "CVE-2026-71362"
-    ],
-    "severity": "cve"
   },
   {
     "id": "ce8801eb63447fa9",
@@ -1276,6 +1452,28 @@
     "severity": "normal"
   },
   {
+    "id": "84e8b06a4b3d7421",
+    "title": "Multiples vulnérabilités dans Mattermost Server (23 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1212/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un déni de service à distance et une atteinte à la confidentialité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "00dc184036e96722",
+    "title": "Multiples vulnérabilités dans Google Chrome (23 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1213/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e37c24c05934b869",
     "title": "Rogue external MFA providers can steal passwords during logins",
     "link": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
@@ -1991,6 +2189,28 @@
     "severity": "normal"
   },
   {
+    "id": "d170580d7c6bc702",
+    "title": "Multiples vulnérabilités dans Moodle (22 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1210/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-22T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Moodle. Elles permettent à un attaquant de provoquer une injection SQL (SQLi) et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "960aeb5a67c608b7",
+    "title": "Vulnérabilité dans SolarWinds Access Rights Manager (22 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1211/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-22T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans SolarWinds Access Rights Manager. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "961e3a5a473dae9e",
     "title": "How AI Agents Can Trigger Runaway Costs for Enterprises",
     "link": "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs",
@@ -2433,6 +2653,28 @@
     "severity": "normal"
   },
   {
+    "id": "81c3347fd515c54b",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (21 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1208/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "814ecab0bfab9da0",
+    "title": "Multiples vulnérabilités dans Synology DSM (21 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1209/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Synology DSM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "54e68042a04d56ec",
     "title": "Russia reports thousands of cyberattacks on election infrastructure during vote",
     "link": "https://therecord.media/russia-reports-cyberattacks-during-election",
@@ -2677,161 +2919,5 @@
     "summary": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine.\n\nKernel maintainers have fixed all four over the past few weeks, so a system",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "f7a8a3c8b9b31898",
-    "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
-    "link": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-18T16:56:19.000Z",
-    "summary": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory withou",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "eb7139f191259504",
-    "title": "Gyazo server flaw exploited to steal 23.6 million user records",
-    "link": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-18T16:00:38.000Z",
-    "summary": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to steal 23.6 million user records. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2b499254cae67a24",
-    "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
-    "link": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-18T15:24:16.000Z",
-    "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan.\n\nThe attacks, per Zscaler",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3e46b7fa9a5cd039",
-    "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
-    "link": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-18T15:19:06.000Z",
-    "summary": "An ongoing malware campaign uses SEO-optimized GitHub repositories to impersonate well-known software firms to push a previously undocumented information stealer called Rapuncel. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9a9a67ee71423a33",
-    "title": "Nations take action on North Korean IT workers after UN report",
-    "link": "https://therecord.media/nations-take-action-on-north-korean-it-worker-schemes",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-18T14:29:00.000Z",
-    "summary": "A report published Wednesday said that as of July, Vietnam, Laos, Pakistan and Argentina took meaningful steps to respond to allegations involving North Korea listed in an October study.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7c0e9b13bb473f44",
-    "title": "In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack, Critical SAP Flaw",
-    "link": "https://www.securityweek.com/in-other-news-ransomware-developer-sentenced-plugin4shell-ai-attack-critical-sap-flaw/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-18T14:25:00.000Z",
-    "summary": "Noteworthy stories that might have slipped under the radar: Mandiant's 2026 AI risk report, PhantomRaven malware used by bug bounty hunter, WordPress plugin bug exploited.\nThe post In Other News: Ransomware Developer Sentenced, Plugin4Shell",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b8c4a0e3cc650597",
-    "title": "Secure enterprise sharing with access reviews for Microsoft 365",
-    "link": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-18T14:00:10.000Z",
-    "summary": "Microsoft 365 makes sharing files easy, but access can remain long after its original purpose has ended, leaving organizations with little visibility into who can still reach sensitive data. tenfold Software explains how centralized access ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a7986970ed653c59",
-    "title": "Microsoft Teams will let admins block custom file extensions",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-18T13:58:40.000Z",
-    "summary": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet their company's security requirements. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ff37aa7064aa096e",
-    "title": "Hacking group ‘NightEagle’ targeting China’s high-tech sector expands operations to Russia",
-    "link": "https://therecord.media/hacking-group-nighteagle-expands-russia-china",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-18T13:24:00.000Z",
-    "summary": "Over the past year, Russian cybersecurity firm Kaspersky said it investigated several incidents involving the group at Russian businesses.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5b3ebf43f1a568ff",
-    "title": "Webinar: Which Google Workspace security controls actually matter?",
-    "link": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-18T13:10:19.000Z",
-    "summary": "Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This webinar examines real-world breaches to explore which security controls matter most, which may be overr",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d12dd718a0ca78aa",
-    "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-    "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-18T12:47:04.000Z",
-    "summary": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required.\n\nThe vulnerability, tracked as CVE-2026-85889, carries a CVSS sco",
-    "cveIds": [
-      "CVE-2026-85889"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "e7c456c35a10b391",
-    "title": "AI-Built Exploit and Sign-In Flaw Opened Path to Internal OpenAI Code",
-    "link": "https://www.securityweek.com/ai-built-exploit-and-sign-in-flaw-opened-path-to-internal-openai-code/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-18T12:45:24.000Z",
-    "summary": "Hacktron researchers earned a bug bounty after demonstrating access to OpenAI employee accounts. \nThe post AI-Built Exploit and Sign-In Flaw Opened Path to Internal OpenAI Code appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b56e8f4dad14c86f",
-    "title": "Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-18T12:16:32.000Z",
-    "summary": "Microsoft has resolved a known issue that causes incorrect alerts warning that Defender Antivirus was turned off after installing recent updates. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d7f28bbb55007259",
-    "title": "23 Million User Records Compromised in Gyazo Data Breach",
-    "link": "https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-18T11:38:40.000Z",
-    "summary": "Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access.\nThe post 23 Million User Records Compromised in Gyazo Data Breach  appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
