@@ -1,5 +1,130 @@
 [
   {
+    "id": "ce1b6975107b4801",
+    "title": "Windows, Linux, Android File Notification Systems Leak User Activity",
+    "link": "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-25T10:53:32.000Z",
+    "summary": "Researchers show that file-change notification systems can leak keystroke timing, browsing activity, and WhatsApp media events.\nThe post Windows, Linux, Android File Notification Systems Leak User Activity appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8b1ba443ae923209",
+    "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+    "link": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-25T10:35:55.000Z",
+    "summary": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets. \n\n\"At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized transfers involving ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c2728dffcffc9185",
+    "title": "Microsoft: Recent Windows updates cause desktop loading issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-25T10:30:38.000Z",
+    "summary": "Microsoft has confirmed that some users may experience desktop loading issues, including black screens, after installing the August 2026 preview updates and subsequent updates. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b1531d8f8db5c670",
+    "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-25T10:14:02.000Z",
+    "summary": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild.\n\nThe vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injec",
+    "cveIds": [
+      "CVE-2026-48842"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "6a804f54cfab831b",
+    "title": "‘SalesBleed’ Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration",
+    "link": "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-25T09:27:51.000Z",
+    "summary": "Three vulnerabilities in Salesforce Agentforce allowed hackers to hijack trusted agents, steal data, and launch phishing attacks.\nThe post ‘SalesBleed’ Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration appeared first on Se",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "638d459032390b6e",
+    "title": "Hackers steal $351.6 million in Bitget crypto exchange hack",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-25T08:33:44.000Z",
+    "summary": "​Cryptocurrency exchange Bitget disclosed today that suspected North Korean hackers have stolen $351.6 million from its hot and warm wallets. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "75ab585d275425c6",
+    "title": "Russia's Hybrid Cyber-Physical War in Europe Heats Up",
+    "link": "https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-25T07:00:00.000Z",
+    "summary": "A storm is raging in the form of cyber sabotage, disinformation, and drone attacks on European nations, particularly those that provide material support to Ukraine.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ac5e91c66b835324",
+    "title": "Roundcube Webmail Vulnerability in Attackers’ Crosshairs",
+    "link": "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-25T06:57:40.000Z",
+    "summary": "Tracked as CVE-2026-48842, the exploited bug is an SQL injection that can be exploited without authentication.\nThe post Roundcube Webmail Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-48842"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "ae45fbe3008fdd78",
+    "title": "A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)",
+    "link": "https://isc.sans.edu/diary/rss/33368",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-25T06:45:47.000Z",
+    "summary": "Introduction",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a80caea957f6b5ac",
+    "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+    "link": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-25T04:49:22.000Z",
+    "summary": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday.\n\nThe data came from disk space that earlier c",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e85a70b763dc1dec",
+    "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+    "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-25T04:46:34.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "f1a59f26d747e5f9",
     "title": "ISC Stormcast For Friday, September 25th, 2026 https://isc.sans.edu/podcastdetail/10110, (Fri, Sep 25th)",
     "link": "https://isc.sans.edu/diary/rss/33370",
@@ -2706,173 +2831,6 @@
     "category": "news",
     "pubDate": "2026-09-18T11:38:40.000Z",
     "summary": "Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access.\nThe post 23 Million User Records Compromised in Gyazo Data Breach  appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2293bcd53a9679f6",
-    "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
-    "link": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-18T11:01:16.000Z",
-    "summary": "In July 2025, someone registered a domain that used to belong to a content delivery network.  The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thou",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e85403db91bc4b90",
-    "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-    "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-18T11:01:01.000Z",
-    "summary": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm Air",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cb9d75a33be0c951",
-    "title": "Microsoft Patches 18 Vulnerabilities in AI, Cloud Products",
-    "link": "https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-18T10:57:03.000Z",
-    "summary": "Microsoft fixed vulnerabilities across Azure and AI-branded products, with privilege escalation flaws accounting for the majority.\nThe post Microsoft Patches 18 Vulnerabilities in AI, Cloud Products appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a4aa43a6286bf9e2",
-    "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
-    "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-18T10:40:06.000Z",
-    "summary": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit.\n\nThe new malware family, per OpenSourceMalware, exhibits functional",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "66f04d58b0434a72",
-    "title": "NightmareStresser DDoS Service Disrupted in International Operation",
-    "link": "https://www.securityweek.com/nightmarestresser-ddos-service-disrupted-in-international-operation/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-18T10:12:33.000Z",
-    "summary": "Active since at least 2022, NightmareStresser was one of the longest-running DDoS-for-hire services in the world.\nThe post NightmareStresser DDoS Service Disrupted in International Operation appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e153090477bae189",
-    "title": "A Vault with a Heap-View: The Uncomfortable Space Between AgentCore Harness and Identity",
-    "link": "https://unit42.paloaltonetworks.com/securing-aws-agentcore-harness-credentials/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-09-18T10:00:36.000Z",
-    "summary": "Analysis of how default configurations in AWS AgentCore Harness allow prompt injection to exfiltrate credentials, and key steps to secure your agents.\nThe post A Vault with a Heap-View: The Uncomfortable Space Between AgentCore Harness and ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "408ef5d6647039b9",
-    "title": "Brevo Supply Chain Attack Injects Malware Into 100,000 Websites",
-    "link": "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-18T09:46:57.000Z",
-    "summary": "Hackers used a compromised API key to deploy a Cloudflare worker that injected malicious scripts.\nThe post Brevo Supply Chain Attack Injects Malware Into 100,000 Websites appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "46d085b9d44f9e65",
-    "title": "New Check Point flaw lets hackers execute code with root privileges",
-    "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-18T09:34:33.000Z",
-    "summary": "Check Point Software has released security updates to address a critical vulnerability that can let attackers execute code with root privileges on management systems. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9be6eecf6db2844d",
-    "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-    "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-18T09:18:03.000Z",
-    "summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry.\n\n\"The developer likely wrote the malware using a lar",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b9492fd270bac9c4",
-    "title": "Critical Orkes Conductor Vulnerability Exploited in Attacks",
-    "link": "https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-18T08:42:18.000Z",
-    "summary": "CVE-2026-58138 is an unauthenticated remote code execution vulnerability that attackers can exploit via inline workflow definitions.\nThe post Critical Orkes Conductor Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-58138"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "b195acf073742003",
-    "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-18T07:35:31.000Z",
-    "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6ce2b4a277854b1a",
-    "title": "MIND Secures $72 Million for AI-Powered DLP",
-    "link": "https://www.securityweek.com/mind-secures-72-million-for-ai-powered-dlp/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-18T07:25:27.000Z",
-    "summary": "The company will use the funding to accelerate platform development and expand its presence in key enterprise markets.\nThe post MIND Secures $72 Million for AI-Powered DLP appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7a1a9d30597c133b",
-    "title": "Check Point, Kaspersky, Tanium Patch Product Vulnerabilities",
-    "link": "https://www.securityweek.com/check-point-kaspersky-tanium-patch-product-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-18T07:14:04.000Z",
-    "summary": "Check Point Security Management and Log Servers are affected by a critical vulnerability that can allow remote code execution with root privileges.\nThe post Check Point, Kaspersky, Tanium Patch Product Vulnerabilities appeared first on Secu",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "06d4854d19963488",
-    "title": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-18T07:00:00.000Z",
-    "summary": "AI-driven cyberattacks used to be exotic. Soon, it'll be odd if threat actors aren't using agents to do all of their bidding.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "09d722e7770098e0",
-    "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
-    "link": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-18T06:17:25.000Z",
-    "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices.\n",
     "cveIds": [],
     "severity": "critical"
   }
