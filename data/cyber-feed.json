@@ -1,5 +1,84 @@
 [
   {
+    "id": "82e9a8b128c3791a",
+    "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-25T20:57:55.000Z",
+    "summary": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path trav",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4bb3040012e90c5a",
+    "title": "Kiteworks urges customers to stop using platform after warning from federal intelligence agencies",
+    "link": "https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-25T20:19:00.000Z",
+    "summary": "Frank Balonis, CISO at Kiteworks, told Recorded Future News that the company “received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems for custom",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d57d53acfedb83a5",
+    "title": "Labcorp to overhaul data security practices, pay $2.3 million fine for cybersecurity failings",
+    "link": "https://therecord.media/labcorp-to-overhaul-security-practices-settlement",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-25T19:35:00.000Z",
+    "summary": "Security changes include creating an incident response plan for vendor security failings, limiting how much data Labcorp shares with vendors and building an expansive risk management team charged with tracking vendors’ compliance with data ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4e93802753c25b60",
+    "title": "AI Sandbox Escapes: Why Forensic Readiness Matters More Than Containment",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-sandbox-escapes-forensic-readiness",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-25T18:39:32.000Z",
+    "summary": "When autonomous AI agents \"escape the sandbox,\" the real story isn't rogue machines — it's the same access-control failures we've seen for decades.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "407121c5fd6884f4",
+    "title": "Elementor WordPress flaw lets attackers create admin accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-25T18:13:33.000Z",
+    "summary": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3e0e6523ebd60b54",
+    "title": "What We Missed: Google Gemini Joins the AI Escape Party",
+    "link": "https://www.darkreading.com/cyber-risk/what-we-missed-google-gemini-ai-escape-party",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-25T17:56:23.000Z",
+    "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from Google Gemini models breaking containment to ShinyHunters ratting on TeamPCP hackers.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b9e09eb7f6ca00ab",
+    "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-25T17:24:20.000Z",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026-5430) affecting multiple products from enterprise software provider WSO2. [...]",
+    "cveIds": [
+      "CVE-2026-5430"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "f62c609b724877f9",
     "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
@@ -9,6 +88,17 @@
     "summary": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage credits, so more users can give it a try. [...]",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "74ab0bc29886016a",
+    "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-09-25T15:35:08.000Z",
+    "summary": "Microsoft details JADEPUFFER-linked Azure reconnaissance, resource deletion, and credential access using compromised service principals, identifying the activity as associated with Storm-3168 and providing guidance for defenders.\nThe post S",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "71d67a9d60db37fb",
@@ -164,6 +254,19 @@
     "cveIds": [
       "CVE-2026-65660",
       "CVE-2026-67279"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "746dd19951239e54",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-25T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-87902 WordPress Core Remote File Inclusion Vulnerability\nThis type of vulnerability is a frequent ",
+    "cveIds": [
+      "CVE-2026-87902"
     ],
     "severity": "cve"
   },
@@ -541,7 +644,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-09-24T14:02:43.000Z",
-    "summary": "Securing edge computing requires organizations to fundamentally rethink security governance. This step-by-step guide to building a SASE framework provides the path forward.",
+    "summary": "Securing edge computing requires organizations to fundamentally rethink security governance. This step-by-step guide to building a SASE framework provides the path forward. (Third in a three-part series.)",
     "cveIds": [],
     "severity": "normal"
   },
@@ -900,7 +1003,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-09-23T22:29:10.000Z",
-    "summary": "Enterprise computing is moving to the edge. Keeping it secure requires tactics far beyond putting up firewalls.",
+    "summary": "Enterprise computing is moving to the edge. Keeping it secure requires tactics far beyond putting up firewalls. (Second in a three-part series.)",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1854,17 +1957,6 @@
     "severity": "normal"
   },
   {
-    "id": "ce85fbcadf918837",
-    "title": "More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds",
-    "link": "https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-22T12:00:00.000Z",
-    "summary": "Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "485c3c17f870859d",
     "title": "Siemens WTV676 and WTV776",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
@@ -1974,6 +2066,17 @@
     "category": "advisory",
     "pubDate": "2026-09-22T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system.\nThe following versions of lwIP (Lightweight IP) are affect",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ce85fbcadf918837",
+    "title": "More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds",
+    "link": "https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-22T12:00:00.000Z",
+    "summary": "Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2508,19 +2611,6 @@
     "severity": "normal"
   },
   {
-    "id": "da155613153e64ee",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-21T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-7273 Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability\nThis type of vulnerabi",
-    "cveIds": [
-      "CVE-2026-7273"
-    ],
-    "severity": "cve"
-  },
-  {
     "id": "1d5de0afef18b09f",
     "title": "Rust Team Members and Popular Crate Owners Targeted via Video Calls",
     "link": "https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/",
@@ -2860,63 +2950,6 @@
     "category": "advisory",
     "pubDate": "2026-09-19T04:51:46.000Z",
     "summary": "In June 2026 the IETF published RFC 10008[1], defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it's the first new standard HTTP verb since \"PATCH\" in 2010!",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "db8364d968460c74",
-    "title": "Vectra AI Launches Ascent to Help Address New Era of AI-Driven Attacks",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/vectra-ai-launches-ascent-new-era-ai-driven-attacks",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-18T20:24:51.000Z",
-    "summary": "The new program expands Vectra AI's partner strategy as increasingly complex security environments and the growing use of AI create demand for broader AI expertise, services, and security outcomes.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c30f05e681c96aad",
-    "title": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-18T19:26:47.000Z",
-    "summary": "The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score.",
-    "cveIds": [
-      "CVE-2026-76460"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "5ef16b9434705006",
-    "title": "EY Survey Finds Autonomous AI Implementation Outpaces Oversight",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ey-survey-autonomous-ai-implementation-outpaces-oversight",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-18T19:23:48.000Z",
-    "summary": "A new survey of senior AI execs shows that while organizations are rapidly deploying AI and autonomous systems, their process and controls are not keeping pace.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3e25d109671f8b32",
-    "title": "MFA Won't Save You From OAuth Consent Abuse",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-18T18:15:20.000Z",
-    "summary": "MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "506f1342b2f410e2",
-    "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
-    "link": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-18T18:02:24.000Z",
-    "summary": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine.\n\nKernel maintainers have fixed all four over the past few weeks, so a system",
     "cveIds": [],
     "severity": "normal"
   }
