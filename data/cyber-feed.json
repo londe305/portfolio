@@ -1,5 +1,38 @@
 [
   {
+    "id": "e9160c0adae68644",
+    "title": "3 Consulting Myths Debunked by Unit 42 Experts",
+    "link": "https://unit42.paloaltonetworks.com/3-consulting-myths-debunked-by-unit-42-experts/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-09-25T23:00:28.000Z",
+    "summary": "Unit 42 security experts address critical cybersecurity misconceptions, offering practical insights to help your organization reinforce its enterprise defenses.\nThe post 3 Consulting Myths Debunked by Unit 42 Experts appeared first on Unit ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "42d7d50a9109dcec",
+    "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+    "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-09-25T21:44:40.000Z",
+    "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bdcdb2d24781d34d",
+    "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-25T21:41:07.000Z",
+    "summary": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent cyberattack. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "82e9a8b128c3791a",
     "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
     "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
