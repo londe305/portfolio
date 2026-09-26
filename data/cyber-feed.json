@@ -1,5 +1,73 @@
 [
   {
+    "id": "5fe3eb5897178d7a",
+    "title": "Microsoft pauses KB5002907 update after Office license deactivations",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-26T15:50:38.000Z",
+    "summary": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report that it deactivated, or in some cases completely removed, perpetual Office 2016 and Office 2019 installations. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7cfbf8cc3081e75d",
+    "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+    "link": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-26T14:19:46.000Z",
+    "summary": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious code. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8f8f3ea9305c64dd",
+    "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-26T12:28:41.000Z",
+    "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f6ae1f4fa767f112",
+    "title": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining",
+    "link": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-26T12:00:00.000Z",
+    "summary": "The Windows botnet relies on AI to maintain persistence, using xAI Grok to choose from predefined actions.\nThe post New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "05d26f439898d664",
+    "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+    "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-26T11:46:40.000Z",
+    "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally.\n\nThe ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 ",
+    "cveIds": [
+      "CVE-2026-35273"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "4e66adccc3e470f4",
+    "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+    "link": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-26T10:30:00.000Z",
+    "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could prom",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "64b05937032a2216",
     "title": "OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure",
     "link": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
@@ -2882,83 +2950,6 @@
     "category": "news",
     "pubDate": "2026-09-19T18:36:53.000Z",
     "summary": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.\n\nThe chain began with",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f8afd4069f0941a6",
-    "title": "BragJack attacks hijack AI browser agents through malicious extensions",
-    "link": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-19T14:56:31.000Z",
-    "summary": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude in Chrome using one malicious extension. The Prompt Forcing technique earned over $",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b7b0f8d9ba006509",
-    "title": "TigerByte Cyber Emerges From Stealth With $3 Million in Funding",
-    "link": "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-19T14:30:00.000Z",
-    "summary": "The company has secured over $7 million in contracts with US government agencies, including the US Space Force, the US Navy, and DARPA.\nThe post TigerByte Cyber Emerges From Stealth With $3 Million in Funding appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cfe7f416ead5d41a",
-    "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
-    "link": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-19T14:05:15.000Z",
-    "summary": "A joint law enforcement advisory warns that the North Korean hacking group WaterPlum compromised at least 30,000 devices worldwide from December 2025 through July 2026 and transferred more than $10.7 million in stolen cryptocurrency to Nort",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c1d5bcc89f74e845",
-    "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-19T13:48:32.000Z",
-    "summary": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7d7f9cff7d80c2f9",
-    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-    "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-19T13:28:48.000Z",
-    "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is compressing the time between disclosure ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b2876269df9a7c19",
-    "title": "Identity Visibility in 2026: The Foundation of Identity Security",
-    "link": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-19T13:28:41.000Z",
-    "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigat",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f3c57bf9f56a1b4d",
-    "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
-    "link": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-19T11:38:20.000Z",
-    "summary": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-scans every caller for an 18+ age check, senses callers' moods during calls, and shuts down ",
     "cveIds": [],
     "severity": "normal"
   }
