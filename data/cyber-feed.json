@@ -1,5 +1,51 @@
 [
   {
+    "id": "d8143f817f623613",
+    "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-26T19:03:34.000Z",
+    "summary": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation of a flaw on vulner",
+    "cveIds": [
+      "CVE-2026-35273"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "d0389279f56227f3",
+    "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+    "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-26T18:22:52.000Z",
+    "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex.\n\nThe new findings come from Ontinue, wh",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "24bae0f5520c7242",
+    "title": "China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks",
+    "link": "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-26T18:09:28.000Z",
+    "summary": "The US and China agreed to set up a communication mechanism for artificial intelligence-related incidents.\nThe post China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7843e0df28888ae6",
+    "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-26T16:26:58.000Z",
+    "summary": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording compared with Opus 5. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "5fe3eb5897178d7a",
     "title": "Microsoft pauses KB5002907 update after Office license deactivations",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
@@ -2939,17 +2985,6 @@
     "category": "news",
     "pubDate": "2026-09-20T12:00:00.000Z",
     "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cc2fd48c518b89fd",
-    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-    "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-19T18:36:53.000Z",
-    "summary": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.\n\nThe chain began with",
     "cveIds": [],
     "severity": "normal"
   }
