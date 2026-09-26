@@ -1,5 +1,49 @@
 [
   {
+    "id": "64b05937032a2216",
+    "title": "OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure",
+    "link": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-26T10:15:41.000Z",
+    "summary": "OpenAI’s CEO said there is an “extensive and ongoing review related to our agents’ use of internet access during training and evaluation.”\nThe post OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "06ab9a4d91a46080",
+    "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+    "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-26T09:55:22.000Z",
+    "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site.\n\nThe cross-",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "917fda2ee0646d31",
+    "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-26T08:49:53.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploit",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "41696cb4303777f8",
+    "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+    "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-26T07:48:33.000Z",
+    "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack.\n\n\"Kiteworks received credible thr",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e9160c0adae68644",
     "title": "3 Consulting Myths Debunked by Unit 42 Experts",
     "link": "https://unit42.paloaltonetworks.com/3-consulting-myths-debunked-by-unit-42-experts/",
@@ -2915,74 +2959,6 @@
     "category": "news",
     "pubDate": "2026-09-19T11:38:20.000Z",
     "summary": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-scans every caller for an 18+ age check, senses callers' moods during calls, and shuts down ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c8019563e962e9de",
-    "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
-    "link": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-19T09:31:17.000Z",
-    "summary": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability.\n\nThe vulnerability, tracked as CV",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d36262dc668404e0",
-    "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
-    "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-19T08:18:54.000Z",
-    "summary": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet.\n\nThe vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates to a case of unauth",
-    "cveIds": [
-      "CVE-2026-58138"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "71746d073e508b6a",
-    "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
-    "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-19T07:51:34.000Z",
-    "summary": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal.\n\nThe inc",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bf0f679dfdf491d7",
-    "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
-    "link": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-19T07:14:54.000Z",
-    "summary": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec said on September 18.\n\nThe French security company had kept his GitHub access open. CrowdSec says ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9de6b003d2fd18fe",
-    "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
-    "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-19T06:24:10.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7c704cae3839d0ec",
-    "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
-    "link": "https://isc.sans.edu/diary/rss/33352",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-19T04:51:46.000Z",
-    "summary": "In June 2026 the IETF published RFC 10008[1], defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it's the first new standard HTTP verb since \"PATCH\" in 2010!",
     "cveIds": [],
     "severity": "normal"
   }
