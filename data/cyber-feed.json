@@ -1,13 +1,16 @@
 [
   {
     "id": "44db897d4935fdb7",
-    "title": "Citrix admins warned to shut down NetScalers over 2 exploited zero-days",
+    "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
     "source": "BleepingComputer",
     "category": "news",
     "pubDate": "2026-09-27T16:02:37.000Z",
-    "summary": "Two unpatched Citrix NetScaler zero-day vulnerabilities are reportedly being exploited in attacks, with cybersecurity agencies, security researchers, and IT providers privately warning organizations about the flaws ahead of patches expected",
-    "cveIds": [],
+    "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. [...]",
+    "cveIds": [
+      "CVE-2026-88771",
+      "CVE-2026-88772"
+    ],
     "severity": "critical"
   },
   {
@@ -44,6 +47,38 @@
     "severity": "normal"
   },
   {
+    "id": "a984fadafad1780c",
+    "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-27T12:00:00.000Z",
+    "summary": "CISA is amplifying Citrix’s disclosure of eight new vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway products: CVE-2026-88771, CVE-2026-88772, CVE-2026-88773, CVE-2026-88774, CVE-2026-88775, CVE-2026-88776, CVE-20",
+    "cveIds": [
+      "CVE-2026-88771",
+      "CVE-2026-88772",
+      "CVE-2026-88773",
+      "CVE-2026-88774",
+      "CVE-2026-88775",
+      "CVE-2026-88776"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "596df4519eeb8528",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-27T12:00:00.000Z",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-88771 Citrix NetScaler Improper Input Validation Vulnerability\nCVE-2026-88772 Citrix NetScaler I",
+    "cveIds": [
+      "CVE-2026-88771",
+      "CVE-2026-88772"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "7219d26ae079e0f4",
     "title": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
     "link": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
@@ -63,7 +98,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-09-27T07:47:57.000Z",
-    "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26.\n\nCitrix has not con",
+    "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of th",
     "cveIds": [],
     "severity": "critical"
   },
@@ -268,6 +303,17 @@
     "summary": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path trav",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "c6cd68893b5a59a5",
+    "title": "How the CISO CFO Relationship is a Key to Cybersecurity Success",
+    "link": "https://www.darkreading.com/cyber-risk/how-to-manage-ciso-cfo-relationship-cybersecurity-success",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-25T20:28:10.000Z",
+    "summary": "Building a financial bridge: Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk and enable business growth are better prepared to face today's threat landscape.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "4bb3040012e90c5a",
@@ -501,20 +547,6 @@
     "summary": "Ardit Kutleshi created and operated Rydox, which allowed miscreants to trade PII and cybercrime tools and services.\nThe post Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "f60fa8e7cf689032",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-25T12:00:00.000Z",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-65660 Microsoft SharePoint Code Injection Vulnerability\nCVE-2026-67279 Mikrotik RouterOS Imprope",
-    "cveIds": [
-      "CVE-2026-65660",
-      "CVE-2026-67279"
-    ],
-    "severity": "cve"
   },
   {
     "id": "746dd19951239e54",
@@ -2307,17 +2339,6 @@
     "severity": "normal"
   },
   {
-    "id": "0bcec5d7f53e5a6c",
-    "title": "OpenPLC Runtime v3",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow the attacker to control the programmable logic controller a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "ad6f750640b1b395",
     "title": "lwIP (Lightweight IP)",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02",
@@ -2325,6 +2346,17 @@
     "category": "advisory",
     "pubDate": "2026-09-22T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system.\nThe following versions of lwIP (Lightweight IP) are affect",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0bcec5d7f53e5a6c",
+    "title": "OpenPLC Runtime v3",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow the attacker to control the programmable logic controller a",
     "cveIds": [],
     "severity": "normal"
   },
