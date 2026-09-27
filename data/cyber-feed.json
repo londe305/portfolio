@@ -1,5 +1,49 @@
 [
   {
+    "id": "44db897d4935fdb7",
+    "title": "Citrix admins warned to shut down NetScalers over 2 exploited zero-days",
+    "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-27T16:02:37.000Z",
+    "summary": "Two unpatched Citrix NetScaler zero-day vulnerabilities are reportedly being exploited in attacks, with cybersecurity agencies, security researchers, and IT providers privately warning organizations about the flaws ahead of patches expected",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "584c126ee73ca25b",
+    "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
+    "link": "https://isc.sans.edu/diary/rss/33372",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-27T15:04:49.000Z",
+    "summary": "Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "150c2b68e8ba2b40",
+    "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+    "link": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-27T14:13:31.000Z",
+    "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c56cfa0ca04b2e55",
+    "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-27T13:38:40.000Z",
+    "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "7219d26ae079e0f4",
     "title": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
     "link": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
@@ -2987,28 +3031,6 @@
     "category": "news",
     "pubDate": "2026-09-20T23:00:00.000Z",
     "summary": "Claims by officials of cyberattacks against election infrastructure could not be independently verified. Russian officials provided little technical evidence about the attacks or who it claimed who was behind them.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5abf59fedffa2476",
-    "title": "Malicious npm packages evade install-script defenses at runtime",
-    "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-20T14:11:21.000Z",
-    "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "533b089bb91a7157",
-    "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
-    "link": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-20T12:00:00.000Z",
-    "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]",
     "cveIds": [],
     "severity": "normal"
   }
