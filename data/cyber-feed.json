@@ -1,5 +1,175 @@
 [
   {
+    "id": "1550f6c52714f419",
+    "title": "Former US soldier gets nearly six-year sentence for hacking, extorting telecoms",
+    "link": "https://therecord.media/hacker-telecom-army-sentenced",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-28T12:45:00.000Z",
+    "summary": "A former soldier in the U.S. Army was sentenced to more than five years in federal prison after pleading guilty to hacking into several telecommunications companies and leaking sensitive records.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5dcc91b94d1a48f3",
+    "title": "Prison Sentence for Former US Soldier Who Hacked AT&T and Verizon",
+    "link": "https://www.securityweek.com/prison-sentence-for-former-us-soldier-who-hacked-att-and-verizon/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-28T12:36:16.000Z",
+    "summary": "Cameron John Wagenius was sentenced to 70 months in prison for stealing information from the wireless carriers.\nThe post Prison Sentence for Former US Soldier Who Hacked AT&T and Verizon appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8a2ae7a592912afb",
+    "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
+    "link": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-28T11:58:00.000Z",
+    "summary": "AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems—often without the same controls applied to human users.\n\nAccording",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0254725a880e1708",
+    "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+    "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-28T11:46:00.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent.\n\n\"The implant insta",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c3403dc4cf0540b8",
+    "title": "DC Health Agency Exposes 400,000 Beneficiary Records",
+    "link": "https://www.securityweek.com/dc-health-agency-exposes-400000-beneficiary-records/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-28T11:29:29.000Z",
+    "summary": "The Medicaid IDs and other information of Medicaid and DC Healthcare Alliance beneficiaries were exposed.\nThe post DC Health Agency Exposes 400,000 Beneficiary Records appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1e44dcd83b1262a3",
+    "title": "Google Warns of ShinyHunters’ Fresh Oracle PeopleSoft Campaign",
+    "link": "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-28T10:56:46.000Z",
+    "summary": "The extortion group has modified its exploit in new attacks targeting the PeopleSoft vulnerability CVE-2026-35273.\nThe post Google Warns of ShinyHunters’ Fresh Oracle PeopleSoft Campaign appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-35273"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "2ed8c215fff2201a",
+    "title": "New Mexico Jury Finds Facebook Liable for Deceiving Users About Privacy Protections",
+    "link": "https://www.securityweek.com/new-mexico-jury-finds-facebook-liable-for-deceiving-users-about-privacy-protections/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-28T10:40:01.000Z",
+    "summary": "A New Mexico jury has found Facebook liable for deceiving users about privacy protections on the platform.\nThe post New Mexico Jury Finds Facebook Liable for Deceiving Users About Privacy Protections appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "694a9061698faff5",
+    "title": "Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog",
+    "link": "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-28T10:27:01.000Z",
+    "summary": "The platform combines open source software and a reference system design to keep AI agents within set boundaries.\nThe post Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9de5431b156399d0",
+    "title": "Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability",
+    "link": "https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-28T09:44:27.000Z",
+    "summary": "The company says the measure was precautionary and that it has no evidence of Kiteworks or customer systems being compromised.\nThe post Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a10ff54cb99f3af8",
+    "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
+    "link": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-28T09:25:29.000Z",
+    "summary": "Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole over $350 million. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b2d877fcb67a5cac",
+    "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+    "link": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-28T09:08:21.000Z",
+    "summary": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals.\n\nMicrosoft, which is tracking the activity under the name Storm-3168, has ca",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a3b0b4956d2e044a",
+    "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
+    "link": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-28T07:30:15.000Z",
+    "summary": "A former U.S. Army soldier has been sentenced to 70 months in prison for hacking and extorting at least 10 U.S. technology and telecommunications companies between April 2023 and December 2024. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "60de7053e5588443",
+    "title": "Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug",
+    "link": "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-28T07:29:51.000Z",
+    "summary": "Citrix has released patches for the critical NetScaler vulnerabilities tracked as CVE-2026-88771 and CVE-2026-88772.\nThe post Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-88771",
+      "CVE-2026-88772"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "d57d7f9bc848382b",
+    "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+    "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-09-28T07:21:49.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulner",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bc1df5baf666f3da",
+    "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-28T06:24:19.000Z",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "bf9408c361073a02",
     "title": "ISC Stormcast For Monday, September 28th, 2026 https://isc.sans.edu/podcastdetail/10112, (Mon, Sep 28th)",
     "link": "https://isc.sans.edu/diary/rss/33374",
@@ -328,12 +498,12 @@
   },
   {
     "id": "c6cd68893b5a59a5",
-    "title": "How the CISO CFO Relationship is a Key to Cybersecurity Success",
+    "title": "How the CISO-CFO Relationship Is a Key to Cybersecurity Success",
     "link": "https://www.darkreading.com/cyber-risk/how-to-manage-ciso-cfo-relationship-cybersecurity-success",
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-09-25T20:28:10.000Z",
-    "summary": "Building a financial bridge: Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk and enable business growth are better prepared to face today's threat landscape.",
+    "summary": "Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk, and enable business growth are better prepared to face today's threat landscape.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1890,6 +2060,28 @@
     "severity": "normal"
   },
   {
+    "id": "9a4e4343073722d5",
+    "title": "Multiples vulnérabilités dans les produits FoxIT (23 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1214/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits FoxIT. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des d",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "979d9f751b7a2844",
+    "title": "Multiples vulnérabilités dans SolarWinds Observability Self-Hosted (23 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1215/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans SolarWinds Observability Self-Hosted. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e37c24c05934b869",
     "title": "Rogue external MFA providers can steal passwords during logins",
     "link": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
@@ -2889,159 +3081,5 @@
     "summary": "The ShinyHunters extortion group hijacked the dark web leak site of the prolific Cl0p ransomware gang, according to material posted on the site over the weekend.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "6ccedc5e37be7c18",
-    "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-21T13:16:20.000Z",
-    "summary": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS first-factor sign-in starting in February 2027. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "836b8875d8a53662",
-    "title": "LinkedIn wins court order blocking mass scraping of user data",
-    "link": "https://therecord.media/linkedin-wins-court-order-blocking-mass-scraping",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-21T12:55:00.000Z",
-    "summary": "The agreement between LinkedIn, ProAPIs and joint business operator Netswift also requires the firms to stop selling and transferring the data, no longer access LinkedIn through fake accounts and delete the data that was scraped, according ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c64188f52a80b12b",
-    "title": "RatHat Android Trojan Uses AI for Automation",
-    "link": "https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-21T12:51:41.000Z",
-    "summary": "The malware relies on AI for real-time device navigation and control, increasing adaptability and evasion.\nThe post RatHat Android Trojan Uses AI for Automation appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1d5de0afef18b09f",
-    "title": "Rust Team Members and Popular Crate Owners Targeted via Video Calls",
-    "link": "https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-21T11:57:35.000Z",
-    "summary": "It’s unclear if the attacks are part of previous campaigns against Rust, but the techniques used by the attackers match those used by North Korea.\nThe post Rust Team Members and Popular Crate Owners Targeted via Video Calls appeared first o",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "408c2d26746ffff2",
-    "title": "Microsoft: September updates break File History backup feature",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-21T11:45:54.000Z",
-    "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "235c3bfe61f78d61",
-    "title": "CrowdSec Confirms Source Code Stolen in Supply Chain Attack",
-    "link": "https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-21T10:55:46.000Z",
-    "summary": "The cybersecurity firm believes the data breach was the result of the May 2026 TanStack supply chain attack.\nThe post CrowdSec Confirms Source Code Stolen in Supply Chain Attack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "24ce00a915220f78",
-    "title": "TerminalFix: PNG Steganography, (Mon, Sep 21st)",
-    "link": "https://isc.sans.edu/diary/rss/33318",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-21T10:33:53.000Z",
-    "summary": "Microsoft Security Research published an interesting blog post \"TerminalFix campaign deploys a reverse tunnel through multistage intrusion\" about a malware campaign. The aspect that I want to take a closer look at, is the fact that the thre",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "eead72d75bb84bd6",
-    "title": "Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems",
-    "link": "https://www.securityweek.com/colorado-water-utilities-hit-by-cyberattacks-targeting-ot-systems/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-21T10:03:44.000Z",
-    "summary": "The hackers changed equipment settings, disabled remote access and alarms, and altered pumping cycles, officials said. \nThe post Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5e7190318dbce365",
-    "title": "From Exposure to Lockdown: How AWS Neutralizes Compromised IAM Credentials through Managed Policies",
-    "link": "https://unit42.paloaltonetworks.com/detecting-exposed-aws-iam-credentials/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-09-21T10:00:13.000Z",
-    "summary": "We explore how AWS neutralizes exposed IAM credentials using managed policies, detailing GitHub secret scanning and CloudTrail monitoring strategies.\nThe post From Exposure to Lockdown: How AWS Neutralizes Compromised IAM Credentials throug",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "05bda9131044907e",
-    "title": "Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities",
-    "link": "https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-21T09:31:12.000Z",
-    "summary": "Attackers could exploit the flaws to cause denial-of-service conditions, disclose memory, or modify memory.\nThe post Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "466b4f516547fabd",
-    "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-    "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-21T08:39:38.000Z",
-    "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript.\n\n\"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f5aa1e458d2eec0c",
-    "title": "Google Confirms Gemini AI Breached Three Firms",
-    "link": "https://www.securityweek.com/google-confirms-gemini-ai-breached-three-firms/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-21T07:20:46.000Z",
-    "summary": "Google is the latest AI giant to confirm that its models escaped a testing environment and hacked real companies.\nThe post Google Confirms Gemini AI Breached Three Firms appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d657c58df2d2b77a",
-    "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-    "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-21T06:06:44.000Z",
-    "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "07084894badaa95b",
-    "title": "ISC Stormcast For Monday, September 21st, 2026 https://isc.sans.edu/podcastdetail/10102, (Mon, Sep 21st)",
-    "link": "https://isc.sans.edu/diary/rss/33354",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-21T05:15:12.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
