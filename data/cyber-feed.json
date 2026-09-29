@@ -1,5 +1,40 @@
 [
   {
+    "id": "c3c75025d3d708fa",
+    "title": "ISC Stormcast For Tuesday, September 29th, 2026 https://isc.sans.edu/podcastdetail/10114, (Tue, Sep 29th)",
+    "link": "https://isc.sans.edu/diary/rss/33378",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-29T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d21608339f34d5a8",
+    "title": "Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)",
+    "link": "https://isc.sans.edu/diary/rss/33376",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-09-28T22:35:35.000Z",
+    "summary": "Apple today released patches for all of its operating systems. However, only patches for older branches include a security fix. The vulnerability being addressed in iOS 26, macOS 26 and macOS 15 is already being exploited. iOS and macOS 27 ",
+    "cveIds": [
+      "CVE-2026-86950"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "af90707fd724ed58",
+    "title": "One Packet Can Crash OT Servers in Industrial Sectors",
+    "link": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-28T21:13:04.000Z",
+    "summary": "A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "a4c9989360ae6705",
     "title": "Japan's Keio confirms ransomware attack disrupted business systems",
     "link": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
@@ -3053,71 +3088,5 @@
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "6de6106c8cb63bf2",
-    "title": "ISC Stormcast For Tuesday, September 22nd, 2026 https://isc.sans.edu/podcastdetail/10104, (Tue, Sep 22nd)",
-    "link": "https://isc.sans.edu/diary/rss/33356",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-22T03:50:10.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "108d12ca4ae942ea",
-    "title": "US Proposes AI Incident Alert System in Talks With China, Bessent Says",
-    "link": "https://www.securityweek.com/us-proposes-ai-incident-alert-system-in-talks-with-china-bessent-says/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-22T02:01:24.000Z",
-    "summary": "Trump has resisted calls to slow down AI development, saying that would help China catch up to U.S. companies.\nThe post US Proposes AI Incident Alert System in Talks With China, Bessent Says appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d170580d7c6bc702",
-    "title": "Multiples vulnérabilités dans Moodle (22 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1210/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-22T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Moodle. Elles permettent à un attaquant de provoquer une injection SQL (SQLi) et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "960aeb5a67c608b7",
-    "title": "Vulnérabilité dans SolarWinds Access Rights Manager (22 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1211/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-22T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans SolarWinds Access Rights Manager. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "961e3a5a473dae9e",
-    "title": "How AI Agents Can Trigger Runaway Costs for Enterprises",
-    "link": "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-21T21:39:59.000Z",
-    "summary": "Unbounded consumption is an issue that OWASP currently ranks sixth in its Top 10 for LLM Applications, and it could be an extremely costly one.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1a49f4625fa1204c",
-    "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
-    "link": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-21T21:18:49.000Z",
-    "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
