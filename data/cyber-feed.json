@@ -1,5 +1,117 @@
 [
   {
+    "id": "28594b2bec10c628",
+    "title": "Phishing Abuses RMM Tools for Persistent Access",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-09-29T21:39:27.000Z",
+    "summary": "Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity\nThe post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Secu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dad7f1e98924bb69",
+    "title": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-29T21:31:29.000Z",
+    "summary": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
+    "cveIds": [
+      "CVE-2026-86950"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "aae08bb6a99ba212",
+    "title": "Signal adds encypted local backup support to iOS, desktop apps",
+    "link": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-29T21:30:08.000Z",
+    "summary": "Signal, the secure messaging app, released version 8.30, completing the rollout of its secure backups feature across all supported operating systems (Android, iOS, Linux, macOS, and Windows). [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "af597f3c7c0de65f",
+    "title": "Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution",
+    "link": "https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-09-29T21:08:42.000Z",
+    "summary": "A patched Unsloth Studio vulnerability allows malicious AI models to execute arbitrary Python code during inspection, via the trust_remote_code setting.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7bf6e3751c5f4cd1",
+    "title": "US Air Force members given over 6 years in prison for cyber theft of more than $2 million",
+    "link": "https://therecord.media/us-air-force-members-given-6-year-sentence-cyber",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-29T21:01:00.000Z",
+    "summary": "According to court documents, both men pleaded guilty to wire fraud, identity theft and access device fraud charges in June.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "76547738eddeddbd",
+    "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+    "link": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-29T20:59:39.000Z",
+    "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5c78646484c2bab9",
+    "title": "Controversial spyware firm Paragon to go public by end of year",
+    "link": "https://therecord.media/controversial-spyware-firm-paragon-to-go-public",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-29T20:35:00.000Z",
+    "summary": "The company plans to close the deal around the end of the year at which point Paragon will begin trading on Nasdaq under the REDLattice umbrella.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7b7f6019738814dc",
+    "title": "OpenAI CEO Announces New AI Agent and Avoids Mention of Security Concerns at Developer Conference",
+    "link": "https://www.securityweek.com/openai-ceo-announces-new-ai-agent-and-avoids-mention-of-security-concerns-at-developer-conference/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-09-29T20:14:44.000Z",
+    "summary": "Altman made a slew of product announcements and updates, including the company’s new agents, called Dots.\nThe post OpenAI CEO Announces New AI Agent and Avoids Mention of Security Concerns at Developer Conference appeared first on SecurityW",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "269e738f0981750f",
+    "title": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-09-29T20:09:55.000Z",
+    "summary": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of the group's alleged leaders. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a4edbe93992f4079",
+    "title": "OpenAI apologizes for agents breaching Australian government websites without authorization",
+    "link": "https://therecord.media/openai-apologizes-australia-medicare-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-09-29T19:48:00.000Z",
+    "summary": "The artificial intelligence giant acknowledged it botched its response to the incidents and should have done more to promptly notify and work with the Australian government in the days after it discovered the breaches.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "7255110665bf355d",
     "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
@@ -2885,138 +2997,6 @@
     "category": "advisory",
     "pubDate": "2026-09-23T02:40:13.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "84e8b06a4b3d7421",
-    "title": "Multiples vulnérabilités dans Mattermost Server (23 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1212/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-23T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un déni de service à distance et une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "00dc184036e96722",
-    "title": "Multiples vulnérabilités dans Google Chrome (23 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1213/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-23T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9a4e4343073722d5",
-    "title": "Multiples vulnérabilités dans les produits FoxIT (23 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1214/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-23T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits FoxIT. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des d",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "979d9f751b7a2844",
-    "title": "Multiples vulnérabilités dans SolarWinds Observability Self-Hosted (23 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1215/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-23T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans SolarWinds Observability Self-Hosted. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0464332332ad1336",
-    "title": "Vulnérabilité dans WordPress (23 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1216/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-23T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans WordPress. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e37c24c05934b869",
-    "title": "Rogue external MFA providers can steal passwords during logins",
-    "link": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-22T21:45:45.000Z",
-    "summary": "Security researchers developed an attack that lets hackers with privileged access register a rogue external MFA provider that steals users' passwords during legitimate login attempts. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d9492125df20bf2f",
-    "title": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
-    "link": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-22T21:40:37.000Z",
-    "summary": "Sweden's data privacy regulator, IMY, has imposed a $183,000 (SEK 1.8 million) fine on IT systems provider Miljödata for inadequate security measures leading to a breach in August 2025 affecting 2.2 million people. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f75ef52960e167ac",
-    "title": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
-    "link": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-22T21:12:37.000Z",
-    "summary": "More than 80,000 AI relay servers are helping users in China mask their identities while they access cutting-edge large language models (LLMs), probably to clone them.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dbbc7e7de225cedc",
-    "title": "How the CISO-CMO Alliance Builds Trust Before Crisis Strikes",
-    "link": "https://www.darkreading.com/cybersecurity-operations/how-ciso-cmo-alliance-builds-trust-before-crisis",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-22T20:55:53.000Z",
-    "summary": "Cybersecurity and brand reputation are inextricably linked. Security and marketing leaders who establish regular touchpoints, develop joint crisis communications plans, and translate security risks into their brand impact position their org",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6a783479a6e49b7b",
-    "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
-    "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-22T20:35:24.000Z",
-    "summary": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive data from 996 devices and more than 18,500 records stored in backend databases. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "da2613f7ae841eae",
-    "title": "Microsoft Disrupts EvilTokens Device Code Phishing Service",
-    "link": "https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-22T20:02:02.000Z",
-    "summary": "Microsoft seized 50 websites and disabled more than 150 domains as part of a coordinated disruption effort against a phishing-as-a-service platform targeting Microsoft 365 accounts.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3a533d2b5ffeb564",
-    "title": "Deception by Design: CISA's Guide to Tricking Cybercriminals",
-    "link": "https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-22T19:59:24.000Z",
-    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) is going old school to help organizations with limited resources set traps for hackers.",
     "cveIds": [],
     "severity": "normal"
   }
