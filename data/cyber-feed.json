@@ -1,5 +1,238 @@
 [
   {
+    "id": "90b51a982946ecd5",
+    "title": "Microsoft says threat actors are ahead in the early AI race",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-01T19:32:47.000Z",
+    "summary": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed up vulnerability discovery, malware development, and post-compromise activity while security teams st",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "fe8b89627fb733d8",
+    "title": "OpenAI software attempted to secretly scrape data from dozens of prominent websites",
+    "link": "https://therecord.media/openai-software-attempted-to-secretly-scrape-data-from-dozens-of-websites",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-01T19:25:00.000Z",
+    "summary": "The findings, released Thursday by Asymmetric Security, are just the latest example of rogue behavior spurred by OpenAI’s software.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2e7124387088f6fc",
+    "title": "Researchers find Chinese hacking campaigns targeting AI firms, Asian governments",
+    "link": "https://therecord.media/china-linked-phishing-scheme-backdoor-taiwan",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-01T18:16:00.000Z",
+    "summary": "Two separate reports by cybersecurity companies highlight China-linked hacking operations, including a phishing campaign that impersonated Western experts.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d079a17148dbe51c",
+    "title": "Give yourself room to be human",
+    "link": "https://blog.talosintelligence.com/give-yourself-room-to-be-human/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-10-01T18:00:52.000Z",
+    "summary": "In this week’s edition, Amy reflects on the importance of prioritizing family and personal well-being over the pressure to remain constantly productive.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a83bccc6f3e0cc14",
+    "title": "Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks",
+    "link": "https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-01T18:00:00.000Z",
+    "summary": "Fifteen years after coining the framework, John Kindervag insists zero trust still works in the AI era—if you get the implementation right.\nThe post Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks appeared first on Secu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9f6f119b1256805a",
+    "title": "Osavul Lands $10 Million to Spot Hostile Intent Across Cyber, Physical Domains",
+    "link": "https://www.securityweek.com/osavul-lands-10-million-to-spot-hostile-intent-across-cyber-physical-domains/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-01T17:16:41.000Z",
+    "summary": "Hybrid risk intelligence company Osavul has raised $10 million in a Series A funding round led by 33N Ventures.\nThe post Osavul Lands $10 Million to Spot Hostile Intent Across Cyber, Physical Domains appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c1f2fe32465a9ae6",
+    "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+    "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-01T16:55:57.000Z",
+    "summary": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid.\n\nThe 16-",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f1d14dce844e54b2",
+    "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+    "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-01T16:45:38.000Z",
+    "summary": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up req",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5ef5a5d32f004f7b",
+    "title": "Police disrupt KillSec ransomware, arrest suspected teenage leader",
+    "link": "https://therecord.media/killsec-ransomware-raas-arrests-europe",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-01T15:55:00.000Z",
+    "summary": "European police said raids against the KillSec ransomware-as-a-service operation included the arrest of a high-profile teen suspect.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e0da2450b1b9314c",
+    "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+    "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-01T14:37:35.000Z",
+    "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again.\n\nThe backdoor has b",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "cb51a5d3ab31c4b0",
+    "title": "Hacker Conversations: Rob Juncker, a Knock at the Door and a Moral Compass",
+    "link": "https://www.securityweek.com/hacker-conversations-rob-juncker-a-knock-at-the-door-and-a-moral-compass/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-01T14:30:00.000Z",
+    "summary": "Rob Juncker is chief product and technology officer at Mimecast. Is he a hacker? “Unequivocally yes,” he says.\nThe post Hacker Conversations: Rob Juncker, a Knock at the Door and a Moral Compass appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f655a82be286d745",
+    "title": "Enterprises Struggle to Prepare for AI and Quantum Threats, PwC Says",
+    "link": "https://www.securityweek.com/enterprises-struggle-to-prepare-for-ai-and-quantum-threats-pwc-says/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-01T14:30:00.000Z",
+    "summary": "PwC’s survey found that only 22% of leaders would use fully autonomous AI for cyber defense, while just 21% are implementing quantum-resistant security measures.\nThe post Enterprises Struggle to Prepare for AI and Quantum Threats, PwC Says ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1127730e1ab91d57",
+    "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+    "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-01T14:25:14.000Z",
+    "summary": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three arrests, and identified a 16-year-old as the group's alleged administrator. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "fa87177f87cc6d22",
+    "title": "Police Shut Down KillSec Ransomware, Identify Alleged Teen Leader",
+    "link": "https://www.securityweek.com/police-shut-down-killsec-ransomware-identify-alleged-teen-leader/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-01T14:17:07.000Z",
+    "summary": "Police took control of KillSec’s leak site and secured at least 110 terabytes of data stolen from victims.\nThe post Police Shut Down KillSec Ransomware, Identify Alleged Teen Leader appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "362c22c03462736f",
+    "title": "The Day-One Hole in Zero Trust Architecture",
+    "link": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-01T14:01:11.000Z",
+    "summary": "Zero Trust can verify users once they are established, but onboarding creates a gap where organizations must decide who to trust before strong authentication exists. Specops explains why identity verification should begin before credentials",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "03612a48c44051e9",
+    "title": "Preparing governments for an era of interconnected cyber risk",
+    "link": "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-10-01T14:00:00.000Z",
+    "summary": "According to this year’s Microsoft Digital Defense Report, government agencies and services were the sector most impacted by cyber threats in 2026, accounting for 27% of observed activity, up from 17% in 2025.\nThe post Preparing governments",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "143a7ccff4778ff1",
+    "title": "Insights from the 2026 Microsoft Digital Defense Report",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-10-01T14:00:00.000Z",
+    "summary": "Read highlights from the 2026 Microsoft Digital Defense Report, which reflects a security environment that continues to grow more interconnected.\nThe post Insights from the 2026 Microsoft Digital Defense Report  appeared first on Microsoft ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2fb22e5ca7e262be",
+    "title": "Kiteworks patches max severity code injection vulnerability",
+    "link": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-01T13:51:08.000Z",
+    "summary": "Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting its Email Protection Gateway (EPG) security solution. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7ebe166dd2b996d5",
+    "title": "AI Has Changed Attack Speed, Not Security Fundamentals",
+    "link": "https://www.securityweek.com/ai-has-changed-attack-speed-not-security-fundamentals/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-01T13:15:00.000Z",
+    "summary": "As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-depth and strong application security fundamentals.\nThe post AI Has Changed Attack Speed, Not Security Fundamentals appear",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e2a151d18cd7b98e",
+    "title": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-01T13:00:00.000Z",
+    "summary": "A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1e3f5ee2d9d103e7",
+    "title": "Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure",
+    "link": "https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-01T12:55:57.000Z",
+    "summary": "Under certain conditions, CVE-2026-73570 can be exploited via specially crafted emails without user interaction.\nThe post Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-73570"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "cdc18e0220ddba6a",
     "title": "Cyberattack on major Polish invoicing platform exposes customer data",
     "link": "https://therecord.media/poland-cyberattack-invoice-software",
@@ -9,6 +242,72 @@
     "summary": "One of Poland’s major online invoicing platforms suffered a data breach that may have exposed information belonging to its users, their customers and business partners.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "272052c4b7067d82",
+    "title": "Armatura LLC Armatura One",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to the database, execute arbitrary code on the host with the highest level of privilege, or gain control of the physical ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "52eb7ccd3e6f1d4d",
+    "title": "Monta monta.app",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks.\nThe foll",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3b4feae8468fe031",
+    "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system.\nThe following versions of Johnson Controls Eas",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2f3a6988704e66ad",
+    "title": "Meari IoT Cloud Platform OpenAPI Service",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive information such as device credentials, owner details, and ne",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1d4db55b96cac2b5",
+    "title": "ABB Protection and Control IED Manager PCM600",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files.\nThe following versions of ABB Protection and Control IED Manager PCM600 are affected:\nProtection and Contr",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1c4fee9ee834dae3",
+    "title": "CISA Malcolm",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-254-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe following versions of CISA Malcolm are affected:\nMalcolm\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 8.8\nCISA\nCISA Malcolm\nImproper Neutralization of Input During Web Page Generation ('Cross-site Scripting'), Improper",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "80c6a6425508df80",
@@ -1157,15 +1456,15 @@
     "severity": "critical"
   },
   {
-    "id": "e2aa38a1fb6b6f49",
-    "title": "Baicells Nova 430H",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-04",
+    "id": "40df35e1db20c8c9",
+    "title": "Viidure Dashcam Android Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-07",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to inject malformed messages which may lead to a denial-of-service condition.\nThe following versions of Baicells Nova 430H are affected:\nNova 430H eNode",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to access, modify, or delete sensitive user data and critical system files, potentially compromising the operation of the entire platform.\nThe followin",
     "cveIds": [],
-    "severity": "normal"
+    "severity": "critical"
   },
   {
     "id": "1e3136cf598b22f4",
@@ -1181,15 +1480,15 @@
     "severity": "cve"
   },
   {
-    "id": "0c4066b835acc887",
-    "title": "VIVOTEK Camera Firmware",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-03",
+    "id": "eeaa0dd4e31207e0",
+    "title": "Lantronix G520 Series Cellular Gateway",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-01",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability may allow attackers to achieve remote command execution on affected devices, potentially with root privileges, leading to full compromise of the camera system.\nThe following ve",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to replace software and execute arbitrary code with root privileges.\nThe following versions of Lantronix G520 Series Cellular Gateway are affected:\nG",
     "cveIds": [],
-    "severity": "critical"
+    "severity": "normal"
   },
   {
     "id": "abd4fa57901c94de",
@@ -1199,28 +1498,6 @@
     "category": "advisory",
     "pubDate": "2026-09-29T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access sensitive information, access user accounts, execute OS-level commands, or take full control over the device.\nThe following versions of Anj",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "40df35e1db20c8c9",
-    "title": "Viidure Dashcam Android Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to access, modify, or delete sensitive user data and critical system files, potentially compromising the operation of the entire platform.\nThe followin",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "eeaa0dd4e31207e0",
-    "title": "Lantronix G520 Series Cellular Gateway",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to replace software and execute arbitrary code with root privileges.\nThe following versions of Lantronix G520 Series Cellular Gateway are affected:\nG",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1236,6 +1513,28 @@
       "CVE-2026-71379"
     ],
     "severity": "critical"
+  },
+  {
+    "id": "0c4066b835acc887",
+    "title": "VIVOTEK Camera Firmware",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-29T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability may allow attackers to achieve remote command execution on affected devices, potentially with root privileges, leading to full compromise of the camera system.\nThe following ve",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e2aa38a1fb6b6f49",
+    "title": "Baicells Nova 430H",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-29T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to inject malformed messages which may lead to a denial-of-service condition.\nThe following versions of Baicells Nova 430H are affected:\nNova 430H eNode",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "2016d632d442950a",
@@ -2667,237 +2966,6 @@
     "category": "news",
     "pubDate": "2026-09-24T20:30:00.000Z",
     "summary": "Two executives at a data extraction and digital forensics company that sold several U.S. agencies its software were arrested for allegedly lying about the fact that its technology is made in Russia.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c8649afdf5b874bf",
-    "title": "Lawmakers introduce bill for voluntary telecom cyber rules after Salt Typhoon hacks",
-    "link": "https://therecord.media/lawmakers-introduce-bill-for-voluntary-telecom-cyber-rules",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-24T20:15:00.000Z",
-    "summary": "U.S. Sens. Mark Warner (D-VA) and Ted Cruz (R-TX) introduced the Telecommunications Cybersecurity and Resilience Act on Thursday, arguing that the new effort was necessary in light of the Salt Typhoon attacks which saw Chinese hackers breac",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "81ef64c003d766d1",
-    "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
-    "link": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-24T20:10:48.000Z",
-    "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c911831fbc1de3e9",
-    "title": "Rydox cybercriminal marketplace operator pleads guilty following co-conspirator brothers’s deportation",
-    "link": "https://therecord.media/rydox-criminal-marketplace-operator-pleads-guilty",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-24T18:57:00.000Z",
-    "summary": "Ardit Kutleshi, 28, was extradited from his home country of Kosovo last year after prosecutors accused him and his older brother of running Rydox — an illicit platform used by cybercriminals to sell stolen personal information, illegal acce",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "80b6e80c70459df0",
-    "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
-    "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-24T18:10:18.000Z",
-    "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highe",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d5374ac44466d0dd",
-    "title": "Trust and the enticing consultancy offer",
-    "link": "https://blog.talosintelligence.com/trust-and-the-enticing-consultancy-offer/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-09-24T18:00:37.000Z",
-    "summary": "In this week’s newsletter Martin muses over a very suspicious elicitation over social media and the true value of trust within the cyber ecosystem. Hubris might be the real vulnerability that the cyber industry must worry about.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "134d6f394c4baa39",
-    "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
-    "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-24T17:52:43.000Z",
-    "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before.\n\nThat is the thread running through the pile. Trusted paths g",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bfbf7cb5870522d0",
-    "title": "Exposed GitLab project email addresses let attackers push code",
-    "link": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-24T17:47:44.000Z",
-    "summary": "Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guides, and support pages used to collect bug reports. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b0071db721a96058",
-    "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-09-24T16:00:00.000Z",
-    "summary": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this act",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a6f01a8ed6a8b6a0",
-    "title": "​​​​​​​​What’s new in Microsoft Security: September 2026​​",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/whats-new-in-microsoft-security-september-2026/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-09-24T16:00:00.000Z",
-    "summary": "This month's updates help you discover and control local AI agents, extend Zero Trust to agent traffic, and strengthen SOC foundations.\nThe post ​​​​​​​​What’s new in Microsoft Security: September 2026​​ appeared first on Microsoft Security",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d3a63d20e0c7a536",
-    "title": "Kontext Security Emerges With $4 Million for AI Agent Runtime Controls",
-    "link": "https://www.securityweek.com/kontext-security-emerges-with-4-million-for-ai-agent-runtime-controls/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-24T15:52:00.000Z",
-    "summary": "The startup’s runtime enforcement platform evaluates AI agents in real time to provide visibility and control over their actions.\nThe post Kontext Security Emerges With $4 Million for AI Agent Runtime Controls appeared first on SecurityWeek",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5229719d60e41846",
-    "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
-    "link": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-24T15:27:32.000Z",
-    "summary": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users.\n\n\"third-party[.]com has been a generic documentati",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f6b5e79f4ed97678",
-    "title": "3 Cyber Threats That Defined the Summer of 2026",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/3-cyber-threats-defined-summer-2026",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-24T14:44:12.000Z",
-    "summary": "This installment of the Reporters' Notebook video series discusses the impact of AI agents breaching Hugging Face, Fairlife's ransomware attack, and Iranian-linked threat actors compromising a dozen US water systems. It was a busy summer.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8cb1291af7d17367",
-    "title": "OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data",
-    "link": "https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-24T14:43:13.000Z",
-    "summary": "Australia disclosed that an OpenAI agent gained unauthorized access to non-public government information.\nThe post OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f08eddd0d2c7e58a",
-    "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
-    "link": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-24T14:29:06.000Z",
-    "summary": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychede",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "30aaeec28b11b228",
-    "title": "How to Build a SASE Framework for Modern Cybersecurity",
-    "link": "https://www.darkreading.com/cloud-security/how-to-build-sase-framework",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-24T14:02:43.000Z",
-    "summary": "Securing edge computing requires organizations to fundamentally rethink security governance. This step-by-step guide to building a SASE framework provides the path forward. (Third in a three-part series.)",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "65df89b28e254788",
-    "title": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
-    "link": "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-24T14:02:12.000Z",
-    "summary": "FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronger evidence requirements. Anecdotes explains why the December 7 deadline is just the beginn",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8e4e4844f4e587c9",
-    "title": "Ghost Service Accounts Enable M365 Data Theft in Chile",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ghost-service-accounts-m365-data-theft-chile",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-24T13:30:00.000Z",
-    "summary": "Even if the organization locks down employee accounts, forgotten and lost service accounts can still undo the organization's entire M365 environment.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "54c1206098baf7ac",
-    "title": "Kyiv internet providers report major outages after Russian attacks damage data centers",
-    "link": "https://therecord.media/kyiv-internet-providers-report-outages-after-russian-strikes",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-24T13:30:00.000Z",
-    "summary": "At least four internet providers serving Kyiv and other parts of Ukraine suffered partial connectivity losses following Wednesday’s drone attack, according to internet monitoring group NetBlocks.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8ae4194eda2b1938",
-    "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-24T13:27:57.000Z",
-    "summary": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "daa2b1340f64ffa6",
-    "title": "Astrana latest healthcare tech firm to report data breach to SEC",
-    "link": "https://therecord.media/astrana-cyberattack-sec-ransomware",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-24T13:15:00.000Z",
-    "summary": "The healthcare firm Astrana warned regulators that hackers accessed confidential information by impersonating company personnel.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ac73c3920c33c3d7",
-    "title": "Prompt-Injection Bug Hits $4B Agentic AI App 'Manus'",
-    "link": "https://www.darkreading.com/application-security/prompt-injection-bug-agentic-ai-app-manus",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-24T13:00:00.000Z",
-    "summary": "AI apps that interpret external data (read: most AI apps) need exceptionally rigorous security filters, or attackers can take advantage.",
     "cveIds": [],
     "severity": "normal"
   }
