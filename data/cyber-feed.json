@@ -1,5 +1,216 @@
 [
   {
+    "id": "cdc18e0220ddba6a",
+    "title": "Cyberattack on major Polish invoicing platform exposes customer data",
+    "link": "https://therecord.media/poland-cyberattack-invoice-software",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-01T12:30:00.000Z",
+    "summary": "One of Poland’s major online invoicing platforms suffered a data breach that may have exposed information belonging to its users, their customers and business partners.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "80c6a6425508df80",
+    "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
+    "link": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-01T11:45:00.000Z",
+    "summary": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform where they live. Some",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4e6ef8a7581251fb",
+    "title": "Kevin Mandia’s Armadin Raises $255 Million at $2.5 Billion Valuation",
+    "link": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-01T11:40:51.000Z",
+    "summary": "The Series B brings the AI-powered offensive security startup’s total funding to roughly $445 million only seven months after its public launch.\nThe post Kevin Mandia’s Armadin Raises $255 Million at $2.5 Billion Valuation appeared first on",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6da3c46f15034223",
+    "title": "Microsoft enables Windows settings backup by default for orgs",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-01T11:14:28.000Z",
+    "summary": "Microsoft announced that Windows settings backup and restore is now enabled by default on all Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems upgraded to Windows 11 26H2. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3136a036382e2cc4",
+    "title": "Treasury Blacklists Most-Wanted ATM Malware Developer and His Network",
+    "link": "https://www.securityweek.com/treasury-blacklists-most-wanted-atm-malware-developer-and-his-network/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-01T10:51:39.000Z",
+    "summary": "The US government continues its crackdown on Tren de Aragua over its ATM jackpotting scheme.\nThe post Treasury Blacklists Most-Wanted ATM Malware Developer and His Network appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b1a4d0ef2e247ace",
+    "title": "Zammad Zero-Days Exploited in AI-Powered DIVD Hack",
+    "link": "https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-01T10:42:49.000Z",
+    "summary": "The flaws were chained to hijack sessions, achieve remote code execution, and elevate privileges to root.\nThe post Zammad Zero-Days Exploited in AI-Powered DIVD Hack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c698c79d197c4a2a",
+    "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
+    "link": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-01T10:42:36.000Z",
+    "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models.\n\nA \"core cluster of the activity,\" going back ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5da2a0c8ed547e74",
+    "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+    "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-01T10:33:16.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active expl",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4d43b6c7b064be13",
+    "title": "The Fine Art of Frustrating the Adversary",
+    "link": "https://blog.talosintelligence.com/the-fine-art-of-frustrating-the-adversary/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-10-01T10:00:05.000Z",
+    "summary": "What really frustrates an adversary? Eight Cisco Talos researchers share practical ways to make their next move slower and riskier. From deception and behavioral detection to breaking attack dependencies and resisting manufactured urgency.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6aa611394a499feb",
+    "title": "Hackers stole Pentagon personnel records of over 3 million people",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-01T09:44:28.000Z",
+    "summary": "The Pentagon's Defense Manpower Data Center (DMDC) is notifying millions of military service members that hackers stole their data after breaching the Pentagon's human resources management system in October 2025. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6d8e1764a229826d",
+    "title": "500,000 Active Credentials Left Exposed on GitHub",
+    "link": "https://www.securityweek.com/500000-active-credentials-left-exposed-on-github/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-01T09:43:56.000Z",
+    "summary": "Roughly 200,000 of the credentials were exposed after GitHub enabled push protections by default.\nThe post 500,000 Active Credentials Left Exposed on GitHub appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "57b21797d70cdb1f",
+    "title": "Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability",
+    "link": "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-01T08:26:03.000Z",
+    "summary": "The flaw could allow remote, unauthenticated attackers to access vulnerable appliances with administrative privileges.\nThe post Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c99bd51276c96e24",
+    "title": "Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders",
+    "link": "https://www.securityweek.com/google-launches-gemini-4-argon-with-guardrail-free-access-for-vetted-defenders/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-01T07:52:26.000Z",
+    "summary": "The company says its new frontier AI model found a critical vulnerability in software used by hospitals worldwide.\nThe post Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1787a1140b4f924e",
+    "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
+    "link": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-01T07:49:36.000Z",
+    "summary": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program.\n\n\"It delivers frontier performance in c",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "38e8d0c55842ede1",
+    "title": "Metamask discloses security incident affecting its infrastructure",
+    "link": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-01T07:33:57.000Z",
+    "summary": "On Thursday, cryptocurrency wallet provider MetaMask has disclosed an ongoing infrastructure security incident affecting some of its infrastructure. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a4068745cb2ed655",
+    "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
+    "link": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-01T05:54:41.000Z",
+    "summary": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals.\n\nThe trigger is a malicious PDF with a craf",
+    "cveIds": [
+      "CVE-2026-86950"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "66ce984e8054fd0d",
+    "title": "ScreenConnect Client (Ab)used by Attackers, (Thu, Oct 1st)",
+    "link": "https://isc.sans.edu/diary/rss/33388",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-01T05:32:13.000Z",
+    "summary": "Threat Actors do not always use top-notch techniques or very complex malware to perform their attacks. Sometimes, they just abuse of existing applications...",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ecc9e006b841ddae",
+    "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
+    "link": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-01T05:21:10.000Z",
+    "summary": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist.\n\n\"Their investigation i",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8d989c50b616e99c",
+    "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
+    "link": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-01T05:10:09.000Z",
+    "summary": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure.\n\n\"We are actively addressing and remediating the issue internally, in coordination with external partners",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "238df8b6d39d069d",
     "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
     "link": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
@@ -2689,265 +2900,5 @@
     "summary": "AI apps that interpret external data (read: most AI apps) need exceptionally rigorous security filters, or attackers can take advantage.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "007f36e2354e1e9a",
-    "title": "AI-Powered Campaign Targets Hundreds of Online Retailers",
-    "link": "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-24T12:48:14.000Z",
-    "summary": "A threat actor is using three AI harnesses for vulnerability research, exploitation, and attack orchestration.\nThe post AI-Powered Campaign Targets Hundreds of Online Retailers appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f90f2426c7160cbb",
-    "title": "OpenAI agent breached Australian government health website, Albanese says",
-    "link": "https://therecord.media/openai-australia-health-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-24T12:30:00.000Z",
-    "summary": "An OpenAI agent gained “unauthorized access” to “non-public files” from an Australian government health website in June, Prime Minister Anthony Albanese said.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d8033c362483f54c",
-    "title": "Windows 11 KB5124010 update released with 46 changes and fixes",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-24T12:16:32.000Z",
-    "summary": "Microsoft released the KB5124010 September 2026 non-security preview update for Windows 11 24H2 and 25H2, with 46 changes including Bluetooth improvements and the ability to remap the Copilot key. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bfc5c9310cdaa4b4",
-    "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
-    "link": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-24T12:05:27.000Z",
-    "summary": "The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM.\n\nAccording to Have I Been Squatted, the campaign uses fake Google Play pages branded as CEVA and TKW Logist",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4291e98df415b571",
-    "title": "Botslab G980H Dashcams",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-24T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to bypass authentication controls, gain unauthorized access to sensitive data and privileged device functionality, modify device configuration, disru",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "434d4cc347620160",
-    "title": "Eufy Omni C20, Omni X10 Pro",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-24T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to run system level commands or execute arbitrary code.\nThe following versions of Eufy Omni C20, Omni X10 Pro are affected:\nOmni C20 <1.6.4 (CVE-2026",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9085f44b92b7dee1",
-    "title": "Siemens Mendix Runtime (Update A)",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-24T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nThis advisory is revoked. Re-investigation confirmed the reported behavior is expected platform configuration and does not expose the protected attribute.\nThe following versions of Siemens Mendix Runtime are affected:\nSiem",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ce8801eb63447fa9",
-    "title": "Island Raises $400 Million at $6.4 Billion Valuation",
-    "link": "https://www.securityweek.com/island-raises-400-million-at-6-4-billion-valuation/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-24T11:39:09.000Z",
-    "summary": "The enterprise security firm has raised more than $1 billion since its launch in 2020; Evolution Equity Partners led the latest funding round. \nThe post Island Raises $400 Million at $6.4 Billion Valuation appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c2326e03014a5540",
-    "title": "OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators",
-    "link": "https://www.securityweek.com/ot-security-guidance-nist-drafts-updated-guide-cisa-fbi-advise-on-ics-integrators/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-24T11:05:16.000Z",
-    "summary": "Revision 4 of NIST’s operational technology security guide is open for public comments until November 30.\nThe post OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fb9ba04a456ec507",
-    "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
-    "link": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-24T11:00:00.000Z",
-    "summary": "AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report, commits identified as AI-assisted are le",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1b49fc79a3418e98",
-    "title": "Begin at the End: How to Enable Agentic Remediation",
-    "link": "https://www.securityweek.com/begin-at-the-end-how-to-enable-agentic-remediation/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-24T11:00:00.000Z",
-    "summary": "Agentic remediation is not an act of faith. We are talking about fixing known problems, not judgment calls about unfamiliar risk. \nThe post Begin at the End: How to Enable Agentic Remediation appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "849a3d02ea1aace5",
-    "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-24T10:42:37.000Z",
-    "summary": "​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "bea1c24da5779df3",
-    "title": "SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted",
-    "link": "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-24T10:40:40.000Z",
-    "summary": "The vulnerabilities, tracked as CVE-2026-28324 and CVE-2026-28325, can be exploited without authentication.\nThe post SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-28324",
-      "CVE-2026-28325"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "14e81785a9689474",
-    "title": "Astrana Health Data Breach Impacts Private, Confidential Information",
-    "link": "https://www.securityweek.com/astrana-health-data-breach-impacts-private-confidential-information/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-24T09:56:04.000Z",
-    "summary": "Hackers impersonated the company’s personnel and contacted its employees to gain access to Astrana Health’s servers.\nThe post Astrana Health Data Breach Impacts Private, Confidential Information appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "94821214578f086e",
-    "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
-    "link": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-24T09:38:53.000Z",
-    "summary": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research pr",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1af8eb0d6b919e28",
-    "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
-    "link": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-24T09:14:21.000Z",
-    "summary": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in late 2023 to a subscrip",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "41cdf89b10489d6a",
-    "title": "US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks",
-    "link": "https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-24T08:38:29.000Z",
-    "summary": "Karen Vardanyan has also been ordered to pay over $1.2 million in restitution to victims.\nThe post US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f5fa8ba94bb03880",
-    "title": "Microsoft fixes bug that broke Windows File History backup feature",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-24T08:14:47.000Z",
-    "summary": "Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 security updates. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4c024d390bf8ef31",
-    "title": "Critical WordPress Vulnerability Exploited Immediately After Disclosure",
-    "link": "https://www.securityweek.com/critical-wordpress-vulnerability-exploited-immediately-after-disclosure/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-24T07:12:26.000Z",
-    "summary": "Tracked as CVE-2026-87902, the path traversal flaw allows remote, unauthenticated attackers to execute arbitrary code.\nThe post Critical WordPress Vulnerability Exploited Immediately After Disclosure appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-87902"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "5b6424dfd8f974e4",
-    "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
-    "link": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-24T07:07:25.000Z",
-    "summary": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister Anthony Albanese said.\n\nThe portal publishes aggregate figures, such as spending, and is",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5c57edabe6c0ec2e",
-    "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
-    "link": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-24T06:32:03.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants.\n\nAccording to Proofpoint, the activity has primarily",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0e4bd9fbb923a7f7",
-    "title": "One URL, Three Different Tricks, (Thu, Sep 24th)",
-    "link": "https://isc.sans.edu/diary/rss/33366",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-24T06:25:06.000Z",
-    "summary": "Yesterday, we received a phishing email with an interesting link. At first sight, it looks like garbage, but every piece of it has been carefully crafted to confuse basic security controls. Here is the defanged link:",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "856645ccb5490fa9",
-    "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-24T05:36:18.000Z",
-    "summary": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.\n\nThe vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtai",
-    "cveIds": [
-      "CVE-2026-87902"
-    ],
-    "severity": "critical"
   }
 ]
