@@ -1,5 +1,60 @@
 [
   {
+    "id": "c8f7d668a6f4d8ed",
+    "title": "Judge dismisses spyware case brought by Salvadoran journalists targeted with Pegasus",
+    "link": "https://therecord.media/judge-dismisses-spyware-case-brought-by-salvadoran-journalists",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-02T20:30:00.000Z",
+    "summary": "The plaintiffs, who all worked for the independent and Salvadoran news outlet El Faro, failed to convince the court that their case had jurisdiction in California, according to the judge’s order.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1d9e3889e62c89f6",
+    "title": "RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail",
+    "link": "https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-02T20:18:37.000Z",
+    "summary": "The offensive cyber operations startup looks to evolve red teaming beyond traditional methods to simulate attackers' increasingly advanced capabilities.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "892547187af603e6",
+    "title": "Bipartisan backlash to ALPRs grows as two high-profile bills are introduced",
+    "link": "https://therecord.media/alpr-legislation-hawley-sanders-merkley-aoc",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-02T19:30:00.000Z",
+    "summary": "Republican Sen. Josh Hawley has new legislation on limiting automated license plate readers (ALPRs), while Democratic Sens. Bernie Sanders and Jeff Merkley, with Rep. Alexandria Ocasio-Cortez, have teed up a broader bill.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "377f396892b1dbab",
+    "title": "Frontline Education breach exposes school district employee data",
+    "link": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-02T19:01:40.000Z",
+    "summary": "Frontline Education is notifying school districts of a data breach after attackers exploited a vulnerability in third-party software to gain unauthorized access to its systems and steal employee information, including Social Security number",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2b92c4ceeda71991",
+    "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-02T18:33:01.000Z",
+    "summary": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gain initial access. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "46f9ae7612dc6b4b",
     "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
     "link": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
@@ -196,6 +251,20 @@
     "summary": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported.\n\n\"We have parted ways with three individuals for violating our policies o",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "cc5720553b2c86ad",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-02T12:00:00.000Z",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-102489 Zammad GmbH Zammad Session Fixation Vulnerability\nCVE-2026-102490 Zammad GmbH Zammad Impr",
+    "cveIds": [
+      "CVE-2026-102489",
+      "CVE-2026-102490"
+    ],
+    "severity": "cve"
   },
   {
     "id": "008a22f282af01a0",
@@ -600,13 +669,13 @@
     "severity": "critical"
   },
   {
-    "id": "272052c4b7067d82",
-    "title": "Armatura LLC Armatura One",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-01",
+    "id": "b649d2140da88a70",
+    "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-05",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-10-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to the database, execute arbitrary code on the host with the highest level of privilege, or gain control of the physical ",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker tointercept and read sensitive information, including credentials andsession data.\nThe following versions of Johnson Controls EasyIO Neo Series EC and C",
     "cveIds": [],
     "severity": "normal"
   },
@@ -633,13 +702,24 @@
     "severity": "normal"
   },
   {
-    "id": "3b4feae8468fe031",
-    "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04",
+    "id": "272052c4b7067d82",
+    "title": "Armatura LLC Armatura One",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-01",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-10-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system.\nThe following versions of Johnson Controls Eas",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to the database, execute arbitrary code on the host with the highest level of privilege, or gain control of the physical ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1d4db55b96cac2b5",
+    "title": "ABB Protection and Control IED Manager PCM600",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files.\nThe following versions of ABB Protection and Control IED Manager PCM600 are affected:\nProtection and Contr",
     "cveIds": [],
     "severity": "normal"
   },
@@ -655,17 +735,6 @@
       "CVE-2026-104286"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "1d4db55b96cac2b5",
-    "title": "ABB Protection and Control IED Manager PCM600",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files.\nThe following versions of ABB Protection and Control IED Manager PCM600 are affected:\nProtection and Contr",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "1c4fee9ee834dae3",
@@ -1823,19 +1892,6 @@
     "severity": "critical"
   },
   {
-    "id": "1e3136cf598b22f4",
-    "title": "MikroTik RouterOS",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to achieve remote code execution or cause a denial of service.\nThe following versions of MikroTik RouterOS are affected:\nRouterOS <7.24 (CVE-2026-84411)",
-    "cveIds": [
-      "CVE-2026-84411"
-    ],
-    "severity": "cve"
-  },
-  {
     "id": "eeaa0dd4e31207e0",
     "title": "Lantronix G520 Series Cellular Gateway",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-01",
@@ -1845,17 +1901,6 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to replace software and execute arbitrary code with root privileges.\nThe following versions of Lantronix G520 Series Cellular Gateway are affected:\nG",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "40df35e1db20c8c9",
-    "title": "Viidure Dashcam Android Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to access, modify, or delete sensitive user data and critical system files, potentially compromising the operation of the entire platform.\nThe followin",
-    "cveIds": [],
-    "severity": "critical"
   },
   {
     "id": "29379e492b799fbf",
@@ -1868,6 +1913,17 @@
     "cveIds": [
       "CVE-2026-71379"
     ],
+    "severity": "critical"
+  },
+  {
+    "id": "40df35e1db20c8c9",
+    "title": "Viidure Dashcam Android Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-29T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to access, modify, or delete sensitive user data and critical system files, potentially compromising the operation of the entire platform.\nThe followin",
+    "cveIds": [],
     "severity": "critical"
   },
   {
@@ -1902,6 +1958,19 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to inject malformed messages which may lead to a denial-of-service condition.\nThe following versions of Baicells Nova 430H are affected:\nNova 430H eNode",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "1e3136cf598b22f4",
+    "title": "MikroTik RouterOS",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-29T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to achieve remote code execution or cause a denial of service.\nThe following versions of MikroTik RouterOS are affected:\nRouterOS <7.24 (CVE-2026-84411)",
+    "cveIds": [
+      "CVE-2026-84411"
+    ],
+    "severity": "cve"
   },
   {
     "id": "2016d632d442950a",
@@ -2657,20 +2726,6 @@
     "severity": "normal"
   },
   {
-    "id": "596df4519eeb8528",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-27T12:00:00.000Z",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-88771 Citrix NetScaler Improper Input Validation Vulnerability\nCVE-2026-88772 Citrix NetScaler I",
-    "cveIds": [
-      "CVE-2026-88771",
-      "CVE-2026-88772"
-    ],
-    "severity": "cve"
-  },
-  {
     "id": "a984fadafad1780c",
     "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
     "link": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
@@ -2873,104 +2928,5 @@
     "summary": "Unit 42 security experts address critical cybersecurity misconceptions, offering practical insights to help your organization reinforce its enterprise defenses.\nThe post 3 Consulting Myths Debunked by Unit 42 Experts appeared first on Unit ",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "42d7d50a9109dcec",
-    "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-    "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-09-25T21:44:40.000Z",
-    "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bdcdb2d24781d34d",
-    "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-25T21:41:07.000Z",
-    "summary": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent cyberattack. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "82e9a8b128c3791a",
-    "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-25T20:57:55.000Z",
-    "summary": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path trav",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c6cd68893b5a59a5",
-    "title": "Why the CISO-CFO Relationship Is a Key to Cybersecurity Success",
-    "link": "https://www.darkreading.com/cyber-risk/how-to-manage-ciso-cfo-relationship-cybersecurity-success",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-25T20:28:10.000Z",
-    "summary": "Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk, and enable business growth are better prepared to face today's threat landscape.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4bb3040012e90c5a",
-    "title": "Kiteworks urges customers to stop using platform after warning from federal intelligence agencies",
-    "link": "https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-25T20:19:00.000Z",
-    "summary": "Frank Balonis, CISO at Kiteworks, told Recorded Future News that the company “received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems for custom",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d57d53acfedb83a5",
-    "title": "Labcorp to overhaul data security practices, pay $2.3 million fine for cybersecurity failings",
-    "link": "https://therecord.media/labcorp-to-overhaul-security-practices-settlement",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-25T19:35:00.000Z",
-    "summary": "Security changes include creating an incident response plan for vendor security failings, limiting how much data Labcorp shares with vendors and building an expansive risk management team charged with tracking vendors’ compliance with data ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4e93802753c25b60",
-    "title": "AI Sandbox Escapes: Why Forensic Readiness Matters More Than Containment",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-sandbox-escapes-forensic-readiness",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-25T18:39:32.000Z",
-    "summary": "When autonomous AI agents \"escape the sandbox,\" the real story isn't rogue machines — it's the same access-control failures we've seen for decades.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "407121c5fd6884f4",
-    "title": "Elementor WordPress flaw lets attackers create admin accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-25T18:13:33.000Z",
-    "summary": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3e0e6523ebd60b54",
-    "title": "What We Missed: Google Gemini Joins the AI Escape Party",
-    "link": "https://www.darkreading.com/cyber-risk/what-we-missed-google-gemini-ai-escape-party",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-25T17:56:23.000Z",
-    "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from Google Gemini models breaking containment to ShinyHunters ratting on TeamPCP hackers.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
