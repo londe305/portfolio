@@ -1,5 +1,51 @@
 [
   {
+    "id": "7f8ace82a4a3274e",
+    "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-01T22:42:49.000Z",
+    "summary": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code or commands on vulnerable devices. [...]",
+    "cveIds": [
+      "CVE-2026-104286"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "4561eea13d9a7297",
+    "title": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-01T21:37:50.000Z",
+    "summary": "Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "afd4a8a66b7c8ed4",
+    "title": "Autonomous AI agents tried to hack US, Canadian government websites",
+    "link": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-01T20:52:50.000Z",
+    "summary": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cf4db0d120437955",
+    "title": "Iranian accused of hacking American universities extradited from Montenegro",
+    "link": "https://therecord.media/iran-montenegro-hacker-extradition",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-01T20:15:00.000Z",
+    "summary": "An Iranian national accused by the U.S. of taking part in dozens of breaches involving the theft of academic data and intellectual property has been extradited from Montenegro.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "90b51a982946ecd5",
     "title": "Microsoft says threat actors are ahead in the early AI race",
     "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
@@ -255,6 +301,17 @@
     "severity": "normal"
   },
   {
+    "id": "2f3a6988704e66ad",
+    "title": "Meari IoT Cloud Platform OpenAPI Service",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive information such as device credentials, owner details, and ne",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "52eb7ccd3e6f1d4d",
     "title": "Monta monta.app",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02",
@@ -277,15 +334,17 @@
     "severity": "normal"
   },
   {
-    "id": "2f3a6988704e66ad",
-    "title": "Meari IoT Cloud Platform OpenAPI Service",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
+    "id": "5e0e2bba10702ae7",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-10-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive information such as device credentials, owner details, and ne",
-    "cveIds": [],
-    "severity": "normal"
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-104286 Fortinet FortiMail Path Traversal Vulnerability\nThis type of vulnerability is a frequent at",
+    "cveIds": [
+      "CVE-2026-104286"
+    ],
+    "severity": "cve"
   },
   {
     "id": "1d4db55b96cac2b5",
@@ -863,19 +922,6 @@
     "summary": "Some of the flaws could allow remote attackers to execute arbitrary code or escape the browser sandbox.\nThe post Chrome, Firefox Updates Patch Over 100 Vulnerabilities appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "b9461b17f1467775",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-30T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-76504 Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability\nThis type of vulnerability is a fre",
-    "cveIds": [
-      "CVE-2026-76504"
-    ],
-    "severity": "cve"
   },
   {
     "id": "355e4031ff3a4002",
@@ -1456,17 +1502,6 @@
     "severity": "critical"
   },
   {
-    "id": "40df35e1db20c8c9",
-    "title": "Viidure Dashcam Android Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to access, modify, or delete sensitive user data and critical system files, potentially compromising the operation of the entire platform.\nThe followin",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
     "id": "1e3136cf598b22f4",
     "title": "MikroTik RouterOS",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-06",
@@ -1491,15 +1526,15 @@
     "severity": "normal"
   },
   {
-    "id": "abd4fa57901c94de",
-    "title": "Anjvision YSSD-RTMP-H5",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-05",
+    "id": "40df35e1db20c8c9",
+    "title": "Viidure Dashcam Android Application",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-07",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access sensitive information, access user accounts, execute OS-level commands, or take full control over the device.\nThe following versions of Anj",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to access, modify, or delete sensitive user data and critical system files, potentially compromising the operation of the entire platform.\nThe followin",
     "cveIds": [],
-    "severity": "normal"
+    "severity": "critical"
   },
   {
     "id": "29379e492b799fbf",
@@ -1513,6 +1548,17 @@
       "CVE-2026-71379"
     ],
     "severity": "critical"
+  },
+  {
+    "id": "abd4fa57901c94de",
+    "title": "Anjvision YSSD-RTMP-H5",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-09-29T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access sensitive information, access user accounts, execute OS-level commands, or take full control over the device.\nThe following versions of Anj",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "0c4066b835acc887",
@@ -2911,61 +2957,6 @@
     "category": "advisory",
     "pubDate": "2026-09-25T03:45:12.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "84fafbac5110ff7b",
-    "title": "'Salesbleed' Exploits Salesforce Agents to Enable Slack Phishing",
-    "link": "https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-24T21:04:03.000Z",
-    "summary": "Agentic AI can smuggle arbitrary instructions from the Web, across multiple apps, into trusted internal communications channels.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "39bdbafbdf621d3b",
-    "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
-    "link": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-24T20:53:35.000Z",
-    "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f0696e111afdafa0",
-    "title": "Autonomous AI Hacks Raise Thorny Questions of Legal Accountability",
-    "link": "https://www.securityweek.com/autonomous-ai-hacks-raise-thorny-questions-of-legal-accountability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-24T20:35:21.000Z",
-    "summary": "The prospect of legal accountability is unclear. Lawsuits are a possibility, but some legal experts believe any criminal investigations would face an extremely high burden.\nThe post Autonomous AI Hacks Raise Thorny Questions of Legal Accoun",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "29307ba54f729970",
-    "title": "SectopRAT Returns, Hiding Inside a Legitimate Application",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-24T20:32:50.000Z",
-    "summary": "The latest activity from the remote access Trojan (RAT) shows why organizations should monitor the behavior of applications rather than blindly trusting them, experts say.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "855eba475b9720c0",
-    "title": "Digital forensics firm with US federal contracts covered up ties to Russia, DOJ alleges",
-    "link": "https://therecord.media/russia-forensics-technology-doj",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-24T20:30:00.000Z",
-    "summary": "Two executives at a data extraction and digital forensics company that sold several U.S. agencies its software were arrested for allegedly lying about the fact that its technology is made in Russia.",
     "cveIds": [],
     "severity": "normal"
   }
