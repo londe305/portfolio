@@ -1,5 +1,84 @@
 [
   {
+    "id": "bee2fe5d783edfc8",
+    "title": "Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks",
+    "link": "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-02T09:34:41.000Z",
+    "summary": "The China-based hacking group has been exploiting SharePoint vulnerabilities since July 2025.\nThe post Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c2bc59a43e0e4ef6",
+    "title": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
+    "link": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-02T09:29:56.000Z",
+    "summary": "On Thursday, unknown attackers hijacked the official Microsoft account on X, which has over 13 million followers, in what appeared to be a pump-and-dump scheme promoting a crypto token. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1b7e6404a90b72ee",
+    "title": "AI Agents Aimed SQL Injection at US and Canadian Government Sites",
+    "link": "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-02T08:38:46.000Z",
+    "summary": "The attacks targeted the US Department of Education and Library and Archives Canada, and researchers linked some agents to OpenAI.\nThe post AI Agents Aimed SQL Injection at US and Canadian Government Sites appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6468fcbb7bba6d15",
+    "title": "Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action",
+    "link": "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-02T08:07:33.000Z",
+    "summary": "CVE-2026-104286 is a critical-severity path traversal vulnerability that could allow attackers to write arbitrary files to the system.\nThe post Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-104286"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "5a9c1aeb912f6501",
+    "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
+    "link": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-02T08:01:30.000Z",
+    "summary": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled.\n\nWith malicious Android applications abusing ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "10ee893b5c5fb515",
+    "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+    "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-02T05:49:50.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c2df698e7e73d64a",
+    "title": "ISC Stormcast For Friday, October 2nd, 2026 https://isc.sans.edu/podcastdetail/10120, (Fri, Oct 2nd)",
+    "link": "https://isc.sans.edu/diary/rss/33390",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-02T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "7f8ace82a4a3274e",
     "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
     "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
@@ -2880,84 +2959,5 @@
       "CVE-2026-48842"
     ],
     "severity": "critical"
-  },
-  {
-    "id": "6a804f54cfab831b",
-    "title": "‘SalesBleed’ Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration",
-    "link": "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-25T09:27:51.000Z",
-    "summary": "Three vulnerabilities in Salesforce Agentforce allowed hackers to hijack trusted agents, steal data, and launch phishing attacks.\nThe post ‘SalesBleed’ Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration appeared first on Se",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "638d459032390b6e",
-    "title": "Hackers steal $351.6 million in Bitget crypto exchange hack",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-25T08:33:44.000Z",
-    "summary": "​Cryptocurrency exchange Bitget disclosed today that suspected North Korean hackers have stolen $351.6 million from its hot and warm wallets. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "75ab585d275425c6",
-    "title": "Russia's Hybrid Cyber-Physical War in Europe Heats Up",
-    "link": "https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-25T07:00:00.000Z",
-    "summary": "A storm is raging in the form of cyber sabotage, disinformation, and drone attacks on European nations, particularly those that provide material support to Ukraine.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ac5e91c66b835324",
-    "title": "Roundcube Webmail Vulnerability in Attackers’ Crosshairs",
-    "link": "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-25T06:57:40.000Z",
-    "summary": "Tracked as CVE-2026-48842, the exploited bug is an SQL injection that can be exploited without authentication.\nThe post Roundcube Webmail Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-48842"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "a80caea957f6b5ac",
-    "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
-    "link": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-25T04:49:22.000Z",
-    "summary": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday.\n\nThe data came from disk space that earlier c",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e85a70b763dc1dec",
-    "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
-    "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-25T04:46:34.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f1a59f26d747e5f9",
-    "title": "ISC Stormcast For Friday, September 25th, 2026 https://isc.sans.edu/podcastdetail/10110, (Fri, Sep 25th)",
-    "link": "https://isc.sans.edu/diary/rss/33370",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-25T03:45:12.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
