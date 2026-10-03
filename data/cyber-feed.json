@@ -2917,16 +2917,5 @@
     "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack.\n\n\"Kiteworks received credible thr",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "e9160c0adae68644",
-    "title": "3 Consulting Myths Debunked by Unit 42 Experts",
-    "link": "https://unit42.paloaltonetworks.com/3-consulting-myths-debunked-by-unit-42-experts/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-09-25T23:00:28.000Z",
-    "summary": "Unit 42 security experts address critical cybersecurity misconceptions, offering practical insights to help your organization reinforce its enterprise defenses.\nThe post 3 Consulting Myths Debunked by Unit 42 Experts appeared first on Unit ",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
