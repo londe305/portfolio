@@ -1,5 +1,18 @@
 [
   {
+    "id": "5058e2f27caa8c2c",
+    "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-04T21:58:01.000Z",
+    "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether it can also be exploited for remote code",
+    "cveIds": [
+      "CVE-2026-88779"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "199ef7dd7a5498cc",
     "title": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
     "link": "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
@@ -9,6 +22,19 @@
     "summary": "The announcement comes after Trump hosted top executives of AI companies at the White House last week.\nThe post Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "b828549ba2789b62",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-04T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-88779 Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vul",
+    "cveIds": [
+      "CVE-2026-88779"
+    ],
+    "severity": "cve"
   },
   {
     "id": "9c966f73f01bad7a",
@@ -876,19 +902,6 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files.\nThe following versions of ABB Protection and Control IED Manager PCM600 are affected:\nProtection and Contr",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "5e0e2bba10702ae7",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-01T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-104286 Fortinet FortiMail Path Traversal Vulnerability\nThis type of vulnerability is a frequent at",
-    "cveIds": [
-      "CVE-2026-104286"
-    ],
-    "severity": "cve"
   },
   {
     "id": "1c4fee9ee834dae3",
@@ -2818,17 +2831,6 @@
     "category": "advisory",
     "pubDate": "2026-09-28T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Citrix NetScaler ADC et Gateway. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournem",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f03c17914eb5524f",
-    "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-27T23:40:39.000Z",
-    "summary": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
     "cveIds": [],
     "severity": "normal"
   }
