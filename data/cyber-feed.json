@@ -1,5 +1,233 @@
 [
   {
+    "id": "356db830ef3d9960",
+    "title": "Belarusian hacktivists spent two years inside Russian healthcare network, researchers say",
+    "link": "https://therecord.media/belarusian-hacktivists-two-years-Russian-healthcare-network",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-05T13:55:00.000Z",
+    "summary": "Russian cybersecurity researchers attributed a quiet two-year espionage campaign to the Belarusian Cyber Partisans, a group better known for public attacks against governments and infrastructure.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d06671b1eb174edc",
+    "title": "tenfold CE: Our free Identity Governance tool just got 2 new features",
+    "link": "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-05T13:33:42.000Z",
+    "summary": "tenfold has added shared content governance and real-time event auditing to its free Community Edition for organizations with under 150 users. The new features help teams manage Microsoft 365 sharing and investigate suspicious identity acti",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e90d56921eab7ce0",
+    "title": "Japanese media group Nikkei discloses cyberattack targeting journalistic sources",
+    "link": "https://therecord.media/nikkei-cyberattack-japan-data",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-05T13:15:00.000Z",
+    "summary": "The Japanese media giant Nikkei disclosed a cyber incident involving an employee email account that may have compromised journalistic sources.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "68db8daed7fd0b46",
+    "title": "Alleged dev of Ploutus ATM malware appears in US court after arrest",
+    "link": "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-05T13:01:45.000Z",
+    "summary": "The U.S. Department of Justice has announced the arrest of the alleged developer of Ploutus malware, used to steal millions of dollars in ATM jackpotting attacks across the United States. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f64e40e8a42769b9",
+    "title": "Need for Speed: AI-Driven Attacks Are Changing Security Strategies",
+    "link": "https://www.darkreading.com/cyber-risk/ai-attacks-security-strategies",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-05T13:00:00.000Z",
+    "summary": "AI-powered attacks are fast, relentless, and automated. How security teams can keep up is top of mind, according to the latest Dark Reading reader poll.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9569100024819f44",
+    "title": "Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws",
+    "link": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-05T13:00:00.000Z",
+    "summary": "ClingSTUN operates as a back-connect proxy backdoor, sets up persistence, and contains exploits for self-propagation.\nThe post Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9a0ab446e9885f9f",
+    "title": "250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms",
+    "link": "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-05T12:35:15.000Z",
+    "summary": "Hackers stole patient information from Clover Health Investments and AngMar Management Services in July.\nThe post 250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2766b24f5e186418",
+    "title": "Data breach at Denmark’s national population register exposes 8.8 million people",
+    "link": "https://therecord.media/denmark-breach-register-cyberattack",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-05T12:00:00.000Z",
+    "summary": "Denmark is investigating a data breach affecting approximately 8.8 million people after unauthorized users gained access to its national population register.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "20616b5d110d0e27",
+    "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
+    "link": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-05T11:55:00.000Z",
+    "summary": "Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Re",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9c6db5e8b7d5229e",
+    "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+    "link": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-05T11:46:25.000Z",
+    "summary": "Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware called Cling.\n\n\"Cling is notable not because it introduces a ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b149160e3a3d18d6",
+    "title": "Exploitation Hits Rejetto HFS Vulnerability Discovered by AI",
+    "link": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-05T11:00:05.000Z",
+    "summary": "CVE-2026-61500 allows attackers to recover the session-cookie signing key and gain administrative access and RCE.\nThe post Exploitation Hits Rejetto HFS Vulnerability Discovered by AI  appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-61500"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "608206820f9e2329",
+    "title": "Senate Passes Bipartisan Bill to Strengthen Healthcare Cybersecurity",
+    "link": "https://www.securityweek.com/senate-passes-bipartisan-bill-to-strengthen-healthcare-cybersecurity/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-05T10:42:19.000Z",
+    "summary": "More than 730 cyber breaches affected over 270 million Americans last year, costing an average of $10 million per breach.\nThe post Senate Passes Bipartisan Bill to Strengthen Healthcare Cybersecurity appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4a8712355bea80e4",
+    "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+    "link": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-05T10:38:50.000Z",
+    "summary": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents.\n\n\"Some developers are using Full Disk Access in ways tha",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c1bad441fd92017a",
+    "title": "OpenAI will show visual ads in ChatGPT while you generate images",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-05T10:28:45.000Z",
+    "summary": "OpenAI is expanding ads in ChatGPT, and one of the first new formats will show visual ads while you're generating images. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "51dccb3ca55995c6",
+    "title": "Microsoft: Windows KB5124010 update crashes some games and apps",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-kb5124010-update-crashes-some-games-and-apps/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-05T09:37:56.000Z",
+    "summary": "Microsoft confirmed over the weekend that some games and applications using AC-3 (Dolby Digital) audio decoding will crash after installing the September 2026 KB5124010 Windows 11 preview update. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f66e772a68098b63",
+    "title": "Google halts open-source bug bounty program amid AI spam surge",
+    "link": "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-05T08:27:46.000Z",
+    "summary": "Google has now suspended submissions to its Open Source Software Vulnerability Rewards Program (OSS VRP) after being flooded by AI-generated reports. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "984946d5750a4e3a",
+    "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+    "link": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-05T08:09:23.000Z",
+    "summary": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck.\n\nThe vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming fro",
+    "cveIds": [
+      "CVE-2026-61500"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "9881d6bd7c4dcd2d",
+    "title": "Alleged ShinyHunters Leader Arrested in Jordan",
+    "link": "https://www.securityweek.com/alleged-shinyhunters-leader-arrested-in-jordan/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-05T07:16:53.000Z",
+    "summary": "Known as Rey, the suspect is reportedly helping the FBI identify and locate other members of the extortion group.\nThe post Alleged ShinyHunters Leader Arrested in Jordan appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0c8dfb68badd7427",
+    "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+    "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-05T06:40:19.000Z",
+    "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks.\n\nThe vulnerability, tracked as CVE-2026-88779, carries a CVSS",
+    "cveIds": [
+      "CVE-2026-88779"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "7aea11ec54b2d690",
+    "title": "Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier",
+    "link": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-05T05:14:48.000Z",
+    "summary": "Citrix has confirmed that a new zero-day vulnerability, CVE-2026-88779, emerged just days after two other exploited flaws were patched.\nThe post Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier appeared first o",
+    "cveIds": [
+      "CVE-2026-88779"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "deda64e494a62f80",
     "title": "ISC Stormcast For Monday, October 5th, 2026 https://isc.sans.edu/podcastdetail/10122, (Mon, Oct 5th)",
     "link": "https://isc.sans.edu/diary/rss/33398",
@@ -1159,6 +1387,17 @@
     "severity": "normal"
   },
   {
+    "id": "1fed4d54dbb2f224",
+    "title": "Multiples vulnérabilités dans CPython (01 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1243/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-01T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans CPython. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6a8d7fa949a5e542",
     "title": "FTC is Investigating OpenAI and Anthropic Over Possible Risks to Consumers",
     "link": "https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/",
@@ -1688,6 +1927,61 @@
     "category": "advisory",
     "pubDate": "2026-09-30T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3d0aa68b4b18726b",
+    "title": "Multiples vulnérabilités dans HPE Aruba Networking Instant On (30 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1238/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-30T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans HPE Aruba Networking Instant On. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de serv",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ef985af835e15ca1",
+    "title": "Vulnérabilité dans CPython (30 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1239/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-30T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "93d8c94af48ee633",
+    "title": "Multiples vulnérabilités dans les produits Mozilla (30 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1240/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-30T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des do",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2adb43080b2cc82c",
+    "title": "Multiples vulnérabilités dans OpenSSL (30 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1241/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-30T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des donn",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f9750f3683cbe9ea",
+    "title": "Multiples vulnérabilités dans GitLab (30 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1242/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-09-30T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité. Gitlab indique que la vulnérabilité CVE",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2617,209 +2911,6 @@
     "category": "vendor",
     "pubDate": "2026-09-28T15:00:00.000Z",
     "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and suppo",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7d4f95884d68b25b",
-    "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
-    "link": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-28T14:00:53.000Z",
-    "summary": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assumptions turning into live attack surface.\n",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c97ff75e84c28b08",
-    "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
-    "link": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-28T14:00:10.000Z",
-    "summary": "Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversations to LLMjacking. SOCRadar examines the growing market for stolen AI logins and how organ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7231708a254c1d8e",
-    "title": "Cyberattack on Polish medical software provider exposes patient data",
-    "link": "https://therecord.media/poland-cyberattack-medical-medyc",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-28T13:30:00.000Z",
-    "summary": "Hackers stole personal data from a Polish healthcare software provider in the latest cyberattack to hit the country’s medical sector in recent months.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1550f6c52714f419",
-    "title": "Former US soldier gets nearly six-year sentence for hacking, extorting telecoms",
-    "link": "https://therecord.media/hacker-telecom-army-sentenced",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-28T12:45:00.000Z",
-    "summary": "A former soldier in the U.S. Army was sentenced to more than five years in federal prison after pleading guilty to hacking into several telecommunications companies and leaking sensitive records.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5dcc91b94d1a48f3",
-    "title": "Prison Sentence for Former US Soldier Who Hacked AT&T and Verizon",
-    "link": "https://www.securityweek.com/prison-sentence-for-former-us-soldier-who-hacked-att-and-verizon/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-28T12:36:16.000Z",
-    "summary": "Cameron John Wagenius was sentenced to 70 months in prison for stealing information from the wireless carriers.\nThe post Prison Sentence for Former US Soldier Who Hacked AT&T and Verizon appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8a2ae7a592912afb",
-    "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
-    "link": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-28T11:58:00.000Z",
-    "summary": "AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems—often without the same controls applied to human users.\n\nAccording",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0254725a880e1708",
-    "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-    "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-28T11:46:00.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent.\n\n\"The implant insta",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c3403dc4cf0540b8",
-    "title": "DC Health Agency Exposes 400,000 Beneficiary Records",
-    "link": "https://www.securityweek.com/dc-health-agency-exposes-400000-beneficiary-records/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-28T11:29:29.000Z",
-    "summary": "The Medicaid IDs and other information of Medicaid and DC Healthcare Alliance beneficiaries were exposed.\nThe post DC Health Agency Exposes 400,000 Beneficiary Records appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1e44dcd83b1262a3",
-    "title": "Google Warns of ShinyHunters’ Fresh Oracle PeopleSoft Campaign",
-    "link": "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-28T10:56:46.000Z",
-    "summary": "The extortion group has modified its exploit in new attacks targeting the PeopleSoft vulnerability CVE-2026-35273.\nThe post Google Warns of ShinyHunters’ Fresh Oracle PeopleSoft Campaign appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-35273"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "2ed8c215fff2201a",
-    "title": "New Mexico Jury Finds Facebook Liable for Deceiving Users About Privacy Protections",
-    "link": "https://www.securityweek.com/new-mexico-jury-finds-facebook-liable-for-deceiving-users-about-privacy-protections/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-28T10:40:01.000Z",
-    "summary": "A New Mexico jury has found Facebook liable for deceiving users about privacy protections on the platform.\nThe post New Mexico Jury Finds Facebook Liable for Deceiving Users About Privacy Protections appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "694a9061698faff5",
-    "title": "Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog",
-    "link": "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-28T10:27:01.000Z",
-    "summary": "The platform combines open source software and a reference system design to keep AI agents within set boundaries.\nThe post Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9de5431b156399d0",
-    "title": "Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability",
-    "link": "https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-28T09:44:27.000Z",
-    "summary": "The company says the measure was precautionary and that it has no evidence of Kiteworks or customer systems being compromised.\nThe post Kiteworks Urges Server Shutdown, Finds Advanced Forms Vulnerability appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a10ff54cb99f3af8",
-    "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
-    "link": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-28T09:25:29.000Z",
-    "summary": "Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole over $350 million. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b2d877fcb67a5cac",
-    "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
-    "link": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-28T09:08:21.000Z",
-    "summary": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals.\n\nMicrosoft, which is tracking the activity under the name Storm-3168, has ca",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a3b0b4956d2e044a",
-    "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
-    "link": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-28T07:30:15.000Z",
-    "summary": "A former U.S. Army soldier has been sentenced to 70 months in prison for hacking and extorting at least 10 U.S. technology and telecommunications companies between April 2023 and December 2024. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "60de7053e5588443",
-    "title": "Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug",
-    "link": "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-28T07:29:51.000Z",
-    "summary": "Citrix has released patches for the critical NetScaler vulnerabilities tracked as CVE-2026-88771 and CVE-2026-88772.\nThe post Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-88771",
-      "CVE-2026-88772"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "d57d7f9bc848382b",
-    "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
-    "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-28T07:21:49.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulner",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "bc1df5baf666f3da",
-    "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-28T06:24:19.000Z",
-    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...]",
     "cveIds": [],
     "severity": "critical"
   }
