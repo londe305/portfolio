@@ -1,5 +1,174 @@
 [
   {
+    "id": "ef0c1b9d56e28c59",
+    "title": "Wikimedia Foundation: OpenAI agents tried to edit pages and compromise notes tool",
+    "link": "https://therecord.media/wikimedia-foundation-openai-agents-report",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-05T21:26:00.000Z",
+    "summary": "Beyond the potential misuses of its services, Wikimedia said activity by AI agents can be a drain on web platforms that are already operating with limited resources.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "777d177ab8f0a0c4",
+    "title": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
+    "link": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-05T21:25:08.000Z",
+    "summary": "The Linux backdoor exploits 24 known flaws to compromise IoT devices and uses legitimate public STUN servers to obscure communications.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ac27d72d618e7534",
+    "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-05T20:20:05.000Z",
+    "summary": "Hackers are actively scanning for a Rejetto HFS weak signing key vulnerability, tracked as CVE-2026-61500, that allows session forgery, account takeover, and remote code execution (RCE). [...]",
+    "cveIds": [
+      "CVE-2026-61500"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "76475e60209703d3",
+    "title": "Alleged ShinyHunters member reportedly detained in Jordan, assisting law enforcement",
+    "link": "https://therecord.media/alleged-shinyhunters-member-detained-jordan-fbi",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-05T19:15:00.000Z",
+    "summary": "Saif ‌al-Din Khader is cooperating with the FBI, reports said, as the bureau responds to a massive breach that exposed employee data.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a38fefbaa98622ce",
+    "title": "US, Australia warn of latest Citrix vulnerability after NetScaler advisory",
+    "link": "https://therecord.media/us-australia-warn-of-latest-citrix-vulnerability",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-05T17:22:00.000Z",
+    "summary": "Citrix confirmed late on Friday that it was “tracking a newly observed issue” related to some customer-managed NetScaler deployments but claimed the problem was not connected to vulnerabilities reported last week that also caused alarm amon",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6a61b4fe42733a1b",
+    "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
+    "link": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-05T17:19:53.000Z",
+    "summary": "Italy's Data Protection Authority (GPDP) has fined IQVIA €7 million ($7.8M) over poor data-processing practices that the agency says could have put roughly one million patients at risk of data exposure and de-anonymization. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9824afb5bb9c0fab",
+    "title": "Ukraine grocery chain ATB confirms cyberattack as hackers threaten to leak data",
+    "link": "https://therecord.media/atb-ukraine-cyberattack-ransomware",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-05T17:00:00.000Z",
+    "summary": "Ukraine’s largest grocery store chain, ATB, confirmed that it was hit by a cyberattack after hackers posted an extortion demand on its website.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cb207012cadc4c9d",
+    "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+    "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-05T16:21:52.000Z",
+    "summary": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions.\n\nThe vulnerability, tracked as CVE-2026-96940, is",
+    "cveIds": [
+      "CVE-2026-96940"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "1b8095594ef74fe5",
+    "title": "Chinese Hackers Impersonate US Officials for AI Cyber Espionage",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-impersonates-us-officials-cyber-espionage",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-05T15:52:59.000Z",
+    "summary": "An emerging threat group known as TA419 established seemingly legitimate professional relationships with AI policy experts working for US think tanks, universities, and legal organizations.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "567f3a4f3f9fc35a",
+    "title": "University of Illinois Chicago affected by ransomware attack on medical school",
+    "link": "https://therecord.media/ransomware-university-illinois-chicago",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-05T15:30:00.000Z",
+    "summary": "A ransomware attack that affected the University of Illinois Chicago (UIC) College of Medicine resulted in the theft of some information from its servers.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7ebb9ff569ae8ee0",
+    "title": "Denmark population registry data breach affects 8.8 million people",
+    "link": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-05T15:21:10.000Z",
+    "summary": "Denmark's Central Population Register (CPR) is warning of a data breach that exposed the personal information of approximately 8.8 million registered individuals. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "179f36c2e73f2561",
+    "title": "New Dell System Update flaw lets hackers gain root privileges",
+    "link": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-05T14:53:06.000Z",
+    "summary": "Dell warned customers to patch a critical vulnerability in the System Update (DSU) command-line interface (CLI) deployment tool as soon as possible. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7c115c8fd892dd88",
+    "title": "Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports",
+    "link": "https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-05T14:26:00.000Z",
+    "summary": "Google has temporarily stopped accepting product vulnerability reports through its Open Source Software Vulnerability Reward Program (OSS VRP).\nThe post Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports appeared f",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "68acfff98094cf60",
+    "title": "South Korea probes bank breaches amid suspected AI-powered attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-05T14:22:12.000Z",
+    "summary": "South Korea's Financial Services Commission (FSC) held an emergency meeting following a series of cyberattacks targeting financial institutions in the country. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "acb91d74c1ac878c",
+    "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+    "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-05T14:20:43.000Z",
+    "summary": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook.\n\nThere are actively ex",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "356db830ef3d9960",
     "title": "Belarusian hacktivists spent two years inside Russian healthcare network, researchers say",
     "link": "https://therecord.media/belarusian-hacktivists-two-years-Russian-healthcare-network",
@@ -208,7 +377,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-10-05T06:40:19.000Z",
-    "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks.\n\nThe vulnerability, tracked as CVE-2026-88779, carries a CVSS",
+    "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks.\n\nThe vulnerability, tracked as CVE-2026-88779, carries a CVSS score ",
     "cveIds": [
       "CVE-2026-88779"
     ],
@@ -425,7 +594,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-10-03T11:00:00.000Z",
-    "summary": "Featuring:\n\nCybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infras",
+    "summary": "Featuring:\n\n\n\nCybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infr",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2669,249 +2838,5 @@
     "summary": "The Open Agent Safety Platform relies on hardware and software components to monitor agent activities and quarantine unruly agents before they can cause harm.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "af90707fd724ed58",
-    "title": "One Packet Can Crash OT Servers in Industrial Sectors",
-    "link": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-28T21:13:04.000Z",
-    "summary": "A high-severity vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments, and orgs should patch right away.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a4c9989360ae6705",
-    "title": "Japan's Keio confirms ransomware attack disrupted business systems",
-    "link": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-28T20:56:47.000Z",
-    "summary": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting  some of its business systems. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f6437873fa8f0b79",
-    "title": "Times Car confirms data breach affecting 6.6 million user accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-28T20:31:16.000Z",
-    "summary": "Japanese car-sharing service Times Car has confirmed that approximately 6.6 million user accounts were compromised in a cyberattack disclosed late last week. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "13e059bb849e027f",
-    "title": "Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts",
-    "link": "https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-28T20:23:58.000Z",
-    "summary": "The botnet uses the open source Hermes Agent AI framework to execute commands via Telegram and steal AI API keys from exposed Docker hosts.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9b2769919d577d68",
-    "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
-    "link": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-28T19:49:10.000Z",
-    "summary": "Dutch police have confirmed that a 24-year-old Amsterdam man arrested earlier this month was detained as part of an investigation into the ShinyHunters hacking group. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "570a5bd4d75e2597",
-    "title": "ShinyHunters exploiting workarounds for Oracle PeopleSoft bug, Mandiant warns",
-    "link": "https://therecord.media/shinyhunters-cyberattacks-oracle-mandiant",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-28T19:30:00.000Z",
-    "summary": "A vulnerability in a popular line of products from Oracle is being used in a new campaign by the prolific ShinyHunters hacking group, which recently claimed credit for an attack on the FBI’s jobs site.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cbf3cfa45f59f9f5",
-    "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-    "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-28T19:18:01.000Z",
-    "summary": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks.\n\nThe vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds w",
-    "cveIds": [
-      "CVE-2026-86950"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "51f3f2ec27aaa072",
-    "title": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
-    "link": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-28T18:50:59.000Z",
-    "summary": "Researchers found more than 16,000 misconfigured Supabase databases exposing readable tables with personally identifiable information, passwords, or authentication tokens. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7df979e3443dc6ce",
-    "title": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-28T18:44:22.000Z",
-    "summary": "Enterprises regularly rigorously monitor human employees, while autonomous AI agents quietly operate with broad privileges that could turn them into the next generation of insider threats.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e7f8e7a928b1f922",
-    "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
-    "link": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-28T18:35:42.000Z",
-    "summary": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis.\n\nThe malware has been seen in a small number of targeted intrusions at telecom",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "953a9269e98f5345",
-    "title": "IAM for AI agents: A Practical Enterprise Framework",
-    "link": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-28T18:20:38.000Z",
-    "summary": "What is IAM for AI agents?\n\nAI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors. This guide covers the limits of ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c79231d6db94d82b",
-    "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
-    "link": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-28T17:42:18.000Z",
-    "summary": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday.\n\nThe attacker exploited the flaw to obtain h",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "26cc36978970074f",
-    "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
-    "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-28T17:38:33.000Z",
-    "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has traced nearly 100 deployments of that console since April 2026. It said this fi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b1e3e519f863ae0a",
-    "title": "Modulate Raises $25 Million to Advance Deepfake Detection",
-    "link": "https://www.securityweek.com/modulate-raises-25-million-to-advance-deepfake-detection/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-28T17:30:00.000Z",
-    "summary": "The misuse and abuse of AI-generated voice is growing. Modulate’s intention is to allow real time detection and intervention. \nThe post Modulate Raises $25 Million to Advance Deepfake Detection appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2be09b9ea2c713df",
-    "title": "New Mexico jury finds Meta deceived consumers about data privacy practices",
-    "link": "https://therecord.media/facebook-new-mexico-privacy",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-28T17:15:00.000Z",
-    "summary": "A New Mexico jury found Facebook violated the law nearly 44 million times by lying to consumers about its data privacy practices.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2a1fced464bdfccb",
-    "title": "Chrome Store Hosts 'Poper Blocker' Spyware Downloaded by Millions",
-    "link": "https://www.darkreading.com/application-security/chrome-store-poper-blocker-spyware-downloaded-millions",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-28T16:51:25.000Z",
-    "summary": "A purported ad-blocker exfiltrates reams of sensitive information and benefits from having Google's stamp of approval despite researcher warnings.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0ee8eac0268ba8f4",
-    "title": "US, UK warn of exploited Citrix NetScaler zero-day bugs",
-    "link": "https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-28T16:19:00.000Z",
-    "summary": "Incident responders began warning of potential vulnerabilities in NetScaler Gateway products on Saturday before cybersecurity agencies in the Netherlands, U.S. and U.K. released advisories on Sunday confirming vulnerabilities. Citrix itself",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "be5ce4a651a9d68a",
-    "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
-    "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-28T15:49:27.000Z",
-    "summary": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b783a4aa9a9a1673",
-    "title": "JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack",
-    "link": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-28T15:33:21.000Z",
-    "summary": "The \"agentic threat actor\" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3273adb42f73db20",
-    "title": "Call for Presentations Open for 2026 CISO Forum Virtual Summit",
-    "link": "https://www.securityweek.com/call-for-presentations-open-for-2026-ciso-forum-virtual-summit/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-28T15:15:00.000Z",
-    "summary": "SecurityWeek seeks original, vendor-neutral presentations that help cybersecurity leaders navigate emerging threats, strengthen resilience, and address the strategic challenges facing today’s enterprise security programs.\nThe post Call for ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9eea57edb89b5463",
-    "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-    "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-09-28T15:08:57.000Z",
-    "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remai",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "024cb7e46717c211",
-    "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-09-28T15:00:00.000Z",
-    "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and suppo",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
