@@ -1,5 +1,27 @@
 [
   {
+    "id": "deda64e494a62f80",
+    "title": "ISC Stormcast For Monday, October 5th, 2026 https://isc.sans.edu/podcastdetail/10122, (Mon, Oct 5th)",
+    "link": "https://isc.sans.edu/diary/rss/33398",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-05T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "028b11ee27594c14",
+    "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
+    "link": "https://isc.sans.edu/diary/rss/33396",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-05T00:15:00.000Z",
+    "summary": "For an experiment, I created a script [1] that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor. Those TTY logs are sent daily at the end of each ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "5058e2f27caa8c2c",
     "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
@@ -2800,38 +2822,5 @@
     "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against attacks exploiting two critical Citrix NetScaler vulnerabilities. [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "bf9408c361073a02",
-    "title": "ISC Stormcast For Monday, September 28th, 2026 https://isc.sans.edu/podcastdetail/10112, (Mon, Sep 28th)",
-    "link": "https://isc.sans.edu/diary/rss/33374",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-28T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3577e183770d0577",
-    "title": "Multiples vulnérabilités dans MongoDB (28 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1234/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-28T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éd",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "085a95f65035d1ae",
-    "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (28 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1235/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-28T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Citrix NetScaler ADC et Gateway. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournem",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
