@@ -1,5 +1,172 @@
 [
   {
+    "id": "20fd1067262109e6",
+    "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-06T19:21:53.000Z",
+    "summary": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0e963e876be8023b",
+    "title": "Google's PageBreak AI Agent Finds 500 Flaws in Its Web Apps",
+    "link": "https://www.darkreading.com/application-security/google-pagebreak-ai-agent-500-flaws-web-apps",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-06T17:56:29.000Z",
+    "summary": "The situation illustrates a trend toward using AI and deterministic validation to identify flaws and exploitability, and provide a risk assessment.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0abcb3ba04359f06",
+    "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
+    "link": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-06T17:34:59.000Z",
+    "summary": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including Confluence, Jira, and Bitbucket. [...]",
+    "cveIds": [
+      "CVE-2026-21589"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "3459d34bd6c11318",
+    "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets &amp; Security Teams",
+    "link": "https://www.darkreading.com/cybersecurity-operations/ai-reshaping-ciso-budgets-security-teams",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-06T17:15:24.000Z",
+    "summary": "In this video interview, Nick Kakolowski, senior director for CISO research at IANS, talks AI: budgets, ROI, and changes inside security teams.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ef90afea648e965f",
+    "title": "'BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates",
+    "link": "https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-06T16:59:24.000Z",
+    "summary": "Not quite an EDR-killer, but the proof-of-concept cyber technique creates a silent virus detection gap while service runs normally, no exploit required.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "462de0e933caeaff",
+    "title": "ASOS confirms data breach after “HACKED” in-app notifications",
+    "link": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-06T16:33:54.000Z",
+    "summary": "UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company's Snowflake environment. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7ccedc646e574dd0",
+    "title": "CISO perspectives on managing vulnerability risks in the age of AI",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-10-06T16:00:00.000Z",
+    "summary": "Learn how CISOs can mitigate cybersecurity risks and increase resilience in the age of AI-powered vulnerability management.\nThe post CISO perspectives on managing vulnerability risks in the age of AI appeared first on Microsoft Security Blo",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "769d690a88b1d819",
+    "title": "Alleged ATM malware creator appears in Nebraska court after arrest",
+    "link": "https://therecord.media/atm-malware-creator-appears-in-nebraska-court",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-06T15:53:00.000Z",
+    "summary": "Aguirre was added to the FBI’s “Top 10 Most Wanted Fugitives” list in March, becoming the first cybercriminal added to the list.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ed66aeeb68d267bc",
+    "title": "South Korean officials believe AI agents were used to hack several banks",
+    "link": "https://therecord.media/south-korean-bank-hacks-ai-agents",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-06T15:29:22.000Z",
+    "summary": "The personal data of at least 68,000 people was reportedly exposed in breaches of at least seven financial institutions, with officials saying they believe a Chinese cybersecurity tool was used to hack the banks’ systems.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "26e65fb177375e4a",
+    "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-06T15:16:44.000Z",
+    "summary": "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser attacks. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c75afb4795fafd87",
+    "title": "Osaka Metropolitan University cancels classes after suspected ransomware attack",
+    "link": "https://therecord.media/osaka-university-cancels-classes-ransomware",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-06T14:52:00.000Z",
+    "summary": "Osaka Metropolitan University said on Tuesday that the outage left its internal network, email and a range of administrative and academic systems unavailable.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "947044d216d7a693",
+    "title": "FBI Blames Contractor’s Missed Patch for ShinyHunters Breach",
+    "link": "https://www.securityweek.com/fbi-blames-contractors-missed-patch-for-shinyhunters-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-06T14:15:00.000Z",
+    "summary": "The FBI has removed an Accenture contractor over a data breach that exposed personal information of thousands of bureau employees.\nThe post FBI Blames Contractor’s Missed Patch for ShinyHunters Breach appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "fa72bfde42ead31b",
+    "title": "How to secure RMM software: 8 controls MSPs should test",
+    "link": "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-06T14:00:10.000Z",
+    "summary": "RMM platforms give MSPs privileged access across customer environments, making their security controls critical to limiting risk. Acronis outlines eight controls MSPs should test when evaluating RMM software, from patching and privileged ac",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f3ac85321ad8ecf9",
+    "title": "ClickFix campaign in Ukraine compromises over 100 websites to spread Lunex malware",
+    "link": "https://therecord.media/clickfix-campaign-ukraine-lunex-stealer",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-06T13:17:00.000Z",
+    "summary": "CERT-UA found fake Cloudflare verification pages that led visitors into a now-familiar ClickFix trap. This time the goal was to infect machines with an infostealer.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0ec27457214b3117",
+    "title": "More RMM Tools In the Wild, (Tue, Oct 6th)",
+    "link": "https://isc.sans.edu/diary/rss/33400",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-06T13:16:02.000Z",
+    "summary": "It seems that a trend started&#xe2;&#x80;&#xa6; I continue my journey discovering more RMM (\"Remote Management & Monitoring\") tools abused by threat actors! A few days ago, I wrote a diary[1] about ScreenConnect used in the wild. Today, I f",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "7a66411ae2da1763",
     "title": "FBI Arrests ‘Most Wanted’ Developer of Ploutus ATM Malware",
     "link": "https://www.securityweek.com/fbi-arrests-most-wanted-developer-of-ploutus-atm-malware/",
@@ -7,6 +174,72 @@
     "category": "news",
     "pubDate": "2026-10-06T12:47:57.000Z",
     "summary": "An alleged leader of Tren de Aragua’s ATM jackpotting activities, Canelon Aguirre was on the FBI’s top 10 most wanted list since March 2026.\nThe post FBI Arrests ‘Most Wanted’ Developer of Ploutus ATM Malware appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c3e05ba35894a909",
+    "title": "Hitachi Energy REB500",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-06T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nHitachi Energy is aware of open-source software vulnerabilities that affect REB500 product versions listed in this document. These vulnerabilities can be exploited to carry out Denial of Service (DoS) attack on the product",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c3507c2b85548d90",
+    "title": "Hitachi Energy Asset Suite",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-06T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nHitachi Energy is aware of unauthenticated servlet access vulnerabilities that affect Asset Suite product versions listed in this document. These vulnerabilities can be exploited to potentially cause confidentiality, integ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9b38d53f12306058",
+    "title": "Johnson Controls EasyIO FG",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-06T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain full unauthorized access to the device.\nThe following versions of Johnson Controls EasyIO FG are affected:\nEasyIO FG firmware <=2.0b52 (CVE-2",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b48f6b1d88333b79",
+    "title": "Hitachi Energy SOI",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-06T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nHitachi Energy is aware of RCE (Remote Code Execution) vulnerability in Apache ActiveMQ component of SOI product versions listed in this document. These vulnerabilities can be exploited to carry out various attacks affecti",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bb6519d3695cd132",
+    "title": "Savannah lwIP SMTP client",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-06T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could crash the device being accessed; a buffer overflow condition may allow remote code execution.\nThe following versions of Savannah lwIP SMTP client are affected:\nlwIP SMTP ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b7c6d3616aeba030",
+    "title": "Hitachi Energy RTU500",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-06T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nHitachi Energy is publishing this cybersecurity advisory in response to the security findings reported by Dragos affecting end-of-life RTU500 CMU firmware version 9.x. The reported findings are associated with legacy RTU50",
     "cveIds": [],
     "severity": "normal"
   },
@@ -119,17 +352,6 @@
     "summary": "Hackers abused a company’s lawful access to the CPR system to steal the personal information of registered citizens.\nThe post 8.8 Million Impacted by Data Breach at Denmark’s Central Person Register appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "0ec27457214b3117",
-    "title": "More RMM Tools In the Wild, (Tue, Oct 6th)",
-    "link": "https://isc.sans.edu/diary/rss/33400",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-06T09:34:56.000Z",
-    "summary": "It seems that a trend started&#xe2;&#x80;&#xa6; I continue my journey discovering more RMM (\"Remote Management & Monitoring\") tools abused by threat actors! A few days ago, I wrote a diary[1] about ScreenConnect used in the wild. Today, I f",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "d25156e307a3bca2",
@@ -1510,35 +1732,13 @@
     "severity": "critical"
   },
   {
-    "id": "b649d2140da88a70",
+    "id": "3b4feae8468fe031",
     "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-05",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-10-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker tointercept and read sensitive information, including credentials andsession data.\nThe following versions of Johnson Controls EasyIO Neo Series EC and C",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2f3a6988704e66ad",
-    "title": "Meari IoT Cloud Platform OpenAPI Service",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive information such as device credentials, owner details, and ne",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "52eb7ccd3e6f1d4d",
-    "title": "Monta monta.app",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks.\nThe foll",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system.\nThe following versions of Johnson Controls Eas",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1572,6 +1772,28 @@
     "category": "advisory",
     "pubDate": "2026-10-01T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nThe following versions of CISA Malcolm are affected:\nMalcolm\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 8.8\nCISA\nCISA Malcolm\nImproper Neutralization of Input During Web Page Generation ('Cross-site Scripting'), Improper",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2f3a6988704e66ad",
+    "title": "Meari IoT Cloud Platform OpenAPI Service",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive information such as device credentials, owner details, and ne",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "52eb7ccd3e6f1d4d",
+    "title": "Monta monta.app",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-01T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks.\nThe foll",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2529,250 +2751,6 @@
     "category": "news",
     "pubDate": "2026-09-29T20:09:55.000Z",
     "summary": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of the group's alleged leaders. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a4edbe93992f4079",
-    "title": "OpenAI apologizes for agents breaching Australian government websites without authorization",
-    "link": "https://therecord.media/openai-apologizes-australia-medicare-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-29T19:48:00.000Z",
-    "summary": "The artificial intelligence giant acknowledged it botched its response to the incidents and should have done more to promptly notify and work with the Australian government in the days after it discovered the breaches.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7255110665bf355d",
-    "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-29T18:37:12.000Z",
-    "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
-    "cveIds": [
-      "CVE-2026-88772"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "4c461b4fc05e4c83",
-    "title": "Former US Air Force members sent to prison over BEC attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-29T18:09:39.000Z",
-    "summary": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year series of business email compromise (BEC) scams and phishing campaigns. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d6d690a45d2cd808",
-    "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
-    "link": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-29T17:47:01.000Z",
-    "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July.\n\nNeither the tax administration nor France's national cybersecurity agency saw",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ec353bd22dd49d81",
-    "title": "Windows 11 2026 Update released, here's everything you need to know",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-29T17:37:40.000Z",
-    "summary": "Microsoft has started rolling out Windows 11 26H2 to everyone, and while it's this year's big annual feature update, you probably won't notice a massive difference after installing it. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "86fecb81e9472cb6",
-    "title": "DARPA Selects Xint to Use AI in Securing Military Messaging Apps",
-    "link": "https://www.securityweek.com/darpa-selects-xint-to-use-ai-in-securing-military-messaging-apps/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-29T17:24:04.000Z",
-    "summary": "The AIxCC competition winner will analyze messaging app code and compiled binaries for vulnerabilities, with technology that could also help commercial customers secure their software.\nThe post DARPA Selects Xint to Use AI in Securing Milit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "47cf7b5d49a9d487",
-    "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
-    "link": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-29T17:20:17.000Z",
-    "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system ke",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "643a969864727d3f",
-    "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
-    "link": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-29T17:20:08.000Z",
-    "summary": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers, according to Microsoft.\n\nThe campaigns, aimed at people and organizations tied to Ukr",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1a6e8346e1829c87",
-    "title": "New Spectre v2 attack variant leaks Linux root password hash in minutes",
-    "link": "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-29T17:10:11.000Z",
-    "summary": "A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minutes on average. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d66f32347a248d83",
-    "title": "Cloudflare Announces Public Certificate Authority for the Post-Quantum Web",
-    "link": "https://www.darkreading.com/cloud-security/cloudflare-announces-public-certificate-authority-post-quantum-web",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-29T17:02:16.000Z",
-    "summary": "Automated certificates for everyone, built for today, and hardened for the era of quantum computing.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "65e18ea9a5132037",
-    "title": "New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks",
-    "link": "https://www.securityweek.com/new-spectre-v2-variant-exposes-intel-amd-arm-cpus-to-data-leaks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-29T17:00:00.000Z",
-    "summary": "Branch Target Reuse (BTR) is a new Spectre v2 attack targeting JIT compilers in web browsers, language runtimes, and the operating system kernel\nThe post New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks appeared first on Se",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "517682da12648448",
-    "title": "​​Beyond source code: A path to the keys to the kingdom",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-09-29T16:00:00.000Z",
-    "summary": "Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure.\nThe post ​​Beyond source code: A path to the keys to the ki",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "af77574c551dc0ef",
-    "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
-    "link": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-29T15:39:19.000Z",
-    "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very messy.\" [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a0bdf7faf1b98eb8",
-    "title": "'NeedyMantis' Provides Long-Term Access to Compromised Networks",
-    "link": "https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-29T15:12:39.000Z",
-    "summary": "Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2be2e79555e5a2f7",
-    "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-09-29T15:00:00.000Z",
-    "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware deliver",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "57d7360f9aaac79b",
-    "title": "RemoteThreat Launches With $7 Million for Offensive Operations Platform",
-    "link": "https://www.securityweek.com/remotethreat-launches-with-7-million-for-offensive-operations-platform/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-29T14:38:07.000Z",
-    "summary": "The company emerged from stealth mode with pre-seed funding from Osage University Partners and DataTribe.\nThe post RemoteThreat Launches With $7 Million for Offensive Operations Platform appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e1150c83a32cabeb",
-    "title": "Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-29T14:19:43.000Z",
-    "summary": "The critical vulnerabilities, which impact default configurations of NetScaler products, essentially give attackers a skeleton key to customers' networks.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8da4536a08bc3da8",
-    "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
-    "link": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-29T14:13:20.000Z",
-    "summary": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown.\n\n\"During the shutdown, this activity led",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c8001c55dd124d90",
-    "title": "Catch threats before they escalate with real-time Identity Telemetry",
-    "link": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-29T14:01:11.000Z",
-    "summary": "Identity governance helps control who should have access, but periodic reviews alone may not reveal attacks as they happen. tenfold Software explains how real-time identity telemetry can help security teams investigate suspicious activity b",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c27b3357c720aeab",
-    "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
-    "link": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-29T13:45:10.000Z",
-    "summary": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub.\n\n\"The malicious packages abuse the 'Baileys' WhatsApp open source project ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "eefc3c7ca9157917",
-    "title": "Scans for Wordfence Protected Websites, (Tue, Sep 29th)",
-    "link": "https://isc.sans.edu/diary/rss/33382",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-29T13:29:33.000Z",
-    "summary": "Starting yesterday, our sensors picked up a small number of scans for \"wordfence-waf.php\". This particular script is used by Wordfence, a solution to protect WordPress sites. During the Wordfence install, the wordpress-waf.php file will be ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "32f03d302d1e06c7",
-    "title": "Reco Raises $55 Million for Agentic Security",
-    "link": "https://www.securityweek.com/reco-raises-55-million-for-agentic-security/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-29T13:20:53.000Z",
-    "summary": "The company will use the funds to expand its sales, partnerships, channels, and customer support teams.\nThe post Reco Raises $55 Million for Agentic Security appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   }
