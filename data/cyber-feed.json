@@ -1,5 +1,236 @@
 [
   {
+    "id": "7a66411ae2da1763",
+    "title": "FBI Arrests ‘Most Wanted’ Developer of Ploutus ATM Malware",
+    "link": "https://www.securityweek.com/fbi-arrests-most-wanted-developer-of-ploutus-atm-malware/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-06T12:47:57.000Z",
+    "summary": "An alleged leader of Tren de Aragua’s ATM jackpotting activities, Canelon Aguirre was on the FBI’s top 10 most wanted list since March 2026.\nThe post FBI Arrests ‘Most Wanted’ Developer of Ploutus ATM Malware appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "893051a996ecd889",
+    "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
+    "link": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-06T11:57:00.000Z",
+    "summary": "A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either program shows before it runs a macro.\n\nT",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c3a90ebed307ce45",
+    "title": "Apple to Tighten Full Disk Access Controls in macOS Amid AI Risks",
+    "link": "https://www.securityweek.com/apple-to-tighten-full-disk-access-controls-in-macos-amid-ai-risks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-06T11:48:59.000Z",
+    "summary": "Citing growing risks posed by more capable and autonomous AI agents, Apple will introduce additional controls.\nThe post Apple to Tighten Full Disk Access Controls in macOS Amid AI Risks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "125365e632220cb8",
+    "title": "ISC Stormcast For Tuesday, October 6th, 2026 https://isc.sans.edu/podcastdetail/10124, (Tue, Oct 6th)",
+    "link": "https://isc.sans.edu/diary/rss/33402",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-06T11:45:11.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c9c765ca7e8fbba5",
+    "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
+    "link": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-06T11:31:48.000Z",
+    "summary": "The Wikimedia Foundation says rogue OpenAI agents made unauthorized Wikipedia edits and may have been partially responsible for a May outage. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "41accce2b318a748",
+    "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
+    "link": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-06T11:26:25.000Z",
+    "summary": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pag",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a47789abd95458c6",
+    "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
+    "link": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-06T11:02:30.000Z",
+    "summary": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them int",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5f139a5c911c78e8",
+    "title": "Cybersecurity M&A Roundup: 39 Deals Announced in September 2026",
+    "link": "https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-in-september-2026/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-06T11:01:35.000Z",
+    "summary": "Significant cybersecurity M&A deals announced by Dragos, IBM, Palo Alto Networks, Kiteworks, and Upwind.\nThe post Cybersecurity M&A Roundup: 39 Deals Announced in September 2026 appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "812c2ef5a5688135",
+    "title": "Long-Running NPM Malware Campaign Accumulates 40,000 Downloads",
+    "link": "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-06T10:34:25.000Z",
+    "summary": "Since August 2023, attackers have published eight malicious packages as part of the MALFEX supply chain campaign.\nThe post Long-Running NPM Malware Campaign Accumulates 40,000 Downloads appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "986e0b7b7db00c83",
+    "title": "Blinder Tunnel Campaign Targets Iraqi Infrastructure",
+    "link": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-10-06T10:00:33.000Z",
+    "summary": "Analysis of Blinder Tunnel, an Iran-nexus campaign using fake Dubai Airports recruitment lures and GitHub C2 malware to target critical infrastructure.\nThe post Blinder Tunnel Campaign Targets Iraqi Infrastructure appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "fc785617b1052a2c",
+    "title": "8.8 Million Impacted by Data Breach at Denmark’s Central Person Register",
+    "link": "https://www.securityweek.com/8-8-million-impacted-by-data-breach-at-denmarks-central-person-register/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-06T09:38:30.000Z",
+    "summary": "Hackers abused a company’s lawful access to the CPR system to steal the personal information of registered citizens.\nThe post 8.8 Million Impacted by Data Breach at Denmark’s Central Person Register appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0ec27457214b3117",
+    "title": "More RMM Tools In the Wild, (Tue, Oct 6th)",
+    "link": "https://isc.sans.edu/diary/rss/33400",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-06T09:34:56.000Z",
+    "summary": "It seems that a trend started&#xe2;&#x80;&#xa6; I continue my journey discovering more RMM (\"Remote Management & Monitoring\") tools abused by threat actors! A few days ago, I wrote a diary[1] about ScreenConnect used in the wild. Today, I f",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d25156e307a3bca2",
+    "title": "Nikkei discloses breaches of employees’ Microsoft, Google email accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-06T09:25:50.000Z",
+    "summary": "Over the weekend, Japanese publishing giant Nikkei disclosed that unknown attackers recently breached two employee email accounts and used one to send thousands of phishing emails. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "32fa12f768afd40e",
+    "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
+    "link": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-06T09:21:47.000Z",
+    "summary": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software.\n\nThe change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects su",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a4f56bcfdee02609",
+    "title": "Social Engineering Detection Moves Into the Live Conversation",
+    "link": "https://www.securityweek.com/social-engineering-detection-moves-into-the-live-conversation/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-06T08:38:14.000Z",
+    "summary": "Companies are pouring time and dollars into security awareness training, but little evidence shows it actually works against social engineering.\nThe post Social Engineering Detection Moves Into the Live Conversation appeared first on Securi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5480e932d265bebb",
+    "title": "Engineer sentenced for locking over 3,000 devices on employer network",
+    "link": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-06T08:19:24.000Z",
+    "summary": "A former core infrastructure engineer at an industrial company headquartered in New Jersey was sentenced to 32 months in prison for locking thousands of devices on his employer's network in a ransomware-style attack. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f97880d7598382b6",
+    "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+    "link": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-06T06:58:56.000Z",
+    "summary": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory.\n\nThe attacker must already know a file's ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6053c8b55d0d48fc",
+    "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+    "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-06T06:56:57.000Z",
+    "summary": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.\n\nThat's according to a report fro",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8337f33655ac42c0",
+    "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
+    "link": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-06T06:00:30.000Z",
+    "summary": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry said on Octo",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "15810e447b0d191a",
+    "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
+    "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-06T05:22:55.000Z",
+    "summary": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache.\n\n\"Instead of downloading and executing remote payloads like the typical attack pattern, in this a",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c0b6f37559ce6ed8",
+    "title": "Shares in British clothing company ASOS dive after hackers apparently send push notification",
+    "link": "https://therecord.media/asos-push-notification-apparently-sent-by-hackers",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-06T04:00:00.000Z",
+    "summary": "Several mysteries surround what appeared to be an unauthorized push notification sent to customers of London-based clothing company ASOS.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "158b0c0dc14e7eaa",
     "title": "OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/",
@@ -1578,6 +1809,41 @@
     "severity": "normal"
   },
   {
+    "id": "8ca05068a28e631d",
+    "title": "Multiples vulnérabilités dans Mozilla Thunderbird (01 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1244/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-01T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Thunderbird. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des don",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1b64402b09d53141",
+    "title": "Multiples vulnérabilités dans Redmine (01 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1245/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-01T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Redmine. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "05c54d785e306d0c",
+    "title": "Vulnérabilité dans Cisco Catalyst SD-WAN (01 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1246/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-01T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Cisco Catalyst SD-WAN. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité. Cisco indique que la vulnérabilité CVE-2026-76504 est activement exploitée.",
+    "cveIds": [
+      "CVE-2026-76504"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "6a8d7fa949a5e542",
     "title": "FTC is Investigating OpenAI and Anthropic Over Possible Risks to Consumers",
     "link": "https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/",
@@ -2507,276 +2773,6 @@
     "category": "news",
     "pubDate": "2026-09-29T13:20:53.000Z",
     "summary": "The company will use the funds to expand its sales, partnerships, channels, and customer support teams.\nThe post Reco Raises $55 Million for Agentic Security appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1885cf177775505d",
-    "title": "Hackers Use ChatGPT Custom GPTs in ClickFix Attacks",
-    "link": "https://www.securityweek.com/hackers-use-chatgpt-custom-gpts-in-clickfix-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-29T13:03:35.000Z",
-    "summary": "The personalized versions of ChatGPT were used to impersonate legitimate products and trick users into executing PowerShell commands.\nThe post Hackers Use ChatGPT Custom GPTs in ClickFix Attacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b5c635a6932ec172",
-    "title": "Russian pizza chain with 1,500 locations confirms cyberattack following hacker claims",
-    "link": "https://therecord.media/russian-pizza-chain-dodo-confirms-data-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-29T12:34:00.000Z",
-    "summary": "According to Dodo Pizza, the potentially compromised information included customers’ names, addresses, email addresses, phone numbers, dates of birth and order details.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f52745013b9a6b02",
-    "title": "Arizona Supreme Court says hackers stole residents’ personal data",
-    "link": "https://therecord.media/arizona-supreme-court-says-hackers-stole-data",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-29T12:27:00.000Z",
-    "summary": "A spokesperson for the court system told Recorded Future News that the incident did not involve ransomware and the hackers have not issued ransom demands for the stolen data as of Monday.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f688b7ed62a70696",
-    "title": "Pentagon Personnel Agency Data Breach Impacts 3 Million People",
-    "link": "https://www.securityweek.com/pentagon-personnel-agency-data-breach-impacts-3-million-people/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-29T12:25:12.000Z",
-    "summary": "The data breach affects the Defense Manpower Data Center (DMDC), which maintains personnel records for the Department of Defense.\nThe post Pentagon Personnel Agency Data Breach Impacts 3 Million People appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "eeaa0dd4e31207e0",
-    "title": "Lantronix G520 Series Cellular Gateway",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to replace software and execute arbitrary code with root privileges.\nThe following versions of Lantronix G520 Series Cellular Gateway are affected:\nG",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "29379e492b799fbf",
-    "title": "Toptech TMS7 and TopHAT",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access critical data or execute arbitrary code.\nThe following versions of Toptech TMS7 and TopHAT are affected:\nTMS7 7.6.3 (CVE-2026-71379, CVE-20",
-    "cveIds": [
-      "CVE-2026-71379"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "40df35e1db20c8c9",
-    "title": "Viidure Dashcam Android Application",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to access, modify, or delete sensitive user data and critical system files, potentially compromising the operation of the entire platform.\nThe followin",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "abd4fa57901c94de",
-    "title": "Anjvision YSSD-RTMP-H5",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to access sensitive information, access user accounts, execute OS-level commands, or take full control over the device.\nThe following versions of Anj",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0c4066b835acc887",
-    "title": "VIVOTEK Camera Firmware",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability may allow attackers to achieve remote command execution on affected devices, potentially with root privileges, leading to full compromise of the camera system.\nThe following ve",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e2aa38a1fb6b6f49",
-    "title": "Baicells Nova 430H",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to inject malformed messages which may lead to a denial-of-service condition.\nThe following versions of Baicells Nova 430H are affected:\nNova 430H eNode",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1e3136cf598b22f4",
-    "title": "MikroTik RouterOS",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to achieve remote code execution or cause a denial of service.\nThe following versions of MikroTik RouterOS are affected:\nRouterOS <7.24 (CVE-2026-84411)",
-    "cveIds": [
-      "CVE-2026-84411"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "2016d632d442950a",
-    "title": "Rig Security Emerges From Stealth With $12M to Tackle Agentic AI Identity Risks",
-    "link": "https://www.securityweek.com/rig-security-emerges-from-stealth-with-12m-to-tackle-agentic-ai-identity-risks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-29T12:00:00.000Z",
-    "summary": "Rig provides an identity dependencies graph to distinguish between legitimate users and rogue AI agents\nThe post Rig Security Emerges From Stealth With $12M to Tackle Agentic AI Identity Risks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "52d091f573d10652",
-    "title": "Vietnamese man charged in $16 million 'pig butchering' crypto scam",
-    "link": "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-29T11:41:53.000Z",
-    "summary": "A Vietnamese national was charged with money laundering for his role in a massive \"pig butchering\" scam, which defrauded a victim out of $16 million worth of cryptocurrency. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8fc9367798351e80",
-    "title": "Four Cyber Threats Harboring Big Plans for the Future",
-    "link": "https://www.securityweek.com/four-cyber-threats-harboring-big-plans-for-the-future/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-29T11:30:00.000Z",
-    "summary": "- AI, supply-chain exposure, quantum computing and geopolitical conflict are testing security programs. Preparing for disruption must become part of day-to-day operations.\nThe post Four Cyber Threats Harboring Big Plans for the Future appea",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "df6ae714ac6b8d66",
-    "title": "OpenAI Calls Off GPT-6.1 Astra Launch, Details Safety Cases for Frontier Training",
-    "link": "https://www.securityweek.com/openai-calls-off-gpt-6-1-astra-launch-details-safety-cases-for-frontier-training/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-29T11:15:59.000Z",
-    "summary": "The GPT-6.1 Astra model was slated to debut in ChatGPT and Codex in October, but it fell short of expectations. \nThe post OpenAI Calls Off GPT-6.1 Astra Launch, Details Safety Cases for Frontier Training appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a0b002018a1bda0d",
-    "title": "Dutch Police Arrest Convicted Hacker in ShinyHunters Investigation",
-    "link": "https://www.securityweek.com/dutch-police-arrest-convicted-hacker-in-shinyhunters-investigation/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-29T11:01:55.000Z",
-    "summary": "Pepijn van der Stap was convicted in 2023 for hacking multiple organizations, stealing their data, and extorting them.\nThe post Dutch Police Arrest Convicted Hacker in ShinyHunters Investigation appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b297d2b311175806",
-    "title": "OperTraitors: How Kubernetes Operators Betray Your Security Posture",
-    "link": "https://unit42.paloaltonetworks.com/agentic-ai-kubernetes-operator-risks/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-09-29T10:00:48.000Z",
-    "summary": "We introduce OperTraitor, a tool to audit privileges of Kubernetes operators, identify excessive RBAC risks, and secure non-human identities.\nThe post OperTraitors: How Kubernetes Operators Betray Your Security Posture appeared first on Uni",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ae45e879c52a933d",
-    "title": "Securing the keys to the kingdom: Announcing Executive Threat Detection",
-    "link": "https://blog.talosintelligence.com/securing-the-keys-to-the-kingdom-announcing-executive-threat-detection/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-09-29T10:00:36.000Z",
-    "summary": "This new proactive service joins the suite of retainer offerings to provide dedicated, intelligence-led hunting specifically for your organization’s most high-value IT assets.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8da6396aff77fbc5",
-    "title": "Daemon Tools Hackers’ NeedyMantis Malware Dissected by Microsoft",
-    "link": "https://www.securityweek.com/daemon-tools-hackers-needymantis-malware-dissected-by-microsoft/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-29T09:46:13.000Z",
-    "summary": "The malware framework uses a modular architecture and a custom executable file format for long-term persistence.\nThe post Daemon Tools Hackers’ NeedyMantis Malware Dissected by Microsoft appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bbc72d6b53d521ee",
-    "title": "Kiteworks patches critical flaw, brings customer systems online",
-    "link": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-29T09:04:06.000Z",
-    "summary": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerability. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "27299aaf20418184",
-    "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
-    "link": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-29T08:35:10.000Z",
-    "summary": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group.\n\n\"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker g",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "afb00ef61d1d11c8",
-    "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-29T07:33:12.000Z",
-    "summary": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "34d1cf399da52dfc",
-    "title": "Apple Patches Zero-Day Linked to ‘Extremely Sophisticated Attack’",
-    "link": "https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-29T06:18:27.000Z",
-    "summary": "Apple released iOS and macOS updates to patch a zero-day vulnerability (CVE-2026-86950) reported by Meta’s product security team.\nThe post Apple Patches Zero-Day Linked to ‘Extremely Sophisticated Attack’  appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-86950"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "70b35ed4cc7c633a",
-    "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
-    "link": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-29T06:08:25.000Z",
-    "summary": "A malicious MCP server could trick an application built on the official MCP Python SDK into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory.\n\nAffected versions sent t",
     "cveIds": [],
     "severity": "normal"
   }
