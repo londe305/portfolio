@@ -1,5 +1,38 @@
 [
   {
+    "id": "20db35582f2a271b",
+    "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
+    "link": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-06T21:00:27.000Z",
+    "summary": "Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for WooCommerce, to install backdoors and create rogue admin accounts. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a923f641b026bbc1",
+    "title": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-06T20:32:58.000Z",
+    "summary": "Threat actors are now hiding payloads by using DNS TXT records and browser cache pre-fetching, making it tougher to spot early attack stages.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b53f151bdb97d97e",
+    "title": "Critical Healthcare Systems Aren't Quantum-Ready",
+    "link": "https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-06T20:30:27.000Z",
+    "summary": "A study of 2.5 million devices across 50 healthcare organization suggests the sector has a long way to go in getting ready for the post-quantum cryptography era.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "20fd1067262109e6",
     "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
@@ -9,6 +42,28 @@
     "summary": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "ec14eeb066a73435",
+    "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+    "link": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-06T18:38:55.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "007c3190cf2b7200",
+    "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
+    "link": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-06T18:24:25.000Z",
+    "summary": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection.\n\nThreat actors are known to name the",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "0e963e876be8023b",
@@ -2584,173 +2639,6 @@
     "category": "news",
     "pubDate": "2026-09-30T00:40:57.000Z",
     "summary": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "19ec7e5cf2f42736",
-    "title": "Multiples vulnérabilités dans Google Chrome (30 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1237/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-30T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3d0aa68b4b18726b",
-    "title": "Multiples vulnérabilités dans HPE Aruba Networking Instant On (30 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1238/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-30T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans HPE Aruba Networking Instant On. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de serv",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ef985af835e15ca1",
-    "title": "Vulnérabilité dans CPython (30 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1239/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-30T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "93d8c94af48ee633",
-    "title": "Multiples vulnérabilités dans les produits Mozilla (30 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1240/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-30T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des do",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2adb43080b2cc82c",
-    "title": "Multiples vulnérabilités dans OpenSSL (30 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1241/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-30T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des donn",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f9750f3683cbe9ea",
-    "title": "Multiples vulnérabilités dans GitLab (30 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1242/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-09-30T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité. Gitlab indique que la vulnérabilité CVE",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "28594b2bec10c628",
-    "title": "Phishing Abuses RMM Tools for Persistent Access",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-09-29T21:39:27.000Z",
-    "summary": "Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity\nThe post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Secu",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dad7f1e98924bb69",
-    "title": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-29T21:31:29.000Z",
-    "summary": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
-    "cveIds": [
-      "CVE-2026-86950"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "aae08bb6a99ba212",
-    "title": "Signal adds encypted local backup support to iOS, desktop apps",
-    "link": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-29T21:30:08.000Z",
-    "summary": "Signal, the secure messaging app, released version 8.30, completing the rollout of its secure backups feature across all supported operating systems (Android, iOS, Linux, macOS, and Windows). [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "af597f3c7c0de65f",
-    "title": "Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution",
-    "link": "https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-29T21:08:42.000Z",
-    "summary": "A patched Unsloth Studio vulnerability allows malicious AI models to execute arbitrary Python code during inspection, via the trust_remote_code setting.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7bf6e3751c5f4cd1",
-    "title": "US Air Force members given over 6 years in prison for cyber theft of more than $2 million",
-    "link": "https://therecord.media/us-air-force-members-given-6-year-sentence-cyber",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-29T21:01:00.000Z",
-    "summary": "According to court documents, both men pleaded guilty to wire fraud, identity theft and access device fraud charges in June.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "76547738eddeddbd",
-    "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
-    "link": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-29T20:59:39.000Z",
-    "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5c78646484c2bab9",
-    "title": "Controversial spyware firm Paragon to go public by end of year",
-    "link": "https://therecord.media/controversial-spyware-firm-paragon-to-go-public",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-29T20:35:00.000Z",
-    "summary": "The company plans to close the deal around the end of the year at which point Paragon will begin trading on Nasdaq under the REDLattice umbrella.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7b7f6019738814dc",
-    "title": "OpenAI CEO Announces New AI Agent and Avoids Mention of Security Concerns at Developer Conference",
-    "link": "https://www.securityweek.com/openai-ceo-announces-new-ai-agent-and-avoids-mention-of-security-concerns-at-developer-conference/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-29T20:14:44.000Z",
-    "summary": "Altman made a slew of product announcements and updates, including the company’s new agents, called Dots.\nThe post OpenAI CEO Announces New AI Agent and Avoids Mention of Security Concerns at Developer Conference appeared first on SecurityW",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "269e738f0981750f",
-    "title": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-29T20:09:55.000Z",
-    "summary": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of the group's alleged leaders. [...]",
     "cveIds": [],
     "severity": "normal"
   }
