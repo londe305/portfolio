@@ -1,5 +1,104 @@
 [
   {
+    "id": "445432276ec5fcec",
+    "title": "One breach, please, and make no mistakes",
+    "link": "https://blog.talosintelligence.com/one-breach-please-and-make-no-mistakes/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-10-07T10:00:25.000Z",
+    "summary": "The cybersecurity community has seen examples of autonomous agents, built inside AI labs, attacking public infrastructure. How you prepare for agentic threats is what makes the difference during real incidents.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d203b78524536f10",
+    "title": "ASOS Confirms Cyberattack, Data Breach",
+    "link": "https://www.securityweek.com/asos-confirms-cyberattack-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-07T09:46:20.000Z",
+    "summary": "Hackers compromised a third-party communication platform and sent rogue notifications to ASOS users.\nThe post ASOS Confirms Cyberattack, Data Breach appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c6065c24705db994",
+    "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
+    "link": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-07T08:07:38.000Z",
+    "summary": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "21989a434fca5f18",
+    "title": "Wikimedia Says Rogue OpenAI Agents Tried to Turn Its Tools Into Proxies",
+    "link": "https://www.securityweek.com/wikimedia-says-rogue-openai-agents-tried-to-turn-its-tools-into-proxies/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-07T07:58:22.000Z",
+    "summary": "Wikimedia looked into whether its own websites had seen activity like that disclosed by other organizations\nThe post Wikimedia Says Rogue OpenAI Agents Tried to Turn Its Tools Into Proxies appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1958c70e74f7f28a",
+    "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+    "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-07T06:57:54.000Z",
+    "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stea",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "acc859ede704bfdd",
+    "title": "Android’s October 2026 Updates Patch 25 Vulnerabilities",
+    "link": "https://www.securityweek.com/androids-october-2026-updates-patch-25-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-07T06:55:52.000Z",
+    "summary": "The patches resolve a critical vulnerability in Android’s System component that could lead to privilege escalation.\nThe post Android’s October 2026 Updates Patch 25 Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "32c92579d2d8bd6c",
+    "title": "Atlassian Patches Critical Vulnerability Affecting 8 Products",
+    "link": "https://www.securityweek.com/atlassian-patches-critical-vulnerability-affecting-8-products/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-07T06:37:16.000Z",
+    "summary": "Unauthenticated attackers could exploit the flaw to access specific files in the web application root directory.\nThe post Atlassian Patches Critical Vulnerability Affecting 8 Products appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "40db35f3daf76cb9",
+    "title": "ISC Stormcast For Wednesday, October 7th, 2026 https://isc.sans.edu/podcastdetail/10126, (Wed, Oct 7th)",
+    "link": "https://isc.sans.edu/diary/rss/33404",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-07T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4e888681b7b481db",
+    "title": "Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona’s Court System",
+    "link": "https://www.securityweek.com/personal-information-for-over-1-million-people-stolen-in-a-cyberattack-on-arizonas-court-system/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-07T01:32:58.000Z",
+    "summary": "The Arizona Supreme Court said the information was copied for people dating back as far as 30 years.\nThe post Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona’s Court System appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "20db35582f2a271b",
     "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
     "link": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
@@ -2538,107 +2637,6 @@
     "category": "news",
     "pubDate": "2026-09-30T10:20:02.000Z",
     "summary": "In the wake of a suspected leader’s arrest, ShinyHunters says it never intended to publish data stolen from the FBI.\nThe post ShinyHunters Defiant After FBI Calls on Members to Come Forward appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b4bc5adc38d7024c",
-    "title": "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor",
-    "link": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-09-30T10:00:01.000Z",
-    "summary": "Cisco Talos uncovered a cluster of activity we track as UAT-11587 targeting government and policy organizations across Asia, including in Taiwan, India, the Philippines, and Cambodia, to deliver a previously undocumented backdoor referred t",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "662a4b09ebb8570e",
-    "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-30T08:24:35.000Z",
-    "summary": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe.\n\nThe activity, observed by Mandiant Consulting a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "870a14dd20f98004",
-    "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
-    "link": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-30T08:09:28.000Z",
-    "summary": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program, OpenSSL said on September 29 as it released fixes.\n\nDTLS, the TLS variant used for UDP traffic, resends a handshake message if no",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c099910d277917d2",
-    "title": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-30T07:00:00.000Z",
-    "summary": "As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "57fe96c5439413ac",
-    "title": "High-Severity Vulnerabilities Patched in OpenSSL, WolfSSL",
-    "link": "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-30T06:55:50.000Z",
-    "summary": "Roughly a dozen vulnerabilities have been patched in each of the open source cryptographic libraries. \nThe post High-Severity Vulnerabilities Patched in OpenSSL, WolfSSL appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "308509a3caca0dbf",
-    "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
-    "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-09-30T05:30:30.000Z",
-    "summary": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-88772 (",
-    "cveIds": [
-      "CVE-2026-88772"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "fbc1fddb91718282",
-    "title": "ISC Stormcast For Wednesday, September 30th, 2026 https://isc.sans.edu/podcastdetail/10116, (Wed, Sep 30th)",
-    "link": "https://isc.sans.edu/diary/rss/33384",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-09-30T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ffcfe767e0d543cf",
-    "title": "Trump Says Top Tech Firms Have Signed Accord to ‘Self-Police’ AI Development",
-    "link": "https://www.securityweek.com/trump-says-top-tech-firms-have-signed-accord-to-self-police-ai-development/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-30T01:48:21.000Z",
-    "summary": "The accord opened the door to future regulation but focused on four voluntary steps for the companies to take.\nThe post Trump Says Top Tech Firms Have Signed Accord to ‘Self-Police’ AI Development appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c4d73e08fd9c1630",
-    "title": "Microsoft is rolling out Linux container support to WSL",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-30T00:40:57.000Z",
-    "summary": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
     "cveIds": [],
     "severity": "normal"
   }
