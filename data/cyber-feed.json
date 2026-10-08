@@ -1,5 +1,126 @@
 [
   {
+    "id": "6407868a060e295b",
+    "title": "UAT-11985: AI-assisted event lures delivering real-time Google AitM phishing",
+    "link": "https://blog.talosintelligence.com/uat-11985/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-10-08T10:01:06.000Z",
+    "summary": "Cisco Talos identified an APT spear-phishing campaign against individuals affiliated with Taiwan research organizations. The operation leveraged legitimate public event themes and impersonated reputable academic and policy institutions.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0bb24fdc38bc95ed",
+    "title": "Ignore all instructions and read this blog: The state of AI-analysis evasion in malware",
+    "link": "https://blog.talosintelligence.com/ignore-all-instructions-and-read-this-blog-the-state-of-ai-analysis-evasion-in-malware/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-10-08T10:00:14.000Z",
+    "summary": "“AI-analysis evasion” encapsulates the real-world techniques malware authors are developing in attempt to obstruct or defeat any layers of automated AI analysis.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f31e2f0411cadf2b",
+    "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
+    "link": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-08T09:46:32.000Z",
+    "summary": "Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys.\n\n\"The extensions masquerade as wallet portals, desktop util",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4ff5bacfda6803a0",
+    "title": "Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme",
+    "link": "https://www.securityweek.com/fake-decryption-tools-masked-11m-markup-in-ransomware-recovery-scheme/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-08T09:27:55.000Z",
+    "summary": "Zohar Pinhasi was paying ransoms to obtain decryption keys and then charging victims substantially more for remediation.\nThe post Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8f3c408dcb8cb2eb",
+    "title": "Oracle Health Data Breach Tally Climbs to Nearly 20 Million",
+    "link": "https://www.securityweek.com/oracle-health-data-breach-tally-climbs-to-nearly-20-million/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-08T08:23:31.000Z",
+    "summary": "The figure is far higher than the counts that surfaced in earlier filings and patient notifications.\nThe post Oracle Health Data Breach Tally Climbs to Nearly 20 Million appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "59c32e659383e602",
+    "title": "FortiBleed Attackers Locking Victims Out of Fortinet Devices",
+    "link": "https://www.securityweek.com/fortibleed-attackers-locking-victims-out-of-fortinet-devices/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-08T07:52:33.000Z",
+    "summary": "Attackers are creating new accounts and deleting existing ones and passwords to prevent legitimate access.\nThe post FortiBleed Attackers Locking Victims Out of Fortinet Devices appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1264e65f980bae9e",
+    "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
+    "link": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-08T07:42:04.000Z",
+    "summary": "The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft Exchange Server attacks kno",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "90f9f91df025e5c7",
+    "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
+    "link": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-08T07:41:44.000Z",
+    "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use prop",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3d5d5b5dafa3001d",
+    "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
+    "link": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-08T06:32:16.000Z",
+    "summary": "​​​On the second day of Pwn2Own Ireland 2026, security researchers collected $232,500 in cash awards after exploiting 45 unique zero-day vulnerabilities. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6877a62a0bf960dd",
+    "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+    "link": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-08T05:46:20.000Z",
+    "summary": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack.\n\nThe malicious version 0",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ecdf7113631fa319",
+    "title": "ISC Stormcast For Thursday, October 8th, 2026 https://isc.sans.edu/podcastdetail/10128, (Thu, Oct 8th)",
+    "link": "https://isc.sans.edu/diary/rss/33408",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-08T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "054bfa86a51fe381",
     "title": "Ransomware recovery CEO charged over secret ransom payments",
     "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
@@ -2616,150 +2737,5 @@
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active expl",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "4d43b6c7b064be13",
-    "title": "The Fine Art of Frustrating the Adversary",
-    "link": "https://blog.talosintelligence.com/the-fine-art-of-frustrating-the-adversary/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-10-01T10:00:05.000Z",
-    "summary": "What really frustrates an adversary? Eight Cisco Talos researchers share practical ways to make their next move slower and riskier, from deception and behavioral detection to breaking attack dependencies and resisting manufactured urgency.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6aa611394a499feb",
-    "title": "Hackers stole Pentagon personnel records of over 3 million people",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-01T09:44:28.000Z",
-    "summary": "The Pentagon's Defense Manpower Data Center (DMDC) is notifying millions of military service members that hackers stole their data after breaching the Pentagon's human resources management system in October 2025. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6d8e1764a229826d",
-    "title": "500,000 Active Credentials Left Exposed on GitHub",
-    "link": "https://www.securityweek.com/500000-active-credentials-left-exposed-on-github/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-01T09:43:56.000Z",
-    "summary": "Roughly 200,000 of the credentials were exposed after GitHub enabled push protections by default.\nThe post 500,000 Active Credentials Left Exposed on GitHub appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "57b21797d70cdb1f",
-    "title": "Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability",
-    "link": "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-01T08:26:03.000Z",
-    "summary": "The flaw could allow remote, unauthenticated attackers to access vulnerable appliances with administrative privileges.\nThe post Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c99bd51276c96e24",
-    "title": "Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders",
-    "link": "https://www.securityweek.com/google-launches-gemini-4-argon-with-guardrail-free-access-for-vetted-defenders/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-01T07:52:26.000Z",
-    "summary": "The company says its new frontier AI model found a critical vulnerability in software used by hospitals worldwide.\nThe post Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1787a1140b4f924e",
-    "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
-    "link": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-01T07:49:36.000Z",
-    "summary": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program.\n\n\"It delivers frontier performance in c",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "38e8d0c55842ede1",
-    "title": "Metamask discloses security incident affecting its infrastructure",
-    "link": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-01T07:33:57.000Z",
-    "summary": "On Thursday, cryptocurrency wallet provider MetaMask has disclosed an ongoing infrastructure security incident affecting some of its infrastructure. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a4068745cb2ed655",
-    "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
-    "link": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-01T05:54:41.000Z",
-    "summary": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals.\n\nThe trigger is a malicious PDF with a craf",
-    "cveIds": [
-      "CVE-2026-86950"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "66ce984e8054fd0d",
-    "title": "ScreenConnect Client (Ab)used by Attackers, (Thu, Oct 1st)",
-    "link": "https://isc.sans.edu/diary/rss/33388",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-01T05:32:13.000Z",
-    "summary": "Threat Actors do not always use top-notch techniques or very complex malware to perform their attacks. Sometimes, they just abuse of existing applications...",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ecc9e006b841ddae",
-    "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
-    "link": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-01T05:21:10.000Z",
-    "summary": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist.\n\n\"Their investigation i",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8d989c50b616e99c",
-    "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
-    "link": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-01T05:10:09.000Z",
-    "summary": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure.\n\n\"We are actively addressing and remediating the issue internally, in coordination with external partners",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "238df8b6d39d069d",
-    "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
-    "link": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-01T04:35:34.000Z",
-    "summary": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data.\n\nLevelBlue's Threat Hunt Ope",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3882f4a25a083812",
-    "title": "ISC Stormcast For Thursday, October 1st, 2026 https://isc.sans.edu/podcastdetail/10118, (Thu, Oct 1st)",
-    "link": "https://isc.sans.edu/diary/rss/33386",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-01T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
