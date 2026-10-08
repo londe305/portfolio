@@ -1,5 +1,354 @@
 [
   {
+    "id": "6a96d5d7e3a89ef1",
+    "title": "Russian Spies Give 'MatchBoil' Malware a Stealthy Facelift",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-spies-matchboil-malware-facelift",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-08T18:01:50.000Z",
+    "summary": "Cyber-espionage actor UAC-0099 has been steadily refining its flagship dropper in campaigns targeting Ukrainian organizations.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7a914e084e89304d",
+    "title": "Making sure the checks get printed",
+    "link": "https://blog.talosintelligence.com/making-sure-the-checks-get-printed/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-10-08T18:00:29.000Z",
+    "summary": "Pierre's debut newsletter explores the messy, real-world side of risk management and how to keep vital systems running when a perfect patch isn't an option.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e03acd2bf4eccf98",
+    "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
+    "link": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-08T17:10:55.000Z",
+    "summary": "More than 17,000 fake repositories on GitHub are distributing the SmartLoader malware after the FakeGit campaign reactivated earlier this month to push the StealC infostealer. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6582921e843c62fa",
+    "title": "DOJ charges ransomware recovery CEO for secretly paying hackers",
+    "link": "https://therecord.media/ransomware-recovery-charges-doj",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-08T17:00:00.000Z",
+    "summary": "The owner of a ransomware recovery firm was hit with wire fraud charges for allegedly making secret ransom payments while overcharging the victims of attacks.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "08181ca5037b511f",
+    "title": "ASOS: Hackers tricked way into employee account before sending rogue push notification",
+    "link": "https://therecord.media/asos-says-hackers-tricked-employee-access-push-notification",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-08T16:57:00.000Z",
+    "summary": "The company said its investigation, carried out with external experts, found the attackers had accessed “some personal information, including names and contact details, and certain non-personal account related information.”",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "09ad52419444fd94",
+    "title": "Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)",
+    "link": "https://isc.sans.edu/diary/rss/33410",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-08T16:52:53.000Z",
+    "summary": "We just did a major update to FOR577 and added a lot of new material on day 5 about investigating AI usage in incident response. In the new material we dicsuss 8&#;x26;#;xc2;&#;x26;#;xa0;of the most popular AI coding assistants and&#;x26;#;",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e23311ff0ce108d3",
+    "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
+    "link": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-08T15:45:56.000Z",
+    "summary": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said.\n\nThe Tokyo-based center, which takes incident re",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3842ac95a456668f",
+    "title": "Crypto thief who splurged on gold grills sentenced in London",
+    "link": "https://therecord.media/cryptocurrency-sim-swap-london",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-08T15:45:00.000Z",
+    "summary": "A 25-year-old man who helped steal nearly $260,000 in cryptocurrency through a SIM-swapping fraud scheme was sentenced to two and a half years in prison at a London court.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "26a56507df549a3a",
+    "title": "Cisco Patches a Dozen Critical Vulnerabilities",
+    "link": "https://www.securityweek.com/cisco-patches-a-dozen-critical-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-08T15:28:06.000Z",
+    "summary": "The security defects could lead to unauthorized access, information leaks, privilege escalation, DoS attacks, and remote code execution.\nThe post Cisco Patches a Dozen Critical Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "597dc1488663d6c1",
+    "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
+    "link": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-08T15:26:56.000Z",
+    "summary": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN.\n\nAccording to TrendAI, the malware has been put to use in attacks targetin",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ec58741183e9e0f0",
+    "title": "Cisco warns of critical flaws allowing Nexus switch takeover",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-08T15:26:33.000Z",
+    "summary": "Cisco released security advisories for five critical vulnerabilities in its NX-OS data center network operating system that could be exploited to run arbitrary code with root privileges on Nexus switches. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8a9796b22d6ecb54",
+    "title": "Leaked chats show Russian extortion gang sending ‘agents’ into US law firms",
+    "link": "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-08T14:46:00.000Z",
+    "summary": "In leaked chats, members track dozens of victims, haggle over multimillion-dollar payments and direct operatives based in the United States whom they call “agents.”",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "906cc23c02530b08",
+    "title": "Security Awareness Training Isn’t Dead, but It Needs a Rethink",
+    "link": "https://www.securityweek.com/security-awareness-training-isnt-dead-but-it-needs-a-rethink/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-08T14:30:00.000Z",
+    "summary": "All enterprises conduct security awareness training for their employees. But whether this has tangible benefits is debatable.\nThe post Security Awareness Training Isn’t Dead, but It Needs a Rethink appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f27324b6e8ec1994",
+    "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
+    "link": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-08T14:12:34.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks.\n\nThe activity, per CrowdS",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "326585447eb60830",
+    "title": "Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication",
+    "link": "https://www.securityweek.com/attackers-target-critical-atlassian-vulnerability-within-hours-of-poc-publication/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-08T14:04:44.000Z",
+    "summary": "Threat actors have started targeting CVE-2026-21589, a critical vulnerability in Atlassian’s self-hosted Data Center products.\nThe post Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication appeared first on Secu",
+    "cveIds": [
+      "CVE-2026-21589"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "3e91a99d59020928",
+    "title": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
+    "link": "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-08T14:00:10.000Z",
+    "summary": "OAuth grants create data highways between SaaS apps, AI agents, and other tools. And, they are multiplying faster than any security team can review them. As the recent Klue breach showed, attackers are taking notice and exploiting forgotten",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "195dd387c62d197d",
+    "title": "Hackers target two South Korean megachurches, potentially exposing congregant data",
+    "link": "https://therecord.media/south-korea-hackers-megachurches",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-08T13:55:56.000Z",
+    "summary": "Two of South Korea's largest Protestant churches are investigating cyberattacks that may have exposed sensitive information about hundreds of thousands of members, including personal details, financial records and internal documents.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d504174414df783e",
+    "title": "Uranium crypto exchange hacker convicted for stealing $53 million",
+    "link": "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-08T13:18:36.000Z",
+    "summary": "A Maryland man was found guilty of stealing more than $53 million after hacking the decentralized crypto exchange Uranium Finance twice in April 2021. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5e059b2b52f4b770",
+    "title": "US Seeks Alleged Chinese Hafnium Hacker With $10 Million Reward",
+    "link": "https://www.securityweek.com/us-seeks-alleged-chinese-hafnium-hacker-with-10-million-reward/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-08T12:46:21.000Z",
+    "summary": "Zhang Yu was charged alongside Xu Zewei, who was extradited from Italy to the US in April 2026.\nThe post US Seeks Alleged Chinese Hafnium Hacker With $10 Million Reward appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "86c0c05804fff5d5",
+    "title": "SonicWall and Splunk Patch Critical Vulnerabilities",
+    "link": "https://www.securityweek.com/sonicwall-and-splunk-patch-critical-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-08T12:37:32.000Z",
+    "summary": "Critical and high-severity vulnerabilities could allow attackers to bypass authentication, execute arbitrary code, and elevate their privileges.\nThe post SonicWall and Splunk Patch Critical Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "13cf6d2eca7dd4db",
+    "title": "Microsoft Teams to get support for third-party deepfake detection tools",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-08T12:08:16.000Z",
+    "summary": "Microsoft will soon introduce support for third-party deepfake detection solutions and impersonation protection in Teams meetings. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "730868d2c9182e8c",
+    "title": "Writing the Next Chapter",
+    "link": "https://www.darkreading.com/cybersecurity-operations/writing-next-chapter",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-08T12:00:00.000Z",
+    "summary": "Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1ab3a11a7fda0229",
+    "title": "Satel Netco Design",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-08T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to execute arbitrary scripts in a user's browser, consume excessive system resources, enumerate files, create or modify files, and potentially execut",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "35babf50f0b8f196",
+    "title": "Grid Protection Alliance openPDC and openHistorian",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-08T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe following versions of Grid Protection Alliance openPDC and openHistorian are affected:\nopenPDC <2.9.477, <2.9.482 (CVE-2026-104629, CVE-2026-100730, CVE-2026-105281, CVE-2026-85479, CVE-2026-101022)\nopenPDC (Docker ima",
+    "cveIds": [
+      "CVE-2026-104629",
+      "CVE-2026-100730",
+      "CVE-2026-105281",
+      "CVE-2026-85479",
+      "CVE-2026-101022"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "830fb1783ea87925",
+    "title": "Red Lion Controls N-Tron 700 Series",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-08T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow a malicious user to access the device and gain administrative access. This access would allow the user to view, edit, and upload configuration files. Further, a ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4ee9721f7743dcfd",
+    "title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-08T12:00:00.000Z",
+    "summary": "Advisory at a Glance \nTitle \nChinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data \nOriginal Publication \nOctober 8, 2026 \nExecutive Summary \nChinese government-linked cyber threa",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0e1aec287d5b44f9",
+    "title": "ASOS links data breach to social engineering attack, credential theft",
+    "link": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-08T11:42:46.000Z",
+    "summary": "ASOS is sending updates to affected customers about the cybersecurity incident it suffered earlier this week, confirming that hackers accessed some personal data. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e003bc5691f499cf",
+    "title": "Rein Security Raises $25 Million to Guard AI Agents at Runtime",
+    "link": "https://www.securityweek.com/rein-security-raises-25-million-to-guard-ai-agents-at-runtime/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-08T11:11:28.000Z",
+    "summary": "The cybersecurity startup will invest in product innovation, agentic research, and employee base expansion.\nThe post Rein Security Raises $25 Million to Guard AI Agents at Runtime appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1aa8f38815afd8a2",
+    "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
+    "link": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-08T10:30:00.000Z",
+    "summary": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that deliver",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "540604118d4fc09a",
+    "title": "Owner of Empire cybercrime market gets 40 years in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-08T10:29:19.000Z",
+    "summary": "The co-creator of Empire Market, one of the largest dark web marketplaces before its shutdown, has been sentenced to 40 years in prison for facilitating $430 million in illegal transactions from 2018 to 2020. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "42506f6a5577aa04",
+    "title": "TP-Link Faces State Lawsuits and New Scrutiny Over ISP Router Flaws",
+    "link": "https://www.securityweek.com/tp-link-faces-state-lawsuits-and-new-scrutiny-over-isp-router-flaws/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-08T10:24:04.000Z",
+    "summary": "SEC Consult has published technical details on vulnerabilities mentioned in a complaint filed by several US states.\nThe post TP-Link Faces State Lawsuits and New Scrutiny Over ISP Router Flaws appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6407868a060e295b",
     "title": "UAT-11985: AI-assisted event lures delivering real-time Google AitM phishing",
     "link": "https://blog.talosintelligence.com/uat-11985/",
@@ -897,6 +1246,17 @@
     "severity": "normal"
   },
   {
+    "id": "9b38d53f12306058",
+    "title": "Johnson Controls EasyIO FG",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-06T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain full unauthorized access to the device.\nThe following versions of Johnson Controls EasyIO FG are affected:\nEasyIO FG firmware <=2.0b52 (CVE-2",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "c3e05ba35894a909",
     "title": "Hitachi Energy REB500",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-05",
@@ -919,17 +1279,6 @@
     "severity": "normal"
   },
   {
-    "id": "9b38d53f12306058",
-    "title": "Johnson Controls EasyIO FG",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-06T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain full unauthorized access to the device.\nThe following versions of Johnson Controls EasyIO FG are affected:\nEasyIO FG firmware <=2.0b52 (CVE-2",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "b48f6b1d88333b79",
     "title": "Hitachi Energy SOI",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-04",
@@ -941,17 +1290,6 @@
     "severity": "normal"
   },
   {
-    "id": "bb6519d3695cd132",
-    "title": "Savannah lwIP SMTP client",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-06T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could crash the device being accessed; a buffer overflow condition may allow remote code execution.\nThe following versions of Savannah lwIP SMTP client are affected:\nlwIP SMTP ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "b7c6d3616aeba030",
     "title": "Hitachi Energy RTU500",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-06",
@@ -959,6 +1297,17 @@
     "category": "advisory",
     "pubDate": "2026-10-06T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nHitachi Energy is publishing this cybersecurity advisory in response to the security findings reported by Dragos affecting end-of-life RTU500 CMU firmware version 9.x. The reported findings are associated with legacy RTU50",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bb6519d3695cd132",
+    "title": "Savannah lwIP SMTP client",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-06T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could crash the device being accessed; a buffer overflow condition may allow remote code execution.\nThe following versions of Savannah lwIP SMTP client are affected:\nlwIP SMTP ",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1624,6 +1973,39 @@
     "severity": "normal"
   },
   {
+    "id": "c5f72cd78e2f23e7",
+    "title": "Multiples vulnérabilités dans OpenOffice (05 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1260/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-05T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans OpenOffice. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0642721292a86aa7",
+    "title": "Multiples vulnérabilités dans Zabbix (05 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1261/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-05T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Zabbix. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des donné",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e9a7be25886041ce",
+    "title": "Vulnérabilité dans GitLab (05 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1262/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-05T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans GitLab. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "5058e2f27caa8c2c",
     "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
@@ -2008,7 +2390,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-10-02T14:00:00.000Z",
-    "summary": "Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them.",
+    "summary": "Organizations don't need better vulnerability scanners; they need to know who owns their assets, and who has the authority and capacity to actually fix them.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2372,370 +2754,5 @@
     "summary": "The findings, released Thursday by Asymmetric Security, are just the latest example of rogue behavior spurred by OpenAI’s software.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "2e7124387088f6fc",
-    "title": "Researchers find Chinese hacking campaigns targeting AI firms, Asian governments",
-    "link": "https://therecord.media/china-linked-phishing-scheme-backdoor-taiwan",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-01T18:16:00.000Z",
-    "summary": "Two separate reports by cybersecurity companies highlight China-linked hacking operations, including a phishing campaign that impersonated Western experts.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d079a17148dbe51c",
-    "title": "Give yourself room to be human",
-    "link": "https://blog.talosintelligence.com/give-yourself-room-to-be-human/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-10-01T18:00:52.000Z",
-    "summary": "In this week’s edition, Amy reflects on the importance of prioritizing family and personal well-being over the pressure to remain constantly productive.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a83bccc6f3e0cc14",
-    "title": "Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks",
-    "link": "https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-01T18:00:00.000Z",
-    "summary": "Fifteen years after coining the framework, John Kindervag insists zero trust still works in the AI era—if you get the implementation right.\nThe post Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks appeared first on Secu",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9f6f119b1256805a",
-    "title": "Osavul Lands $10 Million to Spot Hostile Intent Across Cyber, Physical Domains",
-    "link": "https://www.securityweek.com/osavul-lands-10-million-to-spot-hostile-intent-across-cyber-physical-domains/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-01T17:16:41.000Z",
-    "summary": "Hybrid risk intelligence company Osavul has raised $10 million in a Series A funding round led by 33N Ventures.\nThe post Osavul Lands $10 Million to Spot Hostile Intent Across Cyber, Physical Domains appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c1f2fe32465a9ae6",
-    "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
-    "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-01T16:55:57.000Z",
-    "summary": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid.\n\nThe 16-",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f1d14dce844e54b2",
-    "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
-    "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-01T16:45:38.000Z",
-    "summary": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up req",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5ef5a5d32f004f7b",
-    "title": "Police disrupt KillSec ransomware, arrest suspected teenage leader",
-    "link": "https://therecord.media/killsec-ransomware-raas-arrests-europe",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-01T15:55:00.000Z",
-    "summary": "European police said raids against the KillSec ransomware-as-a-service operation included the arrest of a high-profile teen suspect.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e0da2450b1b9314c",
-    "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
-    "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-01T14:37:35.000Z",
-    "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again.\n\nThe backdoor has b",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "cb51a5d3ab31c4b0",
-    "title": "Hacker Conversations: Rob Juncker, a Knock at the Door and a Moral Compass",
-    "link": "https://www.securityweek.com/hacker-conversations-rob-juncker-a-knock-at-the-door-and-a-moral-compass/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-01T14:30:00.000Z",
-    "summary": "Rob Juncker is chief product and technology officer at Mimecast. Is he a hacker? “Unequivocally yes,” he says.\nThe post Hacker Conversations: Rob Juncker, a Knock at the Door and a Moral Compass appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f655a82be286d745",
-    "title": "Enterprises Struggle to Prepare for AI and Quantum Threats, PwC Says",
-    "link": "https://www.securityweek.com/enterprises-struggle-to-prepare-for-ai-and-quantum-threats-pwc-says/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-01T14:30:00.000Z",
-    "summary": "PwC’s survey found that only 22% of leaders would use fully autonomous AI for cyber defense, while just 21% are implementing quantum-resistant security measures.\nThe post Enterprises Struggle to Prepare for AI and Quantum Threats, PwC Says ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1127730e1ab91d57",
-    "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
-    "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-01T14:25:14.000Z",
-    "summary": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three arrests, and identified a 16-year-old as the group's alleged administrator. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "fa87177f87cc6d22",
-    "title": "Police Shut Down KillSec Ransomware, Identify Alleged Teen Leader",
-    "link": "https://www.securityweek.com/police-shut-down-killsec-ransomware-identify-alleged-teen-leader/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-01T14:17:07.000Z",
-    "summary": "Police took control of KillSec’s leak site and secured at least 110 terabytes of data stolen from victims.\nThe post Police Shut Down KillSec Ransomware, Identify Alleged Teen Leader appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "362c22c03462736f",
-    "title": "The Day-One Hole in Zero Trust Architecture",
-    "link": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-01T14:01:11.000Z",
-    "summary": "Zero Trust can verify users once they are established, but onboarding creates a gap where organizations must decide who to trust before strong authentication exists. Specops explains why identity verification should begin before credentials",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "03612a48c44051e9",
-    "title": "Preparing governments for an era of interconnected cyber risk",
-    "link": "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-10-01T14:00:00.000Z",
-    "summary": "According to this year’s Microsoft Digital Defense Report, government agencies and services were the sector most impacted by cyber threats in 2026, accounting for 27% of observed activity, up from 17% in 2025.\nThe post Preparing governments",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "143a7ccff4778ff1",
-    "title": "Insights from the 2026 Microsoft Digital Defense Report",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-10-01T14:00:00.000Z",
-    "summary": "Read highlights from the 2026 Microsoft Digital Defense Report, which reflects a security environment that continues to grow more interconnected.\nThe post Insights from the 2026 Microsoft Digital Defense Report  appeared first on Microsoft ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2fb22e5ca7e262be",
-    "title": "Kiteworks patches max severity code injection vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-01T13:51:08.000Z",
-    "summary": "Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting its Email Protection Gateway (EPG) security solution. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7ebe166dd2b996d5",
-    "title": "AI Has Changed Attack Speed, Not Security Fundamentals",
-    "link": "https://www.securityweek.com/ai-has-changed-attack-speed-not-security-fundamentals/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-01T13:15:00.000Z",
-    "summary": "As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-depth and strong application security fundamentals.\nThe post AI Has Changed Attack Speed, Not Security Fundamentals appear",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e2a151d18cd7b98e",
-    "title": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-01T13:00:00.000Z",
-    "summary": "A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1e3f5ee2d9d103e7",
-    "title": "Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure",
-    "link": "https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-01T12:55:57.000Z",
-    "summary": "Under certain conditions, CVE-2026-73570 can be exploited via specially crafted emails without user interaction.\nThe post Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-73570"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "cdc18e0220ddba6a",
-    "title": "Cyberattack on major Polish invoicing platform exposes customer data",
-    "link": "https://therecord.media/poland-cyberattack-invoice-software",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-01T12:30:00.000Z",
-    "summary": "One of Poland’s major online invoicing platforms suffered a data breach that may have exposed information belonging to its users, their customers and business partners.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3b4feae8468fe031",
-    "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system.\nThe following versions of Johnson Controls Eas",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "272052c4b7067d82",
-    "title": "Armatura LLC Armatura One",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to the database, execute arbitrary code on the host with the highest level of privilege, or gain control of the physical ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1d4db55b96cac2b5",
-    "title": "ABB Protection and Control IED Manager PCM600",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files.\nThe following versions of ABB Protection and Control IED Manager PCM600 are affected:\nProtection and Contr",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1c4fee9ee834dae3",
-    "title": "CISA Malcolm",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-254-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nThe following versions of CISA Malcolm are affected:\nMalcolm\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 8.8\nCISA\nCISA Malcolm\nImproper Neutralization of Input During Web Page Generation ('Cross-site Scripting'), Improper",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2f3a6988704e66ad",
-    "title": "Meari IoT Cloud Platform OpenAPI Service",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive information such as device credentials, owner details, and ne",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "52eb7ccd3e6f1d4d",
-    "title": "Monta monta.app",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-01T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks.\nThe foll",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "80c6a6425508df80",
-    "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
-    "link": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-01T11:45:00.000Z",
-    "summary": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform where they live. Some",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4e6ef8a7581251fb",
-    "title": "Kevin Mandia’s Armadin Raises $255 Million at $2.5 Billion Valuation",
-    "link": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-01T11:40:51.000Z",
-    "summary": "The Series B brings the AI-powered offensive security startup’s total funding to roughly $445 million only seven months after its public launch.\nThe post Kevin Mandia’s Armadin Raises $255 Million at $2.5 Billion Valuation appeared first on",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6da3c46f15034223",
-    "title": "Microsoft enables Windows settings backup by default for orgs",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-01T11:14:28.000Z",
-    "summary": "Microsoft announced that Windows settings backup and restore is now enabled by default on all Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems upgraded to Windows 11 26H2. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3136a036382e2cc4",
-    "title": "Treasury Blacklists Most-Wanted ATM Malware Developer and His Network",
-    "link": "https://www.securityweek.com/treasury-blacklists-most-wanted-atm-malware-developer-and-his-network/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-01T10:51:39.000Z",
-    "summary": "The US government continues its crackdown on Tren de Aragua over its ATM jackpotting scheme.\nThe post Treasury Blacklists Most-Wanted ATM Malware Developer and His Network appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b1a4d0ef2e247ace",
-    "title": "Zammad Zero-Days Exploited in AI-Powered DIVD Hack",
-    "link": "https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-01T10:42:49.000Z",
-    "summary": "The flaws were chained to hijack sessions, achieve remote code execution, and elevate privileges to root.\nThe post Zammad Zero-Days Exploited in AI-Powered DIVD Hack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c698c79d197c4a2a",
-    "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
-    "link": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-01T10:42:36.000Z",
-    "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models.\n\nA \"core cluster of the activity,\" going back ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5da2a0c8ed547e74",
-    "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
-    "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-01T10:33:16.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active expl",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
