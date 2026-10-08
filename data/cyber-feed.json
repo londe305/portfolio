@@ -1,5 +1,126 @@
 [
   {
+    "id": "054bfa86a51fe381",
+    "title": "Ransomware recovery CEO charged over secret ransom payments",
+    "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-07T23:04:37.000Z",
+    "summary": "The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying their attackers for decryptors while claiming to use proprietary technology to recover encrypted data.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "79a8a7bd13982952",
+    "title": "Evolution of Web3 in Cloud Supply Chain Attacks",
+    "link": "https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-10-07T22:00:16.000Z",
+    "summary": "Unit 42 details how threat actors leverage Web3 infrastructure and open-source supply chain attacks to breach enterprise cloud environments\nThe post Evolution of Web3 in Cloud Supply Chain Attacks appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e63549e2e04b8c11",
+    "title": "Australian Gov't Weighs Mandatory AI Incident Reporting",
+    "link": "https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-07T21:42:55.000Z",
+    "summary": "In the wake of an agentic attack against its own Medicare systems, Australia's government is feeling out what regulations might look like for frontier AI companies.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3022a6138a862b67",
+    "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-07T21:28:54.000Z",
+    "summary": "The FBI is warning that FortiBleed attacks are still ongoing, targeting exposed Fortinet FortiGate firewalls and SSL VPN gateways and locking out legitimate administrators. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "40e5d1b442a5ebcf",
+    "title": "Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives",
+    "link": "https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-07T21:25:13.000Z",
+    "summary": "The Citizen Lab's Ron Deibert warns the US government is pushing for pervasive surveillance and says certain technology executives are all too happy to help.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e1600284a9d945c2",
+    "title": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-07T20:51:25.000Z",
+    "summary": "Anthropic has merged Project Glasswing into a tiered access program for its advanced cyber LLMs, including Opus, Sonnet, and Mythos.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e04d6e7c297e957e",
+    "title": "Hackers hijack Google domains after breaching ccTLD registries",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-07T20:50:13.000Z",
+    "summary": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party operators and modifyi",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "393ca35479a0f339",
+    "title": "US posts $10 million reward for accused Chinese ‘Hafnium’ hacker",
+    "link": "https://therecord.media/accused-hafnium-hacker-zhang-yu-10million-reward",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-07T19:50:00.000Z",
+    "summary": "U.S. officials say Zhang Yu was a prominent figure in the Hafnium campaign, which saw hackers breach thousands of computers and steal troves of documents.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "671088844cc4987e",
+    "title": "OpenAI Agent Escape Causes Wikimedia Service Outage",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agent-escape-causes-wikimedia-service-outage",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-07T19:34:08.000Z",
+    "summary": "Autonomous agents also tried to abuse other websites and services hosted by the foundation, using them as proxies for unauthorized activities.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2e60222f3f0a45eb",
+    "title": "Microsoft, Adobe, Apple, and Foxit vulnerabilities",
+    "link": "https://blog.talosintelligence.com/microsoft-adobe-apple-and-foxit-vulnerabilities/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-10-07T19:27:08.000Z",
+    "summary": "Cisco Talos’ Vulnerability Discovery & Research team recently disclosed vulnerabilities in Adobe, Apple, Foxit Reader, and Microsoft.\nThe vulnerabilities mentioned in this blog post have been patched by their respective vendors, in adherenc",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b9f5e1afc2dd31df",
+    "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+    "link": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-07T18:48:17.000Z",
+    "summary": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google said on October 6.\n\nGoogle's own systems were not breached, but any domain ending in .gh (Gh",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "09d33497b141804f",
     "title": "$11 million plan for psychological support at Cyber Command gets fresh boost from lawmakers",
     "link": "https://therecord.media/cyber-command-mental-health-support-program-bipartisan-letters",
@@ -2638,187 +2759,6 @@
     "category": "advisory",
     "pubDate": "2026-10-01T02:00:02.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1fed4d54dbb2f224",
-    "title": "Multiples vulnérabilités dans CPython (01 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1243/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-01T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans CPython. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8ca05068a28e631d",
-    "title": "Multiples vulnérabilités dans Mozilla Thunderbird (01 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1244/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-01T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Thunderbird. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des don",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1b64402b09d53141",
-    "title": "Multiples vulnérabilités dans Redmine (01 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1245/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-01T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Redmine. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS).",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "05c54d785e306d0c",
-    "title": "Vulnérabilité dans Cisco Catalyst SD-WAN (01 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1246/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-01T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Cisco Catalyst SD-WAN. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité. Cisco indique que la vulnérabilité CVE-2026-76504 est activement exploitée.",
-    "cveIds": [
-      "CVE-2026-76504"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "6a8d7fa949a5e542",
-    "title": "FTC is Investigating OpenAI and Anthropic Over Possible Risks to Consumers",
-    "link": "https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-09-30T23:43:51.000Z",
-    "summary": "An FTC spokesperson confirmed the investigation but declined further comment.\nThe post FTC is Investigating OpenAI and Anthropic Over Possible Risks to Consumers appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "819e041e0858ab9b",
-    "title": "US sanctions 10 over ATM malware scheme tied to Tren de Aragua",
-    "link": "https://therecord.media/us-sanctions-10-atm-jackpotting-tren-de-aragua",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-30T22:35:00.000Z",
-    "summary": "Treasury’s Office of Foreign Assets Control (OFAC) targeted multiple Venezuelan nationals and several companies they control that are part of the effort to launder the money stolen from dozens of ATMs.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f50f760b0e339e40",
-    "title": "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-30T21:25:47.000Z",
-    "summary": "In yet another ClickFix-style campaign, threat actors abuse legitimate domains from OpenAI and Google to fool unsuspecting users.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2f52b27c8c941930",
-    "title": "Trump, Tech Giants Strike Voluntary AI Safety Accord",
-    "link": "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-30T20:51:15.000Z",
-    "summary": "The new White House Accord on so-called \"Super Intelligence\" calls on companies to implement greater controls and oversight over AI safety.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b53252a3687bf524",
-    "title": "Russian state hackers use new RedFlick technique to push malware",
-    "link": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-30T20:34:01.000Z",
-    "summary": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a04b45c02ee80d02",
-    "title": "Automakers routinely share personally identifiable connected-car data with third parties, report says",
-    "link": "https://therecord.media/automakers-routinely-share-connected-car-data-third-parties",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-30T20:32:00.000Z",
-    "summary": "A new study reveals fresh details about how drivers are exposed to a web of large corporations participating in the advertising ecosystem.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2649de53cd92a5de",
-    "title": "Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)",
-    "link": "https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-09-30T20:00:04.000Z",
-    "summary": "Unit 42 is aware of possible 0-day activity against NetScaler devices. Citrix reports CVE-2026-88771, CVE-2026-88772 have been exploited in the wild. \nThe post Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in",
-    "cveIds": [
-      "CVE-2026-88771",
-      "CVE-2026-88772"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "736b5634430d03f1",
-    "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
-    "link": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-09-30T19:49:15.000Z",
-    "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Zammad ticketing system. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2ac74ba3ae92ed98",
-    "title": "After reports on suicide deaths, Pentagon puts Cyber Command on notice",
-    "link": "https://therecord.media/cyber-command-suicide-deaths-pentagon-memo",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-30T19:35:00.000Z",
-    "summary": "An August 31 memo obtained by Recorded Future News shows that the Pentagon's assistant secretary for cyber policy made specific demands of U.S. Cyber Command leadership after reports of a cluster of suicide deaths.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "786d26f6dd45febd",
-    "title": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-09-30T19:31:00.000Z",
-    "summary": "This year at Microsoft Ignite, we spotlight our AI-first, end-to-end security platform designed to protect identities, devices, data, applications, clouds, infrastructure, and the AI agents now working alongside your teams.\nThe post ​​Secur",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "73e5edd47503753e",
-    "title": "Google: Vulnerability disclosures double to 10,000 per month as AI fuels exploitation",
-    "link": "https://therecord.media/google-vulnerabilities-cyberattacks-ai",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-09-30T19:00:00.000Z",
-    "summary": "Vulnerability disclosures continue to skyrocket, doubling over the course of the year to more than 10,000 each month, Google researchers warned.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "984f7e86d7197d0e",
-    "title": "As AI Reshapes the SOC Career Ladder, Satisfaction Rises for 91%, but Entry Gets Harder for Nearly Half",
-    "link": "https://www.darkreading.com/cybersecurity-careers/ai-reshapes-soc-career-ladder",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-09-30T18:56:56.000Z",
-    "summary": "New Swimlane research underscores a paradox: While AI detection and response is essential to giving defenders an edge, one in four security pros say AI limits their skill development.",
     "cveIds": [],
     "severity": "normal"
   }
