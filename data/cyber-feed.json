@@ -1,5 +1,115 @@
 [
   {
+    "id": "f017826fccf18312",
+    "title": "Co-creator of Empire Market dark web marketplace given 40-year sentence",
+    "link": "https://therecord.media/co-creator-empire-dark-net-market-sentenced",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-10T00:55:00.000Z",
+    "summary": "Raheim Hamilton, 30, pleaded guilty earlier this year to a drug conspiracy charge and agreed to forfeit more than $100 million worth of Bitcoin and several properties in Virginia.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "290af517c2440577",
+    "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-08T21:42:51.000Z",
+    "summary": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organizations worldwide. [..",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2c6533f22f4450d4",
+    "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-10-08T20:44:28.000Z",
+    "summary": "Prepare for post-quantum authentication by testing certificate ecosystems now. Learn how Microsoft’s PQC TLS Pilot Program helps advance future readiness.\nThe post Post-quantum authentication: Why organizations should start testing certific",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f5568cb9bcb20925",
+    "title": "'AgentCorruption' Puts AWS Environments At Risk With Single Prompt",
+    "link": "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-08T20:39:44.000Z",
+    "summary": "A now-patched vulnerability in AWS Bedrock AgentCore could allow an attacker to use one AI chatbot to take over an organization's entire fleet.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "63be913fbf5f2941",
+    "title": "Lawmakers warn Google could expose Spirit Airlines data in $10 million AI training deal",
+    "link": "https://therecord.media/lawmakers-warn-of-google-spirit-ai-training-deal",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-08T20:27:00.000Z",
+    "summary": "The proposed sale would include about 100 million emails, 500 million Microsoft Teams messages, employment contracts, employee and timecard records and payroll and tax information, Rep. Steven Horsford (D-NV) said in a press release.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b5d504810047c576",
+    "title": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+    "link": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-08T20:09:45.000Z",
+    "summary": "IDC Frontier, a major Japanese cloud and digital infrastructure company, disclosed that its IDCF Cloud service was targeted in a ransomware attack that caused an outage at a data center cluster serving the eastern part of the country. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e491a4b111bea180",
+    "title": "Low-cost Android phones ship with residential proxy malware",
+    "link": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-08T19:20:33.000Z",
+    "summary": "A malware campaign dubbed 'Midnight Mimosa' has been discovered on low-cost Android smartphones that ship with malicious software embedded in their firmware, allowing attackers to silently install apps, perform ad fraud, and turn devices in",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4528bc371e4a4096",
+    "title": "International coalition seizes tools used by cyber firm behind Flax Typhoon",
+    "link": "https://therecord.media/flax-typhoon-china-tools-integrity-tech-international-takedown",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-08T19:20:00.000Z",
+    "summary": "The U.S. and other nations took down digital tools and infrastructure by Beijing-based Integrity Tech that allowed \"widespread vulnerability scanning and, in some cases, intrusions\" as part of the Flax Typhoon campaign.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "90f714cac7b33a2d",
+    "title": "Venezuelan Cartel's Malware Honcho Nabbed for ATM Jackpotting",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/venezuelan-cartel-malware-honcho-nabbed-atm-jackpotting",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-08T19:08:16.000Z",
+    "summary": "The first cybercriminal to ever make the FBI's \"10 Most Wanted Fugitives\" list allegedly infused Tren de Aragua's violent criminal operations with cash.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ffc305faa6eeb978",
+    "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
+    "link": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-08T18:32:21.000Z",
+    "summary": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6a96d5d7e3a89ef1",
     "title": "Russian Spies Give 'MatchBoil' Malware a Stealthy Facelift",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-spies-matchboil-malware-facelift",
@@ -20,6 +130,17 @@
     "summary": "Pierre's debut newsletter explores the messy, real-world side of risk management and how to keep vital systems running when a perfect patch isn't an option.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "f8595042a1981bc6",
+    "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
+    "link": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-08T17:58:02.000Z",
+    "summary": "The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an intrusion. Apparently, keeping things secure i",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "e03acd2bf4eccf98",
@@ -2561,197 +2682,6 @@
     "category": "advisory",
     "pubDate": "2026-10-02T02:00:02.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dd94e97635c2af34",
-    "title": "Multiples vulnérabilités dans Tenable Nessus (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1247/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Nessus. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité d",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ac088ec463d12042",
-    "title": "Multiples vulnérabilités dans Apache HTTP Server (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1248/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Apache HTTP Server. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confiden",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "34ca65e2451de750",
-    "title": "Multiples vulnérabilités dans les produits VMware (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1249/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "36bcf89819cbcc6d",
-    "title": "Multiples vulnérabilités dans les produits Moxa (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1250/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Moxa. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique d",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2ea4e36f7ae04bc6",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1251/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c9e1db335a648fa9",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1252/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b29917db7c6c4608",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1253/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "884803a0eca24119",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1254/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5026081e08215187",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1255/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "67a20979070bd94d",
-    "title": "Multiples vulnérabilités dans les produits IBM (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1256/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3161aa1a9c8646f5",
-    "title": "Vulnérabilité dans Fortinet FortiMail (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1257/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-02T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Fortinet FortiMail. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Fortinet indique que la vulnérabilité CVE-2026-104286 est activement exploitée. Des indicateurs",
-    "cveIds": [
-      "CVE-2026-104286"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "7f8ace82a4a3274e",
-    "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-01T22:42:49.000Z",
-    "summary": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code or commands on vulnerable devices. [...]",
-    "cveIds": [
-      "CVE-2026-104286"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "4561eea13d9a7297",
-    "title": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-01T21:37:50.000Z",
-    "summary": "Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "afd4a8a66b7c8ed4",
-    "title": "Autonomous AI agents tried to hack US, Canadian government websites",
-    "link": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-01T20:52:50.000Z",
-    "summary": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cf4db0d120437955",
-    "title": "Iranian accused of hacking American universities extradited from Montenegro",
-    "link": "https://therecord.media/iran-montenegro-hacker-extradition",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-01T20:15:00.000Z",
-    "summary": "An Iranian national accused by the U.S. of taking part in dozens of breaches involving the theft of academic data and intellectual property has been extradited from Montenegro.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "90b51a982946ecd5",
-    "title": "Microsoft says threat actors are ahead in the early AI race",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-01T19:32:47.000Z",
-    "summary": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed up vulnerability discovery, malware development, and post-compromise activity while security teams st",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "fe8b89627fb733d8",
-    "title": "OpenAI software attempted to secretly scrape data from dozens of prominent websites",
-    "link": "https://therecord.media/openai-software-attempted-to-secretly-scrape-data-from-dozens-of-websites",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-01T19:25:00.000Z",
-    "summary": "The findings, released Thursday by Asymmetric Security, are just the latest example of rogue behavior spurred by OpenAI’s software.",
     "cveIds": [],
     "severity": "normal"
   }
