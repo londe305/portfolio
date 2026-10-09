@@ -11,6 +11,164 @@
     "severity": "normal"
   },
   {
+    "id": "787e17da78c4227c",
+    "title": "Microsoft: Outdated Windows devices will stop receiving security updates",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-09T10:12:24.000Z",
+    "summary": "Microsoft says devices running unsupported versions of Windows will stop receiving security updates after next year's Windows Update certificate rotation. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "83d9bbf4c95402b4",
+    "title": "Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries",
+    "link": "https://www.securityweek.com/pre-baked-firmware-malware-hits-budget-android-devices-in-150-countries/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-09T09:55:35.000Z",
+    "summary": "Midnight Mimosa is the name given to a malware campaign primarily running preinstalled on low-cost Android devices.\nThe post Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d32c756e311a08bc",
+    "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
+    "link": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-09T09:03:24.000Z",
+    "summary": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then take that address over.\n\nSearchlight Cybe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "88ecd409c6c344f2",
+    "title": "US Disrupts Chinese State-Sponsored Hacking Tools",
+    "link": "https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-09T08:36:37.000Z",
+    "summary": "Flax Typhoon and other APTs used MicroScan and FishHub to scan and hack US and foreign critical infrastructure.\nThe post US Disrupts Chinese State-Sponsored Hacking Tools appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "32035cdf444db9d3",
+    "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
+    "link": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-09T08:27:42.000Z",
+    "summary": "Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e3f3090fc550f0c0",
+    "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
+    "link": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-09T08:26:17.000Z",
+    "summary": "Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show working exploits and passes the flaws to",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "66edd2ee68b5ab33",
+    "title": "Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security",
+    "link": "https://www.securityweek.com/anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-11-firms-for-ot-security/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-09T08:19:33.000Z",
+    "summary": "OSS Scanner sends unreviewed, model-generated vulnerability reports to open source maintainers that opt in.\nThe post Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "313976c425033f79",
+    "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+    "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-09T08:11:33.000Z",
+    "summary": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions.\n\n\"CVE-2026-107406 is a memory o",
+    "cveIds": [
+      "CVE-2026-107406"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "a02aff11f228dd91",
+    "title": "ISC Stormcast For Friday, October 9th, 2026 https://isc.sans.edu/podcastdetail/10130, (Fri, Oct 9th)",
+    "link": "https://isc.sans.edu/diary/rss/33412",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-09T07:52:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ecaa20e52e070c8d",
+    "title": "Citrix Urges Immediate Patching of Critical NetScaler Vulnerability",
+    "link": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-09T06:53:53.000Z",
+    "summary": "The security defect, tracked as CVE-2026-107406, could lead to remote code execution or denial-of-service.\nThe post Citrix Urges Immediate Patching of Critical NetScaler Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-107406"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "0fcaed1bfbe116a8",
+    "title": "Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own",
+    "link": "https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-09T06:39:55.000Z",
+    "summary": "$1.2 million was paid out at Pwn2Own Ireland 2026 for exploits targeting phones, printers, smart speakers, smart home hubs, and AI infrastructure and coding tools.\nThe post Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own appeare",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5448277fa97ed701",
+    "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
+    "link": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-09T06:39:29.000Z",
+    "summary": "The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon.\n\nTo that end, the agencies seized",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ca5ab3cf48f5df8e",
+    "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-09T05:41:04.000Z",
+    "summary": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1838c6d3bcfb013c",
+    "title": "Formula Predicts When AI Chatbots Are at Risk of Turning Bad",
+    "link": "https://www.securityweek.com/formula-predicts-when-ai-chatbots-are-at-risk-of-turning-bad/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-09T04:12:38.000Z",
+    "summary": "Researchers from George Washington University have published a paper examining whether the time and cause of AI going rogue can be predicted.\nThe post Formula Predicts When AI Chatbots Are at Risk of Turning Bad appeared first on SecurityWe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "290af517c2440577",
     "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
     "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
@@ -2603,85 +2761,6 @@
     "category": "news",
     "pubDate": "2026-10-02T11:14:34.000Z",
     "summary": "Amir Barati, an alleged member of the Mabna Institute, was indicted for targeting universities, private organizations, and government entities in the US and abroad.\nThe post In Rare Move, Alleged Iranian State Hacker Extradited to US appear",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bee2fe5d783edfc8",
-    "title": "Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks",
-    "link": "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-02T09:34:41.000Z",
-    "summary": "The China-based hacking group has been exploiting SharePoint vulnerabilities since July 2025.\nThe post Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c2bc59a43e0e4ef6",
-    "title": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
-    "link": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-02T09:29:56.000Z",
-    "summary": "On Thursday, unknown attackers hijacked the official Microsoft account on X, which has over 13 million followers, in what appeared to be a pump-and-dump scheme promoting a crypto token. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1b7e6404a90b72ee",
-    "title": "AI Agents Aimed SQL Injection at US and Canadian Government Sites",
-    "link": "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-02T08:38:46.000Z",
-    "summary": "The attacks targeted the US Department of Education and Library and Archives Canada, and researchers linked some agents to OpenAI.\nThe post AI Agents Aimed SQL Injection at US and Canadian Government Sites appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6468fcbb7bba6d15",
-    "title": "Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action",
-    "link": "https://www.securityweek.com/exploited-fortinet-fortimail-zero-day-calls-for-urgent-action/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-02T08:07:33.000Z",
-    "summary": "CVE-2026-104286 is a critical-severity path traversal vulnerability that could allow attackers to write arbitrary files to the system.\nThe post Exploited Fortinet FortiMail Zero-Day Calls for Urgent Action appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-104286"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "5a9c1aeb912f6501",
-    "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
-    "link": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-02T08:01:30.000Z",
-    "summary": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Accessibility Tools when Advanced Protection is enabled.\n\nWith malicious Android applications abusing ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "10ee893b5c5fb515",
-    "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
-    "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-02T05:49:50.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c2df698e7e73d64a",
-    "title": "ISC Stormcast For Friday, October 2nd, 2026 https://isc.sans.edu/podcastdetail/10120, (Fri, Oct 2nd)",
-    "link": "https://isc.sans.edu/diary/rss/33390",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-02T02:00:02.000Z",
-    "summary": "",
     "cveIds": [],
     "severity": "normal"
   }
