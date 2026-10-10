@@ -11,6 +11,94 @@
     "severity": "normal"
   },
   {
+    "id": "7f5dd566b2dd8d8c",
+    "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+    "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-10-10T00:17:42.000Z",
+    "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive d",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "074da747e4e4f790",
+    "title": "OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks",
+    "link": "https://www.securityweek.com/openai-fires-3-safety-researchers-in-dispute-over-ai-risks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-09T21:07:46.000Z",
+    "summary": "The ChatGPT maker said the researchers  \"violated clear policies on handling sensitive information.”\nThe post OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "edcc711b1e7a119f",
+    "title": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-09T20:58:32.000Z",
+    "summary": "The attack on the British retailer shows that compromising a single identity can lead to much deeper penetration of the corporate network.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c85e183aba75c070",
+    "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-09T20:31:37.000Z",
+    "summary": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7a7f58a87f0e99e7",
+    "title": "AI Scramble Drives Cybersecurity M&amp;A Boom",
+    "link": "https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-09T19:26:26.000Z",
+    "summary": "Welcome to another gangbuster year for strategic M&A activity in cyber, with 117 deals announced in the latest quarter. What's different: Many of the buyers are not your typical cybersecurity firms.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fbb467666674859b",
+    "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+    "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-09T19:14:28.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories.\n\n\"Using the account of T",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "29cdd129a5d65d01",
+    "title": "Japan confirms arrest of Russian Qilin operative, extradition to Germany",
+    "link": "https://therecord.media/japan-germany-ransomware-arrest",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-09T18:45:00.000Z",
+    "summary": "Japan’s National Police Agency confirmed the arrest and extradition to Germany of a Russian national accused of being involved in the Qilin ransomware gang.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "43d8a91bc2a7ef23",
+    "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+    "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-09T17:45:26.000Z",
+    "summary": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X.\n\nShinyHunters is the extortion group that said in September it had breached the FBI's jobs portal and stolen se",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "5d21e50f10d37cc8",
     "title": "What We Missed: FBI Strikes Back at ShinyHunters",
     "link": "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
@@ -2833,60 +2921,5 @@
     "summary": "Featuring:\n\n\n\nCybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infr",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "c8f7d668a6f4d8ed",
-    "title": "Judge dismisses spyware case brought by Salvadoran journalists targeted with Pegasus",
-    "link": "https://therecord.media/judge-dismisses-spyware-case-brought-by-salvadoran-journalists",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-02T20:30:00.000Z",
-    "summary": "The plaintiffs, who all worked for the independent and Salvadoran news outlet El Faro, failed to convince the court that their case had jurisdiction in California, according to the judge’s order.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1d9e3889e62c89f6",
-    "title": "RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail",
-    "link": "https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-02T20:18:37.000Z",
-    "summary": "The offensive cyber operations startup looks to evolve red teaming beyond traditional methods to simulate attackers' increasingly advanced capabilities.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "892547187af603e6",
-    "title": "Bipartisan backlash to ALPRs grows as two high-profile bills are introduced",
-    "link": "https://therecord.media/alpr-legislation-hawley-sanders-merkley-aoc",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-02T19:30:00.000Z",
-    "summary": "Republican Sen. Josh Hawley has new legislation on limiting automated license plate readers (ALPRs), while Democratic Sens. Bernie Sanders and Jeff Merkley, with Rep. Alexandria Ocasio-Cortez, have teed up a broader bill.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "377f396892b1dbab",
-    "title": "Frontline Education breach exposes school district employee data",
-    "link": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-02T19:01:40.000Z",
-    "summary": "Frontline Education is notifying school districts of a data breach after attackers exploited a vulnerability in third-party software to gain unauthorized access to its systems and steal employee information, including Social Security number",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2b92c4ceeda71991",
-    "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-02T18:33:01.000Z",
-    "summary": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gain initial access. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
