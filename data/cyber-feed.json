@@ -1,5 +1,71 @@
 [
   {
+    "id": "5d6a58b64149d79d",
+    "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+    "link": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-10T15:07:54.000Z",
+    "summary": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bef374d68721303c",
+    "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+    "link": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-10T14:16:17.000Z",
+    "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bc479026f8262792",
+    "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+    "link": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-10T12:30:39.000Z",
+    "summary": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigati",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4f95732c4969a235",
+    "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+    "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-10T11:00:00.000Z",
+    "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not b",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bf4931f049834009",
+    "title": "Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison",
+    "link": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-10T11:00:00.000Z",
+    "summary": "The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company’s servers.\nThe post Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison appe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ebcd6167a2366d08",
+    "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+    "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-10T09:18:45.000Z",
+    "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "62262d39b0ff74ca",
     "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
     "link": "https://isc.sans.edu/diary/rss/33414",
@@ -23,7 +89,7 @@
   },
   {
     "id": "7f5dd566b2dd8d8c",
-    "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+    "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
     "source": "Krebs on Security",
     "category": "news",
@@ -2853,83 +2919,6 @@
     "category": "news",
     "pubDate": "2026-10-03T19:09:38.000Z",
     "summary": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the extortion group. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2b6adb625a29b35c",
-    "title": "YARA-X 1.21.0 Release, (Sat, Oct 3rd)",
-    "link": "https://isc.sans.edu/diary/rss/33392",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-03T14:40:21.000Z",
-    "summary": "YARA-X&#;x26;#;39;s 1.21.0 release brings 5 improvements and 4 bugfixes.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "875077590ba6fbe9",
-    "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
-    "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-03T14:38:46.000Z",
-    "summary": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service.\n\nIn a \"Security Service Espionage Alert\" ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "289771d56894fe92",
-    "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
-    "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-03T14:36:33.000Z",
-    "summary": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries.\n\nThe ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "335aeeb6b42193b1",
-    "title": "Danish university DTU breach exposes data of up to 200,000 people",
-    "link": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-03T14:35:20.000Z",
-    "summary": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1d062f92f7d5e777",
-    "title": "doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures",
-    "link": "https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-03T11:45:00.000Z",
-    "summary": "doxx.net’s new ADN platform prevents agentic misadventure while the agent is operating under the user’s authority.\nThe post doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "42535caeb1ba5cb2",
-    "title": "Fortra Patches Critical Vulnerabilities in BoKS",
-    "link": "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-03T11:34:00.000Z",
-    "summary": "The bugs could lead to authentication bypass, shell command execution, and memory corruption.\nThe post Fortra Patches Critical Vulnerabilities in BoKS appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3dc5273a31dff197",
-    "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
-    "link": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-03T11:00:00.000Z",
-    "summary": "Featuring:\n\n\n\nCybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infr",
     "cveIds": [],
     "severity": "normal"
   }
