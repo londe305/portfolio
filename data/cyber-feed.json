@@ -1,5 +1,16 @@
 [
   {
+    "id": "dc7b54e8c00ace09",
+    "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+    "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-11T04:24:34.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.\n\n\"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keycha",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "5d6a58b64149d79d",
     "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
     "link": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
@@ -207,17 +218,6 @@
     "summary": "The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Director Kash Patel announced Friday. [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "dc7b54e8c00ace09",
-    "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-    "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-09T16:29:55.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.\n\n\"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keycha",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "3a2f3756dcccab76",
@@ -2897,17 +2897,6 @@
     "category": "news",
     "pubDate": "2026-10-04T07:20:32.000Z",
     "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations.\n",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "71f68485047e901d",
-    "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
-    "link": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-03T23:12:34.000Z",
-    "summary": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]",
     "cveIds": [],
     "severity": "normal"
   }
