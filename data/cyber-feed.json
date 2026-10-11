@@ -1,5 +1,16 @@
 [
   {
+    "id": "4c28b0c9be31eae9",
+    "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+    "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-11T14:23:46.000Z",
+    "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "dc7b54e8c00ace09",
     "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
     "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
@@ -2831,16 +2842,5 @@
       "CVE-2026-88779"
     ],
     "severity": "critical"
-  },
-  {
-    "id": "199ef7dd7a5498cc",
-    "title": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
-    "link": "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-04T14:57:25.000Z",
-    "summary": "The announcement comes after Trump hosted top executives of AI companies at the White House last week.\nThe post Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
