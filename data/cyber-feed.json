@@ -1,5 +1,262 @@
 [
   {
+    "id": "d0137ba408daed3e",
+    "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
+    "link": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-12T20:13:52.000Z",
+    "summary": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4dcee3405abaea42",
+    "title": "Prominent Ransomware Negotiator Faces Extortion Charges",
+    "link": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-12T20:00:53.000Z",
+    "summary": "Edward Dubrovsky, a longtime cybersecurity executive, was arrested and charged in Pennsylvania last week under conspiracy to extort money.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8d0ac34c06d57d46",
+    "title": "Yandex confirms service outage as users lose access to cloud files",
+    "link": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-12T19:23:01.000Z",
+    "summary": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8ba9b8e7a12a6c3d",
+    "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+    "link": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-12T18:51:59.000Z",
+    "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "61395f90aa8ad1f7",
+    "title": "No Identity, No Recovery: Cyber Resilience Starts With IAM",
+    "link": "https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-12T18:27:25.000Z",
+    "summary": "The proliferation of enterprise apps and the centrality of cloud identity providers requires an identity security rethink.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "28da8c245f5dca44",
+    "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+    "link": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-12T16:27:23.000Z",
+    "summary": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5ae29bf7b51ae6e4",
+    "title": "Cyberattack shuts down refrigerators at French supermarkets",
+    "link": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-12T15:23:34.000Z",
+    "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6e33620606a01d8d",
+    "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
+    "link": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-12T15:16:26.000Z",
+    "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it.\n\nBut speed is only",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ef7595ad07b8bc0a",
+    "title": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
+    "link": "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-12T14:25:00.000Z",
+    "summary": "The all-stock deal brings Elisity’s least-privilege access technology into IonQ’s security portfolio.\nThe post IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7a7fbf93e11c89ab",
+    "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
+    "link": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-12T14:00:10.000Z",
+    "summary": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt. Varonis researchers explain how the malware uses ClickFix delivery, shortcut-based persi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8bf2f9414a620fba",
+    "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-12T13:51:07.000Z",
+    "summary": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a \"cybersecurity incident\" affecting its network. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5ffff8d173ed3cf7",
+    "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
+    "link": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-12T13:14:37.000Z",
+    "summary": "The vulnerability tracked as CVE-2026-85097 can allow threat actors to take control of the targeted WordPress websites.\nThe post Bricksforge WordPress Plugin Vulnerability Exploited in the Wild appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-85097"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "175a7df5c5ccb15a",
+    "title": "GitLab warns of max severity code execution vulnerability",
+    "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-12T13:09:09.000Z",
+    "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f09be95f6cf35236",
+    "title": "Passing the Baton: Dark Reading Names New Editor-in-Chief",
+    "link": "https://www.darkreading.com/cyber-risk/passing-baton-dark-reading-new-editor-in-chief",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-12T12:30:58.000Z",
+    "summary": "Fahmida Y Rashid will keep the momentum going as she leads Dark Reading.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "128ef325e330dc61",
+    "title": "Ukraine strikes third Yandex data center, disrupting digital services across Russia",
+    "link": "https://therecord.media/ukraine-strikes-third-yandex-data-center",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-12T12:00:00.000Z",
+    "summary": "A third Yandex data center in Russia was hit by Ukrainian drones over the weekend, forcing it to shut down and causing further disruptions to cloud services, payments, deliveries and other online services across the country.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "89310c4a866bdb92",
+    "title": "Canonical Websites Disrupted in Second DDoS Attack This Year",
+    "link": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-12T11:58:39.000Z",
+    "summary": "The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal.\nThe post Canonical Websites Disrupted in Second DDoS Attack This Year appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fb25f61ae2914f48",
+    "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-12T11:58:33.000Z",
+    "summary": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates next month. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "172b933e4740eeca",
+    "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+    "link": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-12T11:55:00.000Z",
+    "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty muc",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "876fc8d20364ae3d",
+    "title": "Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US",
+    "link": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-12T11:24:50.000Z",
+    "summary": "Oleg Korniev was a leader of YMCO, a sophisticated network of money mules that helped hackers move funds outside the US.\nThe post Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7be825a80966799c",
+    "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+    "link": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-12T11:21:48.000Z",
+    "summary": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller.\n\nOn Friday, the company said it was investigating reports of loss of",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "34f9e6caf0ef2bdf",
+    "title": "iRhythm Data Breach Impacts at Least 360,000 People",
+    "link": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-12T11:05:43.000Z",
+    "summary": "Hackers stole patients’ personal information, including names, addresses, email addresses, dates of birth, and phone numbers.\nThe post iRhythm Data Breach Impacts at Least 360,000 People appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5124492cfbfbdb10",
+    "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+    "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-12T10:36:56.000Z",
+    "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure.\n\nThe vulnerability, tracked as CVE-2026-102255 (CVSS score: 10",
+    "cveIds": [
+      "CVE-2026-102255"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "9ce734d52cdaaf31",
+    "title": "Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe",
+    "link": "https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-12T10:32:05.000Z",
+    "summary": "The suspect is believed to be Edward Dubrovsky, a Canadian cybersecurity executive who was visiting the United States for a conference.\nThe post Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe appeared first on SecurityWe",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "815b7a94646fc6cb",
     "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
     "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
@@ -55,6 +312,17 @@
     "category": "advisory",
     "pubDate": "2026-10-12T02:00:03.000Z",
     "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9aa90bd7475e2f18",
+    "title": "Cyberattack disrupts refrigeration at hundreds of French supermarkets",
+    "link": "https://therecord.media/cyberattack-disrupts-refridgeration-in-france",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-11T23:00:00.000Z",
+    "summary": "A cyberattack overnight Sunday disrupted refrigerators at hundreds of French supermarkets, spoiling fresh food at stores run by some of the country’s largest grocery chains.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1851,6 +2119,39 @@
     "severity": "normal"
   },
   {
+    "id": "75d97db28256207e",
+    "title": "Vulnérabilité dans les produits Mozilla (07 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1272/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-07T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Mozilla. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "614606c5825d9c0b",
+    "title": "Multiples vulnérabilités dans WordPress (07 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1273/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-07T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des do",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "279a7e784b4b17d6",
+    "title": "Multiples vulnérabilités dans Traefik (07 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1274/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-07T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des donn",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "20db35582f2a271b",
     "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
     "link": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
@@ -2423,297 +2724,5 @@
     "summary": "The Linux backdoor exploits 24 known flaws to compromise IoT devices and uses legitimate public STUN servers to obscure communications.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "ac27d72d618e7534",
-    "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-05T20:20:05.000Z",
-    "summary": "Hackers are actively scanning for a Rejetto HFS weak signing key vulnerability, tracked as CVE-2026-61500, that allows session forgery, account takeover, and remote code execution (RCE). [...]",
-    "cveIds": [
-      "CVE-2026-61500"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "76475e60209703d3",
-    "title": "Alleged ShinyHunters member reportedly detained in Jordan, assisting law enforcement",
-    "link": "https://therecord.media/alleged-shinyhunters-member-detained-jordan-fbi",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-05T19:15:00.000Z",
-    "summary": "Saif ‌al-Din Khader is cooperating with the FBI, reports said, as the bureau responds to a massive breach that exposed employee data.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a38fefbaa98622ce",
-    "title": "US, Australia warn of latest Citrix vulnerability after NetScaler advisory",
-    "link": "https://therecord.media/us-australia-warn-of-latest-citrix-vulnerability",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-05T17:22:00.000Z",
-    "summary": "Citrix confirmed late on Friday that it was “tracking a newly observed issue” related to some customer-managed NetScaler deployments but claimed the problem was not connected to vulnerabilities reported last week that also caused alarm amon",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6a61b4fe42733a1b",
-    "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
-    "link": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-05T17:19:53.000Z",
-    "summary": "Italy's Data Protection Authority (GPDP) has fined IQVIA €7 million ($7.8M) over poor data-processing practices that the agency says could have put roughly one million patients at risk of data exposure and de-anonymization. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9824afb5bb9c0fab",
-    "title": "Ukraine grocery chain ATB confirms cyberattack as hackers threaten to leak data",
-    "link": "https://therecord.media/atb-ukraine-cyberattack-ransomware",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-05T17:00:00.000Z",
-    "summary": "Ukraine’s largest grocery store chain, ATB, confirmed that it was hit by a cyberattack after hackers posted an extortion demand on its website.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cb207012cadc4c9d",
-    "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
-    "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-05T16:21:52.000Z",
-    "summary": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions.\n\nThe vulnerability, tracked as CVE-2026-96940, is",
-    "cveIds": [
-      "CVE-2026-96940"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "1b8095594ef74fe5",
-    "title": "Chinese Hackers Impersonate US Officials for AI Cyber Espionage",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-impersonates-us-officials-cyber-espionage",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-05T15:52:59.000Z",
-    "summary": "An emerging threat group known as TA419 established seemingly legitimate professional relationships with AI policy experts working for US think tanks, universities, and legal organizations.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "567f3a4f3f9fc35a",
-    "title": "University of Illinois Chicago affected by ransomware attack on medical school",
-    "link": "https://therecord.media/ransomware-university-illinois-chicago",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-05T15:30:00.000Z",
-    "summary": "A ransomware attack that affected the University of Illinois Chicago (UIC) College of Medicine resulted in the theft of some information from its servers.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7ebb9ff569ae8ee0",
-    "title": "Denmark population registry data breach affects 8.8 million people",
-    "link": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-05T15:21:10.000Z",
-    "summary": "Denmark's Central Population Register (CPR) is warning of a data breach that exposed the personal information of approximately 8.8 million registered individuals. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "179f36c2e73f2561",
-    "title": "New Dell System Update flaw lets hackers gain root privileges",
-    "link": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-05T14:53:06.000Z",
-    "summary": "Dell warned customers to patch a critical vulnerability in the System Update (DSU) command-line interface (CLI) deployment tool as soon as possible. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7c115c8fd892dd88",
-    "title": "Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports",
-    "link": "https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-05T14:26:00.000Z",
-    "summary": "Google has temporarily stopped accepting product vulnerability reports through its Open Source Software Vulnerability Reward Program (OSS VRP).\nThe post Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports appeared f",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "68acfff98094cf60",
-    "title": "South Korea probes bank breaches amid suspected AI-powered attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-05T14:22:12.000Z",
-    "summary": "South Korea's Financial Services Commission (FSC) held an emergency meeting following a series of cyberattacks targeting financial institutions in the country. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "acb91d74c1ac878c",
-    "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
-    "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-05T14:20:43.000Z",
-    "summary": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook.\n\nThere are actively ex",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "356db830ef3d9960",
-    "title": "Belarusian hacktivists spent two years inside Russian healthcare network, researchers say",
-    "link": "https://therecord.media/belarusian-hacktivists-two-years-Russian-healthcare-network",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-05T13:55:00.000Z",
-    "summary": "Russian cybersecurity researchers attributed a quiet two-year espionage campaign to the Belarusian Cyber Partisans, a group better known for public attacks against governments and infrastructure.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d06671b1eb174edc",
-    "title": "tenfold CE: Our free Identity Governance tool just got 2 new features",
-    "link": "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-05T13:33:42.000Z",
-    "summary": "tenfold has added shared content governance and real-time event auditing to its free Community Edition for organizations with under 150 users. The new features help teams manage Microsoft 365 sharing and investigate suspicious identity acti",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e90d56921eab7ce0",
-    "title": "Japanese media group Nikkei discloses cyberattack targeting journalistic sources",
-    "link": "https://therecord.media/nikkei-cyberattack-japan-data",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-05T13:15:00.000Z",
-    "summary": "The Japanese media giant Nikkei disclosed a cyber incident involving an employee email account that may have compromised journalistic sources.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "68db8daed7fd0b46",
-    "title": "Alleged dev of Ploutus ATM malware appears in US court after arrest",
-    "link": "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-05T13:01:45.000Z",
-    "summary": "The U.S. Department of Justice has announced the arrest of the alleged developer of Ploutus malware, used to steal millions of dollars in ATM jackpotting attacks across the United States. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f64e40e8a42769b9",
-    "title": "Need for Speed: AI-Driven Attacks Are Changing Security Strategies",
-    "link": "https://www.darkreading.com/cyber-risk/ai-attacks-security-strategies",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-05T13:00:00.000Z",
-    "summary": "AI-powered attacks are fast, relentless, and automated. How security teams can keep up is top of mind, according to the latest Dark Reading reader poll.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9569100024819f44",
-    "title": "Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws",
-    "link": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-05T13:00:00.000Z",
-    "summary": "ClingSTUN operates as a back-connect proxy backdoor, sets up persistence, and contains exploits for self-propagation.\nThe post Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9a0ab446e9885f9f",
-    "title": "250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms",
-    "link": "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-05T12:35:15.000Z",
-    "summary": "Hackers stole patient information from Clover Health Investments and AngMar Management Services in July.\nThe post 250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2766b24f5e186418",
-    "title": "Data breach at Denmark’s national population register exposes 8.8 million people",
-    "link": "https://therecord.media/denmark-breach-register-cyberattack",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-05T12:00:00.000Z",
-    "summary": "Denmark is investigating a data breach affecting approximately 8.8 million people after unauthorized users gained access to its national population register.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "20616b5d110d0e27",
-    "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
-    "link": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-05T11:55:00.000Z",
-    "summary": "Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Re",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9c6db5e8b7d5229e",
-    "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
-    "link": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-05T11:46:25.000Z",
-    "summary": "Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware called Cling.\n\n\"Cling is notable not because it introduces a ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b149160e3a3d18d6",
-    "title": "Exploitation Hits Rejetto HFS Vulnerability Discovered by AI",
-    "link": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-05T11:00:05.000Z",
-    "summary": "CVE-2026-61500 allows attackers to recover the session-cookie signing key and gain administrative access and RCE.\nThe post Exploitation Hits Rejetto HFS Vulnerability Discovered by AI  appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-61500"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "608206820f9e2329",
-    "title": "Senate Passes Bipartisan Bill to Strengthen Healthcare Cybersecurity",
-    "link": "https://www.securityweek.com/senate-passes-bipartisan-bill-to-strengthen-healthcare-cybersecurity/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-05T10:42:19.000Z",
-    "summary": "More than 730 cyber breaches affected over 270 million Americans last year, costing an average of $10 million per breach.\nThe post Senate Passes Bipartisan Bill to Strengthen Healthcare Cybersecurity appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4a8712355bea80e4",
-    "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
-    "link": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-05T10:38:50.000Z",
-    "summary": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents.\n\n\"Some developers are using Full Disk Access in ways tha",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
