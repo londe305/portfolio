@@ -1,5 +1,64 @@
 [
   {
+    "id": "815b7a94646fc6cb",
+    "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-12T09:02:14.000Z",
+    "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack.\n\nThe critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which all",
+    "cveIds": [
+      "CVE-2026-85097"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "83b16840c4686792",
+    "title": "Critical SonicWall Vulnerability Exploited Days After Disclosure",
+    "link": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-12T08:36:01.000Z",
+    "summary": "CVE-2026-102255 is a pre-authenticated SSRF flaw that could allow attackers to perform unauthorized operations.\nThe post Critical SonicWall Vulnerability Exploited Days After Disclosure appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-102255"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "1075209273bf74a2",
+    "title": "Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch",
+    "link": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-12T07:53:28.000Z",
+    "summary": "Beginning February 2027, all newly issued certificates will have a 64-day validity period by default.\nThe post Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d261b6b9e669cf36",
+    "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+    "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-12T07:26:12.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine.\n\nThe activity",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7bac4c3b4e76700a",
+    "title": "ISC Stormcast For Monday, October 12th, 2026 https://isc.sans.edu/podcastdetail/10132, (Mon, Oct 12th)",
+    "link": "https://isc.sans.edu/diary/rss/33416",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-12T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "4c28b0c9be31eae9",
     "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
     "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
@@ -83,7 +142,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-10-10T09:18:45.000Z",
-    "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websit",
+    "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations until further notice following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2654,100 +2713,6 @@
     "category": "news",
     "pubDate": "2026-10-05T10:38:50.000Z",
     "summary": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents.\n\n\"Some developers are using Full Disk Access in ways tha",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c1bad441fd92017a",
-    "title": "OpenAI will show visual ads in ChatGPT while you generate images",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-05T10:28:45.000Z",
-    "summary": "OpenAI is expanding ads in ChatGPT, and one of the first new formats will show visual ads while you're generating images. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "51dccb3ca55995c6",
-    "title": "Microsoft: Windows KB5124010 update crashes some games and apps",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-kb5124010-update-crashes-some-games-and-apps/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-05T09:37:56.000Z",
-    "summary": "Microsoft confirmed over the weekend that some games and applications using AC-3 (Dolby Digital) audio decoding will crash after installing the September 2026 KB5124010 Windows 11 preview update. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f66e772a68098b63",
-    "title": "Google halts open-source bug bounty program amid AI spam surge",
-    "link": "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-05T08:27:46.000Z",
-    "summary": "Google has now suspended submissions to its Open Source Software Vulnerability Rewards Program (OSS VRP) after being flooded by AI-generated reports. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "984946d5750a4e3a",
-    "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
-    "link": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-05T08:09:23.000Z",
-    "summary": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck.\n\nThe vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming fro",
-    "cveIds": [
-      "CVE-2026-61500"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "9881d6bd7c4dcd2d",
-    "title": "Alleged ShinyHunters Leader Arrested in Jordan",
-    "link": "https://www.securityweek.com/alleged-shinyhunters-leader-arrested-in-jordan/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-05T07:16:53.000Z",
-    "summary": "Known as Rey, the suspect is reportedly helping the FBI identify and locate other members of the extortion group.\nThe post Alleged ShinyHunters Leader Arrested in Jordan appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0c8dfb68badd7427",
-    "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
-    "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-05T06:40:19.000Z",
-    "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks.\n\nThe vulnerability, tracked as CVE-2026-88779, carries a CVSS score ",
-    "cveIds": [
-      "CVE-2026-88779"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "7aea11ec54b2d690",
-    "title": "Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier",
-    "link": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-05T05:14:48.000Z",
-    "summary": "Citrix has confirmed that a new zero-day vulnerability, CVE-2026-88779, emerged just days after two other exploited flaws were patched.\nThe post Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier appeared first o",
-    "cveIds": [
-      "CVE-2026-88779"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "deda64e494a62f80",
-    "title": "ISC Stormcast For Monday, October 5th, 2026 https://isc.sans.edu/podcastdetail/10122, (Mon, Oct 5th)",
-    "link": "https://isc.sans.edu/diary/rss/33398",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-05T02:00:02.000Z",
-    "summary": "",
     "cveIds": [],
     "severity": "normal"
   }
