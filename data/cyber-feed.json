@@ -1,5 +1,27 @@
 [
   {
+    "id": "7dd6d3ef0e59b721",
+    "title": "ISC Stormcast For Tuesday, October 13th, 2026 https://isc.sans.edu/podcastdetail/10134, (Tue, Oct 13th)",
+    "link": "https://isc.sans.edu/diary/rss/33418",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-13T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6512ad6a9c13d351",
+    "title": "Maximum-Severity SSRF Flaw in SonicWall SMA Devices Under Attack",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-12T21:42:42.000Z",
+    "summary": "Attackers are currently targeting a critical vulnerability in SMA 1000 appliances, putting SonicWall customers in a familiar yet unenviable position.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "d0137ba408daed3e",
     "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
     "link": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
@@ -2623,105 +2645,6 @@
     "category": "news",
     "pubDate": "2026-10-06T06:56:57.000Z",
     "summary": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.\n\nThat's according to a report fro",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8337f33655ac42c0",
-    "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
-    "link": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-06T06:00:30.000Z",
-    "summary": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry said on Octo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "15810e447b0d191a",
-    "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
-    "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-06T05:22:55.000Z",
-    "summary": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache.\n\n\"Instead of downloading and executing remote payloads like the typical attack pattern, in this a",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c0b6f37559ce6ed8",
-    "title": "Shares in British clothing company ASOS dive after hackers apparently send push notification",
-    "link": "https://therecord.media/asos-push-notification-apparently-sent-by-hackers",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-06T04:00:00.000Z",
-    "summary": "Several mysteries surround what appeared to be an unauthorized push notification sent to customers of London-based clothing company ASOS.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7d191c4b11396005",
-    "title": "Multiples vulnérabilités dans Google Android (06 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1265/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-06T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Android. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "79722597b0ee2ad5",
-    "title": "Vulnérabilité dans Microsoft Office (06 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1266/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-06T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ea42531d478c87e5",
-    "title": "Vulnérabilité dans les produits Atlassian (06 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1264/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-06T00:00:00.000Z",
-    "summary": "Unevulnérabilité a été découverte dans les produits Atlassian. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "158b0c0dc14e7eaa",
-    "title": "OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-05T22:46:33.000Z",
-    "summary": "OpenAI is preparing to add invisible watermarks to text generated by ChatGPT and Codex in the European Union. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ef0c1b9d56e28c59",
-    "title": "Wikimedia Foundation: OpenAI agents tried to edit pages and compromise notes tool",
-    "link": "https://therecord.media/wikimedia-foundation-openai-agents-report",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-05T21:26:00.000Z",
-    "summary": "Beyond the potential misuses of its services, Wikimedia said activity by AI agents can be a drain on web platforms that are already operating with limited resources.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "777d177ab8f0a0c4",
-    "title": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
-    "link": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-05T21:25:08.000Z",
-    "summary": "The Linux backdoor exploits 24 known flaws to compromise IoT devices and uses legitimate public STUN servers to obscure communications.",
     "cveIds": [],
     "severity": "critical"
   }
