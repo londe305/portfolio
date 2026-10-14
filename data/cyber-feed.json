@@ -1,5 +1,161 @@
 [
   {
+    "id": "ecd984dc6bd30fda",
+    "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+    "link": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-14T11:19:02.000Z",
+    "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said.\n\nIts researchers built the attack in six days by dir",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "065e262fb01eff41",
+    "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+    "link": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-14T11:08:22.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "181d174bbac468db",
+    "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+    "link": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-14T11:00:00.000Z",
+    "summary": "The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part.\n\nTL;DR\n\n\n  During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2cf131532cb914f1",
+    "title": "US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms",
+    "link": "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-14T10:55:21.000Z",
+    "summary": "Investigators stormed 40 locations in Texas and seized 187 laptops used by North Korean IT workers to hide their location.\nThe post US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0aa13b1d83699b9d",
+    "title": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-14T10:48:09.000Z",
+    "summary": "Microsoft has confirmed that non-admin users may be unable to connect to devices via Remote Desktop after installing recent Windows updates if the \"Administrator protection\" security feature is enabled. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0a34dc42eff456a4",
+    "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+    "link": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-14T07:46:57.000Z",
+    "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ca2337ba7a1a6318",
+    "title": "Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise",
+    "link": "https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-14T07:38:51.000Z",
+    "summary": "Mozilla has introduced Firefox Enterprise for organizations with strict compliance, governance, and security requirements.\nThe post Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise appeared first on SecurityWeek",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3c74e6888cec845d",
+    "title": "Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products",
+    "link": "https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-14T07:26:35.000Z",
+    "summary": "Critical-severity flaws could lead to authentication bypass, code execution, and sensitive authentication information leaks.\nThe post Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1026a5cdf9ba145a",
+    "title": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
+    "link": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-14T07:16:12.000Z",
+    "summary": "The most important is CVE-2026-96951, a security feature bypass flaw in Windows that has been exploited in the wild.\nThe post Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day appeared first on SecurityWee",
+    "cveIds": [
+      "CVE-2026-96951"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "6a1ad96a7af92813",
+    "title": "Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)",
+    "link": "https://isc.sans.edu/diary/rss/33420",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-14T06:49:46.000Z",
+    "summary": "Years ago I wrote diary entries about VBA code stored inside AutoCAD drawing files (.dwg).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "107051ae553ab890",
+    "title": "SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities",
+    "link": "https://www.securityweek.com/sap-patches-critical-netweaver-s-4hana-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-14T06:12:10.000Z",
+    "summary": "The bugs could allow attackers to invoke internal operations and execute code, completely compromising the system.\nThe post SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ef61a9283f23f85c",
+    "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+    "link": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-14T05:52:28.000Z",
+    "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over.\n\nThe protected area is a VBS enclave, an isolated slice of memory the operating sy",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "144f472a1e641422",
+    "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
+    "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-14T05:00:00.000Z",
+    "summary": "Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b7b1929554c442d8",
+    "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+    "link": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-14T04:34:43.000Z",
+    "summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation.\n\nThese include 1,102 flaws in Windows, 134 in Office, 61 in",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "cb6f424a9bacec6f",
     "title": "ISC Stormcast For Wednesday, October 14th, 2026 https://isc.sans.edu/podcastdetail/10136, (Wed, Oct 14th)",
     "link": "https://isc.sans.edu/diary/rss/33424",
@@ -17,7 +173,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-10-14T01:59:25.000Z",
-    "summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations.\n\nAbdulrahman Alfoz",
+    "summary": "A Saudi national and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations.\n\nAbdulrahman Alfoz",
     "cveIds": [],
     "severity": "normal"
   },
@@ -40,6 +196,17 @@
     "category": "news",
     "pubDate": "2026-10-13T23:07:00.000Z",
     "summary": "Saudi national Abdulrahman Alfozan was arrested Friday and terminated by OpenAI.\nThe post Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "86eb1307cd1f7661",
+    "title": "Saudi national charged with planting spy device in OpenAI executive conference room",
+    "link": "https://therecord.media/saudi-national-charged-with-spy-device-openai",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-13T23:00:00.000Z",
+    "summary": "Abdulrahman Alfozan, 35, a Saudi national working as an engineer for OpenAI, was charged Tuesday with secretly bugging an executive conference room at one of the company’s buildings in San Francisco.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2579,126 +2746,5 @@
     "summary": "SonicWall has released hotfixes to address a maximum-severity server-side request forgery (SSRF) flaw in SMA1000 series appliances. [...]",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "2322918b8aa6967a",
-    "title": "Chrome 155 Update Patches 247 Vulnerabilities",
-    "link": "https://www.securityweek.com/chrome-155-update-patches-247-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-07T10:51:57.000Z",
-    "summary": "Four critical-severity use-after-free defects were fixed in Chromecast, Browser, Navigation, and Track.\nThe post Chrome 155 Update Patches 247 Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ccdbc3d08bf42bd5",
-    "title": "Musician sent to prison for $10 million streaming fraud using AI bots",
-    "link": "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-07T10:35:15.000Z",
-    "summary": "A North Carolina musician was sentenced to 18 months in prison for collecting more than $10 million in royalties from Spotify, Apple Music, Amazon Music, and YouTube Music in a massive streaming royalty fraud scheme. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e8af94180ff31334",
-    "title": "Advantest confirms personal information stolen in ransomware attack",
-    "link": "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-07T10:27:52.000Z",
-    "summary": "Advantest Corporation is notifying affected individuals that a ransomware attack earlier this year exposed their personally identifiable data. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "69027c2a225c9a5a",
-    "title": "Anthropic Introduces 3-Tier Cyber Verification Program for AI Access",
-    "link": "https://www.securityweek.com/anthropic-introduces-3-tier-cyber-verification-program-for-ai-access/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-07T10:07:09.000Z",
-    "summary": "Anthropic is integrating the CVP and Project Glasswing into a single offering, with three levels of access to its most capable AI models.\nThe post Anthropic Introduces 3-Tier Cyber Verification Program for AI Access appeared first on Securi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "445432276ec5fcec",
-    "title": "One breach, please, and make no mistakes",
-    "link": "https://blog.talosintelligence.com/one-breach-please-and-make-no-mistakes/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-10-07T10:00:25.000Z",
-    "summary": "The cybersecurity community has seen examples of autonomous agents, built inside AI labs, attacking public infrastructure. How you prepare for agentic threats is what makes the difference during real incidents.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d203b78524536f10",
-    "title": "ASOS Confirms Cyberattack, Data Breach",
-    "link": "https://www.securityweek.com/asos-confirms-cyberattack-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-07T09:46:20.000Z",
-    "summary": "Hackers compromised a third-party communication platform and sent rogue notifications to ASOS users.\nThe post ASOS Confirms Cyberattack, Data Breach appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c6065c24705db994",
-    "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
-    "link": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-07T08:07:38.000Z",
-    "summary": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "21989a434fca5f18",
-    "title": "Wikimedia Says Rogue OpenAI Agents Tried to Turn Its Tools Into Proxies",
-    "link": "https://www.securityweek.com/wikimedia-says-rogue-openai-agents-tried-to-turn-its-tools-into-proxies/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-07T07:58:22.000Z",
-    "summary": "Wikimedia looked into whether its own websites had seen activity like that disclosed by other organizations\nThe post Wikimedia Says Rogue OpenAI Agents Tried to Turn Its Tools Into Proxies appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1958c70e74f7f28a",
-    "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
-    "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-07T06:57:54.000Z",
-    "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stea",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "acc859ede704bfdd",
-    "title": "Android’s October 2026 Updates Patch 25 Vulnerabilities",
-    "link": "https://www.securityweek.com/androids-october-2026-updates-patch-25-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-07T06:55:52.000Z",
-    "summary": "The patches resolve a critical vulnerability in Android’s System component that could lead to privilege escalation.\nThe post Android’s October 2026 Updates Patch 25 Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "32c92579d2d8bd6c",
-    "title": "Atlassian Patches Critical Vulnerability Affecting 8 Products",
-    "link": "https://www.securityweek.com/atlassian-patches-critical-vulnerability-affecting-8-products/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-07T06:37:16.000Z",
-    "summary": "Unauthenticated attackers could exploit the flaw to access specific files in the web application root directory.\nThe post Atlassian Patches Critical Vulnerability Affecting 8 Products appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
