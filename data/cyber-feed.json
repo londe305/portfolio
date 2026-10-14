@@ -1,5 +1,247 @@
 [
   {
+    "id": "045289937798f189",
+    "title": "Spyware manufacturer had access to data harvested by former Polish government, current PM says",
+    "link": "https://therecord.media/spyware-manufacturer-had-access-to-data-harvested-by-previous-polish-government",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-14T16:50:00.000Z",
+    "summary": "Prime Minister Donald Tusk, who ordered the investigation, on Monday called the sprawling spyware operation spearheaded by the country’s previous ruling party “one of the biggest scandals in Polish history since the fall of communism.”",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f47fa401827130f4",
+    "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
+    "link": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-14T16:34:31.000Z",
+    "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme.\n\nThe indictment charges a mix of U.S. citizen",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e2e487f81c3d6eb6",
+    "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
+    "link": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-14T16:00:00.000Z",
+    "summary": "In Booz Allen’s isolated OT lab, AI models met every objective across eight scenarios and reached an industrial control network from a perimeter compromise in just over 16 minutes.\nThe post AI Agents Navigate Unfamiliar OT Systems and Move ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f0efb52b806cdece",
+    "title": "ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw",
+    "link": "https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-14T15:15:15.000Z",
+    "summary": "ABB previously published an advisory warning about possible probing of a dynovaPRO vulnerability. \nThe post ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fac7cd6e29f5b58e",
+    "title": "Microsoft fixes VPN issues caused by September Windows updates",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-14T14:27:01.000Z",
+    "summary": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "78394b2e6b36c285",
+    "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+    "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-10-14T14:22:49.000Z",
+    "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime servic",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f6b610c18e508db2",
+    "title": "Harmonic Security Raises $50 Million for Workforce AI Protection",
+    "link": "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-14T14:09:51.000Z",
+    "summary": "The cybersecurity startup plans to expand engineering and go-to-market teams in the US and UK.\nThe post Harmonic Security Raises $50 Million for Workforce AI Protection appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "937c7f4fab21f49c",
+    "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
+    "link": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-14T14:00:10.000Z",
+    "summary": "AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining agentic pentesting with exposure validati",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f25ecccf706526b1",
+    "title": "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations",
+    "link": "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-10-14T14:00:00.000Z",
+    "summary": "Talos and Recorded Future identified UAT-6275 activity targeting government organizations across the Commonwealth of Independent States. Recovered artifacts show additional interest in water resources and energy.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2ee0c0a49b5a2657",
+    "title": "Virtual Event Today: Zero Trust Strategies Summit",
+    "link": "https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-14T13:56:36.000Z",
+    "summary": "This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies.\nThe post Virtual Event Today: Zero Trust Strategies Summit appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4ec11149b02ca77d",
+    "title": "Microsoft takes down 3 major phishing platforms used by Chinese cybercriminals",
+    "link": "https://therecord.media/microsoft-takes-down-3-major-chinese-phishing-platforms",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-14T13:18:00.000Z",
+    "summary": "The tech giant worked with Japan’s National Police Agency and healthcare cybersecurity organization Health-ISAC to obtain a U.S. court order seizing and redirecting domains that were part of the infrastructure underlying YAM Store, CoGUI an",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "91795601b1ffd249",
+    "title": "Global takedown hits network behind 1 billion phishing messages",
+    "link": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-14T13:12:52.000Z",
+    "summary": "A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partners worldwide. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a7d7c0f109d9c0c8",
+    "title": "Russian travel booking platform suspends reservations after cyberattack",
+    "link": "https://therecord.media/russia-anywayanyday-travel-website-cyberattack",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-14T13:05:00.000Z",
+    "summary": "Customers of Russian travel website Anywayanyday were unable to book tickets or hotel rooms as the company responded to a cyberattack.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "319aa986d3e5a772",
+    "title": "Russian Influence Operation Widely Targeting Latin America",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-14T13:00:00.000Z",
+    "summary": "The AI-enabled operation used spoofed emails, fake government documents, and the creation of a local organization to target schools in Peru and Ecuador, among other efforts.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b9b58f38aa23af33",
+    "title": "Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages",
+    "link": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-14T13:00:00.000Z",
+    "summary": "Backed by a federal court order, Microsoft and Health-ISAC seized domains powering YAM Store, CoGUI, and Iron Man.\nThe post Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "835a57efab96f424",
+    "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-14T12:58:07.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0fe732d7667a90ac",
+    "title": "CISA warns of new Ivanti bug being exploited as latest Patch Tuesday breaks records",
+    "link": "https://therecord.media/new-ivanti-microsoft-bugs-exploitation",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-14T12:35:00.000Z",
+    "summary": "The sixth exploited Ivanti bug this year drew attention from the feds and researchers, while a severe Microsoft vulnerability was one of more than 1,400 listed for Patch Tuesday.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ac693e6b140737be",
+    "title": "Congressional probe faults Match Group for failing to rein in dating app scams",
+    "link": "https://therecord.media/congressional-probe-faults-match-group-for-failing-to-stop-dating-app-scams",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-14T12:32:00.000Z",
+    "summary": "The Joint Economic Committee on Tuesday released the results of a year-long investigation into Tinder, Hinge, Match, Plenty of Fish and several other dating sites owned by Match Group.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c8c2a8e77f0c47d2",
+    "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+    "link": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-14T12:30:42.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "01ccdefefe75bf15",
+    "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
+    "link": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-14T12:13:36.000Z",
+    "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine.\n\nThe curl project fixed it on Oc",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "de7e4a82bb7fc257",
+    "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+    "link": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-14T11:50:00.000Z",
+    "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake.\n\nThe call comes in at 4:",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0602ed16425a9a84",
+    "title": "Hirudo Android malware replaces banking apps to evade security checks",
+    "link": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-14T11:41:20.000Z",
+    "summary": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ecd984dc6bd30fda",
     "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
     "link": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
@@ -140,7 +382,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-10-14T05:00:00.000Z",
-    "summary": "Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+    "summary": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
     "cveIds": [],
     "severity": "critical"
   },
@@ -228,7 +470,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-10-13T22:29:57.000Z",
-    "summary": "The scary surprises for the largest security update ever include security bypasses and unauthenticated RCEs.",
+    "summary": "The scary surprises in the largest security update ever include security bypasses and unauthenticated RCEs.",
     "cveIds": [],
     "severity": "critical"
   },
@@ -816,6 +1058,28 @@
     "severity": "normal"
   },
   {
+    "id": "d5d38c123c97be60",
+    "title": "Vulnérabilité dans NetApp StorageGRID (13 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1295/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-13T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans NetApp StorageGRID. Elle permet à un attaquant de provoquer un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6b1ea4ab8e897ff9",
+    "title": "Vulnérabilité dans Typo3 (13 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1296/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-13T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Typo3. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6512ad6a9c13d351",
     "title": "Maximum-Severity SSRF Flaw in SonicWall SMA Devices Under Attack",
     "link": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack",
@@ -1139,6 +1403,39 @@
     "category": "advisory",
     "pubDate": "2026-10-12T02:00:03.000Z",
     "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9788f59e358280e5",
+    "title": "Multiples vulnérabilités dans PostgreSQL JDBC (12 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1292/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans PostgreSQL JDBC. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1ea8e7e2adb57444",
+    "title": "Multiples vulnérabilités dans MongoDB (12 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1293/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits MongoDB. Elles permettent à un attaquant de provoquer un déni de service à distance et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "043903e06a2120f8",
+    "title": "Multiples vulnérabilités dans GitLab (12 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1294/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-12T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intég",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1768,6 +2065,105 @@
     "severity": "normal"
   },
   {
+    "id": "806d32986c50c9ae",
+    "title": "Multiples vulnérabilités dans les produits Nextcloud (09 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1283/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-09T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Nextcloud. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a6d2dc1cbc43d115",
+    "title": "Vulnérabilité dans les produits Tenable (09 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1284/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-09T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Tenable. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. L'éditeur indique qu'une réinstallation d'un composant est nécessaire après la mise à jour.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "db9869c476807203",
+    "title": "Vulnérabilité dans Citrix NetScaler ADC et Gateway (09 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1285/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-09T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Citrix NetScaler ADC et Gateway. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e558096d876a3561",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (09 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1286/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-09T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "605976e12a98d301",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (09 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1287/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-09T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a41b03e4adbf0925",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (09 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1288/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-09T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et une atteinte à la confidentialité",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7ff506dc850db3d3",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (09 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1289/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-09T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de servi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ffd9bc594ff9f803",
+    "title": "Multiples vulnérabilités dans Apache Struts (09 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1290/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-09T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Apache Struts. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentiali",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "233b7d07cb963dc7",
+    "title": "Multiples vulnérabilités dans les produits IBM (09 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1291/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-09T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "290af517c2440577",
     "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
     "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
@@ -2348,6 +2744,39 @@
     "severity": "normal"
   },
   {
+    "id": "9757b866860322b9",
+    "title": "Vulnérabilité dans Ceph (08 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1280/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-08T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Ceph. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "521fa68a04b44265",
+    "title": "Multiples vulnérabilités dans les produits Splunk (08 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1281/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-08T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confident",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a5e2b46190f23aad",
+    "title": "Multiples vulnérabilités dans les produits Cisco (08 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1282/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-08T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distanc",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "054bfa86a51fe381",
     "title": "Ransomware recovery CEO charged over secret ransom payments",
     "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
@@ -2500,251 +2929,5 @@
     "summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts.\n\nThe campaign has been codenamed MALFEX by CloudSEK ",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "6ad8a15b4ab56f6e",
-    "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
-    "link": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-07T16:17:44.000Z",
-    "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker without a login to send requests throug",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "13ead4d4034110c9",
-    "title": "3 lessons from frontier AI vulnerability research",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-10-07T16:00:00.000Z",
-    "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel.\nThe post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "55445c135805d266",
-    "title": "Microsoft Outlook to block MSIX attachments starting November",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-07T15:44:22.000Z",
-    "summary": "Microsoft announced that it will add .msix and .msixbundle attachments to the list of blocked attachments in Outlook Web and the new Outlook Windows client starting next month. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "35545ae5e825d854",
-    "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
-    "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-07T15:34:53.000Z",
-    "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available.\n\nThe flaw is in L",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "fb4b2411ccc7e5fd",
-    "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
-    "link": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-07T15:33:51.000Z",
-    "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and furt",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "85bfd7cabc50bb4c",
-    "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-07T15:04:08.000Z",
-    "summary": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "cc61925dc66d62e1",
-    "title": "Oklahoma judge’s Flock ruling shows the power of Supreme Court’s digital evidence decision",
-    "link": "https://therecord.media/oklahoma-flock-ruing-supreme-court-chatrie-decision",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-07T15:00:00.000Z",
-    "summary": "How a recent Supreme Court decision on geofencing influenced a federal judge to toss a sheriff's Flock camera evidence in a drug trafficking case.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a7dce30e3faaeae9",
-    "title": "Scans for Atlassian vulnerablity (CVE-2026-21589), (Wed, Oct 7th)",
-    "link": "https://isc.sans.edu/diary/rss/33406",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-07T14:59:33.000Z",
-    "summary": "On October 5th, Atlassian published patches&#;x26;#;xc2;&#;x26;#;xa0;for multiple products to fix an \"Arbitrary File Access\" vulnerability &#;x26;#;x5b;CVE-2026-21589&#;x26;#;x5d;. An attacker can read arbitrary files in the web application",
-    "cveIds": [
-      "CVE-2026-21589"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "ae71a5aa224ef622",
-    "title": "Georgia Power, Alabama Power Data Breach Hits 400,000 Accounts",
-    "link": "https://www.securityweek.com/georgia-power-alabama-power-data-breach-hits-400000-accounts/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-07T14:15:20.000Z",
-    "summary": "Southern Company is notifying customers that their utility account information was accessed by hackers.\nThe post Georgia Power, Alabama Power Data Breach Hits 400,000 Accounts appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2d9bc4bcaef935ec",
-    "title": "Cyber experts call on CISA to create mandatory federal OT rules",
-    "link": "https://therecord.media/cyber-experts-call-on-cisa-require-ot-security",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-07T14:03:00.000Z",
-    "summary": "The Operational Technology Cybersecurity Coalition released a white paper urging the CISA to create a new directive centered around operational technology, which is used to monitor and control critical infrastructure.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "aee878c8b09ec70f",
-    "title": "Ransomware has a new target. Is your backup ready?",
-    "link": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-07T14:01:11.000Z",
-    "summary": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay. Kaseya explains why organizations need isolated, immutable, and regularly tested backups that attacker",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "964793230f36d7e1",
-    "title": "Senate passes healthcare cybersecurity bill after 190 million impacted by Change Healthcare breach",
-    "link": "https://therecord.media/senate-passes-healthcare-cyber-bill-after-change-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-07T13:49:00.000Z",
-    "summary": "The Health Care Cybersecurity and Resiliency Act of 2026 was passed by unanimous consent last week, potentially expanding federal cyber requirements for healthcare organizations.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4d0ab1e7dd597340",
-    "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-    "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-10-07T13:48:45.000Z",
-    "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has lear",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "62bfd0328c85a41f",
-    "title": "Qilin Ransomware Suspect Arrested in Japan, Extradited to Germany",
-    "link": "https://www.securityweek.com/qilin-ransomware-suspect-arrested-in-japan-extradited-to-germany/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-07T13:47:12.000Z",
-    "summary": "The individual was detained in May and has been extradited to Germany to face hacking charges.\nThe post Qilin Ransomware Suspect Arrested in Japan, Extradited to Germany appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2bb51727ac79315b",
-    "title": "Hadrian Raises $40 Million to Expand Autonomous Offensive Security Platform",
-    "link": "https://www.securityweek.com/hadrian-raises-40-million-to-expand-autonomous-offensive-security-platform/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-07T13:06:10.000Z",
-    "summary": "Hadrian offers an agentic offensive security platform that allows defenders to operate at the same speed as attackers.\nThe post Hadrian Raises $40 Million to Expand Autonomous Offensive Security Platform appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "49b14ed2d5b24797",
-    "title": "Hackers exploit critical Atlassian flaw after public PoC release",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-07T12:49:01.000Z",
-    "summary": "A critical vulnerability (CVE-2026-21589) affecting multiple Atlassian product families, including Jira, Confluence, and Bitbucket, is being exploited in attacks that do not require authentication. [...]",
-    "cveIds": [
-      "CVE-2026-21589"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "61acdfc939132f1c",
-    "title": "Advantest Discloses Data Breach Months After Ransomware Attack",
-    "link": "https://www.securityweek.com/advantest-discloses-data-breach-months-after-ransomware-attack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-07T12:37:24.000Z",
-    "summary": "The Japanese chip testing giant said hackers stole personal information from its servers in the February 2026 cyberattack.\nThe post Advantest Discloses Data Breach Months After Ransomware Attack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "12e41dfb9e1f564b",
-    "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
-    "link": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-07T11:57:05.000Z",
-    "summary": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually happens.\n\nFor years, ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9f1a8977892018e9",
-    "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
-    "link": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-07T11:56:56.000Z",
-    "summary": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet FortiGate firewalls and secure socket l",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "78d1d9b56302a600",
-    "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
-    "link": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-07T11:49:26.000Z",
-    "summary": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions.\n\nThe arbitrary file access flaw, tracked as CVE-2026-",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ecf0f242fd12abd3",
-    "title": "What Is Agentic Pentesting? What It Proves, and Where It Stops.",
-    "link": "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-07T11:42:24.000Z",
-    "summary": "If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonomously, the way a real attacker would.\n\nT",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f28cb86dc647b950",
-    "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
-    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-07T11:37:07.000Z",
-    "summary": "SonicWall has released hotfixes to address a maximum-severity server-side request forgery (SSRF) flaw in SMA1000 series appliances. [...]",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
