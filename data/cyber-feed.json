@@ -1,5 +1,71 @@
 [
   {
+    "id": "cb6f424a9bacec6f",
+    "title": "ISC Stormcast For Wednesday, October 14th, 2026 https://isc.sans.edu/podcastdetail/10136, (Wed, Oct 14th)",
+    "link": "https://isc.sans.edu/diary/rss/33424",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-14T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cb3154f35431b494",
+    "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
+    "link": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-14T01:59:25.000Z",
+    "summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations.\n\nAbdulrahman Alfoz",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "83d130e7ba9f7dd1",
+    "title": "Microsoft Patches More Than 1,400 Security Flaws",
+    "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-10-13T23:24:53.000Z",
+    "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0cfb790894cf8cc4",
+    "title": "Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say",
+    "link": "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-13T23:07:00.000Z",
+    "summary": "Saudi national Abdulrahman Alfozan was arrested Friday and terminated by OpenAI.\nThe post Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ff21bb8aab0186af",
+    "title": "OpenAI engineer arrested for allegedly planting spy device in office",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-13T22:33:02.000Z",
+    "summary": "A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to secretly record sensitive conversations. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "841edbc362aba60e",
+    "title": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-13T22:29:57.000Z",
+    "summary": "The scary surprises for the largest security update ever include security bypasses and unauthenticated RCEs.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "53bfae4a0cf33888",
     "title": "The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk",
     "link": "https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/",
@@ -214,12 +280,12 @@
   },
   {
     "id": "21816e632b645b53",
-    "title": "Adobe Patches 140 Vulnerabilities Across 10 Products",
+    "title": "Adobe Patches 176 Vulnerabilities Across 11 Products",
     "link": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
     "source": "SecurityWeek",
     "category": "news",
     "pubDate": "2026-10-13T17:14:42.000Z",
-    "summary": "The flaws affect products such as Commerce, Photoshop, ColdFusion, Substance 3D, Dimension, FrameMaker and Bridge.\nThe post Adobe Patches 140 Vulnerabilities Across 10 Products appeared first on SecurityWeek.",
+    "summary": "The flaws affect products such as Commerce, Photoshop, ColdFusion, Substance 3D, Dimension, FrameMaker and Bridge.\nThe post Adobe Patches 176 Vulnerabilities Across 11 Products appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -380,20 +446,6 @@
     "severity": "normal"
   },
   {
-    "id": "6fc0afa0da6f2aee",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-13T12:00:00.000Z",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-96951 Microsoft Windows Command Injection Vulnerability\nCVE-2026-104935 Ivanti Connect Secure Au",
-    "cveIds": [
-      "CVE-2026-96951",
-      "CVE-2026-104935"
-    ],
-    "severity": "cve"
-  },
-  {
     "id": "dcbc0b756373701f",
     "title": "Swann Communications SWIFI-SE2KIC",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02",
@@ -401,6 +453,17 @@
     "category": "advisory",
     "pubDate": "2026-10-13T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to view video information without authentication.\nThe following versions of Swann Communications SWIFI-SE2KIC are affected:\nSWIFI-SE2KIC firmware <=2",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2e60464ac9ed8db6",
+    "title": "Inductive Automation Ignition Software",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-13T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level.\nThe following versions of Inductive Automation Ignition Software are affected:\nIgnit",
     "cveIds": [],
     "severity": "normal"
   },
@@ -413,6 +476,20 @@
     "pubDate": "2026-10-13T12:00:00.000Z",
     "summary": "CISA is aware of Ivanti’s disclosure of a newly exploited vulnerability, CVE-2026-104935, affecting Ivanti Connect Secure versions 25.1.1.1 and prior, 25.1.2.2 and prior, and 22.8R2.4 and prior. CISA is aware of cyber threat actors exploiti",
     "cveIds": [
+      "CVE-2026-104935"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "6fc0afa0da6f2aee",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-13T12:00:00.000Z",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-96951 Microsoft Windows Command Injection Vulnerability\nCVE-2026-104935 Ivanti Connect Secure Au",
+    "cveIds": [
+      "CVE-2026-96951",
       "CVE-2026-104935"
     ],
     "severity": "cve"
@@ -2623,126 +2700,5 @@
     "summary": "Unauthenticated attackers could exploit the flaw to access specific files in the web application root directory.\nThe post Atlassian Patches Critical Vulnerability Affecting 8 Products appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "40db35f3daf76cb9",
-    "title": "ISC Stormcast For Wednesday, October 7th, 2026 https://isc.sans.edu/podcastdetail/10126, (Wed, Oct 7th)",
-    "link": "https://isc.sans.edu/diary/rss/33404",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-07T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4e888681b7b481db",
-    "title": "Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona’s Court System",
-    "link": "https://www.securityweek.com/personal-information-for-over-1-million-people-stolen-in-a-cyberattack-on-arizonas-court-system/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-07T01:32:58.000Z",
-    "summary": "The Arizona Supreme Court said the information was copied for people dating back as far as 30 years.\nThe post Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona’s Court System appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "af7cdee487e1d1e3",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (07 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1267/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c0b82f5bd975e675",
-    "title": "Multiples vulnérabilités dans Google Chrome (07 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1268/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ac71c23d375e8105",
-    "title": "Multiples vulnérabilités dans GLPI (07 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1269/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans GLPI. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données, une injection de code indirecte à distance (XSS) et un contournement de la politique de sécuri",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "60736c68f30074d6",
-    "title": "Multiples vulnérabilités dans Google Pixel (07 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1270/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Pixel. Elles permettent à un attaquant de provoquer une élévation de privilèges et une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "76f6abb826b3022b",
-    "title": "Multiples vulnérabilités dans OpenSSH (07 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1271/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSH. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des d",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "75d97db28256207e",
-    "title": "Vulnérabilité dans les produits Mozilla (07 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1272/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-07T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Mozilla. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "614606c5825d9c0b",
-    "title": "Multiples vulnérabilités dans WordPress (07 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1273/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des do",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "279a7e784b4b17d6",
-    "title": "Multiples vulnérabilités dans Traefik (07 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1274/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des donn",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dbb3c33bcb0329ea",
-    "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access (07 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1275/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-07T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Sonicwall Secure Mobile Access. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une falsification de requêtes côté serveur (SSR",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
