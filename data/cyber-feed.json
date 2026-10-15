@@ -1,5 +1,150 @@
 [
   {
+    "id": "b5878f01eb586193",
+    "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
+    "link": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-15T10:42:16.000Z",
+    "summary": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to help people identify ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b554bfcb0729dc10",
+    "title": "Novel Android RAT ‘Hirudo’ Replaces Banking Apps With Trojanized Copies",
+    "link": "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-15T10:15:32.000Z",
+    "summary": "The Hirudo malware combines elements of a traditional banking trojan and a full-featured RAT.\nThe post Novel Android RAT ‘Hirudo’ Replaces Banking Apps With Trojanized Copies appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fbda5a8420ddcdb1",
+    "title": "CenterPoint Energy Data Breach Impacts 1 Million Texans",
+    "link": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-15T09:55:19.000Z",
+    "summary": "Personal information such as names, addresses, Social Security numbers, and driver’s license numbers was compromised.\nThe post CenterPoint Energy Data Breach Impacts 1 Million Texans appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "080d6dd1dc1fdb26",
+    "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-15T09:10:20.000Z",
+    "summary": "Microsoft has resolved a known issue that was causing black screens, desktop loading issues, and Explorer crashes after installing Windows 11 updates released since August. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1d72630baefb7528",
+    "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+    "link": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-15T08:45:10.000Z",
+    "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations.\n\nThe spike, according to GitGuardian, was observed on October 8 and 9, 2026.\n\n\"This resulted fro",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7278d7ea9fdc812d",
+    "title": "CISO Conversations: James Robinson – Many Jobs, One Journey to Netskope CISO",
+    "link": "https://www.securityweek.com/ciso-conversations-james-robinson-many-jobs-one-journey-to-netskope-ciso/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-15T08:26:40.000Z",
+    "summary": "James Robinson never planned a cybersecurity career — seven companies and one deputy CISO role later, he leads security at Netskope.\nThe post CISO Conversations: James Robinson – Many Jobs, One Journey to Netskope CISO appeared first on Sec",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9d7e0c21485d6346",
+    "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
+    "link": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-15T08:06:47.000Z",
+    "summary": "The Legal Aid Agency (LAA), an executive agency of the UK's Ministry of Justice that manages the country's Public Defender Service, says attackers who breached its IT systems in April 2025 stole records dating back to 1978. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "50367ee6ae87dcd5",
+    "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+    "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-15T07:07:05.000Z",
+    "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian.\n\nLangflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. I",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c86f8dee64ea51e3",
+    "title": "EU Grocers Pay a Steep Price for Unpatched Fridge Firmware",
+    "link": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-15T07:00:00.000Z",
+    "summary": "Hundreds of stores lost millions of dollars because they hired third parties to manage the outdated OT firmware running their cooling systems.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0ec6dac3321659dc",
+    "title": "Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution",
+    "link": "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-15T06:59:54.000Z",
+    "summary": "The company says it’s aware of limited exploitation against customers’ firewalls, and it has made IoCs available.\nThe post Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a713f2422da2706f",
+    "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+    "link": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-15T06:43:08.000Z",
+    "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.\n\nThe vulnerabilities in question are CVE-2026-10",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8bed3c35c1a5ef60",
+    "title": "Cisco Warns of Exploited Secure Email Gateway Vulnerability",
+    "link": "https://www.securityweek.com/cisco-warns-of-exploited-secure-email-gateway-vulnerability/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-15T06:34:15.000Z",
+    "summary": "Unauthenticated, remote attackers could write arbitrary files to the operating system and execute commands with root privileges.\nThe post Cisco Warns of Exploited Secure Email Gateway Vulnerability appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fc3053d7e094c0e6",
+    "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+    "link": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-15T06:17:58.000Z",
+    "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution ",
+    "cveIds": [
+      "CVE-2026-0322"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "a187e99c589d164d",
     "title": "ISC Stormcast For Thursday, October 15th, 2026 https://isc.sans.edu/podcastdetail/10138, (Thu, Oct 15th)",
     "link": "https://isc.sans.edu/diary/rss/33428",
@@ -18,6 +163,17 @@
     "category": "advisory",
     "pubDate": "2026-10-15T01:10:57.000Z",
     "summary": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cb4f3bcbd54dc702",
+    "title": "Ukraine says Elon Musk's Starshield service partially restored after restrictions disrupted drone missions",
+    "link": "https://therecord.media/ukraine-says-starshield-working-again-after-disruption",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-14T23:00:00.000Z",
+    "summary": "The Ukrainian military can again use SpaceX’s Starshield satellite service on the move, a Defense Ministry source told Recorded Future News on Thursday, days after sudden restrictions disrupted drone missions along the front line.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -188,7 +344,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-10-14T16:34:31.000Z",
-    "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme.\n\nThe indictment charges a mix of U.S. citizen",
+    "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers and KVM devices as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme.\n\nThe indictment charges a mix",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2771,160 +2927,6 @@
     "category": "news",
     "pubDate": "2026-10-08T11:42:46.000Z",
     "summary": "ASOS is sending updates to affected customers about the cybersecurity incident it suffered earlier this week, confirming that hackers accessed some personal data. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e003bc5691f499cf",
-    "title": "Rein Security Raises $25 Million to Guard AI Agents at Runtime",
-    "link": "https://www.securityweek.com/rein-security-raises-25-million-to-guard-ai-agents-at-runtime/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-08T11:11:28.000Z",
-    "summary": "The cybersecurity startup will invest in product innovation, agentic research, and employee base expansion.\nThe post Rein Security Raises $25 Million to Guard AI Agents at Runtime appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1aa8f38815afd8a2",
-    "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
-    "link": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-08T10:30:00.000Z",
-    "summary": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that deliver",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "540604118d4fc09a",
-    "title": "Owner of Empire cybercrime market gets 40 years in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-08T10:29:19.000Z",
-    "summary": "The co-creator of Empire Market, one of the largest dark web marketplaces before its shutdown, has been sentenced to 40 years in prison for facilitating $430 million in illegal transactions from 2018 to 2020. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "42506f6a5577aa04",
-    "title": "TP-Link Faces State Lawsuits and New Scrutiny Over ISP Router Flaws",
-    "link": "https://www.securityweek.com/tp-link-faces-state-lawsuits-and-new-scrutiny-over-isp-router-flaws/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-08T10:24:04.000Z",
-    "summary": "SEC Consult has published technical details on vulnerabilities mentioned in a complaint filed by several US states.\nThe post TP-Link Faces State Lawsuits and New Scrutiny Over ISP Router Flaws appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6407868a060e295b",
-    "title": "UAT-11985: AI-assisted event lures delivering real-time Google AitM phishing",
-    "link": "https://blog.talosintelligence.com/uat-11985/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-10-08T10:01:06.000Z",
-    "summary": "Cisco Talos identified an APT spear-phishing campaign against individuals affiliated with Taiwan research organizations. The operation leveraged legitimate public event themes and impersonated reputable academic and policy institutions.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0bb24fdc38bc95ed",
-    "title": "Ignore all instructions and read this blog: The state of AI-analysis evasion in malware",
-    "link": "https://blog.talosintelligence.com/ignore-all-instructions-and-read-this-blog-the-state-of-ai-analysis-evasion-in-malware/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-10-08T10:00:14.000Z",
-    "summary": "“AI-analysis evasion” encapsulates the real-world techniques malware authors are developing in attempt to obstruct or defeat any layers of automated AI analysis.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f31e2f0411cadf2b",
-    "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
-    "link": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-08T09:46:32.000Z",
-    "summary": "Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys.\n\n\"The extensions masquerade as wallet portals, desktop util",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4ff5bacfda6803a0",
-    "title": "Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme",
-    "link": "https://www.securityweek.com/fake-decryption-tools-masked-11m-markup-in-ransomware-recovery-scheme/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-08T09:27:55.000Z",
-    "summary": "Zohar Pinhasi was paying ransoms to obtain decryption keys and then charging victims substantially more for remediation.\nThe post Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8f3c408dcb8cb2eb",
-    "title": "Oracle Health Data Breach Tally Climbs to Nearly 20 Million",
-    "link": "https://www.securityweek.com/oracle-health-data-breach-tally-climbs-to-nearly-20-million/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-08T08:23:31.000Z",
-    "summary": "The figure is far higher than the counts that surfaced in earlier filings and patient notifications.\nThe post Oracle Health Data Breach Tally Climbs to Nearly 20 Million appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "59c32e659383e602",
-    "title": "FortiBleed Attackers Locking Victims Out of Fortinet Devices",
-    "link": "https://www.securityweek.com/fortibleed-attackers-locking-victims-out-of-fortinet-devices/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-08T07:52:33.000Z",
-    "summary": "Attackers are creating new accounts and deleting existing ones and passwords to prevent legitimate access.\nThe post FortiBleed Attackers Locking Victims Out of Fortinet Devices appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1264e65f980bae9e",
-    "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
-    "link": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-08T07:42:04.000Z",
-    "summary": "The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft Exchange Server attacks kno",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "90f9f91df025e5c7",
-    "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
-    "link": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-08T07:41:44.000Z",
-    "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use prop",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3d5d5b5dafa3001d",
-    "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
-    "link": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-08T06:32:16.000Z",
-    "summary": "​​​On the second day of Pwn2Own Ireland 2026, security researchers collected $232,500 in cash awards after exploiting 45 unique zero-day vulnerabilities. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6877a62a0bf960dd",
-    "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
-    "link": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-08T05:46:20.000Z",
-    "summary": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack.\n\nThe malicious version 0",
     "cveIds": [],
     "severity": "critical"
   }
