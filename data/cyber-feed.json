@@ -1,5 +1,66 @@
 [
   {
+    "id": "a187e99c589d164d",
+    "title": "ISC Stormcast For Thursday, October 15th, 2026 https://isc.sans.edu/podcastdetail/10138, (Thu, Oct 15th)",
+    "link": "https://isc.sans.edu/diary/rss/33428",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-15T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e981b7de3fc104c8",
+    "title": "Panchan's Mining Island &#x5b;Guest Diary&#x5d;, (Wed, Oct 14th)",
+    "link": "https://isc.sans.edu/diary/rss/33426",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-15T01:10:57.000Z",
+    "summary": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c9a3f02d710caec5",
+    "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-14T22:56:47.000Z",
+    "summary": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
+    "cveIds": [
+      "CVE-2026-0322"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "f92c56fe800f3f5c",
+    "title": "Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant",
+    "link": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-10-14T22:00:44.000Z",
+    "summary": "We investigated an intrusion where attackers exploited CVE-2024-47575 to target 500+ firewalls and deploy PEERSTITCH, a memory-resident ARM64 malware.\nThe post Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant appeared first on Unit",
+    "cveIds": [
+      "CVE-2024-47575"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "e1c5b3e9fc3c2f66",
+    "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-14T21:20:13.000Z",
+    "summary": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
+    "cveIds": [
+      "CVE-2026-104935"
+    ],
+    "severity": "critical"
+  },
+  {
     "id": "e634a1670f02cf9e",
     "title": "North Macedonian police arrest alleged administrator behind OLVX cybercrime market",
     "link": "https://therecord.media/olvx-cybercrime-marketplace-arrest-north-macedonia",
@@ -2642,17 +2703,6 @@
     "severity": "normal"
   },
   {
-    "id": "730868d2c9182e8c",
-    "title": "Writing the Next Chapter",
-    "link": "https://www.darkreading.com/cybersecurity-operations/writing-next-chapter",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-08T12:00:00.000Z",
-    "summary": "Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "1ab3a11a7fda0229",
     "title": "Satel Netco Design",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-03",
@@ -2699,6 +2749,17 @@
     "category": "advisory",
     "pubDate": "2026-10-08T12:00:00.000Z",
     "summary": "Advisory at a Glance \nTitle \nChinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data \nOriginal Publication \nOctober 8, 2026 \nExecutive Summary \nChinese government-linked cyber threa",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "730868d2c9182e8c",
+    "title": "Writing the Next Chapter",
+    "link": "https://www.darkreading.com/cybersecurity-operations/writing-next-chapter",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-08T12:00:00.000Z",
+    "summary": "Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2866,82 +2927,5 @@
     "summary": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack.\n\nThe malicious version 0",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "ecdf7113631fa319",
-    "title": "ISC Stormcast For Thursday, October 8th, 2026 https://isc.sans.edu/podcastdetail/10128, (Thu, Oct 8th)",
-    "link": "https://isc.sans.edu/diary/rss/33408",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-08T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9757b866860322b9",
-    "title": "Vulnérabilité dans Ceph (08 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1280/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-08T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Ceph. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "521fa68a04b44265",
-    "title": "Multiples vulnérabilités dans les produits Splunk (08 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1281/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-08T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confident",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a5e2b46190f23aad",
-    "title": "Multiples vulnérabilités dans les produits Cisco (08 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1282/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-08T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distanc",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "054bfa86a51fe381",
-    "title": "Ransomware recovery CEO charged over secret ransom payments",
-    "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-07T23:04:37.000Z",
-    "summary": "The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying their attackers for decryptors while claiming to use proprietary technology to recover encrypted data.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "79a8a7bd13982952",
-    "title": "Evolution of Web3 in Cloud Supply Chain Attacks",
-    "link": "https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-10-07T22:00:16.000Z",
-    "summary": "Unit 42 details how threat actors leverage Web3 infrastructure and open-source supply chain attacks to breach enterprise cloud environments\nThe post Evolution of Web3 in Cloud Supply Chain Attacks appeared first on Unit 42.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e63549e2e04b8c11",
-    "title": "Australian Gov't Weighs Mandatory AI Incident Reporting",
-    "link": "https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-07T21:42:55.000Z",
-    "summary": "In the wake of an agentic attack against its own Medicare systems, Australia's government is feeling out what regulations might look like for frontier AI companies.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
