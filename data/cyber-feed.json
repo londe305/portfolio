@@ -1,5 +1,130 @@
 [
   {
+    "id": "196d1fbeb9fc4399",
+    "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
+    "link": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-16T10:53:22.000Z",
+    "summary": "Armory Castle exploited CVE-2026-102764 for initial access, deployed custom tools, and deleted logs and artifacts.\nThe post Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-102764"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "3042b8d5fd6d0727",
+    "title": "OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks",
+    "link": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-16T10:32:11.000Z",
+    "summary": "Left without funds for a coding task, an OpenAI model spent test crypto from a stranger’s wallet and left it out of its report.\nThe post OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks appeared first on SecurityWee",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c426150a84acb2c9",
+    "title": "F5, Juniper Networks Patch Critical Vulnerabilities",
+    "link": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-16T09:54:34.000Z",
+    "summary": "Successful exploitation of some of these issues could lead to remote code execution and full device takeover.\nThe post F5, Juniper Networks Patch Critical Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7e8ace9d42e7bb3d",
+    "title": "Microsoft: October Windows update may break Smart App Control",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-16T08:44:22.000Z",
+    "summary": "Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "509b1847c72fe130",
+    "title": "Microsoft Patches Two Dozen RCE Flaws in Office",
+    "link": "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-16T07:55:06.000Z",
+    "summary": "In addition to RCE flaws, Microsoft fixed multiple information disclosure bugs and a security bypass issue in Office.\nThe post Microsoft Patches Two Dozen RCE Flaws in Office appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d342f7137dd6f95b",
+    "title": "BAE Systems cyberattack disrupts US federal court operations",
+    "link": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-16T07:37:35.000Z",
+    "summary": "The Administrative Office of the US Courts says a cyberattack on government contractor BAE Systems has taken down the notice system used by federal bankruptcy courts. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "105239e3490ab5ed",
+    "title": "Proofpoint Inks $6.3 Billion All-Cash Deal to Acquire Varonis",
+    "link": "https://www.securityweek.com/proofpoint-inks-6-3-billion-all-cash-deal-to-acquire-varonis/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-16T07:12:51.000Z",
+    "summary": "The Thoma Bravo-owned Proofpoint will acquire Varonis in an all-cash transaction and Varonis will become a private company.\nThe post Proofpoint Inks $6.3 Billion All-Cash Deal to Acquire Varonis appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1fd194e19c3dd4f6",
+    "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-16T06:55:55.000Z",
+    "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026.\n\nThe vulnerabilit",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f909b9dee009b4a3",
+    "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
+    "link": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-16T06:53:09.000Z",
+    "summary": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In said in an advisory on October 15.\n\nThe agents went beyond their assigned t",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "494b44d4ddb229eb",
+    "title": "BeyondTrust patches zero-day exploited in attacks since August",
+    "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-16T06:18:08.000Z",
+    "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5fc8c6dd8c540e0e",
+    "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+    "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-16T04:59:36.000Z",
+    "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH.\n\nThe attack involves the exploitation of CVE-2025-61624",
+    "cveIds": [
+      "CVE-2025-61624"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "dcae46e419da6d66",
     "title": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
     "link": "https://isc.sans.edu/diary/rss/33432",
@@ -2792,178 +2917,6 @@
     "category": "news",
     "pubDate": "2026-10-09T11:14:28.000Z",
     "summary": "​A Ukrainian-Russian dual citizen has pleaded guilty to running a massive money laundering operation that laundered millions for cybercriminals worldwide. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fb457f8b9aa41916",
-    "title": "Unpatched AhsayCBS Vulnerabilities Exploited in the Wild",
-    "link": "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-09T10:23:42.000Z",
-    "summary": "The flaws, CVE-2026-105133 and CVE-2026-105134, allow attackers to bypass authentication and inject OS commands.\nThe post Unpatched AhsayCBS Vulnerabilities Exploited in the Wild appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-105133",
-      "CVE-2026-105134"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "787e17da78c4227c",
-    "title": "Microsoft: Outdated Windows devices will stop receiving security updates",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-09T10:12:24.000Z",
-    "summary": "Microsoft says devices running unsupported versions of Windows will stop receiving security updates after next year's Windows Update certificate rotation. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "83d9bbf4c95402b4",
-    "title": "Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries",
-    "link": "https://www.securityweek.com/pre-baked-firmware-malware-hits-budget-android-devices-in-150-countries/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-09T09:55:35.000Z",
-    "summary": "Midnight Mimosa is the name given to a malware campaign primarily running preinstalled on low-cost Android devices.\nThe post Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d32c756e311a08bc",
-    "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
-    "link": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-09T09:03:24.000Z",
-    "summary": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then take that address over.\n\nSearchlight Cybe",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "88ecd409c6c344f2",
-    "title": "US Disrupts Chinese State-Sponsored Hacking Tools",
-    "link": "https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-09T08:36:37.000Z",
-    "summary": "Flax Typhoon and other APTs used MicroScan and FishHub to scan and hack US and foreign critical infrastructure.\nThe post US Disrupts Chinese State-Sponsored Hacking Tools appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "32035cdf444db9d3",
-    "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
-    "link": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-09T08:27:42.000Z",
-    "summary": "Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e3f3090fc550f0c0",
-    "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
-    "link": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-09T08:26:17.000Z",
-    "summary": "Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show working exploits and passes the flaws to",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "66edd2ee68b5ab33",
-    "title": "Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security",
-    "link": "https://www.securityweek.com/anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-11-firms-for-ot-security/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-09T08:19:33.000Z",
-    "summary": "OSS Scanner sends unreviewed, model-generated vulnerability reports to open source maintainers that opt in.\nThe post Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "313976c425033f79",
-    "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
-    "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-09T08:11:33.000Z",
-    "summary": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions.\n\n\"CVE-2026-107406 is a memory o",
-    "cveIds": [
-      "CVE-2026-107406"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "a02aff11f228dd91",
-    "title": "ISC Stormcast For Friday, October 9th, 2026 https://isc.sans.edu/podcastdetail/10130, (Fri, Oct 9th)",
-    "link": "https://isc.sans.edu/diary/rss/33412",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-09T07:52:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ecaa20e52e070c8d",
-    "title": "Citrix Urges Immediate Patching of Critical NetScaler Vulnerability",
-    "link": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-09T06:53:53.000Z",
-    "summary": "The security defect, tracked as CVE-2026-107406, could lead to remote code execution or denial-of-service.\nThe post Citrix Urges Immediate Patching of Critical NetScaler Vulnerability appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-107406"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "0fcaed1bfbe116a8",
-    "title": "Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own",
-    "link": "https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-09T06:39:55.000Z",
-    "summary": "$1.2 million was paid out at Pwn2Own Ireland 2026 for exploits targeting phones, printers, smart speakers, smart home hubs, and AI infrastructure and coding tools.\nThe post Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own appeare",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5448277fa97ed701",
-    "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
-    "link": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-09T06:39:29.000Z",
-    "summary": "The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon.\n\nTo that end, the agencies seized",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ca5ab3cf48f5df8e",
-    "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-09T05:41:04.000Z",
-    "summary": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1838c6d3bcfb013c",
-    "title": "Formula Predicts When AI Chatbots Are at Risk of Turning Bad",
-    "link": "https://www.securityweek.com/formula-predicts-when-ai-chatbots-are-at-risk-of-turning-bad/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-09T04:12:38.000Z",
-    "summary": "Researchers from George Washington University have published a paper examining whether the time and cause of AI going rogue can be predicted.\nThe post Formula Predicts When AI Chatbots Are at Risk of Turning Bad appeared first on SecurityWe",
     "cveIds": [],
     "severity": "normal"
   }
