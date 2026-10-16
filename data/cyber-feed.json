@@ -1,5 +1,148 @@
 [
   {
+    "id": "6c93682bf2887395",
+    "title": "Proofpoint lines up $6.3 billion deal for Varonis’ data security",
+    "link": "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-16T14:45:00.000Z",
+    "summary": "Cybersecurity giant Proofpoint says it will acquire Miami-based data visibility and security company Varonis in an all-cash transaction worth $6.3 billion.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7a1f49cfc7152176",
+    "title": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
+    "link": "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-16T14:09:51.000Z",
+    "summary": "Noteworthy stories that might have slipped under the radar: BofA adds 1,000 patching contractors, KGB RAT pairs data theft with jump scares, and Langflow flaw under attack.\nThe post In Other News: ICS-Sniper Attack, Hacking XWorm Malware Op",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "82bd71e8965df8d7",
+    "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+    "link": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-16T14:03:04.000Z",
+    "summary": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurre",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "834a248937dfd68d",
+    "title": "When Your Ransomware Negotiator Works for the Other Side",
+    "link": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-16T14:00:00.000Z",
+    "summary": "The shocking arrest of a well-known ransomware negotiator reveals the critical need for vendor program oversight.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d269ee990910b8f5",
+    "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
+    "link": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-16T13:50:59.000Z",
+    "summary": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "39925f2a643ee3f3",
+    "title": "Moscow police detain suspected DataSuckers hackers linked to breaches in Ukraine and Russia",
+    "link": "https://therecord.media/russia-datasuckers-hackers-arrested",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-16T13:30:00.000Z",
+    "summary": "Russian authorities have reportedly detained three suspected members of the DataSuckers hacking group following a cyberattack on a popular restaurant chain that exposed vast amounts of customer information.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "38208afe28ec700d",
+    "title": "Baltimore suburb confirms August data breach after ransomware claims",
+    "link": "https://therecord.media/anne-arundel-county-maryland-confirms-data-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-16T13:05:00.000Z",
+    "summary": "Anne Arundel County, Maryland, said an intruder stole files from government systems, and investigators are working to assess how much data was exposed.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "48b9aea0ee8325ee",
+    "title": "When AI Agents Commit Breaches, Humans May Not Be Held Liable",
+    "link": "https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-16T13:00:00.000Z",
+    "summary": "As agents escape containment and access external systems, responsibility remains human. Accountability, however, is much less settled.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0fb423df84c7cd92",
+    "title": "Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day",
+    "link": "https://therecord.media/beyond-trust-cyberattack-china",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-16T13:00:00.000Z",
+    "summary": "An alleged Chinese state-backed group is using a new zero-day affecting BeyondTrust IT support software to conduct espionage attacks.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "862e2db1b4e06358",
+    "title": "Burger King Japan data breach exposes 11 million customer records",
+    "link": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-16T12:01:29.000Z",
+    "summary": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bb92e43802cb88b0",
+    "title": "Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials",
+    "link": "https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-16T12:00:00.000Z",
+    "summary": "CISA and the Federal Bureau of Investigation (FBI) released a Public Service Announcement (PSA) warning election and campaign officials about cyber threats during the 2026 U.S. midterm elections. Malicious cyber actors may use phishing and ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "754b8af5c24d4555",
+    "title": "BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts",
+    "link": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-16T11:46:40.000Z",
+    "summary": "A cyber incident affecting contractor BAE Systems has knocked out the Bankruptcy Noticing Center, halting notices nationwide for a week.\nThe post BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts appeared first on Secur",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "61ac6bfaa7c9de55",
+    "title": "AI Decision Models and Their Impact on AI SOC Platforms",
+    "link": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-16T11:30:00.000Z",
+    "summary": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decis",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "196d1fbeb9fc4399",
     "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
     "link": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
@@ -1404,6 +1547,116 @@
     "severity": "normal"
   },
   {
+    "id": "d1a616b81f5648a6",
+    "title": "Multiples vulnérabilités dans Curl (14 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1307/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Curl. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des do",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e2c35c8caca8a815",
+    "title": "Multiples vulnérabilités dans Google Chrome (14 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1308/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0b56006829d3f687",
+    "title": "Vulnérabilité dans Zabbix (14 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1309/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Zabbix. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "244f54511b9cb362",
+    "title": "Multiples vulnérabilités dans les produits Citrix (14 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1310/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c5390b534e04be74",
+    "title": "Multiples vulnérabilités dans les produits Ivanti (14 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1311/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Ivanti. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confident",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "97bc464f4f004115",
+    "title": "Multiples vulnérabilités dans Microsoft Office (14 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1312/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Office. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidential",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2c42105f6944c166",
+    "title": "Multiples vulnérabilités dans Microsoft .Net (14 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1313/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft .Net. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f9aac22768bb592f",
+    "title": "Multiples vulnérabilités dans Microsoft Windows (14 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1314/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7d5a7831b0849142",
+    "title": "Multiples vulnérabilités dans Microsoft Azure (14 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1315/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentiali",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "20d7b75dc7493ef0",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (14 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1316/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dis",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "83d130e7ba9f7dd1",
     "title": "Microsoft Patches More Than 1,400 Security Flaws",
     "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
@@ -2042,28 +2295,6 @@
     "severity": "normal"
   },
   {
-    "id": "d5d38c123c97be60",
-    "title": "Vulnérabilité dans NetApp StorageGRID (13 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1295/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-13T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans NetApp StorageGRID. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6b1ea4ab8e897ff9",
-    "title": "Vulnérabilité dans Typo3 (13 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1296/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-13T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Typo3. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "9d1407548031a610",
     "title": "Multiples vulnérabilités dans Mozilla Firefox (13 octobre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1297/",
@@ -2104,6 +2335,28 @@
     "category": "advisory",
     "pubDate": "2026-10-13T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injectio",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d5d38c123c97be60",
+    "title": "Vulnérabilité dans NetApp StorageGRID (13 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1295/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-13T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans NetApp StorageGRID. Elle permet à un attaquant de provoquer un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6b1ea4ab8e897ff9",
+    "title": "Vulnérabilité dans Typo3 (13 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1296/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-13T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Typo3. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2708,216 +2961,5 @@
     "summary": "The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Director Kash Patel announced Friday. [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "3a2f3756dcccab76",
-    "title": "Security Threats Don't Stop at the Office: Why Executives' Families Need Training, Too",
-    "link": "https://www.darkreading.com/cyber-risk/security-threats-don-t-stop-at-the-office-why-executives-families-need-training-too",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-09T16:25:05.000Z",
-    "summary": "Those closest to executives must match their security postures because the weakest link in a family can become the entry point for attacks.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "10b8bb252112bd70",
-    "title": "Hundreds of thousands impacted by data breach at biosensor firm iRhythm",
-    "link": "https://therecord.media/irhythm-data-breach-reports",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-09T16:06:00.000Z",
-    "summary": "A company known for wearable cardiac sensors, iRhythm, has begun notifying states of the impact of a data breach from the summer.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "18c9215142f8bc9b",
-    "title": "Leader of vast money mule operation that laundered cybercriminal proceeds pleads guilty",
-    "link": "https://therecord.media/leader-of-money-mule-operation-for-cybercriminals-pleads-guilty",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-09T16:06:00.000Z",
-    "summary": "Oleg Korniev, a 42-year-old dual citizen of Ukraine and Russia, was a principal of Your Mule Cashout, or “YMCO,” which from 2007 until 2014 set up a sophisticated network of mules in the U.S. and Europe.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0419de820a0c85c8",
-    "title": "FBI touts another ShinyHunters arrest in response to data breach",
-    "link": "https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-09T15:41:00.000Z",
-    "summary": "“We will continue to work closely with our partners to disrupt what’s left of the ShinyHunters group and their associates, no matter where they operate,\" FBI Director Kash Patel said.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a107c9394b7b5ab5",
-    "title": "Germany arrests alleged core Qilin ransomware member after extradition",
-    "link": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-09T15:38:56.000Z",
-    "summary": "Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan earlier this month. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b6413b14b402662f",
-    "title": "Belarusian hacktivists admit to 2023 breach of Russian state healthcare network",
-    "link": "https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-09T14:40:00.000Z",
-    "summary": "The Belarusian Cyber Partisans concurred with Russian research that they indeed spent months inside the network for the Moscow Department of Health.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1fa3e25e62634a72",
-    "title": "How to keep AI agents within their permissions",
-    "link": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-09T14:01:11.000Z",
-    "summary": "AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent. Token Security explains how organizations can enforce agent-specific policies without",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e96ba9baabd04a99",
-    "title": "OpenAI says it disrupted Russian and Iranian influence ops that used ChatGPT",
-    "link": "https://therecord.media/openai-disrupts-russian-iranian-operations-chatgpt",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-09T13:50:00.000Z",
-    "summary": "A Latin American propaganda operation run by Russians and a cluster of Iranian fake journalist identities each had help from now-closed ChatGPT accounts, OpenAI's safety team said.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "55864660cd86f4ba",
-    "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
-    "link": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-09T13:22:53.000Z",
-    "summary": "Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with  Texas filing a suit in February. Florida, Iowa, Montana and Nebraska allege the California company misled buyers about how secure its ro",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "90f8d938cf4bba50",
-    "title": "Social Engineering AI Agents: The New BEC for 2026",
-    "link": "https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-09T13:00:00.000Z",
-    "summary": "As AI agents gain authority over business systems, attackers can manipulate them like business email compromise (BEC) victims.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "addcfda79adda4a8",
-    "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
-    "link": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-09T12:59:22.000Z",
-    "summary": "Security researchers have published a full working exploit for a pre-authentication remote code execution flaw in AnyDesk Linux that gives attackers root access before anyone approves the connection.\n\nAnyDesk patched the flaw in version 8.0",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "04cd634844344647",
-    "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
-    "link": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-09T12:47:28.000Z",
-    "summary": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI).\n\n\"It's an opt-in service informed by our experience using Claude to find vulnerabilit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2ce4fb4e00ced6de",
-    "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
-    "link": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-09T12:47:26.000Z",
-    "summary": "Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners.\n\nDetails of the flaws are below -\n\n\n  CVE-20",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "20b164c89d6db3ad",
-    "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-09T12:32:16.000Z",
-    "summary": "Attackers are exploiting a maximum-severity vulnerability in SonicWall SMA1000 appliances (CVE-2026-102255) that was patched on Tuesday, three days ago. [...]",
-    "cveIds": [
-      "CVE-2026-102255"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "83f8612997a50a58",
-    "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
-    "link": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-09T12:21:51.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse by a China-linked threat actor known as Flax Typhoon.\n\nThe vu",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a1b83b422572aeb6",
-    "title": "In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years",
-    "link": "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-09T12:03:50.000Z",
-    "summary": "Noteworthy stories that might have slipped under the radar: Tensorlake npm SDK compromised, Empire Market co-founder gets 40 years, exposed NVIDIA GPU monitors leak telemetry.\nThe post In Other News: AI Used in Korean Bank Breaches, Poem-Gu",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d7b1358761f96170",
-    "title": "Google Domains Impacted by Recent ccTLD Hijacks",
-    "link": "https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-09T11:43:14.000Z",
-    "summary": "Hackers hijacked the .gh, .sl, and .as ccTLDs and obtained HTTPS certificates for several Google domains.\nThe post Google Domains Impacted by Recent ccTLD Hijacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b7ae45cc252807b0",
-    "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
-    "link": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-09T11:30:00.000Z",
-    "summary": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The \"Horizons of Identity Security\" report from SailPoint highlights a cr",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fda7c383ea620e0d",
-    "title": "Man admits to running network of 15,000 money mules for cybercriminals",
-    "link": "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-09T11:14:28.000Z",
-    "summary": "​A Ukrainian-Russian dual citizen has pleaded guilty to running a massive money laundering operation that laundered millions for cybercriminals worldwide. [...]",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
