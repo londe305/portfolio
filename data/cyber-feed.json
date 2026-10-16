@@ -1,5 +1,16 @@
 [
   {
+    "id": "15367a3259ffd977",
+    "title": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
+    "link": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-16T20:34:37.000Z",
+    "summary": "Ivanti, Cisco, and Palo Alto Networks all had vulnerabilities in edge devices come under fire this week. Now BeyondTrust joins the group.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "8dfac5c34b84f531",
     "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
     "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
@@ -233,17 +244,6 @@
     "severity": "critical"
   },
   {
-    "id": "bb92e43802cb88b0",
-    "title": "Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials",
-    "link": "https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-16T12:00:00.000Z",
-    "summary": "CISA and the Federal Bureau of Investigation (FBI) released a Public Service Announcement (PSA) warning election and campaign officials about cyber threats during the 2026 U.S. midterm elections. Malicious cyber actors may use phishing and ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "06ca72ec747dbc6e",
     "title": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation",
     "link": "https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation",
@@ -251,6 +251,30 @@
     "category": "advisory",
     "pubDate": "2026-10-16T12:00:00.000Z",
     "summary": "The National Institute of Standards and Technology (NIST), National Security Agency’s Super Intelligence Security Center (NSA SISC) and Cybersecurity and Infrastructure Security Agency (CISA) published Key Practices for Incident Readiness a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "432b50edcc433b9f",
+    "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-16T12:00:00.000Z",
+    "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764, affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organization",
+    "cveIds": [
+      "CVE-2026-102764"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "bb92e43802cb88b0",
+    "title": "Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials",
+    "link": "https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-16T12:00:00.000Z",
+    "summary": "CISA and the Federal Bureau of Investigation (FBI) released a Public Service Announcement (PSA) warning election and campaign officials about cyber threats during the 2026 U.S. midterm elections. Malicious cyber actors may use phishing and ",
     "cveIds": [],
     "severity": "normal"
   },
@@ -759,6 +783,39 @@
     "severity": "critical"
   },
   {
+    "id": "44340f73a37a85b5",
+    "title": "Thermo Fisher Torrent Suite Software",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to read arbitrary files on the Torrent Server.\nThe following versions of Thermo Fisher Torrent Suite Software are affected:\nTorrent Suite Software <=5.1",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3614fc45f0718791",
+    "title": "J4Care dcm4che",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to delete stored medical images, disclose patient information, inject forged studies, reassign patient records, overwrite files, and cause a denial-o",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5986d280508615cc",
+    "title": "Guangzhou Juan IoT Technology EseeCloud",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain control over affected IP cameras.\nThe following versions of Guangzhou Juan IoT Technology EseeCloud are affected:\nEseeCloud App <=4.9.6 (CVE-",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "612d5be66bbd62dd",
     "title": "Eclipse Foundation Eclipse Milo",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
@@ -768,6 +825,19 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to delete protected data, recover user credentials and impersonate legitimate users, or cause the server to stop responding to all clients.\nThe follo",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "6f0ecd5cfa136f8e",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-15T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-21589 Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerabilit",
+    "cveIds": [
+      "CVE-2026-21589"
+    ],
+    "severity": "cve"
   },
   {
     "id": "4fe27da81f0e08d0",
@@ -787,52 +857,6 @@
       "CVE-2026-107362"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "6f0ecd5cfa136f8e",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-15T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-21589 Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerabilit",
-    "cveIds": [
-      "CVE-2026-21589"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "5986d280508615cc",
-    "title": "Guangzhou Juan IoT Technology EseeCloud",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain control over affected IP cameras.\nThe following versions of Guangzhou Juan IoT Technology EseeCloud are affected:\nEseeCloud App <=4.9.6 (CVE-",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3614fc45f0718791",
-    "title": "J4Care dcm4che",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to delete stored medical images, disclose patient information, inject forged studies, reassign patient records, overwrite files, and cause a denial-o",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "44340f73a37a85b5",
-    "title": "Thermo Fisher Torrent Suite Software",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to read arbitrary files on the Torrent Server.\nThe following versions of Thermo Fisher Torrent Suite Software are affected:\nTorrent Suite Software <=5.1",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "3565d45fa9724e1b",
@@ -2240,13 +2264,13 @@
     "severity": "normal"
   },
   {
-    "id": "dcbc0b756373701f",
-    "title": "Swann Communications SWIFI-SE2KIC",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02",
+    "id": "2e60464ac9ed8db6",
+    "title": "Inductive Automation Ignition Software",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-10-13T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to view video information without authentication.\nThe following versions of Swann Communications SWIFI-SE2KIC are affected:\nSWIFI-SE2KIC firmware <=2",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level.\nThe following versions of Inductive Automation Ignition Software are affected:\nIgnit",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2264,13 +2288,13 @@
     "severity": "cve"
   },
   {
-    "id": "2e60464ac9ed8db6",
-    "title": "Inductive Automation Ignition Software",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
+    "id": "dcbc0b756373701f",
+    "title": "Swann Communications SWIFI-SE2KIC",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-10-13T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level.\nThe following versions of Inductive Automation Ignition Software are affected:\nIgnit",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to view video information without authentication.\nThe following versions of Swann Communications SWIFI-SE2KIC are affected:\nSWIFI-SE2KIC firmware <=2",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2983,28 +3007,6 @@
     "category": "news",
     "pubDate": "2026-10-10T00:17:42.000Z",
     "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive d",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "074da747e4e4f790",
-    "title": "OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks",
-    "link": "https://www.securityweek.com/openai-fires-3-safety-researchers-in-dispute-over-ai-risks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-09T21:07:46.000Z",
-    "summary": "The ChatGPT maker said the researchers  \"violated clear policies on handling sensitive information.”\nThe post OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "edcc711b1e7a119f",
-    "title": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-09T20:58:32.000Z",
-    "summary": "The attack on the British retailer shows that compromising a single identity can lead to much deeper penetration of the corporate network.",
     "cveIds": [],
     "severity": "critical"
   }
