@@ -1,5 +1,128 @@
 [
   {
+    "id": "8dfac5c34b84f531",
+    "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-16T20:00:59.000Z",
+    "summary": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
+    "cveIds": [
+      "CVE-2026-103849"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "8e2b4b8581aaf0f3",
+    "title": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
+    "link": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-16T19:49:30.000Z",
+    "summary": "Campaigns that impersonate popular AI brands are on the rise, and they typically use ClickFix-like tactics to target unsuspecting enterprise employees.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b8b7cb7d4b497f6a",
+    "title": "Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform",
+    "link": "https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-16T19:22:12.000Z",
+    "summary": "The launch follows the acquisition of catalog's assets and the appointment of Laurent Guengant as CEO earlier this year.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "714d202db5965001",
+    "title": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
+    "link": "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-16T19:13:59.000Z",
+    "summary": "Companies are increasingly discovering that the challenge with AI is no longer adoption, but execution.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0a02340233325a55",
+    "title": "AI Takes Control of Robotic Arm in 16 Minutes Flat",
+    "link": "https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-16T18:37:50.000Z",
+    "summary": "Most OT devices at utilities, factories, and elsewhere have been deployed for a decade or more, but operators need to get agile and deploy new cyber defenses.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2f67e7ff74fc3554",
+    "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+    "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-16T17:48:45.000Z",
+    "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardw",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a273e26d1615cc31",
+    "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
+    "link": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-10-16T17:47:54.000Z",
+    "summary": "Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing\nThe post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "50880c900177e28f",
+    "title": "Targeted ads installed Candiru spyware in zero-click attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-16T17:20:03.000Z",
+    "summary": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2f6312b7767d6c54",
+    "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+    "link": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-16T16:43:39.000Z",
+    "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7ca539292393b052",
+    "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+    "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-16T16:16:44.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (Ait",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c094ac3382c932e1",
+    "title": "Managing open-weight model risk in enterprise deployments",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-10-16T16:00:00.000Z",
+    "summary": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls.\nThe post Managing open-weight model risk in enterprise deployments appeared first on Microsoft S",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "6c93682bf2887395",
     "title": "Proofpoint lines up $6.3 billion deal for Varonis’ data security",
     "link": "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
@@ -119,6 +242,31 @@
     "summary": "CISA and the Federal Bureau of Investigation (FBI) released a Public Service Announcement (PSA) warning election and campaign officials about cyber threats during the 2026 U.S. midterm elections. Malicious cyber actors may use phishing and ",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "06ca72ec747dbc6e",
+    "title": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation",
+    "link": "https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-16T12:00:00.000Z",
+    "summary": "The National Institute of Standards and Technology (NIST), National Security Agency’s Super Intelligence Security Center (NSA SISC) and Cybersecurity and Infrastructure Security Agency (CISA) published Key Practices for Incident Readiness a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ce00994aa82d30b1",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-16T12:00:00.000Z",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2025-61624 Fortinet Multiple Products Path Traversal Vulnerability\nCVE-2026-102764 BeyondTrust Remote",
+    "cveIds": [
+      "CVE-2025-61624",
+      "CVE-2026-102764"
+    ],
+    "severity": "cve"
   },
   {
     "id": "754b8af5c24d4555",
@@ -611,52 +759,6 @@
     "severity": "critical"
   },
   {
-    "id": "44340f73a37a85b5",
-    "title": "Thermo Fisher Torrent Suite Software",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to read arbitrary files on the Torrent Server.\nThe following versions of Thermo Fisher Torrent Suite Software are affected:\nTorrent Suite Software <=5.1",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3614fc45f0718791",
-    "title": "J4Care dcm4che",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to delete stored medical images, disclose patient information, inject forged studies, reassign patient records, overwrite files, and cause a denial-o",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5986d280508615cc",
-    "title": "Guangzhou Juan IoT Technology EseeCloud",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain control over affected IP cameras.\nThe following versions of Guangzhou Juan IoT Technology EseeCloud are affected:\nEseeCloud App <=4.9.6 (CVE-",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6f0ecd5cfa136f8e",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-15T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-21589 Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerabilit",
-    "cveIds": [
-      "CVE-2026-21589"
-    ],
-    "severity": "cve"
-  },
-  {
     "id": "612d5be66bbd62dd",
     "title": "Eclipse Foundation Eclipse Milo",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
@@ -685,6 +787,52 @@
       "CVE-2026-107362"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "6f0ecd5cfa136f8e",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-15T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-21589 Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerabilit",
+    "cveIds": [
+      "CVE-2026-21589"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "5986d280508615cc",
+    "title": "Guangzhou Juan IoT Technology EseeCloud",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain control over affected IP cameras.\nThe following versions of Guangzhou Juan IoT Technology EseeCloud are affected:\nEseeCloud App <=4.9.6 (CVE-",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3614fc45f0718791",
+    "title": "J4Care dcm4che",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to delete stored medical images, disclose patient information, inject forged studies, reassign patient records, overwrite files, and cause a denial-o",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "44340f73a37a85b5",
+    "title": "Thermo Fisher Torrent Suite Software",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to read arbitrary files on the Torrent Server.\nThe following versions of Thermo Fisher Torrent Suite Software are affected:\nTorrent Suite Software <=5.1",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "3565d45fa9724e1b",
@@ -2092,17 +2240,6 @@
     "severity": "normal"
   },
   {
-    "id": "2e60464ac9ed8db6",
-    "title": "Inductive Automation Ignition Software",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-13T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level.\nThe following versions of Inductive Automation Ignition Software are affected:\nIgnit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "dcbc0b756373701f",
     "title": "Swann Communications SWIFI-SE2KIC",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02",
@@ -2127,18 +2264,15 @@
     "severity": "cve"
   },
   {
-    "id": "6fc0afa0da6f2aee",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "id": "2e60464ac9ed8db6",
+    "title": "Inductive Automation Ignition Software",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-10-13T12:00:00.000Z",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-96951 Microsoft Windows Command Injection Vulnerability\nCVE-2026-104935 Ivanti Connect Secure Au",
-    "cveIds": [
-      "CVE-2026-96951",
-      "CVE-2026-104935"
-    ],
-    "severity": "cve"
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level.\nThe following versions of Inductive Automation Ignition Software are affected:\nIgnit",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "f42a122e5dac462a",
@@ -2871,94 +3005,6 @@
     "category": "news",
     "pubDate": "2026-10-09T20:58:32.000Z",
     "summary": "The attack on the British retailer shows that compromising a single identity can lead to much deeper penetration of the corporate network.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c85e183aba75c070",
-    "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-09T20:31:37.000Z",
-    "summary": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7a7f58a87f0e99e7",
-    "title": "AI Scramble Drives Cybersecurity M&amp;A Boom",
-    "link": "https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-09T19:26:26.000Z",
-    "summary": "Welcome to another gangbuster year for strategic M&A activity in cyber, with 117 deals announced in the latest quarter. What's different: Many of the buyers are not your typical cybersecurity firms.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fbb467666674859b",
-    "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
-    "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-09T19:14:28.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories.\n\n\"Using the account of T",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "29cdd129a5d65d01",
-    "title": "Japan confirms arrest of Russian Qilin operative, extradition to Germany",
-    "link": "https://therecord.media/japan-germany-ransomware-arrest",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-09T18:45:00.000Z",
-    "summary": "Japan’s National Police Agency confirmed the arrest and extradition to Germany of a Russian national accused of being involved in the Qilin ransomware gang.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "43d8a91bc2a7ef23",
-    "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
-    "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-09T17:45:26.000Z",
-    "summary": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X.\n\nShinyHunters is the extortion group that said in September it had breached the FBI's jobs portal and stolen se",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5d21e50f10d37cc8",
-    "title": "What We Missed: FBI Strikes Back at ShinyHunters",
-    "link": "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-09T17:21:00.000Z",
-    "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the arrest of a suspected ShinyHunters operative to the compromise of a Pentagon-run data center.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "14225bdacc0ea199",
-    "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
-    "link": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-09T17:17:23.000Z",
-    "summary": "Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform to deploy webshells and cryptocurrency miners. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3e81c73975d205ef",
-    "title": "FBI arrests another suspected ShinyHunters hacker after agency breach",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-09T17:02:29.000Z",
-    "summary": "The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Director Kash Patel announced Friday. [...]",
     "cveIds": [],
     "severity": "critical"
   }
