@@ -1,5 +1,71 @@
 [
   {
+    "id": "dcae46e419da6d66",
+    "title": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
+    "link": "https://isc.sans.edu/diary/rss/33432",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-16T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "92d5abc10ae9799e",
+    "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
+    "link": "https://isc.sans.edu/diary/rss/33430",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-16T00:46:35.000Z",
+    "summary": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e981b7de3fc104c8",
+    "title": "Panchan's Mining Island &#x5b;Guest Diary&#x5d;, (Wed, Oct 14th)",
+    "link": "https://isc.sans.edu/diary/rss/33426",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-15T23:03:42.000Z",
+    "summary": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3f1030ed0e261f81",
+    "title": "SecTor 2026 Reveals a Rapidly Shifting Cybersecurity Landscape",
+    "link": "https://www.darkreading.com/cybersecurity-operations/sector-2026-reveals-a-rapidly-shifting-cybersecurity-landscape",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-15T22:10:08.000Z",
+    "summary": "The event closed in Toronto last week, with experts sharing critical perspectives on emerging risks, drawing record attendance and marking 22% growth.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7b5a8b8caa1d77df",
+    "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+    "link": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-10-15T22:00:09.000Z",
+    "summary": "Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft.\nThe post AI-Powered Espionage Campaign Targets Government Linux Infrastructure appeared ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5921092180ebaec2",
+    "title": "F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud",
+    "link": "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-15T21:55:07.000Z",
+    "summary": "Built from decades of threat intelligence research, the new resource explains scams from the victims' perspective and tracks emerging forms of cyber crime.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "c5cb3c9094bdd955",
     "title": "Federal bankruptcy courts dealing with outages after contractor cyberattack",
     "link": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
@@ -549,17 +615,6 @@
     "category": "advisory",
     "pubDate": "2026-10-15T02:00:03.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e981b7de3fc104c8",
-    "title": "Panchan's Mining Island &#x5b;Guest Diary&#x5d;, (Wed, Oct 14th)",
-    "link": "https://isc.sans.edu/diary/rss/33426",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-15T01:10:57.000Z",
-    "summary": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2911,115 +2966,5 @@
     "summary": "Researchers from George Washington University have published a paper examining whether the time and cause of AI going rogue can be predicted.\nThe post Formula Predicts When AI Chatbots Are at Risk of Turning Bad appeared first on SecurityWe",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "605976e12a98d301",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1287/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a41b03e4adbf0925",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1288/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et une atteinte à la confidentialité",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7ff506dc850db3d3",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1289/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de servi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ffd9bc594ff9f803",
-    "title": "Multiples vulnérabilités dans Apache Struts (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1290/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Apache Struts. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentiali",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "233b7d07cb963dc7",
-    "title": "Multiples vulnérabilités dans les produits IBM (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1291/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "806d32986c50c9ae",
-    "title": "Multiples vulnérabilités dans les produits Nextcloud (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1283/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Nextcloud. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a6d2dc1cbc43d115",
-    "title": "Vulnérabilité dans les produits Tenable (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1284/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-09T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Tenable. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. L'éditeur indique qu'une réinstallation d'un composant est nécessaire après la mise à jour.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "db9869c476807203",
-    "title": "Vulnérabilité dans Citrix NetScaler ADC et Gateway (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1285/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-09T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Citrix NetScaler ADC et Gateway. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e558096d876a3561",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1286/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-09T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "290af517c2440577",
-    "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-08T21:42:51.000Z",
-    "summary": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organizations worldwide. [..",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
