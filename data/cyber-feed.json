@@ -2987,27 +2987,5 @@
     "summary": "The Traffic Light Protocol (TLP)[1], which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if so, how far).",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "f017826fccf18312",
-    "title": "Co-creator of Empire Market dark web marketplace given 40-year sentence",
-    "link": "https://therecord.media/co-creator-empire-dark-net-market-sentenced",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-10T00:55:00.000Z",
-    "summary": "Raheim Hamilton, 30, pleaded guilty earlier this year to a drug conspiracy charge and agreed to forfeit more than $100 million worth of Bitcoin and several properties in Virginia.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7f5dd566b2dd8d8c",
-    "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-    "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-10-10T00:17:42.000Z",
-    "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive d",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
