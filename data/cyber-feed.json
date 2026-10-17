@@ -1,5 +1,16 @@
 [
   {
+    "id": "b3dabcb4d0c0986a",
+    "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+    "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-17T06:16:46.000Z",
+    "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unautho",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "15367a3259ffd977",
     "title": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
     "link": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
@@ -2963,28 +2974,6 @@
     "category": "news",
     "pubDate": "2026-10-10T11:00:00.000Z",
     "summary": "The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company’s servers.\nThe post Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison appe",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ebcd6167a2366d08",
-    "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-    "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-10T09:18:45.000Z",
-    "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations until further notice following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "62262d39b0ff74ca",
-    "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
-    "link": "https://isc.sans.edu/diary/rss/33414",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-10T09:11:34.000Z",
-    "summary": "The Traffic Light Protocol (TLP)[1], which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if so, how far).",
     "cveIds": [],
     "severity": "normal"
   }
