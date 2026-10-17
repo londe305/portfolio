@@ -1,5 +1,49 @@
 [
   {
+    "id": "74a44f824ba0950d",
+    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-17T15:18:51.000Z",
+    "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "43fc56afbb2752b5",
+    "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+    "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-17T14:32:48.000Z",
+    "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1fae9cde44bf146f",
+    "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+    "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-17T11:11:56.000Z",
+    "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.\n\nThe package, named \"imgdecode,\" was uploaded to the package registry on September 30",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2956b1e39e10f98f",
+    "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
+    "link": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-17T11:00:00.000Z",
+    "summary": "Israeli company Discover-Tech’s ads allow threat actors to fingerprint and track devices at scale and infect selected targets.\nThe post Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "b3dabcb4d0c0986a",
     "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
     "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
@@ -2919,61 +2963,6 @@
     "category": "news",
     "pubDate": "2026-10-11T04:24:34.000Z",
     "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.\n\n\"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keycha",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5d6a58b64149d79d",
-    "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
-    "link": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-10T15:07:54.000Z",
-    "summary": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bef374d68721303c",
-    "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
-    "link": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-10T14:16:17.000Z",
-    "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bc479026f8262792",
-    "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-    "link": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-10T12:30:39.000Z",
-    "summary": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigati",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4f95732c4969a235",
-    "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-    "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-10T11:00:00.000Z",
-    "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not b",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bf4931f049834009",
-    "title": "Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison",
-    "link": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-10T11:00:00.000Z",
-    "summary": "The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company’s servers.\nThe post Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison appe",
     "cveIds": [],
     "severity": "normal"
   }
