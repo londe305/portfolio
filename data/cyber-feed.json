@@ -1,5 +1,16 @@
 [
   {
+    "id": "952b3a6c7b9c760d",
+    "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+    "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-18T08:23:02.000Z",
+    "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromis",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "74a44f824ba0950d",
     "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
@@ -2952,17 +2963,6 @@
     "category": "news",
     "pubDate": "2026-10-11T14:23:46.000Z",
     "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dc7b54e8c00ace09",
-    "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-    "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-11T04:24:34.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword.\n\n\"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keycha",
     "cveIds": [],
     "severity": "normal"
   }
