@@ -1,5 +1,38 @@
 [
   {
+    "id": "74ff0a30f9fe582b",
+    "title": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-18T14:23:16.000Z",
+    "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d33178f3f117c66b",
+    "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
+    "link": "https://isc.sans.edu/diary/rss/33434",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-18T12:59:30.000Z",
+    "summary": "Here is the YARA rule I used to detect \"Orphaned VBA Projects Inside DWG Files\".",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7e978702ff2e8fcc",
+    "title": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
+    "link": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-18T11:00:00.000Z",
+    "summary": "CyberSN’s Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It’s a mixed bag.\nThe post US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "952b3a6c7b9c760d",
     "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
     "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
@@ -2952,17 +2985,6 @@
     "category": "news",
     "pubDate": "2026-10-11T23:00:00.000Z",
     "summary": "A cyberattack overnight Sunday disrupted refrigerators at hundreds of French supermarkets, spoiling fresh food at stores run by some of the country’s largest grocery chains.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4c28b0c9be31eae9",
-    "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-    "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-11T14:23:46.000Z",
-    "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
     "cveIds": [],
     "severity": "normal"
   }
