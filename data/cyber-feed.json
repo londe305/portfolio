@@ -1,7 +1,7 @@
 [
   {
     "id": "74ff0a30f9fe582b",
-    "title": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
+    "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
     "source": "BleepingComputer",
     "category": "news",
