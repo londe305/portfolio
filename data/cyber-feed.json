@@ -1,5 +1,126 @@
 [
   {
+    "id": "1f63abf1d8df5433",
+    "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-19T12:44:44.000Z",
+    "summary": "Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Windows users. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bcca2fd24d4b1478",
+    "title": "Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure",
+    "link": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-19T12:44:39.000Z",
+    "summary": "Threat actors have been observed delivering cryptocurrency miners and proxy software.\nThe post Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6e3176643ea9a3e9",
+    "title": "One Compromised Login Exposed Millions of California Students’ Records",
+    "link": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-19T11:55:50.000Z",
+    "summary": "Intruders used compromised credentials to access an ETS SFTP server, copying records of California students back to 2006.\nThe post One Compromised Login Exposed Millions of California Students’ Records appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5368079cd481f9c0",
+    "title": "Hackers steal customer data from major Russian hosting provider FirstVDS",
+    "link": "https://therecord.media/russia-cyberattack-firstvds-cloud",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-19T11:45:00.000Z",
+    "summary": "Hackers have stolen passwords, access credentials and other sensitive data belonging to customers of Russian hosting provider FirstVDS after exploiting a vulnerability in software used to manage its servers.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3e1eacecc51d1346",
+    "title": "Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack",
+    "link": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-19T11:13:23.000Z",
+    "summary": "The persistent, stealthy FortiGate implant was deployed against a telecommunications organization.\nThe post Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0534f19063379abe",
+    "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+    "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-19T10:06:40.000Z",
+    "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "82c7537f544bd2c1",
+    "title": "MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks",
+    "link": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-19T09:37:04.000Z",
+    "summary": "Defenders get 15 new detection strategies, six for Enterprise and nine for ICS, backed by 38 analytics.\nThe post MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "15156651e22133c3",
+    "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-19T08:58:41.000Z",
+    "summary": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5c0bebf27f102ae9",
+    "title": "Anthropic Acquires Confidential AI Startup Opaque Systems",
+    "link": "https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-19T07:45:25.000Z",
+    "summary": "Opaque Systems has developed technology that lets AI systems use sensitive data while keeping it protected by the underlying hardware.\nThe post Anthropic Acquires Confidential AI Startup Opaque Systems appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f519e0b522d74ec3",
+    "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+    "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-19T06:29:44.000Z",
+    "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser disclosed on October 16.\n\nHe show",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1de1c48ce23bc8e5",
+    "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+    "link": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-19T06:07:08.000Z",
+    "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.\n\nConsole is OpenCode's optional hosted service: a w",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "74ff0a30f9fe582b",
     "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
@@ -2772,165 +2893,5 @@
     "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "f09be95f6cf35236",
-    "title": "Passing the Baton: Dark Reading Names New Editor-in-Chief",
-    "link": "https://www.darkreading.com/cyber-risk/passing-baton-dark-reading-new-editor-in-chief",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-12T12:30:58.000Z",
-    "summary": "Fahmida Y. Rashid will keep the momentum going as she leads Dark Reading.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "128ef325e330dc61",
-    "title": "Ukraine strikes third Yandex data center, disrupting digital services across Russia",
-    "link": "https://therecord.media/ukraine-strikes-third-yandex-data-center",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-12T12:00:00.000Z",
-    "summary": "A third Yandex data center in Russia was hit by Ukrainian drones over the weekend, forcing it to shut down and causing further disruptions to cloud services, payments, deliveries and other online services across the country.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "89310c4a866bdb92",
-    "title": "Canonical Websites Disrupted in Second DDoS Attack This Year",
-    "link": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-12T11:58:39.000Z",
-    "summary": "The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal.\nThe post Canonical Websites Disrupted in Second DDoS Attack This Year appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fb25f61ae2914f48",
-    "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-12T11:58:33.000Z",
-    "summary": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates next month. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "172b933e4740eeca",
-    "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
-    "link": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-12T11:55:00.000Z",
-    "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty muc",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "876fc8d20364ae3d",
-    "title": "Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US",
-    "link": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-12T11:24:50.000Z",
-    "summary": "Oleg Korniev was a leader of YMCO, a sophisticated network of money mules that helped hackers move funds outside the US.\nThe post Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7be825a80966799c",
-    "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
-    "link": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-12T11:21:48.000Z",
-    "summary": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller.\n\nOn Friday, the company said it was investigating reports of loss of",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "34f9e6caf0ef2bdf",
-    "title": "iRhythm Data Breach Impacts at Least 360,000 People",
-    "link": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-12T11:05:43.000Z",
-    "summary": "Hackers stole patients’ personal information, including names, addresses, email addresses, dates of birth, and phone numbers.\nThe post iRhythm Data Breach Impacts at Least 360,000 People appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5124492cfbfbdb10",
-    "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-    "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-12T10:36:56.000Z",
-    "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure.\n\nThe vulnerability, tracked as CVE-2026-102255 (CVSS score: 10",
-    "cveIds": [
-      "CVE-2026-102255"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "9ce734d52cdaaf31",
-    "title": "Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe",
-    "link": "https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-12T10:32:05.000Z",
-    "summary": "The suspect is believed to be Edward Dubrovsky, a Canadian cybersecurity executive who was visiting the United States for a conference.\nThe post Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe appeared first on SecurityWe",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "815b7a94646fc6cb",
-    "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-    "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-12T09:02:14.000Z",
-    "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack.\n\nThe critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which all",
-    "cveIds": [
-      "CVE-2026-85097"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "83b16840c4686792",
-    "title": "Critical SonicWall Vulnerability Exploited Days After Disclosure",
-    "link": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-12T08:36:01.000Z",
-    "summary": "CVE-2026-102255 is a pre-authenticated SSRF flaw that could allow attackers to perform unauthorized operations.\nThe post Critical SonicWall Vulnerability Exploited Days After Disclosure appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-102255"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "1075209273bf74a2",
-    "title": "Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch",
-    "link": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-12T07:53:28.000Z",
-    "summary": "Beginning February 2027, all newly issued certificates will have a 64-day validity period by default.\nThe post Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d261b6b9e669cf36",
-    "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-    "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-12T07:26:12.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine.\n\nThe activity",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
