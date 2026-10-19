@@ -1,5 +1,269 @@
 [
   {
+    "id": "553c25ef77944fe2",
+    "title": "'AdFection' Turns Ad Impressions Into Zero-Click Spyware Delivery",
+    "link": "https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-19T19:55:01.000Z",
+    "summary": "Spyware vendors are exploiting targeted ad bidding in the digital ecosystem to identify and track individuals and organizations of interest.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d781dbabb69488eb",
+    "title": "Judge denies WhatsApp’s bid to hold spyware maker in contempt for allegedly targeting users",
+    "link": "https://therecord.media/whatsapp-denied-appeal-alleged-nso-group-violation-injunction",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-19T19:49:00.000Z",
+    "summary": "WhatsApp argued that NSO Group violated a 2025 injunction against using the messaging app to spread spyware. A federal judge said WhatsApp hurt its case by not revealing enough information.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dc9813bc2d425c7d",
+    "title": "ConnectWise suspends Cloud Backup service after supply chain attack",
+    "link": "https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-19T19:45:00.000Z",
+    "summary": "ConnectWise initially said on Friday that it was investigating “attempts of unauthorized access associated with the ConnectWise Cloud Backup environment,” and confirmed such access on Saturday.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ff25b976bdfa1d9f",
+    "title": "Hackers hijack AOMEI update servers to secretly spread malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-19T19:40:58.000Z",
+    "summary": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state to hide the attacks",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "06accfcb31a1d080",
+    "title": "Bullhorn takes staffing platform offline to contain cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-19T18:51:13.000Z",
+    "summary": "Staffing software company Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5a936d0dc13b0356",
+    "title": "Two more Serbian opposition figures targeted with spyware, researchers say",
+    "link": "https://therecord.media/serbia-spyware-pegasus-elections",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-19T18:45:00.000Z",
+    "summary": "A phone belonging to the rector of the University of Belgrade was discovered to have been infected with Pegasus spyware, the latest in a series of such discoveries in the lead-up to Serbia's national elections.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "561dd3f2eda51546",
+    "title": "Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks",
+    "link": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-19T18:15:39.000Z",
+    "summary": "Attackers paired a genuine, signed copy of Siemens Software Center with malicious DLLs to infect Windows PCs via ClickFix lures.\nThe post Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks appeared first on Security",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "143bfdf19e2bc5d6",
+    "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+    "link": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-19T17:32:13.000Z",
+    "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public.\n\nAccording to a researcher who goes by the onl",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c8f4e94200b3a33f",
+    "title": "OpenCode hack exposes API keys amid AI distillation attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-19T17:27:15.000Z",
+    "summary": "The open-source AI coding project OpenCode has notified a small number of users that API keys they used with external providers were exposed in a security breach. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "425846ce93981910",
+    "title": "Ahold Delhaize confirms 'malicious actions' behind cyber outages affecting grocery brands",
+    "link": "https://therecord.media/ahold-delhaize-cyberattack-grocery",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-19T16:45:00.000Z",
+    "summary": "Ahold Delhaize, the Dutch multinational grocery retailer, said Monday that a cyberattack forced it to take systems offline across most of its U.S. and European brands, impacting shoppers on both sides of the Atlantic.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4ad529ab62166d3c",
+    "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+    "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-19T16:28:47.000Z",
+    "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math sai",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f650fcc751bf590a",
+    "title": "Russian social media giant VK faces disruptions after data center drone strike",
+    "link": "https://therecord.media/russian-social-media-giant-vk-faces-disruptions-drone-strike-data-center",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-19T15:55:00.000Z",
+    "summary": "The disruptions began Sunday, when users complained of difficulties loading news feeds, playing music and accessing other features of VK's platforms.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c2afa77235015720",
+    "title": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
+    "link": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-19T15:47:50.000Z",
+    "summary": "Critical flaws impact the Entity List and Field UI modules, and exploit paths exist with contributed modules.\nThe post Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c513afb9763bce99",
+    "title": "Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack",
+    "link": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-19T15:20:53.000Z",
+    "summary": "Hackers injected malware into Rank Math PRO version 3.0.123 packages distributed between October 15 and October 16.\nThe post Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6e689f58716dcd5b",
+    "title": "Microsoft fixes game, app crashes caused by recent Windows update",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-19T14:55:23.000Z",
+    "summary": "Microsoft has resolved a bug that caused games and apps using AC-3 (Dolby Digital) audio decoding to crash after installing the September 2026 Windows 11 preview update (KB5124010). [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e4ddb72db383543f",
+    "title": "OnlyFans Copyright Takedowns Expose Compromised Websites",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/onlyfans-copyright-takedowns-expose-compromised-websites",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-19T14:28:11.000Z",
+    "summary": "Copyright takedown requests tied to OnlyFans and other adult content creators are revealing how attackers exploit vulnerable university and government websites to manipulate search results. UpGuard's Greg Pollock explains what universities,",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "03d3ba9d36cc0643",
+    "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
+    "link": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-19T14:14:07.000Z",
+    "summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done.\n\n",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "10c7257940ccee9d",
+    "title": "Inside the Underground Market for Know Your Client Services",
+    "link": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-19T14:00:10.000Z",
+    "summary": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client (KYC) checks. Flare examines how these underground services operate and the techniques used to crea",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6e8696034a920beb",
+    "title": "The Evolving Cybersecurity Lexicon: Vulnerability Discovery to Resilience",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/cybersecurity-lexicon-vulnerability-discovery-resilience",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-19T14:00:00.000Z",
+    "summary": "An industry-wide laser focus on vulnerabilities has left cybersecurity teams without enough room to strategize for resilience.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "59b0e474cfa72377",
+    "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
+    "link": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-19T13:49:24.000Z",
+    "summary": "F5 has released out-of-band security patches to address multiple NGINX web server flaws, including three critical-severity vulnerabilities that can let attackers execute code on vulnerable systems. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5f2037864b2f69b1",
+    "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+    "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-10-19T13:48:56.000Z",
+    "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "acf12ad31aacbc6b",
+    "title": "ConnectWise Suspends Cloud Services in Response to Cyberattack",
+    "link": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-19T13:16:20.000Z",
+    "summary": "The services remain unavailable as the company continues remediation and security validation.\nThe post ConnectWise Suspends Cloud Services in Response to Cyberattack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "47f4fcfb349a6896",
+    "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+    "link": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-19T13:05:45.000Z",
+    "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake fon",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "cd30eb68866bcd0b",
+    "title": "Agents are your newest insiders. Security must move at their speed.",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-10-19T13:00:00.000Z",
+    "summary": "New capabilities in Microsoft 365 E7 and Project Perception help organizations contain agent risk and adapt protection continuously.\nThe post Agents are your newest insiders. Security must move at their speed.  appeared first on Microsoft S",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "1f63abf1d8df5433",
     "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
@@ -31,6 +295,17 @@
     "summary": "Intruders used compromised credentials to access an ETS SFTP server, copying records of California students back to 2006.\nThe post One Compromised Login Exposed Millions of California Students’ Records appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "5ae38a63e4733a2a",
+    "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
+    "link": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-19T11:50:00.000Z",
+    "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound c",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "5368079cd481f9c0",
@@ -1279,6 +1554,72 @@
     "severity": "normal"
   },
   {
+    "id": "efac0e05e16ecbe7",
+    "title": "Multiples vulnérabilités dans les produits F5 (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1317/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7c9fbcc3542c9785",
+    "title": "Multiples vulnérabilités dans Moodle (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1318/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Moodle. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "47e45b770c08b2f3",
+    "title": "Vulnérabilité dans PostgreSQL psqlODBC (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1319/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-15T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans PostgreSQL psqlODBC. Elle permet à un attaquant de provoquer un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5120e526d2fee2b0",
+    "title": "Multiples vulnérabilités dans Sonicwall Network Security Manager (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1320/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Sonicwall Network Security Manager. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d61d51e325fdffc6",
+    "title": "Multiples vulnérabilités dans Drupal (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1321/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Drupal. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une injection de code indirecte à distance (XSS).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cdc09be1481dd0a7",
+    "title": "Multiples vulnérabilités dans les produits Juniper Networks (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1322/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Juniper Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de servic",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "cb4f3bcbd54dc702",
     "title": "Ukraine says Elon Musk's Starshield service partially restored after restrictions disrupted drone missions",
     "link": "https://therecord.media/ukraine-says-starshield-working-again-after-disruption",
@@ -1873,28 +2214,6 @@
     "severity": "normal"
   },
   {
-    "id": "67cd7f94caf43c08",
-    "title": "Multiples vulnérabilités dans les produits Adobe (14 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1301/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Adobe. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distanc",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "28203c908393c3ed",
-    "title": "Multiples vulnérabilités dans Xen (14 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1302/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "b37fcb65ff0b05dc",
     "title": "Vulnérabilité dans Symantec Endpoint Detection and Response (14 octobre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1303/",
@@ -2045,6 +2364,28 @@
     "category": "advisory",
     "pubDate": "2026-10-14T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dis",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "67cd7f94caf43c08",
+    "title": "Multiples vulnérabilités dans les produits Adobe (14 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1301/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Adobe. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distanc",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "28203c908393c3ed",
+    "title": "Multiples vulnérabilités dans Xen (14 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1302/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2748,150 +3089,5 @@
     "summary": "Attackers are currently targeting a critical vulnerability in SMA 1000 appliances, putting SonicWall customers in a familiar yet unenviable position.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "d0137ba408daed3e",
-    "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
-    "link": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-12T20:13:52.000Z",
-    "summary": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4dcee3405abaea42",
-    "title": "Prominent Ransomware Negotiator Faces Extortion Charges",
-    "link": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-12T20:00:53.000Z",
-    "summary": "Edward Dubrovsky, a longtime cybersecurity executive, was arrested and charged in Pennsylvania last week under conspiracy to extort money.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8d0ac34c06d57d46",
-    "title": "Yandex confirms service outage as users lose access to cloud files",
-    "link": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-12T19:23:01.000Z",
-    "summary": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8ba9b8e7a12a6c3d",
-    "title": "Anthropic takes risky AI tests offline after models breach govt sites",
-    "link": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-12T18:51:59.000Z",
-    "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "61395f90aa8ad1f7",
-    "title": "No Identity, No Recovery: Cyber Resilience Starts With IAM",
-    "link": "https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-12T18:27:25.000Z",
-    "summary": "The proliferation of enterprise apps and the centrality of cloud identity providers requires an identity security rethink.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "28da8c245f5dca44",
-    "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
-    "link": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-12T16:27:23.000Z",
-    "summary": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5ae29bf7b51ae6e4",
-    "title": "Cyberattack shuts down refrigerators at French supermarkets",
-    "link": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-12T15:23:34.000Z",
-    "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6e33620606a01d8d",
-    "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-    "link": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-12T15:16:26.000Z",
-    "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it.\n\nBut speed is only",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ef7595ad07b8bc0a",
-    "title": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
-    "link": "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-12T14:25:00.000Z",
-    "summary": "The all-stock deal brings Elisity’s least-privilege access technology into IonQ’s security portfolio.\nThe post IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7a7fbf93e11c89ab",
-    "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
-    "link": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-12T14:00:10.000Z",
-    "summary": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt. Varonis researchers explain how the malware uses ClickFix delivery, shortcut-based persi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8bf2f9414a620fba",
-    "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-12T13:51:07.000Z",
-    "summary": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a \"cybersecurity incident\" affecting its network. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5ffff8d173ed3cf7",
-    "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
-    "link": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-12T13:14:37.000Z",
-    "summary": "The vulnerability tracked as CVE-2026-85097 can allow threat actors to take control of the targeted WordPress websites.\nThe post Bricksforge WordPress Plugin Vulnerability Exploited in the Wild appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-85097"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "175a7df5c5ccb15a",
-    "title": "GitLab warns of max severity code execution vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-12T13:09:09.000Z",
-    "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
