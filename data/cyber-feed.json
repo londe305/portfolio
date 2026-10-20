@@ -1,5 +1,51 @@
 [
   {
+    "id": "6bd6585835c42569",
+    "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19)",
+    "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-10-19T22:35:42.000Z",
+    "summary": "Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257.\nThe post Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19) appeared ",
+    "cveIds": [
+      "CVE-2026-0257"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "5a8d0413be6f3aca",
+    "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+    "link": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-19T21:49:48.000Z",
+    "summary": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a4cd23325612accf",
+    "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+    "link": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-19T21:24:51.000Z",
+    "summary": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "cd2448e33b82aa7d",
+    "title": "Researchers Infiltrate Microsoft Tech Support Scam Operation",
+    "link": "https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-19T21:13:41.000Z",
+    "summary": "A large-scale scam operation impersonating Microsoft uses a malicious traffic distribution system (TDS) run by a Russian organization and abuses thousands of Cloudflare links.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "553c25ef77944fe2",
     "title": "'AdFection' Turns Ad Impressions Into Zero-Click Spyware Delivery",
     "link": "https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery",
@@ -42,6 +88,17 @@
     "summary": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state to hide the attacks",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "3e1278093e934b6a",
+    "title": "ConnectWise Disables Cloud Backups Amid Concerns for Downstream MSPs",
+    "link": "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-19T19:19:33.000Z",
+    "summary": "Researchers say attackers authenticated into Microsoft 365 tenants using ConnectWise credentials; ConnectWise says customer impact remains unconfirmed.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "06accfcb31a1d080",
@@ -1912,17 +1969,6 @@
     "severity": "normal"
   },
   {
-    "id": "319aa986d3e5a772",
-    "title": "Russian Influence Operation Widely Targets Latin America",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-14T13:00:00.000Z",
-    "summary": "The AI-enabled operation used spoofed emails, fake government documents, and the creation of a local organization to target schools in Peru and Ecuador, among other efforts.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "b2dbdf4e9e4544f5",
     "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
@@ -1930,6 +1976,17 @@
     "category": "vendor",
     "pubDate": "2026-10-14T13:00:00.000Z",
     "summary": "Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "319aa986d3e5a772",
+    "title": "Russian Influence Operation Widely Targets Latin America",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-14T13:00:00.000Z",
+    "summary": "The AI-enabled operation used spoofed emails, fake government documents, and the creation of a local organization to target schools in Peru and Ecuador, among other efforts.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -3012,82 +3069,5 @@
     "summary": "",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "9d1407548031a610",
-    "title": "Multiples vulnérabilités dans Mozilla Firefox (13 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1297/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-13T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Firefox. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0858677c23daa50c",
-    "title": "Multiples vulnérabilités dans les produits Siemens (13 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1298/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-13T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dista",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a8b258d9dccb96ac",
-    "title": "Vulnérabilité dans Schneider Electric Harmony (13 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1299/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-13T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Schneider Electric Harmony. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3aa944ec8941cb14",
-    "title": "Multiples vulnérabilités dans les produits SAP (13 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1300/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-13T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injectio",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d5d38c123c97be60",
-    "title": "Vulnérabilité dans NetApp StorageGRID (13 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1295/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-13T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans NetApp StorageGRID. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6b1ea4ab8e897ff9",
-    "title": "Vulnérabilité dans Typo3 (13 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1296/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-13T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Typo3. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6512ad6a9c13d351",
-    "title": "Maximum-Severity SSRF Flaw in SonicWall SMA Devices Under Attack",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-12T21:42:42.000Z",
-    "summary": "Attackers are currently targeting a critical vulnerability in SMA 1000 appliances, putting SonicWall customers in a familiar yet unenviable position.",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
