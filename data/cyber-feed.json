@@ -1,5 +1,174 @@
 [
   {
+    "id": "29ac1c4b3b838c48",
+    "title": "23andMe successor settles with California for $6 million over cybersecurity failings",
+    "link": "https://therecord.media/23andme-california-data-breach-settlement",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-20T18:32:00.000Z",
+    "summary": "California Attorney General Rob Bonta announced a settlement under which 23andMe's successor will pay $6 million to resolve allegations that the company did not properly protect customers' data before a 2023 breach.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2bcaf37a740b174e",
+    "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-20T18:11:03.000Z",
+    "summary": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1b377ec74e5fe170",
+    "title": "Nigerian national given 8-year sentence for tax business hacks",
+    "link": "https://therecord.media/nigerian-given-8-year-sentenc-tax-hacks",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-20T17:14:00.000Z",
+    "summary": "A Nigerian national who worked with a group to hack tax prep businesses and conduct millions of dollars in fraud using customer data was sentenced this week.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1530955429aa55bf",
+    "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+    "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-20T17:09:53.000Z",
+    "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20.\n\nAn intermediate CA signs the certificates that websites present, so an",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f7a865abe770edc4",
+    "title": "US Agencies Detail Incident Response Practices for Rogue AI Agents",
+    "link": "https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-20T15:45:00.000Z",
+    "summary": "NIST, CISA and NSA share ten voluntary practices for preparing for, detecting, responding to, recovering from, and reporting rogue AI agent incidents.\nThe post US Agencies Detail Incident Response Practices for Rogue AI Agents appeared firs",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "53ddecf9f5b1add8",
+    "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+    "link": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-20T15:38:52.000Z",
+    "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-10617",
+    "cveIds": [
+      "CVE-2026-10617"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "dff178c340ad524b",
+    "title": "Close Identity Gaps in Software Development Before Unleashing AI",
+    "link": "https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-20T15:35:45.000Z",
+    "summary": "Artificial Intelligence is complicating security in the software development lifecycle, but a Dark Reading roundtable found collaboration, better identity visibility, and reduced testing costs offer CISOs a way ahead.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0d304799e6217321",
+    "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+    "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-20T15:32:27.000Z",
+    "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting  PAN-OS and Prisma Access by ransomware actors.\n\nThe activity relates to CVE-2026-0257 (CVSS score: 7.8), an authenticati",
+    "cveIds": [
+      "CVE-2026-0257"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "79b4014f667cba1b",
+    "title": "There's only so much code: the rise in vulnerability numbers",
+    "link": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-10-20T15:31:22.000Z",
+    "summary": "The September Microsoft Patch Tuesday release included 975 vulnerability advisories. This month, 1,415 vulnerabilities were just dropped. Compared to a pre-June average of 100 a month, that increase is staggering. Where did they come from? ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4cce5b0679d631b9",
+    "title": "EU cyber law won’t force fixes for fridge controllers hit in French attack",
+    "link": "https://therecord.media/eu-cyber-law-wont-force-fixes-for-fridges-in-french-attack",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-20T14:55:00.000Z",
+    "summary": "The EU’s Cyber Resilience Act that took effect last month only requires companies to fix vulnerabilities and issue free updates during a product's support period, which manufacturers define.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "91169d0210955495",
+    "title": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-20T14:36:05.000Z",
+    "summary": "A Chinese-speaking attacker has compromised hundreds of websites across the globe, looting from big fish like John Deere, SharkNinja, and engine manufacturer Cummins.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4162cca6289cbc1d",
+    "title": "DHS bans DeepSeek products across US federal civilian agencies",
+    "link": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-20T14:19:05.000Z",
+    "summary": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from government systems. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "314dad77bf51093e",
+    "title": "AOMEI yet to notify customers after hackers hijacked its software updates",
+    "link": "https://therecord.media/aomei-yet-to-notify-customers-hijack-software",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-20T14:11:00.000Z",
+    "summary": "In an email, the Hong Kong-registered company confirmed to Recorded Future News that hackers repeatedly altered configuration files on its update servers between April and July, redirecting the software to download malware for minutes at a ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0dfa738d1635fedf",
+    "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+    "link": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-20T14:07:17.000Z",
+    "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.\n\nThe a",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ba5b9e5d876d2045",
+    "title": "Anti-Putin messages disrupt nationwide school assessments in Russia",
+    "link": "https://therecord.media/anti-putin-messages-disrupt-russian-education-platform",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-20T14:05:00.000Z",
+    "summary": "A pro-Ukraine group that says it operates within Russia took responsibility for anti-Putin messages appearing on an education assessment platform. Authorities said they had restored systems.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "0db72c8bc26332c0",
     "title": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
     "link": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
@@ -95,6 +264,72 @@
     "category": "news",
     "pubDate": "2026-10-20T12:16:32.000Z",
     "summary": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "84e7e94338dadfbf",
+    "title": "#StopRansomware: SafePay Ransomware",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-20T12:00:00.000Z",
+    "summary": "Advisory at a Glance\nTitle\n#StopRansomware: SafePay Ransomware\n\n\nOriginal Publication \nOctober 20, 2026\n\n\nExecutive Summary\n\nThis advisory details recent activity by the SafePay ransomware group. SafePay actors have been highly active since",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d654fd9c2e08c890",
+    "title": "Hitachi Energy RTU500 Product",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-20T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nHitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. These vulnerabilities if exploited can have impact on confidentiality, integrity and availability of the product. Plea",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "04d97b7ea7348476",
+    "title": "Hitachi Energy MicroSCADA X SYS600 Product",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-20T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nHitachi Energy is aware of multiple vulnerabilities that affect MicroSCADA X SYS600 product versions listed in this document. These vulnerabilities can be exploited to carry out various attacks on the product. Please refer",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "689202d9e8a4b16d",
+    "title": "HMS Networks PEAK-System PCAN Windows drivers",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-20T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the Windows kernel.\nThe following versions of HMS Networks PEAK-System PCAN Windows drivers are affected:\nPEAK-System Device Driver Setup <=5.1.2.1151 (CVE-2026-",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "563693dec9bcd2a6",
+    "title": "Moxa AIG-302 ThingsPro Edge",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-20T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to obtain and disclose sensitive information.\nThe following versions of Moxa AIG-302 ThingsPro Edge are affected:\nMoxa AIG-302 ThingsPro Edge firmwar",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cdd537486628c284",
+    "title": "WAGO OS Linux",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-20T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nTwo vulnerabilities in the Web-Based Management (WBM) interface of WAGO CC100, PFC100 G2, PFC200 G2, TP600, Edge Controller and WP400 devices allow an authenticated low-privileged user to bypass intended privilege boundari",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1095,19 +1330,6 @@
     "severity": "normal"
   },
   {
-    "id": "432b50edcc433b9f",
-    "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-16T12:00:00.000Z",
-    "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764, affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organization",
-    "cveIds": [
-      "CVE-2026-102764"
-    ],
-    "severity": "critical"
-  },
-  {
     "id": "bb92e43802cb88b0",
     "title": "Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials",
     "link": "https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials",
@@ -1131,6 +1353,19 @@
       "CVE-2026-102764"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "432b50edcc433b9f",
+    "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-16T12:00:00.000Z",
+    "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764, affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organization",
+    "cveIds": [
+      "CVE-2026-102764"
+    ],
+    "severity": "critical"
   },
   {
     "id": "754b8af5c24d4555",
@@ -1623,24 +1858,13 @@
     "severity": "critical"
   },
   {
-    "id": "44340f73a37a85b5",
-    "title": "Thermo Fisher Torrent Suite Software",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
+    "id": "612d5be66bbd62dd",
+    "title": "Eclipse Foundation Eclipse Milo",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-10-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to read arbitrary files on the Torrent Server.\nThe following versions of Thermo Fisher Torrent Suite Software are affected:\nTorrent Suite Software <=5.1",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3614fc45f0718791",
-    "title": "J4Care dcm4che",
-    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to delete stored medical images, disclose patient information, inject forged studies, reassign patient records, overwrite files, and cause a denial-o",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to delete protected data, recover user credentials and impersonate legitimate users, or cause the server to stop responding to all clients.\nThe follo",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1656,13 +1880,24 @@
     "severity": "normal"
   },
   {
-    "id": "612d5be66bbd62dd",
-    "title": "Eclipse Foundation Eclipse Milo",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
+    "id": "3614fc45f0718791",
+    "title": "J4Care dcm4che",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-10-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to delete protected data, recover user credentials and impersonate legitimate users, or cause the server to stop responding to all clients.\nThe follo",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to delete stored medical images, disclose patient information, inject forged studies, reassign patient records, overwrite files, and cause a denial-o",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "44340f73a37a85b5",
+    "title": "Thermo Fisher Torrent Suite Software",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to read arbitrary files on the Torrent Server.\nThe following versions of Thermo Fisher Torrent Suite Software are affected:\nTorrent Suite Software <=5.1",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2933,207 +3168,5 @@
     "summary": "Microsoft today released patches for 1,417 vulnerabilities. 76 of these vulnerabilities are rated critical, with 7 critical vulnerabiilties requiring no customer actions. One vulnerability was disclosed before today&#;x26;#;39;s patch Tuesd",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "07ca9e611f68c327",
-    "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-13T19:04:38.000Z",
-    "summary": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "79446cd89775d814",
-    "title": "Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN",
-    "link": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-13T18:43:43.000Z",
-    "summary": "CVE-2026-104935 affects Ivanti Connect Secure and it can be exploited for unauthenticated remote code execution with elevated privileges. \nThe post Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN appeared first on Secu",
-    "cveIds": [
-      "CVE-2026-104935"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "d9ed76a64d3ea742",
-    "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
-    "link": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-13T18:20:57.000Z",
-    "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic.\n\nThe frontier AI lab said sma",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "db0de8b1cf1562b3",
-    "title": "UK Housing Ombudsman Service investigates 'security incident'",
-    "link": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-13T18:19:44.000Z",
-    "summary": "The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8187d0f2ac60bf6f",
-    "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
-    "link": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-13T18:03:18.000Z",
-    "summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "30c48aec6fa791e3",
-    "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-13T17:49:38.000Z",
-    "summary": "Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fb99d329a170ccdf",
-    "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
-    "link": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-13T17:33:11.000Z",
-    "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti has released fixes for two of the flaws and told customers on ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6e56ced53da56dc2",
-    "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
-    "link": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-13T17:28:50.000Z",
-    "summary": "A flaw in SAP's Cloud SDK for Python can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a security advisory on October 13. The flaw affects multi-tenant applications on SAP Business Technology ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "21816e632b645b53",
-    "title": "Adobe Patches 176 Vulnerabilities Across 11 Products",
-    "link": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-13T17:14:42.000Z",
-    "summary": "The flaws affect products such as Commerce, Photoshop, ColdFusion, Substance 3D, Dimension, FrameMaker and Bridge.\nThe post Adobe Patches 176 Vulnerabilities Across 11 Products appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "19a292ee37839caf",
-    "title": "Google Partially Reverses Chrome Bug Bounty Cuts",
-    "link": "https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-13T17:00:00.000Z",
-    "summary": "Google is restructuring bug bounty rewards with a focus on complex memory safety vulnerabilities. \nThe post Google Partially Reverses Chrome Bug Bounty Cuts appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1728782a1e6c5132",
-    "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
-    "link": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-13T16:44:18.000Z",
-    "summary": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3770e65c491fe5df",
-    "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
-    "link": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-13T16:18:18.000Z",
-    "summary": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having t",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7101269c7dc3b87e",
-    "title": "Sandbox vulnerability gives rogue AI agents a path to escape and leak data, research says",
-    "link": "https://therecord.media/sandbox-vulnerability-gives-rogue-ai-agents-path-out",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-13T16:18:00.000Z",
-    "summary": "The new research, published by AI security startup AIR, found that a network filtering flaw in Vercel Sandbox — a tool used to run code in isolated environments — could allow agents to exploit certificate validation processes to transmit da",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d0104b2bc605329f",
-    "title": "West African scam compounds raided, more than 100 suspected trafficking victims ‘rescued’",
-    "link": "https://therecord.media/ghana-nigeria-scam-centers-raided-uk-us",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-13T16:05:00.000Z",
-    "summary": "More than two dozen people were arrested by police in Ghana and Nigeria as part of a U.K.-hosted operation that also included tech companies.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0e8c653d006415ac",
-    "title": "Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach",
-    "link": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-13T16:01:00.000Z",
-    "summary": "Most of the affected individuals are Meta employees in the United States and they are being offered credit monitoring services.\nThe post Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c63069ba1c8d6650",
-    "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-13T15:45:50.000Z",
-    "summary": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "cd001c5faa80bfeb",
-    "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
-    "link": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-13T15:20:20.000Z",
-    "summary": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). [...]",
-    "cveIds": [
-      "CVE-2026-105445"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "120d43c94eeed2cb",
-    "title": "North Korean hackers target Ukrainian experts for possible intelligence on Russia's war",
-    "link": "https://therecord.media/north-korea-hackers-russia-ukraine",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-13T15:15:00.000Z",
-    "summary": "North Korean hackers have been targeting Ukrainian experts in diplomacy, security and international policy amid Pyongyang’s growing military cooperation with Russia.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
