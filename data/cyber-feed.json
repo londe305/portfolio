@@ -1,5 +1,247 @@
 [
   {
+    "id": "0db72c8bc26332c0",
+    "title": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
+    "link": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-20T13:51:01.000Z",
+    "summary": "Across multiple short compromise windows, users were served a downloader for the ShinyRoad modular backdoor framework.\nThe post AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "54e589c7063e95af",
+    "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
+    "link": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-20T13:51:00.000Z",
+    "summary": "CJIS v6.1 requires agencies to maintain strong authentication, account security, and audit controls while demonstrating ongoing compliance. Specops outlines five practical priorities covering MFA, account management, passwords, logging, and",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4791d60cd7f67dbe",
+    "title": "The Key to AI Software Security Isn’t Speed, It’s Maturity",
+    "link": "https://www.securityweek.com/the-key-to-ai-software-security-isnt-speed-its-maturity/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-20T13:34:23.000Z",
+    "summary": "Where your developers sit on the AI adoption scale has a real impact on how you are addressing security risk.\nThe post The Key to AI Software Security Isn’t Speed, It’s Maturity appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b8cb67bf0a57ef0e",
+    "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+    "link": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-20T13:18:36.000Z",
+    "summary": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cf21e83d251e9c5d",
+    "title": "Ahold Delhaize Restoring Services Disrupted by Cyberattack",
+    "link": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-20T13:02:18.000Z",
+    "summary": "The company has restored many websites and apps in Europe and expects e-commerce brands in the US to be restored in days.\nThe post Ahold Delhaize Restoring Services Disrupted by Cyberattack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2f7a0f9a2ffb4011",
+    "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+    "link": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-20T12:59:44.000Z",
+    "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the Citizen Lab said on October 19.\n\nThe finding came si",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d02f2b9b0912b72b",
+    "title": "AI Platform Cairn Abused to Hack Over 100 Organizations",
+    "link": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-20T12:47:22.000Z",
+    "summary": "At least three threat actors have been abusing Cairn for persistent access and financial theft.\nThe post AI Platform Cairn Abused to Hack Over 100 Organizations appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b44079bd0a647e18",
+    "title": "Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say",
+    "link": "https://www.securityweek.com/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-20T12:33:12.000Z",
+    "summary": "Abdulrahman Alfozan’s wife and young son also left the country the day after the 35-year-old Saudi national’s arrest.\nThe post Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say appeared firs",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4f28949e9098cbe7",
+    "title": "Windows Server 2025 gets support for quick machine recovery",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-20T12:16:32.000Z",
+    "summary": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "467c211f344f8720",
+    "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+    "link": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-20T11:41:06.000Z",
+    "summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy f",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "df48f73ea919677f",
+    "title": "What Security Teams Can Do To Tame Wild Code",
+    "link": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-20T11:33:04.000Z",
+    "summary": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the t",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f0509be43eab3850",
+    "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+    "link": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-20T11:32:59.000Z",
+    "summary": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of eight intermediate certificate authority keys.\n\nPrograms built on the new release will refuse connectio",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4ee7cda6f2dce865",
+    "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+    "link": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-20T11:31:22.000Z",
+    "summary": "French cloud and hosting provider OVHcloud is warning users that attackers compromised its open-source command-line interface (CLI) tool to distribute information-stealing malware. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "382400392fa0124d",
+    "title": "Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring",
+    "link": "https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-20T11:30:18.000Z",
+    "summary": "Microsoft says companies should treat AI agents as insiders, and is adding controls that grant access per task and tighten it as an agent’s risk rises.\nThe post Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring appear",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9f686724487e1c0c",
+    "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+    "link": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-20T11:18:35.000Z",
+    "summary": "Ahold Delhaize, one of the world's largest food retail chains, confirmed that last week's cyberattack disrupted services at stores across Europe and the United States. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "41525c1156aec1d3",
+    "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+    "link": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-20T11:06:25.000Z",
+    "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO).\n\nThe Symantec Thre",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "13881c9b43294fd5",
+    "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+    "link": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-20T10:56:08.000Z",
+    "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3493ad24d01d3adf",
+    "title": "Hackers Steal 1.8 Million Records From Nikkei",
+    "link": "https://www.securityweek.com/hackers-steal-1-8-million-records-from-nikkei/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-20T10:35:18.000Z",
+    "summary": "The compromised information includes names, addresses, email addresses, phone numbers, and dates of birth.\nThe post Hackers Steal 1.8 Million Records From Nikkei appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "87e932b60df16ca9",
+    "title": "Defense contractors in two NATO allies hacked in recent Russia-linked campaign",
+    "link": "https://therecord.media/european-defense-contractors-fancy-bear-espionage",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-20T10:00:00.000Z",
+    "summary": "The Russian group known as APT28 and Fancy Bear used a recently documented backdoor to dwell in the networks of two defense contractors and a law enforcement agency in two NATO allies, researchers said.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4b4f09e00694289e",
+    "title": "Revolut outage disrupts online banking operations worldwide",
+    "link": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-20T09:46:44.000Z",
+    "summary": "Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ebff93066b7e3416",
+    "title": "970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach",
+    "link": "https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-20T09:33:49.000Z",
+    "summary": "Paradigm Healthcare Services detected an intrusion in October 2025, but it took nearly a year to start notifying affected individuals.\nThe post 970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach appeared first on SecurityW",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "92e4076765780a55",
+    "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+    "link": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-20T08:21:29.000Z",
+    "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to stea",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "4fd8d5a31fd8ccfc",
     "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
     "link": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
@@ -1723,6 +1965,28 @@
     "severity": "normal"
   },
   {
+    "id": "5e0c441e3b8c5333",
+    "title": "Vulnérabilité dans les produits Microsoft (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1323/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-15T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Microsoft. Elle permet à un attaquant de provoquer une élévation de privilèges.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d67ab56fb2853f40",
+    "title": "Multiples vulnérabilités dans les produits Symfony (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1324/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Symfony. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "cb4f3bcbd54dc702",
     "title": "Ukraine says Elon Musk's Starshield service partially restored after restrictions disrupted drone missions",
     "link": "https://therecord.media/ukraine-says-starshield-working-again-after-disruption",
@@ -2317,28 +2581,6 @@
     "severity": "normal"
   },
   {
-    "id": "b37fcb65ff0b05dc",
-    "title": "Vulnérabilité dans Symantec Endpoint Detection and Response (14 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1303/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-14T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Symantec Endpoint Detection and Response. Elle permet à un attaquant de provoquer une injection de code indirecte à distance (XSS).",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c605d3e833cf524f",
-    "title": "Multiples vulnérabilités dans MongoDB Server (14 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1304/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-14T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB Server. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "a3a26b039c074e65",
     "title": "Multiples vulnérabilités dans les produits Mozilla (14 octobre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1305/",
@@ -2467,6 +2709,28 @@
     "category": "advisory",
     "pubDate": "2026-10-14T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dis",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b37fcb65ff0b05dc",
+    "title": "Vulnérabilité dans Symantec Endpoint Detection and Response (14 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1303/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Symantec Endpoint Detection and Response. Elle permet à un attaquant de provoquer une injection de code indirecte à distance (XSS).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c605d3e833cf524f",
+    "title": "Multiples vulnérabilités dans MongoDB Server (14 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1304/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-14T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB Server. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2869,228 +3133,6 @@
     "category": "news",
     "pubDate": "2026-10-13T15:15:00.000Z",
     "summary": "North Korean hackers have been targeting Ukrainian experts in diplomacy, security and international policy amid Pyongyang’s growing military cooperation with Russia.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "46e66f8ca65c698d",
-    "title": "The MFA Gaps Attackers are Still Exploiting",
-    "link": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-13T14:01:11.000Z",
-    "summary": "Attackers continue exploiting gaps in MFA coverage, using stolen credentials to access VPNs, RDP, and Windows systems that still rely on passwords alone. Specops explains why protecting cloud applications isn't enough and how organizations ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "36d6c42e8fe81aae",
-    "title": "SAP warns of maximum severity OAuth2 SSRF security flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-13T13:51:02.000Z",
-    "summary": "SAP has addressed 20 security flaws across multiple products in its October 2026 security updates, including a maximum-severity vulnerability in the Cloud SDK for Python. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "32a5798850bf21a4",
-    "title": "Russian internet provider SkyNet reports outages after cyberattack claimed by Ukrainian hackers",
-    "link": "https://therecord.media/russian-internet-provider-skynet-reports-outages-ddos",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-13T13:20:00.000Z",
-    "summary": "One of St. Petersburg's major internet providers said its network had been under a distributed denial-of-service (DDoS) attack since October 6, affecting services including online gaming, voice calls and video conferencing.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3a9e3913c5c484fd",
-    "title": "Ledger says hardware implant in cryptocurrency wallets stole recovery phrases",
-    "link": "https://therecord.media/ledger-cryptocurrency-wallet-implant-theft",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-13T13:18:00.000Z",
-    "summary": "Ledger cryptocurrency wallets sold through a Southeast Asian reseller had an implant allowing outsiders to drain funds, the company said.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2fd581d2b9b4e293",
-    "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
-    "link": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-13T13:12:32.000Z",
-    "summary": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers.\n\nThe administrative penalty is the larg",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2e60464ac9ed8db6",
-    "title": "Inductive Automation Ignition Software",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-13T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level.\nThe following versions of Inductive Automation Ignition Software are affected:\nIgnit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4407f8228fd346a5",
-    "title": "CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-13T12:00:00.000Z",
-    "summary": "CISA is aware of Ivanti’s disclosure of a newly exploited vulnerability, CVE-2026-104935, affecting Ivanti Connect Secure versions 25.1.1.1 and prior, 25.1.2.2 and prior, and 22.8R2.4 and prior. CISA is aware of cyber threat actors exploiti",
-    "cveIds": [
-      "CVE-2026-104935"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "dcbc0b756373701f",
-    "title": "Swann Communications SWIFI-SE2KIC",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-13T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to view video information without authentication.\nThe following versions of Swann Communications SWIFI-SE2KIC are affected:\nSWIFI-SE2KIC firmware <=2",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f42a122e5dac462a",
-    "title": "Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns",
-    "link": "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-13T11:58:29.000Z",
-    "summary": "Experiments show cheap TV boxes can run capable AI models, and small models may soon be able to spread across such devices on their own.\nThe post Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns appeared first on Se",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cd473945c5d8743c",
-    "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
-    "link": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-13T11:57:06.000Z",
-    "summary": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next.\n\nWith AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation, attackers can move ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fb6e12345e1cbc1b",
-    "title": "XWorm RAT Evolves Into Surveillance Platform",
-    "link": "https://www.securityweek.com/xworm-rat-evolves-into-surveillance-platform/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-13T11:13:10.000Z",
-    "summary": "Expanded plugin count allows the malware to monitor users’ location, stream live audio, and interact with authenticated browser sessions.\nThe post XWorm RAT Evolves Into Surveillance Platform appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8f63a0f3f0541bc2",
-    "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-    "link": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-13T11:09:10.000Z",
-    "summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.\n\nLG has issued a fix, according to an advisory published by S",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8986d7ba1cda10d0",
-    "title": "AI Turns Familiar Cyberattacks Into a Race Against Time",
-    "link": "https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-13T11:00:00.000Z",
-    "summary": "IBM’s Steve Wallin talks to SecurityWeek on the effect of AI-driven attacks on enterprise defenses.\nThe post AI Turns Familiar Cyberattacks Into a Race Against Time appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1e8135b67b022e24",
-    "title": "$86 Million Crypto Heist Linked to Ledger Signer Hardware Implant",
-    "link": "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-13T10:36:05.000Z",
-    "summary": "A small circuit board hidden under the signers’ screens read user data and transmitted it to the attackers.\nThe post $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "302530343dab63e8",
-    "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
-    "link": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-13T10:30:00.000Z",
-    "summary": "A user opens a browser tab, pastes data into a chat assistant, and nothing is installed.\n\nA developer adds a coding assistant as an editor extension, and nothing shows up in the installed programs list.\n\nSomeone downloads a local model runt",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3b4e5e79f1e23865",
-    "title": "Cyberattack Prompts Grocery Giant Ahold Delhaize to Disconnect Systems",
-    "link": "https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-13T09:37:12.000Z",
-    "summary": "The company says it took some of its systems offline to contain a security issue within its network.\nThe post Cyberattack Prompts Grocery Giant Ahold Delhaize to Disconnect Systems appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6ebfc31532ee33e4",
-    "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
-    "link": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-13T08:48:41.000Z",
-    "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said.\n\nThe attackers reached them through the cont",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "339f93492eeffe92",
-    "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
-    "link": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-13T08:44:01.000Z",
-    "summary": "Two of 31 newly disclosed flaws in Progress Software's MarkLogic Server database could let an account given only some management privileges take administrator control of the server, the company says.\n\nProgress published all 31 on October 12",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e7916ed60e978bf5",
-    "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
-    "link": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-13T08:43:37.000Z",
-    "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution.\n\n\"GitLab has remediated an issue that, under certain c",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1608d9df78e7886b",
-    "title": "Refrigeration Controller Hack Spoils Food Across European Supermarkets",
-    "link": "https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-13T08:28:51.000Z",
-    "summary": "A cyberattack targeted refrigeration controllers, setting refrigerators and freezers across hundreds of supermarkets to defrost.\nThe post Refrigeration Controller Hack Spoils Food Across European Supermarkets appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   }
