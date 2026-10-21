@@ -1,5 +1,281 @@
 [
   {
+    "id": "661e0d2a54c94546",
+    "title": "PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors",
+    "link": "https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-21T16:50:40.000Z",
+    "summary": "The two RCE bugs can be exploited against WordPress, Drupal, Joomla, and other popular applications.\nThe post PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2810027585c5f3b5",
+    "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619",
+    "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-10-21T16:30:34.000Z",
+    "summary": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems.\nThe post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 appeared f",
+    "cveIds": [
+      "CVE-2026-109618",
+      "CVE-2026-109619"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "288893f636793d08",
+    "title": "OpenAI agents disabled safety monitoring, one lied about it",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-21T16:26:53.000Z",
+    "summary": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting coding instructions as authorization to do so. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b716aa6739b48d77",
+    "title": "Optiv Launches CyberBOT Cybersecurity Awareness Training Program",
+    "link": "https://www.darkreading.com/cybersecurity-operations/optiv-launches-cyberbot-cybersecurity-awareness-training-program",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-21T15:44:48.000Z",
+    "summary": "Hands-on sessions provide educators, nonprofits, and community leaders with an accessible resource to foster year-round cyber awareness and build more resilient communities.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ce8b3bbcd62b9794",
+    "title": "Survey Finds High-Profile Executives Feel Untouchable as Digital Exposure Turns Into Physical Risk",
+    "link": "https://www.darkreading.com/cybersecurity-operations/360-privacy-survey-high-profile-executives-feel-untouchable",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-21T15:29:09.000Z",
+    "summary": "360 Privacy finds more than 8 in 10 security and wealth professionals say cybersecurity and physical security can no longer be separated.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "24755a352d3db087",
+    "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+    "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-10-21T15:26:07.000Z",
+    "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f05202614787dc85",
+    "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) &#x5b;infocon yellow&#x5d;, (Wed, Oct 21st)",
+    "link": "https://isc.sans.edu/diary/rss/33440",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-21T15:12:02.000Z",
+    "summary": "PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits ahead of t",
+    "cveIds": [
+      "CVE-2026-109618",
+      "CVE-2026-109619"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "95210f1a65abdba3",
+    "title": "Two critical RCEs in PHP core",
+    "link": "https://blog.talosintelligence.com/two-critical-rces-in-php-core/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-10-21T15:10:53.000Z",
+    "summary": "Two critical remote code execution vulnerabilities in PHP core could have implications across its wider ecosystem. Talos has published a blog to explain what we know so far, and details the Snort coverage available, including rules in the C",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a45dacf80c102b58",
+    "title": "‘Context Bombs’ Cut AI Attack Success by Misleading Agents With Fake Targets",
+    "link": "https://www.securityweek.com/context-bombs-cut-ai-attack-success-by-misleading-agents-with-fake-targets/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-21T15:00:00.000Z",
+    "summary": "Deceptive prompts lure AI agents into decoys and dead ends, cutting attack success by up to 91% in tests and raising the cost of a successful attack 23-fold.\nThe post ‘Context Bombs’ Cut AI Attack Success by Misleading Agents With Fake Targ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "67c1ab51681c6295",
+    "title": "High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7",
+    "link": "https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-21T14:45:00.000Z",
+    "summary": "Rapid7’s Q3 analysis finds high-severity flaws exploited within three days on average, while AI appeared in just 8% of tracked incidents.\nThe post High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7 appeared first",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "39edcc9fa917de67",
+    "title": "Hundreds of websites taken offline as concern grows over two PHP vulnerabilities",
+    "link": "https://therecord.media/php-script-vulnerabilities-warnings",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-21T14:17:00.000Z",
+    "summary": "The maintainers of the globally used PHP scripting language released patches for two vulnerabilities after alerting users that the bugs were severe.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a5afc0aef8988cce",
+    "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-21T14:07:05.000Z",
+    "summary": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
+    "cveIds": [
+      "CVE-2026-109618",
+      "CVE-2026-109619"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "b96c0a11c50af1f6",
+    "title": "“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
+    "link": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-10-21T14:00:24.000Z",
+    "summary": "An investigation into a threat actor bypassing AI safety controls to coordinate credential theft, VoIP fraud planning, and database exfiltration.\nThe post “Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Mul",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bc6b0429e7ca2d4b",
+    "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
+    "link": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-21T14:00:10.000Z",
+    "summary": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick users into executing malware. Push Security examines how these attacks evade traditional defenses and wh",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6478f5844cef708f",
+    "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+    "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-21T14:00:00.000Z",
+    "summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updat",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "71ae2abe12964906",
+    "title": "Asymptote Labs Lands $5.5 Million Seed for AI Agent Runtime Security",
+    "link": "https://www.securityweek.com/asymptote-labs-lands-5-5-million-seed-for-ai-agent-runtime-security/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-21T13:17:35.000Z",
+    "summary": "Asymptote Labs raises $5.5M seed led by Tower Research Ventures to commercialize its Beacon AI agent runtime security platform.\nThe post Asymptote Labs Lands $5.5 Million Seed for AI Agent Runtime Security appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f29fd7d40b5fbe92",
+    "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+    "link": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-21T13:15:09.000Z",
+    "summary": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.\n\nClickFix is a popular social engineering technique in which bad actors trick us",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "13820dacd5f3c8a8",
+    "title": "Decades-Old Windows Utility Powers Modern ClickFix Attack",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-21T13:00:00.000Z",
+    "summary": "The attack uses malicious Google search results related to Amazon and leverages the 'finger' utility to launch a CAPTCHA that installs malware, including the Lumma stealer.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9fa3f970853e8bb6",
+    "title": "Memory Bugs Account for Most of Chrome’s 353 New Security Fixes",
+    "link": "https://www.securityweek.com/memory-bugs-account-for-most-of-chromes-353-new-security-fixes/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-21T12:57:47.000Z",
+    "summary": "The update fixes 353 flaws, including 163 memory corruption and 125 use-after-free vulnerabilities.\nThe post Memory Bugs Account for Most of Chrome’s 353 New Security Fixes appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2616dfa7252a09b5",
+    "title": "OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor",
+    "link": "https://www.securityweek.com/openai-agents-silenced-security-team-alerts-removed-misalignment-monitor/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-21T12:34:22.000Z",
+    "summary": "In two internal incidents, agents read routine coding instructions as permission to weaken monitoring, and one gave a false answer about it.\nThe post OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor appeared first o",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ba8deb36fe9d954a",
+    "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-21T12:20:34.000Z",
+    "summary": "Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c7a020f274e08e16",
+    "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+    "link": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-21T12:05:00.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.\n\n\"The most distinctive t",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8cb71048c178284c",
+    "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-21T12:00:00.000Z",
+    "summary": "CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619. These vulnerabilities, known as “php2shell,” allow for unauthenticated remote code execution",
+    "cveIds": [
+      "CVE-2026-109618",
+      "CVE-2026-109619"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "b81260804ad32989",
+    "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+    "link": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-21T11:53:34.000Z",
+    "summary": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behav",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "9b477066ea3bbf25",
     "title": "Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys",
     "link": "https://www.securityweek.com/browsers-block-emudhra-intermediate-cas-over-recoverable-private-keys/",
@@ -387,7 +663,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-10-20T15:35:45.000Z",
-    "summary": "Artificial Intelligence is complicating security in the software development lifecycle, but a Dark Reading roundtable found collaboration, better identity visibility, and reduced testing costs offer CISOs a way ahead.",
+    "summary": "Artificial intelligence is complicating security in the software development life cycle, but a Dark Reading roundtable found collaboration, better identity visibility, and reduced testing costs offer CISOs a way ahead.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -581,6 +857,17 @@
     "severity": "normal"
   },
   {
+    "id": "04d97b7ea7348476",
+    "title": "Hitachi Energy MicroSCADA X SYS600 Product",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-20T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nHitachi Energy is aware of multiple vulnerabilities that affect MicroSCADA X SYS600 product versions listed in this document. These vulnerabilities can be exploited to carry out various attacks on the product. Please refer",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "84e7e94338dadfbf",
     "title": "#StopRansomware: SafePay Ransomware",
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
@@ -599,17 +886,6 @@
     "category": "advisory",
     "pubDate": "2026-10-20T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nHitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. These vulnerabilities if exploited can have impact on confidentiality, integrity and availability of the product. Plea",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "04d97b7ea7348476",
-    "title": "Hitachi Energy MicroSCADA X SYS600 Product",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-20T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nHitachi Energy is aware of multiple vulnerabilities that affect MicroSCADA X SYS600 product versions listed in this document. These vulnerabilities can be exploited to carry out various attacks on the product. Please refer",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1633,15 +1909,17 @@
     "severity": "critical"
   },
   {
-    "id": "06ca72ec747dbc6e",
-    "title": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation",
-    "link": "https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation",
+    "id": "432b50edcc433b9f",
+    "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-10-16T12:00:00.000Z",
-    "summary": "The National Institute of Standards and Technology (NIST), National Security Agency’s Super Intelligence Security Center (NSA SISC) and Cybersecurity and Infrastructure Security Agency (CISA) published Key Practices for Incident Readiness a",
-    "cveIds": [],
-    "severity": "normal"
+    "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764, affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organization",
+    "cveIds": [
+      "CVE-2026-102764"
+    ],
+    "severity": "critical"
   },
   {
     "id": "bb92e43802cb88b0",
@@ -1651,6 +1929,17 @@
     "category": "advisory",
     "pubDate": "2026-10-16T12:00:00.000Z",
     "summary": "CISA and the Federal Bureau of Investigation (FBI) released a Public Service Announcement (PSA) warning election and campaign officials about cyber threats during the 2026 U.S. midterm elections. Malicious cyber actors may use phishing and ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "06ca72ec747dbc6e",
+    "title": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation",
+    "link": "https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-16T12:00:00.000Z",
+    "summary": "The National Institute of Standards and Technology (NIST), National Security Agency’s Super Intelligence Security Center (NSA SISC) and Cybersecurity and Infrastructure Security Agency (CISA) published Key Practices for Incident Readiness a",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1667,19 +1956,6 @@
       "CVE-2026-102764"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "432b50edcc433b9f",
-    "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-16T12:00:00.000Z",
-    "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764, affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organization",
-    "cveIds": [
-      "CVE-2026-102764"
-    ],
-    "severity": "critical"
   },
   {
     "id": "754b8af5c24d4555",
@@ -1847,6 +2123,83 @@
     "category": "advisory",
     "pubDate": "2026-10-16T00:46:35.000Z",
     "summary": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "aa41ca36562e614d",
+    "title": "Multiples vulnérabilités dans Moxa AIG-302 Series (16 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1327/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Moxa AIG-302 Series. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contourneme",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2123c0f587663346",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (16 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1328/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1dd3a98d6010bb6f",
+    "title": "Multiples vulnérabilités dans Google Chrome (16 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1329/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8caef2d8ab616e4c",
+    "title": "Multiples vulnérabilités dans Traefik (16 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1330/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "847a5fcba51a505e",
+    "title": "Multiples vulnérabilités dans Microsoft Office (16 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1331/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Office. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et un contournement de la politiq",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eb8c88ae3b956154",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (16 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1332/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dis",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "afe0d24b11874602",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (16 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1333/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confi",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2172,6 +2525,38 @@
     "severity": "critical"
   },
   {
+    "id": "6f0ecd5cfa136f8e",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-15T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-21589 Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerabilit",
+    "cveIds": [
+      "CVE-2026-21589"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "4fe27da81f0e08d0",
+    "title": "CISA Malcolm",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-280-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-15T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe following versions of CISA Malcolm are affected:\nMalcolm <=v26.07.1 (CVE-2026-107336, CVE-2026-107361, CVE-2026-107337, CVE-2026-107335, CVE-2026-107334)\nMalcolm <=v26.08.0 (CVE-2026-107333, CVE-2026-107362)\nCVSS\nVendo",
+    "cveIds": [
+      "CVE-2026-107336",
+      "CVE-2026-107361",
+      "CVE-2026-107337",
+      "CVE-2026-107335",
+      "CVE-2026-107334",
+      "CVE-2026-107333",
+      "CVE-2026-107362"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "612d5be66bbd62dd",
     "title": "Eclipse Foundation Eclipse Milo",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
@@ -2214,38 +2599,6 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to read arbitrary files on the Torrent Server.\nThe following versions of Thermo Fisher Torrent Suite Software are affected:\nTorrent Suite Software <=5.1",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "6f0ecd5cfa136f8e",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-15T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-21589 Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerabilit",
-    "cveIds": [
-      "CVE-2026-21589"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "4fe27da81f0e08d0",
-    "title": "CISA Malcolm",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-280-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-15T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nThe following versions of CISA Malcolm are affected:\nMalcolm <=v26.07.1 (CVE-2026-107336, CVE-2026-107361, CVE-2026-107337, CVE-2026-107335, CVE-2026-107334)\nMalcolm <=v26.08.0 (CVE-2026-107333, CVE-2026-107362)\nCVSS\nVendo",
-    "cveIds": [
-      "CVE-2026-107336",
-      "CVE-2026-107361",
-      "CVE-2026-107337",
-      "CVE-2026-107335",
-      "CVE-2026-107334",
-      "CVE-2026-107333",
-      "CVE-2026-107362"
-    ],
-    "severity": "cve"
   },
   {
     "id": "3565d45fa9724e1b",
@@ -2536,6 +2889,28 @@
     "severity": "normal"
   },
   {
+    "id": "1d23500495a82759",
+    "title": "Vulnérabilité dans Cisco AsyncOS Software pour Secure Email Gateway (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1325/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-15T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Cisco AsyncOS Software pour Secure Email Gateway. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et une atteinte à l'intégrité des données. Cisco indique que la vu",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "da5d7fb9809b78cd",
+    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1326/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-15T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de serv",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "cb4f3bcbd54dc702",
     "title": "Ukraine says Elon Musk's Starshield service partially restored after restrictions disrupted drone missions",
     "link": "https://therecord.media/ukraine-says-starshield-working-again-after-disruption",
@@ -2692,262 +3067,6 @@
     "category": "news",
     "pubDate": "2026-10-14T17:09:15.000Z",
     "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "045289937798f189",
-    "title": "Spyware manufacturer had access to data harvested by former Polish government, current PM says",
-    "link": "https://therecord.media/spyware-manufacturer-had-access-to-data-harvested-by-previous-polish-government",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-14T16:50:00.000Z",
-    "summary": "Prime Minister Donald Tusk, who ordered the investigation, on Monday called the sprawling spyware operation spearheaded by the country’s previous ruling party “one of the biggest scandals in Polish history since the fall of communism.”",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f47fa401827130f4",
-    "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
-    "link": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-14T16:34:31.000Z",
-    "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers and KVM devices as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme.\n\nThe indictment charges a mix",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e2e487f81c3d6eb6",
-    "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
-    "link": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-14T16:00:00.000Z",
-    "summary": "In Booz Allen’s isolated OT lab, AI models met every objective across eight scenarios and reached an industrial control network from a perimeter compromise in just over 16 minutes.\nThe post AI Agents Navigate Unfamiliar OT Systems and Move ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f0efb52b806cdece",
-    "title": "ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw",
-    "link": "https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-14T15:15:15.000Z",
-    "summary": "ABB previously published an advisory warning about possible probing of a dynovaPRO vulnerability. \nThe post ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fac7cd6e29f5b58e",
-    "title": "Microsoft fixes VPN issues caused by September Windows updates",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-14T14:27:01.000Z",
-    "summary": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "78394b2e6b36c285",
-    "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
-    "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-10-14T14:22:49.000Z",
-    "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime servic",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f6b610c18e508db2",
-    "title": "Harmonic Security Raises $50 Million for Workforce AI Protection",
-    "link": "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-14T14:09:51.000Z",
-    "summary": "The cybersecurity startup plans to expand engineering and go-to-market teams in the US and UK.\nThe post Harmonic Security Raises $50 Million for Workforce AI Protection appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "937c7f4fab21f49c",
-    "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
-    "link": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-14T14:00:10.000Z",
-    "summary": "AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining agentic pentesting with exposure validati",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f25ecccf706526b1",
-    "title": "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations",
-    "link": "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-10-14T14:00:00.000Z",
-    "summary": "Talos and Recorded Future identified UAT-6275 activity targeting government organizations across the Commonwealth of Independent States. Recovered artifacts show additional interest in water resources and energy.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4ec11149b02ca77d",
-    "title": "Microsoft takes down 3 major phishing platforms used by Chinese cybercriminals",
-    "link": "https://therecord.media/microsoft-takes-down-3-major-chinese-phishing-platforms",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-14T13:18:00.000Z",
-    "summary": "The tech giant worked with Japan’s National Police Agency and healthcare cybersecurity organization Health-ISAC to obtain a U.S. court order seizing and redirecting domains that were part of the infrastructure underlying YAM Store, CoGUI an",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "91795601b1ffd249",
-    "title": "Global takedown hits network behind 1 billion phishing messages",
-    "link": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-14T13:12:52.000Z",
-    "summary": "A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partners worldwide. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a7d7c0f109d9c0c8",
-    "title": "Russian travel booking platform suspends reservations after cyberattack",
-    "link": "https://therecord.media/russia-anywayanyday-travel-website-cyberattack",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-14T13:05:00.000Z",
-    "summary": "Customers of Russian travel website Anywayanyday were unable to book tickets or hotel rooms as the company responded to a cyberattack.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b2dbdf4e9e4544f5",
-    "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-10-14T13:00:00.000Z",
-    "summary": "Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "319aa986d3e5a772",
-    "title": "Russian Influence Operation Widely Targets Latin America",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-14T13:00:00.000Z",
-    "summary": "The AI-enabled operation used spoofed emails, fake government documents, and the creation of a local organization to target schools in Peru and Ecuador, among other efforts.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b9b58f38aa23af33",
-    "title": "Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages",
-    "link": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-14T13:00:00.000Z",
-    "summary": "Backed by a federal court order, Microsoft and Health-ISAC seized domains powering YAM Store, CoGUI, and Iron Man.\nThe post Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "835a57efab96f424",
-    "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-14T12:58:07.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0fe732d7667a90ac",
-    "title": "CISA warns of new Ivanti bug being exploited as latest Patch Tuesday breaks records",
-    "link": "https://therecord.media/new-ivanti-microsoft-bugs-exploitation",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-14T12:35:00.000Z",
-    "summary": "The sixth exploited Ivanti bug this year drew attention from the feds and researchers, while a severe Microsoft vulnerability was one of more than 1,400 listed for Patch Tuesday.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ac693e6b140737be",
-    "title": "Congressional probe faults Match Group for failing to rein in dating app scams",
-    "link": "https://therecord.media/congressional-probe-faults-match-group-for-failing-to-stop-dating-app-scams",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-14T12:32:00.000Z",
-    "summary": "The Joint Economic Committee on Tuesday released the results of a year-long investigation into Tinder, Hinge, Match, Plenty of Fish and several other dating sites owned by Match Group.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c8c2a8e77f0c47d2",
-    "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
-    "link": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-14T12:30:42.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "01ccdefefe75bf15",
-    "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
-    "link": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-14T12:13:36.000Z",
-    "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine.\n\nThe curl project fixed it on Oc",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bc568daccb1a16cf",
-    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-14T12:00:00.000Z",
-    "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \nCVE-2026-0322 Palo Alto Networks PAN-OS Code Injection Vulnerability \nCVE-2026-76519 Cisco Secure Email",
-    "cveIds": [
-      "CVE-2026-0322",
-      "CVE-2026-76519"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "de7e4a82bb7fc257",
-    "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
-    "link": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-14T11:50:00.000Z",
-    "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake.\n\nThe call comes in at 4:",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0602ed16425a9a84",
-    "title": "Hirudo Android malware replaces banking apps to evade security checks",
-    "link": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-14T11:41:20.000Z",
-    "summary": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
     "cveIds": [],
     "severity": "normal"
   }
