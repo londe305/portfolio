@@ -1,5 +1,159 @@
 [
   {
+    "id": "76b18c2dc5a90e0a",
+    "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+    "link": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-22T11:15:42.000Z",
+    "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables.\n\nUpon further investigation, the company found that an unauthorized third party may have",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eb08dcb4a958ad76",
+    "title": "Splunk, SolarWinds Release Fresh Security Updates",
+    "link": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-22T10:45:24.000Z",
+    "summary": "Patched vulnerabilities could allow attackers to execute code, elevate privileges, and leak sensitive information.\nThe post Splunk, SolarWinds Release Fresh Security Updates appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1d3516a0d0a60e24",
+    "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+    "link": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-22T10:44:05.000Z",
+    "summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside too",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "34f12a1f7c34dc26",
+    "title": "Cisco Patches 34 Vulnerabilities Across Multiple Products",
+    "link": "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-22T10:05:21.000Z",
+    "summary": "Critical-severity security defects could lead to command execution, authentication bypass, and XSS attacks.\nThe post Cisco Patches 34 Vulnerabilities Across Multiple Products appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "01e27be4feb4551c",
+    "title": "PHP2Shell Exploitation Started Days Before Patches",
+    "link": "https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-22T09:48:58.000Z",
+    "summary": "Initial attempts were observed on October 17, and mass activity began shortly after patches were released.\nThe post PHP2Shell Exploitation Started Days Before Patches appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a9227db3dd338122",
+    "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+    "link": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-22T08:28:48.000Z",
+    "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October 21, 2026, LiteLLM's release",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "df0211e45e19bb26",
+    "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+    "link": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-22T08:27:11.000Z",
+    "summary": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "29143f2ae20d3391",
+    "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+    "link": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-22T07:47:22.000Z",
+    "summary": "Node.js released security updates on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow r",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a5298e0f95bcaf98",
+    "title": "Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU",
+    "link": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-22T07:38:14.000Z",
+    "summary": "Nearly 100 vulnerabilities have been assigned a critical severity rating and Fusion Middleware received the most patches.\nThe post Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "dd2c177462a4a925",
+    "title": "Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook",
+    "link": "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-22T07:26:54.000Z",
+    "summary": "The $25 billion award far exceeds a $5 billion fine the Federal Trade Commission levied against Facebook in 2019.\nThe post Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook appeared first on SecurityWe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eff3ebf7d52ffb89",
+    "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+    "link": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-22T06:38:31.000Z",
+    "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO disclosed, releasing working proof-of-concept code.\n\nBy sending a small batch of compressed HTTP headers that expands in",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3d29fe5d9f8955b4",
+    "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+    "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-22T06:34:10.000Z",
+    "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a734856ab1edb465",
+    "title": "UAE Transitions 50% of Gov't Services to Agentic AI",
+    "link": "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-22T05:00:00.000Z",
+    "summary": "The United Arab Emirates says it's creating a foundation of security and safety as it transforms its public service footprint.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9b69347cfd294268",
+    "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-22T04:21:26.000Z",
+    "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.\n\nDuring the incident, Storm-0940 used ARTEX, a Go-based agentic A",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "0dbc9387e3618b3d",
     "title": "ISC Stormcast For Thursday, October 22nd, 2026 https://isc.sans.edu/podcastdetail/10146, (Thu, Oct 22nd)",
     "link": "https://isc.sans.edu/diary/rss/33446",
@@ -243,7 +397,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-10-21T16:33:47.000Z",
-    "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI company said the ",
+    "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI company said the inci",
     "cveIds": [],
     "severity": "normal"
   },
@@ -337,6 +491,17 @@
     "summary": "Rapid7’s Q3 analysis finds high-severity flaws exploited within three days on average, while AI appeared in just 8% of tracked incidents.\nThe post High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7 appeared first",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "2ee4d03f1bea21f5",
+    "title": "Russian hackers teamed up to wipe data at Ukrainian grain firm",
+    "link": "https://therecord.media/ukraine-hackers-russia-grain-sandworm",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-21T14:45:00.000Z",
+    "summary": "The Russian state-linked hacking group Sandworm collaborated with another threat actor to carry out a destructive cyberattack against a Ukrainian grain logistics company last year, researchers said Thursday.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "39edcc9fa917de67",
@@ -2857,159 +3022,5 @@
       "CVE-2026-0322"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "a28002aabf34a9dd",
-    "title": "CikaBika Bot RAT Uses Discord for C&C",
-    "link": "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-15T11:25:58.000Z",
-    "summary": "Delivered via phishing, the malware provides reconnaissance, remote execution, and data exfiltration capabilities.\nThe post CikaBika Bot RAT Uses Discord for C&C appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9bedf93cf19d16d6",
-    "title": "Why AI Confidence Is Not Validation",
-    "link": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-15T11:04:35.000Z",
-    "summary": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners are developing reliab",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b5878f01eb586193",
-    "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
-    "link": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-15T10:42:16.000Z",
-    "summary": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to help people identify ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b554bfcb0729dc10",
-    "title": "Novel Android RAT ‘Hirudo’ Replaces Banking Apps With Trojanized Copies",
-    "link": "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-15T10:15:32.000Z",
-    "summary": "The Hirudo malware combines elements of a traditional banking trojan and a full-featured RAT.\nThe post Novel Android RAT ‘Hirudo’ Replaces Banking Apps With Trojanized Copies appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fbda5a8420ddcdb1",
-    "title": "CenterPoint Energy Data Breach Impacts 1 Million Texans",
-    "link": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-15T09:55:19.000Z",
-    "summary": "Personal information such as names, addresses, Social Security numbers, and driver’s license numbers was compromised.\nThe post CenterPoint Energy Data Breach Impacts 1 Million Texans appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "080d6dd1dc1fdb26",
-    "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-15T09:10:20.000Z",
-    "summary": "Microsoft has resolved a known issue that was causing black screens, desktop loading issues, and Explorer crashes after installing Windows 11 updates released since August. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1d72630baefb7528",
-    "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
-    "link": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-15T08:45:10.000Z",
-    "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations.\n\nThe spike, according to GitGuardian, was observed on October 8 and 9, 2026.\n\n\"This resulted fro",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7278d7ea9fdc812d",
-    "title": "CISO Conversations: James Robinson – Many Jobs, One Journey to Netskope CISO",
-    "link": "https://www.securityweek.com/ciso-conversations-james-robinson-many-jobs-one-journey-to-netskope-ciso/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-15T08:26:40.000Z",
-    "summary": "James Robinson never planned a cybersecurity career — seven companies and one deputy CISO role later, he leads security at Netskope.\nThe post CISO Conversations: James Robinson – Many Jobs, One Journey to Netskope CISO appeared first on Sec",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9d7e0c21485d6346",
-    "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
-    "link": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-15T08:06:47.000Z",
-    "summary": "The Legal Aid Agency (LAA), an executive agency of the UK's Ministry of Justice that manages the country's Public Defender Service, says attackers who breached its IT systems in April 2025 stole records dating back to 1978. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "50367ee6ae87dcd5",
-    "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
-    "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-15T07:07:05.000Z",
-    "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian.\n\nLangflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. I",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c86f8dee64ea51e3",
-    "title": "EU Grocers Pay a Steep Price for Unpatched Fridge Firmware",
-    "link": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-15T07:00:00.000Z",
-    "summary": "Hundreds of stores lost millions of euros because they hired third parties to manage the outdated OT firmware running their cooling systems.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0ec6dac3321659dc",
-    "title": "Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution",
-    "link": "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-15T06:59:54.000Z",
-    "summary": "The company says it’s aware of limited exploitation against customers’ firewalls, and it has made IoCs available.\nThe post Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a713f2422da2706f",
-    "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
-    "link": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-15T06:43:08.000Z",
-    "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.\n\nThe vulnerabilities in question are CVE-2026-10",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8bed3c35c1a5ef60",
-    "title": "Cisco Warns of Exploited Secure Email Gateway Vulnerability",
-    "link": "https://www.securityweek.com/cisco-warns-of-exploited-secure-email-gateway-vulnerability/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-15T06:34:15.000Z",
-    "summary": "Unauthenticated, remote attackers could write arbitrary files to the operating system and execute commands with root privileges.\nThe post Cisco Warns of Exploited Secure Email Gateway Vulnerability appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
