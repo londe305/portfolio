@@ -1,5 +1,49 @@
 [
   {
+    "id": "0dbc9387e3618b3d",
+    "title": "ISC Stormcast For Thursday, October 22nd, 2026 https://isc.sans.edu/podcastdetail/10146, (Thu, Oct 22nd)",
+    "link": "https://isc.sans.edu/diary/rss/33446",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-22T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "832124389031586a",
+    "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+    "link": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-21T22:16:26.000Z",
+    "summary": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e9fd60a700e2a4db",
+    "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+    "link": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-21T21:43:27.000Z",
+    "summary": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7bcbd743c3f71fbe",
+    "title": "TiDB Breach Exposes Flawed Cloud Security Assumptions",
+    "link": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-21T21:15:39.000Z",
+    "summary": "Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the data comes home to roost.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "f05202614787dc85",
     "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) &#x5b;infocon yellow&#x5d;, (Wed, Oct 21st)",
     "link": "https://isc.sans.edu/diary/rss/33440",
@@ -2967,163 +3011,5 @@
     "summary": "Unauthenticated, remote attackers could write arbitrary files to the operating system and execute commands with root privileges.\nThe post Cisco Warns of Exploited Secure Email Gateway Vulnerability appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "a187e99c589d164d",
-    "title": "ISC Stormcast For Thursday, October 15th, 2026 https://isc.sans.edu/podcastdetail/10138, (Thu, Oct 15th)",
-    "link": "https://isc.sans.edu/diary/rss/33428",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-15T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "efac0e05e16ecbe7",
-    "title": "Multiples vulnérabilités dans les produits F5 (15 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1317/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7c9fbcc3542c9785",
-    "title": "Multiples vulnérabilités dans Moodle (15 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1318/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Moodle. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "47e45b770c08b2f3",
-    "title": "Vulnérabilité dans PostgreSQL psqlODBC (15 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1319/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans PostgreSQL psqlODBC. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5120e526d2fee2b0",
-    "title": "Multiples vulnérabilités dans Sonicwall Network Security Manager (15 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1320/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Sonicwall Network Security Manager. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d61d51e325fdffc6",
-    "title": "Multiples vulnérabilités dans Drupal (15 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1321/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Drupal. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une injection de code indirecte à distance (XSS).",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cdc09be1481dd0a7",
-    "title": "Multiples vulnérabilités dans les produits Juniper Networks (15 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1322/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Juniper Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de servic",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5e0c441e3b8c5333",
-    "title": "Vulnérabilité dans les produits Microsoft (15 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1323/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Microsoft. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d67ab56fb2853f40",
-    "title": "Multiples vulnérabilités dans les produits Symfony (15 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1324/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Symfony. Elles permettent à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1d23500495a82759",
-    "title": "Vulnérabilité dans Cisco AsyncOS Software pour Secure Email Gateway (15 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1325/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Cisco AsyncOS Software pour Secure Email Gateway. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et une atteinte à l'intégrité des données. Cisco indique que la vu",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "da5d7fb9809b78cd",
-    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (15 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1326/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-15T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de serv",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cb4f3bcbd54dc702",
-    "title": "Ukraine says Elon Musk's Starshield service partially restored after restrictions disrupted drone missions",
-    "link": "https://therecord.media/ukraine-says-starshield-working-again-after-disruption",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-14T23:00:00.000Z",
-    "summary": "The Ukrainian military can again use SpaceX’s Starshield satellite service on the move, a Defense Ministry source told Recorded Future News on Thursday, days after sudden restrictions disrupted drone missions along the front line.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c9a3f02d710caec5",
-    "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-14T22:56:47.000Z",
-    "summary": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
-    "cveIds": [
-      "CVE-2026-0322"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "f92c56fe800f3f5c",
-    "title": "Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant",
-    "link": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-10-14T22:00:44.000Z",
-    "summary": "We investigated an intrusion where attackers exploited CVE-2024-47575 to target 500+ firewalls and deploy PEERSTITCH, a memory-resident ARM64 malware.\nThe post Unit 42 Uncovers PEERSTITCH, a Stealthy FortiGate Implant appeared first on Unit",
-    "cveIds": [
-      "CVE-2024-47575"
-    ],
-    "severity": "cve"
   }
 ]
