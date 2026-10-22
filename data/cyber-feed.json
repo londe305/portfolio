@@ -1,5 +1,170 @@
 [
   {
+    "id": "0589859b680b25bd",
+    "title": "Toronto crime tips org freezes operations after details of data breach come to light",
+    "link": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-22T20:52:00.000Z",
+    "summary": "Late Wednesday night the Toronto chapter of Crime Stoppers broke ranks with the national association, revealing a timeline showing what it knew and when along with an announcement that it will pause operations.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0a62902654cebc5f",
+    "title": "What We Missed: Feds Lasso Texas Laptop Farms",
+    "link": "https://www.darkreading.com/insider-threats/texas-laptop-farms-north-korean-it-workers",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-22T20:33:10.000Z",
+    "summary": "In this video, Dark Reading editors discuss some of the news they didn't get a chance to cover, from busting up North Korea's stateside infrastructure in \"Operation Lonestar Justice\" to Staples' gift card bonanza.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "177124c993da1845",
+    "title": "Capcom confirms data breach affecting 11.7 million accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-22T20:22:45.000Z",
+    "summary": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a0b44de98d51fea9",
+    "title": "Les supermarchés de l'UE paient d'un firmware de réfrigérateur non mis à jour",
+    "link": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware-french",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-22T19:30:20.000Z",
+    "summary": "Des centaines de magasins ont subi des pertes se chiffrant en millions d'euros parce qu'ils avaient fait appel à des tiers pour gérer le micrologiciel OT obsolète qui pilotait leurs systèmes de climatisation.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0151e8522bf78e30",
+    "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+    "link": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-22T19:12:51.000Z",
+    "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d76b50dba1625800",
+    "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+    "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-22T19:05:35.000Z",
+    "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\n\nNobody reviewed its access. Nobody owns",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "23872cb1986e28ae",
+    "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+    "link": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-22T19:05:17.000Z",
+    "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22.\n\nThe flaw lets anyone who can log i",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "afb644b2382c30d4",
+    "title": "Indian tech company eMudhra announces withdrawal from certificate business after security incident",
+    "link": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-22T18:46:00.000Z",
+    "summary": "The issue was publicized by cybersecurity researcher Scott Helme, who published a blog saying that instead of a random 384-bit number, one of the company's private keys was just the number four.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f74ce17a74d9601f",
+    "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
+    "link": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-22T18:12:43.000Z",
+    "summary": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business, its board decided on Thursday. The decision came five days after a researcher reported recovering the private keys of eight of its in",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "49c1ab7af418cae2",
+    "title": "I had plans for that second",
+    "link": "https://blog.talosintelligence.com/i-had-plans-for-that-second/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-10-22T18:04:32.000Z",
+    "summary": "The Earth is speeding up, the leap second is being abolished, oh, and there's critical vulnerabilities in PHP.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a45e553ca30bdb4a",
+    "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+    "link": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-22T17:45:44.000Z",
+    "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5d4f96d6acc675d5",
+    "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-22T17:18:22.000Z",
+    "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "101af1ca8d1b00b2",
+    "title": "EMudhra Intermediate CA Certificates Compromised",
+    "link": "https://unit42.paloaltonetworks.com/emudhra-certificate-compromise/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-10-22T17:15:32.000Z",
+    "summary": "Eight compromised eMudhra intermediate CA private keys risk unauthorized TLS signing and MitM interception. Read our analysis and containment guide.\nThe post EMudhra Intermediate CA Certificates Compromised appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "eebdb3f4f6ae3ff9",
+    "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+    "link": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-22T17:01:53.000Z",
+    "summary": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel.\n\nOne of them, ZDI-CAN-33",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ca5fc9dc16b17ee4",
+    "title": "The Current Landscape of OAuth Attacks",
+    "link": "https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-10-22T17:00:25.000Z",
+    "summary": "Unit 42 explores modern OAuth threats and actionable steps organizations can take to protect their environments.\nThe post The Current Landscape of OAuth Attacks appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "2a5b06ac50903a69",
     "title": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents",
     "link": "https://therecord.media/china-cyber-connectwise-ai",
@@ -132,6 +297,193 @@
     "severity": "normal"
   },
   {
+    "id": "76d592eba3991be8",
+    "title": "Siemens SIMATIC S7 Webserver API",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-10",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\n.NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "941935f08939d347",
+    "title": "Siemens APOGEE, TALON and Desigo PXC/PXM Products",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-08",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe products listed below contain multiple vulnerabilities that could allow an attacker to cause a denial of service and potentially impact the availability of the affected device. Siemens has released new versions for sev",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0772ceb52ebcb46d",
+    "title": "Siemens RUGGEDCOM CROSSBOW",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nRUGGEDCOM CROSSBOW contains multiple vulnerabilities that could allow an attacker to execute arbitrary SQL commands on the underlying database, retrieve sensitive administrative credentials, escalate privileges, and perfor",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5afddfa52052a684",
+    "title": "Siemens RUGGEDCOM APE1808 Devices",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-18",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nNozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Siemens recommends to contact customer sup",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a7c265353a78b12e",
+    "title": "Siemens Industrial Edge App Publisher",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe Industrial Edge App Publisher contains a vulnerability chain involving improper certificate validation and the rendering of unescaped data from backend responses. These issues can be combined to allow an attacker on th",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "605d531ea389dc3f",
+    "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nMultiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fixes and reco",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "236815939a0fb5dd",
+    "title": "Siemens WinCC",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nMultiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability that could allow an authenticated user with access to the database to execute commands on the underlying host system. Siemens ha",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "08d39f89ecf028b4",
+    "title": "Siemens Industrial Edge Device Kit",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nUsers of Industrial Edge Devices are advised to consult the respective Security Advisories for their devices (for Siemens Industrial Edge devices see Additional Information). Industrial Edge Device Kit contains multiple pa",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "533ddb227bc5eec3",
+    "title": "Siemens Capital Embedded AR Classic",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe products listed below contain an out-of-bounds read vulnerability that could allow an attacker to cause abnormal product behavior, instability, or denial of service. Siemens has released a new version for Capital Embed",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "27f18cf82b1dc88c",
+    "title": "InterSystems Corporation InterSystems IRIS for Health",
+    "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-295-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to view transmitted data and use that data to log into the device.\nThe following versions of InterSystems Corporation InterSystems IRIS for Health are a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5b0b73ee120b4dc0",
+    "title": "Siemens PSS(R)SINCAL",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-06",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nPSS(R)SINCAL uses WibuKey third-party product that contains an out-of-bounds write vulnerability. An attacker could exploit this vulnerability to cause a system crash, resulting in a denial-of-service condition. This affec",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "68eaa2dc47131c00",
+    "title": "Siemens Software Center",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe affected application loads dynamic-link libraries (DLLs) from an uncontrolled search path. This could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches,",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f24c5287a98c0faf",
+    "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nRUGGEDCOM CROSSBOW Station Access Controller (SAC) contains multiple vulnerabilities in the integrated SQLite component that could allow an attacker to execute arbitrary code, cause a denial of service, or obtain sensitive",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "27602b8f8f6eea14",
+    "title": "Siemens SIMATIC IPCs",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-07",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe products listed below contain a vulnerability that could allow an attacker to boot an operating system or UEFI application signed with that test key, bypassing UEFI Secure Boot protections even when Secure Boot is enab",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "71842f59f6596316",
+    "title": "Siemens Industrial Edge Devices",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-17",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSiemens Industrial Edge Devices contain multiple path traversal vulnerabilities that could facilitate an authenticated remote attacker to access sensitive internal information. Siemens has released new versions for several",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "17f5da59605d6aba",
+    "title": "Siemens SIMATIC S7 PLCs Web Server",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSIMATIC S7-1500 devices contain multiple vulnerabilities in the web server that could allow an attacker to execute malicious code in an authorized user’s browser session and perform PLC operations within the scope of that ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b3a5d9b4753994ea",
+    "title": "Siemens SENTRON 3NA COM Fuse",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-service (DoS) condition. Successful exploitation may require",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "72b4f49443d32a21",
     "title": "Managing AI Token Consumption for Operational Resilience",
     "link": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience",
@@ -143,15 +495,28 @@
     "severity": "normal"
   },
   {
-    "id": "d76b50dba1625800",
-    "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-    "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-22T11:45:00.000Z",
-    "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\n\nNobody reviewed its access. Nobody owns",
+    "id": "badbefd5ca6d1768",
+    "title": "Siemens SIMATIC S7-1500 TM MFP",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-16",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nMultiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the SIMATIC S7-1500 TM MFP V1.1.1. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or n",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "2e4435c7af875024",
+    "title": "Kiloview E3 NDI Encoder",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this these vulnerabilities could allow an attacker to fully compromise the device.\nThe following versions of Kiloview E3 NDI Encoder are affected:\nE3 Firmware <1.30 (CVE-2026-109122, CVE-2026-111",
+    "cveIds": [
+      "CVE-2026-109122"
+    ],
+    "severity": "critical"
   },
   {
     "id": "0f812922fb34579d",
@@ -292,7 +657,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-10-22T06:34:10.000Z",
-    "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the ",
+    "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploita",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1108,12 +1473,12 @@
   },
   {
     "id": "6bd6585835c42569",
-    "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)",
+    "title": "Threat Brief: Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20)",
     "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
     "source": "Palo Alto Unit 42",
     "category": "vendor",
     "pubDate": "2026-10-20T20:30:42.000Z",
-    "summary": "Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257.\nThe post Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20) appeared ",
+    "summary": "Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257.\nThe post Threat Brief: Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20) ",
     "cveIds": [
       "CVE-2026-0257"
     ],
@@ -2940,129 +3305,6 @@
     "category": "news",
     "pubDate": "2026-10-15T21:55:07.000Z",
     "summary": "Built from decades of threat intelligence research, the new resource explains scams from the victims' perspective and tracks emerging forms of cyber crime.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c5cb3c9094bdd955",
-    "title": "Federal bankruptcy courts dealing with outages after contractor cyberattack",
-    "link": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-15T20:46:00.000Z",
-    "summary": "The incident, which involved a government contractor, has halted all production of bankruptcy notices.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c7adc8194c581b16",
-    "title": "AI Slop Isn't Just for Social Media; It's Ruining Cyberattacks, Too",
-    "link": "https://www.darkreading.com/threat-intelligence/ai-slop-ruining-cyberattacks",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-15T20:43:20.000Z",
-    "summary": "Don't buy the hype! AI has been dumbing down cyberattacks, and serious threat actors are barely touching it.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a094aa58c0daa305",
-    "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-15T20:25:04.000Z",
-    "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
-    "cveIds": [
-      "CVE-2026-110447"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "222e66a510036328",
-    "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-    "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-15T20:24:36.000Z",
-    "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.\n\nThe",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6c8051f534fec6ac",
-    "title": "Android gets AI defenses against messaging scams, fake calls",
-    "link": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-15T19:48:43.000Z",
-    "summary": "Google announced new AI-powered defenses against scam messages and call-forwarding abuse on Android, currently rolling out to eligible devices. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c66a493418bc77ed",
-    "title": "Zero-click spyware infecting devices through online ads, researchers say",
-    "link": "https://therecord.media/spyware-citizen-lab-advertising",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-15T19:00:00.000Z",
-    "summary": "Powerful zero-click spyware is infected devices worldwide through targeted ads, new research shows — an alarming development in the spread of surveillance technology.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "986cc714fb426f82",
-    "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
-    "link": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-15T18:49:33.000Z",
-    "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\n\nThe rest gets interesting in different ways. A small permi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b14fd868476bffef",
-    "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-15T18:20:59.000Z",
-    "summary": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c993d0f62b81a9c4",
-    "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
-    "link": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-10-15T18:00:00.000Z",
-    "summary": "Is the cybersecurity world really facing a \"Bugmageddon?\" Thor breaks down the latest CVE and KEV trends in the latest Threat Source newsletter.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "33659e3f78085d11",
-    "title": "Context Is King in the Fight Against Modern Cyberattacks",
-    "link": "https://www.securityweek.com/context-is-king-in-the-fight-against-modern-cyberattacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-15T17:42:50.000Z",
-    "summary": "Contextual defense helps security teams connect the signals, anticipate what comes next, and stop threats before they escalate.\nThe post Context Is King in the Fight Against Modern Cyberattacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "20dc09b781c43539",
-    "title": "Fake Arch Linux packages push malware with root privileges",
-    "link": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-15T17:12:31.000Z",
-    "summary": "A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]",
     "cveIds": [],
     "severity": "normal"
   }
