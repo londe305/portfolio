@@ -1,5 +1,172 @@
 [
   {
+    "id": "f582252343af91cc",
+    "title": "Quest Diagnostics confirms data breach exposed patient records",
+    "link": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-23T16:40:07.000Z",
+    "summary": "American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5d4b1321ac5e829f",
+    "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+    "link": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-23T15:38:05.000Z",
+    "summary": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "52d3232953e2ec34",
+    "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
+    "link": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-23T14:23:37.000Z",
+    "summary": "Noteworthy stories that might have slipped under the radar: Russia’s APT28 hit NATO defense firms, PingCAP source code stolen, ShinyHunters negotiator probe.\nThe post In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4eed9c7e043606c8",
+    "title": "You gave your AI agent access, but who is giving it orders?",
+    "link": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-23T14:00:10.000Z",
+    "summary": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents thr",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bd43f4cf3245ccee",
+    "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
+    "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-23T14:00:00.000Z",
+    "summary": "The region is demonstrating what happens when exploits accelerate but assurance does not.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f059789b24373367",
+    "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+    "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-23T13:50:56.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"Artifacts from this investigation also in",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "cf981b7260213c66",
+    "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
+    "link": "https://isc.sans.edu/diary/rss/33450",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-23T13:43:20.000Z",
+    "summary": "This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so i",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ff1522ac28cbf7ce",
+    "title": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
+    "link": "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-23T13:30:00.000Z",
+    "summary": "Rising AI, social engineering, and cloud risks are pushing carriers beyond risk transfer and deeper into cybersecurity itself.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b49db17578fd765a",
+    "title": "UK proposes 14-year prison terms for undersea cable sabotage",
+    "link": "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-23T13:26:00.000Z",
+    "summary": "In an era of hybrid threats, the British government wants to update the Submarine Telegraph Act 1885, which carries a maximum fine of £1,000 and five years’ imprisonment in cases of deliberate damage.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8bb708370d7a3fb9",
+    "title": "Quest Diagnostics warns of potential data theft after attack on lab service system",
+    "link": "https://therecord.media/quest-diagnostics-network-intrusion",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-23T12:52:00.000Z",
+    "summary": "Nationwide lab test company Quest Diagnostics said one of its key systems may have experienced a breach of patient data.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "eb477469ff02e82d",
+    "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-23T12:48:00.000Z",
+    "summary": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ceaaccb7c7382a0b",
+    "title": "Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge",
+    "link": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-23T12:45:52.000Z",
+    "summary": "Researchers tie PHP2Shell attempts to a Mirai botnet and show an ASLR bypass, but no successful compromise has been confirmed yet.\nThe post Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge appeared first on Secur",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ba1a1addd0c23c78",
+    "title": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
+    "link": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-23T11:38:28.000Z",
+    "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may multiply — not contain — the risk.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3bc9a46d29046dd2",
+    "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+    "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-23T11:25:43.000Z",
+    "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an u",
+    "cveIds": [
+      "CVE-2026-115560"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "80697809b26e3096",
+    "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+    "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-23T11:11:23.000Z",
+    "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.\n\nAccording to ESET, the attack involved UAC-0099 (aka Earth S",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "713a68aa818f2bd7",
     "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
     "link": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
@@ -23,12 +190,12 @@
   },
   {
     "id": "94808457651058f4",
-    "title": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
+    "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months",
     "link": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
     "source": "SecurityWeek",
     "category": "news",
     "pubDate": "2026-10-23T09:58:34.000Z",
-    "summary": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges.\nThe post Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months appeared first on SecurityWe",
+    "summary": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges.\nThe post Attackers Exploit Third Arista VCO Zero-Day in Four Months appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
   },
@@ -80,12 +247,12 @@
   },
   {
     "id": "0515431e7464769e",
-    "title": "Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Records’",
+    "title": "Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’",
     "link": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
     "source": "SecurityWeek",
     "category": "news",
     "pubDate": "2026-10-23T08:25:06.000Z",
-    "summary": "In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders.\nThe post Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Re",
+    "summary": "In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders.\nThe post Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’ appe",
     "cveIds": [],
     "severity": "critical"
   },
@@ -372,6 +539,17 @@
     "category": "news",
     "pubDate": "2026-10-22T14:31:34.000Z",
     "summary": "Corey Thuen hires hackers for what he calls ‘the evil bit’ — an adversarial streak he believes is either there or it isn’t.\nThe post Hacker Conversations: Corey Thuen and the Evil Bit appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3c321f073d2095b2",
+    "title": "As AI Risks Grow, Insurers Split on Covering the Damage",
+    "link": "https://www.darkreading.com/cyber-risk/cyber-insurance-covering-ai-damage",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-22T14:21:22.000Z",
+    "summary": "Insurers are split on AI risk: some build specialized agentic AI coverage, while major carriers quietly exclude it — leaving enterprises exposed without their knowledge.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -830,7 +1008,7 @@
   },
   {
     "id": "a734856ab1edb465",
-    "title": "UAE Transitions 50% of Gov't Services to Agentic AI",
+    "title": "UAE Transitions 50% of Government Services to Agentic AI",
     "link": "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
     "source": "Dark Reading",
     "category": "news",
@@ -890,7 +1068,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-10-21T21:15:39.000Z",
-    "summary": "Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the data comes home to roost.",
+    "summary": "Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the unseen information comes to light.",
     "cveIds": [],
     "severity": "critical"
   },
@@ -1613,6 +1791,127 @@
     "category": "advisory",
     "pubDate": "2026-10-21T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et un déni de service.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e1c63543b3fbc12f",
+    "title": "Vulnérabilité dans MongoDB PHP Driver (21 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1347/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans MongoDB PHP Driver. Elle permet à un attaquant de provoquer un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0e595982e72813cb",
+    "title": "Multiples vulnérabilités dans Mattermost Server (21 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1348/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c6749fc1b5cce5ae",
+    "title": "Multiples vulnérabilités dans Oracle Database Server (21 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1349/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Database Server. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la conf",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "aef2fcf58160b427",
+    "title": "Multiples vulnérabilités dans Oracle Java SE (21 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1350/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidential",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9a6a21e40ca3c458",
+    "title": "Multiples vulnérabilités dans Oracle MySQL (21 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1351/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle MySQL. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8312c247950efbdf",
+    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (21 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1352/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confident",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "61cd0116fe50230a",
+    "title": "Multiples vulnérabilités dans Oracle Systems (21 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1353/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Systems. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidential",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6fda511224efd76e",
+    "title": "Multiples vulnérabilités dans Oracle Virtualization (21 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1354/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7e3ff1ddd68828a6",
+    "title": "Multiples vulnérabilités dans Oracle Weblogic (21 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1355/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "29a7929616be7ec2",
+    "title": "Vulnérabilité dans Traefik (21 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1356/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Traefik. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f644439542f8c460",
+    "title": "Multiples vulnérabilités dans Google Chrome (21 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1357/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-21T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2695,17 +2994,6 @@
     "severity": "critical"
   },
   {
-    "id": "5119375006d5a11b",
-    "title": "Multiples vulnérabilités dans Juniper Networks Session Smart Router (19 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1337/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-19T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Juniper Networks Session Smart Router. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "7fc24a9bfbc2175e",
     "title": "Vulnérabilité dans Mattermost Server (19 octobre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1338/",
@@ -2757,6 +3045,17 @@
     "category": "advisory",
     "pubDate": "2026-10-19T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5119375006d5a11b",
+    "title": "Multiples vulnérabilités dans Juniper Networks Session Smart Router (19 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1337/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-19T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Juniper Networks Session Smart Router. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2957,220 +3256,6 @@
     "category": "news",
     "pubDate": "2026-10-16T17:20:03.000Z",
     "summary": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2f6312b7767d6c54",
-    "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
-    "link": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-16T16:43:39.000Z",
-    "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7ca539292393b052",
-    "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
-    "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-16T16:16:44.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (Ait",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c094ac3382c932e1",
-    "title": "Managing open-weight model risk in enterprise deployments",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-10-16T16:00:00.000Z",
-    "summary": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls.\nThe post Managing open-weight model risk in enterprise deployments appeared first on Microsoft S",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6c93682bf2887395",
-    "title": "Proofpoint lines up $6.3 billion deal for Varonis’ data security",
-    "link": "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-16T14:45:00.000Z",
-    "summary": "Cybersecurity giant Proofpoint says it will acquire Miami-based data visibility and security company Varonis in an all-cash transaction worth $6.3 billion.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7a1f49cfc7152176",
-    "title": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
-    "link": "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-16T14:09:51.000Z",
-    "summary": "Noteworthy stories that might have slipped under the radar: BofA adds 1,000 patching contractors, KGB RAT pairs data theft with jump scares, and Langflow flaw under attack.\nThe post In Other News: ICS-Sniper Attack, Hacking XWorm Malware Op",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "82bd71e8965df8d7",
-    "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
-    "link": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-16T14:03:04.000Z",
-    "summary": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurre",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "834a248937dfd68d",
-    "title": "When Your Ransomware Negotiator Works for the Other Side",
-    "link": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-16T14:00:00.000Z",
-    "summary": "The shocking arrest of a well-known ransomware negotiator reveals the critical need for vendor program oversight.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d269ee990910b8f5",
-    "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
-    "link": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-16T13:50:59.000Z",
-    "summary": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "39925f2a643ee3f3",
-    "title": "Moscow police detain suspected DataSuckers hackers linked to breaches in Ukraine and Russia",
-    "link": "https://therecord.media/russia-datasuckers-hackers-arrested",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-16T13:30:00.000Z",
-    "summary": "Russian authorities have reportedly detained three suspected members of the DataSuckers hacking group following a cyberattack on a popular restaurant chain that exposed vast amounts of customer information.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "38208afe28ec700d",
-    "title": "Baltimore suburb confirms August data breach after ransomware claims",
-    "link": "https://therecord.media/anne-arundel-county-maryland-confirms-data-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-16T13:05:00.000Z",
-    "summary": "Anne Arundel County, Maryland, said an intruder stole files from government systems, and investigators are working to assess how much data was exposed.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "48b9aea0ee8325ee",
-    "title": "When AI Agents Commit Breaches, Humans May Not Be Held Liable",
-    "link": "https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-16T13:00:00.000Z",
-    "summary": "As agents escape containment and access external systems, responsibility remains human. Accountability, however, is much less settled.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0fb423df84c7cd92",
-    "title": "Suspected Chinese espionage attackers abusing BeyondTrust IT support zero-day",
-    "link": "https://therecord.media/beyond-trust-cyberattack-china",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-16T13:00:00.000Z",
-    "summary": "An alleged Chinese state-backed group is using a new zero-day affecting BeyondTrust IT support software to conduct espionage attacks.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "862e2db1b4e06358",
-    "title": "Burger King Japan data breach exposes 11 million customer records",
-    "link": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-16T12:01:29.000Z",
-    "summary": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "432b50edcc433b9f",
-    "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-16T12:00:00.000Z",
-    "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764, affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organization",
-    "cveIds": [
-      "CVE-2026-102764"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "bb92e43802cb88b0",
-    "title": "Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials",
-    "link": "https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-16T12:00:00.000Z",
-    "summary": "CISA and the Federal Bureau of Investigation (FBI) released a Public Service Announcement (PSA) warning election and campaign officials about cyber threats during the 2026 U.S. midterm elections. Malicious cyber actors may use phishing and ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "06ca72ec747dbc6e",
-    "title": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation",
-    "link": "https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-16T12:00:00.000Z",
-    "summary": "The National Institute of Standards and Technology (NIST), National Security Agency’s Super Intelligence Security Center (NSA SISC) and Cybersecurity and Infrastructure Security Agency (CISA) published Key Practices for Incident Readiness a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ce00994aa82d30b1",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-16T12:00:00.000Z",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2025-61624 Fortinet Multiple Products Path Traversal Vulnerability\nCVE-2026-102764 BeyondTrust Remote",
-    "cveIds": [
-      "CVE-2025-61624",
-      "CVE-2026-102764"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "754b8af5c24d4555",
-    "title": "BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts",
-    "link": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-16T11:46:40.000Z",
-    "summary": "A cyber incident affecting contractor BAE Systems has knocked out the Bankruptcy Noticing Center, halting notices nationwide for a week.\nThe post BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts appeared first on Secur",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "61ac6bfaa7c9de55",
-    "title": "AI Decision Models and Their Impact on AI SOC Platforms",
-    "link": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-16T11:30:00.000Z",
-    "summary": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decis",
     "cveIds": [],
     "severity": "normal"
   }
