@@ -1,5 +1,151 @@
 [
   {
+    "id": "78e6b44f5a3d5bff",
+    "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+    "link": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-23T20:57:56.000Z",
+    "summary": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "201a6bfc4c9c82a0",
+    "title": "Abandoned Popcorn Time app exposed millions of device to RCE attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-23T20:55:05.000Z",
+    "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "99cc8517906e9daa",
+    "title": "(Reliable)&#x3f; php2shell exploitability, (Fri, Oct 23rd)",
+    "link": "https://isc.sans.edu/diary/rss/33452",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-23T20:04:47.000Z",
+    "summary": "Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f1cc9ef1de56563f",
+    "title": "Exposed to PHP2Shell? Cyber Experts Weigh in With Advice",
+    "link": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-23T19:41:23.000Z",
+    "summary": "Fixing the critical PHP flaws is not as simple as clicking \"Update.\" Here's how to assess your risk, and what you can do to protect yourself.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2810027585c5f3b5",
+    "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 23)",
+    "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-10-23T19:00:34.000Z",
+    "summary": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems.\nThe post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated O",
+    "cveIds": [
+      "CVE-2026-109618",
+      "CVE-2026-109619"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "e62f85ca100be1fa",
+    "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-23T18:54:41.000Z",
+    "summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "077ef200d3e00808",
+    "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+    "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-23T18:50:13.000Z",
+    "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\n\nThe activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkm",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "abfff6ba3917a252",
+    "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-10-23T18:12:19.000Z",
+    "summary": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations.\nThe post Inside the LiteLLM 1.107.0 supply chain compromise: Credenti",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4645fb818a8e9e28",
+    "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+    "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-23T17:54:08.000Z",
+    "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.\n\nGitLab found",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "015a882ee27441d9",
+    "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+    "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-23T17:50:47.000Z",
+    "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.\n\nCentral to the operation is an \"Autonomous Red Team Kill Chain Framework",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "90f70db295897a33",
+    "title": "FCC bans two devices with surveillance chips linked to Huawei",
+    "link": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-23T17:28:00.000Z",
+    "summary": "The banned items — a wireless video transmitter and dashboard camera — are made with chips manufactured by Huawei subsidiary HiSilicon, which markets its products as “designed for the surveillance market.”",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b95d5610d15459c6",
+    "title": "AI Tools Are Generating Massive Attacks for Little Cost",
+    "link": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-23T17:26:59.000Z",
+    "summary": "One campaign targets 105 sites using open-weight models; in another, public models gained full domain control for $12. Cyber-defense will have to change.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "27be26c6f1772425",
+    "title": "Microsoft: Windows Server 2016 reaches end of support in January",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-23T17:05:07.000Z",
+    "summary": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f582252343af91cc",
     "title": "Quest Diagnostics confirms data breach exposed patient records",
     "link": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
@@ -132,13 +278,26 @@
     "severity": "critical"
   },
   {
+    "id": "57a05936dd7184ae",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-23T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-110447 Collabora Online – Built-in CODE Server OS Command Injection Vulnerability \nThis type of vu",
+    "cveIds": [
+      "CVE-2026-110447"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "ba1a1addd0c23c78",
     "title": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
     "link": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-10-23T11:38:28.000Z",
-    "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may multiply — not contain — the risk.",
+    "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the risk.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -157,7 +316,7 @@
   },
   {
     "id": "80697809b26e3096",
-    "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+    "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
     "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
     "source": "The Hacker News",
     "category": "news",
@@ -297,6 +456,17 @@
     "category": "news",
     "pubDate": "2026-10-23T06:39:29.000Z",
     "summary": "After a three-month lull, Prince of Persia hid a Tornado C&C server on US shared hosting, its first US-based server since 2016.\nThe post Iran’s Prince of Persia APT Hosts C&C in US for First Time Since 2016 appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b65cad206f500ab2",
+    "title": "Reports of PHP bug exploitation attempts grow as experts downplay viability of exploits",
+    "link": "https://therecord.media/php-php2shell-exploitation-attempts-pocs",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-23T04:00:00.000Z",
+    "summary": "The headline-grabbing bugs known colloquially as PHP2Shell are giving cyber analysts a lot to track — and a lot to debunk.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -549,7 +719,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-10-22T14:21:22.000Z",
-    "summary": "Insurers are split on AI risk: some build specialized agentic AI coverage, while major carriers quietly exclude it — leaving enterprises exposed without their knowledge.",
+    "summary": "Some build specialized agentic AI coverage, while major carriers quietly exclude it — leaving enterprises exposed without their knowledge.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -796,17 +966,6 @@
     "severity": "normal"
   },
   {
-    "id": "71842f59f6596316",
-    "title": "Siemens Industrial Edge Devices",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-17",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSiemens Industrial Edge Devices contain multiple path traversal vulnerabilities that could facilitate an authenticated remote attacker to access sensitive internal information. Siemens has released new versions for several",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "17f5da59605d6aba",
     "title": "Siemens SIMATIC S7 PLCs Web Server",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14",
@@ -818,13 +977,13 @@
     "severity": "normal"
   },
   {
-    "id": "b3a5d9b4753994ea",
-    "title": "Siemens SENTRON 3NA COM Fuse",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05",
+    "id": "71842f59f6596316",
+    "title": "Siemens Industrial Edge Devices",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-17",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-10-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-service (DoS) condition. Successful exploitation may require",
+    "summary": "View CSAF\nSummary\nSiemens Industrial Edge Devices contain multiple path traversal vulnerabilities that could facilitate an authenticated remote attacker to access sensitive internal information. Siemens has released new versions for several",
     "cveIds": [],
     "severity": "normal"
   },
@@ -836,6 +995,17 @@
     "category": "advisory",
     "pubDate": "2026-10-22T12:00:00.000Z",
     "summary": "CISA, the Canadian Centre for Cyber Security (Cyber Centre), and partners are releasing joint guidance, Managing AI Token Consumption for Operational Resilience, to help organizations understand and manage token usage in support of operatio",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b3a5d9b4753994ea",
+    "title": "Siemens SENTRON 3NA COM Fuse",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-service (DoS) condition. Successful exploitation may require",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1275,20 +1445,6 @@
     "summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI company said the inci",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "2810027585c5f3b5",
-    "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619",
-    "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-10-21T16:30:34.000Z",
-    "summary": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems.\nThe post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 appeared f",
-    "cveIds": [
-      "CVE-2026-109618",
-      "CVE-2026-109619"
-    ],
-    "severity": "critical"
   },
   {
     "id": "288893f636793d08",
@@ -1939,12 +2095,12 @@
   },
   {
     "id": "6bd6585835c42569",
-    "title": "Threat Brief: Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20)",
+    "title": "Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20)",
     "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
     "source": "Palo Alto Unit 42",
     "category": "vendor",
     "pubDate": "2026-10-20T20:30:42.000Z",
-    "summary": "Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257.\nThe post Threat Brief: Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20) ",
+    "summary": "Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257.\nThe post Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20) appeared first",
     "cveIds": [
       "CVE-2026-0257"
     ],
@@ -3157,106 +3313,5 @@
     "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unautho",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "15367a3259ffd977",
-    "title": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
-    "link": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-16T20:34:37.000Z",
-    "summary": "Ivanti, Cisco, and Palo Alto Networks all had vulnerabilities in edge devices come under fire this week. Now BeyondTrust joins the group.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8dfac5c34b84f531",
-    "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-16T20:00:59.000Z",
-    "summary": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
-    "cveIds": [
-      "CVE-2026-103849"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "8e2b4b8581aaf0f3",
-    "title": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
-    "link": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-16T19:49:30.000Z",
-    "summary": "Campaigns that impersonate popular AI brands are on the rise, and they typically use ClickFix-like tactics to target unsuspecting enterprise employees.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b8b7cb7d4b497f6a",
-    "title": "Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform",
-    "link": "https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-16T19:22:12.000Z",
-    "summary": "The launch follows the acquisition of catalog's assets and the appointment of Laurent Guengant as CEO earlier this year.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "714d202db5965001",
-    "title": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
-    "link": "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-16T19:13:59.000Z",
-    "summary": "Companies are increasingly discovering that the challenge with AI is no longer adoption, but execution.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0a02340233325a55",
-    "title": "AI Takes Control of Robotic Arm in 16 Minutes Flat",
-    "link": "https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-16T18:37:50.000Z",
-    "summary": "Most OT devices at utilities, factories, and elsewhere have been deployed for a decade or more, but operators need to get agile and deploy new cyber defenses.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2f67e7ff74fc3554",
-    "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
-    "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-16T17:48:45.000Z",
-    "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardw",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a273e26d1615cc31",
-    "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
-    "link": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-10-16T17:47:54.000Z",
-    "summary": "Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing\nThe post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "50880c900177e28f",
-    "title": "Targeted ads installed Candiru spyware in zero-click attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-16T17:20:03.000Z",
-    "summary": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
