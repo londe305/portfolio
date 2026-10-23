@@ -1,5 +1,27 @@
 [
   {
+    "id": "fdce8a7d1bd72cd3",
+    "title": "State Bank of India Suffers a Customer PII Data Leak",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-23T03:30:00.000Z",
+    "summary": "Relatively small data breaches in India can turn quite serious, thanks to a sophisticated underground market for trading PII.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6af5f5a84e31744d",
+    "title": "Railway warns devs to rotate secrets after potential breach",
+    "link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-22T21:25:31.000Z",
+    "summary": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "0589859b680b25bd",
     "title": "Toronto crime tips org freezes operations after details of data breach come to light",
     "link": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
@@ -9,6 +31,17 @@
     "summary": "Late Wednesday night the Toronto chapter of Crime Stoppers broke ranks with the national association, revealing a timeline showing what it knew and when along with an announcement that it will pause operations.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "778da97616c17390",
+    "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-22T20:42:17.000Z",
+    "summary": "The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "0a62902654cebc5f",
@@ -3131,181 +3164,5 @@
       "CVE-2025-61624"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "dcae46e419da6d66",
-    "title": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
-    "link": "https://isc.sans.edu/diary/rss/33432",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-16T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "92d5abc10ae9799e",
-    "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
-    "link": "https://isc.sans.edu/diary/rss/33430",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-16T00:46:35.000Z",
-    "summary": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "aa41ca36562e614d",
-    "title": "Multiples vulnérabilités dans Moxa AIG-302 Series (16 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1327/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Moxa AIG-302 Series. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contourneme",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2123c0f587663346",
-    "title": "Multiples vulnérabilités dans les produits Mattermost (16 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1328/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1dd3a98d6010bb6f",
-    "title": "Multiples vulnérabilités dans Google Chrome (16 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1329/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8caef2d8ab616e4c",
-    "title": "Multiples vulnérabilités dans Traefik (16 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1330/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "847a5fcba51a505e",
-    "title": "Multiples vulnérabilités dans Microsoft Office (16 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1331/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Office. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et un contournement de la politiq",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "eb8c88ae3b956154",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (16 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1332/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dis",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "afe0d24b11874602",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (16 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1333/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "097a359fcf77a924",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (16 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1334/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "851bc766a9013666",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (16 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1335/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f6ab6ee04db34041",
-    "title": "Multiples vulnérabilités dans les produits IBM (16 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1336/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e981b7de3fc104c8",
-    "title": "Panchan's Mining Island &#x5b;Guest Diary&#x5d;, (Wed, Oct 14th)",
-    "link": "https://isc.sans.edu/diary/rss/33426",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-15T23:03:42.000Z",
-    "summary": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3f1030ed0e261f81",
-    "title": "SecTor 2026 Reveals a Rapidly Shifting Cybersecurity Landscape",
-    "link": "https://www.darkreading.com/cybersecurity-operations/sector-2026-reveals-a-rapidly-shifting-cybersecurity-landscape",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-15T22:10:08.000Z",
-    "summary": "The event closed in Toronto last week, with experts sharing critical perspectives on emerging risks, drawing record attendance and marking 22% growth.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7b5a8b8caa1d77df",
-    "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
-    "link": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-10-15T22:00:09.000Z",
-    "summary": "Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft.\nThe post AI-Powered Espionage Campaign Targets Government Linux Infrastructure appeared ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5921092180ebaec2",
-    "title": "F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud",
-    "link": "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-15T21:55:07.000Z",
-    "summary": "Built from decades of threat intelligence research, the new resource explains scams from the victims' perspective and tracks emerging forms of cyber crime.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
