@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-10-23T04:21:39.129Z",
-  "totalItems": 284,
+  "lastRun": "2026-10-23T11:22:59.102Z",
+  "totalItems": 285,
   "sources": [
     {
       "name": "The Hacker News",
@@ -40,20 +40,20 @@
     },
     {
       "name": "CERT-FR (avis)",
-      "ok": true,
-      "itemCount": 20,
+      "ok": false,
+      "itemCount": 0,
       "error": null
     },
     {
       "name": "CERT-FR (alerte)",
-      "ok": true,
-      "itemCount": 20,
+      "ok": false,
+      "itemCount": 0,
       "error": null
     },
     {
       "name": "Microsoft Security Blog",
-      "ok": true,
-      "itemCount": 10,
+      "ok": false,
+      "itemCount": 0,
       "error": null
     },
     {

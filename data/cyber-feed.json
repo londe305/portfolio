@@ -1,5 +1,139 @@
 [
   {
+    "id": "713a68aa818f2bd7",
+    "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
+    "link": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-23T10:31:16.000Z",
+    "summary": "The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments.\nThe post China APT Uses AI Pentest Tool Artex in ConnectWise Attacks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8640974c8b8683e6",
+    "title": "ISC Stormcast For Friday, October 23rd, 2026 https://isc.sans.edu/podcastdetail/10148, (Fri, Oct 23rd)",
+    "link": "https://isc.sans.edu/diary/rss/33448",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-23T10:25:11.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "94808457651058f4",
+    "title": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
+    "link": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-23T09:58:34.000Z",
+    "summary": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges.\nThe post Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months appeared first on SecurityWe",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3a89e69463ceb5d0",
+    "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+    "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-23T09:36:00.000Z",
+    "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which ",
+    "cveIds": [
+      "CVE-2026-112900"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "a2a9e372db7b0e08",
+    "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+    "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-23T08:40:43.000Z",
+    "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6f084559d703b49d",
+    "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+    "link": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-23T08:35:45.000Z",
+    "summary": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22.\n\nThe cause was the SDKs' default client, which set no ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "962b531106f2cc02",
+    "title": "11 Million Impacted by Capcom Data Breach",
+    "link": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-23T08:34:14.000Z",
+    "summary": "The hackers stole 11 million email addresses from CAPCOM ID and changed the login passwords for 196 accounts.\nThe post 11 Million Impacted by Capcom Data Breach appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "0515431e7464769e",
+    "title": "Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Records’",
+    "link": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-23T08:25:06.000Z",
+    "summary": "In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders.\nThe post Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Re",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8d39c401e746e3ca",
+    "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
+    "link": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-23T08:10:46.000Z",
+    "summary": "Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker.\nThe post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "76ce6885fc140392",
+    "title": "Atlassian Patches 75 Flaws in Data Center and Server Products",
+    "link": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-23T07:54:47.000Z",
+    "summary": "Atlassian’s October bulletin lists 176 vulnerability entries, including 14 critical-severity issues, all in third-party components.\nThe post Atlassian Patches 75 Flaws in Data Center and Server Products appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "199bd0864fa35519",
+    "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+    "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-23T07:40:45.000Z",
+    "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harde",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fcaeed9175fd46b6",
+    "title": "Iran’s Prince of Persia APT Hosts C&C in US for First Time Since 2016",
+    "link": "https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-23T06:39:29.000Z",
+    "summary": "After a three-month lull, Prince of Persia hid a Tornado C&C server on US shared hosting, its first US-based server since 2016.\nThe post Iran’s Prince of Persia APT Hosts C&C in US for First Time Since 2016 appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "fdce8a7d1bd72cd3",
     "title": "State Bank of India Suffers a Customer PII Data Leak",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
@@ -3039,130 +3173,5 @@
     "summary": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decis",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "196d1fbeb9fc4399",
-    "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
-    "link": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-16T10:53:22.000Z",
-    "summary": "Armory Castle exploited CVE-2026-102764 for initial access, deployed custom tools, and deleted logs and artifacts.\nThe post Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-102764"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "3042b8d5fd6d0727",
-    "title": "OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks",
-    "link": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-16T10:32:11.000Z",
-    "summary": "Left without funds for a coding task, an OpenAI model spent test crypto from a stranger’s wallet and left it out of its report.\nThe post OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks appeared first on SecurityWee",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c426150a84acb2c9",
-    "title": "F5, Juniper Networks Patch Critical Vulnerabilities",
-    "link": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-16T09:54:34.000Z",
-    "summary": "Successful exploitation of some of these issues could lead to remote code execution and full device takeover.\nThe post F5, Juniper Networks Patch Critical Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7e8ace9d42e7bb3d",
-    "title": "Microsoft: October Windows update may break Smart App Control",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-16T08:44:22.000Z",
-    "summary": "Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "509b1847c72fe130",
-    "title": "Microsoft Patches Two Dozen RCE Flaws in Office",
-    "link": "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-16T07:55:06.000Z",
-    "summary": "In addition to RCE flaws, Microsoft fixed multiple information disclosure bugs and a security bypass issue in Office.\nThe post Microsoft Patches Two Dozen RCE Flaws in Office appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d342f7137dd6f95b",
-    "title": "BAE Systems cyberattack disrupts US federal court operations",
-    "link": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-16T07:37:35.000Z",
-    "summary": "The Administrative Office of the US Courts says a cyberattack on government contractor BAE Systems has taken down the notice system used by federal bankruptcy courts. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "105239e3490ab5ed",
-    "title": "Proofpoint Inks $6.3 Billion All-Cash Deal to Acquire Varonis",
-    "link": "https://www.securityweek.com/proofpoint-inks-6-3-billion-all-cash-deal-to-acquire-varonis/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-16T07:12:51.000Z",
-    "summary": "The Thoma Bravo-owned Proofpoint will acquire Varonis in an all-cash transaction and Varonis will become a private company.\nThe post Proofpoint Inks $6.3 Billion All-Cash Deal to Acquire Varonis appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1fd194e19c3dd4f6",
-    "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-16T06:55:55.000Z",
-    "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026.\n\nThe vulnerabilit",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f909b9dee009b4a3",
-    "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
-    "link": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-16T06:53:09.000Z",
-    "summary": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In said in an advisory on October 15.\n\nThe agents went beyond their assigned t",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "494b44d4ddb229eb",
-    "title": "BeyondTrust patches zero-day exploited in attacks since August",
-    "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-16T06:18:08.000Z",
-    "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5fc8c6dd8c540e0e",
-    "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-    "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-16T04:59:36.000Z",
-    "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH.\n\nThe attack involves the exploitation of CVE-2025-61624",
-    "cveIds": [
-      "CVE-2025-61624"
-    ],
-    "severity": "cve"
   }
 ]
