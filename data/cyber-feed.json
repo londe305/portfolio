@@ -1,5 +1,38 @@
 [
   {
+    "id": "94d51fe2d20419a9",
+    "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+    "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-24T09:04:24.000Z",
+    "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machin",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a0a9e49aec28c38a",
+    "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+    "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-24T08:45:56.000Z",
+    "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as CVE-2026-111",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "838b4b1ce2538127",
+    "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+    "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-24T06:25:57.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citin",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "78e6b44f5a3d5bff",
     "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
     "link": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
@@ -3302,16 +3335,5 @@
     "summary": "Israeli company Discover-Tech’s ads allow threat actors to fingerprint and track devices at scale and infect selected targets.\nThe post Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "b3dabcb4d0c0986a",
-    "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-    "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-17T06:16:46.000Z",
-    "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unautho",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
