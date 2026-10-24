@@ -1,12 +1,12 @@
 [
   {
-    "id": "94d51fe2d20419a9",
-    "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
-    "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
-    "source": "The Hacker News",
+    "id": "a6ce31709924c3c2",
+    "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+    "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+    "source": "BleepingComputer",
     "category": "news",
-    "pubDate": "2026-10-24T09:04:24.000Z",
-    "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machin",
+    "pubDate": "2026-10-24T14:17:32.000Z",
+    "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and ",
     "cveIds": [],
     "severity": "normal"
   },
@@ -16,8 +16,41 @@
     "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
     "source": "The Hacker News",
     "category": "news",
-    "pubDate": "2026-10-24T08:45:56.000Z",
+    "pubDate": "2026-10-24T11:09:29.000Z",
     "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as CVE-2026-111",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3a1a036ef73ae68c",
+    "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+    "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-24T11:03:33.000Z",
+    "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.\n\n\"On May 27, 2",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "afec56c7243a9162",
+    "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+    "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-24T10:36:33.000Z",
+    "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google se",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "94d51fe2d20419a9",
+    "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+    "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-24T09:04:24.000Z",
+    "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machin",
     "cveIds": [],
     "severity": "normal"
   },
@@ -3291,49 +3324,5 @@
     "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromis",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "74a44f824ba0950d",
-    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-17T15:18:51.000Z",
-    "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "43fc56afbb2752b5",
-    "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
-    "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-17T14:32:48.000Z",
-    "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1fae9cde44bf146f",
-    "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-    "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-17T11:11:56.000Z",
-    "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.\n\nThe package, named \"imgdecode,\" was uploaded to the package registry on September 30",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2956b1e39e10f98f",
-    "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
-    "link": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-17T11:00:00.000Z",
-    "summary": "Israeli company Discover-Tech’s ads allow threat actors to fingerprint and track devices at scale and infect selected targets.\nThe post Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
