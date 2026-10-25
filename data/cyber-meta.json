@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-10-25T20:40:46.560Z",
+  "lastRun": "2026-10-25T23:07:31.411Z",
   "totalItems": 301,
   "sources": [
     {
@@ -46,8 +46,8 @@
     },
     {
       "name": "CERT-FR (alerte)",
-      "ok": false,
-      "itemCount": 0,
+      "ok": true,
+      "itemCount": 20,
       "error": null
     },
     {
