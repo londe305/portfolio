@@ -1,5 +1,27 @@
 [
   {
+    "id": "e85723a0f6770849",
+    "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+    "link": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-25T11:00:00.000Z",
+    "summary": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks.\nThe post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWe",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5d0e99bc982daef0",
+    "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+    "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-25T06:54:29.000Z",
+    "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.\n\n\"Based on the current state of alignment ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a6ce31709924c3c2",
     "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
     "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
@@ -3302,27 +3324,5 @@
     "summary": "Here is the YARA rule I used to detect \"Orphaned VBA Projects Inside DWG Files\".",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "7e978702ff2e8fcc",
-    "title": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
-    "link": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-18T11:00:00.000Z",
-    "summary": "CyberSN’s Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It’s a mixed bag.\nThe post US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "952b3a6c7b9c760d",
-    "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-    "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-18T08:23:02.000Z",
-    "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromis",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
