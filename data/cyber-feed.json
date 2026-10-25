@@ -1,5 +1,16 @@
 [
   {
+    "id": "9e8f060397f4d2d1",
+    "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+    "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-25T15:49:38.000Z",
+    "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e85723a0f6770849",
     "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
     "link": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
@@ -3300,28 +3311,6 @@
     "category": "advisory",
     "pubDate": "2026-10-19T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Juniper Networks Session Smart Router. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "74ff0a30f9fe582b",
-    "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-18T14:23:16.000Z",
-    "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d33178f3f117c66b",
-    "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
-    "link": "https://isc.sans.edu/diary/rss/33434",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-18T12:59:30.000Z",
-    "summary": "Here is the YARA rule I used to detect \"Orphaned VBA Projects Inside DWG Files\".",
     "cveIds": [],
     "severity": "normal"
   }
