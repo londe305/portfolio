@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-10-25T15:55:46.368Z",
-  "totalItems": 298,
+  "lastRun": "2026-10-25T20:40:46.560Z",
+  "totalItems": 301,
   "sources": [
     {
       "name": "The Hacker News",
@@ -46,8 +46,8 @@
     },
     {
       "name": "CERT-FR (alerte)",
-      "ok": true,
-      "itemCount": 20,
+      "ok": false,
+      "itemCount": 0,
       "error": null
     },
     {
