@@ -1,5 +1,140 @@
 [
   {
+    "id": "680a1bdeb1056a7b",
+    "title": "Popular AI tool LiteLLM says unrevoked key allowed hackers to target users",
+    "link": "https://therecord.media/litellm-hackers-ai-malware",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-26T12:00:00.000Z",
+    "summary": "LiteLLM, an open-source tool widely used by artificial intelligence developers, said a key accidentally exposed in May was behind a supply-chain attack that is believed to have hit tens of thousands of users last week.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f5fa96b288187c0b",
+    "title": "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts",
+    "link": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-26T11:47:52.000Z",
+    "summary": "The individuals called victims and persuaded them to install an app and scan their credit cards to loot their bank accounts.\nThe post Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts appeared first on",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "49aedb62ce7d37a0",
+    "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+    "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-26T11:23:56.000Z",
+    "summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeli",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4dd6d369bedf0b52",
+    "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+    "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-26T10:26:52.000Z",
+    "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2a948c7de7f5e651",
+    "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
+    "link": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-26T10:21:57.000Z",
+    "summary": "An out-of-bounds write in Google’s Brotli decoder affects Node.js, .NET, PowerShell, and Python packages, and can lead to code execution.\nThe post Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages appeared",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "275e6f3b55aff713",
+    "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+    "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-26T09:54:02.000Z",
+    "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread o",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "47b059e57c0979f9",
+    "title": "Looking for a Language &#x5b;Guest Diary&#x5d;, (Wed, Oct 21st)",
+    "link": "https://isc.sans.edu/diary/rss/33442",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-26T09:38:03.000Z",
+    "summary": "[This is a Guest Diary by Jeffray Spence, an ISC intern as part of the SANS.edu BACS program]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fbd9cb2b4455b922",
+    "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+    "link": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-26T09:19:57.000Z",
+    "summary": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
+    "cveIds": [
+      "CVE-2026-109618",
+      "CVE-2026-109619"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "4c6c7b2ea9daef94",
+    "title": "Mythos 5 Ignored Real-World Harm in July Attack",
+    "link": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-26T09:10:03.000Z",
+    "summary": "The model engaged in severe overreach and dishonesty, creating fake identities and submitting malicious code on GitHub.\nThe post Mythos 5 Ignored Real-World Harm in July Attack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "35a2887f86531272",
+    "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+    "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-26T08:35:51.000Z",
+    "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 org",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8e95a20d61e45dbc",
+    "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+    "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-26T07:49:46.000Z",
+    "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private reposit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8239096a100ab76b",
+    "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+    "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-26T06:03:48.000Z",
+    "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week.\n\nThe company caught the a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a9d5557b92f4ed3f",
     "title": "ISC Stormcast For Monday, October 26th, 2026 https://isc.sans.edu/podcastdetail/10150, (Mon, Oct 26th)",
     "link": "https://isc.sans.edu/diary/rss/33456",
@@ -34,17 +169,14 @@
   },
   {
     "id": "3eda0d6ae7e39322",
-    "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+    "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
     "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-10-25T17:19:46.000Z",
-    "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619.\n\n\"In one case, the att",
-    "cveIds": [
-      "CVE-2026-109618",
-      "CVE-2026-109619"
-    ],
-    "severity": "cve"
+    "summary": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws.\n\n\"What researchers saw was an ",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "9e8f060397f4d2d1",
@@ -97,7 +229,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-10-24T11:09:29.000Z",
-    "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as CVE-2026-111",
+    "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli.\n\nTrack",
     "cveIds": [],
     "severity": "normal"
   },
@@ -3184,115 +3316,5 @@
     "summary": "Threat actors have been observed delivering cryptocurrency miners and proxy software.\nThe post Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "6e3176643ea9a3e9",
-    "title": "One Compromised Login Exposed Millions of California Students’ Records",
-    "link": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-19T11:55:50.000Z",
-    "summary": "Intruders used compromised credentials to access an ETS SFTP server, copying records of California students back to 2006.\nThe post One Compromised Login Exposed Millions of California Students’ Records appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5ae38a63e4733a2a",
-    "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-    "link": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-19T11:50:00.000Z",
-    "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound c",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5368079cd481f9c0",
-    "title": "Hackers steal customer data from major Russian hosting provider FirstVDS",
-    "link": "https://therecord.media/russia-cyberattack-firstvds-cloud",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-19T11:45:00.000Z",
-    "summary": "Hackers have stolen passwords, access credentials and other sensitive data belonging to customers of Russian hosting provider FirstVDS after exploiting a vulnerability in software used to manage its servers.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3e1eacecc51d1346",
-    "title": "Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack",
-    "link": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-19T11:13:23.000Z",
-    "summary": "The persistent, stealthy FortiGate implant was deployed against a telecommunications organization.\nThe post Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0534f19063379abe",
-    "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-    "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-19T10:06:40.000Z",
-    "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "82c7537f544bd2c1",
-    "title": "MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks",
-    "link": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-19T09:37:04.000Z",
-    "summary": "Defenders get 15 new detection strategies, six for Enterprise and nine for ICS, backed by 38 analytics.\nThe post MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "15156651e22133c3",
-    "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-19T08:58:41.000Z",
-    "summary": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5c0bebf27f102ae9",
-    "title": "Anthropic Acquires Confidential AI Startup Opaque Systems",
-    "link": "https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-19T07:45:25.000Z",
-    "summary": "Opaque Systems has developed technology that lets AI systems use sensitive data while keeping it protected by the underlying hardware.\nThe post Anthropic Acquires Confidential AI Startup Opaque Systems appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f519e0b522d74ec3",
-    "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-    "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-19T06:29:44.000Z",
-    "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser disclosed on October 16.\n\nHe show",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1de1c48ce23bc8e5",
-    "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-    "link": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-19T06:07:08.000Z",
-    "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.\n\nConsole is OpenCode's optional hosted service: a w",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
