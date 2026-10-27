@@ -1,12 +1,89 @@
 [
   {
+    "id": "77d8f32442c0c1ee",
+    "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-27T08:20:54.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell  vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "46ee8b886dbe8aca",
+    "title": "Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems",
+    "link": "https://www.securityweek.com/maritime-coalition-launches-free-vulnerability-database-for-ship-and-port-systems/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-27T07:14:27.000Z",
+    "summary": "Blue Initiative indexes nearly 30,000 IT and OT vulnerabilities relevant to ships and ports, 37 of them in maritime-specific products.\nThe post Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems appeared first",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ad878331961700a5",
+    "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+    "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-27T06:34:47.000Z",
+    "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\n\n\"Cases of compromising IP cameras and DVRs with access to the video st",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "968629f0ead301ae",
+    "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+    "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-27T04:37:59.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog.\n\nThe PHP vulnerabilities, ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "34ec0f91485adfd7",
+    "title": "ISC Stormcast For Tuesday, October 27th, 2026 https://isc.sans.edu/podcastdetail/10152, (Tue, Oct 27th)",
+    "link": "https://isc.sans.edu/diary/rss/33462",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-27T02:55:13.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "39fb6abcb30e3011",
     "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
     "link": "https://isc.sans.edu/diary/rss/33458",
     "source": "SANS ISC",
     "category": "advisory",
-    "pubDate": "2026-10-26T23:34:37.000Z",
+    "pubDate": "2026-10-27T02:09:55.000Z",
     "summary": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7f986c2781175381",
+    "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
+    "link": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-27T01:30:00.000Z",
+    "summary": "The University of New Mexico Health System told people not to show up at its main hospital in Albuquerque and canceled appointments at more than 30 clinics.\nThe post Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "837fe1cef585dc8b",
+    "title": "So Many AI Security Benchmarks, But None Tell the Whole Story",
+    "link": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-27T00:26:50.000Z",
+    "summary": "Measuring AI model security gets complex fast — a growing patchwork of benchmarks targets different variables in the equation, but none replace testing against your own code and workflows.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -3329,62 +3406,5 @@
     "summary": "Paradigm Healthcare Services detected an intrusion in October 2025, but it took nearly a year to start notifying affected individuals.\nThe post 970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach appeared first on SecurityW",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "92e4076765780a55",
-    "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
-    "link": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-20T08:21:29.000Z",
-    "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to stea",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4fd8d5a31fd8ccfc",
-    "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-    "link": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-20T07:11:45.000Z",
-    "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks.\n\nThe high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an a",
-    "cveIds": [
-      "CVE-2026-110936"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "50e3424172875e03",
-    "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
-    "link": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-20T05:53:16.000Z",
-    "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secret",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6c494d43a8453ba0",
-    "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-    "link": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-20T04:05:58.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader.\n\nAccording to Forescout Research - Vedere Labs, ROMULUS is akin to a malware deli",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c942233fb68167aa",
-    "title": "ISC Stormcast For Tuesday, October 20th, 2026 https://isc.sans.edu/podcastdetail/10142, (Tue, Oct 20th)",
-    "link": "https://isc.sans.edu/diary/rss/33436",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-20T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
