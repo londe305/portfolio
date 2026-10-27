@@ -1,5 +1,82 @@
 [
   {
+    "id": "39fb6abcb30e3011",
+    "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
+    "link": "https://isc.sans.edu/diary/rss/33458",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-26T23:34:37.000Z",
+    "summary": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "627cc70bbf65badd",
+    "title": "University of Copenhagen data breach exposes data of 525,000 people",
+    "link": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-26T22:20:36.000Z",
+    "summary": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5d6c647af36336af",
+    "title": "Risks &amp; Rewards: How AI Is Redefining the CISO's Role",
+    "link": "https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-26T21:44:33.000Z",
+    "summary": "Nvidia security executive Mark Weatherford says CISOs must help business leaders weigh AI's pros and cons, and ensure those deploying it own the risks.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9b6153963ef54ed6",
+    "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+    "link": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-26T21:08:28.000Z",
+    "summary": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "327318fb5def16c2",
+    "title": "Texas sues OpenAI for deceiving consumers about safety, seeks sweeping reforms and fines",
+    "link": "https://therecord.media/texas-sues-openai-deceiving-customers",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-26T21:03:00.000Z",
+    "summary": "In an unusual move, the suit — brought under the state’s deceptive trade practices laws — seeks to hold founder and CEO Sam Altman personally liable for the alleged deception.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c25a5812afa3a3ff",
+    "title": "In-the-Wild Attack Abuses AI Agents' Trust in Markdown",
+    "link": "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-26T20:59:26.000Z",
+    "summary": "A new AI agent prompt injection technique exploits how coding assistants consume local instruction files, blurring the line between text documents and executable actions.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "154f68998af19908",
+    "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-26T20:46:49.000Z",
+    "summary": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "89547e1892b34553",
     "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
     "link": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
@@ -231,6 +308,19 @@
     "summary": "Small loader code injected into the stores served a payload to visitors or did nothing to avoid detection.\nThe post 953 Online Stores Infected in Long-Lasting Malware Campaign appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "a7bcfa86d46f0ae1",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-26T12:00:00.000Z",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog and updated the PHP Alert, Critical Vulnerabilities in PHP Require Immediate Patching:  \nCVE-2026-109618 – PHP Memory Corruption Vulnerability \nCVE-",
+    "cveIds": [
+      "CVE-2026-109618"
+    ],
+    "severity": "critical"
   },
   {
     "id": "680a1bdeb1056a7b",
@@ -1466,17 +1556,6 @@
     "severity": "normal"
   },
   {
-    "id": "f24c5287a98c0faf",
-    "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nRUGGEDCOM CROSSBOW Station Access Controller (SAC) contains multiple vulnerabilities in the integrated SQLite component that could allow an attacker to execute arbitrary code, cause a denial of service, or obtain sensitive",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "27602b8f8f6eea14",
     "title": "Siemens SIMATIC IPCs",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-07",
@@ -1484,17 +1563,6 @@
     "category": "advisory",
     "pubDate": "2026-10-22T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nThe products listed below contain a vulnerability that could allow an attacker to boot an operating system or UEFI application signed with that test key, bypassing UEFI Secure Boot protections even when Secure Boot is enab",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "17f5da59605d6aba",
-    "title": "Siemens SIMATIC S7 PLCs Web Server",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSIMATIC S7-1500 devices contain multiple vulnerabilities in the web server that could allow an attacker to execute malicious code in an authorized user’s browser session and perform PLC operations within the scope of that ",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1521,17 +1589,6 @@
     "severity": "normal"
   },
   {
-    "id": "b3a5d9b4753994ea",
-    "title": "Siemens SENTRON 3NA COM Fuse",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-service (DoS) condition. Successful exploitation may require",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "badbefd5ca6d1768",
     "title": "Siemens SIMATIC S7-1500 TM MFP",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-16",
@@ -1554,6 +1611,39 @@
       "CVE-2026-109122"
     ],
     "severity": "critical"
+  },
+  {
+    "id": "f24c5287a98c0faf",
+    "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nRUGGEDCOM CROSSBOW Station Access Controller (SAC) contains multiple vulnerabilities in the integrated SQLite component that could allow an attacker to execute arbitrary code, cause a denial of service, or obtain sensitive",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "17f5da59605d6aba",
+    "title": "Siemens SIMATIC S7 PLCs Web Server",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSIMATIC S7-1500 devices contain multiple vulnerabilities in the web server that could allow an attacker to execute malicious code in an authorized user’s browser session and perform PLC operations within the scope of that ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b3a5d9b4753994ea",
+    "title": "Siemens SENTRON 3NA COM Fuse",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-service (DoS) condition. Successful exploitation may require",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "0f812922fb34579d",
@@ -3294,61 +3384,6 @@
     "category": "advisory",
     "pubDate": "2026-10-20T02:00:03.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b6139975889266df",
-    "title": "Multiples vulnérabilités dans Laravel (20 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1343/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-20T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Laravel. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et un contournement de la politique de sécuri",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "721ce082eeb405d2",
-    "title": "Multiples vulnérabilités dans Mattermost Server (20 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1344/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-20T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5a8d0413be6f3aca",
-    "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-    "link": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-19T21:49:48.000Z",
-    "summary": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a4cd23325612accf",
-    "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
-    "link": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-19T21:24:51.000Z",
-    "summary": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "cd2448e33b82aa7d",
-    "title": "Researchers Infiltrate Microsoft Tech Support Scam Operation",
-    "link": "https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-19T21:13:41.000Z",
-    "summary": "A large-scale scam operation impersonating Microsoft uses a malicious traffic distribution system (TDS) run by a Russian organization and abuses thousands of Cloudflare links.",
     "cveIds": [],
     "severity": "normal"
   }
