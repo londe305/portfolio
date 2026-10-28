@@ -1,5 +1,49 @@
 [
   {
+    "id": "8e015ae66abc3975",
+    "title": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
+    "link": "https://isc.sans.edu/diary/rss/33464",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-28T02:30:11.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5246b1272668680e",
+    "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+    "link": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-27T23:35:51.000Z",
+    "summary": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "dedf00d647271589",
+    "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-27T22:43:27.000Z",
+    "summary": "OpenAI confirmed GPT-6.1 Terra is safer overall than some of its older models, but its safety testing also found other problems. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "78275c0ac59e70a5",
+    "title": "UNM Health ransomware attack disrupts patient care, surgeries",
+    "link": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-27T22:07:34.000Z",
+    "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "2db299f6a19064cf",
     "title": "3 Frameworks to Protect CISOs &amp; Orgs Against AI Liability",
     "link": "https://www.darkreading.com/cyber-risk/3-frameworks-cisos-ai-liability",
@@ -3184,214 +3228,5 @@
     "summary": "Researchers say the developer’s account was compromised in March with a GlassWorm-linked loader.\nThe post Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "b374ef599927824b",
-    "title": "Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities",
-    "link": "https://www.securityweek.com/accenture-dragos-sans-launch-10m-initiative-to-defend-small-us-utilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-21T04:22:11.000Z",
-    "summary": "The first phase will cover up to 500 utilities, which will get free security tools, equipment, deployment help and training.\nThe post Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities appeared first on SecurityWeek",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e6c707c06a8b1940",
-    "title": "ISC Stormcast For Wednesday, October 21st, 2026 https://isc.sans.edu/podcastdetail/10144, (Wed, Oct 21st)",
-    "link": "https://isc.sans.edu/diary/rss/33438",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-21T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0f04a6f0fbacdd05",
-    "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
-    "link": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-21T01:01:50.000Z",
-    "summary": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7a020fdc38308319",
-    "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
-    "link": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-21T00:46:42.000Z",
-    "summary": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted certificates for legitim",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "fb5d640a994ce658",
-    "title": "Vulnérabilité dans Traefik (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1356/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Traefik. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c249096c27c91704",
-    "title": "Multiples vulnérabilités dans Google Chrome (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1357/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "36ce959ec3d6c332",
-    "title": "Multiples vulnérabilités dans Apache Tomcat (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1358/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique de sécurité et un problème de",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "38b3cc802aa78461",
-    "title": "Multiples vulnérabilités dans PHP (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1359/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "577bf318683e384e",
-    "title": "Multiples vulnérabilités dans les produits Mozilla (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1346/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et un déni de service.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "955cf845197a2937",
-    "title": "Vulnérabilité dans MongoDB PHP Driver (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1347/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans MongoDB PHP Driver. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c585aa0afeaf6cad",
-    "title": "Multiples vulnérabilités dans Mattermost Server (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1348/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cbf57cc482cc32c2",
-    "title": "Multiples vulnérabilités dans Oracle Database Server (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1349/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Database Server. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la conf",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f8950928c299edbb",
-    "title": "Multiples vulnérabilités dans Oracle Java SE (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1350/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidential",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "53f3111e5ee9b3dc",
-    "title": "Multiples vulnérabilités dans Oracle MySQL (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1351/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle MySQL. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f04798d390b70fbb",
-    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1352/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confident",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9176f7ebc7ddb0da",
-    "title": "Multiples vulnérabilités dans Oracle Systems (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1353/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Systems. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidential",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2c25fbe47228eb08",
-    "title": "Multiples vulnérabilités dans Oracle Virtualization (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1354/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6c25bf5f3c690cf2",
-    "title": "Multiples vulnérabilités dans Oracle Weblogic (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1355/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5580c8b06e9da43d",
-    "title": "Multiples vulnérabilités dans les produits StormShield (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1345/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-21T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits StormShield. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et une atteinte à la confidentiali",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
