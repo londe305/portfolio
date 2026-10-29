@@ -1,5 +1,62 @@
 [
   {
+    "id": "a4a98e0e7ba86643",
+    "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
+    "link": "https://blog.talosintelligence.com/uat-11473-keydrift/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-10-28T21:32:02.000Z",
+    "summary": "Talos has identified UAT-11473, a highly sophisticated APT, who exploited CVE-2026-20127, an authentication bypass vulnerability in Cisco SD-WAN Catalyst Controller instances to bypass authentication and gain unauthorized access to affected",
+    "cveIds": [
+      "CVE-2026-20127"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "bf65784fd277bccf",
+    "title": "Court strikes down West Virginia law barring disclosure of public officials’ personal data",
+    "link": "https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-28T20:50:00.000Z",
+    "summary": "A federal appellate court panel said West Virginia's version of Daniel's Law — meant to shield the personal data of police and other officials — is unconstitutional.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6369b7f8877cd3df",
+    "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+    "link": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-28T20:47:22.000Z",
+    "summary": "U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilitating illegal activities. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6297f1390dfad249",
+    "title": "Japan Airlines warns of data breach as country grapples with multiple cyber incidents",
+    "link": "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-28T20:33:00.000Z",
+    "summary": "Hackers stole passport numbers, frequent flyer numbers, email addresses and phone numbers for about 2,000 customers.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "89379326868d8969",
+    "title": "GhostAction Hacking Wave Fizzles, But Attackers Lurk on in GitHub",
+    "link": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-28T19:39:00.000Z",
+    "summary": "The supply chain attack campaign's shift toward developer endpoints and cloud access signals what could be next for the cybercrime outfit.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "d9b49b7f0de254da",
     "title": "Discord to let search engines index public server messages",
     "link": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
@@ -286,6 +343,20 @@
     "summary": "The attackers chained PHP2Shell and Fragnesia exploits and hacked two servers of a US government-affiliated organization.\nThe post China-Linked Hackers Exploit PHP2Shell to Root Firewalls appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "f28c390e8f2d693a",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-28T12:00:00.000Z",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-41709 Broadcom VMWare ESX Insufficient Logging Vulnerability\nCVE-2026-46300 Linux Kernel Missing",
+    "cveIds": [
+      "CVE-2026-41709",
+      "CVE-2026-46300"
+    ],
+    "severity": "cve"
   },
   {
     "id": "12185b0bd2c83e91",
@@ -847,19 +918,6 @@
     "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code.\nThe following versions",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "9de4c840c98b45f4",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-27T12:00:00.000Z",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-48356 Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability\nC",
-    "cveIds": [
-      "CVE-2026-48356"
-    ],
-    "severity": "cve"
   },
   {
     "id": "c99aa3fd55df8bb9",
@@ -2713,6 +2771,72 @@
     "severity": "normal"
   },
   {
+    "id": "5afddfa52052a684",
+    "title": "Siemens RUGGEDCOM APE1808 Devices",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-18",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nNozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Siemens recommends to contact customer sup",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "533ddb227bc5eec3",
+    "title": "Siemens Capital Embedded AR Classic",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-04",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe products listed below contain an out-of-bounds read vulnerability that could allow an attacker to cause abnormal product behavior, instability, or denial of service. Siemens has released a new version for Capital Embed",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "08d39f89ecf028b4",
+    "title": "Siemens Industrial Edge Device Kit",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nUsers of Industrial Edge Devices are advised to consult the respective Security Advisories for their devices (for Siemens Industrial Edge devices see Additional Information). Industrial Edge Device Kit contains multiple pa",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "236815939a0fb5dd",
+    "title": "Siemens WinCC",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nMultiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability that could allow an authenticated user with access to the database to execute commands on the underlying host system. Siemens ha",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "605d531ea389dc3f",
+    "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nMultiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fixes and reco",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a7c265353a78b12e",
+    "title": "Siemens Industrial Edge App Publisher",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-22T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nThe Industrial Edge App Publisher contains a vulnerability chain involving improper certificate validation and the rendering of unescaped data from backend responses. These issues can be combined to allow an attacker on th",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "76d592eba3991be8",
     "title": "Siemens SIMATIC S7 Webserver API",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-10",
@@ -2720,17 +2844,6 @@
     "category": "advisory",
     "pubDate": "2026-10-22T12:00:00.000Z",
     "summary": "View CSAF\nSummary\n.NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "941935f08939d347",
-    "title": "Siemens APOGEE, TALON and Desigo PXC/PXM Products",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-08",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nThe products listed below contain multiple vulnerabilities that could allow an attacker to cause a denial of service and potentially impact the availability of the affected device. Siemens has released new versions for sev",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2757,68 +2870,13 @@
     "severity": "normal"
   },
   {
-    "id": "5afddfa52052a684",
-    "title": "Siemens RUGGEDCOM APE1808 Devices",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-18",
+    "id": "941935f08939d347",
+    "title": "Siemens APOGEE, TALON and Desigo PXC/PXM Products",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-08",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-10-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nNozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Siemens recommends to contact customer sup",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a7c265353a78b12e",
-    "title": "Siemens Industrial Edge App Publisher",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nThe Industrial Edge App Publisher contains a vulnerability chain involving improper certificate validation and the rendering of unescaped data from backend responses. These issues can be combined to allow an attacker on th",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "605d531ea389dc3f",
-    "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nMultiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fixes and reco",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "236815939a0fb5dd",
-    "title": "Siemens WinCC",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nMultiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability that could allow an authenticated user with access to the database to execute commands on the underlying host system. Siemens ha",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "08d39f89ecf028b4",
-    "title": "Siemens Industrial Edge Device Kit",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nUsers of Industrial Edge Devices are advised to consult the respective Security Advisories for their devices (for Siemens Industrial Edge devices see Additional Information). Industrial Edge Device Kit contains multiple pa",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "533ddb227bc5eec3",
-    "title": "Siemens Capital Embedded AR Classic",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-04",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-22T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nThe products listed below contain an out-of-bounds read vulnerability that could allow an attacker to cause abnormal product behavior, instability, or denial of service. Siemens has released a new version for Capital Embed",
+    "summary": "View CSAF\nSummary\nThe products listed below contain multiple vulnerabilities that could allow an attacker to cause a denial of service and potentially impact the availability of the affected device. Siemens has released new versions for sev",
     "cveIds": [],
     "severity": "normal"
   },
@@ -3107,174 +3165,6 @@
     "category": "advisory",
     "pubDate": "2026-10-22T02:00:02.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b7fe98cc8dc87039",
-    "title": "Multiples vulnérabilités dans les produits Cisco (22 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1360/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-22T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distanc",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d20ab6d9d6767283",
-    "title": "Vulnérabilité dans les produits Mozilla (22 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1361/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-22T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Mozilla. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ec9c76493145e3db",
-    "title": "Multiples vulnérabilités dans GitLab (22 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1363/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-22T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et un contournement de la",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2ddaef35e43b9079",
-    "title": "Multiples vulnérabilités dans les produits SolarWinds (22 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1364/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-22T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SolarWinds. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une falsification de requêtes côté serveur (SSRF) et une injection de ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "07492407d4e1bf40",
-    "title": "Multiples vulnérabilités dans ISC BIND (22 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1365/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-22T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans ISC BIND. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "edeb4cb0e5046c7a",
-    "title": "Multiples vulnérabilités dans les produits Splunk (22 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1366/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-22T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une injection de cod",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0bd57cf8aa87a11e",
-    "title": "Multiples vulnérabilités dans Node (22 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1367/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-22T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Node.js. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un contournement de la politique de sécurité et un problème de sécurit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "832124389031586a",
-    "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
-    "link": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-21T22:16:26.000Z",
-    "summary": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e9fd60a700e2a4db",
-    "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
-    "link": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-21T21:43:27.000Z",
-    "summary": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7bcbd743c3f71fbe",
-    "title": "TiDB Breach Exposes Flawed Cloud Security Assumptions",
-    "link": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-21T21:15:39.000Z",
-    "summary": "Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the unseen information comes to light.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f05202614787dc85",
-    "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) &#x5b;infocon yellow&#x5d;, (Wed, Oct 21st)",
-    "link": "https://isc.sans.edu/diary/rss/33440",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-21T21:02:43.000Z",
-    "summary": "PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits before the",
-    "cveIds": [
-      "CVE-2026-109618",
-      "CVE-2026-109619"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "52e40e7e7ea6b259",
-    "title": "Compromised eMudhra intermediate certificates",
-    "link": "https://blog.talosintelligence.com/compromised-intermediate-certificates/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-10-21T20:43:29.000Z",
-    "summary": "Cisco Talos is aware of eight intermediate certificates belonging to the intermediate certificate authority, eMudhra.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3371acd3dcb3c169",
-    "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-    "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-21T20:31:48.000Z",
-    "summary": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "565842927b1427b6",
-    "title": "Meta on the spot for $25 billion under New Mexico privacy ruling",
-    "link": "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-21T20:25:00.000Z",
-    "summary": "The Cambridge Analytica data privacy scandal from a decade ago is still weighing on Meta's finances.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f6f763b9dab26a6f",
-    "title": "Marvell, Microsoft &amp; Oracle Work to Standardize Data Center Hardware Security",
-    "link": "https://www.darkreading.com/cloud-security/marvell-microsoft-oracle-standardize-data-center-hardware-security",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-21T20:14:42.000Z",
-    "summary": "The effort is aimed at standardizing a NIST FIPS 140-3 Level 3 integrated HSM for cloud and hyperscale data center infrastructure.",
     "cveIds": [],
     "severity": "normal"
   }
