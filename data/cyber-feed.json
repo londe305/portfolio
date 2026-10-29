@@ -1,5 +1,106 @@
 [
   {
+    "id": "b3306983de0025ef",
+    "title": "HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million",
+    "link": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-29T08:27:16.000Z",
+    "summary": "Hackers stole personal information and iRhythm account and device data from third-party-hosted business applications.\nThe post HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "aabd8e14b2705c02",
+    "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+    "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-29T08:24:22.000Z",
+    "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.\n\nThe malware, called KeyDrift, is designed to copy the keys that encrypt t",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ef44306c2f44aa10",
+    "title": "Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
+    "link": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-29T08:01:05.000Z",
+    "summary": "CVE-2026-41709 allows attackers with administrative privileges to perform operations without being logged.\nThe post Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-41709"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "75699bb6148a5fef",
+    "title": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
+    "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-29T08:00:00.000Z",
+    "summary": "Researchers can't quite explain why cyber threats look so different in Italy compared to everywhere else.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e91f33b06ca8a97a",
+    "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-29T06:22:33.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized b",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b38b4e0a9ae9c6ab",
+    "title": "Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct 29th)",
+    "link": "https://isc.sans.edu/diary/rss/33470",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-29T06:17:41.000Z",
+    "summary": "Building your malware analysis lab is a key point before playing with malware. Today, thanks to virtualization, it&#;x26;#;39;s convenient to play with snapshots in your lab. Start a new investigation from a clean snapshot and take some mor",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f4eff089be53135d",
+    "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+    "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-29T05:50:17.000Z",
+    "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces.\n\n\"Active exploitation has been observed targeting the Palo Alto Netwo",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "971ff11eb5e154b8",
+    "title": "ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156, (Thu, Oct 29th)",
+    "link": "https://isc.sans.edu/diary/rss/33468",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-29T03:10:12.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cd96a1792e01bd26",
+    "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
+    "link": "https://isc.sans.edu/diary/rss/33466",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-29T00:42:15.000Z",
+    "summary": "Introduction",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a4a98e0e7ba86643",
     "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
     "link": "https://blog.talosintelligence.com/uat-11473-keydrift/",
@@ -152,17 +253,6 @@
     "category": "news",
     "pubDate": "2026-10-28T16:23:34.000Z",
     "summary": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown.\n\nOrange Tsai of DEVCORE published the full method on",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cd96a1792e01bd26",
-    "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
-    "link": "https://isc.sans.edu/diary/rss/33466",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-28T16:07:03.000Z",
-    "summary": "Introduction",
     "cveIds": [],
     "severity": "normal"
   },
@@ -3055,116 +3145,6 @@
     "category": "news",
     "pubDate": "2026-10-22T09:48:58.000Z",
     "summary": "Initial attempts were observed on October 17, and mass activity began shortly after patches were released.\nThe post PHP2Shell Exploitation Started Days Before Patches appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a9227db3dd338122",
-    "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
-    "link": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-22T08:28:48.000Z",
-    "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October 21, 2026, LiteLLM's release",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "df0211e45e19bb26",
-    "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
-    "link": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-22T08:27:11.000Z",
-    "summary": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "29143f2ae20d3391",
-    "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-    "link": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-22T07:47:22.000Z",
-    "summary": "Node.js released security updates on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow r",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a5298e0f95bcaf98",
-    "title": "Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU",
-    "link": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-22T07:38:14.000Z",
-    "summary": "Nearly 100 vulnerabilities have been assigned a critical severity rating and Fusion Middleware received the most patches.\nThe post Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "dd2c177462a4a925",
-    "title": "Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook",
-    "link": "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-22T07:26:54.000Z",
-    "summary": "The $25 billion award far exceeds a $5 billion fine the Federal Trade Commission levied against Facebook in 2019.\nThe post Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook appeared first on SecurityWe",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "eff3ebf7d52ffb89",
-    "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-    "link": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-22T06:38:31.000Z",
-    "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO disclosed, releasing working proof-of-concept code.\n\nBy sending a small batch of compressed HTTP headers that expands in",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3d29fe5d9f8955b4",
-    "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-    "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-22T06:34:10.000Z",
-    "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploita",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a734856ab1edb465",
-    "title": "UAE Transitions 50% of Government Services to Agentic AI",
-    "link": "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-22T05:00:00.000Z",
-    "summary": "The United Arab Emirates says it's creating a foundation of security and safety as it transforms its public service footprint.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9b69347cfd294268",
-    "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-    "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-22T04:21:26.000Z",
-    "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.\n\nDuring the incident, Storm-0940 used ARTEX, a Go-based agentic A",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0dbc9387e3618b3d",
-    "title": "ISC Stormcast For Thursday, October 22nd, 2026 https://isc.sans.edu/podcastdetail/10146, (Thu, Oct 22nd)",
-    "link": "https://isc.sans.edu/diary/rss/33446",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-22T02:00:02.000Z",
-    "summary": "",
     "cveIds": [],
     "severity": "normal"
   }
