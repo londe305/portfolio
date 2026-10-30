@@ -1,5 +1,132 @@
 [
   {
+    "id": "aedf51642ecf4a2e",
+    "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+    "link": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-30T09:41:36.000Z",
+    "summary": "Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds.\nThe post $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4bea3ce24866f29c",
+    "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+    "link": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-30T09:32:27.000Z",
+    "summary": "Tracked as CVE-2026-97229, the bug allows unauthenticated attackers to execute arbitrary code on the server.\nThe post Max-Severity GitLab Vulnerability Exploited Against Alpine Linux appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-97229"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "93a6b87fe4257c9f",
+    "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+    "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-30T09:18:13.000Z",
+    "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d0d43ed2d289861b",
+    "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
+    "link": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-30T08:44:49.000Z",
+    "summary": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system.\nThe post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-111585"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "3bb9ba7c2b0af8dd",
+    "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
+    "link": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-30T08:16:26.000Z",
+    "summary": "Blockchain analysts link the record crypto theft to North Korean hackers, as Binance probes a possibly compromised engineer laptop.\nThe post $6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor appeared first on SecurityWe",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f6a72b86d81b5ca2",
+    "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
+    "link": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-30T08:00:00.000Z",
+    "summary": "The \"FrostyNeighbor\" advanced persistent threat (APT) launched a destructive attack in Ukraine and is raising concerns about deeper alignment with Russian cyber objectives.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6d2a0802c49f854e",
+    "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+    "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-30T07:45:30.000Z",
+    "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component.\n\nThe vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Co",
+    "cveIds": [
+      "CVE-2026-118539"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "5100bc6323f06f1c",
+    "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+    "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-30T07:27:05.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.\n\nThe vulnerabili",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1dad8889ea724a09",
+    "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+    "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-30T04:14:59.000Z",
+    "summary": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets.\n\nThe world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen o",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "208ac926eb0f63f6",
+    "title": "ISC Stormcast For Friday, October 30th, 2026 https://isc.sans.edu/podcastdetail/10158, (Fri, Oct 30th)",
+    "link": "https://isc.sans.edu/diary/rss/33472",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-30T03:30:17.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2b8459f0048fd29b",
+    "title": "Binance hit by record $6.3 billion crypto hack, scrambles to freeze funds",
+    "link": "https://therecord.media/binance-hit-by-record-6-billion-crypto-hack",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-30T00:00:00.000Z",
+    "summary": "Binance, the world's largest cryptocurrency exchange, confirmed Thursday that it had been hacked in a $6.3 billion cyber heist that blockchain investigators are blaming on North Korea.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "7363e725b55af564",
     "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
@@ -3014,129 +3141,6 @@
     "category": "news",
     "pubDate": "2026-10-23T09:58:34.000Z",
     "summary": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges.\nThe post Attackers Exploit Third Arista VCO Zero-Day in Four Months appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "3a89e69463ceb5d0",
-    "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-    "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-23T09:36:00.000Z",
-    "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which ",
-    "cveIds": [
-      "CVE-2026-112900"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "a2a9e372db7b0e08",
-    "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-    "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-23T08:40:43.000Z",
-    "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6f084559d703b49d",
-    "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-    "link": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-23T08:35:45.000Z",
-    "summary": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22.\n\nThe cause was the SDKs' default client, which set no ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "962b531106f2cc02",
-    "title": "11 Million Impacted by Capcom Data Breach",
-    "link": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-23T08:34:14.000Z",
-    "summary": "The hackers stole 11 million email addresses from CAPCOM ID and changed the login passwords for 196 accounts.\nThe post 11 Million Impacted by Capcom Data Breach appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0515431e7464769e",
-    "title": "Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’",
-    "link": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-23T08:25:06.000Z",
-    "summary": "In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders.\nThe post Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’ appe",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8d39c401e746e3ca",
-    "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
-    "link": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-23T08:10:46.000Z",
-    "summary": "Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker.\nThe post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "76ce6885fc140392",
-    "title": "Atlassian Patches 75 Flaws in Data Center and Server Products",
-    "link": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-23T07:54:47.000Z",
-    "summary": "Atlassian’s October bulletin lists 176 vulnerability entries, including 14 critical-severity issues, all in third-party components.\nThe post Atlassian Patches 75 Flaws in Data Center and Server Products appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "199bd0864fa35519",
-    "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-    "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-23T07:40:45.000Z",
-    "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harde",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fcaeed9175fd46b6",
-    "title": "Iran’s Prince of Persia APT Hosts C&C in US for First Time Since 2016",
-    "link": "https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-23T06:39:29.000Z",
-    "summary": "After a three-month lull, Prince of Persia hid a Tornado C&C server on US shared hosting, its first US-based server since 2016.\nThe post Iran’s Prince of Persia APT Hosts C&C in US for First Time Since 2016 appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b65cad206f500ab2",
-    "title": "Reports of PHP bug exploitation attempts grow as experts downplay viability of exploits",
-    "link": "https://therecord.media/php-php2shell-exploitation-attempts-pocs",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-23T04:00:00.000Z",
-    "summary": "The headline-grabbing bugs known colloquially as PHP2Shell are giving cyber analysts a lot to track — and a lot to debunk.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fdce8a7d1bd72cd3",
-    "title": "State Bank of India Suffers a Customer PII Data Leak",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-23T03:30:00.000Z",
-    "summary": "Relatively small data breaches in India can turn quite serious, thanks to a sophisticated underground market for trading PII.",
     "cveIds": [],
     "severity": "critical"
   }
