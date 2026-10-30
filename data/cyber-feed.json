@@ -1,5 +1,269 @@
 [
   {
+    "id": "e645dafde1d4d968",
+    "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+    "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-30T15:58:20.000Z",
+    "summary": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4bf942696238025b",
+    "title": "Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach",
+    "link": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-30T15:54:00.000Z",
+    "summary": "The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "47e04300a3731174",
+    "title": "L’Italia è afflitta da vulnerabilità informatiche, senza una causa chiara",
+    "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-30T15:39:54.000Z",
+    "summary": "I ricercatori non riescono a spiegare del tutto perché le minacce informatiche in Italia siano così diverse rispetto a quelle di qualsiasi altro Paese.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bfec2004bdb16c89",
+    "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+    "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-30T15:17:28.000Z",
+    "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5ec9d44a0613dcb2",
+    "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
+    "link": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-30T15:09:25.000Z",
+    "summary": "Over 22.6 million exposed instances are potentially affected by the critical PHP flaws that have been targeted for over a week.\nThe post PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5e82c4f3b3cc8e4f",
+    "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+    "link": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-30T14:41:35.000Z",
+    "summary": "Noteworthy stories that might have slipped under the radar: Iran eyed in military freezer hacks, Copenhagen University breach, AI-powered malware.\nThe post In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "96a0f026f2e040c0",
+    "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+    "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-30T14:36:54.000Z",
+    "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b44d4a56a6fc2ad8",
+    "title": "Syrian Electronic Army hacker gets prison time for attacks on Western targets",
+    "link": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-30T14:24:00.000Z",
+    "summary": "Ahmad Umar Agha, known online as “Th3Pr0,” was sentenced Thursday in federal court in Virginia to 42 months behind bars for his role in a conspiracy that was organized by former Syrian President Bashar al-Assad's closest advisers.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c5d4f7a3fa549cfa",
+    "title": "Undead Software Projects Continue to Raise Security Risks",
+    "link": "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-30T14:10:37.000Z",
+    "summary": "A security firm patched a decade-old app to prevent the takeover of millions of machines, highlighting that abandoned domains remain a boon to attackers.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6473fc7702e557a9",
+    "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+    "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-30T14:08:14.000Z",
+    "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.\n\nThe vulnerability, which does not have a CVE identifier, relates to a case of remote code execution",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "27c3e9ac8130d5f4",
+    "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+    "link": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-30T14:00:10.000Z",
+    "summary": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how these attacks exploit ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8258efe8a7ee711d",
+    "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
+    "link": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-30T14:00:00.000Z",
+    "summary": "As organizations eliminate passwords, attackers will adapt. Instead of attacking the authenticator directly, they will look for opportunities around it.\nThe post Passkeys Are Better Than Passwords. But They Are Not Enough. appeared first on",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4119054fab74058e",
+    "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
+    "link": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-30T13:36:12.000Z",
+    "summary": "It allowed customers to host hack-for-hire services, supported ransomware and infostealer operators, and accepted crypto payments.\nThe post Bulletproof Host Virtualine Loses Its Domain to FBI Seizure appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "09382f93624b985e",
+    "title": "CISA says max severity GitLab flaw now exploited in the wild",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-30T13:00:32.000Z",
+    "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bb609cd39a094f2e",
+    "title": "British spy agency cannot account for thousands of data storage devices, watchdog says",
+    "link": "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-30T12:52:00.000Z",
+    "summary": "The Investigatory Powers Commissioner’s Office (IPCO) in its annual report for 2025, published Thursday, said it was “very concerned” and “disappointed with the time it has taken GCHQ to investigate” the issue.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "21c20d4b759aaa6e",
+    "title": "Hackers target government Windows systems in Asia with new malware",
+    "link": "https://therecord.media/hackers-target-government-windows-systems-asia-new-malware",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-30T12:36:00.000Z",
+    "summary": "The previously unknown malware, dubbed NetamLoader, uses legitimate Microsoft software components to execute malicious code, evade security tools and download additional programs onto infected computers.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4eafb481bfd904bc",
+    "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+    "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-30T12:21:56.000Z",
+    "summary": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported.\n\nTrezor has not yet examined the device. It is telling everyo",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3556a8b0242473d3",
+    "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
+    "link": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-30T12:04:13.000Z",
+    "summary": "Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution.\nThe post Fresh WordPress Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0e377490003110b1",
+    "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+    "link": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-30T11:58:53.000Z",
+    "summary": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything. \n\nTheir concerns are pract",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e117daf244effbb0",
+    "title": "Polymarket confirms cyberattack on third-party provider after outages",
+    "link": "https://therecord.media/polymarket-confirms-cyberattack-third-party",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-30T11:33:00.000Z",
+    "summary": "The company suffered outages starting at 2 p.m. Eastern U.S. time on Thursday and eventually attributed the downtime to a compromise involving an unnamed provider.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4198413c0e430591",
+    "title": "Microsoft finally fixes VPN issues caused by September updates",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-30T11:20:26.000Z",
+    "summary": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "35fc634a28d1fa12",
+    "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
+    "link": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-30T11:07:11.000Z",
+    "summary": "Drupal says a highly critical Commerce Core access bypass is exploited in the wild and urges store owners to audit their orders.\nThe post Drupal Commerce Core Vulnerability Exploited Against Online Stores  appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6734aa3aec6c0e42",
+    "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+    "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-30T10:40:45.000Z",
+    "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets.\n\nThe conspiracy was organi",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eaaaa83e33fa5c63",
+    "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-30T10:16:07.000Z",
+    "summary": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "aedf51642ecf4a2e",
     "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
     "link": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
@@ -33,6 +297,17 @@
     "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "ad2cc061f5526d02",
+    "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+    "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-30T08:55:47.000Z",
+    "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affec",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "d0d43ed2d289861b",
@@ -213,6 +488,17 @@
     "summary": "One cyber firm listed a half-dozen exploitations of the PHP2Shell bugs, and another identified a well targeted, suspected Chinese campaign that breached U.S. \"government affiliated\" servers.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "5553b245af75f973",
+    "title": "Why CTF Competitions May Be More Important Than Ever",
+    "link": "https://www.darkreading.com/cybersecurity-operations/why-ctf-more-important-than-ever",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-29T19:56:44.000Z",
+    "summary": "As artificial intelligence squeezes early-career learning opportunities, capture-the-flag contests could be one way to help pick up the slack.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "aacd7396929c5498",
@@ -844,6 +1130,63 @@
     "severity": "normal"
   },
   {
+    "id": "457d77ef26f62fd4",
+    "title": "Vulnérabilité dans Mattermost Server (29 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1409/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-29T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0d53bc8aaab43798",
+    "title": "Vulnérabilité dans les produits NetApp (29 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1410/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-29T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits NetApp. Elle permet à un attaquant de provoquer une élévation de privilèges.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dc24dfcaf203e82e",
+    "title": "Multiples vulnérabilités dans Veeam Backup for Microsoft 365 (29 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1411/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-29T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Veeam Backup for Microsoft 365. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à l",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "654dbb1ef414cd27",
+    "title": "Vulnérabilité dans les produits Cisco (29 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1412/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-29T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un déni de service à distance. Cisco indique que la vulnérabilité CVE-2026-76418 est activement exploitée.",
+    "cveIds": [
+      "CVE-2026-76418"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "c1b6db841a9eba27",
+    "title": "Multiples vulnérabilités dans PostgreSQL Anonymizer (29 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1413/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-29T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans PostgreSQL Anonymizer. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de l",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a4a98e0e7ba86643",
     "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
     "link": "https://blog.talosintelligence.com/uat-11473-keydrift/",
@@ -1050,7 +1393,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-10-28T15:29:06.000Z",
-    "summary": "Artificial intelligence (AI) is everywhere in healthcare, from doctors’ intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.",
+    "summary": "Artificial intelligence is everywhere in healthcare, from doctors' intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1453,6 +1796,96 @@
     "category": "advisory",
     "pubDate": "2026-10-28T00:00:00.000Z",
     "summary": "Une vulnérabilité a été découverte dans Samba. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c3653add93212bb8",
+    "title": "Multiples vulnérabilités dans Docker Desktop (28 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1401/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Docker Desktop. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0059b9bd2f44172d",
+    "title": "Multiples vulnérabilités dans Palo Alto Networks PAN-OS (28 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1402/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Palo Alto Networks PAN-OS. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance. Palo Alto Networks indique que les vulnérabilités CVE-2026-109618 et C",
+    "cveIds": [
+      "CVE-2026-109618"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "8374ad3c39874a84",
+    "title": "Multiples vulnérabilités dans Metabase (28 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1403/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Metabase. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9741d79bd3fe10c9",
+    "title": "Multiples vulnérabilités dans Mitel OpenScape Endpoint Management (28 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1404/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Mitel OpenScape Endpoint Management. Elles permettent à un attaquant de provoquer une élévation de privilèges et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "91246456017af529",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (28 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1405/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "743b91969d36e3ba",
+    "title": "Multiples vulnérabilités dans les produits Mozilla (28 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1406/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dista",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5b7d0f8be878327f",
+    "title": "Vulnérabilité dans les produits Belden (28 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1407/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Belden. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c8d8366281d69bf4",
+    "title": "Vulnérabilité dans Axis Camera Station Pro (28 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1408/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-28T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Axis Camera Station Pro. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2014,6 +2447,39 @@
     "severity": "normal"
   },
   {
+    "id": "b9fafd6eaac23cab",
+    "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (27 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1394/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-27T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Citrix NetScaler ADC et Gateway. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "12e75040848db583",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (27 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1395/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-27T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "78f1c5129fffd304",
+    "title": "Vulnérabilité dans les produits Palo Alto Networks (27 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1396/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-27T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans les produits Palo Alto Networks. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "adaa6e48f3f12355",
     "title": "Multiples vulnérabilités dans les produits Apple (27 octobre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1387/",
@@ -2087,39 +2553,6 @@
     "category": "advisory",
     "pubDate": "2026-10-27T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Moxa. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et une atteinte à la confidentialité des ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b9fafd6eaac23cab",
-    "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (27 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1394/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Citrix NetScaler ADC et Gateway. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "12e75040848db583",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (27 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1395/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "78f1c5129fffd304",
-    "title": "Vulnérabilité dans les produits Palo Alto Networks (27 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1396/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Palo Alto Networks. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2873,274 +3306,6 @@
     "category": "vendor",
     "pubDate": "2026-10-23T18:12:19.000Z",
     "summary": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations.\nThe post Inside the LiteLLM 1.107.0 supply chain compromise: Credenti",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4645fb818a8e9e28",
-    "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-    "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-23T17:54:08.000Z",
-    "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.\n\nGitLab found",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "015a882ee27441d9",
-    "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-    "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-23T17:50:47.000Z",
-    "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.\n\nCentral to the operation is an \"Autonomous Red Team Kill Chain Framework",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "90f70db295897a33",
-    "title": "FCC bans two devices with surveillance chips linked to Huawei",
-    "link": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-23T17:28:00.000Z",
-    "summary": "The banned items — a wireless video transmitter and dashboard camera — are made with chips manufactured by Huawei subsidiary HiSilicon, which markets its products as “designed for the surveillance market.”",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b95d5610d15459c6",
-    "title": "AI Tools Are Generating Massive Attacks for Little Cost",
-    "link": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-23T17:26:59.000Z",
-    "summary": "One campaign targets 105 sites using open-weight models; in another, public models gained full domain control for $12. Cyber-defense will have to change.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "27be26c6f1772425",
-    "title": "Microsoft: Windows Server 2016 reaches end of support in January",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-23T17:05:07.000Z",
-    "summary": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f582252343af91cc",
-    "title": "Quest Diagnostics confirms data breach exposed patient records",
-    "link": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-23T16:40:07.000Z",
-    "summary": "American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5d4b1321ac5e829f",
-    "title": "PHP shares mitigation for new RCE vulnerability with no patch",
-    "link": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-23T15:38:05.000Z",
-    "summary": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "52d3232953e2ec34",
-    "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
-    "link": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-23T14:23:37.000Z",
-    "summary": "Noteworthy stories that might have slipped under the radar: Russia’s APT28 hit NATO defense firms, PingCAP source code stolen, ShinyHunters negotiator probe.\nThe post In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4eed9c7e043606c8",
-    "title": "You gave your AI agent access, but who is giving it orders?",
-    "link": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-23T14:00:10.000Z",
-    "summary": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents thr",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bd43f4cf3245ccee",
-    "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
-    "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-23T14:00:00.000Z",
-    "summary": "The region is demonstrating what happens when exploits accelerate but assurance does not.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f059789b24373367",
-    "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-    "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-23T13:50:56.000Z",
-    "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"Artifacts from this investigation also in",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "cf981b7260213c66",
-    "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
-    "link": "https://isc.sans.edu/diary/rss/33450",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-23T13:43:20.000Z",
-    "summary": "This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so i",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ff1522ac28cbf7ce",
-    "title": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
-    "link": "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-23T13:30:00.000Z",
-    "summary": "Rising AI, social engineering, and cloud risks are pushing carriers beyond risk transfer and deeper into cybersecurity itself.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b49db17578fd765a",
-    "title": "UK proposes 14-year prison terms for undersea cable sabotage",
-    "link": "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-23T13:26:00.000Z",
-    "summary": "In an era of hybrid threats, the British government wants to update the Submarine Telegraph Act 1885, which carries a maximum fine of £1,000 and five years’ imprisonment in cases of deliberate damage.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8bb708370d7a3fb9",
-    "title": "Quest Diagnostics warns of potential data theft after attack on lab service system",
-    "link": "https://therecord.media/quest-diagnostics-network-intrusion",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-23T12:52:00.000Z",
-    "summary": "Nationwide lab test company Quest Diagnostics said one of its key systems may have experienced a breach of patient data.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "eb477469ff02e82d",
-    "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-23T12:48:00.000Z",
-    "summary": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ceaaccb7c7382a0b",
-    "title": "Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge",
-    "link": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-23T12:45:52.000Z",
-    "summary": "Researchers tie PHP2Shell attempts to a Mirai botnet and show an ASLR bypass, but no successful compromise has been confirmed yet.\nThe post Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge appeared first on Secur",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d887f828b4597a76",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-23T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-114625 Arista VeloCloud Orchestrator SQL Injection Vulnerability\nThis type of vulnerability is a f",
-    "cveIds": [
-      "CVE-2026-114625"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "ba1a1addd0c23c78",
-    "title": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
-    "link": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-23T11:38:28.000Z",
-    "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the risk.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3bc9a46d29046dd2",
-    "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-    "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-23T11:25:43.000Z",
-    "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an u",
-    "cveIds": [
-      "CVE-2026-115560"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "80697809b26e3096",
-    "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-    "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-23T11:11:23.000Z",
-    "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.\n\nAccording to ESET, the attack involved UAC-0099 (aka Earth S",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "713a68aa818f2bd7",
-    "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
-    "link": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-23T10:31:16.000Z",
-    "summary": "The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments.\nThe post China APT Uses AI Pentest Tool Artex in ConnectWise Attacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8640974c8b8683e6",
-    "title": "ISC Stormcast For Friday, October 23rd, 2026 https://isc.sans.edu/podcastdetail/10148, (Fri, Oct 23rd)",
-    "link": "https://isc.sans.edu/diary/rss/33448",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-23T10:25:11.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "94808457651058f4",
-    "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months",
-    "link": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-23T09:58:34.000Z",
-    "summary": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges.\nThe post Attackers Exploit Third Arista VCO Zero-Day in Four Months appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "critical"
   }
