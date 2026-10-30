@@ -1,5 +1,71 @@
 [
   {
+    "id": "f167e37bde6d313b",
+    "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-10-30T21:09:46.000Z",
+    "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ce4d8aef30665e2d",
+    "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
+    "link": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-30T20:45:00.000Z",
+    "summary": "The DOJ’s Executive Office for U.S. Trustees said a consumer privacy ombudsman is needed to advise the court on how to regulate what data from Character.AI can be sold and under what terms.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ac7367a35b670f91",
+    "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-30T20:05:58.000Z",
+    "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "84a2c916c34cca9e",
+    "title": "Fashion retailer Resolve says hackers stole payment card information",
+    "link": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-10-30T19:00:00.000Z",
+    "summary": "The company, billing itself as “the next-generation fashion retailer for Millennial and Generation Z consumers,” said a recent hack exposed customer payment card numbers.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "46d8d781bead54a3",
+    "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+    "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-30T16:58:44.000Z",
+    "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\n\nThe activity has been attribut",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ad4296e15ebcf305",
+    "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-10-30T16:11:44.000Z",
+    "summary": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos.\nThe post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intru",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e645dafde1d4d968",
     "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
     "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
@@ -196,6 +262,19 @@
     "summary": "Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution.\nThe post Fresh WordPress Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "4760f9242e3b5b83",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-30T12:00:00.000Z",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability\nCVE-2026",
+    "cveIds": [
+      "CVE-2026-111357"
+    ],
+    "severity": "critical"
   },
   {
     "id": "0e377490003110b1",
@@ -847,19 +926,6 @@
     "summary": "View CSAF\nSummary\nHitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confid",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "9b9000acef065c5e",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-29T12:00:00.000Z",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-97229 GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound vulnerabili",
-    "cveIds": [
-      "CVE-2026-97229"
-    ],
-    "severity": "cve"
   },
   {
     "id": "3f007ce8c8278493",
@@ -2200,6 +2266,17 @@
     "severity": "normal"
   },
   {
+    "id": "531d14aa47c04aa3",
+    "title": "EPICS Base",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-10-27T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code.\nThe following versions",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "9cfdf1956af8dc08",
     "title": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
@@ -2214,17 +2291,6 @@
       "CVE-2026-16438"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "531d14aa47c04aa3",
-    "title": "EPICS Base",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-27T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code.\nThe following versions",
-    "cveIds": [],
-    "severity": "normal"
   },
   {
     "id": "c99aa3fd55df8bb9",
@@ -3229,83 +3295,6 @@
     "category": "news",
     "pubDate": "2026-10-24T06:25:57.000Z",
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citin",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "78e6b44f5a3d5bff",
-    "title": "Trust Is Not What It Seems — and Fraudsters Are Counting on It",
-    "link": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-23T20:57:56.000Z",
-    "summary": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "201a6bfc4c9c82a0",
-    "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-23T20:55:05.000Z",
-    "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "99cc8517906e9daa",
-    "title": "(Reliable)&#x3f; php2shell exploitability, (Fri, Oct 23rd)",
-    "link": "https://isc.sans.edu/diary/rss/33452",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-23T20:04:47.000Z",
-    "summary": "Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f1cc9ef1de56563f",
-    "title": "Exposed to PHP2Shell? Cyber Experts Weigh in With Advice",
-    "link": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-23T19:41:23.000Z",
-    "summary": "Fixing the critical PHP flaws is not as simple as clicking \"Update.\" Here's how to assess your risk, and what you can do to protect yourself.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e62f85ca100be1fa",
-    "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-23T18:54:41.000Z",
-    "summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "077ef200d3e00808",
-    "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-    "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-23T18:50:13.000Z",
-    "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\n\nThe activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkm",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "abfff6ba3917a252",
-    "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-10-23T18:12:19.000Z",
-    "summary": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations.\nThe post Inside the LiteLLM 1.107.0 supply chain compromise: Credenti",
     "cveIds": [],
     "severity": "critical"
   }
