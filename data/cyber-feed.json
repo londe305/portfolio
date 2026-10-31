@@ -1,5 +1,93 @@
 [
   {
+    "id": "5be14df72cefaec0",
+    "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+    "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-10-31T12:00:00.000Z",
+    "summary": "The self-deleting VOLTA infostealer steals credentials, sessions, and cryptocurrency wallets. Then, it uses LLMs to profile victims and rank their most valuable assets.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f0c80b908a885d8f",
+    "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+    "link": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-10-31T11:00:00.000Z",
+    "summary": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities.\nThe post Syrian Hacker Gets Prison Time in US After Over a Decade on the Run appeared first on SecurityWeek",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "db5a9a075d7b0323",
+    "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
+    "link": "https://isc.sans.edu/diary/rss/33476",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-31T10:52:53.000Z",
+    "summary": "Wireshark Release Candidate 5.0.0 was published: soon we can expect a new major version of Wireshark.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a97d89d20f5e7e65",
+    "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
+    "link": "https://isc.sans.edu/diary/rss/33474",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-31T10:48:17.000Z",
+    "summary": "YARA-X&#;x26;#;39;s 1.22.1 is a bugfix version, it brings 2 bugfixes.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8a1ff85d598dea94",
+    "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+    "link": "https://isc.sans.edu/diary/rss/33454",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-10-31T10:45:40.000Z",
+    "summary": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4a3beb5aa5ff5440",
+    "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+    "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-31T08:27:43.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild.\n\nThe ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e8eb82345a00ebfc",
+    "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+    "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-31T05:33:41.000Z",
+    "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed.\n\nThe researchers reported th",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "21ad2182a1367363",
+    "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+    "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-10-31T04:56:12.000Z",
+    "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomously mitigated 18.2 million network-laye",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "d6c6367093755380",
     "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
@@ -3189,17 +3277,6 @@
     "severity": "normal"
   },
   {
-    "id": "8a1ff85d598dea94",
-    "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
-    "link": "https://isc.sans.edu/diary/rss/33454",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-25T19:57:53.000Z",
-    "summary": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "4a8154151413dd37",
     "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
     "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
@@ -3264,60 +3341,5 @@
     "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and ",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "a0a9e49aec28c38a",
-    "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-    "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-24T11:09:29.000Z",
-    "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli.\n\nTrack",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3a1a036ef73ae68c",
-    "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-    "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-24T11:03:33.000Z",
-    "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.\n\n\"On May 27, 2",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "afec56c7243a9162",
-    "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-    "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-24T10:36:33.000Z",
-    "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google se",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "94d51fe2d20419a9",
-    "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
-    "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-24T09:04:24.000Z",
-    "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machin",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "838b4b1ce2538127",
-    "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-    "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-24T06:25:57.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citin",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
