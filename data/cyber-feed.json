@@ -1,5 +1,16 @@
 [
   {
+    "id": "d6c6367093755380",
+    "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-10-31T01:02:57.000Z",
+    "summary": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it.\nThe post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f167e37bde6d313b",
     "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
     "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
@@ -29,6 +40,17 @@
     "category": "news",
     "pubDate": "2026-10-30T20:05:58.000Z",
     "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "983cd7433fe6494b",
+    "title": "Behind the Scenes of How Operation Blackout Went Down",
+    "link": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-30T19:46:08.000Z",
+    "summary": "A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the same.",
     "cveIds": [],
     "severity": "normal"
   },
