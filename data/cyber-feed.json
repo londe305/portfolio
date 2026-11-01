@@ -1,5 +1,27 @@
 [
   {
+    "id": "af6ffe74845e797d",
+    "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+    "link": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-01T15:11:21.000Z",
+    "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible c",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d15dc155427a190c",
+    "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-01T13:53:11.000Z",
+    "summary": "OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "1d293ae9cead23d3",
     "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
     "link": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
@@ -3407,39 +3429,6 @@
     "category": "advisory",
     "pubDate": "2026-10-26T00:00:00.000Z",
     "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4a8154151413dd37",
-    "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-    "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-25T17:44:09.000Z",
-    "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.\n\nThe attack requires two things: Tailscale SSH set up to a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3eda0d6ae7e39322",
-    "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
-    "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-25T17:19:46.000Z",
-    "summary": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws.\n\n\"What researchers saw was an ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9e8f060397f4d2d1",
-    "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-    "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-25T15:49:38.000Z",
-    "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
     "cveIds": [],
     "severity": "normal"
   }
