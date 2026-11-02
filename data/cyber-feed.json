@@ -1,5 +1,16 @@
 [
   {
+    "id": "8cfea8890b08c2e2",
+    "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-01T19:57:53.000Z",
+    "summary": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "af6ffe74845e797d",
     "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
     "link": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
@@ -3341,94 +3352,6 @@
     "category": "advisory",
     "pubDate": "2026-10-26T03:30:12.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4a56f3bae32b0297",
-    "title": "Multiples vulnérabilités dans les produits Tenable (26 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1381/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-26T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3b94c553498d26e2",
-    "title": "Multiples vulnérabilités dans Microsoft .Net (26 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1382/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-26T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft .Net. Elles permettent à un attaquant de provoquer une élévation de privilèges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9b86338548b6e92d",
-    "title": "Vulnérabilité dans les produits Microsoft (26 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1383/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-26T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Microsoft. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3a73186c40290ebc",
-    "title": "Vulnérabilité dans Citrix XenServer (26 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1384/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-26T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Citrix XenServer. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f2d278df25e1da1f",
-    "title": "Multiples vulnérabilités dans les produits VMware (26 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1385/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-26T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ae40bebd6241f09c",
-    "title": "Multiples vulnérabilités dans les produits MongoDB (26 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1386/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-26T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'in",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9ed253577526c189",
-    "title": "Multiples vulnérabilités dans CPython (26 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1379/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-26T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans CPython. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ab1139486e2d7c55",
-    "title": "Vulnérabilité dans Mattermost Server (26 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1380/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-26T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
     "cveIds": [],
     "severity": "normal"
   }
