@@ -1,5 +1,96 @@
 [
   {
+    "id": "2e0eed2511257ee2",
+    "title": "Chainalysis Discloses Data Breach Following AI-Driven Cyberattack",
+    "link": "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-02T10:27:49.000Z",
+    "summary": "The attackers used offensive agentic techniques to access the company’s systems and internal tools.\nThe post Chainalysis Discloses Data Breach Following AI-Driven Cyberattack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "357136bfe66d6a92",
+    "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-02T09:33:26.000Z",
+    "summary": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ff9c9693b43df7e5",
+    "title": "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack",
+    "link": "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-02T09:33:15.000Z",
+    "summary": "DebugBear says its DNS records were compromised via its domain registrar, and early findings show a single customer was targeted.\nThe post Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack appeared first on SecurityWe",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1befc30403b6d20c",
+    "title": "FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist",
+    "link": "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-02T08:40:36.000Z",
+    "summary": "The FBI has officially pinned the $6 billion Binance hack on North Korea’s TraderTraitor as the attackers launder the stolen crypto.\nThe post FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0bc09b42359cb3d6",
+    "title": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
+    "link": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-02T07:57:49.000Z",
+    "summary": "CISA has added CVE-2026-111357 and CVE-2026-118527 to its KEV catalog after the Ivanti VPN flaws were chained in zero-day attacks.\nThe post Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain appeared first on Securit",
+    "cveIds": [
+      "CVE-2026-111357",
+      "CVE-2026-118527"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "9068a344a0358a19",
+    "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+    "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-02T05:51:07.000Z",
+    "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value.\n\nLike other typical st",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d0dae30d7bd006a6",
+    "title": "ISC Stormcast For Monday, November 2nd, 2026 https://isc.sans.edu/podcastdetail/10160, (Mon, Nov 2nd)",
+    "link": "https://isc.sans.edu/diary/rss/33480",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-02T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e9672a016fa4ed00",
+    "title": "FBI blames N. Korea’s TraderTraitor for Binance theft, urges crypto industry to block transactions",
+    "link": "https://therecord.media/fbi-blames-tradertraitor-for-binance-hack",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-02T00:00:00.000Z",
+    "summary": "The FBI and U.S. Secret Service alleged this weekend that North Korean hackers were responsible for stealing more than $6.3 billion from cryptocurrency platform Binance last week.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "8cfea8890b08c2e2",
     "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
     "link": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
@@ -83,7 +174,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-11-01T07:03:00.000Z",
-    "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG",
+    "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets from Binance to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Choll",
     "cveIds": [],
     "severity": "normal"
   },
@@ -3239,119 +3330,6 @@
     "category": "news",
     "pubDate": "2026-10-26T11:23:56.000Z",
     "summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeli",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4dd6d369bedf0b52",
-    "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
-    "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-26T10:26:52.000Z",
-    "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2a948c7de7f5e651",
-    "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
-    "link": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-26T10:21:57.000Z",
-    "summary": "An out-of-bounds write in Google’s Brotli decoder affects Node.js, .NET, PowerShell, and Python packages, and can lead to code execution.\nThe post Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages appeared",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "275e6f3b55aff713",
-    "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
-    "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-26T09:54:02.000Z",
-    "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread o",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "47b059e57c0979f9",
-    "title": "Looking for a Language &#x5b;Guest Diary&#x5d;, (Wed, Oct 21st)",
-    "link": "https://isc.sans.edu/diary/rss/33442",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-26T09:38:03.000Z",
-    "summary": "[This is a Guest Diary by Jeffray Spence, an ISC intern as part of the SANS.edu BACS program]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fbd9cb2b4455b922",
-    "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
-    "link": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-26T09:19:57.000Z",
-    "summary": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
-    "cveIds": [
-      "CVE-2026-109618",
-      "CVE-2026-109619"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "4c6c7b2ea9daef94",
-    "title": "Mythos 5 Ignored Real-World Harm in July Attack",
-    "link": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-26T09:10:03.000Z",
-    "summary": "The model engaged in severe overreach and dishonesty, creating fake identities and submitting malicious code on GitHub.\nThe post Mythos 5 Ignored Real-World Harm in July Attack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "35a2887f86531272",
-    "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-    "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-26T08:35:51.000Z",
-    "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 org",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8e95a20d61e45dbc",
-    "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-    "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-26T07:49:46.000Z",
-    "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private reposit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8239096a100ab76b",
-    "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-    "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-26T06:03:48.000Z",
-    "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week.\n\nThe company caught the a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a9d5557b92f4ed3f",
-    "title": "ISC Stormcast For Monday, October 26th, 2026 https://isc.sans.edu/podcastdetail/10150, (Mon, Oct 26th)",
-    "link": "https://isc.sans.edu/diary/rss/33456",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-26T03:30:12.000Z",
-    "summary": "",
     "cveIds": [],
     "severity": "normal"
   }
