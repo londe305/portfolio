@@ -1,5 +1,108 @@
 [
   {
+    "id": "3e6bc640da57c0d4",
+    "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+    "link": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-03T05:34:41.000Z",
+    "summary": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed.\n\nThe vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentic",
+    "cveIds": [
+      "CVE-2026-58115"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "d4042f8de11d05d6",
+    "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+    "link": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-03T05:34:37.000Z",
+    "summary": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber.\n\nThe vulnerability in question is CVE-2026-81648, which ca",
+    "cveIds": [
+      "CVE-2026-81648"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "3b6a51103bfae25b",
+    "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+    "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-11-03T02:24:31.000Z",
+    "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and co",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d67f6a348091431b",
+    "title": "ISC Stormcast For Tuesday, November 3rd, 2026 https://isc.sans.edu/podcastdetail/10162, (Tue, Nov 3rd)",
+    "link": "https://isc.sans.edu/diary/rss/33484",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-03T02:00:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "266b3df3272b7461",
+    "title": "UK faces ‘unprecedented rise’ in cyberattacks in coming months, warns cyber chief",
+    "link": "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-03T00:01:00.000Z",
+    "summary": "\"[V]ulnerabilities that have been tolerated for far too long can now be discovered and exploited at a scale that was once unimaginable,\" the NCSC's chief will warn in releasing the agency's annual report.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c033741926089d1a",
+    "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
+    "link": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-11-02T23:00:45.000Z",
+    "summary": "Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows.\nThe post Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8158b1dc74164a8a",
+    "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-02T22:27:24.000Z",
+    "summary": "The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d32892baf1f533f7",
+    "title": "Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform",
+    "link": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-02T21:42:00.000Z",
+    "summary": "Blockchain security companies said more than $46 million left the Mercado Bitcoin platform.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f6edbcaffade5370",
+    "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+    "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-02T21:40:14.000Z",
+    "summary": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "73b73a4735183c93",
     "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
@@ -3253,193 +3356,6 @@
     "category": "news",
     "pubDate": "2026-10-27T06:34:47.000Z",
     "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\n\n\"Cases of compromising IP cameras and DVRs with access to the video st",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "968629f0ead301ae",
-    "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-    "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-27T04:37:59.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog.\n\nThe PHP vulnerabilities, ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "34ec0f91485adfd7",
-    "title": "ISC Stormcast For Tuesday, October 27th, 2026 https://isc.sans.edu/podcastdetail/10152, (Tue, Oct 27th)",
-    "link": "https://isc.sans.edu/diary/rss/33462",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-27T02:55:13.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "39fb6abcb30e3011",
-    "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
-    "link": "https://isc.sans.edu/diary/rss/33458",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-27T02:09:55.000Z",
-    "summary": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7f986c2781175381",
-    "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
-    "link": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-27T01:30:00.000Z",
-    "summary": "The University of New Mexico Health System told people not to show up at its main hospital in Albuquerque and canceled appointments at more than 30 clinics.\nThe post Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "837fe1cef585dc8b",
-    "title": "So Many AI Security Benchmarks, but None Tell the Whole Story",
-    "link": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-27T00:26:50.000Z",
-    "summary": "Measuring AI model security gets complex, fast, thanks to a growing patchwork of benchmarks targeting different variables in the equation. But none replace testing against your own code and workflows.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b9fafd6eaac23cab",
-    "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (27 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1394/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Citrix NetScaler ADC et Gateway. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "12e75040848db583",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (27 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1395/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "78f1c5129fffd304",
-    "title": "Vulnérabilité dans les produits Palo Alto Networks (27 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1396/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Palo Alto Networks. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "adaa6e48f3f12355",
-    "title": "Multiples vulnérabilités dans les produits Apple (27 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1387/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des d",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bed2f1945b9ca6b4",
-    "title": "Vulnérabilité dans Mattermost Server (27 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1388/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "de2988f612bb1ccd",
-    "title": "Multiples vulnérabilités dans GLPI (27 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1389/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans GLPI. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données, une injection SQL (SQLi) et une injection de code indirecte à distance (XSS).",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "16bce2099ff9b007",
-    "title": "Multiples vulnérabilités dans Tenable Network Monitor (27 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1390/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Network Monitor. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la con",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "552d52685105d05b",
-    "title": "Multiples vulnérabilités dans Mozilla Firefox (27 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1391/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Firefox. Elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "22fc52c0c7186383",
-    "title": "Multiples vulnérabilités dans les produits Nextcloud (27 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1392/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Nextcloud. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2459d7cc044dc8b3",
-    "title": "Multiples vulnérabilités dans les produits Moxa (27 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1393/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-27T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Moxa. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et une atteinte à la confidentialité des ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "627cc70bbf65badd",
-    "title": "University of Copenhagen data breach exposes data of 525,000 people",
-    "link": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-26T22:20:36.000Z",
-    "summary": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5d6c647af36336af",
-    "title": "Risks &amp; Rewards: How AI Is Redefining the CISO's Role",
-    "link": "https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-26T21:44:33.000Z",
-    "summary": "Nvidia security executive Mark Weatherford says CISOs must help business leaders weigh AI's pros and cons, and ensure those deploying it own the risks.",
     "cveIds": [],
     "severity": "normal"
   }
