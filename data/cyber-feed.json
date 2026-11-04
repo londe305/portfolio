@@ -1,5 +1,27 @@
 [
   {
+    "id": "7aa5af4c407c8575",
+    "title": "ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)",
+    "link": "https://isc.sans.edu/diary/rss/33486",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-04T02:10:02.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ed421e39d30bdf97",
+    "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-04T02:00:00.000Z",
+    "summary": "An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "b0a8ea5b69867de6",
     "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
@@ -117,6 +139,28 @@
     "category": "news",
     "pubDate": "2026-11-03T17:43:00.000Z",
     "summary": "Supermarket and grocery store refrigerator controls across Europe were hacked in the early hours of Monday in the second such wave of attacks in recent weeks — following a first wave in France — with unidentified perpetrators defrosting fri",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "86c38c1e82c9eaca",
+    "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-11-03T17:32:47.000Z",
+    "summary": "Microsoft Threat Intelligence tracks a fake-download campaign that uses trojanized Inno installers to deliver multiple monetization offers and provides detection and investigation guidance across the complete installer session.\nThe post Fak",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "263a6ac2e13a9494",
+    "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI Agent Management Platforms",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-agent-management-platforms/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-11-03T17:00:00.000Z",
+    "summary": "Read why Gartner named Microsoft a Leader in the inaugural 2026 Magic Quadrant for AI Agent Management Platforms.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI Agent Management Platforms   appeared first on M",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2404,17 +2448,6 @@
     "severity": "normal"
   },
   {
-    "id": "196b1e60527b22e4",
-    "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
-    "link": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-29T10:00:00.000Z",
-    "summary": "The enigmatic service is providing popular AI coding tools to mainland China and other regions where OpenAI and Anthropic products are not officially for sale — but with key security features turned off.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "4faa48c4d2141f7b",
     "title": "NIK C2: The new AI-enabled command-and-control framework",
     "link": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/",
@@ -2422,6 +2455,17 @@
     "category": "vendor",
     "pubDate": "2026-10-29T10:00:00.000Z",
     "summary": "Cisco Talos observed a new AI-integrated command-and-control (C2) framework in the wild called “NIK C2.”",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "196b1e60527b22e4",
+    "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
+    "link": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-10-29T10:00:00.000Z",
+    "summary": "The enigmatic service is providing popular AI coding tools to mainland China and other regions where OpenAI and Anthropic products are not officially for sale — but with key security features turned off.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -3230,172 +3274,5 @@
     "summary": "Interpol's annual Operation Serengeti, now in its third iteration, led to 1,462 arrests across 20 African countries and the US, recovering $105 million in stolen funds.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "dc166c047f571359",
-    "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-28T05:42:26.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evi",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "8e015ae66abc3975",
-    "title": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
-    "link": "https://isc.sans.edu/diary/rss/33464",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-28T02:30:11.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9741d79bd3fe10c9",
-    "title": "Multiples vulnérabilités dans Mitel OpenScape Endpoint Management (28 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1404/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-28T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Mitel OpenScape Endpoint Management. Elles permettent à un attaquant de provoquer une élévation de privilèges et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "91246456017af529",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (28 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1405/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-28T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "743b91969d36e3ba",
-    "title": "Multiples vulnérabilités dans les produits Mozilla (28 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1406/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-28T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à dista",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5b7d0f8be878327f",
-    "title": "Vulnérabilité dans les produits Belden (28 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1407/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-28T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Belden. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c8d8366281d69bf4",
-    "title": "Vulnérabilité dans Axis Camera Station Pro (28 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1408/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-28T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Axis Camera Station Pro. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e9d20e50e1a2848c",
-    "title": "Vulnérabilité dans CPython (28 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1397/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-28T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6f572656b6bc0777",
-    "title": "Multiples vulnérabilités dans Google Chrome (28 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1398/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-28T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "030f4fe1d67f6722",
-    "title": "Multiples vulnérabilités dans les produits Veeam (28 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1399/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-28T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidenti",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "39fabd67769ebc29",
-    "title": "Vulnérabilité dans Samba (28 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1400/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-28T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Samba. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c3653add93212bb8",
-    "title": "Multiples vulnérabilités dans Docker Desktop (28 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1401/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-28T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Docker Desktop. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0059b9bd2f44172d",
-    "title": "Multiples vulnérabilités dans Palo Alto Networks PAN-OS (28 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1402/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-28T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Palo Alto Networks PAN-OS. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance. Palo Alto Networks indique que les vulnérabilités CVE-2026-109618 et C",
-    "cveIds": [
-      "CVE-2026-109618"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "8374ad3c39874a84",
-    "title": "Multiples vulnérabilités dans Metabase (28 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1403/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-28T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Metabase. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5246b1272668680e",
-    "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
-    "link": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-27T23:35:51.000Z",
-    "summary": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
