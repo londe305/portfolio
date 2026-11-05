@@ -1,5 +1,71 @@
 [
   {
+    "id": "2a5b7d5a686a585d",
+    "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-05T05:17:04.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "49bf8b366c47018c",
+    "title": "Want to Rent an Internet Address at the White House?",
+    "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-11-05T04:36:17.000Z",
+    "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "25c3eda20cfedcbc",
+    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+    "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-05T04:31:16.000Z",
+    "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs.\n\n\"Our prototype ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1b4641ca37283c44",
+    "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
+    "link": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-04T21:48:18.000Z",
+    "summary": "An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for lateral movement.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "de78875600613269",
+    "title": "Vercel rolls out new protection against stolen session cookie attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-04T21:31:18.000Z",
+    "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "71b12d48491a67a5",
+    "title": "More Asian airlines announce data breaches after attack on Spanish IT provider Amadeus",
+    "link": "https://therecord.media/asian-airlines-announce-data-breach-it-provider-incident",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-04T21:30:00.000Z",
+    "summary": "Japan Airlines, Cathay Pacific, Korean Air, Asiana Airlines, Singapore Airlines and Malaysia Airlines have all come forward over the last week to report data breaches traced back to Amadeus IT Group — a company that builds and maintains pla",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "0fd87eaf33b4e085",
     "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
     "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
@@ -171,7 +237,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-11-04T14:27:52.000Z",
-    "summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytic",
+    "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web anal",
     "cveIds": [],
     "severity": "critical"
   },
@@ -3158,185 +3224,5 @@
     "summary": "Building your malware analysis lab is a key point before playing with malware. Today, thanks to virtualization, it&#;x26;#;39;s convenient to play with snapshots in your lab. Start a new investigation from a clean snapshot and take some mor",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "f4eff089be53135d",
-    "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-    "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-29T05:50:17.000Z",
-    "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces.\n\n\"Active exploitation has been observed targeting the Palo Alto Netwo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "971ff11eb5e154b8",
-    "title": "ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156, (Thu, Oct 29th)",
-    "link": "https://isc.sans.edu/diary/rss/33468",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-29T03:10:12.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cd96a1792e01bd26",
-    "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
-    "link": "https://isc.sans.edu/diary/rss/33466",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-10-29T00:42:15.000Z",
-    "summary": "Introduction",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "457d77ef26f62fd4",
-    "title": "Vulnérabilité dans Mattermost Server (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1409/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-29T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0d53bc8aaab43798",
-    "title": "Vulnérabilité dans les produits NetApp (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1410/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-29T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits NetApp. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dc24dfcaf203e82e",
-    "title": "Multiples vulnérabilités dans Veeam Backup for Microsoft 365 (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1411/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-29T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Veeam Backup for Microsoft 365. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à l",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "654dbb1ef414cd27",
-    "title": "Vulnérabilité dans les produits Cisco (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1412/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-29T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un déni de service à distance. Cisco indique que la vulnérabilité CVE-2026-76418 est activement exploitée.",
-    "cveIds": [
-      "CVE-2026-76418"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "c1b6db841a9eba27",
-    "title": "Multiples vulnérabilités dans PostgreSQL Anonymizer (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1413/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-29T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans PostgreSQL Anonymizer. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de l",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2b03bc7db98c086e",
-    "title": "Multiples vulnérabilités dans les produits Juniper Networks (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1414/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-29T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Juniper Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de servic",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "582b3fda98dfeea9",
-    "title": "Multiples vulnérabilités dans Apache Kafka (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1415/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-29T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Apache Kafka. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dfd7c9d09a260c67",
-    "title": "Vulnérabilité dans les produits ESET (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1416/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-29T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits ESET. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "88a83cc3d83a34f6",
-    "title": "Vulnérabilité dans les produits Kaspersky (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1417/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-29T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Kaspersky. Elle permet à un attaquant de provoquer un déni de service.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3fa6a2e75bfee160",
-    "title": "Multiples vulnérabilités dans Foxit Online Services (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1418/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-29T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Foxit Online Services. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et une falsific",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e8b62f828e67f933",
-    "title": "Multiples vulnérabilités dans Elastic Cloud Enterprise (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1419/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-29T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Elastic Cloud Enterprise. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'int",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1d478ff841c7438e",
-    "title": "Multiples vulnérabilités dans WordPress (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1420/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-29T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité d",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a4a98e0e7ba86643",
-    "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
-    "link": "https://blog.talosintelligence.com/uat-11473-keydrift/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-10-28T21:32:02.000Z",
-    "summary": "Talos has identified UAT-11473, a highly sophisticated APT, who exploited CVE-2026-20127, an authentication bypass vulnerability in Cisco SD-WAN Catalyst Controller instances to bypass authentication and gain unauthorized access to affected",
-    "cveIds": [
-      "CVE-2026-20127"
-    ],
-    "severity": "cve"
   }
 ]
