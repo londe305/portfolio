@@ -1,5 +1,170 @@
 [
   {
+    "id": "3189ce2b4e22a207",
+    "title": "Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers",
+    "link": "https://therecord.media/queens-library-ransomware-causes-disruptions",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-05T22:08:00.000Z",
+    "summary": "The library system, which has 66 branches serving the borough’s 2.3 million residents, published multiple alerts on Wednesday confirming that the disruption was caused by a ransomware attack.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c5d8bcb2d0573a49",
+    "title": "US Government Email Systems Open to Abuse Thanks to Typos",
+    "link": "https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-05T21:35:05.000Z",
+    "summary": "Erroneous or outdated DNS records can give attackers surprising powers over organizations' email systems.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "886e9406677fab21",
+    "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-05T21:30:30.000Z",
+    "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication session",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6ae54b5becb8074a",
+    "title": "What We Missed: Knicks Phishing Test Goes Out of Bounds",
+    "link": "https://www.darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-05T21:00:47.000Z",
+    "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from an ill-conceived phishing simulation to a hacktivist attack on a US government agency.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "835e42a20ded7d60",
+    "title": "Social media giants sue California to overturn law shielding kids 15 and under from compulsive use",
+    "link": "https://therecord.media/social-media-giants-sue-california-over-social-media-law",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-05T20:48:00.000Z",
+    "summary": "Google, Meta and TikTok each filed suit in federal court against an incoming California law that blocks platforms from deploying features considered “psychologically exploitative.”",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "58f4053a1bb932db",
+    "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+    "link": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-05T20:15:08.000Z",
+    "summary": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8b7832becd89f665",
+    "title": "US issues more sanctions against Prince Group scam center affiliates",
+    "link": "https://therecord.media/us-issues-more-sanctions-against-prince-group-scammers",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-05T20:11:00.000Z",
+    "summary": "The sanctions target four people and 41 companies linked to the Prince Group — a Cambodian company accused of running a billion-dollar scam operation.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8c41ea53568673e3",
+    "title": "APT29's Watering Holes Target Thousands of Mobile Users",
+    "link": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-05T20:05:39.000Z",
+    "summary": "After compromising websites, the Russian state-sponsored threat group is fingerprinting victims, then harvesting information from the interesting ones.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7e637a2f9fd70ec8",
+    "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+    "link": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-05T19:24:26.000Z",
+    "summary": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dd39564224715dd3",
+    "title": "Harden cooling systems now, feds warn critical infrastructure operators amid attacks",
+    "link": "https://therecord.media/cyberattacks-refrigeration-cisa-fbi",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-05T19:15:00.000Z",
+    "summary": "The U.S. government on Thursday called on critical infrastructure operators to safeguard their cooling systems following hacks that have caused chaos in European supermarkets in recent weeks.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "235c91400cfbaf46",
+    "title": "Bring a tent, I've got the coffee: Lessons from it-sa",
+    "link": "https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-11-05T19:00:00.000Z",
+    "summary": "Thorsten may have had to camp out in Nuremberg to attend it-sa, but the real story is the initiative to add a formal IT Security apprenticeship program in Germany for the thousands of young hackers ready to join our side.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "671b07a9ce2d4371",
+    "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-05T17:45:29.000Z",
+    "summary": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password. ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3347a00667c50921",
+    "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+    "link": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-05T17:32:37.000Z",
+    "summary": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million.\nThe post AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ccc66eb2563172ef",
+    "title": "New investments to reduce on-premises security risk",
+    "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-investments-to-reduce-on-premises-security-risk/4570381",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-11-05T17:10:14.000Z",
+    "summary": "We’re announcing a new on-premises security initiative, bringing together guidance, migration, and product investments.\nThe post New investments to reduce on-premises security risk appeared first on Microsoft Security Blog.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1a39a444dba6b797",
+    "title": "​​​​What’s new in Microsoft Security: November 2026",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-11-05T17:00:00.000Z",
+    "summary": "Microsoft Security’s November 2026 updates strengthen AI agent security, least privilege, threat protection, and exposure management.\nThe post ​​​​What’s new in Microsoft Security: November 2026 appeared first on Microsoft Security Blog.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "44c256844f1ea88a",
     "title": "Russian state-linked hackers target iPhone, Android devices in zero-click espionage campaign",
     "link": "https://therecord.media/russia-hackers-smartphone-cyberattacks",
@@ -18,6 +183,28 @@
     "category": "news",
     "pubDate": "2026-11-05T16:48:36.000Z",
     "summary": "The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3fe484f436f5a815",
+    "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+    "link": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-05T16:42:46.000Z",
+    "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "306be99284dc169e",
+    "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+    "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-05T16:42:32.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT.\n\nLockdown Mode was introduced by the artificial intelligence (AI) company in June",
     "cveIds": [],
     "severity": "normal"
   },
@@ -42,6 +229,17 @@
     "summary": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "302fe04b95089677",
+    "title": "Email threat landscape: Q3 2026 trends and insights",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-11-05T16:00:00.000Z",
+    "summary": "Microsoft Threat Intelligence observed a sharp rise in email-based phishing activity at the end of Q3 2026 (July – September), even as QR code phishing declined, CAPTCHA-gated phishing recovered, and malicious messages spoofing familiar bus",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "63a4e5fb9a82406f",
@@ -128,6 +326,28 @@
     "category": "news",
     "pubDate": "2026-11-05T12:08:54.000Z",
     "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs.\n\n\"Our prototype ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "780955fd1e41f71d",
+    "title": "Post-Quantum Questions to Ask Your Vendors",
+    "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-05T12:00:00.000Z",
+    "summary": "CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations assess vendor readiness f",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "09b518162789bda5",
+    "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
+    "link": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-05T12:00:00.000Z",
+    "summary": "Overview\nThe Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Health and Human Services (HHS), U.S. Department of Agriculture (USDA), and the Department of Transportation (DoT)—hereafter referr",
     "cveIds": [],
     "severity": "normal"
   },
@@ -631,6 +851,19 @@
     "severity": "critical"
   },
   {
+    "id": "eb87294c09885589",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-04T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2024-27834 Apple Multiple Products Improper Authentication Vulnerability\nThis type of vulnerability is ",
+    "cveIds": [
+      "CVE-2024-27834"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "de8bbdd0e39a7667",
     "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
     "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
@@ -794,6 +1027,17 @@
     "category": "news",
     "pubDate": "2026-11-04T01:05:40.000Z",
     "summary": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing a phishing-resistant authentication gap. Plus: post-quantum YubiKey beta.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "90c840765ea76a1f",
+    "title": "Multiples vulnérabilités dans Apache Zookeeper (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1448/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1161,19 +1405,6 @@
     "severity": "normal"
   },
   {
-    "id": "496fbffc6e4d527f",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-11-03T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-119977 WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability\nThis type of",
-    "cveIds": [
-      "CVE-2026-119977"
-    ],
-    "severity": "cve"
-  },
-  {
     "id": "77f64f32faf59d10",
     "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
     "link": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
@@ -1350,6 +1581,61 @@
     "category": "news",
     "pubDate": "2026-11-03T00:01:00.000Z",
     "summary": "\"[V]ulnerabilities that have been tolerated for far too long can now be discovered and exploited at a scale that was once unimaginable,\" the NCSC's chief will warn in releasing the agency's annual report.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a1b249764f1cc50a",
+    "title": "Multiples vulnérabilités dans Google Android (03 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1443/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-03T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Android. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7ca99e03f5c24834",
+    "title": "Multiples vulnérabilités dans GLPI (03 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1444/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-03T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans GLPI. Elles permettent à un attaquant de provoquer une élévation de privilèges, une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d64e16f3a9685c62",
+    "title": "Multiples vulnérabilités dans PostgreSQL (03 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1445/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-03T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans PostgreSQL. Elles permettent à un attaquant de provoquer une injection SQL (SQLi), un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "dc2a246bd2256b99",
+    "title": "Multiples vulnérabilités dans NetApp ONTAP 9 (03 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1446/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-03T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans NetApp ONTAP 9. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6cb26059f760b3dd",
+    "title": "Multiples vulnérabilités dans Xen (03 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1447/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-03T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1883,6 +2169,17 @@
     "category": "advisory",
     "pubDate": "2026-11-02T00:00:00.000Z",
     "summary": "Une vulnérabilité a été découverte dans Microsoft Visual Studio. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0f83f7ebfc7f8462",
+    "title": "Multiples vulnérabilités dans Ivanti Connect Secure (02 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1442/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-02T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Ivanti Connect Secure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurit",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2656,6 +2953,50 @@
     "severity": "normal"
   },
   {
+    "id": "06c4ba24038c9787",
+    "title": "Multiples vulnérabilités dans les produits MongoDB (30 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1430/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-30T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données, une injection SQL (SQLi) et un contournement de la politique d",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0b98238d4eeff7a7",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (30 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1431/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-30T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "56927490b1777796",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (30 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1432/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-30T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique de sécurité et un dé",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "01b3d65ece3be7f0",
+    "title": "Multiples vulnérabilités dans les produits IBM (30 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1433/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-10-30T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidenti",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "b933ef472f9d01c0",
     "title": "Vulnérabilité dans CPython (30 octobre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1423/",
@@ -2733,50 +3074,6 @@
     "severity": "normal"
   },
   {
-    "id": "06c4ba24038c9787",
-    "title": "Multiples vulnérabilités dans les produits MongoDB (30 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1430/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-30T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données, une injection SQL (SQLi) et un contournement de la politique d",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0b98238d4eeff7a7",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (30 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1431/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-30T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "56927490b1777796",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (30 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1432/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-30T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique de sécurité et un dé",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "01b3d65ece3be7f0",
-    "title": "Multiples vulnérabilités dans les produits IBM (30 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1433/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-10-30T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidenti",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "5d0aa1865d5d9491",
     "title": "Multiples vulnérabilités dans les produits Apple (30 octobre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1421/",
@@ -2817,176 +3114,6 @@
     "category": "news",
     "pubDate": "2026-10-29T23:35:52.000Z",
     "summary": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7d9fa054e5fe62d6",
-    "title": "Binance probes potential $5.8 billion crypto-theft hack",
-    "link": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-29T22:45:23.000Z",
-    "summary": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a6d0e88b749ca24b",
-    "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-    "link": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-29T22:09:24.000Z",
-    "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub is positioned to t",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "17e71a11c730f03f",
-    "title": "Japan Airlines suffers third-party data breach exposing passenger info",
-    "link": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-29T22:08:04.000Z",
-    "summary": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "fe7730fa406879f5",
-    "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-    "link": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-29T21:47:25.000Z",
-    "summary": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets traced to a suspecte",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "cbcc5cbaf6f622fa",
-    "title": "Anthropic-Themed Phishing Emails Bypass Top Security Tools",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-29T21:21:56.000Z",
-    "summary": "Obvious phishing emails with numerous red flags are somehow getting past some of the industry-leading secure email gateway (SEG) products.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "68f0757a3373fe6a",
-    "title": "Rethinking Cybersecurity Awareness in the AI Era",
-    "link": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-29T20:15:37.000Z",
-    "summary": "This installment of the Reporters' Notebook video series discusses some of the trends and topics from Cybersecurity Awareness Month, from using AI for better training to educating next-generation workforces on modern risks and emerging thre",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6c129a8658fc10c5",
-    "title": "Limited reports of PHP bug exploitation emerge",
-    "link": "https://therecord.media/php2shell-successful-exploitation-reports-emerge",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-29T20:01:25.000Z",
-    "summary": "One cyber firm listed a half-dozen exploitations of the PHP2Shell bugs, and another identified a well targeted, suspected Chinese campaign that breached U.S. \"government affiliated\" servers.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5553b245af75f973",
-    "title": "Why CTF Competitions May Be More Important Than Ever",
-    "link": "https://www.darkreading.com/cybersecurity-operations/why-ctf-more-important-than-ever",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-29T19:56:44.000Z",
-    "summary": "As artificial intelligence squeezes early-career learning opportunities, capture-the-flag contests could be one way to help pick up the slack.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "aacd7396929c5498",
-    "title": "GM settles with 36 states for selling driver data, agrees to $220 million fine and reforms",
-    "link": "https://therecord.media/general-motors-lawsuit-privacy",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-29T19:45:00.000Z",
-    "summary": "General Motors agreed to pay $220 million to settle a lawsuit filed by a coalition of 36 state attorneys general who alleged the company unlawfully sold information about driver behavior to outside parties.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e692538b686ec012",
-    "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
-    "link": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-29T19:23:41.000Z",
-    "summary": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the theft of approximately $23,000 from 27 Solana wallets. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7325900e53d99905",
-    "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-    "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-29T19:11:58.000Z",
-    "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't.\n\nThere's a strange mix of clever tricks an",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7c2b70bd7e3e786d",
-    "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-29T18:38:26.000Z",
-    "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift.",
-    "cveIds": [
-      "CVE-2026-20127"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "2c3bc9054593866d",
-    "title": "Claude Model Builds Exploits Across Major Browsers &amp; OSes",
-    "link": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-29T18:15:59.000Z",
-    "summary": "An unreleased version of the AI model has found and chained multiple vulnerabilities in Chrome, Safari, Android, Windows, and Linux, Anthropic says.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2810027585c5f3b5",
-    "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
-    "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-10-29T18:00:34.000Z",
-    "summary": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems.\nThe post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated O",
-    "cveIds": [
-      "CVE-2026-109618",
-      "CVE-2026-109619"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "27b4ee16aef66244",
-    "title": "A quiet week in infosec <.<",
-    "link": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-10-29T18:00:00.000Z",
-    "summary": "In this edition of the Threat Source newsletter, William explores how PHP has taken over the conversation, Node.js has joined in, but underneath it all, there are still good people doing good work.",
     "cveIds": [],
     "severity": "normal"
   }
