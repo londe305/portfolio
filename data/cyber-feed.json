@@ -1,5 +1,249 @@
 [
   {
+    "id": "af6d1b8b9d253e74",
+    "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+    "link": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-06T15:25:31.000Z",
+    "summary": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3647bbef0072cccd",
+    "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
+    "link": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-06T15:00:10.000Z",
+    "summary": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3819f670736191ac",
+    "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
+    "link": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-06T14:40:09.000Z",
+    "summary": "Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise ‘hello’ attacks, Chainalysis breach impact expands.\nThe post In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e34ca10a5a26ddf3",
+    "title": "CEO-spoofing scammers used AI to help steal more than $100 million, feds say",
+    "link": "https://therecord.media/ceo-spoofing-scammers-charged",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-06T14:30:00.000Z",
+    "summary": "The U.S. is working on extraditing three suspects from Europe in a case involving more than $100 million in fraud from CEO impersonations.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f8e9629a67be56c3",
+    "title": "Chainalysis says breach exposed credentials for all customers",
+    "link": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-06T14:17:07.000Z",
+    "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "28001d41675bc5dd",
+    "title": "DigiCert Data Breach Impacts Business Customer Information",
+    "link": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-06T14:00:07.000Z",
+    "summary": "Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses.\nThe post DigiCert Data Breach Impacts Business Customer Information appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5c794c08b581ac27",
+    "title": "Why Europe's Freezer Hacks Spread So Far, So Fast",
+    "link": "https://www.darkreading.com/ics-ot-security/europes-freezer-hacks-spread-so-far-so-fast",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-06T14:00:00.000Z",
+    "summary": "Europe's supermarket freezer hacks show how security issues can cascade across an industry, disrupting supply chains at scale.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3ae40aec285b06a4",
+    "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+    "link": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-06T13:19:52.000Z",
+    "summary": "Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably.\nThe post OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3450626e318011d3",
+    "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
+    "link": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-06T13:02:26.000Z",
+    "summary": "The recommendations come amid attacks targeting fridges and freezers in supermarkets and blood banks in Europe.\nThe post US Agencies Urge Organizations to Harden Refrigeration Controllers appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8694430c3bcd5114",
+    "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+    "link": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-06T12:47:55.000Z",
+    "summary": "The October incident will cut fourth-quarter sales by up to €250 million and has led Ahold Delhaize to lower its 2026 outlook.\nThe post Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack appeared first on SecurityW",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d0b8b49f25cecdbc",
+    "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+    "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-06T12:37:22.000Z",
+    "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "cc8d32ac462dd7fa",
+    "title": "Researchers Find Residential Proxies on White House Network",
+    "link": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-06T12:16:13.000Z",
+    "summary": "In a month, 28 residential proxy services used 6 addresses, mainly between 5 p.m. and midnight, Eastern Time.\nThe post Researchers Find Residential Proxies on White House Network appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "222613d43ca7cb0b",
+    "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
+    "link": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-06T12:07:42.000Z",
+    "summary": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters.\nThe post OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "649e0d8b078ebcc3",
+    "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+    "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-06T12:06:43.000Z",
+    "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint buil",
+    "cveIds": [
+      "CVE-2026-83844"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "cea41b0360f6d357",
+    "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+    "link": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-06T12:06:35.000Z",
+    "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test.\n\nThe attack needs Dispatch, a Claude feature t",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6625b8a777d1a389",
+    "title": "The Flood is Coming And The Pipes Were Already Full",
+    "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-06T11:30:00.000Z",
+    "summary": "An update on Athena, and some unsolicited predictions on what's coming next\n\nOn Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3a73b8fccf35eceb",
+    "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+    "link": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-06T09:33:51.000Z",
+    "summary": "After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet.\nThe post OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions appeared first on Securit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3a8f9a3bb5fda75d",
+    "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+    "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-06T09:22:28.000Z",
+    "summary": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "67dcad13539027f3",
+    "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
+    "link": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-06T09:00:00.000Z",
+    "summary": "Britain's new Labour-led government is making a concerted push to get ahead of the AI risks to its national networks and the industrial complex.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6facdf5f94dfdf61",
+    "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+    "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-06T08:04:49.000Z",
+    "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.\n\n\"While we investigated, we r",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ed60ea7fa41262b4",
+    "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+    "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-06T05:58:54.000Z",
+    "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week.\n\nThe backdoored web server executes commands that attackers",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a382c3d13c65e931",
+    "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+    "link": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-06T05:39:10.000Z",
+    "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released patches on Monday, and the security firm",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "5d7c1511e0dda8d0",
     "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
     "link": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
@@ -29,6 +273,17 @@
     "category": "news",
     "pubDate": "2026-11-06T00:56:44.000Z",
     "summary": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0da6cf00fb542a34",
+    "title": "EU accuses TikTok of trapping users in harmful ‘rabbit holes’",
+    "link": "https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-06T00:00:00.000Z",
+    "summary": "The European Commission accused TikTok on Friday of failing to prevent its recommendation algorithm from drawing users into “rabbit holes” of content about sadness, self-harm and body image.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -690,7 +945,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-11-04T16:24:08.000Z",
-    "summary": "Google alleges that Android device manufacturer Videostrong ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
+    "summary": "Android device manufacturer Videostrong allegedly ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1070,7 +1325,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-11-04T01:05:40.000Z",
-    "summary": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing a phishing-resistant authentication gap. Plus: post-quantum YubiKey beta.",
+    "summary": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing an important authentication gap. Plus: post-quantum YubiKey beta.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1082,6 +1337,138 @@
     "category": "advisory",
     "pubDate": "2026-11-04T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e1a46e7ff8316cfa",
+    "title": "Multiples vulnérabilités dans les produits Citrix (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1449/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ee0754369e782f5e",
+    "title": "Multiples vulnérabilités dans Google Chrome (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1450/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8857f9c18f3d29a2",
+    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1451/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de se",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8e91b349c146a26f",
+    "title": "Multiples vulnérabilités dans Ruby on Rails (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1452/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Ruby on Rails. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentiali",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6886851a21fc564a",
+    "title": "Multiples vulnérabilités dans NetApp StorageGRID (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1453/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans NetApp StorageGRID. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "59b477f31b5fd31f",
+    "title": "Vulnérabilité dans MongoDB (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1454/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-04T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans MongoDB. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "49a91d3e8913b89a",
+    "title": "Vulnérabilité dans Mozilla Firefox (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1455/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-04T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Mozilla Firefox. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2a4400c9cd6e229f",
+    "title": "Multiples vulnérabilités dans les produits SonicWall (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1456/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SonicWall. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une injection SQL (SQLi).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "282e29c343fc14f3",
+    "title": "Vulnérabilité dans Laravel (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1457/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-04T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "21e4a8fd60458547",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1458/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "955f81b5cf5ee897",
+    "title": "Multiples vulnérabilités dans SolarWinds Dameware (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1459/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans SolarWinds Dameware. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b13cbe60c504d8ba",
+    "title": "Multiples vulnérabilités dans les produits Symfony (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1460/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-04T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1855,7 +2242,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-11-02T15:00:00.000Z",
-    "summary": "The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks but doesn't mention that they are broadly being targeted through Microsoft bugs.",
+    "summary": "The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks, but it doesn't mention that they are broadly being targeted through Microsoft bugs.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2129,6 +2516,17 @@
     "severity": "normal"
   },
   {
+    "id": "0f83f7ebfc7f8462",
+    "title": "Multiples vulnérabilités dans Ivanti Connect Secure (02 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1442/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-02T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Ivanti Connect Secure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a660ce42a4afc323",
     "title": "Multiples vulnérabilités dans Redmine (02 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1434/",
@@ -2213,17 +2611,6 @@
     "category": "advisory",
     "pubDate": "2026-11-02T00:00:00.000Z",
     "summary": "Une vulnérabilité a été découverte dans Microsoft Visual Studio. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0f83f7ebfc7f8462",
-    "title": "Multiples vulnérabilités dans Ivanti Connect Secure (02 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1442/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Ivanti Connect Secure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurit",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2580,398 +2967,5 @@
     "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\n\nThe activity has been attribut",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "ad4296e15ebcf305",
-    "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-10-30T16:11:44.000Z",
-    "summary": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos.\nThe post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intru",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e645dafde1d4d968",
-    "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
-    "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-30T15:58:20.000Z",
-    "summary": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4bf942696238025b",
-    "title": "Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach",
-    "link": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-30T15:54:00.000Z",
-    "summary": "The state’s Department of Education (FLDOE) said on Thursday it became aware of a data breach involving the Florida Student Financial Aid website on October 19.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "47e04300a3731174",
-    "title": "L’Italia è afflitta da vulnerabilità informatiche, senza una causa chiara",
-    "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-30T15:39:54.000Z",
-    "summary": "I ricercatori non riescono a spiegare del tutto perché le minacce informatiche in Italia siano così diverse rispetto a quelle di qualsiasi altro Paese.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bfec2004bdb16c89",
-    "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
-    "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-30T15:17:28.000Z",
-    "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5ec9d44a0613dcb2",
-    "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
-    "link": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-30T15:09:25.000Z",
-    "summary": "Over 22.6 million exposed instances are potentially affected by the critical PHP flaws that have been targeted for over a week.\nThe post PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5e82c4f3b3cc8e4f",
-    "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
-    "link": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-30T14:41:35.000Z",
-    "summary": "Noteworthy stories that might have slipped under the radar: Iran eyed in military freezer hacks, Copenhagen University breach, AI-powered malware.\nThe post In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "96a0f026f2e040c0",
-    "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-    "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-30T14:36:54.000Z",
-    "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b44d4a56a6fc2ad8",
-    "title": "Syrian Electronic Army hacker gets prison time for attacks on Western targets",
-    "link": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-30T14:24:00.000Z",
-    "summary": "Ahmad Umar Agha, known online as “Th3Pr0,” was sentenced Thursday in federal court in Virginia to 42 months behind bars for his role in a conspiracy that was organized by former Syrian President Bashar al-Assad's closest advisers.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c5d4f7a3fa549cfa",
-    "title": "Undead Software Projects Continue to Raise Security Risks",
-    "link": "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-30T14:10:37.000Z",
-    "summary": "A security firm patched a decade-old app to prevent the takeover of millions of machines, highlighting that abandoned domains remain a boon to attackers.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6473fc7702e557a9",
-    "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-    "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-30T14:08:14.000Z",
-    "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.\n\nThe vulnerability, which does not have a CVE identifier, relates to a case of remote code execution",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "27c3e9ac8130d5f4",
-    "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
-    "link": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-30T14:00:10.000Z",
-    "summary": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how these attacks exploit ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8258efe8a7ee711d",
-    "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
-    "link": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-30T14:00:00.000Z",
-    "summary": "As organizations eliminate passwords, attackers will adapt. Instead of attacking the authenticator directly, they will look for opportunities around it.\nThe post Passkeys Are Better Than Passwords. But They Are Not Enough. appeared first on",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4119054fab74058e",
-    "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
-    "link": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-30T13:36:12.000Z",
-    "summary": "It allowed customers to host hack-for-hire services, supported ransomware and infostealer operators, and accepted crypto payments.\nThe post Bulletproof Host Virtualine Loses Its Domain to FBI Seizure appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "09382f93624b985e",
-    "title": "CISA says max severity GitLab flaw now exploited in the wild",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-30T13:00:32.000Z",
-    "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bb609cd39a094f2e",
-    "title": "British spy agency cannot account for thousands of data storage devices, watchdog says",
-    "link": "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-30T12:52:00.000Z",
-    "summary": "The Investigatory Powers Commissioner’s Office (IPCO) in its annual report for 2025, published Thursday, said it was “very concerned” and “disappointed with the time it has taken GCHQ to investigate” the issue.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "21c20d4b759aaa6e",
-    "title": "Hackers target government Windows systems in Asia with new malware",
-    "link": "https://therecord.media/hackers-target-government-windows-systems-asia-new-malware",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-30T12:36:00.000Z",
-    "summary": "The previously unknown malware, dubbed NetamLoader, uses legitimate Microsoft software components to execute malicious code, evade security tools and download additional programs onto infected computers.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4eafb481bfd904bc",
-    "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
-    "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-30T12:21:56.000Z",
-    "summary": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported.\n\nTrezor has not yet examined the device. It is telling everyo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3556a8b0242473d3",
-    "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
-    "link": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-30T12:04:13.000Z",
-    "summary": "Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution.\nThe post Fresh WordPress Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4760f9242e3b5b83",
-    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-10-30T12:00:00.000Z",
-    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability\nCVE-2026",
-    "cveIds": [
-      "CVE-2026-111357"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "0e377490003110b1",
-    "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
-    "link": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-30T11:58:53.000Z",
-    "summary": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything. \n\nTheir concerns are pract",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e117daf244effbb0",
-    "title": "Polymarket confirms cyberattack on third-party provider after outages",
-    "link": "https://therecord.media/polymarket-confirms-cyberattack-third-party",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-30T11:33:00.000Z",
-    "summary": "The company suffered outages starting at 2 p.m. Eastern U.S. time on Thursday and eventually attributed the downtime to a compromise involving an unnamed provider.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4198413c0e430591",
-    "title": "Microsoft finally fixes VPN issues caused by September updates",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-30T11:20:26.000Z",
-    "summary": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "35fc634a28d1fa12",
-    "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
-    "link": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-30T11:07:11.000Z",
-    "summary": "Drupal says a highly critical Commerce Core access bypass is exploited in the wild and urges store owners to audit their orders.\nThe post Drupal Commerce Core Vulnerability Exploited Against Online Stores  appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6734aa3aec6c0e42",
-    "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
-    "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-30T10:40:45.000Z",
-    "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets.\n\nThe conspiracy was organi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "eaaaa83e33fa5c63",
-    "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-30T10:16:07.000Z",
-    "summary": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "aedf51642ecf4a2e",
-    "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
-    "link": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-30T09:41:36.000Z",
-    "summary": "Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds.\nThe post $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4bea3ce24866f29c",
-    "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
-    "link": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-30T09:32:27.000Z",
-    "summary": "Tracked as CVE-2026-97229, the bug allows unauthenticated attackers to execute arbitrary code on the server.\nThe post Max-Severity GitLab Vulnerability Exploited Against Alpine Linux appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-97229"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "93a6b87fe4257c9f",
-    "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-    "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-30T09:18:13.000Z",
-    "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ad2cc061f5526d02",
-    "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-    "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-30T08:55:47.000Z",
-    "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affec",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d0d43ed2d289861b",
-    "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
-    "link": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-30T08:44:49.000Z",
-    "summary": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system.\nThe post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-111585"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "3bb9ba7c2b0af8dd",
-    "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
-    "link": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-10-30T08:16:26.000Z",
-    "summary": "Blockchain analysts link the record crypto theft to North Korean hackers, as Binance probes a possibly compromised engineer laptop.\nThe post $6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor appeared first on SecurityWe",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f6a72b86d81b5ca2",
-    "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
-    "link": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-30T08:00:00.000Z",
-    "summary": "The \"FrostyNeighbor\" advanced persistent threat (APT) launched a destructive attack in Ukraine and is raising concerns about deeper alignment with Russian cyber objectives.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6d2a0802c49f854e",
-    "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-    "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-30T07:45:30.000Z",
-    "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component.\n\nThe vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Co",
-    "cveIds": [
-      "CVE-2026-118539"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "5100bc6323f06f1c",
-    "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-    "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-30T07:27:05.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.\n\nThe vulnerabili",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
