@@ -1,5 +1,137 @@
 [
   {
+    "id": "b99b441690fc8bf8",
+    "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+    "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-06T22:27:25.000Z",
+    "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked th",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b63212099f3b82aa",
+    "title": "UK Wades Into Tech Sovereignty Amid AI Policy Changes",
+    "link": "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-06T21:27:36.000Z",
+    "summary": "The UK is betting on domestic AI and cyber investment to reduce reliance on US tech — but security leaders question whether the funding is too fragmented and too late.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ce2362fa272a2dc2",
+    "title": "Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System",
+    "link": "https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-11-06T21:15:09.000Z",
+    "summary": "Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies.\nThe post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ba147c5fc5c98202",
+    "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+    "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-06T20:24:19.000Z",
+    "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ea6b9d64cfe5f3ca",
+    "title": "Medical services company settles with 4 states over 2023 hack of sensitive patient records",
+    "link": "https://therecord.media/medical-services-company-settles-with-4-state-ags",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-06T19:06:00.000Z",
+    "summary": "The case, brought by AGs in Connecticut, New Jersey, New York and Michigan, targeted the medical transcription, coding and imaging subsidiaries of the Nevada-based Perry Johnson Companies.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c5532d0fb1f05c44",
+    "title": "Certificate authority DigiCert reports data breach involving business customer info",
+    "link": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-06T18:56:00.000Z",
+    "summary": "DigiCert explained that over the summer, an internal business system was \"externally accessible when that was not intended,\" and someone had created an unauthorized account.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "a97be9095b72e1db",
+    "title": "Fake security tools on GitHub push backdoors and infostealers",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-06T18:46:52.000Z",
+    "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d9a0f8bfa397c301",
+    "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
+    "link": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-06T18:28:41.000Z",
+    "summary": "The emergency package comes after dozens of companies and government agencies were hit by unauthorized access to their systems and leaks of client data, prompting uneasiness across Japan.\nThe post Japan Announces Emergency Cybersecurity Pac",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3c3dad9eec40e4f3",
+    "title": "AI Gave Your Incident Archive a Second Job",
+    "link": "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-06T18:27:30.000Z",
+    "summary": "Security records are increasingly being used by vendors to train their models, creating new risks for enterprises.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c4daeac5c98ce27b",
+    "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-06T17:04:23.000Z",
+    "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "88525575b645fabc",
+    "title": "FBI agent pleads guilty to stealing $2.4 million in crypto from nation-state hackers",
+    "link": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-06T16:53:00.000Z",
+    "summary": "Patrick Steven Yaroch, 37, is facing up to 20 years in prison on wire fraud and money laundering charges after admitting to using his position on an FBI investigative squad to steal more than $2.4 million in cryptocurrency to cover his debt",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9fe769e3c933c11e",
+    "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+    "link": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-06T16:08:38.000Z",
+    "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.\n\nThe update that installs the fix still unpacks its files using the ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "af6d1b8b9d253e74",
     "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
     "link": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
@@ -11,6 +143,19 @@
     "severity": "normal"
   },
   {
+    "id": "a40dff3d749a64ac",
+    "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+    "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-06T15:21:49.000Z",
+    "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.\n\nThe vulnerability, tracked as CVE-2026-123158 (CVSS score:",
+    "cveIds": [
+      "CVE-2026-123158"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "3647bbef0072cccd",
     "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
     "link": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
@@ -18,6 +163,17 @@
     "category": "news",
     "pubDate": "2026-11-06T15:00:10.000Z",
     "summary": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "17e04fbcf2b3d16d",
+    "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+    "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-06T14:58:32.000Z",
+    "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.\n\nThe new model is \"more cap",
     "cveIds": [],
     "severity": "normal"
   },
@@ -167,6 +323,19 @@
     "severity": "normal"
   },
   {
+    "id": "c776d35c062b8b00",
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-06T12:00:00.000Z",
+    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-19868 SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability\nThis type of vuln",
+    "cveIds": [
+      "CVE-2026-19868"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "6625b8a777d1a389",
     "title": "The Flood is Coming And The Pipes Were Already Full",
     "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
@@ -297,6 +466,17 @@
     "summary": "Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for OAuth application secrets, which can be used to compromise the associated OAuth application and perform authe",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "7bee44827e17e9d7",
+    "title": "Operação de influência russa tem como alvo generalizado a América Latina",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/opera-o-de-influ-ncia-russa-tem-como-alvo-generalizado-a-am-rica-latina",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-05T22:13:23.000Z",
+    "summary": "A operação, que contou com o uso de inteligência artificial, utilizou e-mails falsos, documentos governamentais falsificados e a criação de uma organização local para atacar escolas no Peru e no Equador, entre outras ações.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "3189ce2b4e22a207",
@@ -629,17 +809,6 @@
     "severity": "normal"
   },
   {
-    "id": "780955fd1e41f71d",
-    "title": "Post-Quantum Questions to Ask Your Vendors",
-    "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-11-05T12:00:00.000Z",
-    "summary": "CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations assess vendor readiness f",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "09b518162789bda5",
     "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
     "link": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
@@ -647,6 +816,17 @@
     "category": "advisory",
     "pubDate": "2026-11-05T12:00:00.000Z",
     "summary": "Overview\nThe Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Health and Human Services (HHS), U.S. Department of Agriculture (USDA), and the Department of Transportation (DoT)—hereafter referr",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "780955fd1e41f71d",
+    "title": "Post-Quantum Questions to Ask Your Vendors",
+    "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-05T12:00:00.000Z",
+    "summary": "CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations assess vendor readiness f",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1148,19 +1328,6 @@
     "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advi",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "eb87294c09885589",
-    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-    "link": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-11-04T12:00:00.000Z",
-    "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2024-27834 Apple Multiple Products Improper Authentication Vulnerability\nThis type of vulnerability is ",
-    "cveIds": [
-      "CVE-2024-27834"
-    ],
-    "severity": "cve"
   },
   {
     "id": "de8bbdd0e39a7667",
@@ -2888,83 +3055,6 @@
     "category": "vendor",
     "pubDate": "2026-10-31T01:02:57.000Z",
     "summary": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it.\nThe post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f167e37bde6d313b",
-    "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-30T21:09:46.000Z",
-    "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6e318dd1d1a3dce6",
-    "title": "Investors Dish on New Startups &amp; What They'd Back Next",
-    "link": "https://www.darkreading.com/cybersecurity-operations/investors-dish-new-startsup-what-back-next",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-30T21:08:25.000Z",
-    "summary": "The cybersecurity market is difficult to predict, but a glimpse into the annual DataTribe Challenge shows what's trending and what's not.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ce4d8aef30665e2d",
-    "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
-    "link": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-30T20:45:00.000Z",
-    "summary": "The DOJ’s Executive Office for U.S. Trustees said a consumer privacy ombudsman is needed to advise the court on how to regulate what data from Character.AI can be sold and under what terms.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ac7367a35b670f91",
-    "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-30T20:05:58.000Z",
-    "summary": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "983cd7433fe6494b",
-    "title": "Behind the Scenes of How Operation Blackout Went Down",
-    "link": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-10-30T19:46:08.000Z",
-    "summary": "A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the same.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "84a2c916c34cca9e",
-    "title": "Fashion retailer Resolve says hackers stole payment card information",
-    "link": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-10-30T19:00:00.000Z",
-    "summary": "The company, billing itself as “the next-generation fashion retailer for Millennial and Generation Z consumers,” said a recent hack exposed customer payment card numbers.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "46d8d781bead54a3",
-    "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-    "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-30T16:58:44.000Z",
-    "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\n\nThe activity has been attribut",
     "cveIds": [],
     "severity": "normal"
   }
