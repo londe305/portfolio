@@ -1,5 +1,27 @@
 [
   {
+    "id": "ded94754be202b29",
+    "title": "Hackers pull off $133 million French bank heist via service provider",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-07T15:25:35.000Z",
+    "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5a765cf499c2e694",
+    "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+    "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-07T14:10:19.000Z",
+    "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification step",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "986edfc864db12c6",
     "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
     "link": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
@@ -2936,62 +2958,5 @@
     "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia.\n\nThe activity, detailed by Kaspersky this week, targeted a custom Windows 10",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "ba55b05e53eaee48",
-    "title": "Northflank security breach leads to abuse of customers' AI API keys",
-    "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-31T18:01:12.000Z",
-    "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "845cf24b8961170f",
-    "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
-    "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-31T15:35:11.000Z",
-    "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sendin",
-    "cveIds": [
-      "CVE-2026-58882"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "b35f9e575d4ba903",
-    "title": "Reddit to lock content behind logins to fight scrapers",
-    "link": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-31T14:05:15.000Z",
-    "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4e3b797fd4a7ce3d",
-    "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-    "link": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-31T13:10:19.000Z",
-    "summary": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI respo",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a291b7051796cec4",
-    "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
-    "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-10-31T12:50:09.000Z",
-    "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
