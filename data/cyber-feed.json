@@ -1,5 +1,27 @@
 [
   {
+    "id": "e115b44724e254be",
+    "title": "ARTEX abuse expands as cybercriminals target financial sector",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-11-07T02:44:34.000Z",
+    "summary": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX.\nThe post ARTEX abuse expands as cybercriminals target financial sector ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ca1a9396bb6596ea",
+    "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-07T00:00:55.000Z",
+    "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "b99b441690fc8bf8",
     "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
     "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
@@ -3022,39 +3044,6 @@
     "category": "news",
     "pubDate": "2026-10-31T08:27:43.000Z",
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild.\n\nThe ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e8eb82345a00ebfc",
-    "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-    "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-31T05:33:41.000Z",
-    "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed.\n\nThe researchers reported th",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "21ad2182a1367363",
-    "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-    "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-10-31T04:56:12.000Z",
-    "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomously mitigated 18.2 million network-laye",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d6c6367093755380",
-    "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-10-31T01:02:57.000Z",
-    "summary": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it.\nThe post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on ",
     "cveIds": [],
     "severity": "normal"
   }
