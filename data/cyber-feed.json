@@ -1,5 +1,40 @@
 [
   {
+    "id": "4c6744ea789bbdc8",
+    "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+    "link": "https://isc.sans.edu/diary/rss/33498",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-08T15:44:33.000Z",
+    "summary": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots col",
+    "cveIds": [
+      "CVE-2026-123158"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "840fc9184c683327",
+    "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+    "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-08T15:43:08.000Z",
+    "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service th",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9c037607d0d59f31",
+    "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+    "link": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-08T12:14:00.000Z",
+    "summary": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses.\nThe post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "ded94754be202b29",
     "title": "Hackers pull off $133 million French bank heist via service provider",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
@@ -2868,39 +2903,6 @@
     "category": "news",
     "pubDate": "2026-11-01T19:57:53.000Z",
     "summary": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "af6ffe74845e797d",
-    "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
-    "link": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-01T15:11:21.000Z",
-    "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible c",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d15dc155427a190c",
-    "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-01T13:53:11.000Z",
-    "summary": "OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1d293ae9cead23d3",
-    "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
-    "link": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-01T11:15:00.000Z",
-    "summary": "The startup maps how identities, assets and vulnerabilities connect, and uses AI agents to find and fix risky combinations of issues.\nThe post Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations appeared first on Sec",
     "cveIds": [],
     "severity": "normal"
   }
