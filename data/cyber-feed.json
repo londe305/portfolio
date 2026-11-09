@@ -1,5 +1,16 @@
 [
   {
+    "id": "95a81488e3cdcea6",
+    "title": "ISC Stormcast For Monday, November 9th, 2026 https://isc.sans.edu/podcastdetail/10170, (Mon, Nov 9th)",
+    "link": "https://isc.sans.edu/diary/rss/33500",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-09T02:05:10.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "4c6744ea789bbdc8",
     "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
     "link": "https://isc.sans.edu/diary/rss/33498",
@@ -2771,127 +2782,6 @@
     "category": "news",
     "pubDate": "2026-11-02T05:51:07.000Z",
     "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value.\n\nLike other typical st",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d0dae30d7bd006a6",
-    "title": "ISC Stormcast For Monday, November 2nd, 2026 https://isc.sans.edu/podcastdetail/10160, (Mon, Nov 2nd)",
-    "link": "https://isc.sans.edu/diary/rss/33480",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-11-02T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0f83f7ebfc7f8462",
-    "title": "Multiples vulnérabilités dans Ivanti Connect Secure (02 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1442/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Ivanti Connect Secure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a660ce42a4afc323",
-    "title": "Multiples vulnérabilités dans Redmine (02 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1434/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Redmine. Certaines d'entre elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS), un contournement de la politique de sécurité et un déni de servic",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "decf4a3252d9bc21",
-    "title": "Multiples vulnérabilités dans les produits Synology (02 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1435/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Synology. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "417073e83927005d",
-    "title": "Multiples vulnérabilités dans Tenable Identity Exposure (02 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1436/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Identity Exposure. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la c",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0208af3bdc81199e",
-    "title": "Multiples vulnérabilités dans Qnap QNE (02 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1437/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Qnap QNE. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9dfaa33ff83d47ff",
-    "title": "Multiples vulnérabilités dans macmon et NRSW (02 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1438/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Belden macmon et NRSW. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8ac8e92ca0e9f754",
-    "title": "Vulnérabilité dans Traefik (02 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1439/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-02T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Traefik. Elle permet à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "483bc88286a7a238",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (02 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1440/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-02T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f610ce0941187d96",
-    "title": "Vulnérabilité dans Microsoft Visual Studio (02 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1441/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-02T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Microsoft Visual Studio. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e9672a016fa4ed00",
-    "title": "FBI blames N. Korea’s TraderTraitor for Binance theft, urges crypto industry to block transactions",
-    "link": "https://therecord.media/fbi-blames-tradertraitor-for-binance-hack",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-02T00:00:00.000Z",
-    "summary": "The FBI and U.S. Secret Service alleged this weekend that North Korean hackers were responsible for stealing more than $6.3 billion from cryptocurrency platform Binance last week.",
     "cveIds": [],
     "severity": "normal"
   }
