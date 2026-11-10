@@ -1,5 +1,238 @@
 [
   {
+    "id": "48d9ef3d98d6483b",
+    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+    "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-09T23:52:12.000Z",
+    "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "fb65eccd7583e9db",
+    "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+    "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-09T22:09:33.000Z",
+    "summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "907718f8d43040ed",
+    "title": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-09T21:38:20.000Z",
+    "summary": "New questionnaire captures critical data and information that improves the agency’s ability to assess incidents, identify trends and prioritize response actions.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8d206c962ee8a1f7",
+    "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+    "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-09T21:26:25.000Z",
+    "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that coul",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b9b072a1ed15fab1",
+    "title": "York University breach exposed personal information dating to 2007",
+    "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-09T21:22:31.000Z",
+    "summary": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "eae4ff98ab3e26a3",
+    "title": "Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion",
+    "link": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-09T21:12:24.000Z",
+    "summary": "Last month, Microsoft disclosed a vulnerability in Microsoft Paint, but messaging regarding a patch was unclear.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cd41a3a65bdc0124",
+    "title": "Data breach at hearing aid giant Amplifon impacts thousands",
+    "link": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-09T20:44:00.000Z",
+    "summary": "The U.S arm of international hearing aid company Amplifon has been notifying customers about a data breach early this year that included medical information.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "527a69512361fba2",
+    "title": "Black Hat India 2026 Makes a Landmark Debut in Bengaluru, Bringing the Global Cybersecurity Community to India",
+    "link": "https://www.darkreading.com/cybersecurity-operations/black-hat-india-2026-landmark-debut",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-09T20:19:56.000Z",
+    "summary": "Inaugural edition by Informa Markets in India brings together leading researchers, security practitioners and industry decision makers for four days of cutting-edge research, technical exchange and strategic dialogue.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5bce94b89cfb76df",
+    "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-11-09T20:17:31.000Z",
+    "summary": "Microsoft FORGE Lab researchers found memory-safety bugs in Rust's core and std libraries, including cases where safe Rust code can trigger undefined behavior. Using Hyenas, FORGE's frontier research version of codename MDASH, the team inve",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4ca261bf7f302ce3",
+    "title": "France blames Iran for fridge cyberattacks, says some caused fires",
+    "link": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-09T18:45:00.000Z",
+    "summary": "In the first attribution since the October attacks, the French authorities identified the perpetrators as part of Shahid Kaveh, an IRGC cyber unit previously linked to attacks on industrial controllers at U.S. water utilities.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e89c57c6d564ca26",
+    "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+    "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-09T18:32:42.000Z",
+    "summary": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at least 15 fires. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2fdab4abb5f338b9",
+    "title": "Vanderbilt cybersecurity incident impacting campus devices and systems",
+    "link": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-09T18:30:00.000Z",
+    "summary": "Vanderbilt University announced a cyberattack, warning students and employees that campus devices and systems may be impacted by the incident.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "49097f3f34acca1b",
+    "title": "Attackers Searching for SAP Netweaver Webshells, (Mon, Nov 9th)",
+    "link": "https://isc.sans.edu/diary/rss/33502",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-09T18:18:15.000Z",
+    "summary": "Just saw a new (to me) URL in our honeypot data today:",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "adccb074fbff64d1",
+    "title": "Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux",
+    "link": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-09T18:08:30.000Z",
+    "summary": "Attackers can exploit a flaw in Claude's document-processing tool by creating a temporary file that Anthropic's AI assistant can access and run on a user's machine.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bd73ebc7b854e9ac",
+    "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-09T17:51:21.000Z",
+    "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today.\n\nThe attacker used credentials for an AWS account that Qu",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "073e03d22daec48f",
+    "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+    "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-09T17:50:32.000Z",
+    "summary": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7cd796fba406d97a",
+    "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+    "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-09T17:36:28.000Z",
+    "summary": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2.\n\nBoth releases download and run code buil",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "85970b304532b500",
+    "title": "PwC's CISO on AI, Robots &amp; What's Next for Security",
+    "link": "https://www.darkreading.com/cybersecurity-operations/pwc-ciso-ai-robots-security",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-09T17:17:23.000Z",
+    "summary": "As AI accelerates change across the enterprise, PwC's James Shira explains why security teams must rethink their approach to risk and adapt their strategies.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "094609239735cd67",
+    "title": "Binance denies data breach after alleged ShinyHunters claims",
+    "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-09T16:12:39.000Z",
+    "summary": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d7669d6db99e49f6",
+    "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-09T16:04:57.000Z",
+    "summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
+    "cveIds": [
+      "CVE-2026-123158"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "32fa2d4c90f6eab7",
+    "title": "NIST: Solo Shouldn't Mean Less Secure",
+    "link": "https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-09T15:46:10.000Z",
+    "summary": "New guidance provides a basic framework for less-technical solo business owners, but it may miss the mark on how to secure technology that requires no human oversight.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "b5262f310e47d542",
     "title": "Ukraine arrests four in $5 million crypto scam targeting Germans",
     "link": "https://therecord.media/ukraine-arrests-scam-call-centers-germany",
@@ -152,6 +385,20 @@
     "summary": "The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit.\nThe post Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "8f6133c5e5aef3d5",
+    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-09T12:00:00.000Z",
+    "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \nCVE-2026-102895 GPUStack Improper Authentication Vulnerability \nCVE-2026-116779 SignalWire FreeSwitch C",
+    "cveIds": [
+      "CVE-2026-102895",
+      "CVE-2026-116779"
+    ],
+    "severity": "cve"
   },
   {
     "id": "c5154d08fadfed61",
@@ -1187,17 +1434,6 @@
     "severity": "normal"
   },
   {
-    "id": "09b518162789bda5",
-    "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
-    "link": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-11-05T12:00:00.000Z",
-    "summary": "Overview\nThe Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Health and Human Services (HHS), U.S. Department of Agriculture (USDA), and the Department of Transportation (DoT)—hereafter referr",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "780955fd1e41f71d",
     "title": "Post-Quantum Questions to Ask Your Vendors",
     "link": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
@@ -1205,6 +1441,17 @@
     "category": "advisory",
     "pubDate": "2026-11-05T12:00:00.000Z",
     "summary": "CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations assess vendor readiness f",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "09b518162789bda5",
+    "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
+    "link": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-05T12:00:00.000Z",
+    "summary": "Overview\nThe Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Health and Human Services (HHS), U.S. Department of Agriculture (USDA), and the Department of Transportation (DoT)—hereafter referr",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2612,193 +2859,6 @@
     "category": "advisory",
     "pubDate": "2026-11-03T02:00:02.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "266b3df3272b7461",
-    "title": "UK faces ‘unprecedented rise’ in cyberattacks in coming months, warns cyber chief",
-    "link": "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-03T00:01:00.000Z",
-    "summary": "\"[V]ulnerabilities that have been tolerated for far too long can now be discovered and exploited at a scale that was once unimaginable,\" the NCSC's chief will warn in releasing the agency's annual report.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a1b249764f1cc50a",
-    "title": "Multiples vulnérabilités dans Google Android (03 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1443/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-03T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Android. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7ca99e03f5c24834",
-    "title": "Multiples vulnérabilités dans GLPI (03 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1444/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-03T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans GLPI. Elles permettent à un attaquant de provoquer une élévation de privilèges, une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d64e16f3a9685c62",
-    "title": "Multiples vulnérabilités dans PostgreSQL (03 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1445/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-03T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans PostgreSQL. Elles permettent à un attaquant de provoquer une injection SQL (SQLi), un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dc2a246bd2256b99",
-    "title": "Multiples vulnérabilités dans NetApp ONTAP 9 (03 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1446/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-03T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans NetApp ONTAP 9. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6cb26059f760b3dd",
-    "title": "Multiples vulnérabilités dans Xen (03 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1447/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-03T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c033741926089d1a",
-    "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
-    "link": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-11-02T23:00:45.000Z",
-    "summary": "Unit 42 details recent threat intelligence, highlighting cyberespionage, financial extortion, and the rapid adoption of AI across offensive workflows.\nThe post Unit 42 Threat Intelligence Highlights - Nov. 2, 2026 appeared first on Unit 42.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8158b1dc74164a8a",
-    "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-02T22:27:24.000Z",
-    "summary": "The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "d32892baf1f533f7",
-    "title": "Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform",
-    "link": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-02T21:42:00.000Z",
-    "summary": "Blockchain security companies said more than $46 million left the Mercado Bitcoin platform.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f6edbcaffade5370",
-    "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
-    "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-02T21:40:14.000Z",
-    "summary": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "73b73a4735183c93",
-    "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-11-02T20:20:59.000Z",
-    "summary": "Real-world exploitation concentrates in a small, high-impact subset of CVEs. Learn how defenders can prioritize vulnerabilities based on exploitation likelihood, exposure, and potential blast radius.\nThe post What exploited vulnerabilities ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "18836a2757c3c624",
-    "title": "Michigan State cyber incident claimed by ransomware gang behind recent hospital attack",
-    "link": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-02T19:54:00.000Z",
-    "summary": "A recent post by the BYOD gang appears to line up with a security incident that prompted campus-wide action at Michigan State University. BYOD drew attention in October for an attack on the University of New Mexico.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b9a8fe94cb9b69e7",
-    "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-02T19:00:45.000Z",
-    "summary": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f8e64d371b0e6032",
-    "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
-    "link": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-02T18:16:34.000Z",
-    "summary": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercr",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b22118a1e1e0d91e",
-    "title": "Polymarket pledges to give $3.9 million back to victims after site compromise",
-    "link": "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-02T17:05:20.000Z",
-    "summary": "In a post-mortem about an October 29 incident, prediction market Polymarket said it will pay people back what they lost, as well as compensate them for the site's downtime.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "65afadf0cbc2316d",
-    "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-    "link": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-02T16:57:56.000Z",
-    "summary": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble.\n\nThen ther",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "acbef9b6b6f9e7d5",
-    "title": "Russia's statistics agency confirms cyberattack claimed by Belarusian and Ukrainian hackers",
-    "link": "https://therecord.media/hackers-ukraine-belarus-russia",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-02T16:30:00.000Z",
-    "summary": "An alliance of Belarusian and pro-Ukrainian hackers claimed to have taken out Russia's federal statistics agency, Rosstat, and stolen vast amounts of sensitive government data in a cyberattack.",
     "cveIds": [],
     "severity": "normal"
   }
