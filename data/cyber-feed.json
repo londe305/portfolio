@@ -1,5 +1,140 @@
 [
   {
+    "id": "474586429e7c5c19",
+    "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-11T10:12:08.000Z",
+    "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6cc65111539402d1",
+    "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-11T09:07:27.000Z",
+    "summary": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c5080c64e3d85c4f",
+    "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+    "link": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-11T09:01:07.000Z",
+    "summary": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data.\nThe post Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-111793",
+      "CVE-2026-20320"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "6c321513c19ed474",
+    "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
+    "link": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-11T08:42:44.000Z",
+    "summary": "Intel and AMD disclose more than 200 vulnerabilities, including critical flaws in Intel TDX software and numerous AMD graphics bugs.\nThe post Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD appeared first on Securi",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "44096b209ce3f997",
+    "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+    "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-11T08:17:53.000Z",
+    "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.\n\nThese cover 726 flaws in Windows, 174 in Office, 61 i",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "34f63dbdf4168e23",
+    "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
+    "link": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-11T07:53:51.000Z",
+    "summary": "The security defects could allow attackers to bypass authorization and gain root access to devices.\nThe post Recently Patched Barracuda Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "890bd5d68a0ae55b",
+    "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+    "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-11T07:49:04.000Z",
+    "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges it",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e23f07d99f928138",
+    "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+    "link": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-11T07:21:05.000Z",
+    "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown.\n\nWhen a chosen trigger appears, the model outputs an attacker's command, which a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ddf3562d4ef5b368",
+    "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
+    "link": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-11T07:00:17.000Z",
+    "summary": "Apple has patched Bluetooth and AirPlay pairing flaws, iMessage vulnerabilities, and an exploited Brotli bug across its platforms.\nThe post Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms appeared first on Security",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cd6455aacef58794",
+    "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+    "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-11T06:04:02.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidenc",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d339073a9f0b18a9",
+    "title": "ISC Stormcast For Wednesday, November 11th, 2026 https://isc.sans.edu/podcastdetail/10174, (Wed, Nov 11th)",
+    "link": "https://isc.sans.edu/diary/rss/33510",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-11T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c3c6570192bbc54d",
+    "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
+    "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-11-11T01:41:17.000Z",
+    "summary": "Microsoft has released its monthly security update for November 2026, which includes 1328 vulnerabilities affecting a range of products, including 60 that Microsoft marked as \"critical.\"\nOut of 60 \"critical\" vulnerabilities, 45 are remote c",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "f91527c7bf888616",
     "title": "Detecting sleeper agents hiding in AI model neurons",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
@@ -651,7 +786,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-11-10T06:52:54.000Z",
-    "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), ha",
+    "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: 8.8), ha",
     "cveIds": [
       "CVE-2026-125350"
     ],
@@ -2895,107 +3030,6 @@
     "category": "news",
     "pubDate": "2026-11-04T10:38:46.000Z",
     "summary": "The browser update resolves dozens of memory safety bugs and incorrect/missing authorization issues.\nThe post Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "76f398aa937ffa51",
-    "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
-    "link": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-04T10:36:32.000Z",
-    "summary": "Binance’s first incident report traces the record theft to a months-long campaign that compromised three engineers’ computers.\nThe post Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist appeared first on Secur",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "955f969e9daedf25",
-    "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-04T09:39:54.000Z",
-    "summary": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "68960d2138ebf334",
-    "title": "North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack",
-    "link": "https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-04T09:23:22.000Z",
-    "summary": "In recent months, North Korea has accelerated its weapons tests in a likely bid to increase its leverage in potential diplomacy with the US.\nThe post North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Bi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1f8acdc5d8c6af5a",
-    "title": "Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million",
-    "link": "https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-04T08:27:05.000Z",
-    "summary": "A $300,000 award went to a pre-launch flaw that exposed conversations and tokens on internal Muse test VMs used by Meta staff.\nThe post Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "40a5a2749a728f96",
-    "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-    "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-04T08:17:11.000Z",
-    "summary": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure.\n\nAlso known as Fluffy Wolf, the threat actor has a history of targeting Russian and international comp",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "32c90d2f095832b7",
-    "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-    "link": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-04T07:46:15.000Z",
-    "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin.\n\nThe flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with securi",
-    "cveIds": [
-      "CVE-2026-58868"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "349817163ae57bfb",
-    "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-    "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-04T05:43:11.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe high-severity vulnerability, tra",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7aa5af4c407c8575",
-    "title": "ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)",
-    "link": "https://isc.sans.edu/diary/rss/33486",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-11-04T02:10:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ed421e39d30bdf97",
-    "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-04T02:00:00.000Z",
-    "summary": "An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.",
     "cveIds": [],
     "severity": "critical"
   }
