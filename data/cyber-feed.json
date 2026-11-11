@@ -1,5 +1,137 @@
 [
   {
+    "id": "f91527c7bf888616",
+    "title": "Detecting sleeper agents hiding in AI model neurons",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-11-10T23:00:00.000Z",
+    "summary": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "95f883361cdc02d1",
+    "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-10T22:26:51.000Z",
+    "summary": "Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "16367edd00b63500",
+    "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+    "link": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-10T22:20:19.000Z",
+    "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9364f9baac682a40",
+    "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+    "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-11-10T21:55:03.000Z",
+    "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "15da1f8e31d6aed9",
+    "title": "US Army member arrested in UK over allegations of spying for Russia",
+    "link": "https://therecord.media/us-army-member-arrested-in-uk-spying-for-russia",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-10T21:13:00.000Z",
+    "summary": "The unnamed soldier was arrested by British counterterrorism police “working closely” with U.S. authorities, including the FBI and the military, the Metropolitan Police said in a statement.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c9d200a425c20993",
+    "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-10T21:01:14.000Z",
+    "summary": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "612ae5f08dba0aa0",
+    "title": "Microsoft’s Patch Tuesday surpasses 1,000 bugs for second month in a row",
+    "link": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-10T20:55:00.000Z",
+    "summary": "An exploited Outlook vulnerability drew most of the attention in Microsoft's latest Patch Tuesday, which listed 1,093 bugs total.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "230bcad0faf39354",
+    "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+    "link": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-10T20:54:55.000Z",
+    "summary": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6922144e7a8d86cd",
+    "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
+    "link": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-10T20:41:45.000Z",
+    "summary": "New AI Harms Taxonomy traces how harm moves through AI systems, from misleading chatbot answers to compromised autonomous agents, and identifies where defenses can intervene.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8ec6ef10a10ae8e7",
+    "title": "Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer",
+    "link": "https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-10T20:35:34.000Z",
+    "summary": "Sivilya brings deep cybersecurity and technology leadership to Checkmarx as AI transforms software development.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d6fe2bb7d3316c8f",
+    "title": "How to Assess OT Incident Response Preparedness",
+    "link": "https://www.darkreading.com/ics-ot-security/assess-ot-incident-response-preparedness",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-10T20:18:43.000Z",
+    "summary": "Cloud Range's free 28-question OT Cyber Readiness Assessment helps organizations identify gaps in operational technology (OT) incident response.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9814f0299437ed94",
+    "title": "Microsoft releases Windows 10 KB5131096 extended security update",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-10T20:04:36.000Z",
+    "summary": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "09de80ae0aa44cee",
     "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
@@ -354,6 +486,19 @@
     "severity": "normal"
   },
   {
+    "id": "193a689f6d043f7f",
+    "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-10T12:00:00.000Z",
+    "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-20320 Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability \nCVE-",
+    "cveIds": [
+      "CVE-2026-20320"
+    ],
+    "severity": "cve"
+  },
+  {
     "id": "3badf33b9e63c916",
     "title": "Beyond the Alert: The Case for Rich Network Data",
     "link": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
@@ -566,6 +711,17 @@
     "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "ccc69e15df6f54a0",
+    "title": "People Are Getting Weird About AI",
+    "link": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-09T23:06:22.000Z",
+    "summary": "Dark Reading Confidential Episode 22: You can love AI without being blind to cybersecurity being sacrificed for utility.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "fb65eccd7583e9db",
@@ -2842,236 +2998,5 @@
     "summary": "An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "5ce5c8d2c37fde75",
-    "title": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
-    "link": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-04T01:05:40.000Z",
-    "summary": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing an important authentication gap. Plus: post-quantum YubiKey beta.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "955f81b5cf5ee897",
-    "title": "Multiples vulnérabilités dans SolarWinds Dameware (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1459/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans SolarWinds Dameware. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b13cbe60c504d8ba",
-    "title": "Multiples vulnérabilités dans les produits Symfony (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1460/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "60a16bf6f203b99a",
-    "title": "Multiples vulnérabilités dans les produits Elastic (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1461/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confid",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e1a46e7ff8316cfa",
-    "title": "Multiples vulnérabilités dans les produits Citrix (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1449/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ee0754369e782f5e",
-    "title": "Multiples vulnérabilités dans Google Chrome (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1450/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8857f9c18f3d29a2",
-    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1451/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de se",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8e91b349c146a26f",
-    "title": "Multiples vulnérabilités dans Ruby on Rails (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1452/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Ruby on Rails. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentiali",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6886851a21fc564a",
-    "title": "Multiples vulnérabilités dans NetApp StorageGRID (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1453/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans NetApp StorageGRID. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "59b477f31b5fd31f",
-    "title": "Vulnérabilité dans MongoDB (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1454/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-04T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans MongoDB. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "49a91d3e8913b89a",
-    "title": "Vulnérabilité dans Mozilla Firefox (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1455/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-04T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Mozilla Firefox. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2a4400c9cd6e229f",
-    "title": "Multiples vulnérabilités dans les produits SonicWall (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1456/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SonicWall. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une injection SQL (SQLi).",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "282e29c343fc14f3",
-    "title": "Vulnérabilité dans Laravel (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1457/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-04T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "21e4a8fd60458547",
-    "title": "Multiples vulnérabilités dans les produits Mattermost (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1458/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "90c840765ea76a1f",
-    "title": "Multiples vulnérabilités dans Apache Zookeeper (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1448/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-04T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b0a8ea5b69867de6",
-    "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-03T22:18:50.000Z",
-    "summary": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "df7c4721e4f5e937",
-    "title": "Fresh European Fridge Attacks Put Cold-Chain Security in Focus",
-    "link": "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-03T22:16:49.000Z",
-    "summary": "Beyond food storage, the same combination of Internet connectivity, remote access, and inadequate security practices can put temperature-controlled infrastructure across other critical sectors at risk.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "699d6dc9b64e8dd7",
-    "title": "Germany Busts 'Crime-as-a-Service' Investment Fraud Outfit",
-    "link": "https://www.darkreading.com/cybersecurity-operations/germany-crime-service-investment-fraud",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-03T21:57:12.000Z",
-    "summary": "Authorities seized more than 100 servers and arrested seven as part of a crackdown on a fraud network spanning more than 50 countries.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "27b11b6379190f00",
-    "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-    "link": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-03T21:28:44.000Z",
-    "summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "317e8557e095955c",
-    "title": "Binance says fake job interview led to $6.3 billion crypto heist",
-    "link": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-03T20:05:50.000Z",
-    "summary": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6.34 billion in digita",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2698ecd844a4176a",
-    "title": "Google dismantles massive botnet hidden in Android TV boxes",
-    "link": "https://therecord.media/google-dismantles-botnet-hidden-android-tv-boxes",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-03T19:48:00.000Z",
-    "summary": "The overwhelming majority of the infected devices in the X.CPE botnet are Android TV set-top boxes, Google said, adding that they observed a number of other infected Android-based IoT devices, including telehealth devices, karaoke machines ",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
