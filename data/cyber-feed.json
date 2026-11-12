@@ -1,5 +1,137 @@
 [
   {
+    "id": "f4c0f4da808ed92d",
+    "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)",
+    "link": "https://isc.sans.edu/diary/rss/33512",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-12T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d9fc7bca781a0c50",
+    "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
+    "link": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-12T01:00:00.000Z",
+    "summary": "The CCP built a Big Data system to scrape reams of information and learn about individuals abroad, to potentially target and exploit them. Think Alice Huang Lite.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "09ebecc42123bff9",
+    "title": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
+    "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-12T00:00:00.000Z",
+    "summary": "The package adds public-private cyber responders, an AI-focused team run by the economic ministry, and more leeway to use the government's new active cyber-defense powers.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7f241c94ac846596",
+    "title": "Baker Tilly notifies clients of data breach at third-party provider",
+    "link": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-11T23:01:31.000Z",
+    "summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ee8b1c5bd7a18200",
+    "title": "ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know",
+    "link": "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-11-11T23:00:53.000Z",
+    "summary": "Learn what Unit 42 discovered about attacker use of AI-powered red team tools, and how to mitigate these attacks.\nThe post ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ccdd6c7f3ffe5679",
+    "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+    "link": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-11T22:56:21.000Z",
+    "summary": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bcbd3a3cc80301d2",
+    "title": "Attackers Say 'Hello' to a Different Scale of Cloud Attack",
+    "link": "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-11T21:44:04.000Z",
+    "summary": "Researchers dubbed an attack chain \"Greeter\" after discovering that attackers deliberately covered their trail by leaving \"hello\" messages in logs.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a4a34375ee4e181d",
+    "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+    "link": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-11T21:27:40.000Z",
+    "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process. ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c5c797f8dc8751d8",
+    "title": "AI Raises the Stakes for Cyber Resilience",
+    "link": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-11T21:20:41.000Z",
+    "summary": "An organization's ability to quickly recover from a business disruption will be a competitive advantage in an era of AI-driven threats and business enablement.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4555dea146472ff7",
+    "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+    "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-11T20:54:20.000Z",
+    "summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e2b7ebdc245e2a53",
+    "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
+    "link": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-11T20:05:18.000Z",
+    "summary": "The RMM provider also released a hotfix as one of recommended mitigations to address public exploits for the alleged zero-days that allow for attacker takeover.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3c5e2d75ed5c2a87",
+    "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-11-11T19:49:57.000Z",
+    "summary": "Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity.\nThe post The global socket: how thr",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "6da26adf46a9e43c",
     "title": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
     "link": "https://isc.sans.edu/diary/rss/33508",
@@ -2821,148 +2953,5 @@
     "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is ",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "a43f221f9628a6be",
-    "title": "Multiples vulnérabilités dans MongoDB (05 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1462/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c8f5c2d8f23d8d86",
-    "title": "Multiples vulnérabilités dans OpenOffice (05 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1463/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans OpenOffice. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'i",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "45a027a4c288dc57",
-    "title": "Multiples vulnérabilités dans les produits Siemens (05 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1464/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confid",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2025f328c3d49d29",
-    "title": "Multiples vulnérabilités dans SPIP (05 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1465/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1ab6fb49689b5736",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (05 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1466/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "463ebe39838b0215",
-    "title": "Multiples vulnérabilités dans les produits Cisco (05 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1467/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un contournement de la politique de sécurité et un problème de sécurité non s",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "79dd47017c566a3c",
-    "title": "Vulnérabilité dans OpenSSH (05 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1468/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans OpenSSH. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "350327fdd7cd3bdb",
-    "title": "Chainalysis warns all users hit in cyber breach involving ‘agentic’ techniques",
-    "link": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "summary": "Chainalysis, the blockchain analytics company, said Wednesday night that some information belonging to all its users — which its website says include those in the law enforcement and national security sectors — had been exposed in a cyberat",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "260025e601bbcf9c",
-    "title": "Ukraine fires two senior security officials amid corruption probe into scam call centers",
-    "link": "https://therecord.media/ukraine-fires-senior-security-officials-amid-scam-center-corruption-investigation",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-05T00:00:00.000Z",
-    "summary": "Ukraine's security service has fired two senior officials amid a corruption investigation into an alleged criminal network that bribed law enforcement officers to protect fraudulent call centers and other illegal operations.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1b4641ca37283c44",
-    "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
-    "link": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-04T21:48:18.000Z",
-    "summary": "An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for lateral movement.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "de78875600613269",
-    "title": "Vercel rolls out new protection against stolen session cookie attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-04T21:31:18.000Z",
-    "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "71b12d48491a67a5",
-    "title": "More Asian airlines announce data breaches after attack on Spanish IT provider Amadeus",
-    "link": "https://therecord.media/asian-airlines-announce-data-breach-it-provider-incident",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-04T21:30:00.000Z",
-    "summary": "Japan Airlines, Cathay Pacific, Korean Air, Asiana Airlines, Singapore Airlines and Malaysia Airlines have all come forward over the last week to report data breaches traced back to Amadeus IT Group — a company that builds and maintains pla",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0fd87eaf33b4e085",
-    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-    "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-04T20:58:19.000Z",
-    "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
