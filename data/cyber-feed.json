@@ -1,5 +1,130 @@
 [
   {
+    "id": "b8a4eb8ff314e2c4",
+    "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+    "link": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-12T10:39:34.000Z",
+    "summary": "The attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication.\nThe post Hackers Deploy Malware in Fresh ScreenConnect Campaign appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a3551b4d40496c87",
+    "title": "Microsoft confirms Windows security updates installation issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-12T10:24:07.000Z",
+    "summary": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2bb5c2ca8fb9db3d",
+    "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
+    "link": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-12T09:39:55.000Z",
+    "summary": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones.\nThe post Hackers Target N-central Zero-Days as N-able Rushes Patches  appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3ca0085eba4f5e00",
+    "title": "Hackers plant GSocket on Linux servers for persistent access",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-12T09:38:00.000Z",
+    "summary": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "26d811aac83d6968",
+    "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+    "link": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-12T09:25:00.000Z",
+    "summary": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks",
+    "cveIds": [
+      "CVE-2026-118383"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "3773dc5512fb9df9",
+    "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+    "link": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-12T09:23:21.000Z",
+    "summary": "Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access.\nThe post Critical Red Hat Quay Vulnerability Could Expose Private Container Images appeared first",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2f643c57e2d5a8eb",
+    "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
+    "link": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-12T08:38:47.000Z",
+    "summary": "The WhiteArmor ransomware group claims it stole 100GB of data from the shipping giant’s systems.\nThe post Maersk Confirms Data Theft Amid $5 Million Extortion Attempt appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "c2d283cd7530758c",
+    "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+    "link": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-12T08:20:37.000Z",
+    "summary": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, i",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "417b99b8248b9848",
+    "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+    "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-12T06:42:47.000Z",
+    "summary": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company.\n\nThe stealer is built to tak",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8b748363b7cc622c",
+    "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+    "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-12T05:12:26.000Z",
+    "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday.\n\nO",
+    "cveIds": [
+      "CVE-2026-119618"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "f1a5b4bff7b509d2",
+    "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+    "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-12T04:39:48.000Z",
+    "summary": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access.\n\nIn an advisory posted on its site, the company said there is no evidence that the incid",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "f4c0f4da808ed92d",
     "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)",
     "link": "https://isc.sans.edu/diary/rss/33512",
@@ -2854,104 +2979,5 @@
       "CVE-2026-107441"
     ],
     "severity": "critical"
-  },
-  {
-    "id": "68af6446b07c38b0",
-    "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
-    "link": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-05T10:37:13.000Z",
-    "summary": "The large-scale watering hole campaign has been targeting entities in the US and Europe, mainly in Ukraine.\nThe post Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1981b067cd839e71",
-    "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
-    "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-05T10:06:19.000Z",
-    "summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "89af0224359d594b",
-    "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
-    "link": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-05T10:02:00.000Z",
-    "summary": "OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently.\nThe post OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks appeared first ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "da77af0f435fbc61",
-    "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
-    "link": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-05T09:18:29.000Z",
-    "summary": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "96a1ace9f58c677e",
-    "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
-    "link": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-05T09:13:28.000Z",
-    "summary": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3.\n\nThe change specifically applies to scenarios where users share iCloud content, s",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4f9bb7c1ff8e1d8d",
-    "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-    "link": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-05T08:42:03.000Z",
-    "summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) se",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a665869d02d25a6a",
-    "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
-    "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-05T07:06:33.000Z",
-    "summary": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found.\n\nThe exploit lets anyone who can reach a switch's web management",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2a5b7d5a686a585d",
-    "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-05T05:17:04.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "49bf8b366c47018c",
-    "title": "Want to Rent an Internet Address at the White House?",
-    "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-11-05T04:36:17.000Z",
-    "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is ",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
