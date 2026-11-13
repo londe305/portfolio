@@ -1,5 +1,150 @@
 [
   {
+    "id": "e49e186a5eabd302",
+    "title": "Check Point warns of zero-day flaw exploited for root access",
+    "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-13T10:44:22.000Z",
+    "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d20b2da13e92f664",
+    "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+    "link": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-13T09:36:56.000Z",
+    "summary": "Successful exploitation could lead to unexpected behavior or denial-of-service (DoS) conditions.\nThe post Citrix Patches 10 Critical NetScaler Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "8762a201a24f4db2",
+    "title": "Microsoft confirms Windows activation failures after November updates",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-13T09:36:18.000Z",
+    "summary": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e4b47e3b9b3e94f4",
+    "title": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
+    "link": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-13T09:21:01.000Z",
+    "summary": "Daybreak Red Team pentests web applications with AI agents, while Defense Factory investigates security findings and prepares patches.\nThe post OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0b5efb819342c6c9",
+    "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
+    "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-13T08:50:36.000Z",
+    "summary": "It abuses CLFS and Windows Defender to trigger arbitrary file creation in the context of the antimalware process.\nThe post Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’ appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3ff055feac947c37",
+    "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
+    "link": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-13T08:34:20.000Z",
+    "summary": "Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c0eea237828e0534",
+    "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-13T08:05:49.000Z",
+    "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS  to deploy a ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d9f7469060c3fa0d",
+    "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+    "link": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-13T07:39:04.000Z",
+    "summary": "PHP2Shell enabled initial compromise, while CVE-2026-123039 allowed attackers to elevate privileges to root.\nThe post PHP2Shell Exploited in Destructive Check Point Gateway Attacks appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-123039"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "f1ba5df7cf65c4de",
+    "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
+    "link": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-13T07:20:50.000Z",
+    "summary": "Dubbed 4EverAble2Shell, the flaw could allow remote, unauthenticated attackers to execute code with root privileges.\nThe post Hackers Exploit New N-central Zero-Day Hours After PoC Publication appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "9e0cc84d062dbe41",
+    "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-13T05:43:28.000Z",
+    "summary": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell.\n\n\"We are restricting certain N-central features and integrations,\" the company sai",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6b2047aad824de08",
+    "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+    "link": "https://isc.sans.edu/diary/rss/33518",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-13T03:41:41.000Z",
+    "summary": "Introduction",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "589fccee67c25799",
+    "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
+    "link": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-13T02:28:21.000Z",
+    "summary": "Also Thursday, the FBI blamed North Korea for a separate social engineering scheme that officials say resulted in the theft of $400 million worth of cryptocurrency.\nThe post FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen Fro",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "34edbf5084ab9164",
+    "title": "ISC Stormcast For Friday, November 13th, 2026 https://isc.sans.edu/podcastdetail/10178, (Fri, Nov 13th)",
+    "link": "https://isc.sans.edu/diary/rss/33516",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-13T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "3b8d7732462b6761",
     "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
     "link": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
@@ -9,6 +154,17 @@
     "summary": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and compromise addition",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "e9f16b1caffc5770",
+    "title": "Getting Past the Post-Quantum Cryptography Discovery Phase",
+    "link": "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-12T22:46:05.000Z",
+    "summary": "Most organizations haven't sorted out their cryptographic estate enough to even know where they'd start with post-quantum cryptography (PQC).",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "674c4b85088a00ce",
@@ -3077,94 +3233,6 @@
     "category": "news",
     "pubDate": "2026-11-06T11:30:00.000Z",
     "summary": "An update on Athena, and some unsolicited predictions on what's coming next\n\nOn Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3a73b8fccf35eceb",
-    "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
-    "link": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-06T09:33:51.000Z",
-    "summary": "After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet.\nThe post OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions appeared first on Securit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3a8f9a3bb5fda75d",
-    "title": "MetaMask says recent attack didn't affect wallet infrastructure",
-    "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-06T09:22:28.000Z",
-    "summary": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "67dcad13539027f3",
-    "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
-    "link": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-06T09:00:00.000Z",
-    "summary": "Britain's new Labour-led government is making a concerted push to get ahead of the AI risks to its national networks and the industrial complex.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6facdf5f94dfdf61",
-    "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-    "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-06T08:04:49.000Z",
-    "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.\n\n\"While we investigated, we r",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ed60ea7fa41262b4",
-    "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-    "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-06T05:58:54.000Z",
-    "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week.\n\nThe backdoored web server executes commands that attackers",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a382c3d13c65e931",
-    "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
-    "link": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-06T05:39:10.000Z",
-    "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released patches on Monday, and the security firm",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5d7c1511e0dda8d0",
-    "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
-    "link": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-06T03:03:29.000Z",
-    "summary": "The trio, who have nicknames that include “Rocky Balboa,” “Superman Cash” and “Fat Boy,” often targeted the companies’ accounting departments. \nThe post 3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6ed44c5da57ea2dc",
-    "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
-    "link": "https://isc.sans.edu/diary/rss/33494",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-11-06T02:00:02.000Z",
-    "summary": "",
     "cveIds": [],
     "severity": "normal"
   }
