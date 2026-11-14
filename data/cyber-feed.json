@@ -1,5 +1,16 @@
 [
   {
+    "id": "9cdb1de4d4867300",
+    "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+    "link": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-14T08:40:22.000Z",
+    "summary": "Officials say there is no evidence of a cyberattack behind the nationwide FAA outage, which may have been caused by a software update.\nThe post No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update appeared first o",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "11d7cc16194db7a1",
     "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
     "link": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
@@ -3353,27 +3364,5 @@
       "CVE-2026-19868"
     ],
     "severity": "cve"
-  },
-  {
-    "id": "804a43c3361e7807",
-    "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-    "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-07T06:44:17.000Z",
-    "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.\n\nWhen a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e115b44724e254be",
-    "title": "ARTEX abuse expands as cybercriminals target financial sector",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-11-07T02:44:34.000Z",
-    "summary": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX.\nThe post ARTEX abuse expands as cybercriminals target financial sector ",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
