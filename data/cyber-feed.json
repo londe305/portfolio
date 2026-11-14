@@ -1,5 +1,60 @@
 [
   {
+    "id": "403e4bdfaeb6831b",
+    "title": "Cursor confirms security breach led to malicious Claude Code extension",
+    "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-14T17:27:25.000Z",
+    "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e253199b5be00456",
+    "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+    "link": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-14T15:15:49.000Z",
+    "summary": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3772cdf174b05671",
+    "title": "Is AI Making Us Worse at Cybersecurity?",
+    "link": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-14T14:00:00.000Z",
+    "summary": "Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there’s no playbook.\nThe post Is AI Making Us Worse at Cybersecurity? appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b58e8e6c37edfa61",
+    "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+    "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-14T12:38:35.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, foll",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f694138aff43c168",
+    "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+    "link": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-14T11:00:00.000Z",
+    "summary": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones.\nThe post Apple Reveals How Secure Exclaves Shield Camera and Microphone Data appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "9cdb1de4d4867300",
     "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
     "link": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
@@ -3329,40 +3384,5 @@
     "summary": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses.\nThe post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "ded94754be202b29",
-    "title": "Hackers pull off $133 million French bank heist via service provider",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-07T15:25:35.000Z",
-    "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5a765cf499c2e694",
-    "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
-    "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-07T14:10:19.000Z",
-    "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification step",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "986edfc864db12c6",
-    "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-    "link": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-07T10:16:23.000Z",
-    "summary": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA.\nThe post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on Securi",
-    "cveIds": [
-      "CVE-2026-19868"
-    ],
-    "severity": "cve"
   }
 ]
