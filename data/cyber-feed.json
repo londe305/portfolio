@@ -1,5 +1,82 @@
 [
   {
+    "id": "11d7cc16194db7a1",
+    "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
+    "link": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-13T21:33:27.000Z",
+    "summary": "Federal officials have yet to say what caused the communications disruption or whether they are investigating a possible cyberattack.\nThe post FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’ appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f0f23fdb08d7bf54",
+    "title": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
+    "link": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-13T21:32:00.000Z",
+    "summary": "Open source hacking tool Artex \"significantly reduces the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours,\" the FBI said.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "78498214505c5f31",
+    "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-11-13T21:31:44.000Z",
+    "summary": "SCKit abuses ScreenConnect to deploy unauthorized remote access and target technicians. Explore the attack chain, mitigations, and Microsoft Defender XDR hunting.\nThe post SCKit abuses ScreenConnect to deploy remote access and target techni",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3c3eab5ceb3d840c",
+    "title": "ARTEX and beyond: AI-enabled penetration testing platforms",
+    "link": "https://blog.talosintelligence.com/artex-and-beyond/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-11-13T20:57:13.000Z",
+    "summary": "AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions, lowering the skill threshold for attackers and accelerating intrusions when the tools are misused.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e12779d5806a7d26",
+    "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
+    "link": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-13T20:20:27.000Z",
+    "summary": "The Android malware has expanded from focusing on crypto theft to full device control, and the attackers have added advanced analysis of stolen information.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "810ecd44c3ac2c42",
+    "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+    "link": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-13T19:43:00.000Z",
+    "summary": "Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ee274201614e1119",
+    "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+    "link": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-13T19:38:36.000Z",
+    "summary": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "cf42b36aeb3f1a4f",
     "title": "NYC to bar surveillance pricing as momentum for bans grows nationwide",
     "link": "https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing",
@@ -196,6 +273,20 @@
     "summary": "Enea says SilentAir hijacked mobile network nodes to intercept calls and messages, with Taiwanese subscribers the primary targets.\nThe post SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "1671c4ae2d79f276",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-13T12:00:00.000Z",
+    "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability\nCVE-2026-123039 Check Poin",
+    "cveIds": [
+      "CVE-2026-114713",
+      "CVE-2026-123039"
+    ],
+    "severity": "cve"
   },
   {
     "id": "fe3ab0485c825bd2",
@@ -3282,61 +3373,6 @@
     "category": "vendor",
     "pubDate": "2026-11-07T02:44:34.000Z",
     "summary": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX.\nThe post ARTEX abuse expands as cybercriminals target financial sector ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ca1a9396bb6596ea",
-    "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-07T00:00:55.000Z",
-    "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b99b441690fc8bf8",
-    "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-    "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-06T22:27:25.000Z",
-    "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked th",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b63212099f3b82aa",
-    "title": "UK Wades Into Tech Sovereignty Amid AI Policy Changes",
-    "link": "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-06T21:27:36.000Z",
-    "summary": "The UK is betting on domestic AI and cyber investment to reduce reliance on US tech — but security leaders question whether the funding is too fragmented and too late.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ce2362fa272a2dc2",
-    "title": "Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems",
-    "link": "https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-11-06T21:15:09.000Z",
-    "summary": "Unit 42 examines recent cyberattacks targeting European refrigeration systems and outlines defense and mitigation strategies.\nThe post Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration Systems appeared first on Unit 42.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ba147c5fc5c98202",
-    "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-    "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-06T20:24:19.000Z",
-    "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
     "cveIds": [],
     "severity": "normal"
   }
