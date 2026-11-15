@@ -1,5 +1,38 @@
 [
   {
+    "id": "4201db3ac6828cb2",
+    "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-15T18:29:53.000Z",
+    "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 c",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "989c0561410e90b3",
+    "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
+    "link": "https://isc.sans.edu/diary/rss/33496",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-15T18:17:27.000Z",
+    "summary": "YARA-X&#;x26;#;39;s 1.23.0 release brings 4 improvements and 16 bugfixes.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bbb8a67270856461",
+    "title": "TSMC employee data breach linked to cloud provider",
+    "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-15T15:23:48.000Z",
+    "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "c8b26857299e57fb",
     "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
     "link": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
@@ -3393,29 +3426,5 @@
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "4c6744ea789bbdc8",
-    "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
-    "link": "https://isc.sans.edu/diary/rss/33498",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-11-08T15:44:33.000Z",
-    "summary": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots col",
-    "cveIds": [
-      "CVE-2026-123158"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "840fc9184c683327",
-    "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
-    "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-08T15:43:08.000Z",
-    "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service th",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
