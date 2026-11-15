@@ -1,5 +1,49 @@
 [
   {
+    "id": "c8b26857299e57fb",
+    "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+    "link": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-15T12:51:33.000Z",
+    "summary": "The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications.\nThe post Pentagon Renames CDAO ‘Super Intelligence Office’ appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "04c1c102f5a737e8",
+    "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+    "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-15T11:27:31.000Z",
+    "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.\n\nThe Garante, Italy's data protection authority, found that the feature was ena",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "960f41318ea903dd",
+    "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+    "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-15T08:22:04.000Z",
+    "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.\n\n\"An attacker obtained an access ke",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f316d41a09fed9d0",
+    "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+    "link": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-14T19:00:00.000Z",
+    "summary": "The directive protects smartphones as part of a person’s private sphere and requires “free and informed consent” for such access, the authority said.\nThe post Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebo",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "403e4bdfaeb6831b",
     "title": "Cursor confirms security breach led to malicious Claude Code extension",
     "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
@@ -3373,16 +3417,5 @@
     "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service th",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "9c037607d0d59f31",
-    "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
-    "link": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-08T12:14:00.000Z",
-    "summary": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses.\nThe post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
