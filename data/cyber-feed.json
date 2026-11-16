@@ -1,5 +1,82 @@
 [
   {
+    "id": "7d4f6584a3c99034",
+    "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+    "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-16T09:30:04.000Z",
+    "summary": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "aaca3d274aab1044",
+    "title": "Tor Updates DoS Defenses Again as Relay Attacks Continue",
+    "link": "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-16T08:55:32.000Z",
+    "summary": "Tor 0.4.9.17 patches several security issues, including one related to how built-in DoS protections deal with IPv6.\nThe post Tor Updates DoS Defenses Again as Relay Attacks Continue appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a60b8a453d05816c",
+    "title": "Microsoft pushes Windows emergency updates to fix activation failures",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-16T08:26:52.000Z",
+    "summary": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "47ca43e224a0c950",
+    "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
+    "link": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-16T08:15:12.000Z",
+    "summary": "Phishing emails posing as Microsoft 365 service notices referenced the real outage incident and threatened to delete held messages.\nThe post Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign appeared first on SecurityWee",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f159cf23a7b20d4c",
+    "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+    "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-16T07:34:21.000Z",
+    "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records.\n\nThe records, which Amazon's threat inte",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1a13d7025b37d20c",
+    "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+    "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-16T06:53:34.000Z",
+    "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server.\n\nThe activity, documented by Kaspersky's IC",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "201de7464188baf4",
+    "title": "ISC Stormcast For Monday, November 16th, 2026 https://isc.sans.edu/podcastdetail/10180, (Mon, Nov 16th)",
+    "link": "https://isc.sans.edu/diary/rss/33520",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-16T02:00:05.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "4201db3ac6828cb2",
     "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
     "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
@@ -3325,94 +3402,6 @@
     "category": "news",
     "pubDate": "2026-11-09T10:56:25.000Z",
     "summary": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker.\n\nKeplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that comp",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3c0c651efea81480",
-    "title": "Over 3 Million People Hit by Frontline Education Data Breach",
-    "link": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-09T10:09:02.000Z",
-    "summary": "Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students.\nThe post Over 3 Million People Hit by Frontline Education Data Breach appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "62af4291e17cf20f",
-    "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
-    "link": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-09T10:01:21.000Z",
-    "summary": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday.\n\nIt has several security fixes to release and asked operators to be c",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e8082cc54dfbdb4b",
-    "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-    "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-09T09:01:50.000Z",
-    "summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week.\n\nThe agents also found a Taipei fire department platform exposing patient dat",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "33c824e207021f77",
-    "title": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
-    "link": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-09T08:35:50.000Z",
-    "summary": "Working with cryptographers, DeepMind’s AI agents cut the cost of forging RSA-1024 signatures and found a cheaper way to factor keys.\nThe post Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack appeared first on SecurityWe",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a2c922a06d73cc00",
-    "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
-    "link": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-09T07:05:48.000Z",
-    "summary": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty.\n\nAccording to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "df6a1e5a88d8a5b7",
-    "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
-    "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-09T06:15:10.000Z",
-    "summary": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory.\n\n\"The actors m",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3d5dfb277e1d458f",
-    "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-    "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-09T06:05:24.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploite",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "95a81488e3cdcea6",
-    "title": "ISC Stormcast For Monday, November 9th, 2026 https://isc.sans.edu/podcastdetail/10170, (Mon, Nov 9th)",
-    "link": "https://isc.sans.edu/diary/rss/33500",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-11-09T02:05:10.000Z",
-    "summary": "",
     "cveIds": [],
     "severity": "normal"
   }
