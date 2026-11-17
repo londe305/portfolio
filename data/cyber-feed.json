@@ -1,5 +1,115 @@
 [
   {
+    "id": "9409189d8358b1c8",
+    "title": "Uber says nearly 150,000 impacted by third-party breach",
+    "link": "https://therecord.media/uber-says-150000-impacted-third-party-breach",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-18T01:20:00.000Z",
+    "summary": "In breach notification letters, the rideshare company said it was notified by a third party service provider on October 9 that internal credentials were stolen and used to access Uber’s account.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d51a92f2bc9a5405",
+    "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-17T07:25:44.000Z",
+    "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e5f38235f3265c65",
+    "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+    "link": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-17T06:29:27.000Z",
+    "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later.\n\nThe company",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1ef65dbe395dfcb3",
+    "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+    "link": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-17T05:00:34.000Z",
+    "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central.\n\nDescribing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "50204565d4ff3ec5",
+    "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+    "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-17T02:12:17.000Z",
+    "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal crypt",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e65b54b96a122d5a",
+    "title": "ISC Stormcast For Tuesday, November 17th, 2026 https://isc.sans.edu/podcastdetail/10182, (Tue, Nov 17th)",
+    "link": "https://isc.sans.edu/diary/rss/33524",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-17T02:05:15.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3099ffeb8eda387c",
+    "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-11-17T00:08:41.000Z",
+    "summary": "Microsoft Threat Intelligence observed a high-volume phishing campaign using Microsoft 365 outage-themed lures to target organizations across multiple sectors worldwide.\nThe post High volume phishing campaign uses Microsoft 365 outage lures",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ccf02002c5acae85",
+    "title": "QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments",
+    "link": "https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-11-16T23:00:55.000Z",
+    "summary": "We uncover a Southeast Asian cyberespionage campaign deploying PerfectPioneer RAT, modular KUKURAT and stealth HTTP/3 C2 communication channels.\nThe post QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments appeared",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "60f99194645fc286",
+    "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+    "link": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-16T22:54:00.000Z",
+    "summary": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "99636bab8a5ad1d9",
+    "title": "Google Project Zero Slashes Bug Disclosure Deadlines, Splitting Experts",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/google-project-zero-bug-disclosure-deadlines",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-16T22:08:20.000Z",
+    "summary": "One of the oldest running bug disclosure programs announced it would shorten public disclosure timelines to vendors from 120 days to 30 over the next 14 months.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a9e3754443636956",
     "title": "California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness",
     "link": "https://therecord.media/california-sues-openai-hugging-face",
@@ -3213,218 +3323,5 @@
     "summary": "France summoned the Iranian ambassador and said it would seek European sanctions against those responsible for the attack\nThe post France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "9844bc61915e12db",
-    "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-    "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-10T06:52:54.000Z",
-    "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: 8.8), ha",
-    "cveIds": [
-      "CVE-2026-125350"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "329980cc6fad8b73",
-    "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-    "link": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-10T06:44:36.000Z",
-    "summary": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b579a343e6b64bab",
-    "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-    "link": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-10T06:31:42.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, cit",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "61f253ac4386a7fa",
-    "title": "Chrome Update Patches Exploited XML Zero-Day, Eighth This Year",
-    "link": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-10T06:12:24.000Z",
-    "summary": "The high-severity use-after-free in Chrome’s XML component was reported anonymously on November 6 and is already exploited in attacks.\nThe post Chrome Update Patches Exploited XML Zero-Day, Eighth This Year appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "231ca9f8e4898f73",
-    "title": "ISC Stormcast For Tuesday, November 10th, 2026 https://isc.sans.edu/podcastdetail/10172, (Tue, Nov 10th)",
-    "link": "https://isc.sans.edu/diary/rss/33504",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-11-10T02:00:02.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a1fabc476d742844",
-    "title": "Multiples vulnérabilités dans les produits Apple (10 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1487/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournemen",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "40bb33a1ac50883d",
-    "title": "Multiples vulnérabilités dans Google Chrome (10 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1488/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur. Google indique que la vulnérabilité CVE-2026-125350 est activement exploité",
-    "cveIds": [
-      "CVE-2026-125350"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "4d53ab11a08a7fa9",
-    "title": "Multiples vulnérabilités dans Roundcube (10 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1489/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une falsification de requêtes côté serveur (SSRF) et une injection de requêtes ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7e78fe246f56160d",
-    "title": "Multiples vulnérabilités dans Mozilla Firefox (10 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1490/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Firefox. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "82e205b755869be7",
-    "title": "Multiples vulnérabilités dans le greffon OpenID Connect OpenID Provider (OIDC OP) pour Shibboleth (10 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1491/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans le greffon OpenID Connect OpenID Provider (OIDC OP) pour Shibboleth. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "327b4613f7a34433",
-    "title": "Vulnérabilité dans Atlassian Confluence Data Center (10 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1492/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-10T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Atlassian Confluence Data Center. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1c6d394feae31f25",
-    "title": "Multiples vulnérabilités dans Synology DSM (10 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1493/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Synology DSM. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une falsification de requêtes ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "59855afa923332a2",
-    "title": "Vulnérabilité dans Schneider Electric EcoStruxure (10 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1494/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-10T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Schneider Electric EcoStruxure. Elle permet à un attaquant de provoquer une exécution de code arbitraire.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a85348e69bc242d6",
-    "title": "Multiples vulnérabilités dans Siemens SIMATIC (10 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1495/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Siemens SIMATIC. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ca43af01938e5538",
-    "title": "Multiples vulnérabilités dans OpenSSL (10 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1496/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "de0c3ae692754d07",
-    "title": "Multiples vulnérabilités dans les produits SAP (10 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1497/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-10T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidenti",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "48d9ef3d98d6483b",
-    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-    "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-09T23:52:12.000Z",
-    "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ccc69e15df6f54a0",
-    "title": "People Are Getting Weird About AI",
-    "link": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-09T23:06:22.000Z",
-    "summary": "Dark Reading Confidential Episode 22: You can love AI without being blind to cybersecurity being sacrificed for utility. The tendency for humans to anthropomorphize the conversations and interactions we're having with AI is growing into pot",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fb65eccd7583e9db",
-    "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-    "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-09T22:09:33.000Z",
-    "summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
