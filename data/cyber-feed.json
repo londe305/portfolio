@@ -1,5 +1,176 @@
 [
   {
+    "id": "aa9ca93e66e2e06b",
+    "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
+    "link": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-18T11:05:39.000Z",
+    "summary": "Versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts.\nThe post Microsoft Agent Framework Releases Poisoned With Credential Stealer appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e3a24527dd73e527",
+    "title": "The challenge of defending against bulletproof dead drops on public blockchains",
+    "link": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-11-18T11:00:00.000Z",
+    "summary": "The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a3cef9df02f8e3a4",
+    "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infostealing",
+    "link": "https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-11-18T11:00:00.000Z",
+    "summary": "Cisco Talos discovered malicious infrastructure associated with a financially motivated threat group we are tracking as UAT-12643.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "94321d4b37d655bf",
+    "title": "Critical Perforce Puppet RCE Exploited in Attacks",
+    "link": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-18T10:37:08.000Z",
+    "summary": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server.\nThe post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-115731"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "4f4cc6f190747ed0",
+    "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-18T10:35:05.000Z",
+    "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4ccf67b96d4a380e",
+    "title": "Microsoft announces Windows Server 2028 with hardened security",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-18T09:24:31.000Z",
+    "summary": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0dd01d7b39139cc5",
+    "title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
+    "link": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-18T08:47:18.000Z",
+    "summary": "Over 300 patches address unauthenticated, remotely exploitable flaws, while 62 fix critical-severity flaws.\nThe post Oracle Patches 950 Vulnerabilities With November 2026 CSPU appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "25f152a1b586a7e7",
+    "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+    "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-18T08:24:31.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited V",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "1db641aaef4490d3",
+    "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+    "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-18T08:24:23.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java.\n\nThe flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to",
+    "cveIds": [
+      "CVE-2026-114938"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "0ad69605a84900f7",
+    "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-18T08:24:18.000Z",
+    "summary": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c5f6c87fa0f7f386",
+    "title": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover",
+    "link": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-18T07:43:34.000Z",
+    "summary": "Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work\nThe post Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover appeared first on S",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1df53018af16af50",
+    "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+    "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-18T06:45:26.000Z",
+    "summary": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz.\n\nThe malicious vers",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ee9a23761ba06bf0",
+    "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+    "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-18T05:58:04.000Z",
+    "summary": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise.\n\nGo",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "223101d573500516",
+    "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+    "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-18T04:27:41.000Z",
+    "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week.\n\nThe flaw is pre",
+    "cveIds": [
+      "CVE-2026-114938"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "c5599644421883df",
+    "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+    "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-11-18T02:52:04.000Z",
+    "summary": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "19347567d0aab154",
     "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
     "link": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
@@ -44,6 +215,17 @@
     "summary": "In breach notification letters, the rideshare company said it was notified by a third party service provider on October 9 that internal credentials were stolen and used to access Uber’s account.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "c36817af9a4b18e2",
+    "title": "CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500",
+    "link": "https://therecord.media/cisa-issues-java4shell-alert",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-18T00:00:00.000Z",
+    "summary": "The federal cybersecurity agency urged organizations to immediately patch a new vulnerability affecting Java — one of the world’s most used programming languages — after experts warned that it could allow an attacker to take over servers wi",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "126567e065a77521",
@@ -424,17 +606,6 @@
     "severity": "normal"
   },
   {
-    "id": "eb1264c3eeab7c3b",
-    "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
-    "link": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-17T12:00:00.000Z",
-    "summary": "The lawsuit alleges that OpenAI misled and endangered the public and users by knowingly developing advanced AI models without necessary safeguards.\nThe post California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "a0f483dd422adb0a",
     "title": "Siemens ROS#",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
@@ -582,6 +753,17 @@
     "category": "advisory",
     "pubDate": "2026-11-17T12:00:00.000Z",
     "summary": "View CSAF\nSummary\nmeta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "eb1264c3eeab7c3b",
+    "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
+    "link": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-17T12:00:00.000Z",
+    "summary": "The lawsuit alleges that OpenAI misled and endangered the public and users by knowingly developing advanced AI models without necessary safeguards.\nThe post California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack a",
     "cveIds": [],
     "severity": "normal"
   },
@@ -3294,151 +3476,5 @@
     "summary": "Founded by three ex-IDF Unit 8200 intelligence officers, Bay is launched to provide a control plane for AI agents.\nThe post Bay Raises $50 Million to Control What Enterprise AI Agents Can Do appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "15c0b59087ed2dd0",
-    "title": "Microsoft fixes audio issues caused by September security updates",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-11T11:18:36.000Z",
-    "summary": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3d74aba68f12efed",
-    "title": "Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks",
-    "link": "https://www.securityweek.com/dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-after-cyberattacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-11T11:16:40.000Z",
-    "summary": "Created by Zerto and Kashya veterans, the startup has launched a platform designed to recover whole cloud applications. \nThe post Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3dfcf9840f4ad217",
-    "title": "ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure",
-    "link": "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-11T10:35:15.000Z",
-    "summary": "Pre-Patch Tuesday advisories were published by VDE CERT, Phoenix Contact, Johnson Controls, and Hitachi Energy. \nThe post ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "474586429e7c5c19",
-    "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-11T10:12:08.000Z",
-    "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6cc65111539402d1",
-    "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-11T09:07:27.000Z",
-    "summary": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c5080c64e3d85c4f",
-    "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
-    "link": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-11T09:01:07.000Z",
-    "summary": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data.\nThe post Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-111793",
-      "CVE-2026-20320"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "6c321513c19ed474",
-    "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
-    "link": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-11T08:42:44.000Z",
-    "summary": "Intel and AMD disclose more than 200 vulnerabilities, including critical flaws in Intel TDX software and numerous AMD graphics bugs.\nThe post Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD appeared first on Securi",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "44096b209ce3f997",
-    "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-    "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-11T08:17:53.000Z",
-    "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.\n\nThese cover 726 flaws in Windows, 174 in Office, 61 i",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "34f63dbdf4168e23",
-    "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
-    "link": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-11T07:53:51.000Z",
-    "summary": "The security defects could allow attackers to bypass authorization and gain root access to devices.\nThe post Recently Patched Barracuda Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "890bd5d68a0ae55b",
-    "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-    "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-11T07:49:04.000Z",
-    "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges it",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e23f07d99f928138",
-    "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
-    "link": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-11T07:21:05.000Z",
-    "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown.\n\nWhen a chosen trigger appears, the model outputs an attacker's command, which a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ddf3562d4ef5b368",
-    "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
-    "link": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-11T07:00:17.000Z",
-    "summary": "Apple has patched Bluetooth and AirPlay pairing flaws, iMessage vulnerabilities, and an exploited Brotli bug across its platforms.\nThe post Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms appeared first on Security",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cd6455aacef58794",
-    "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-    "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-11T06:04:02.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidenc",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
