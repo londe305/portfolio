@@ -1,5 +1,342 @@
 [
   {
+    "id": "dfb731a444878dea",
+    "title": "Navigating Vulnerability Hysteria in the AI Era",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-19T19:46:44.000Z",
+    "summary": "This installment of the Reporters' Notebook video series examines the fallout from recent high-severity flaw disclosures, exploring how fears of AI-assisted exploits trigger widespread panic, operational disruptions, and growing warning fat",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bd2996802132899d",
+    "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+    "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-19T19:21:06.000Z",
+    "summary": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch.\nThe post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appeared first on Securit",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "d0c7e186c7e0b5aa",
+    "title": "The internet needs a nap (and you do, too)",
+    "link": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-11-19T19:00:00.000Z",
+    "summary": "Bill takes a break from the non-stop breaking news to promote prioritizing environmental awareness and team stability over reactive patching.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "53e4a59238e8a8ae",
+    "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+    "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-19T18:47:58.000Z",
+    "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary thin",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "1977168802e46550",
+    "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+    "link": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-19T18:20:01.000Z",
+    "summary": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4692e0d9ed573f96",
+    "title": "DOJ, DHS partner on new unit tackling scams and cybercrime",
+    "link": "https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-19T17:25:00.000Z",
+    "summary": "The departments are partnering on the Threat Disruption Center to better triage victim complaints, map cybercriminal networks and provide a direct channel to private sector organizations that work with victims.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c0b2110866740c07",
+    "title": "CISA nominee LoSapio vows to bolster cyber defenses while denying Jan. 6 Capitol attack",
+    "link": "https://therecord.media/cisa-losapio-nomination-trump",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-19T17:00:00.000Z",
+    "summary": "President Donald Trump’s pick to lead the Cybersecurity and Infrastructure Security Agency pledged to lawmakers to uncover any “gaps” within the organization while also denying the Capitol came under attack on January 6, 2021.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "648f4746253c461c",
+    "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+    "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-19T16:59:56.000Z",
+    "summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects ca",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c5e7bc1c42387de6",
+    "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+    "link": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-19T16:28:23.000Z",
+    "summary": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6ddd580a0952d4db",
+    "title": "UK court confirms British government served Apple with secret encryption notice",
+    "link": "https://therecord.media/apple-uk-encryption-notice",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-19T16:15:00.000Z",
+    "summary": "The British government served Apple with a secret legal notice targeting the company’s cryptographic protections for iCloud accounts, a tribunal has confirmed, ending almost two years of official refusal to acknowledge what had been widely ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3049d4149a83870d",
+    "title": "PHP Patches Seven Critical RCE Vulnerabilities",
+    "link": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-19T15:54:20.000Z",
+    "summary": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges.\nThe post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f92f66411a812200",
+    "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+    "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-19T15:18:07.000Z",
+    "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\n\nThe release of the patch follows an a",
+    "cveIds": [
+      "CVE-2026-115560"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "5f26a746749acf70",
+    "title": "European Commission confirms cyberattack, says hackers used AI tool",
+    "link": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-19T15:15:00.000Z",
+    "summary": "POLITICO had reported CERT-EU had identified the attackers’ use of ARTEX, an open-source AI hacking platform that the FBI last week warned was being used both by criminals and state-sponsored groups.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7008c485fa38b4e8",
+    "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+    "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-19T15:11:06.000Z",
+    "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.\n\nFixed versions are out for all suppo",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "75044bab3e7303d3",
+    "title": "Five warning signs of ransomware breach before encryption or data theft",
+    "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-19T15:00:10.000Z",
+    "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain mal",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7cc3b724b66a2eb4",
+    "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-19T14:57:24.000Z",
+    "summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root acce",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "6e1cc48f217d3df0",
+    "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+    "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-19T14:33:06.000Z",
+    "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.\n\nThat can lead to a site takeover or remote code execution, and",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "abef5657ebf43b0e",
+    "title": "Nvidia Responds to Gentlemen Ransomware Claim",
+    "link": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-19T14:17:32.000Z",
+    "summary": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim.\nThe post Nvidia Responds to Gentlemen Ransomware Claim appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4f4f9e0dd0e068bb",
+    "title": "Why Holiday Security Can't Wait for Black Friday",
+    "link": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-19T14:00:00.000Z",
+    "summary": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "049017878e9b91ce",
+    "title": "Ukraine exposes ransomware network extorting US oil, healthcare firms",
+    "link": "https://therecord.media/ukraine-ransomware-arrests-cyber",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-19T13:30:00.000Z",
+    "summary": "Ukrainian authorities arrested four suspected members of an international ransomware network accused of extorting more than $40 million from companies around the world.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "5e668a30271b8ef2",
+    "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+    "link": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-19T13:12:20.000Z",
+    "summary": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement.\nThe post Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "df5a560c1b8f6ae7",
+    "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+    "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-19T13:08:08.000Z",
+    "summary": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "b7f6d70bce9069e8",
+    "title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
+    "link": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-19T12:23:34.000Z",
+    "summary": "The company will use the funds to accelerate the development and distribution of its security platform.\nThe post StepSecurity Secures $20 Million to Expand Supply Chain Protection appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d02f8572d5f1ee4d",
+    "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
+    "link": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-19T12:13:24.000Z",
+    "summary": "Attackers are targeting Confluence Data Center through an Axis flaw and Apache is warning of attacks against Roller.\nThe post Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "4fc5c33492cc1356",
+    "title": "The Governance Gap in Open-Weight AI and What to Do About It",
+    "link": "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-19T12:00:00.000Z",
+    "summary": "Lower costs, data privacy, and greater control are driving open-weight AI adoption, but many organizations are not addressing the risks that come with it.\nThe post The Governance Gap in Open-Weight AI and What to Do About It appeared first ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "73e981a448216743",
+    "title": "Elecbrakes EB2, VM1, ELBC2000",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-19T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safe",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "3f6682cf94420c03",
+    "title": "libumqtt",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-19T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure.\nThe following versions of libumqtt are affected:\nlibumqtt <=1.1.1 (CVE",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7f8f338723412135",
+    "title": "Autonomy Logic OpenPLC Runtime",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-19T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created.\nThe following versions of Autonomy Logic OpenPLC Runtime are affected:\nOpenPLC Runtime <=4.2.4 (CVE-2026-12608",
+    "cveIds": [
+      "CVE-2026-12608"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "193208e89084b673",
+    "title": "Everything Is a Web Application, Including Your Firewall",
+    "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-19T11:52:23.000Z",
+    "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management inte",
+    "cveIds": [
+      "CVE-2026-109618",
+      "CVE-2026-109619"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "937f390d6b182cf8",
+    "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-19T11:46:00.000Z",
+    "summary": "Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "2aa6fa29c77afd23",
     "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
     "link": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
@@ -105,7 +442,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-11-19T08:00:00.000Z",
-    "summary": "Nigeria faced more than double the cyber threats of the previous year, with Angola and Kenya also in the top-5 most attacked countries globally.",
+    "summary": "Nigeria faced more than double the cyber threats of the previous year, with Angola and Kenya also in the top 5 most-attacked countries globally.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -184,7 +521,7 @@
     "source": "Dark Reading",
     "category": "news",
     "pubDate": "2026-11-18T21:59:46.000Z",
-    "summary": "The Russia-linked threat group is using data stolen from one victim to target others via convincing impersonations and social engineering attacks.",
+    "summary": "The state-sponsored threat group is using data stolen from one victim to target others via convincing impersonations and social engineering attacks.",
     "cveIds": [],
     "severity": "critical"
   },
@@ -479,17 +816,6 @@
     "severity": "normal"
   },
   {
-    "id": "2df0fcea5ad6b106",
-    "title": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
-    "link": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-18T12:00:00.000Z",
-    "summary": "Patti Degnan’s identity was stolen in 2006. It set her on a path to the CISO seat at endpoint security firm Glow.\nThe post CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "122413bd849f4f44",
     "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
@@ -501,6 +827,17 @@
       "CVE-2024-10441"
     ],
     "severity": "cve"
+  },
+  {
+    "id": "2df0fcea5ad6b106",
+    "title": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
+    "link": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-18T12:00:00.000Z",
+    "summary": "Patti Degnan’s identity was stolen in 2006. It set her on a path to the CISO seat at endpoint security firm Glow.\nThe post CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "223101d573500516",
@@ -751,6 +1088,61 @@
     "summary": "In breach notification letters, the rideshare company said it was notified by a third party service provider on October 9 that internal credentials were stolen and used to access Uber’s account.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "5273edc1cd657843",
+    "title": "Multiples vulnérabilités dans les produits Tenable (18 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1556/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "222e2922945c5fe0",
+    "title": "Multiples vulnérabilités dans Netgate pfSense (18 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1557/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Netgate pfSense. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b52d21e2880ab589",
+    "title": "Vulnérabilité dans FreeBSD (18 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1558/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-18T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans FreeBSD. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et un déni de service.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "681408b24b9ebc48",
+    "title": "Multiples vulnérabilités dans Google Chrome (18 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1559/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e12247e2b4ea3036",
+    "title": "Multiples vulnérabilités dans Mozilla Firefox (18 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1560/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-18T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Firefox. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "c36817af9a4b18e2",
@@ -1142,13 +1534,13 @@
     "severity": "normal"
   },
   {
-    "id": "a0f483dd422adb0a",
-    "title": "Siemens ROS#",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+    "id": "51d812581aa517bc",
+    "title": "Siemens Simcenter Femap",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-11-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens",
+    "summary": "View CSAF\nSummary\nSimcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Si",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1212,13 +1604,13 @@
     "severity": "critical"
   },
   {
-    "id": "51d812581aa517bc",
-    "title": "Siemens Simcenter Femap",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+    "id": "a0f483dd422adb0a",
+    "title": "Siemens ROS#",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-11-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSimcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Si",
+    "summary": "View CSAF\nSummary\nROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1247,17 +1639,6 @@
     "severity": "critical"
   },
   {
-    "id": "d08071d08cf172f7",
-    "title": "Siemens RUGGEDCOM APE1808",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-11-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nFortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "f49e9f798bfe645f",
     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -1271,6 +1652,17 @@
     "severity": "cve"
   },
   {
+    "id": "21dc163c1f757f4d",
+    "title": "Siemens meta-iot2050",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-17T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nmeta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "d4620a114430c7d2",
     "title": "Siemens SIMATIC WinCC",
     "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
@@ -1282,13 +1674,13 @@
     "severity": "normal"
   },
   {
-    "id": "21dc163c1f757f4d",
-    "title": "Siemens meta-iot2050",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+    "id": "d08071d08cf172f7",
+    "title": "Siemens RUGGEDCOM APE1808",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-11-17T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nmeta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to ",
+    "summary": "View CSAF\nSummary\nFortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1465,6 +1857,94 @@
     "category": "advisory",
     "pubDate": "2026-11-17T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Mitel MiCollab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidential",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "2f3a12e8cddb4a39",
+    "title": "Vulnérabilité dans GLPI (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1548/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-17T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans GLPI. Elle permet à un attaquant de provoquer une atteinte à l'intégrité des données.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "682364e58027369e",
+    "title": "Vulnérabilité dans Axis OS (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1549/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-17T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Axis OS. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d6b7664b89428afd",
+    "title": "Multiples vulnérabilités dans Tenable Identity Exposure (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1550/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Identity Exposure. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cbabf9def069fad0",
+    "title": "Vulnérabilité dans Juniper Networks Junos OS Evolved (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1551/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-17T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Juniper Networks Junos OS Evolved. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "691d3a31b0131198",
+    "title": "Multiples vulnérabilités dans GitLab (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1552/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une falsification de requêtes côté s",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ff27d1bc4d8dc0c8",
+    "title": "Multiples vulnérabilités dans Typo3 (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1553/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Typo3. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des d",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "c6314557a39083c5",
+    "title": "Multiples vulnérabilités dans OpenSSL (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1554/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "24276bc349e1928b",
+    "title": "Multiples vulnérabilités dans Microsoft SharePoint (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1555/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-17T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft SharePoint. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -1947,39 +2427,6 @@
     "severity": "normal"
   },
   {
-    "id": "334529eb2beac7c1",
-    "title": "Multiples vulnérabilités dans Kerberos (16 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1540/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Kerberos. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité de",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ac8863de848c009e",
-    "title": "Vulnérabilité dans Git (16 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1541/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-16T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Git. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8159304bc48c3bd3",
-    "title": "Multiples vulnérabilités dans les produits Trend Micro (16 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1542/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Trend Micro. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la conf",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "224b062c302e4e75",
     "title": "Vulnérabilité dans VMware Tanzu (16 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1543/",
@@ -2020,6 +2467,39 @@
     "category": "advisory",
     "pubDate": "2026-11-16T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "334529eb2beac7c1",
+    "title": "Multiples vulnérabilités dans Kerberos (16 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1540/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Kerberos. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité de",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ac8863de848c009e",
+    "title": "Vulnérabilité dans Git (16 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1541/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-16T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Git. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "8159304bc48c3bd3",
+    "title": "Multiples vulnérabilités dans les produits Trend Micro (16 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1542/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-16T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Trend Micro. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la conf",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2874,413 +3354,5 @@
     "summary": "Microsoft says failed server health checks disrupted Outlook and other Microsoft 365 services. The company is still investigating the cause and has disclosed no evidence of a cyberattack.\nThe post Microsoft 365 Outage Disrupts Outlook, Exch",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "fd416d58448acaf0",
-    "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-12T20:15:16.000Z",
-    "summary": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "43b2bb31ce77af50",
-    "title": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
-    "link": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-12T20:09:41.000Z",
-    "summary": "The cybercriminals are retargeting law firms that refused to pay its first ransom, with a social engineering con aimed at stealing Microsoft access tokens.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5e7c3d53ea737937",
-    "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-    "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-12T19:51:16.000Z",
-    "summary": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "bb48d6f8868d0053",
-    "title": "United to block customers from using AI agents, citing cyber threats",
-    "link": "https://therecord.media/united-airlines-to-block-customers-using-ai-agents",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-12T19:20:00.000Z",
-    "summary": "“Sharing account credentials with personal, third-party, AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases\" and more, United Airlines said.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fac8887887ba8ddd",
-    "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-12T19:12:55.000Z",
-    "summary": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4b0b066cf2183599",
-    "title": "Never be afraid to ask questions",
-    "link": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-11-12T19:00:00.000Z",
-    "summary": "Amy reflects on a formative college anthropology course that taught her the power of asking questions to bridge cultural gaps.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2559f20953506e5d",
-    "title": "Shipping giant Maersk says recent cyber incident affected legacy system",
-    "link": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-12T18:28:00.000Z",
-    "summary": "The incident is the latest in a string of attacks on ports and other shipping organizations worldwide, with Brazil’s largest port hit with ransomware last week.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "950205e16691a515",
-    "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
-    "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-12T18:07:15.000Z",
-    "summary": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access?\n\nA suspicious login mig",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0215fb6873aed2b7",
-    "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
-    "link": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-12T18:02:51.000Z",
-    "summary": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right the",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1acaa8e77a2e5854",
-    "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-    "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-12T17:50:27.000Z",
-    "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver.\n\nThe proof of concept, called SignDrop, targets a log-authentication feature added to the ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "a9b2747b83a3e347",
-    "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-11-12T17:00:00.000Z",
-    "summary": "Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities.\nThe post Trained to betray: How post-training supply chain attack",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "093b008afb96e695",
-    "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
-    "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-12T16:27:01.000Z",
-    "summary": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository.\n\nQuay enables anonymous access by default, and while it is enabled, the attacker needs no ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "023264eb01e1c2b6",
-    "title": "European authorities take down SteaIC malware servers for second time this year",
-    "link": "https://therecord.media/european-authorities-take-down-stealic-malware-second-time",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-12T16:21:00.000Z",
-    "summary": "German authorities on Thursday said investigators traced the rebuilt network to the  Virtualine bulletproof hosting provider, seized by the FBI in October, with the assistance of police in Frankfurt and the Dutch National High Tech Crime Un",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7968b43f44c2e8e1",
-    "title": "ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations",
-    "link": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-12T16:16:00.000Z",
-    "summary": "Abuse of an independent third-party tool led to breaches at ScreenConnect customers, confirmed the software's maker, ConnectWise. Cybersecurity researchers had spotted intrusions at nearly 50.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ad9757975fce9e1b",
-    "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
-    "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-12T16:04:00.000Z",
-    "summary": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c398aa3e92265ca6",
-    "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-    "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-12T15:38:49.000Z",
-    "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass.\n\nThe critical vulnerabilities ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "16b72427cf58165b",
-    "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
-    "link": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-12T15:38:31.000Z",
-    "summary": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled.\nThe post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-119618"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "50b7d482cfd778ee",
-    "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
-    "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-12T15:15:40.000Z",
-    "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches.\n\nThis",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "62ff99ae778bcb02",
-    "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-    "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-12T15:07:20.000Z",
-    "summary": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1857708e01dda10e",
-    "title": "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors",
-    "link": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/",
-    "source": "Palo Alto Unit 42",
-    "category": "vendor",
-    "pubDate": "2026-11-12T15:00:31.000Z",
-    "summary": "Our analysis of how attackers used the open-source Cairn AI agent framework to autonomously breach semiconductor, defense and civic targets.\nThe post Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors app",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "28ab9a11f8377371",
-    "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
-    "link": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-12T15:00:10.000Z",
-    "summary": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled cryptographic authorization ca",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "504c4dbc535ba4c5",
-    "title": "Hijacked email accounts complicate investigations into European bomb hoaxes",
-    "link": "https://therecord.media/europe-hoax-email-threats",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-12T14:45:00.000Z",
-    "summary": "Bomb threats sent to thousands of schools across Europe this week came from a compromised email account at a Taiwanese university, the latest incident in a series of hoax threats that have targeted airports and newsrooms using messages sent",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "7927f7b9de97b7ad",
-    "title": "Apify rotates API tokens, prompts 2FA resets after breach",
-    "link": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-12T14:36:47.000Z",
-    "summary": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "116311b702141149",
-    "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
-    "link": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-12T13:42:09.000Z",
-    "summary": "Google fixed 83 flaws with a new Chrome 157 release, and Mozilla addressed 99 bugs in Firefox 160.\nThe post Chrome, Firefox Updates Patch Over 180 Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "7139bcf40a7d0eda",
-    "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
-    "link": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-12T13:39:03.000Z",
-    "summary": "Using thousands of hijacked accounts, the wfx-loot campaign planted a CI secret stealer that ran in over 1,800 GitHub repositories.\nThe post Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign appeared first on Security",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0ea3d75301ac0136",
-    "title": "Daylight Lands $80 Million for AI-Powered Security Operations",
-    "link": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-12T13:12:11.000Z",
-    "summary": "The company plans to accelerate product development, hire new talent, expand its US presence, and enter new markets.\nThe post Daylight Lands $80 Million for AI-Powered Security Operations appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "daa356fef18a497b",
-    "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-    "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-12T13:08:28.000Z",
-    "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged.\n\nBlackpoint Cyber's Adversary",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "00c8c05e542b9aad",
-    "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-12T12:11:11.000Z",
-    "summary": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability issues. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5af74d5ce665225d",
-    "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-    "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-12T12:09:14.000Z",
-    "summary": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week.\n\nThe company has already applied mitigations against attacks between VMs, and between VMs",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3fc70062a296fc32",
-    "title": "Siemens Desigo, Gridscale",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-11-12T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nOn October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vuln",
-    "cveIds": [
-      "CVE-2026-111497"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "0326dcbca7c7fa26",
-    "title": "Siemens Industrial Edge Management",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-11-12T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSiemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action is required. Althoug",
-    "cveIds": [
-      "CVE-2026-111497"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "0b6d9bcd8811c95a",
-    "title": "Siemens Building Automation and Energy Products",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-11-12T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nOn October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 ",
-    "cveIds": [
-      "CVE-2026-109618"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "6b1c381ae9eb3b48",
-    "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
-    "link": "https://isc.sans.edu/diary/rss/33514",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-11-12T11:56:24.000Z",
-    "summary": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior ",
-    "cveIds": [
-      "CVE-2026-102895"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "4fb3f4a554eb775b",
-    "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-    "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-12T11:51:43.000Z",
-    "summary": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2.\n\n\"Based on our initial review, the server issue described d",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f7cf57082e209fd8",
-    "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-    "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-12T11:51:31.000Z",
-    "summary": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose.\n\nThe Threat R",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "988b46d175c69a81",
-    "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-    "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-12T11:33:15.000Z",
-    "summary": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution.\n\nThe security flaw, tracked as CVE-2026-126325, carries a CVSS v4 sco",
-    "cveIds": [
-      "CVE-2026-126325"
-    ],
-    "severity": "critical"
   }
 ]
