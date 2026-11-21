@@ -1,5 +1,60 @@
 [
   {
+    "id": "93138fbb4db250e2",
+    "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+    "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+    "source": "Krebs on Security",
+    "category": "news",
+    "pubDate": "2026-11-21T00:36:39.000Z",
+    "summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ec3643e6e571f139",
+    "title": "Dialing for Data: Inside the Com’s High-Profile Heists",
+    "link": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-11-20T22:00:25.000Z",
+    "summary": "Our analysis of Com affiliate vishing attacks, cloud data theft and extortion campaigns targeting healthcare and finance, with actionable defense guidance.\nThe post Dialing for Data: Inside the Com’s High-Profile Heists appeared first on Un",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f0b8696c25c4c4a7",
+    "title": "West Virginia Legislature hit with cyber incident affecting IT systems",
+    "link": "https://therecord.media/west-virginia-legislature-cyberattack",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-20T21:34:36.000Z",
+    "summary": "A cybersecurity incident that began Thursday was still ongoing Friday in the West Virginia Legislature. A spokesperson said the disruption did not spread to other government entities.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a9aa37ceddf16814",
+    "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-20T21:03:27.000Z",
+    "summary": "During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "e010061a1eb7f0ca",
+    "title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
+    "link": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-20T20:25:00.000Z",
+    "summary": "An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "edfeced150c6a6c3",
     "title": "Container Store restores systems after cyberattack",
     "link": "https://therecord.media/container-store-restores-systems-cyberattack",
@@ -3300,72 +3355,6 @@
     "category": "news",
     "pubDate": "2026-11-14T08:40:22.000Z",
     "summary": "Officials say there is no evidence of a cyberattack behind the nationwide FAA outage, which may have been caused by a software update.\nThe post No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update appeared first o",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2cf87a19124d5e79",
-    "title": "As Test Takers Turn to AI, Exam Security Plays Catch-Up",
-    "link": "https://www.darkreading.com/cybersecurity-operations/test-takers-ai-exam-security-catch-up",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-13T22:27:00.000Z",
-    "summary": "It's hard to detect whether someone is using artificial intelligence to cheat on IT certification exams, but new tools and processes are emerging to boost trust.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "11d7cc16194db7a1",
-    "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
-    "link": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-13T21:33:27.000Z",
-    "summary": "Federal officials have yet to say what caused the communications disruption or whether they are investigating a possible cyberattack.\nThe post FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’ appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f0f23fdb08d7bf54",
-    "title": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
-    "link": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-13T21:32:00.000Z",
-    "summary": "Open source hacking tool Artex \"significantly reduces the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours,\" the FBI said.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "78498214505c5f31",
-    "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/",
-    "source": "Microsoft Security Blog",
-    "category": "vendor",
-    "pubDate": "2026-11-13T21:31:44.000Z",
-    "summary": "SCKit abuses ScreenConnect to deploy unauthorized remote access and target technicians. Explore the attack chain, mitigations, and Microsoft Defender XDR hunting.\nThe post SCKit abuses ScreenConnect to deploy remote access and target techni",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3c3eab5ceb3d840c",
-    "title": "ARTEX and beyond: AI-enabled penetration testing platforms",
-    "link": "https://blog.talosintelligence.com/artex-and-beyond/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-11-13T20:57:13.000Z",
-    "summary": "AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions, lowering the skill threshold for attackers and accelerating intrusions when the tools are misused.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e12779d5806a7d26",
-    "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
-    "link": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-13T20:20:27.000Z",
-    "summary": "The Android malware has expanded from focusing on cryptocurrency theft to full device control, and the attackers have added advanced analysis of stolen information.",
     "cveIds": [],
     "severity": "normal"
   }
