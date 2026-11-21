@@ -1,5 +1,27 @@
 [
   {
+    "id": "9da47b8efcbbfaa0",
+    "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+    "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-21T08:49:20.000Z",
+    "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\"\n\nThe feature applies to a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a3eac34b29cf4ec4",
+    "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-21T08:49:13.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence ",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "93138fbb4db250e2",
     "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
     "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
@@ -94,7 +116,7 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-11-20T17:57:20.000Z",
-    "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages.\n\nThe vulnerability, tracked as CVE-2026-23871, has been described",
+    "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages.\n\nThe vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), ",
     "cveIds": [
       "CVE-2026-23871"
     ],
@@ -952,17 +974,6 @@
     "severity": "normal"
   },
   {
-    "id": "7b2c191d75301f2a",
-    "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-    "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-19T08:00:00.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture ",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
     "id": "59d3b792db480830",
     "title": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge",
     "link": "https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge",
@@ -972,6 +983,17 @@
     "summary": "Nigeria faced more than double the cyber threats of the previous year, with Angola and Kenya also in the top 5 most-attacked countries globally.",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "7b2c191d75301f2a",
+    "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+    "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-19T08:00:00.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture ",
+    "cveIds": [],
+    "severity": "critical"
   },
   {
     "id": "e2e32d524f45d098",
@@ -3344,17 +3366,6 @@
     "category": "news",
     "pubDate": "2026-11-14T11:00:00.000Z",
     "summary": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones.\nThe post Apple Reveals How Secure Exclaves Shield Camera and Microphone Data appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9cdb1de4d4867300",
-    "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
-    "link": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-14T08:40:22.000Z",
-    "summary": "Officials say there is no evidence of a cyberattack behind the nationwide FAA outage, which may have been caused by a software update.\nThe post No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update appeared first o",
     "cveIds": [],
     "severity": "normal"
   }
