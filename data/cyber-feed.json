@@ -1,5 +1,27 @@
 [
   {
+    "id": "78074d39dfa2deb1",
+    "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+    "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-22T05:06:55.000Z",
+    "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\n\nSome of the stolen requests were flagged as Zero ",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "0be8ff22df4a77bf",
+    "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+    "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-22T05:03:41.000Z",
+    "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.\n\nGhostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScr",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "aeb7ef21f8ed11a6",
     "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
     "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
@@ -53,6 +75,17 @@
     "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement age",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "45e8d2f82c3e3e03",
+    "title": "President Trump Taps Kirsten Davies as National Cyber Director",
+    "link": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-21T13:00:00.000Z",
+    "summary": "White House says the battle-tested cyber leader will drive an America First cyber strategy.\nThe post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "6231e48f3bee97e2",
@@ -3390,16 +3423,5 @@
     "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.\n\nThe Garante, Italy's data protection authority, found that the feature was ena",
     "cveIds": [],
     "severity": "normal"
-  },
-  {
-    "id": "960f41318ea903dd",
-    "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-    "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-15T08:22:04.000Z",
-    "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.\n\n\"An attacker obtained an access ke",
-    "cveIds": [],
-    "severity": "critical"
   }
 ]
