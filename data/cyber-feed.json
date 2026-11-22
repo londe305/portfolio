@@ -1,5 +1,49 @@
 [
   {
+    "id": "e84afceb005f0d48",
+    "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-22T18:45:37.000Z",
+    "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving rem",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f6ee8bdc262f5053",
+    "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
+    "link": "https://isc.sans.edu/diary/rss/33530",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-22T18:40:18.000Z",
+    "summary": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "855a50efe0f3bb9d",
+    "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+    "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-22T15:43:04.000Z",
+    "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2361e0929a29e0d7",
+    "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+    "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-22T15:15:25.000Z",
+    "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "78074d39dfa2deb1",
     "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
     "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
@@ -3366,61 +3410,6 @@
     "category": "advisory",
     "pubDate": "2026-11-16T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans les produits Trend Micro. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la conf",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4201db3ac6828cb2",
-    "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-15T18:29:53.000Z",
-    "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 c",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "989c0561410e90b3",
-    "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
-    "link": "https://isc.sans.edu/diary/rss/33496",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-11-15T18:17:27.000Z",
-    "summary": "YARA-X&#;x26;#;39;s 1.23.0 release brings 4 improvements and 16 bugfixes.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bbb8a67270856461",
-    "title": "TSMC employee data breach linked to cloud provider",
-    "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-15T15:23:48.000Z",
-    "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c8b26857299e57fb",
-    "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
-    "link": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-15T12:51:33.000Z",
-    "summary": "The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications.\nThe post Pentagon Renames CDAO ‘Super Intelligence Office’ appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "04c1c102f5a737e8",
-    "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-    "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-15T11:27:31.000Z",
-    "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.\n\nThe Garante, Italy's data protection authority, found that the feature was ena",
     "cveIds": [],
     "severity": "normal"
   }
