@@ -433,6 +433,17 @@
     "severity": "critical"
   },
   {
+    "id": "d5ce378b68b4fc31",
+    "title": "Microsoft Debuts Offensive, Defensive Security Tools for the AI Era",
+    "link": "https://www.darkreading.com/endpoint-security/microsoft-offense-defense-ai-security-tools",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-20T13:51:30.000Z",
+    "summary": "Microsoft announces new AI agent security tools and transparency standards to protect enterprise systems at its Ignite technical conference.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "d9a325150570d699",
     "title": "N-able says recent security breach led to major service outage",
     "link": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
@@ -3333,83 +3344,6 @@
     "category": "advisory",
     "pubDate": "2026-11-16T02:00:05.000Z",
     "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "224b062c302e4e75",
-    "title": "Vulnérabilité dans VMware Tanzu (16 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1543/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-16T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans VMware Tanzu. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bfc5c9b2a1f05716",
-    "title": "Multiples vulnérabilités dans MongoDB (16 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1544/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et un contournement de l",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ffda445f28702622",
-    "title": "Vulnérabilité dans Citrix App Layering (16 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1545/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-16T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Citrix App Layering. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2ab6dacaa257a57a",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (16 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1546/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "334529eb2beac7c1",
-    "title": "Multiples vulnérabilités dans Kerberos (16 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1540/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Kerberos. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité de",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ac8863de848c009e",
-    "title": "Vulnérabilité dans Git (16 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1541/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-16T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans Git. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8159304bc48c3bd3",
-    "title": "Multiples vulnérabilités dans les produits Trend Micro (16 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1542/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-16T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Trend Micro. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la conf",
     "cveIds": [],
     "severity": "normal"
   }
