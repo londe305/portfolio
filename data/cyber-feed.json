@@ -1,5 +1,126 @@
 [
   {
+    "id": "50b8b790f8a4be80",
+    "title": "Oh, is it Thanksgiving? I hadn’t noticed!",
+    "link": "https://blog.talosintelligence.com/oh-is-it-thanksgiving-i-hadnt-noticed/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-11-25T19:00:00.000Z",
+    "summary": "In true Thanksgiving fashion, David has a few thank-yous to give to the cybersecurity community (and a few choice words for threat actors).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4fcf01c31362b2a5",
+    "title": "Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms",
+    "link": "https://therecord.media/ransomware-doj-indictment-recovery",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-25T17:30:00.000Z",
+    "summary": "The CEO of a ransomware recovery firm was indicted by a federal grand jury over allegations he lied about his services and paid out ransoms to cybercriminals.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "2bc53ab48fabfa98",
+    "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-email-security/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-11-25T17:15:00.000Z",
+    "summary": "We're honored to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security, for the second consecutive year.\nThe post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Securit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b93540ef2a5b4c4c",
+    "title": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
+    "link": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-25T17:07:00.000Z",
+    "summary": "The Digital Duty of Care Act sailed through Australia's Parliament. It will mandate that online providers establish protocols to protect users from threats of violence and rape as well as behavior that could cause significant harms.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "97df8d95478773eb",
+    "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-25T16:13:40.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "75d3be5138a98021",
+    "title": "Attackers Target .NET Developers With Poisoned Job Assessments",
+    "link": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-25T15:48:04.000Z",
+    "summary": "Researchers discovered 13 malicious NuGet packages as part of a fake recruitment campaign that spreads malware and gives attackers access to developers' machines.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b2ec86257c9b955b",
+    "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+    "link": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-25T15:27:36.000Z",
+    "summary": "Attackers are probing GeoServer instances for two high-severity flaws that can be chained with other bugs for unauthenticated RCE.\nThe post Two Newly Disclosed GeoServer Vulnerabilities Under Attack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5265d3f089dfd72e",
+    "title": "It's a Bot World. We're Just Living in It",
+    "link": "https://www.darkreading.com/cyber-risk/bot-world-just-living",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-25T15:20:27.000Z",
+    "summary": "Bot detection has become a losing game. Security teams need to limit privileged access for humans and their machine counterparts equally.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "a3b682ce25929f59",
+    "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+    "link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-25T15:00:10.000Z",
+    "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitiv",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "cf58cd9a4a424f82",
+    "title": "The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense",
+    "link": "https://unit42.paloaltonetworks.com/ai-threat-horizon/",
+    "source": "Palo Alto Unit 42",
+    "category": "vendor",
+    "pubDate": "2026-11-25T15:00:09.000Z",
+    "summary": "Unit 42 examines the evolution of AI-driven cyberattacks and outlines proactive defense strategies for security teams.\nThe post The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense appeared first on Unit 42.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5d8223f882df7625",
+    "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+    "link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-25T15:00:00.000Z",
+    "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "57a9de6dd6412718",
     "title": "Cyber Insurers See New Divide: AI Defense 'Haves' &amp; 'Have Nots'",
     "link": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
@@ -7,6 +128,242 @@
     "category": "news",
     "pubDate": "2026-11-25T15:00:00.000Z",
     "summary": "Dark Reading Confidential Episode 23: Cyber insurers share their view of the AI-driven threat landscape and how mounting challenges are putting pressure on both sides of the policy, leaving the current model unsustainable.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "e13089d7b52c9b0a",
+    "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
+    "link": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-25T14:15:25.000Z",
+    "summary": "An account tied to ShinyHunters announced the group’s return, as Okta spots possible links between Inception and ShinyHunters hackers.\nThe post ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties appeared first on Securit",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7c0a3009349718ce",
+    "title": "Latin America Sees Cyberattacks on Ports, Pipelines &amp; Manufacturing",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-25T14:00:00.000Z",
+    "summary": "From the Port of Santos in Brazil to a pipeline in Argentina, cyberattacks are increasingly affecting industrial systems throughout the region.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "bb4d635f16b764f2",
+    "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
+    "link": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-25T13:39:21.000Z",
+    "summary": "FinCEN has extended deadlines for filers affected by the disruptions while it is investigating the incident.\nThe post US Treasury’s FinCEN Disconnects Systems Following Cyber Incident appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5aac1dca0d010c41",
+    "title": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
+    "link": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-25T13:30:00.000Z",
+    "summary": "Matthew Martin is Chief Information Security and Privacy Officer at Western Carolina University.\nThe post Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fa1f50764b02803d",
+    "title": "Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital",
+    "link": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-25T13:30:00.000Z",
+    "summary": "France’s national cybersecurity agency is investigating a suspected ransomware attack that impaired the computer systems of the University Hospital of Guadeloupe, forcing doctors to postpone surgeries, suspend some cancer treatments and rev",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "92db407f26f0f4fe",
+    "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-25T12:48:54.000Z",
+    "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr.\n\nThe vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below -\n\n\n  CVE-2026-120705 (CVSS sc",
+    "cveIds": [
+      "CVE-2026-120705",
+      "CVE-2026-129243"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "851806c24f2db9ae",
+    "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+    "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-25T12:30:08.000Z",
+    "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6a8ceb0f7d1b2b64",
+    "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+    "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-25T11:51:48.000Z",
+    "summary": "TL;DR\n\n\n  More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break.\n  Validity-only",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d52cc031d711c026",
+    "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+    "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-25T11:23:26.000Z",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026.\n\nTh",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bd8fc62460121290",
+    "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-25T11:16:32.000Z",
+    "summary": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d0e888ada6d9aed9",
+    "title": "The Great Escape: Tradecraft insights from an agentic swarm",
+    "link": "https://blog.talosintelligence.com/the-great-escape-tradecraft-insights-from-an-agentic-swarm/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-11-25T11:00:00.000Z",
+    "summary": "The OpenAI-linked swarm activity in 2026 is fully traceable through public records. This blog analyzes its tradecraft and compares it to early signals and behaviors from current agentic attack activity seen in the wild.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7194980f82683f60",
+    "title": "Securing Grandma's groceries with Pierre Cadieux",
+    "link": "https://blog.talosintelligence.com/securing-grandmas-groceries-with-pierre-cadieux/",
+    "source": "Cisco Talos",
+    "category": "vendor",
+    "pubDate": "2026-11-25T11:00:00.000Z",
+    "summary": "Pierre takes us back to his early days on help desks in the 90s, where learning to correlate logs between Windows and Unix systems sparked the curiosity that eventually led him to security.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3885183f32787fc7",
+    "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+    "link": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-25T10:43:07.000Z",
+    "summary": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday.\n\nAbdulrahman A",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7d08c2d9b473a589",
+    "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
+    "link": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-25T10:40:07.000Z",
+    "summary": "The edtech company says the systems are fully operational and safe to use while it investigates the incident.\nThe post Plagiarism Checker Turnitin Investigating Cyberattack appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "44ee8f3c74836845",
+    "title": "Treasury's FinCEN takes systems offline after cybersecurity incident",
+    "link": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-25T10:15:00.000Z",
+    "summary": "The Treasury Department has taken some systems offline after a cybersecurity incident that “resulted in unauthorized access to a limited subset of its systems.”",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "7bb089ac45e5adb8",
+    "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-25T10:10:20.000Z",
+    "summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "916629091cfddbe4",
+    "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+    "link": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-25T09:06:59.000Z",
+    "summary": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from.\n\nThe flaw used in the attack had been in the registry's code sinc",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "45c257ac25c83e05",
+    "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+    "link": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-25T09:05:13.000Z",
+    "summary": "Attackers can exploit CVE-2026-131914 to achieve remote code execution via a single web request containing specially crafted data.\nThe post Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library appeared first on SecurityWeek.",
+    "cveIds": [
+      "CVE-2026-131914"
+    ],
+    "severity": "cve"
+  },
+  {
+    "id": "00f16364aca5121d",
+    "title": "Microsoft confirms authentication issues after November updates",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-25T09:02:57.000Z",
+    "summary": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "6a20b92f56aabfac",
+    "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+    "link": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-25T08:12:24.000Z",
+    "summary": "A China-linked hacking group chained PHP2Shell with Fragnesia in AI-assisted attacks that hit 25 servers.\nThe post Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "f44f10d640ae762a",
+    "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+    "link": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-25T08:01:06.000Z",
+    "summary": "CISA has added the vulnerability to its KEV catalog and instructed federal agencies to patch it within three days. \nThe post Drupal Flaw Found by Anthropic Scanner Exploited in Attacks appeared first on SecurityWeek.",
     "cveIds": [],
     "severity": "normal"
   },
@@ -264,6 +621,17 @@
     "summary": "Some donors to the Carnegie Endowment for International Peace had their information leaked due to a cyberattack on a third-party vendor named Soapbox Engage.",
     "cveIds": [],
     "severity": "critical"
+  },
+  {
+    "id": "53b9a53ef0e17be9",
+    "title": "How Southeastern University Got a Handle on Its Data",
+    "link": "https://www.darkreading.com/cybersecurity-operations/how-southeastern-university-handle-data",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-24T15:46:46.000Z",
+    "summary": "Data security posture management (DSPM) allowed the university to uncover sensitive information, tighten access controls, and lay the groundwork for safer AI adoption.",
+    "cveIds": [],
+    "severity": "normal"
   },
   {
     "id": "1f75de46df5160e7",
@@ -1039,6 +1407,50 @@
     "severity": "normal"
   },
   {
+    "id": "bbdebeb656ab5224",
+    "title": "Multiples vulnérabilités dans SPIP (23 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1599/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et une injection de requêtes illégitimes par rebond (CSRF).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3f5d91dacf89c80b",
+    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (23 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1600/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4e95a7a545023af7",
+    "title": "Vulnérabilité dans Laravel (23 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1601/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-23T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "9d0380ff58d05fbc",
+    "title": "Multiples vulnérabilités dans Roundcube Webmail (23 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1602/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-23T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube Webmail. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confident",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e84afceb005f0d48",
     "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
@@ -1731,39 +2143,6 @@
     "severity": "critical"
   },
   {
-    "id": "ce0f204eed681717",
-    "title": "Multiples vulnérabilités dans Moodle (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1581/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-20T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Moodle. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "773441edca2c2b03",
-    "title": "Multiples vulnérabilités dans les produits Citrix (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1582/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-20T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ce90111d6f798b7d",
-    "title": "Multiples vulnérabilités dans Tenable Security Center  (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1583/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-20T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Security Center. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un contournement de la pol",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "3aca047f6328f262",
     "title": "Vulnérabilité dans les produits Palo Alto Networks (20 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1584/",
@@ -1881,6 +2260,83 @@
     "category": "advisory",
     "pubDate": "2026-11-20T00:00:00.000Z",
     "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3fea43a85e2c41af",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (20 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1596/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-20T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à l'intégrité des données et un déni de service.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3c0a19488796dbf9",
+    "title": "Multiples vulnérabilités dans les produits IBM (20 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1597/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-20T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "4750bf0bdbb85fb6",
+    "title": "Multiples vulnérabilités dans les produits VMware (20 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1598/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-20T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une injection SQL (SQLi). G",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "b389d7640e0de1ea",
+    "title": "Vulnérabilité dans KeyCloak (20 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1586/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-20T00:00:00.000Z",
+    "summary": "Une vulnérabilité a été découverte dans KeyCloak. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ce0f204eed681717",
+    "title": "Multiples vulnérabilités dans Moodle (20 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1581/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-20T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Moodle. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "773441edca2c2b03",
+    "title": "Multiples vulnérabilités dans les produits Citrix (20 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1582/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-20T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "ce90111d6f798b7d",
+    "title": "Multiples vulnérabilités dans Tenable Security Center  (20 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1583/",
+    "source": "CERT-FR (avis)",
+    "category": "advisory",
+    "pubDate": "2026-11-20T00:00:00.000Z",
+    "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Security Center. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un contournement de la pol",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2695,389 +3151,5 @@
     "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
     "cveIds": [],
     "severity": "critical"
-  },
-  {
-    "id": "1336631baf90a7a0",
-    "title": "Lawmakers call on White House to develop defensive AI cyber systems",
-    "link": "https://therecord.media/ai-cyber-white-house",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-18T19:00:00.000Z",
-    "summary": "A bipartisan Senate duo urged the White House to launch a national effort to more robustly confront AI-enabled cyber threats in light of recent security incidents involving artificial intelligence.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fb8b318a049ee574",
-    "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-    "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-18T18:31:17.000Z",
-    "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in.\n\nThe decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since ver",
-    "cveIds": [
-      "CVE-2026-123007"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "11aa6bef2bfb9ae2",
-    "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
-    "link": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-18T18:15:39.000Z",
-    "summary": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\n\nEach flaw needs a specific setup on a virtual server: an iRule tha",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9c40ff9a7698a5e7",
-    "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-    "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-18T17:10:45.000Z",
-    "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF)\n\nThe vulnerability, tracked as CVE-2026-129448 (CVSS ",
-    "cveIds": [
-      "CVE-2026-129448"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "4d21e756021aad15",
-    "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
-    "link": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-18T16:58:42.000Z",
-    "summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "03bfba8ed46b931b",
-    "title": "Java4Shell Flaw Threatens Global Enterprises, Java Application Ecosystem",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-18T16:54:52.000Z",
-    "summary": "Discovered using AI, the memory corruption vulnerability affects the OpenJDK runtime and could allow unauthenticated attackers to take over systems.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e798ab68d19f6e21",
-    "title": "NSA continues response to interruptions in classified internal network",
-    "link": "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-18T16:19:00.000Z",
-    "summary": "Day 2 of the NSA Net's disruptions included staggered arrivals and logins at Fort Meade, while a source said classified national security work continued unimpeded.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4007647799e11809",
-    "title": "Vero Security Raises $11 Million for AI Security Engineering Platform",
-    "link": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-18T15:30:42.000Z",
-    "summary": "AI Security Engineering is a new and essential security discipline now being brought into focus by VeroSecurity.\nThe post Vero Security Raises $11 Million for AI Security Engineering Platform appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "96111808951c976e",
-    "title": "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
-    "link": "https://therecord.media/russia-cyber-espionage-google",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-18T15:15:00.000Z",
-    "summary": "Russian state-backed hackers are using information stolen from cloud accounts to impersonate trusted contacts and launch new espionage attacks against people in their victims' professional networks, according to new research.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8e8debc4b233d460",
-    "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
-    "link": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-18T15:00:10.000Z",
-    "summary": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how stronger identity veri",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "69958fa42ac429e6",
-    "title": "British hacker gets 6 year sentence for $11.6M crypto theft scheme",
-    "link": "https://therecord.media/british-hacker-gets-six-year-sentence-scattered-spider",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-18T14:48:00.000Z",
-    "summary": "Tyler Robert Buchanan, 24, of Dundee, Scotland, was previously described as the suspected ringleader of the hacking collective, which Microsoft called “one of the most dangerous financial criminal groups” around.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "55016e2da81bf79e",
-    "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-    "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-18T14:11:28.000Z",
-    "summary": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines.\n\n\"When attackers are exposed, the cheap r",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8368f9805644f450",
-    "title": "Major Brazilian Signature Apps Enable RCE &amp; Fraud",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-18T14:00:00.000Z",
-    "summary": "Government-sanctioned authentication middleware is used for exceptionally important legal documents, yet it's often rife with RCE bugs.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "959698f1939d3a92",
-    "title": "Ice hockey governing body website defaced amid dispute over Russia's exclusion",
-    "link": "https://therecord.media/russia-hockey-cyberattack-championships",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-18T13:45:00.000Z",
-    "summary": "The International Ice Hockey Federation (IIHF) confirmed a cyberattack on its website after hackers replaced its homepage with a pro-Russian message criticizing the country's exclusion from international competitions.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "dfcd48a830ee2555",
-    "title": "Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
-    "link": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-18T13:33:47.000Z",
-    "summary": "Star Blizzard weaponized data and identities stolen in late 2025 to phish and compromise a US organization.\nThe post Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2c1ddb51a4dc89a3",
-    "title": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
-    "link": "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-18T13:19:32.000Z",
-    "summary": "British national Tyler Robert Buchanan has been sentenced to 6 years in prison in the United States, the DOJ announced.\nThe post Last of Five Defendants Sentenced in US Scattered Spider Hacking Case appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "74d12e4423207d9d",
-    "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-    "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-18T12:28:30.000Z",
-    "summary": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say.\n\nThat leaves short PINs open to guessing. In lab te",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c9f8dc26d8d07054",
-    "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
-    "link": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-18T12:15:00.000Z",
-    "summary": "TL;DR\n\n\n  Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day.\n  AI pentesti",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ddb3ea43dd74220f",
-    "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
-    "link": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-18T12:14:23.000Z",
-    "summary": "Four blue team agents and the Recon Agent are now generally available, while integrations and vulnerability shielding are in preview.\nThe post Microsoft Takes Perception Agentic Security Platform Out of Preview appeared first on SecurityWee",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2df0fcea5ad6b106",
-    "title": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
-    "link": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-18T12:00:00.000Z",
-    "summary": "Patti Degnan’s identity was stolen in 2006. It set her on a path to the CISO seat at endpoint security firm Glow.\nThe post CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "223101d573500516",
-    "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-    "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-18T11:55:49.000Z",
-    "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week.\n\nThe flaw is pre",
-    "cveIds": [
-      "CVE-2026-114938"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "57cf485fa9212e04",
-    "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
-    "link": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-18T11:50:25.000Z",
-    "summary": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ac7a12437b591221",
-    "title": "Chrome 158 Patches 204 Vulnerabilities",
-    "link": "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-18T11:43:22.000Z",
-    "summary": "Google handed out $11,000 for five externally reported flaws but has yet to determine the amounts to be paid for 36 bugs.\nThe post Chrome 158 Patches 204 Vulnerabilities appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "aa9ca93e66e2e06b",
-    "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
-    "link": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-18T11:05:39.000Z",
-    "summary": "Versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts.\nThe post Microsoft Agent Framework Releases Poisoned With Credential Stealer appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "63ab0fd187977a4a",
-    "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
-    "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-18T11:03:57.000Z",
-    "summary": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e3a24527dd73e527",
-    "title": "The challenge of defending against bulletproof dead drops on public blockchains",
-    "link": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-11-18T11:00:00.000Z",
-    "summary": "The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a3cef9df02f8e3a4",
-    "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infostealing",
-    "link": "https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-11-18T11:00:00.000Z",
-    "summary": "Cisco Talos discovered malicious infrastructure associated with a financially motivated threat group we are tracking as UAT-12643.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "94321d4b37d655bf",
-    "title": "Critical Perforce Puppet RCE Exploited in Attacks",
-    "link": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-18T10:37:08.000Z",
-    "summary": "Tracked as CVE-2026-115731, it allows a client that holds any CA-signed agent certificate to execute code on the server.\nThe post Critical Perforce Puppet RCE Exploited in Attacks appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-115731"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "4f4cc6f190747ed0",
-    "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-18T10:35:05.000Z",
-    "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4ccf67b96d4a380e",
-    "title": "Microsoft announces Windows Server 2028 with hardened security",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-18T09:24:31.000Z",
-    "summary": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "0dd01d7b39139cc5",
-    "title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
-    "link": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-18T08:47:18.000Z",
-    "summary": "Over 300 patches address unauthenticated, remotely exploitable flaws, while 62 fix critical-severity flaws.\nThe post Oracle Patches 950 Vulnerabilities With November 2026 CSPU appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "25f152a1b586a7e7",
-    "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-    "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-18T08:24:31.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited V",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "1db641aaef4490d3",
-    "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
-    "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-18T08:24:23.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java.\n\nThe flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to",
-    "cveIds": [
-      "CVE-2026-114938"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "0ad69605a84900f7",
-    "title": "British Scattered Spider hacker sentenced to 6 years in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-18T08:24:18.000Z",
-    "summary": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
-    "cveIds": [],
-    "severity": "normal"
   }
 ]
