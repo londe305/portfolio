@@ -1,5 +1,71 @@
 [
   {
+    "id": "57a9de6dd6412718",
+    "title": "Cyber Insurers See New Divide: AI Defense 'Haves' &amp; 'Have Nots'",
+    "link": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
+    "source": "Dark Reading",
+    "category": "news",
+    "pubDate": "2026-11-25T15:00:00.000Z",
+    "summary": "Dark Reading Confidential Episode 23: Cyber insurers share their view of the AI-driven threat landscape and how mounting challenges are putting pressure on both sides of the policy, leaving the current model unsustainable.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "3bc6f96dec950b6c",
+    "title": "Hackers reportedly breached CIA intelligence analysis system",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-25T07:45:03.000Z",
+    "summary": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "be8229fa86883728",
+    "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+    "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-25T06:50:19.000Z",
+    "summary": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world.\n\nThe intrusion activity, tra",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "7a5ea8907df3325d",
+    "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+    "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-25T06:37:06.000Z",
+    "summary": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts.\n\nThe att",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "d52512d72b3d3b7a",
+    "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+    "link": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-25T06:21:12.000Z",
+    "summary": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's a",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "f3fa36a7a7e1a1fe",
+    "title": "ISC Stormcast For Wednesday, November 25th, 2026 https://isc.sans.edu/podcastdetail/10194, (Wed, Nov 25th)",
+    "link": "https://isc.sans.edu/diary/rss/33554",
+    "source": "SANS ISC",
+    "category": "advisory",
+    "pubDate": "2026-11-25T02:00:03.000Z",
+    "summary": "",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "5a7ed17eceba38be",
     "title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
     "link": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/",
@@ -3011,239 +3077,6 @@
     "category": "news",
     "pubDate": "2026-11-18T08:24:18.000Z",
     "summary": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c5f6c87fa0f7f386",
-    "title": "Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover",
-    "link": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-18T07:43:34.000Z",
-    "summary": "Calif demonstrated remote code execution in Jira, Jenkins and Keycloak, while VulnCheck says real-world RCE requires per-target work\nThe post Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover appeared first on Securi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1df53018af16af50",
-    "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
-    "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-18T06:45:26.000Z",
-    "summary": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz.\n\nThe malicious vers",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ee9a23761ba06bf0",
-    "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
-    "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-18T05:58:04.000Z",
-    "summary": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise.\n\nGo",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "c5599644421883df",
-    "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
-    "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
-    "source": "Krebs on Security",
-    "category": "news",
-    "pubDate": "2026-11-18T02:52:04.000Z",
-    "summary": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "19347567d0aab154",
-    "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
-    "link": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-18T02:15:07.000Z",
-    "summary": "The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency.\nThe post Classified Communications Network at the National Security Agency Goes Down, Defense Official Says appeared first on Sec",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "308973400f63ffc5",
-    "title": "ISC Stormcast For Wednesday, November 18th, 2026 https://isc.sans.edu/podcastdetail/10184, (Wed, Nov 18th)",
-    "link": "https://isc.sans.edu/diary/rss/33528",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-11-18T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d365ad8c28621b79",
-    "title": "CVE-2026-114938: Critical vulnerability in OpenJDK Java",
-    "link": "https://blog.talosintelligence.com/java4shell/",
-    "source": "Cisco Talos",
-    "category": "vendor",
-    "pubDate": "2026-11-18T01:53:03.000Z",
-    "summary": "Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” with a CVSS 4.0 score of 9.2 that may lead to unauthenticated remote code execution (RCE).",
-    "cveIds": [
-      "CVE-2026-114938"
-    ],
-    "severity": "critical"
-  },
-  {
-    "id": "9409189d8358b1c8",
-    "title": "Uber says nearly 150,000 impacted by third-party breach",
-    "link": "https://therecord.media/uber-says-150000-impacted-third-party-breach",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-18T01:20:00.000Z",
-    "summary": "In breach notification letters, the rideshare company said it was notified by a third party service provider on October 9 that internal credentials were stolen and used to access Uber’s account.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5040a338294acea0",
-    "title": "Multiples vulnérabilités dans Oracle Database Server (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1561/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Database Server. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la conf",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bb57f204eba7a183",
-    "title": "Multiples vulnérabilités dans Oracle Java SE (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1562/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidential",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "2be55ad96908daa8",
-    "title": "Multiples vulnérabilités dans Oracle MySQL (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1563/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle MySQL. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d6ac5cfa302fba5e",
-    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1564/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité de",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "f5d482898bee64af",
-    "title": "Multiples vulnérabilités dans Oracle Weblogic (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1565/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentia",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b3c84b2ba18e507a",
-    "title": "Multiples vulnérabilités dans Oracle Virtualization (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1566/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "756c1d0bfa46ec6a",
-    "title": "Multiples vulnérabilités dans les produits F5 (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1567/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits F5. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique de sécurité.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "5273edc1cd657843",
-    "title": "Multiples vulnérabilités dans les produits Tenable (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1556/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "222e2922945c5fe0",
-    "title": "Multiples vulnérabilités dans Netgate pfSense (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1557/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Netgate pfSense. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b52d21e2880ab589",
-    "title": "Vulnérabilité dans FreeBSD (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1558/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans FreeBSD. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et un déni de service.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "681408b24b9ebc48",
-    "title": "Multiples vulnérabilités dans Google Chrome (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1559/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e12247e2b4ea3036",
-    "title": "Multiples vulnérabilités dans Mozilla Firefox (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1560/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Firefox. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c36817af9a4b18e2",
-    "title": "CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500",
-    "link": "https://therecord.media/cisa-issues-java4shell-alert",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-18T00:00:00.000Z",
-    "summary": "The federal cybersecurity agency urged organizations to immediately patch a new vulnerability affecting Java — one of the world’s most used programming languages — after experts warned that it could allow an attacker to take over servers wi",
     "cveIds": [],
     "severity": "normal"
   }
