@@ -1,5 +1,60 @@
 [
   {
+    "id": "50a53afadcff1570",
+    "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-25T22:05:09.000Z",
+    "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "70f66acc3de798b1",
+    "title": "1Password customer data stolen after employee GitHub account breach",
+    "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-25T21:33:33.000Z",
+    "summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "17a805c0d69ce858",
+    "title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+    "link": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-25T21:18:00.000Z",
+    "summary": "An AI tool implicated in several high-profile breaches is rapidly being integrated into the hacking suites of groups from China and North Korea, Microsoft said.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "dbfa2402c895a28e",
+    "title": "FIFA says hackers accessed ‘limited set of personal and business information’",
+    "link": "https://therecord.media/fifa-data-breach-limited",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-25T20:40:00.000Z",
+    "summary": "The Switzerland-based international governing body for soccer says it's working with relevant authorities and law enforcement to investigate a recent breach.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "63da0c2dc0919fd6",
+    "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+    "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-25T19:39:31.000Z",
+    "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
     "id": "50b8b790f8a4be80",
     "title": "Oh, is it Thanksgiving? I hadn’t noticed!",
     "link": "https://blog.talosintelligence.com/oh-is-it-thanksgiving-i-hadnt-noticed/",
@@ -7,6 +62,17 @@
     "category": "vendor",
     "pubDate": "2026-11-25T19:00:00.000Z",
     "summary": "In true Thanksgiving fashion, David has a few thank-yous to give to the cybersecurity community (and a few choice words for threat actors).",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "fc1fe5cb80de4b70",
+    "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+    "source": "Microsoft Security Blog",
+    "category": "vendor",
+    "pubDate": "2026-11-25T18:09:06.000Z",
+    "summary": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaiss",
     "cveIds": [],
     "severity": "normal"
   },
@@ -210,6 +276,20 @@
     "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it",
     "cveIds": [],
     "severity": "normal"
+  },
+  {
+    "id": "b368c84bce94ed6c",
+    "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-25T12:00:00.000Z",
+    "summary": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\nCVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability\nCVE-2023-25915 Danfoss AK-SM 800A Se",
+    "cveIds": [
+      "CVE-2023-25914",
+      "CVE-2023-25915"
+    ],
+    "severity": "cve"
   },
   {
     "id": "6a8ceb0f7d1b2b64",
@@ -810,6 +890,17 @@
     "severity": "normal"
   },
   {
+    "id": "0e0d7bdcc4e24a02",
+    "title": "AutomationDirect C-More EA9 Programming Software",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+    "source": "CISA",
+    "category": "advisory",
+    "pubDate": "2026-11-24T12:00:00.000Z",
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a maliciou",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "a0ae3cb09c406305",
     "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
     "link": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
@@ -820,19 +911,6 @@
     "cveIds": [
       "CVE-2026-131914",
       "CVE-2026-132165"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "153407077dbd1977",
-    "title": "Danfoss AK-SM 8xxA Series",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
-    "source": "CISA",
-    "category": "advisory",
-    "pubDate": "2026-11-24T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges.\nThe following versions of Danfoss AK-SM 8xxA Series are affected:\nAK-SM8xxA <=5.4.0 (CVE-2026-12971",
-    "cveIds": [
-      "CVE-2026-12971"
     ],
     "severity": "cve"
   },
@@ -848,15 +926,17 @@
     "severity": "normal"
   },
   {
-    "id": "0e0d7bdcc4e24a02",
-    "title": "AutomationDirect C-More EA9 Programming Software",
-    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+    "id": "153407077dbd1977",
+    "title": "Danfoss AK-SM 8xxA Series",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
     "source": "CISA",
     "category": "advisory",
     "pubDate": "2026-11-24T12:00:00.000Z",
-    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a maliciou",
-    "cveIds": [],
-    "severity": "normal"
+    "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges.\nThe following versions of Danfoss AK-SM 8xxA Series are affected:\nAK-SM8xxA <=5.4.0 (CVE-2026-12971",
+    "cveIds": [
+      "CVE-2026-12971"
+    ],
+    "severity": "cve"
   },
   {
     "id": "f3a43b39549fdc89",
@@ -2874,281 +2954,6 @@
     "category": "news",
     "pubDate": "2026-11-19T04:33:46.000Z",
     "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws.\n\nThe release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC.\n\n\"These rel",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "5128ef42275011f7",
-    "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
-    "link": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-19T03:25:23.000Z",
-    "summary": "The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds.\nThe post Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion appeared firs",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "124ed4a5f3b266df",
-    "title": "ISC Stormcast For Thursday, November 19th, 2026 https://isc.sans.edu/podcastdetail/10186, (Thu, Nov 19th)",
-    "link": "https://isc.sans.edu/diary/rss/33536",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-11-19T02:00:03.000Z",
-    "summary": "",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "e884bb9a4f7fd151",
-    "title": "Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI &#x5b;Guest Diary&#x5d;, (Wed, Nov 18th)",
-    "link": "https://isc.sans.edu/diary/rss/33534",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-11-19T01:53:48.000Z",
-    "summary": "[This is a Guest Diary by Kevin Truong, an ISC intern as part of the SANS.edu BACS program]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b289bc4f5feb9467",
-    "title": "Multiples vulnérabilités dans les produits Splunk (19 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1576/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-19T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confident",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "bf0e648adb55484b",
-    "title": "Multiples vulnérabilités dans les produits NetApp (19 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1577/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-19T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits NetApp. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c7bb54963a2898bd",
-    "title": "Vulnérabilité dans les produits Elastic (19 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1578/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-19T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans les produits Elastic. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "d11fc3737eb8fc7c",
-    "title": "Multiples vulnérabilités dans Drupal (19 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1579/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-19T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Drupal. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "c64b4697d094e42d",
-    "title": "Multiples vulnérabilités dans PHP (19 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1580/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-19T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "470e56e8aa208d14",
-    "title": "Vulnérabilité dans VMware Tanzu (19 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1568/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-19T00:00:00.000Z",
-    "summary": "Une vulnérabilité a été découverte dans VMware Tanzu. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "8ce4471b5c20b93f",
-    "title": "Multiples vulnérabilités dans les produits Mitel (19 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1569/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-19T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mitel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confiden",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6ddd361398abba6e",
-    "title": "Multiples vulnérabilités dans Progress WS_FTP Server (19 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1570/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-19T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Progress WS_FTP Server. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'int",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "15164d306c62ac27",
-    "title": "Multiples vulnérabilités dans Laravel (19 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1571/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-19T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Laravel. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une injection de code indirecte à distance (XSS) et un contournement de la politique",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "4ac5c76a0407a58e",
-    "title": "Multiples vulnérabilités dans ClamAV (19 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1572/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-19T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans ClamAV. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de ",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b6dcf22e70d6ea7f",
-    "title": "Multiples vulnérabilités dans les produits Cisco (19 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1573/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-19T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9bdf970ef2330ecc",
-    "title": "Multiples vulnérabilités dans WordPress (19 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1574/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-19T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1ddcfb722bfec313",
-    "title": "Multiples vulnérabilités dans Wireshark (19 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1575/",
-    "source": "CERT-FR (avis)",
-    "category": "advisory",
-    "pubDate": "2026-11-19T00:00:00.000Z",
-    "summary": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer un déni de service à distance.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "b326b8531a9216c7",
-    "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-    "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-18T23:08:33.000Z",
-    "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "84415312a0a78762",
-    "title": "Russia's Cold Relic APT Turns One Cloud Breach Into Another",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-18T21:59:46.000Z",
-    "summary": "The state-sponsored threat group is using data stolen from one victim to target others via convincing impersonations and social engineering attacks.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "ede0adf4c578028e",
-    "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
-    "link": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-18T20:49:32.000Z",
-    "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "cebfa689962e40ae",
-    "title": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
-    "link": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-18T20:45:49.000Z",
-    "summary": "New agentic AI solution leverages APIs to collect compliance evidence from systems and applies it to over 30 frameworks with no duplicate work.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "33f8f6aa43e26574",
-    "title": "Judge signs off on sale of Spirit Airlines’ data to Google",
-    "link": "https://therecord.media/judge-signs-off-google-purchase-spirit-airlines-data",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-18T20:39:00.000Z",
-    "summary": "Google can take possession of defunct Spirit Airlines' data for $10 million, a federal bankruptcy judge has ruled. The tech giant agreed to protections as it plans to use the data in AI projects.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "27e5f548c7a1914c",
-    "title": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
-    "link": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
-    "source": "Dark Reading",
-    "category": "news",
-    "pubDate": "2026-11-18T20:38:42.000Z",
-    "summary": "Analysis of 20 Iranian state-sponsored threat groups details how espionage, ransomware, and hacktivism intersect in state-backed cyber campaigns.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "db1d82795c0b0074",
-    "title": "Trump administration officials size-up a bad stretch for tech",
-    "link": "https://therecord.media/tech-disruptions-house-homeland-committee-testimony",
-    "source": "The Record",
-    "category": "news",
-    "pubDate": "2026-11-18T20:00:00.000Z",
-    "summary": "Homeland Security Secretary Markwayne Mullin said the administration will reach out to industry to get companies to share more information about big patches before they take effect.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ea9ba29c00155fe8",
-    "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
-    "link": "https://isc.sans.edu/diary/rss/33532",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-11-18T19:54:50.000Z",
-    "summary": "About a month ago, we went to Infocon Yellow for the first time in a few years. We decided to address the php2shell vulnerability and alert our readers to its significant impact. Following php2shell, we had a number of vulnerabilities and e",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "9f639cd35360f889",
-    "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
-    "link": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-18T19:39:33.000Z",
-    "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
     "cveIds": [],
     "severity": "critical"
   }
