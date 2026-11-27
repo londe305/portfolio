@@ -1,5 +1,161 @@
 [
   {
+    "id": "7b714952d08e1b2f",
+    "title": "Microsoft removes WSUS server role in Windows Server 2028",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-27T11:18:36.000Z",
+    "summary": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "db4a5f90bd411011",
+    "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+    "link": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-27T11:00:00.000Z",
+    "summary": "Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked. \nThe post In Other News: Tanker Cyberattacks, EU Quantum A",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "415efee3262bc9c4",
+    "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+    "link": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-27T10:32:18.000Z",
+    "summary": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is a",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "30a43f231a877acd",
+    "title": "Drupal warns of new site takeover flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-27T10:10:15.000Z",
+    "summary": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "34ba075e7282f4ea",
+    "title": "SAP confirms security incident after suspicious GitHub activity",
+    "link": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-27T09:56:36.000Z",
+    "summary": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "564b5565654ac562",
+    "title": "100,000 Potentially Impacted by Colorado Data Breach",
+    "link": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-27T09:30:54.000Z",
+    "summary": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data.\nThe post 100,000 Potentially Impacted by Colorado Data Breach appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "99bc87f8212c6dd2",
+    "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+    "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-27T09:29:30.000Z",
+    "summary": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website.\n\n\"Evidence indicates that malicious files were",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "05f4c13650df3f7c",
+    "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-27T09:08:16.000Z",
+    "summary": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "15e93fc59e91b640",
+    "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+    "link": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-27T08:06:58.000Z",
+    "summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+    "cveIds": [
+      "CVE-2026-99362"
+    ],
+    "severity": "critical"
+  },
+  {
+    "id": "c51ad7ce4d32c740",
+    "title": "Hex Package Manager Warns of Potential Data Breach",
+    "link": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-27T07:44:49.000Z",
+    "summary": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged.\nThe post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityW",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "62ce00fb3a46f09e",
+    "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+    "link": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+    "source": "SecurityWeek",
+    "category": "news",
+    "pubDate": "2026-11-27T07:36:14.000Z",
+    "summary": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code.\nThe post SAP Confirms Cyberattack, Source Code Reportedly Compromised   appeared first on SecurityWeek.",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "bdba96d745bb1de4",
+    "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+    "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-27T06:04:20.000Z",
+    "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday.\n\nThree of the attacks targeted cri",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "706168821faab9b6",
+    "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+    "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-27T05:48:20.000Z",
+    "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution.\n\nThe proof-of-concept (PoC) exploit, which has yet to be assigned a CVE iden",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "875b913eba1346d0",
+    "title": "British government takes services offline following ‘cyber incident’",
+    "link": "https://therecord.media/uk-department-work-pensions-cyber-incident",
+    "source": "The Record",
+    "category": "news",
+    "pubDate": "2026-11-27T00:00:00.000Z",
+    "summary": "The Department for Work and Pensions said Friday that it had experienced a cyber incident, with several services taken down as a precaution.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "e0bf93ab8a32087a",
     "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
@@ -72,9 +228,9 @@
     "source": "The Hacker News",
     "category": "news",
     "pubDate": "2026-11-26T15:13:41.000Z",
-    "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025.\n\n\"The loader hides in a small utils pa",
+    "summary": "The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity may have started as fa",
     "cveIds": [],
-    "severity": "normal"
+    "severity": "critical"
   },
   {
     "id": "bb9d1e6ae5622ebd",
@@ -389,17 +545,6 @@
     "severity": "normal"
   },
   {
-    "id": "5d8223f882df7625",
-    "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
-    "link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-25T15:00:00.000Z",
-    "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
     "id": "57a9de6dd6412718",
     "title": "Cyber Insurers See New Divide: AI Defense 'Haves' &amp; 'Have Nots'",
     "link": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
@@ -407,6 +552,17 @@
     "category": "news",
     "pubDate": "2026-11-25T15:00:00.000Z",
     "summary": "Dark Reading Confidential Episode 23: Cyber insurers share their view of the AI-driven threat landscape and how mounting challenges are putting pressure on both sides of the policy, leaving the current model unsustainable.",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
+    "id": "5d8223f882df7625",
+    "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+    "link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-25T15:00:00.000Z",
+    "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the",
     "cveIds": [],
     "severity": "normal"
   },
@@ -2353,151 +2509,6 @@
     "category": "news",
     "pubDate": "2026-11-20T12:00:00.000Z",
     "summary": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "3827cbac510e9c51",
-    "title": "SBC Medical Group Data Breach Impacts Over 2 Million",
-    "link": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-20T11:36:51.000Z",
-    "summary": "Threat actors accessed databases containing customer information associated with clinics in Japan.\nThe post SBC Medical Group Data Breach Impacts Over 2 Million appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "6a744f24eada9345",
-    "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-20T10:57:43.000Z",
-    "summary": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "2be32b97a1a664f4",
-    "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
-    "link": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-20T10:51:42.000Z",
-    "summary": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach.\nThe post European Commission Confirms AI-Assisted Cyberattack Disrupted Services appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "b6dced9e8be0bdef",
-    "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-    "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-20T10:38:22.000Z",
-    "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks.\n\n\"Attackers now use autom",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "f5b6ed0f978c7e42",
-    "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
-    "link": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-20T10:34:10.000Z",
-    "summary": "Tracked as CVE-2026-132825, the bug is a heap-based buffer overflow that could lead to remote code execution (RCE).\nThe post Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE appeared first on SecurityWeek.",
-    "cveIds": [
-      "CVE-2026-132825"
-    ],
-    "severity": "cve"
-  },
-  {
-    "id": "c9ddefa65f5030a8",
-    "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-20T10:32:50.000Z",
-    "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit.\n\nThe activity involves the ex",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "dc6901c8a6d8ff52",
-    "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-    "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-20T09:38:15.000Z",
-    "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.\n\nThe vulnerability, tra",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "09d3f14eaae718fb",
-    "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-20T09:25:35.000Z",
-    "summary": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "1842d6db44a69da9",
-    "title": "N-able Blames Service Disruption on Cyberattack",
-    "link": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-20T09:08:35.000Z",
-    "summary": "The incident affected Mail Assure and SpamExperts Hosted Cloud and could have led to credential theft.\nThe post N-able Blames Service Disruption on Cyberattack appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "009f6643a8548564",
-    "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
-    "link": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-20T07:35:46.000Z",
-    "summary": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers.\nThe post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "ba74506a96acc2d3",
-    "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-    "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-20T07:11:39.000Z",
-    "summary": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS.\n\n\"ROMULUS likely operates as a delivery servi",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "fa700a4eb8ceffe8",
-    "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-    "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-20T05:30:01.000Z",
-    "summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "e60f53cef3c69b10",
-    "title": "ISC Stormcast For Friday, November 20th, 2026 https://isc.sans.edu/podcastdetail/10188, (Fri, Nov 20th)",
-    "link": "https://isc.sans.edu/diary/rss/33538",
-    "source": "SANS ISC",
-    "category": "advisory",
-    "pubDate": "2026-11-20T02:00:02.000Z",
-    "summary": "",
     "cveIds": [],
     "severity": "normal"
   }
