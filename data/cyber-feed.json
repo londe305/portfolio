@@ -1,5 +1,27 @@
 [
   {
+    "id": "2607e0272e790e8e",
+    "title": "Q-Dir and DesktopOK Windows utilities compromised to push Python RAT",
+    "link": "https://www.bleepingcomputer.com/news/security/q-dir-and-desktopok-windows-utilities-compromised-to-push-python-rat/",
+    "source": "BleepingComputer",
+    "category": "news",
+    "pubDate": "2026-11-28T15:32:49.000Z",
+    "summary": "Official distribution channels for the Q-Dir and DesktopOK Windows utilities were compromised to deliver trojanized installers containing Python-based remote access malware. [...]",
+    "cveIds": [],
+    "severity": "critical"
+  },
+  {
+    "id": "ed56aac972a34714",
+    "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+    "link": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+    "source": "The Hacker News",
+    "category": "news",
+    "pubDate": "2026-11-28T08:08:11.000Z",
+    "summary": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts.\n\n\"A cyber attack targeting pCloud Pass occurred, which was promptly c",
+    "cveIds": [],
+    "severity": "normal"
+  },
+  {
     "id": "c33ac200edb1beb1",
     "title": "pCloud confirms password manager hack after suspicious login alerts",
     "link": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
@@ -2325,105 +2347,6 @@
     "category": "news",
     "pubDate": "2026-11-21T18:01:58.000Z",
     "summary": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration informatio",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "4b6021947b3ef390",
-    "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-    "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-21T15:17:27.000Z",
-    "summary": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "efef5bd50b96f7db",
-    "title": "FBI reportedly hacked again, this time targeting nationwide police database",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
-    "source": "BleepingComputer",
-    "category": "news",
-    "pubDate": "2026-11-21T14:26:04.000Z",
-    "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement age",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "45e8d2f82c3e3e03",
-    "title": "President Trump Taps Kirsten Davies as National Cyber Director",
-    "link": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-21T13:00:00.000Z",
-    "summary": "White House says the battle-tested cyber leader will drive an America First cyber strategy.\nThe post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "6231e48f3bee97e2",
-    "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
-    "link": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
-    "source": "SecurityWeek",
-    "category": "news",
-    "pubDate": "2026-11-21T12:08:50.000Z",
-    "summary": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability.\nThe post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek.",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "0ad755f2681c3730",
-    "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-    "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-21T11:53:07.000Z",
-    "summary": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown.\n\nThe same attack could be extended to reach the credentials Mu",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "761885e6c02d6550",
-    "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-    "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-21T11:05:53.000Z",
-    "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG.\n\nThe GnuPG project warned yesterday that the flaw could be used to steal data from",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "16765aea3bd9ae9d",
-    "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-    "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-21T11:03:17.000Z",
-    "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week.\n\nThe f",
-    "cveIds": [],
-    "severity": "critical"
-  },
-  {
-    "id": "9da47b8efcbbfaa0",
-    "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-    "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-21T08:49:20.000Z",
-    "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\"\n\nThe feature applies to a",
-    "cveIds": [],
-    "severity": "normal"
-  },
-  {
-    "id": "a3eac34b29cf4ec4",
-    "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-    "source": "The Hacker News",
-    "category": "news",
-    "pubDate": "2026-11-21T08:49:13.000Z",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence ",
     "cveIds": [],
     "severity": "critical"
   }
